@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>かながわ教材ライブラリ</title>
+<meta name="description" content="中学・高校の授業プリントと4段階の問題プリント（解答解説つき）を教科・単元ごとに閲覧できる教材ライブラリ。">
+<link rel="icon" href="favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@600;800&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap">
+<style>
+/* トップページ：4つの教材棚への入口。色とフォントは各閲覧ページと共通 */
+:root {
+  --bg: #f3f5f8; --paper: #ffffff; --ink: #1d2433; --muted: #5c6577; --line: #d9dee7;
+  --accent: #27407a; --accent-soft: #e4e9f5;
+  --c-jh: #b5482f; --c-hs: #2f6db5; --c-adv: #23876b; --c-uni: #7a4fb0;
+  --f-display: "Shippori Mincho B1", "Hiragino Mincho ProN", "Yu Mincho", serif;
+  --f-body: "Zen Kaku Gothic New", "Hiragino Sans", "Yu Gothic", system-ui, sans-serif;
+  --radius: 12px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #12151c; --paper: #1b2029; --ink: #e6e9ef; --muted: #9aa3b4; --line: #2c3340; --accent: #a9bcf0; --accent-soft: #232c40;
+    --c-jh: #e58a72; --c-hs: #79a8e6; --c-adv: #6cc7a8; --c-uni: #b597e3;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #12151c; --paper: #1b2029; --ink: #e6e9ef; --muted: #9aa3b4; --line: #2c3340; --accent: #a9bcf0; --accent-soft: #232c40;
+  --c-jh: #e58a72; --c-hs: #79a8e6; --c-adv: #6cc7a8; --c-uni: #b597e3;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--f-body); line-height: 1.7; }
+.wrap { max-width: 980px; margin: 0 auto; padding: 0 16px 48px; }
+header { padding: 48px 0 28px; border-bottom: 1px solid var(--line); }
+h1 { font-family: var(--f-display); font-weight: 800; font-size: clamp(1.9rem, 5vw, 2.8rem); line-height: 1.25; margin: 0 0 10px; letter-spacing: 0.02em; }
+.lead { margin: 0; color: var(--muted); max-width: 40em; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; margin-top: 28px; }
+a.card { display: grid; gap: 6px; align-content: start; padding: 20px 20px 18px; border-radius: var(--radius); background: var(--paper);
+  border: 1px solid var(--line); border-top: 5px solid var(--c); color: inherit; text-decoration: none; transition: transform .12s, box-shadow .12s; }
+a.card:hover, a.card:focus-visible { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.08); outline: none; }
+a.card:focus-visible { box-shadow: 0 0 0 3px var(--accent-soft), 0 0 0 5px var(--accent); }
+.tag { font-size: 0.8rem; font-weight: 700; color: var(--c); letter-spacing: 0.06em; }
+.card h2 { font-family: var(--f-display); font-size: 1.45rem; margin: 0; line-height: 1.35; }
+.card p { margin: 0; color: var(--muted); font-size: 0.92rem; }
+.count { margin-top: 8px !important; color: var(--ink) !important; font-weight: 700; }
+.count b { font-size: 1.5rem; font-family: var(--f-display); color: var(--c); margin-right: 2px; }
+.go { margin-top: 6px; font-weight: 700; color: var(--c); font-size: 0.92rem; }
+.jh { --c: var(--c-jh); } .hs { --c: var(--c-hs); } .adv { --c: var(--c-adv); } .uni { --c: var(--c-uni); }
+section.about { margin-top: 36px; padding: 20px; border-radius: var(--radius); background: var(--accent-soft); }
+section.about h2 { font-family: var(--f-display); font-size: 1.15rem; margin: 0 0 8px; }
+section.about ul { margin: 0; padding-left: 1.2em; }
+section.about li { margin: 4px 0; }
+footer { margin-top: 28px; color: var(--muted); font-size: 0.85rem; }
+@media (prefers-reduced-motion: reduce) { a.card { transition: none; } a.card:hover { transform: none; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>かながわ教材ライブラリ</h1>
+    <p class="lead">中学・高校の授業プリントと、A基本確認〜D誤答訂正の4段階・60問の問題プリント（解答解説つき）を、教科・単元ごとに無料で閲覧・印刷できます。</p>
+  </header>
+
+  <main class="grid">
+    <a class="card jh" href="chugaku/">
+      <span class="tag">中学生</span>
+      <h2>中学・高校入試</h2>
+      <p>中学全教科の単元パック。問題プリントは神奈川県公立高校入試の出題形式（番号選択・マークシート形式の解答用紙）。5教科の入試形式模試つき。</p>
+      <p class="count"><b>86</b>単元 ＋ 模試5教科</p>
+      <span class="go">教材を見る →</span>
+    </a>
+    <a class="card hs" href="koukou/">
+      <span class="tag">高校生</span>
+      <h2>高校の授業・定期テスト</h2>
+      <p>数学Ⅰ・A・Ⅱ・B・C、英語、国語、物理基礎・化学基礎・生物基礎・地学基礎、歴史総合・地理総合・公共。練習プリントも収録。</p>
+      <p class="count"><b>56</b>単元 ＋ 練習プリント</p>
+      <span class="go">教材を見る →</span>
+    </a>
+    <a class="card adv" href="hatten/">
+      <span class="tag">高校2・3年</span>
+      <h2>高校 発展科目</h2>
+      <p>物理・化学・生物・地学・数学Ⅲ・現代文・古典探究・地理探究・政治・経済・英語コミュニケーションⅡ・Ⅲ。</p>
+      <p class="count"><b>4</b>単元</p>
+      <span class="go">教材を見る →</span>
+    </a>
+    <a class="card uni" href="daigaku/">
+      <span class="tag">受験生</span>
+      <h2>大学入試対策</h2>
+      <p>大学入学共通テスト対策（出題形式に合わせた解法講義）と、難関大の二次試験対策（記述・論述・証明の答案作成）。</p>
+      <p class="count"><b>21</b>単元</p>
+      <span class="go">教材を見る →</span>
+    </a>
+  </main>
+
+  <section class="about">
+    <h2>使い方とご注意</h2>
+    <ul>
+      <li>カードを選ぶと単元の一覧が開きます。単元を選ぶと、授業プリント（教師用・生徒用）・問題・解答解説をその場で読めます。「ブラウザで開く」から PDF を保存・印刷できます。</li>
+      <li>すべての問題は AI が作成し、自動検査（形式・正答の整合・重複・検算）に合格したものです。教科担当者による内容確認はまだのため、授業や配布に使う前に内容を確認してください。</li>
+      <li>入試形式の教材は出題形式にならったオリジナル問題で、実際の入試問題ではありません。資料中の統計は、明記したものを除き架空の資料です。</li>
+    </ul>
+  </section>
+  <footer>かながわ教材ライブラリ</footer>
+</div>
+</body>
+</html>

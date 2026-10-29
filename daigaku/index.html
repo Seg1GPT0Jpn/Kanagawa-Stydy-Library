@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="../favicon.svg">
+<title>かながわ教材ライブラリ 大学入試対策</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@600;800&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap">
+<style>
+/* レイアウト：教材棚。上で中学／高校を切り替え、トラックごとの棚に教材カードを並べる。タップで全画面の PDF ビューア */
+:root {
+  --bg: #f3f5f8;
+  --paper: #ffffff;
+  --ink: #1d2433;
+  --muted: #5c6577;
+  --line: #d9dee7;
+  --accent: #27407a;
+  --accent-soft: #e4e9f5;
+  --mark: #c0392b;
+  --s-japanese: #b5482f; --s-math: #2f6db5; --s-english: #7a4fb0; --s-science: #23876b; --s-social: #a8741a; --s-information: #4b6a85; --s-integrated: #6b6f7d;
+  --f-display: "Shippori Mincho B1", "Hiragino Mincho ProN", "Yu Mincho", serif;
+  --f-body: "Zen Kaku Gothic New", "Hiragino Sans", "Yu Gothic", system-ui, sans-serif;
+  --radius: 10px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #12151c; --paper: #1b2029; --ink: #e6e9ef; --muted: #9aa3b4; --line: #2c3340; --accent: #a9bcf0; --accent-soft: #232c40; --mark: #f08a7c;
+    --s-japanese: #e58a72; --s-math: #79a8e6; --s-english: #b597e3; --s-science: #6cc7a8; --s-social: #dcb066; --s-information: #93afc8; --s-integrated: #a6aab6;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #12151c; --paper: #1b2029; --ink: #e6e9ef; --muted: #9aa3b4; --line: #2c3340; --accent: #a9bcf0; --accent-soft: #232c40; --mark: #f08a7c;
+  --s-japanese: #e58a72; --s-math: #79a8e6; --s-english: #b597e3; --s-science: #6cc7a8; --s-social: #dcb066; --s-information: #93afc8; --s-integrated: #a6aab6;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body { background: var(--bg); color: var(--ink); font-family: var(--f-body); font-size: 15px; line-height: 1.6; }
+.wrap { max-width: 980px; margin: 0 auto; padding-inline: 16px; padding-block: 20px 48px; }
+header.top h1 small { font-size: 0.55em; color: var(--muted); margin-left: 0.3em; }
+header.top h1 { font-family: var(--f-display); font-weight: 800; font-size: clamp(1.6rem, 5vw, 2.3rem); margin: 0; letter-spacing: 0.02em; text-wrap: balance; }
+header.top p { margin: 6px 0 0; color: var(--muted); font-size: 0.9rem; }
+.stats { font-variant-numeric: tabular-nums; }
+
+.stage { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; margin: 18px 0 12px; background: var(--paper); border: 1px solid var(--line); border-radius: 999px; padding: 4px; position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; }
+.stage button { font: inherit; font-weight: 700; border: 0; border-radius: 999px; padding: 10px 8px; background: transparent; color: var(--muted); cursor: pointer; }
+.stage button[aria-pressed="true"] { background: var(--accent); color: var(--paper); }
+
+.tools { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 8px; }
+.tools input { flex: 1 1 220px; min-width: 0; font: inherit; padding: 9px 12px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--paper); color: var(--ink); }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { font: inherit; font-size: 0.85rem; border: 1px solid var(--line); background: var(--paper); color: var(--ink); border-radius: 999px; padding: 5px 12px; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; }
+.chip .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--c, var(--muted)); }
+.chip[aria-pressed="true"] { border-color: var(--accent); background: var(--accent-soft); font-weight: 700; }
+button:focus-visible, input:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+section.shelf { margin-top: 26px; }
+section.shelf h2 { font-family: var(--f-display); font-size: 1.25rem; margin: 0 0 2px; }
+section.shelf .desc { color: var(--muted); font-size: 0.85rem; margin: 0 0 10px; }
+.grade-h { font-size: 0.78rem; letter-spacing: 0.08em; color: var(--muted); margin: 14px 0 6px; font-weight: 700; }
+.list { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 8px; }
+.card { background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); padding: 12px 12px 10px 14px; display: grid; gap: 6px; border-left: 4px solid var(--c, var(--line)); min-width: 0; }
+.card .meta { font-size: 0.75rem; color: var(--muted); display: flex; flex-wrap: wrap; gap: 4px 10px; font-variant-numeric: tabular-nums; }
+.card .meta .sj { color: var(--c); font-weight: 700; }
+.card h3 { font-size: 1rem; margin: 0; line-height: 1.4; font-weight: 700; }
+.card .sub { font-size: 0.8rem; color: var(--muted); margin: 0; overflow-wrap: anywhere; }
+.card .acts { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 2px; }
+.card .sub.link b { font-weight: 700; color: var(--accent); margin-right: 6px; font-size: 0.72rem; border: 1px solid var(--accent); border-radius: 4px; padding: 0 4px; }
+.seg { flex-wrap: wrap; }
+.btn.ext { text-decoration: none; font-size: 0.8rem; padding: 5px 10px; white-space: nowrap; }
+.btn { font: inherit; font-size: 0.85rem; font-weight: 700; padding: 6px 14px; border-radius: 8px; border: 1px solid var(--accent); background: var(--accent); color: var(--paper); cursor: pointer; }
+.btn.ghost { background: transparent; color: var(--accent); }
+.empty { color: var(--muted); padding: 20px 0; }
+.xnav { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 8px; margin: 16px 0 0; }
+.xnav .xlink { margin: 0; }
+.xnav .xlink[aria-current] { display: none; }
+.xlink { display: grid; gap: 2px; margin: 16px 0 0; padding: 12px 14px; border-radius: var(--radius); background: var(--accent-soft); border: 1px solid var(--accent); color: var(--ink); text-decoration: none; }
+.xlink b { color: var(--accent); font-family: var(--f-display); font-size: 1.05rem; }
+.xlink span { font-size: 0.85rem; color: var(--muted); }
+.note { margin-top: 32px; font-size: 0.8rem; color: var(--muted); border-top: 1px solid var(--line); padding-top: 12px; }
+
+/* ビューア */
+.viewer { position: fixed; inset: 0; background: var(--bg); z-index: 20; display: flex; flex-direction: column; }
+.vbar { display: flex; align-items: center; gap: 8px; padding: calc(env(safe-area-inset-top, 0px) + 8px) 12px 8px; background: var(--paper); border-bottom: 1px solid var(--line); flex-wrap: wrap; }
+.vbar .vt { flex: 1 1 160px; min-width: 0; font-weight: 700; font-size: 0.92rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+.seg button { font: inherit; font-size: 0.85rem; border: 0; padding: 6px 12px; background: var(--paper); color: var(--muted); cursor: pointer; }
+.seg button:disabled { color: var(--ink); cursor: default; font-variant-numeric: tabular-nums; min-width: 3.6em; }
+.seg button[aria-pressed="true"] { background: var(--accent); color: var(--paper); font-weight: 700; }
+.vbar .pg { font-size: 0.8rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.pages { flex: 1; overflow-y: auto; padding: 12px 8px calc(env(safe-area-inset-bottom, 0px) + 24px); display: flex; flex-direction: column; align-items: center; gap: 10px; -webkit-overflow-scrolling: touch; }
+.pages.zoomed { align-items: flex-start; }
+.page { width: 100%; max-width: 820px; flex: none; background: #fff; box-shadow: 0 1px 4px rgba(0,0,0,.18); position: relative; }
+.page canvas { display: block; width: 100%; height: auto; }
+.page .ph { position: absolute; inset: 0; display: grid; place-items: center; color: #8a8f99; font-size: 0.85rem; }
+.vmsg { color: var(--muted); padding: 24px; text-align: center; }
+.vmsg a { color: var(--accent); }
+@media (prefers-reduced-motion: no-preference) { .card { transition: transform .12s ease; } .card:active { transform: scale(0.99); } }
+.home { margin: 12px 0 0; font-size: 0.9rem; } .home a { color: var(--accent); }
+</style>
+
+<div class="wrap">
+  <p class="home"><a href="../">← かながわ教材ライブラリ トップ</a></p>
+  <header class="top">
+    <h1>かながわ教材ライブラリ <small>大学入試対策</small></h1>
+    <p class="stats" id="stats"></p>
+  </header>
+
+  <div class="stage" role="group" aria-label="対象の切り替え" hidden>
+    <button id="st-jh" type="button" aria-pressed="true">中学生</button>
+    <button id="st-hs" type="button" aria-pressed="false">高校生・大学受験</button>
+  </div>
+
+  <div class="tools">
+    <input id="q" type="search" placeholder="単元名・キーワードで探す（例：一次関数、敬語、電流）" aria-label="教材を検索">
+  </div>
+  <div class="chips" id="chips" role="group" aria-label="教科で絞り込み"></div>
+
+  <nav class="xnav" aria-label="ページの切り替え">
+    <a class="xlink" data-page="main" href="../koukou/"><b>高校の授業・定期テスト</b><span>高校の基礎科目の単元パックと練習プリント ↗</span></a>
+    <a class="xlink" data-page="jh" href="../chugaku/"><b>中学・高校入試</b><span>中学の単元パック（神奈川県公立高校入試形式）と5教科の模試 ↗</span></a>
+    <a class="xlink" data-page="uni" aria-current="page" href="../daigaku/"><b>大学入試対策</b><span>共通テスト対策・二次試験対策の単元パック ↗</span></a>
+    <a class="xlink" data-page="adv" href="../hatten/"><b>高校 発展科目</b><span>物理・化学・生物・地学・数学Ⅲ・現代文・古典探究・地理探究・政治経済・英語コミュⅡⅢ ↗</span></a>
+  </nav>
+  <main id="shelves"></main>
+
+  <p class="note">すべての問題は AI が作成し、自動検査（形式・正答の整合・重複・検算）に合格した段階です。教科担当者による内容確認はまだのため、授業や配布に使う前に確認してください。PDF の元データと作成手順はリポジトリの <code>data/</code>・<code>scripts/</code> にあります。</p>
+</div>
+
+<div class="viewer" id="viewer" hidden>
+  <div class="vbar">
+    <button class="btn ghost" id="vclose" type="button">← 一覧</button>
+    <div class="vt" id="vtitle"></div>
+    <div class="seg" id="vdocs" role="group" aria-label="冊子の切り替え"></div>
+    <div class="seg" role="group" aria-label="拡大率">
+      <button id="zout" type="button" aria-label="縮小">－</button>
+      <button id="zlv" type="button" aria-pressed="false" disabled>100%</button>
+      <button id="zin" type="button" aria-label="拡大">＋</button>
+    </div>
+    <span class="pg" id="vpg"></span>
+    <a class="btn ghost ext" id="vext" href="#" target="_blank" rel="noopener">ブラウザで開く ↗</a>
+  </div>
+  <div class="pages" id="pages"></div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js"></script>
+<script>
+const SETS = [{"id":"CT-ENG-U01-PACK","t":"英語リーディング　情報の検索と要旨把握","s":"授業50分（解法講義・教師用・生徒用）／問題60問（A基本〜D誤答訂正の4段階・解答解説つき）","pre":"長文読解・長文読解・比較","nx":"英語リスニング　対話と講義の聞き取り・英語　和訳・説明問題・英作文　論理・表現","tr":"ct_pack","st":"jh","g":"HS3","gl":"高校3年・受験生","sj":"english","sl":"英語","n":60,"p":260,"tm":null,"v":"","docs":[["lt","授業・教師用","hs_packs/ct-eng-u01/pack.pdf",1,7],["ls","授業・生徒用","hs_packs/ct-eng-u01/pack.pdf",8,6],["q","問題","hs_packs/ct-eng-u01/pack.pdf",14,31],["a","解答・解説","hs_packs/ct-eng-u01/pack.pdf",45,54]]},{"id":"CT-ENG-U02-PACK","t":"英語リスニング　対話と講義の聞き取り","s":"授業50分（解法講義・教師用・生徒用）／問題60問（A基本〜D誤答訂正の4段階・解答解説つき）","pre":"長文読解・長文読解・助動詞","nx":"英語リーディング　情報の検索と要旨把握・英作文　論理・表現・英語　自由英作文・和文英訳","tr":"ct_pack","st":"jh","g":"HS3","gl":"高校3年・受験生","sj":"english","sl":"英語","n":60,"p":260,"tm":null,"v":"","docs":[["lt","授業・教師用","hs_packs/ct-eng-u02/pack.pdf",1,7],["ls","授業・生徒用","hs_packs/ct-eng-u02/pack.pdf",8,6],["q","問題","hs_packs/ct-eng-u02/pack.pdf",14,22],["a","解答・解説","hs_packs/ct-eng-u02/pack.pdf",36,61]]},{"id":"CT-MATH1A-U01-PACK","t":"数学Ⅰ・A　数と式・二次関数・図形と計量","s":"授業100分（解法講義・教師用・生徒用）／問題60問（A基本〜D誤答訂正の4段階・解答解説つき）","pre":"数と式・二次関数・図形と計量","nx":"数学Ⅰ・A　データの分析・場合の数と確率・図形の性質・数学Ⅱ・B・C　微積分・指数対数・三角関数・微分法・積分法","tr":"ct_pack","st":"jh","g":"HS3","gl":"高校3年・受験生","sj":"math","sl":"数学","n":60,"p":260,"tm":null,"v":"","docs":[["lt","授業・教師用","hs_packs/ct-math1a-u01/pack.pdf",1,7],["ls","授業・生徒用","hs_packs/ct-math1a-u01/pack.pdf",8,6],["q","問題","hs_packs/ct-math1a-u01/pack.pdf",14,17],["a","解答・解説","hs_packs/ct-math1a-u01/pack.pdf",31,45]]},{"id":"CT-MATH1A-U02-PACK","t":"数学Ⅰ・A　データの分析・場合の数と確率・図形の性質","s":"授業100分（解法講義・教師用・生徒用）／問題60問（A基本〜D誤答訂正の4段階・解答解説つき）","pre":"データの分析・場合の数と確率・図形の性質","nx":"数学Ⅱ・B・C　数列・統計的な推測・ベクトル・統計的な推測・数学Ⅰ・A　数と式・二次関数・図形と計量","tr":"ct_pack","st":"jh","g":"HS3","gl":"高校3年・受験生","sj":"math","sl":"数学","n":60,"p":260,"tm":null,"v":"","docs":[["lt","授業・教師用","hs_packs/ct-math1a-u02/pack.pdf",1,7],["ls","授業・生徒用","hs_packs/ct-math1a-u02/pack.pdf",8,6],["q","問題","hs_packs/ct-math1a-u02/pack.pdf",14,25],["a","解答・解説","hs_packs/ct-math1a-u02/pack.pdf",39,46]]},{"id":"CT-MATH2BC-U01-PACK","t":"数学Ⅱ・B・C　微積分・指数対数・三角関数","s":"授業100分（解法講義・教師用・生徒用）／問題60問（A基本〜D誤答訂正の4段階・解答解説つき）","pre":"微分法・積分法・指数関数・対数関数・三角関数","nx":"数学　記述式計算問題・微分法とその応用・積分法とその応用","tr":"ct_pack","st":"jh","g":"HS3","gl":"高校3年・受験生","sj":"math","sl":"数学","n":60,"p":260,"tm":null,"v":"","docs":[["lt","授業・教師用","hs_packs/ct-math2bc-u01/pack.pdf",1,8],["ls","授業・生徒用","hs_packs/ct-math2bc-u01/pack.pdf",9,6],["q","問題","hs_packs/ct-math2bc-u01/pack.pdf",15,20],["a","解答・解説","hs_packs/ct-math2bc-u01/pack.pdf",35,45]]},{"id":"CT-MATH2BC-U02-PACK","t":"数学Ⅱ・B・C　数列・統計的な推測・ベクトル","s":"授業100分（解法講義・教師用・生徒用）／問題60問（A基本〜D誤答訂正の4段階・解答解説つき）","pre":"数列・統計的な推測・ベクトル","nx":"数学　記述式計算問題・数学　証明問題・極限","tr":"ct_pack","st":"jh","g":"HS3","gl":"高校3年・受験生","sj":"math","sl":"数学","n":60,"p":260,"tm":null,"v":"","docs":[["lt","授業・教師用","hs_packs/ct-math2bc-u02/pack.pdf",1,7],["ls","授業・生徒用","hs_packs/ct-math2bc-u02/pack.pdf",8,6],["q","問題","hs_packs/ct-math2bc-u02/pack.pdf",14,19],["a","解答・解説","hs_packs/ct-math2bc-u02/pack.pdf",33,49]]},{"id":"CT-JPN-U01-PACK","t":"国語　現代文（論理的文章・実用的文章）","s":"授業50分（解法講義・教師用・生徒用）／問題60問（A基本〜D誤答訂正の4段階・解答解説つき）","pre":"評論の読解・語彙・漢字・論理的な文章を書く","nx":"国語　現代文記述・英語リーディング　情報の検索と要旨把握・公民　公共・政治経済の資料読解","tr":"ct_pack","st":"jh","g":"HS3","gl":"高校3年・受験生","sj":"japanese","sl":"国語","n":60,"p":260,"tm":null,"v":"","docs":[["lt","授業・教師用","hs_packs/ct-jpn-u01/pack.pdf",1,7],["ls","授業・生徒用","hs_packs/ct-jpn-u01/pack.pdf",8,5],["q","問題","hs_packs/ct-jpn-u01/pack.pdf",13,36],["a","解答・解説","hs_packs/ct-jpn-u01/pack.pdf",49,63]]},{"id":"CT-JPN-U02-PACK","t":"国語　古文・漢文","s":"授業50分（解法講義・教師用・生徒用）／問題60問（A基本〜D誤答訂正の4段階・解答解説つき）","pre":"古文文法　用言・古文文法　助動詞・古文　敬語と読解","nx":"国語　古文・漢文記述・国語　現代文（論理的文章・実用的文章）・国語　現代文記述","tr":"ct_pack","st":"jh","g":"HS3","gl":"高校3年・受験生","sj":"japanese","sl":"国語","n":60,"p":260,"tm":null,"v":"","docs":[["lt","授業・教師用","hs_packs/ct-jpn-u02/pack.pdf",1,6],["ls","授業・生徒用","hs_packs/ct-jpn-u02/pack.pdf",7,5],["q","問題","hs_packs/ct-jpn-u02/pack.pdf",12,27],["a","解答・解説","hs_packs/ct-jpn-u02/pack.pdf",39,59]]},{"id":"CT-SCI-U01-PACK","t":"理科基礎　物理基礎・化学基礎","s":"授業100分（解法講義・教師用・生徒用）／問題60問（A基本〜D誤答訂正の4段階・解答解説つき）","pre":"運動の表し方と運動の法則・仕事とエネルギー・物質量と化学反応式","nx":"理科　論述・計算問題・理科基礎　生物基礎・地学基礎・数学Ⅰ・A　データの分析・場合の数と確率・図形の性質","tr":"ct_pack","st":"jh","g":"HS3","gl":"高校3年・受験生","sj":"science","sl":"理科","n":60,"p":260,"tm":null,"v":"","docs":[["lt","授業・教師用","hs_packs/ct-sci-u01/pack.pdf",1,8],["ls","授業・生徒用","hs_packs/ct-sci-u01/pack.pdf",9,6],["q","問題","hs_packs/ct-sci-u01/pack.pdf",15,26],["a","解答・解説","hs_packs/ct-sci-u01/pack.pdf",41,47]]},{"id":"CT-SCI-U02-PACK","t":"理科基礎　生物基礎・地学基礎","s":"授業100分（解法講義・教師用・生徒用）／問題60問（A基本〜D誤答訂正の4段階・解答解説つき）","pre":"生物の特徴と遺伝子・ヒトの体の調節・地球のすがたと活動","nx":"理科　論述・計算問題・理科基礎　物理基礎・化学基礎・数学Ⅰ・A　データの分析・場合の数と確率・図形の性質","tr":"ct_pack","st":"jh","g":"HS3","gl":"高校3年・受験生","sj":"science","sl":"理科","n":60,"p":260,"tm":null,"v":"","docs":[["lt","授業・教師用","hs_packs/ct-sci-u02/pack.pdf",1,7],["ls","授業・生徒用","hs_packs/ct-sci-u02/pack.pdf",8,6],["q","問題","hs_packs/ct-sci-u02/pack.pdf",14,28],["a","解答・解説","hs_packs/ct-sci-u02/pack.pdf",42,48]]},{"id":"CT-SOC-U01-PACK","t":"地理歴史　歴史総合を中心とした資料読解","s":"授業100分（解法講義・教師用・生徒用）／問題60問（A基本〜D誤答訂正の4段階・解答解説つき）","pre":"近代化と私たち・国際秩序の変化や大衆化と私たち・グローバル化と私たち","nx":"地歴公民　論述問題・公民　公共・政治経済の資料読解・国語　現代文（論理的文章・実用的文章）","tr":"ct_pack","st":"jh","g":"HS3","gl":"高校3年・受験生","sj":"social","sl":"社会（地理歴史・公民）","n":60,"p":260,"tm":null,"v":"","docs":[["lt","授業・教師用","hs_packs/ct-soc-u01/pack.pdf",1,7],["ls","授業・生徒用","hs_packs/ct-soc-u01/pack.pdf",8,5],["q","問題","hs_packs/ct-soc-u01/pack.pdf",13,22],["a","解答・解説","hs_packs/ct-soc-u01/pack.pdf",35,60]]},{"id":"CT-SOC-U02-PACK","t":"公民　公共・政治経済の資料読解","s":"授業100分（解法講義・教師用・生徒用）／問題60問（A基本〜D誤答訂正の4段階・解答解説つき）","pre":"公共の扉・法・政治と私たち・経済と私たち","nx":"地歴公民　論述問題・地理歴史　歴史総合を中心とした資料読解・国語　現代文（論理的文章・実用的文章）","tr":"ct_pack","st":"jh","g":"HS3","gl":"高校3年・受験生","sj":"social","sl":"社会（地理歴史・公民）","n":60,"p":260,"tm":null,"v":"","docs":[["lt","授業・教師用","hs_packs/ct-soc-u02/pack.pdf",1,7],["ls","授業・生徒用","hs_packs/ct-soc-u02/pack.pdf",8,5],["q","問題","hs_packs/ct-soc-u02/pack.pdf",13,21],["a","解答・解説","hs_packs/ct-soc-u02/pack.pdf",34,53]]},{"id":"CT-INFO-U01-PACK","t":"情報Ⅰ　プログラミングとデータの活用","s":"授業50分（解法講義・教師用・生徒用）／問題60問（A基本〜D誤答訂正の4段階・解答解説つき）","pre":"数学と人間の活動　整数・データの分析・数列","nx":"数学Ⅰ・A　データの分析・場合の数と確率・図形の性質・統計的な推測・場合の数と確率","tr":"ct_pack","st":"jh","g":"HS3","gl":"高校3年・受験生","sj":"information","sl":"情報","n":60,"p":260,"tm":null,"v":"","docs":[["lt","授業・教師用","hs_packs/ct-info-u01/pack.pdf",1,7],["ls","授業・生徒用","hs_packs/ct-info-u01/pack.pdf",8,6],["q","問題","hs_packs/ct-info-u01/pack.pdf",14,21],["a","解答・解説","hs_packs/ct-info-u01/pack.pdf",35,51]]},{"id":"SS-ENG-U01-PACK","t":"英語　和訳・説明問題","s":"授業50分（解法講義・教師用・生徒用）／問題60問（A基本〜D誤答訂正の4段階・解答解説つき）","pre":"長文読解・関係詞・仮定法","nx":"英語　自由英作文・和文英訳・国語　現代文記述・英語リーディング　情報の検索と要旨把握","tr":"ss_pack","st":"jh","g":"HS3","gl":"高校3年・受験生","sj":"english","sl":"英語","n":60,"p":260,"tm":null,"v":"","docs":[["lt","授業・教師用","hs_packs/ss-eng-u01/pack.pdf",1,7],["ls","授業・生徒用","hs_packs/ss-eng-u01/pack.pdf",8,6],["q","問題","hs_packs/ss-eng-u01/pack.pdf",14,29],["a","解答・解説","hs_packs/ss-eng-u01/pack.pdf",43,49]]},{"id":"SS-ENG-U02-PACK","t":"英語　自由英作文・和文英訳","s":"授業50分（解法講義・教師用・生徒用）／問題60問（A基本〜D誤答訂正の4段階・解答解説つき）","pre":"英作文　論理・表現・時制・比較","nx":"英語　和訳・説明問題・国語　現代文記述・地歴公民　論述問題","tr":"ss_pack","st":"jh","g":"HS3","gl":"高校3年・受験生","sj":"english","sl":"英語","n":60,"p":260,"tm":null,"v":"","docs":[["lt","授業・教師用","hs_packs/ss-eng-u02/pack.pdf",1,7],["ls","授業・生徒用","hs_packs/ss-eng-u02/pack.pdf",8,5],["q","問題","hs_packs/ss-eng-u02/pack.pdf",13,19],["a","解答・解説","hs_packs/ss-eng-u02/pack.pdf",32,59]]},{"id":"SS-MATH-U01-PACK","t":"数学　証明問題","s":"授業100分（解法講義・教師用・生徒用）／問題60問（A基本〜D誤答訂正の4段階・解答解説つき）","pre":"数学と人間の活動　整数・数列・式と証明","nx":"数学　記述式計算問題・極限・指数関数・対数関数","tr":"ss_pack","st":"jh","g":"HS3","gl":"高校3年・受験生","sj":"math","sl":"数学","n":60,"p":260,"tm":null,"v":"","docs":[["lt","授業・教師用","hs_packs/ss-math-u01/pack.pdf",1,7],["ls","授業・生徒用","hs_packs/ss-math-u01/pack.pdf",8,5],["q","問題","hs_packs/ss-math-u01/pack.pdf",13,18],["a","解答・解説","hs_packs/ss-math-u01/pack.pdf",31,50]]},{"id":"SS-MATH-U02-PACK","t":"数学　記述式計算問題","s":"授業100分（解法講義・教師用・生徒用）／問題60問（A基本〜D誤答訂正の4段階・解答解説つき）","pre":"微分法・積分法・場合の数と確率・ベクトル","nx":"積分法とその応用・統計的な推測・数学　証明問題","tr":"ss_pack","st":"jh","g":"HS3","gl":"高校3年・受験生","sj":"math","sl":"数学","n":60,"p":260,"tm":null,"v":"","docs":[["lt","授業・教師用","hs_packs/ss-math-u02/pack.pdf",1,6],["ls","授業・生徒用","hs_packs/ss-math-u02/pack.pdf",7,5],["q","問題","hs_packs/ss-math-u02/pack.pdf",12,18],["a","解答・解説","hs_packs/ss-math-u02/pack.pdf",30,48]]},{"id":"SS-JPN-U01-PACK","t":"国語　現代文記述","s":"授業50分（解法講義・教師用・生徒用）／問題60問（A基本〜D誤答訂正の4段階・解答解説つき）","pre":"評論の読解・語彙・漢字・論理的な文章を書く","nx":"国語　古文・漢文記述・地歴公民　論述問題・英語　和訳・説明問題","tr":"ss_pack","st":"jh","g":"HS3","gl":"高校3年・受験生","sj":"japanese","sl":"国語","n":60,"p":260,"tm":null,"v":"","docs":[["lt","授業・教師用","hs_packs/ss-jpn-u01/pack.pdf",1,8],["ls","授業・生徒用","hs_packs/ss-jpn-u01/pack.pdf",9,7],["q","問題","hs_packs/ss-jpn-u01/pack.pdf",16,35],["a","解答・解説","hs_packs/ss-jpn-u01/pack.pdf",51,63]]},{"id":"SS-JPN-U02-PACK","t":"国語　古文・漢文記述","s":"授業50分（解法講義・教師用・生徒用）／問題60問（A基本〜D誤答訂正の4段階・解答解説つき）","pre":"古文文法　助動詞・古文　敬語と読解・漢文　句法","nx":"国語　現代文記述・英語　和訳・説明問題・地歴公民　論述問題","tr":"ss_pack","st":"jh","g":"HS3","gl":"高校3年・受験生","sj":"japanese","sl":"国語","n":60,"p":260,"tm":null,"v":"","docs":[["lt","授業・教師用","hs_packs/ss-jpn-u02/pack.pdf",1,7],["ls","授業・生徒用","hs_packs/ss-jpn-u02/pack.pdf",8,6],["q","問題","hs_packs/ss-jpn-u02/pack.pdf",14,29],["a","解答・解説","hs_packs/ss-jpn-u02/pack.pdf",43,63]]},{"id":"SS-SCI-U01-PACK","t":"理科　論述・計算問題","s":"授業100分（解法講義・教師用・生徒用）／問題60問（A基本〜D誤答訂正の4段階・解答解説つき）","pre":"力学（運動量・円運動・単振動・万有引力）・物質の状態（気体・溶液）・化学反応とエネルギー・化学平衡","nx":"数学　記述式計算問題・国語　現代文記述・地歴公民　論述問題","tr":"ss_pack","st":"jh","g":"HS3","gl":"高校3年・受験生","sj":"science","sl":"理科","n":60,"p":260,"tm":null,"v":"","docs":[["lt","授業・教師用","hs_packs/ss-sci-u01/pack.pdf",1,8],["ls","授業・生徒用","hs_packs/ss-sci-u01/pack.pdf",9,6],["q","問題","hs_packs/ss-sci-u01/pack.pdf",15,21],["a","解答・解説","hs_packs/ss-sci-u01/pack.pdf",36,51]]},{"id":"SS-SOC-U01-PACK","t":"地歴公民　論述問題","s":"授業100分（解法講義・教師用・生徒用）／問題60問（A基本〜D誤答訂正の4段階・解答解説つき）","pre":"近代化と私たち・国際秩序の変化や大衆化と私たち・国際理解と国際協力","nx":"国語　現代文記述・英語　自由英作文・和文英訳・理科　論述・計算問題","tr":"ss_pack","st":"jh","g":"HS3","gl":"高校3年・受験生","sj":"social","sl":"社会（地理歴史・公民）","n":60,"p":260,"tm":null,"v":"","docs":[["lt","授業・教師用","hs_packs/ss-soc-u01/pack.pdf",1,7],["ls","授業・生徒用","hs_packs/ss-soc-u01/pack.pdf",8,5],["q","問題","hs_packs/ss-soc-u01/pack.pdf",13,22],["a","解答・解説","hs_packs/ss-soc-u01/pack.pdf",35,55]]}];
+
+const TRACKS = {
+  jh: [
+    ["ct_pack", "大学入学共通テスト対策 単元パック", "出題形式に合わせた解法講義（授業プリント）と、4段階・60問の問題プリント（解答解説つき）。"],
+    ["ss_pack", "難関大 二次試験対策 単元パック", "記述・論述・証明の答案作成講義と、4段階・60問の問題プリント（採点基準つき解答解説）。"],
+  ],
+  hs: [],
+};
+const SUBJ = ["japanese", "math", "english", "science", "social", "information", "integrated"];
+
+let state = { stage: "jh", subj: null, q: "" };
+
+
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const color = (sj) => `var(--s-${sj})`;
+
+$("stats").textContent = `全 ${SETS.length} 教材・${SETS.reduce((a, s) => a + s.n, 0).toLocaleString()} 問。教材を選ぶと、問題と解答・解説をこの画面で読めます。`;
+
+function renderChips() {
+  const present = new Set(SETS.filter((s) => s.st === state.stage).map((s) => s.sj));
+  const subs = SUBJ.filter((s) => present.has(s));
+  const label = (sj) => SETS.find((s) => s.sj === sj).sl.replace("（地理歴史・公民）", "");
+  $("chips").innerHTML = [`<button class="chip" type="button" data-sj="" aria-pressed="${!state.subj}">すべて</button>`]
+    .concat(subs.map((sj) => `<button class="chip" type="button" data-sj="${sj}" style="--c:${color(sj)}" aria-pressed="${state.subj === sj}"><span class="dot"></span>${esc(label(sj))}</button>`)).join("");
+}
+
+const docsOf = (s) => s.docs || [["q", "問題", s.q], ["a", "解答・解説", s.a]];
+function card(s) {
+  const pts = s.p ? `${s.p}点` : "";
+  const tm = s.tm ? `${s.tm}分` : "";
+  return `<article class="card" style="--c:${color(s.sj)}">
+    <div class="meta"><span class="sj">${esc(s.sl.replace("（地理歴史・公民）", ""))}</span><span>${esc(s.gl)}</span><span>${s.n}問</span>${pts ? `<span>${pts}</span>` : ""}${tm ? `<span>${tm}</span>` : ""}</div>
+    <h3>${esc(s.t)}</h3>
+    ${s.s ? `<p class="sub">${esc(s.s)}</p>` : ""}
+    ${s.pre ? `<p class="sub link"><b>前提</b>${esc(s.pre)}</p>` : ""}${s.nx ? `<p class="sub link"><b>発展</b>${esc(s.nx)}</p>` : ""}
+    <div class="acts">${docsOf(s).map(([k, l], i) => `<button class="btn${i ? " ghost" : ""}" type="button" data-open="${esc(s.id)}" data-kind="${k}">${esc(l)}</button>`).join("")}</div>
+  </article>`;
+}
+
+function renderShelves() {
+  const q = state.q.trim().toLowerCase();
+  const match = (s) => (!state.subj || s.sj === state.subj) && (!q || (s.t + " " + s.s + " " + s.id + " " + s.sl).toLowerCase().includes(q));
+  let html = "";
+  for (const [tr, name, desc] of TRACKS[state.stage]) {
+    const items = SETS.filter((s) => s.tr === tr && match(s));
+    if (!items.length) continue;
+    html += `<section class="shelf"><h2>${esc(name)}</h2><p class="desc">${esc(desc)}（${items.length}）</p>`;
+    if (tr.endsWith("_pack")) {
+      const subs = SUBJ.filter((sj) => items.some((s) => s.sj === sj));
+      for (const sj of subs) {
+        const gi = items.filter((s) => s.sj === sj);
+        html += `<div class="grade-h">${esc(gi[0].sl.replace("（地理歴史・公民）", ""))}</div><div class="list">${gi.map(card).join("")}</div>`;
+      }
+    } else if (tr === "junior_high" || tr === "high_school") {
+      const grades = [...new Set(items.map((s) => s.gl))];
+      for (const g of grades) {
+        const gi = items.filter((s) => s.gl === g);
+        html += `<div class="grade-h">${esc(g)}</div><div class="list">${gi.map(card).join("")}</div>`;
+      }
+    } else {
+      html += `<div class="list">${items.map(card).join("")}</div>`;
+    }
+    html += `</section>`;
+  }
+  $("shelves").innerHTML = html || `<p class="empty">条件に合う教材がありません。キーワードや教科を変えてください。</p>`;
+}
+
+function setStage(st) {
+  state.stage = st; state.subj = null;
+  $("st-jh").setAttribute("aria-pressed", st === "jh");
+  $("st-hs").setAttribute("aria-pressed", st === "hs");
+  try { localStorage.setItem("kl-stage", st); } catch (e) {}
+  renderChips(); renderShelves();
+}
+$("st-jh").onclick = () => setStage("jh");
+$("st-hs").onclick = () => setStage("hs");
+$("chips").onclick = (e) => { const b = e.target.closest(".chip"); if (!b) return; state.subj = b.dataset.sj || null; renderChips(); renderShelves(); };
+$("q").addEventListener("input", (e) => { state.q = e.target.value; renderShelves(); });
+
+/* ---- PDF ビューア（pdf.js をページ内で動かす） ---- */
+let cur = null, doc = null, docUrl = null, loadToken = 0, observer = null, zoom = 1;
+const ZOOMS = [1, 1.5, 2, 2.5];
+function applyZoom() {
+  $("zlv").textContent = Math.round(zoom * 100) + "%";
+  $("pages").classList.toggle("zoomed", zoom > 1);
+  $("pages").querySelectorAll(".page").forEach((p) => {
+    p.style.width = zoom > 1 ? `${zoom * 100}%` : "";
+    p.style.maxWidth = zoom > 1 ? "none" : "";
+    if (p.dataset.done) { delete p.dataset.done; p.querySelector("canvas")?.remove(); }
+  });
+  if (observer) { observer.disconnect(); $("pages").querySelectorAll(".page").forEach((p) => observer.observe(p)); }
+}
+$("zin").onclick = () => { const i = ZOOMS.indexOf(zoom); if (i < ZOOMS.length - 1) { zoom = ZOOMS[i + 1]; applyZoom(); } };
+$("zout").onclick = () => { const i = ZOOMS.indexOf(zoom); if (i > 0) { zoom = ZOOMS[i - 1]; applyZoom(); } };
+const pdfjs = window.pdfjsLib;
+
+function closeViewer() { $("viewer").hidden = true; document.body.style.overflow = ""; loadToken++; if (doc) { doc.destroy(); doc = null; docUrl = null; } if (observer) observer.disconnect(); $("pages").innerHTML = ""; }
+$("vclose").onclick = closeViewer;
+document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !$("viewer").hidden) closeViewer(); });
+$("vdocs").onclick = (e) => { const b = e.target.closest("[data-k]"); if (b && cur) openViewer(cur.id, b.dataset.k); };
+$("shelves").onclick = (e) => { const b = e.target.closest("[data-open]"); if (b) openViewer(b.dataset.open, b.dataset.kind); };
+
+async function renderPage(holder) {
+  if (holder.dataset.done) return;
+  holder.dataset.done = "1";
+  const token = loadToken;
+  const page = await doc.getPage(Number(holder.dataset.n));
+  if (token !== loadToken) return;
+  const w = holder.clientWidth || 360;
+  const dpr = Math.min(window.devicePixelRatio || 1, 2);
+  const base = page.getViewport({ scale: 1 });
+  const vp = page.getViewport({ scale: (w * dpr) / base.width });
+  const c = document.createElement("canvas");
+  c.width = Math.floor(vp.width); c.height = Math.floor(vp.height);
+  await page.render({ canvasContext: c.getContext("2d"), viewport: vp }).promise;
+  if (token !== loadToken) return;
+  holder.querySelector(".ph")?.remove();
+  holder.querySelector("canvas")?.remove();
+  holder.appendChild(c);
+}
+
+async function openViewer(id, kind) {
+  const s = SETS.find((x) => x.id === id);
+  if (!s) return;
+  cur = s;
+  $("viewer").hidden = false; document.body.style.overflow = "hidden";
+  $("vtitle").textContent = s.t;
+  const docs = docsOf(s);
+  const hit = docs.find(([k]) => k === kind) || docs[0];
+  $("vdocs").innerHTML = docs.map(([k, l]) => `<button type="button" data-k="${k}" aria-pressed="${k === hit[0]}">${esc(l)}</button>`).join("");
+  const url = hit[2];
+  const first0 = hit[3] || 1;  // 単元パックは1つの PDF に4冊をまとめてあり、[開始ページ, ページ数] で冊子を指す
+  $("vext").href = new URL(url, location.href).href + (hit[3] ? `#page=${hit[3]}` : "");
+  const token = ++loadToken;
+  if (doc && docUrl !== url) { doc.destroy(); doc = null; docUrl = null; }
+  if (observer) observer.disconnect();
+  $("vpg").textContent = "";
+  $("pages").scrollTop = 0;
+  $("pages").innerHTML = `<p class="vmsg">読み込み中…</p>`;
+  if (!pdfjs) { $("pages").innerHTML = `<p class="vmsg">PDF 表示機能を読み込めませんでした。<a href="${esc(url)}" target="_blank" rel="noopener">PDF を開く</a></p>`; return; }
+  try {
+    if (!doc) {
+      const d = await pdfjs.getDocument({ url, isEvalSupported: false }).promise;
+      if (token !== loadToken) { d.destroy(); return; }
+      doc = d; docUrl = url;
+    }
+    const count = hit[4] || doc.numPages;
+    const first = await doc.getPage(first0);
+    if (token !== loadToken) return;
+    const vp = first.getViewport({ scale: 1 });
+    $("vpg").textContent = `${count} ページ`;
+    $("pages").innerHTML = Array.from({ length: count }, (_, i) =>
+      `<div class="page" data-n="${first0 + i}" style="aspect-ratio:${vp.width} / ${vp.height}"><div class="ph">${i + 1} / ${count}</div></div>`).join("");
+    observer = new IntersectionObserver((ents) => ents.forEach((en) => en.isIntersecting && renderPage(en.target)), { root: $("pages"), rootMargin: "600px 0px" });
+    applyZoom();
+  } catch (err) {
+    if (token !== loadToken) return;
+    $("pages").innerHTML = `<p class="vmsg">PDF を表示できませんでした（${esc(err && err.message || err)}）。<br><a href="${esc(url)}" target="_blank" rel="noopener">PDF を直接開く</a></p>`;
+  }
+}
+
+setStage(state.stage);
+</script>
+
+</html>
