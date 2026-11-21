@@ -28,7 +28,7 @@ body { font-family: "Ser", "Min", serif; font-size: 10pt; line-height: 1.75;
 .rp { font-weight: 600; text-decoration: underline; text-decoration-thickness: .6pt; text-underline-offset: 2px; }
 .term { font-weight: 700; }
 .gap { display: inline-block; width: 1.1em; border-bottom: .5pt solid #000; height: .9em; vertical-align: baseline; margin: 0 .1em; }
-.blank { display: inline-block; width: 3.2em; }
+.blank { display: inline-block; width: 5em; }  /* 空所は答えの語数によらず同じ長さ */
 .pref { white-space: nowrap; font-family: "Ser", "Goth"; }
 u { text-decoration-thickness: .6pt; text-underline-offset: 2px; }
 sub { font: 7.5pt "Goth"; vertical-align: -1pt; margin-left: .1em; }

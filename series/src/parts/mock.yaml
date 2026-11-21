@@ -250,15 +250,15 @@ problems:
   lv: 2
   kind: 4択
   min: 1
-  q: The singer (＿) will win the contest is only sixteen years old.
+  q: "The old painting (＿) the experts believed to be a copy turned out to be real."
   choices:
-  - who I think
-  - who I think that
-  - whom I think
-  - I think who
+  - which
+  - what
+  - whom
+  - where
   ans: '1'
-  why: I think を外すと The singer who will win the contest となり、will win の主語が欠けている。人・主語 → who。主語が欠けた連鎖関係詞節では、think の後に that を入れない。
-  trap: I think の目的語だと考えて③whom を選ぶ誤り。think の目的語は「＿ will win the contest」という節で、関係代名詞は節の中で主語の働きをしている。②は think that の形に引かれた誤り。
+  why: "the experts believed の後ろに to be a copy が続き、believed の目的語が欠けている（believe O to be C「OをCだと思う」。もとの文は The experts believed the painting to be a copy.）。先行詞 The old painting は人以外で、節の中で目的語の働きをするので which。文全体の動詞は turned out。"
+  trap: "believed の目的語が欠けているので目的格の③whom を選ぶ誤り。目的格を選ぶ考え方は正しいが、whom は先行詞が人のときに使う。先行詞は絵（物）なので which になる。"
 - id: q9016
   part: 2
   pts: 3
@@ -292,8 +292,8 @@ problems:
   - ③
   - ④
   ans: '3'
-  fix: The bag which my uncle gave me last month（it を取り除く）
-  why: which が gave の目的語の代わりをしているので、節の中に it を残すと目的語が2つになる。採点の目安（4点）：誤りの下線部の番号が正しければ2点、訂正が正しければ2点。番号が誤っているときは、訂正にも点を与えない。不要な語は「it を削除」「it を取り除く」などと書けば訂正の2点を与える。
+  fix: "The bag which my uncle gave me last month（it を削除）"
+  why: "which が gave の目的語の代わりをしているので、節の中に it を残すと目的語が2つになる。採点の目安（4点）：誤りの下線部の番号が正しければ2点、訂正が正しければ2点。番号が誤っているときは、訂正にも点を与えない。指示文のとおり、語を取り除く訂正は「it を削除」と書く。「削除」の語がなくても、「it を取り除く」「it は不要」のように it を消すことがはっきり分かれば訂正の2点を与える。"
   trap: ④too を選ぶ誤り。too heavy to carry は「重すぎて運べない」で正しい。
 - id: q9018
   part: 3
@@ -329,7 +329,7 @@ problems:
   - ④
   ans: '1'
   fix: a small hotel near the station, which had no elevator
-  why: コンマの後ろの非制限用法なので that は使えない。先行詞 a small hotel は人以外で、had の主語が欠けているので which にする。採点の目安（4点）：誤りの下線部の番号が正しければ2点、訂正が正しければ2点。番号が誤っているときは、訂正にも点を与えない。
+  why: "コンマの後ろの非制限用法なので that は使えない。先行詞 a small hotel は人以外で、had の主語が欠けているので which にする。採点の目安（4点）：誤りの下線部の番号が正しければ2点、訂正が正しければ2点。番号が誤っているときは、訂正にも点を与えない。①を and it に直した … near the station, and it had no elevator も文法上正しい文になるので、訂正の2点を与える。"
   trap: ③had to を「must にすべき」と考えて選ぶ誤り。過去のことなので must の過去の意味を表す had to で正しい。
 - id: q9020
   part: 3
@@ -339,16 +339,16 @@ problems:
   lv: 2
   kind: 正誤
   min: 1
-  q: Our class has 32 students, __most of them__① __come__② to school __by__③ bike __or__④ on foot.
+  q: "Yesterday I __talked__① __with__② the two exchange students __from__③ Brazil, __both of them__④ speak Japanese well."
   choices:
   - ①
   - ②
   - ③
   - ④
-  ans: '1'
-  fix: most of whom come
-  why: them のままでは、コンマだけで2つの文をつないでいる。先行詞 32 students は人なので most of whom にする（and most of them としても正しい文になる）。採点の目安（4点）：誤りの下線部の番号が正しければ2点、訂正が正しければ2点。番号が誤っているときは、訂正にも点を与えない。most of whom と and most of them のどちらを書いても訂正の2点を与える。
-  trap: ②come を「most は単数なので comes」と考えて選ぶ誤り。most of の後ろが複数の students（whom）なので、動詞は複数に合わせた come でよい。
+  ans: "4"
+  fix: "the two exchange students from Brazil, both of whom speak Japanese well"
+  why: "both of them のままでは、コンマだけで2つの文（I talked … と both of them speak …）をつないでいることになる。先行詞 the two exchange students は人なので④を both of whom にする。採点の目安（4点）：誤りの下線部の番号が正しければ2点、訂正が正しければ2点。番号が誤っているときは、訂正にも点を与えない。④を and both of them、who both に直したものも文法上正しい文になるので、訂正の2点を与える。"
+  trap: "①talked with を talked to に直すべきだと考えて選ぶ誤り。talk with も talk to も正しい。both の後ろの speak が複数形で合っているので④を見落としやすいが、問題は動詞の数ではなく、2つの文がコンマだけでつながっていることにある。"
 - id: q9021
   part: 3
   pts: 4
@@ -376,17 +376,17 @@ problems:
   kind: 整序
   min: 2
   inst: 日本語の意味になるように（　）内の語を並べかえなさい。文頭に来る語も小文字で示してある。
-  q: 姉が私に作ってくれたケーキは、甘すぎた。<br>The ( cake / for / made / me / my / sister ) was too sweet.
+  q: 父が私に買ってくれた腕時計は、もう動かない。<br>The ( bought / father / for / me / my / watch ) no longer works.
   words:
-  - cake
+  - bought
+  - father
   - for
-  - made
   - me
   - my
-  - sister
-  ans: The cake my sister made for me was too sweet.
-  why: 関係代名詞が与えられていないので、目的格の関係代名詞を省いた the cake my sister made ＿ for me の形にする。made の目的語が欠けている。文全体の動詞は was。
-  trap: 関係代名詞が見当たらないので made を文の動詞と考え、The cake made … と並べる誤り。文の動詞は was で、the cake の直後に my sister made を続ける。
+  - watch
+  ans: The watch my father bought for me no longer works.
+  why: "関係代名詞が与えられていないので、目的格の関係代名詞を省いた the watch my father bought ＿ for me の形にする。bought の目的語が欠けている。文全体の動詞は works。"
+  trap: "関係代名詞が見当たらないので bought を文の動詞と考え、The watch bought … と並べる誤り。文の動詞は works で、the watch の直後に my father bought を続ける。"
 - id: q9023
   part: 4
   pts: 4
@@ -470,11 +470,11 @@ problems:
   min: 3
   inst: 次の英文の下線部を日本語に訳しなさい。
   q: __Ella told her coach that she would quit the tennis club, which surprised all the members.__
-  ans: エラはテニス部をやめるとコーチに伝え、そのことは部員全員を驚かせた。
+  ans: エラはテニス部をやめるとコーチに伝え、そのことは部員全員を驚かせた。（「そのこと」＝エラがテニス部をやめるとコーチに伝えたこと）
   alt:
   - エラがテニス部をやめるとコーチに伝えたので、部員全員が驚いた。
   - エラはテニス部をやめるつもりだとコーチに言ったが、それに部員はみな驚いた。
-  why: 採点の目安（6点）：, which が前の内容全体（やめると伝えたこと）を受けていることが訳に出ている 3点。told her coach that she would quit the tennis club（やめるとコーチに伝えた）2点。surprised all the members（部員全員を驚かせた）1点。which を「テニス部」と訳したものは which の3点を与えない。
+  why: ", which は直前の the tennis club ではなく、前の節 Ella told her coach that she would quit the tennis club の内容全体（エラがテニス部をやめるとコーチに伝えたこと）を受ける。採点の目安（6点）：which が前の節の内容を受けていることが訳に出ている（「そのこと」「それ」「〜と伝えたので」など）3点。「エラがやめること」に驚いたと読んだ訳も、驚いた中身は同じなので3点を与える。told her coach that she would quit the tennis club（やめるとコーチに伝えた）2点。surprised all the members（部員全員を驚かせた）1点。which を「テニス部」と訳したものは which の3点を与えない。"
   trap: which を直前の the tennis club と結びつけ「部員全員を驚かせたテニス部をやめる」と訳す誤り。テニス部が部員を驚かせたのでは意味が通らない。
 - id: q9028
   part: 5

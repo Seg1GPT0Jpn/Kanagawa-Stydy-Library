@@ -1,7 +1,7 @@
 chapters:
 - id: c2
   title: 関係副詞
-  lead: 第1章の関係代名詞は、関係詞節の中で主語や目的語の代わりをしました。この章で学ぶ関係副詞は、節の中で「そこで」「その時に」のような副詞の代わりをします。どちらを使うかは先行詞の意味ではなく、後ろの節が完全な文か不完全な文かで決まる、というのがこの章の軸です。
+  lead: 第1章の関係代名詞は、関係詞節の中で主語・目的語・補語などの代わりをしました。この章で学ぶ関係副詞は、節の中で「そこで」「その時に」のような副詞の代わりをします。どちらを使うかは先行詞の意味ではなく、後ろの節が完全な文か不完全な文かで決まる、というのがこの章の軸です。
   sections:
   - id: s07
     title: 場所・時を表す where と when
@@ -31,7 +31,7 @@ chapters:
     - p: 関係副詞の文では、先行詞か関係副詞のどちらかが省かれることがよくあります。@e205 では先行詞の the place が省かれ、where から始まる節が「〜する場所」という意味で is の後ろに置かれています。when も同じ使い方ができ、@e206 の when 節は「〜する時」を表します。先行詞 the time を補って読めば、意味はすぐにとれるはずです。
       notes:
       - kind: 参照
-        text: "コンマの付いた「, where」「, when」は @s13 で扱う。"
+        text: "コンマの付いた「, where」「, when」は第13節（@s13）で扱う。"
     - ex: [e205, e206]
     - p: 反対に、先行詞を残して関係副詞を省くこともあります。@e207 は the day の後ろの when が省かれた形で、名詞の直後に主語と動詞がいきなり続きます。the day, the year, the time などの時の名詞の後ろでは、この省略がよく起こります。where の省略はそれより少なく、the place や somewhere などの後ろでおもに見られます。
     - ex: [e207]
@@ -67,7 +67,7 @@ chapters:
     summary:
     - 場所を表す先行詞の後ろで、節の中の「そこで」にあたる副詞の代わりをする → {{where}}
     - 時を表す先行詞の後ろで、「その時に」にあたる副詞の代わりをする → {{when}}
-    - 関係副詞の後ろの節は、主語や目的語が欠けていない{{完全な文}}になる。
+    - 関係副詞の後ろの節は、主語・目的語・補語などが欠けていない{{完全な文}}になる。
     - where は{{in / at / on which}}、when は{{on / in / at which}}で言いかえられる。
     - 先行詞が省かれると、where 節は「{{〜する場所}}」、when 節は「{{〜する時}}」という意味になる。
   - id: s08
@@ -135,12 +135,12 @@ chapters:
     - p: 反対に、場所や時の名詞でなくても where が入ることがあります。@e216 の先行詞 a situation は「状況」で、場所ではありません。それでも節 you have to choose between two friends は完全な文なので、関係副詞の where が入ります。situation（状況）、case（場合）、point（段階）なども、「その中で」という意味の where で説明されることがある名詞です。
     - ex: [e216]
     - h: 後ろが完全な文か、不完全な文か
-    - p: 関係副詞か関係代名詞かは、先行詞ではなく、関係詞の後ろの節で決めます。これは第1節（@s01）の2つ目の問い「節の中で何が欠けているか」と同じ考え方です。節の中で主語も目的語もそろっていれば完全な文、主語か目的語（前置詞の目的語もふくむ）が欠けていれば不完全な文と考え、次の順に確かめます。
+    - p: 関係副詞か関係代名詞かは、先行詞ではなく、関係詞の後ろの節で決めます。これは第1節（@s01）の2つ目の問い「節の中で何が欠けているか」と同じ考え方です。節の中で主語・目的語（前置詞の目的語もふくむ）・補語などのどれも欠けていなければ完全な文、どれかが欠けていれば不完全な文と考え、次の順に確かめます。
     - steps:
       - 関係詞の後ろの節だけを取り出す。
-      - 動詞が目的語を必要とする動詞か、前置詞の後ろに名詞があるかを確かめる。
-      - 主語も目的語も欠けていなければ（完全な文）→ where / when / why / how、または前置詞＋which。
-      - 主語か目的語が欠けていれば（不完全な文）→ which / that（先行詞が人なら who / whom / that）。
+      - 動詞が目的語を必要とする動詞か、be 動詞などの後ろに補語があるか、前置詞の後ろに名詞があるかを確かめる。
+      - 主語・目的語・補語などのどれも欠けていなければ（完全な文）→ where / when / why / how、または前置詞＋which。
+      - 主語・目的語・補語などのどれかが欠けていれば（不完全な文）→ which / that（先行詞が人なら who / whom / that）。
     - ex: [e217, e218, e219]
     - p: 同じ the house でも、@e217 と @e218 では入る語が違います。@e217 の節 my uncle lived until he was twenty は、live が目的語をとらない動詞なので完全な文で、where が入ります。@e218 の節 my uncle built ＿ by himself は built の目的語が欠けているので which です。
       notes:
@@ -184,7 +184,7 @@ chapters:
     summary:
     - 関係副詞か関係代名詞かは、先行詞ではなく関係詞の{{後ろの節}}で決める。
     - 後ろが{{完全な文}} → where / when / why / how、または{{前置詞＋which}}
-    - 後ろが{{不完全な文}}（主語や目的語が欠ける） → {{which／that}}（先行詞が人なら {{who(m)／that}}）
+    - 後ろが{{不完全な文}}（主語・目的語・補語などが欠ける） → {{which／that}}（先行詞が人なら {{who(m)／that}}）
     - 場所の名詞でも、節の中で visit などの{{目的語}}が欠けていれば where ではなく which になる。
     - the town which she comes from では、節の最後の{{from}}の目的語が欠けている。
 
@@ -201,7 +201,7 @@ problems:
   choices: [which, where, when, what]
   ans: "2"
   why: 節 I study on Saturdays は主語と動詞がそろった完全な文で、「その図書館で」という場所の副詞が抜けている。場所の副詞の代わりをするのは where。
-  trap: 先行詞 the library が物なので①which を選びやすい。しかし which は節の中の主語か目的語の代わりなので、何も欠けていない I study on Saturdays の前には置けない。
+  trap: 先行詞 the library が物なので①which を選びやすい。しかし which は節の中で主語や目的語などの代わりをするので、何も欠けていない I study on Saturdays の前には置けない。
 - id: q2002
   sec: s07
   set: 節末
@@ -232,11 +232,11 @@ problems:
   kind: 正誤
   min: 1
   inst: 下線部のうち、誤りを含むものを1つ選びなさい。
-  q: I remember the morning __where__① the first snow of the year __fell__② and my sister __ran__③ outside __to make__④ a snowman.
+  q: "It was __already__① dark __when__② we __got__③ to Nikko, so we went straight to the inn __when__④ my parents had stayed twenty years before."
   choices: [①, ②, ③, ④]
-  ans: "1"
-  why: 先行詞 the morning は時を表すので、where ではなく when を使う（話し言葉では where の例も見られるが、標準の書き言葉では when）。節 the first snow of the year fell … は完全な文なので、関係代名詞にもならない。
-  trap: ④to make を「〜するために」ではおかしいと考えて選ぶ誤り。ran outside to make a snowman は「雪だるまを作るために外へ走って出た」で正しい。
+  ans: "4"
+  why: "先行詞 the inn は場所を表し、節 my parents had stayed twenty years before は主語も目的語もそろった完全な文。場所の先行詞なので④の when を where（または at which）にする。②の when は「〜したとき」の接続詞で、It was already dark when we got to Nikko は正しい。"
+  trap: "when が2つあるので②を疑い、④は twenty years before という時の語句に引かれて when でよいと考える誤り。when・where を決めるのは節の中の時の語句ではなく先行詞で、the inn は場所である。"
 - id: q2005
   sec: s07
   set: 節末
@@ -274,7 +274,7 @@ problems:
   choices: [why, how, where, which]
   ans: "1"
   why: 先行詞 the reason の後ろに完全な文 you didn't come to practice yesterday が続く。理由を表す関係副詞は why。
-  trap: 先行詞が物（the reason）なので④which を選ぶ誤り。which は節の中で主語か目的語の代わりをするが、この節には欠けている語がない。
+  trap: 先行詞が物（the reason）なので④which を選ぶ誤り。which は節の中で主語や目的語などの代わりをするが、この節には欠けている語がない。
 - id: q2008
   sec: s08
   set: 節末
@@ -325,7 +325,7 @@ problems:
 - id: q2012
   sec: s08
   set: 節末
-  lv: 3
+  lv: 2
   kind: 読解
   min: 4
   inst: 次の英文を読んで、問いの答えとして最も適切なものを1つ選びなさい。
@@ -446,7 +446,7 @@ problems:
   choices: [the way how, the way, the way which, what]
   ans: "2"
   why: talks to his friends … は完全な文で、「兄が電話で友達と話す、その話し方」を表す。the way S V の形にする。
-  trap: ③the way which を選ぶ誤り。which は節の中の主語か目的語の代わりだが、この節には欠けている語がない。
+  trap: ③the way which を選ぶ誤り。which は節の中で主語や目的語などの代わりをするが、この節には欠けている語がない。
 - id: q2022
   sec: s09
   set: 章末

@@ -97,7 +97,7 @@ chapters:
       - kind: 注意
         text: "there is の文でも、関係代名詞が目的格なら普通に省略できる。There is something I want to tell you.（話したいことがある）"
     - h: 補語の働きをする関係代名詞は普通省く
-    - p: 関係代名詞が be 動詞の後ろの補語の働きをすることもあります。@e114 の［ ］の中では、was の後ろの「どんな場所だったか」にあたる補語が欠けていて、これも不完全な文です。この関係代名詞は主格でも目的格でもなく、使うなら that ですが、普通は省きます。
+    - p: 関係代名詞が be 動詞の後ろの補語の働きをすることもあります。@e114 の［ ］の中では、was の後ろの「どんな場所だったか」にあたる補語が欠けていて、これも不完全な文です。この関係代名詞は主格でも目的格でもありません。実際の英語ではほとんどの場合省かれ、入れるときは that を使うのがふつうです。
     - ex: [e114]
     - table:
         head: ["", 省略, 例]
@@ -111,7 +111,7 @@ chapters:
     - check:
       - {q: "The cake [＿] my sister baked was too sweet.", a: which／that（目的格なので省略も可）}
       - {q: "The boy [＿] won the race is my cousin.", a: who／that（主格なので省略できない）}
-      - {q: "He is not the shy boy [＿] he was five years ago.", a: that（補語なので、普通は何も入れない）}
+      - {q: "The bench [＿] we sat on was wet from the rain.", a: which／that（前置詞の目的語なので省略も可）}
     examples:
     - id: e108
       en: The bike [*which* I bought ＿ last spring] already has a flat tire.
@@ -221,7 +221,7 @@ chapters:
     - h: that が使えない場所
     - p: 反対に、that を使えない場所が2つあります。1つ目はコンマの後です。@e126 の My grandmother は1人に決まっている人なので、コンマを付けて説明を足す形になります（@s13）。この形では that は使えず、who か which にします。My grandmother, that is eighty, … は誤りです。
     - ex: [e126]
-    - p: 2つ目は前置詞の直後です。「コンサートが開かれるホール」と言うとき、in を関係代名詞の前に出すなら in which とし、in that とは言えません。that を使いたいなら、@e127 のように in を節の最後に残します。前置詞と関係代名詞の組み合わせは @s06 でくわしく見ます。
+    - p: 2つ目は前置詞の直後です。「コンサートが開かれるホール」と言うとき、in を関係代名詞の前に出すなら in which とし、in that とは言えません。that を使いたいなら、@e127 のように in を節の最後に残します。前置詞と関係代名詞の組み合わせは次の節（@s06）でくわしく見ます。
       notes:
       - kind: 注意
         text: "in that S V（〜という点で）という言い方があるが、この that は接続詞で、関係代名詞ではない。"
@@ -266,7 +266,7 @@ chapters:
     - p: 「父が育った町」のもとの文は My father grew up in the town. です。the town は前置詞 in の目的語なので、関係代名詞は目的格になります。このとき in を置ける場所は2つあります。節の最後に残す形（@e128）と、関係代名詞の前に出す形（@e129）で、意味は同じです。
     - ex: [e128, e129, e130]
     - p: 前置詞を後ろに残す形は会話で普通に使われ、関係代名詞を省略することもできます（@e130）。in which のように前に出す形は、改まった書き言葉で多く見られます。前に出した場合、in which の後ろの my father grew up は完全な文になります。欠けていた in the town が、in which としてまるごと前に移ったからです。
-    - p: 関係代名詞のうち、that と who は前置詞の直後に置けません。前置詞の直後に置けるのは which・whom と、about whose novel のような「whose＋名詞」です（@q1018）。that を使いたいときは前置詞を節の最後に残し（@s05）、人を受けるときは who ではなく whom の形にします。in that や with who は、標準的な英語では誤りとされます。前置詞の直後の関係代名詞は、省略もできません。
+    - p: 関係代名詞のうち、that と who は前置詞の直後に置けません。前置詞の直後に置けるのは which・whom と、the painter about whose life a movie was made（その生涯について映画が作られた画家）のような「whose＋名詞」です。that を使いたいときは前置詞を節の最後に残し（@e127）、人を受けるときは who ではなく whom の形にします。in that や with who は、標準的な英語では誤りとされます。前置詞の直後の関係代名詞は、省略もできません。
       notes:
       - kind: 注意
         text: "前置詞を後ろに残すときは who も that も使える。the girl who I talked with ／ the girl that I talked with"
@@ -506,7 +506,7 @@ problems:
   choices: [who, whose, which, what]
   ans: "2"
   why: 空所の後ろは冠詞のない rooms で始まり、「そのホテルの部屋」という持ち主の関係。先行詞が物でも whose を使う。
-  trap: 先行詞が物なので③which を選ぶ誤り。which の後ろには主語か目的語の欠けた形が来るが、rooms all had a view of the sea は欠けていない。
+  trap: 先行詞が物なので③which を選ぶ誤り。which の後ろには主語や目的語などが欠けた不完全な文が来るが、rooms all had a view of the sea は欠けていない。
 - id: q1016
   sec: s04
   set: 節末
@@ -658,10 +658,10 @@ problems:
   kind: 正誤
   min: 1
   inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
-  q: The bag __in that__① I put my phone __was__② stolen __at__③ the station __yesterday__④.
-  ans: "1"
-  why: 前置詞の直後に that は置けない。The bag in which I put my phone とする（または The bag that I put my phone in）。
-  trap: that は人にも物にも使えるので in that も正しいと思う誤り。関係代名詞のうち that と who は前置詞の直後に置けない（which・whom・whose＋名詞は置ける）。
+  q: "I __was__① so busy __with__② club practice this week __that__③ I couldn't start the report __about that__④ Ms. Ono spoke in class."
+  ans: "4"
+  why: "前置詞の直後に that は置けない。④を about which にして the report about which Ms. Ono spoke in class とする（または前置詞を節の最後に残して the report that Ms. Ono spoke about in class）。③の that は so … that（とても〜なので…）の接続詞で、後ろの I couldn't start … は完全な文なので正しい。"
+  trap: "that が2つあるので③を疑い、④の about that は「that は人にも物にも使える」から正しいと思う誤り。関係代名詞のうち that と who は前置詞の直後に置けない（which・whom・whose＋名詞は置ける）。"
 - id: q1029
   sec: s06
   set: 節末
@@ -748,7 +748,7 @@ problems:
   q: 私のおばは、__屋根が赤い家__に住んでいる。<br>My aunt lives in ＿＿＿＿.
   ans: My aunt lives in a house whose roof is red.
   alt: [My aunt lives in a house the roof of which is red., My aunt lives in a house which has a red roof., My aunt lives in a house that has a red roof.]
-  why: 「その家の屋根」の持ち主の関係を whose roof で表す。whose の直後の roof には the を付けない。the roof of which is red、which［that］has a red roof も可。
+  why: 「その家の屋根」の持ち主の関係を whose roof で表す。whose の直後の roof には the を付けない。採点の目安：関係代名詞を使って「屋根が赤い家」が表せていれば正解とし、a house the roof of which is red、a house which［that］has a red roof も正解とする。関係代名詞を使わない a house with a red roof は、意味は合っていても指示に合わないので不可。a house whose the roof is red のように whose の後ろに the を付けたものも不可。
   trap: a house which roof is red のように which を使う誤り。which の後ろには欠けた語が要るが、roof is red は欠けていない。
 - id: q1036
   sec: s05

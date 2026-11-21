@@ -1,5 +1,5 @@
 """4冊の組み方。build.py から呼ばれる。"""
-import html, json
+import html, json, re
 from build import STAR, CIRC
 
 A4 = dict(pw=210, ph=297, top=22, bottom=25, inner=15, outer=15, mainW=134, gap=6, sideW=40, startPage=1)
@@ -75,6 +75,7 @@ table.t { border-collapse: collapse; width: 100%; margin: 1.5mm 0 3mm; font-size
 table.t th, table.t td { border: .5pt solid #000; padding: 1.2mm 2mm; text-align: center; }
 table.t thead th { background: var(--net); font: 700 9pt/1.4 "Goth"; }
 table.t tbody th { font: 700 9pt/1.4 "Goth"; text-align: left; background: var(--net); white-space: nowrap; }
+table.t td.nwc { white-space: nowrap; }
 table.t td { font-family: "Ser", "Min"; font-size: 10pt; }
 .blk.check { border: .75pt solid #000; padding: 2mm 3mm; margin: 3mm 0 2mm; }
 .check .t { font: 700 9pt/1.6 "Goth"; }
@@ -151,7 +152,10 @@ def kaisetsu_blocks(bk, pages, cover_html, colophon_html, legend_html):
                 elif 'table' in b:
                     t = b['table']
                     th = ''.join(f'<th>{bk.md(c, pages)}</th>' for c in t['head'])
-                    tr = ''.join('<tr><th>' + bk.md(r[0], pages) + '</th>' + ''.join(f'<td>{bk.md(c, pages)}</td>' for c in r[1:]) + '</tr>' for r in t['rows'])
+                    def td(c):
+                        plain = re.sub(r'\{\{|\}\}|<<|>>|\*', '', str(c))
+                        return f'<td class="nwc">{bk.md(c, pages)}</td>' if len(plain) <= 9 else f'<td>{bk.md(c, pages)}</td>'  # 短いマスは改行しない
+                    tr = ''.join('<tr><th>' + bk.md(r[0], pages) + '</th>' + ''.join(td(c) for c in r[1:]) + '</tr>' for r in t['rows'])
                     cap = f'<div class="ptl">● {E(t["title"])}</div>' if t.get('title') else '<div class="ptl">● 要点</div>'
                     out.append(blk(f'{cap}<table class="t"><thead><tr>{th}</tr></thead><tbody>{tr}</tbody></table>', 'tbl pt', notes))
                 elif 'check' in b:
@@ -245,6 +249,7 @@ def legend_html(bk, part):
 <tr><th><span class="gap"></span></th><td>関係詞節の中で欠けている位置</td></tr>
 <tr><th>→ p.16</th><td>本書の16ページを参照</td></tr>
 <tr><th><span class="ans">赤字</span></th><td>赤シートで隠して答える部分。赤はこの用途にだけ使う</td></tr>
+<tr><th>①②③④（下線）</th><td>正誤問題の下線部の番号。文の前から順に付けている</td></tr>
 <tr><th>★／★★／★★★</th><td>共通テスト水準／GMARCH 標準／入試より難しい発展</td></tr>
 <tr><th>□□□</th><td>解いた記録。1回目・1週間後・1か月後に1つずつ印を付ける</td></tr>
 </tbody></table>

@@ -112,7 +112,7 @@ chapters:
     - p: 2つ目は譲歩で、「いつ〜しても」「どこで〜しても」となります。@e514 は「日本のどこにいても」、@e515 は「今夜何時に着いても」の意味で、no matter where／no matter when に言い換えられます。2つの意味は形では区別できないので、主節との関係から決めます。「そのたびに〜する」と言っていれば1つ目、「どんな場合でも結果は変わらない」と言っていれば譲歩です。
     - ex: [e514, e515]
     - h: no matter＋疑問詞と、譲歩の節の may
-    - p: 譲歩の意味の複合関係詞は、no matter＋疑問詞で言い換えられます。however は no matter how になり、語順も同じく no matter how＋形容詞・副詞＋S＋V です（@e510 → No matter how hard I tried）。整序問題では no matter how が2語分になるので、並べる語が1つ増えます。この言い換えは副詞節だけのもので、名詞節には使えません（@s15 の「名詞節か、譲歩の副詞節か」）。
+    - p: 譲歩の意味の複合関係詞は、no matter＋疑問詞で言い換えられます。however は no matter how になり、語順も同じく no matter how＋形容詞・副詞＋S＋V です（@e510 → No matter how hard I tried）。整序問題では no matter how が2語分になるので、並べる語が1つ増えます。この言い換えは副詞節だけのもので、名詞節には使えません（第15節の「名詞節か、譲歩の副詞節か」。@e504 と @e505 を比べる）。
     - table:
         head: [複合関係詞, 譲歩の意味での言い換え]
         rows:
@@ -122,7 +122,7 @@ chapters:
         - [however, "{{no matter how}}（＋形容詞・副詞＋S＋V）"]
         - [whenever, "{{no matter when}}"]
         - [wherever, "{{no matter where}}"]
-    - p: 譲歩の節に may を入れることがあります。@e516 の However busy he may be は「どんなに忙しくても」で、この may は「かもしれない」と訳しません。かたい書き言葉の言い方で、ふだんの英語では However busy he is のように現在形を使うほうが普通です。未来のことを言うときも、will は使わず現在形で表すのが普通です。入試には両方の形が出るので、may があっても意味は同じだと分かれば足ります。
+    - p: 譲歩の節に may を入れることがあります。@e516 の However busy he may be は「どんなに忙しくても」で、この may は「かもしれない」と訳しません。かたい書き言葉の言い方で、ふだんの英語では However busy he is のように現在形を使うほうが普通です。未来のことを言うときも、will は使わず現在形で表すのが普通です。入試には may の形も現在形の形も出るので、may があっても意味は同じだと分かれば足ります。
       notes:
       - kind: 注意
         text: "no matter how busy he may be のように、no matter＋疑問詞の節でも may を使うことがある。意味は may のない形と同じ。"
@@ -316,10 +316,10 @@ problems:
   kind: 正誤
   min: 1
   inst: 下線部のうち、誤りをふくむものを1つ選びなさい。
-  q: You can __give__① this map to __whomever__② __needs__③ it __on__④ the hike tomorrow.
-  ans: "2"
-  why: 節の中で needs の主語が欠けているので、主格の whoever にする。to の目的語は whoever needs it という節全体である。
-  trap: 前置詞 to の直後なので目的格が正しいと考える誤り。複合関係詞の格は、節の中での働きで決まる。
+  q: "Our school __keeps__① some umbrellas __at__② the front desk, and the staff __will__③ lend one to __whomever__④ needs it on a rainy day."
+  ans: "4"
+  why: "節の中で needs の主語が欠けているので、④を主格の whoever にする（anyone who でもよい）。to の目的語は whoever needs it という節全体で、whoever はその節の中の主語である。"
+  trap: "前置詞 to の直後なので目的格の whomever が正しいと考え、①〜③の中から誤りを探してしまう誤り。複合関係詞の格は、直前の語ではなく節の中での働きで決まる。"
 - id: q5014
   sec: s16
   set: 章末

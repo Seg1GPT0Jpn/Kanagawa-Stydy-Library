@@ -126,7 +126,7 @@ chapters:
       ja: タクミにはよくあることだが、彼は旅行の初日に弁当を家に忘れた。
     - id: e612
       en: Don't buy more eggs [*than* ＿ are needed for the cake].
-      ja: ケーキに必要な数より多く卵を買ってはいけない。
+      ja: 卵は、ケーキに必要な数より多く買ってはいけない。
     - id: e613
       en: The summer festival had more visitors [*than* the city had expected ＿].
       ja: 夏祭りには、市の予想を上回る数の人が来た。
@@ -150,7 +150,7 @@ chapters:
     - ex: [e615, e616]
     - h: one of the students who … と the only one of …
     - p: "@e617 で who が説明しているのは、one ではなく the students です。放課後に韓国語を学んでいる生徒が何人かいて、ミアはその1人だという意味なので、伝統的な文法では動詞を複数形の are にします。"
-    - p: 実際の英語では、one of the students who is … と単数形を使う人も少なくありません。話し言葉に多く、書き言葉にも見られ、これを認める語法書もあります。入試では伝統的な文法に従って複数形を正解とするのが一般的ですが、単数形も実際に使われているので、本書では has と have のどちらか一方だけを正解にする問題は出しません。自分で書くときは複数形にしておきます。
+    - p: 実際の英語では、one of the students who is … と単数形を使う人も少なくありません。話し言葉に多く、書き言葉にも見られ、これを認める語法書もあります。入試では伝統的な文法に従って複数形を正解とするのが一般的ですが、単数形も実際に使われているので、本書では単数形と複数形のどちらか一方だけを正解にする問題は出しません。自分で書くときは複数形にしておきます。
     - p: "@e618 のように the only one of the students who … となると話が変わります。ブラジルに行ったことがあるのはノア1人で、who が説明しているのは the only one です。そのため動詞は単数形の has になります。the only が付いたら、先行詞は1人に絞られると考えます。"
     - ex: [e617, e618]
     - h: 先行詞から離れた関係詞節
@@ -422,21 +422,21 @@ problems:
   kind: 正誤
   min: 1
   inst: 下線部①〜④のうち、誤りを含むものを1つ選びなさい。
-  q: The girl __who__① I thought __that__② was Noah's sister __was__③ actually his cousin, __who__④ lives in Osaka.
-  ans: "2"
-  why: I thought を外すと who was Noah's sister となり、who は was の主語。主語が欠けた連鎖関係詞節では thought の後に that を入れないので、② を取り除く。
-  trap: 「think that ～」の形を思い出して that を正しいと判断する誤り。that を入れてよいのは、節の中で目的語が欠けているときだけである。
+  q: "At the bus stop I __met__① a woman __who__② was __carrying__③ a big guitar case, and she turned out to be the new music teacher __whom__④ we had heard would come in April."
+  ans: "4"
+  why: "we had heard を外すと the new music teacher whom would come in April となり、関係代名詞は would come の主語。主語なので④の whom を who（または that）にする。②の who は was carrying の主語で正しい。"
+  trap: "we had heard の目的語だと考えて④の whom を正しいとする誤り。heard の目的語は「＿ would come in April」という節全体で、関係代名詞は節の中で主語の働きをしている。"
 - id: q6020
   sec: s18
   set: 章末
   lv: 2
   kind: 4択
   min: 1
-  q: There were more people at the beach (＿) we had expected.
+  q: "We received more letters (＿) we could answer in a week."
   choices: [which, as, than, what]
   ans: "3"
-  why: 比較級 more people の後ろで、expected の目的語が欠けている。比較級と組んで関係代名詞の働きをするのは than。
-  trap: 後ろが不完全な文なので①which を選びやすい。しかし more people … which では比較の相手が示されない。比較級があれば than を探す。
+  why: "比較級 more letters の後ろで、answer の目的語が欠けている。比較級と組んで関係代名詞の働きをするのは than で、「1週間で返事を書ききれないほどの手紙が届いた」という意味になる。"
+  trap: "後ろが不完全な文なので①which を選びやすい。しかし more letters … which では比較の相手が示されない。比較級があれば than を探す。"
 - id: q6021
   sec: s19
   set: 章末
@@ -487,7 +487,7 @@ problems:
 - id: q6025
   sec: s18
   set: 章末
-  lv: 3
+  lv: 2
   kind: 読解
   min: 4
   inst: 次の英文を読み、問いの答えとして最も適切なものを1つ選びなさい。
