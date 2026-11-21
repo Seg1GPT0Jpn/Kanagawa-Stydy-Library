@@ -1,0 +1,497 @@
+chapters:
+- id: c6
+  title: 入試で差がつく関係詞
+  lead: この章では、形は見慣れていても入試で正答率に差がつく関係詞を扱います。I think が入りこんだ関係詞節、関係代名詞のように働く as・than・but、関係詞節の中の動詞の数、先行詞から離れた関係詞節です。どれも @s01 の3つの問いと「後ろが不完全な文か」の判断で解けるので、見た目に惑わされずに欠けた位置を探します。
+  sections:
+  - id: s17
+    title: I think などが入りこむ関係詞節
+    patterns: [P13]
+    body:
+    - h: I think が間に入ると何が起きるか
+    - p: "@e601 は、Takumi is the player. と I think he is the fastest runner on our team. の2つの文を1つにしたものです。he を who に変えて前に出すと、I think は who と is の間に取り残されます。このように、関係詞のすぐ後ろに I think や they say などの「主語＋動詞」が入りこんだ関係詞節を<<連鎖関係詞節>>といいます。"
+      notes:
+      - {kind: 用語, term: 連鎖関係詞節, yomi: れんさかんけいしせつ, text: 関係詞の直後に I think・they say・she believes などが入りこみ、その後ろに節の動詞が続く関係詞節。}
+    - ex: [e601, e602, e603]
+    - p: 入りこんだ I think を指でかくしてみます。@e601 から I think を外すと @e602 の the player who is the fastest runner となり、who の後ろに is が直接続きます。主語が欠けているので、who は主格です。
+    - p: "@e603 も the guidebook says を外すと which is the oldest となり、which は is の主語だと分かります。入りこむのは think のほか、believe, say, suppose, be sure, hear など「〜と思う・〜と言う」を表す動詞です。"
+      notes:
+      - {kind: 語注, items: [[guidebook, 旅行案内書]]}
+    - h: whom を選ぶ誤り
+    - p: 空所の後ろに I think があると、「think の目的語だから whom」と考えたくなります。けれども think の目的語は人ではなく、「＿ is the fastest runner」という節のほうです。関係代名詞の格は、I think を外したあとに残る節で決めます。外したときに動詞がすぐ続けば主語が欠けているので、人なら who です。
+      notes:
+      - {kind: 注意, text: 英米の新聞などでも whom I think is … と書かれた例は見られるが、規範的な文法では誤りとされ、入試の4択・正誤では who が正解になる。}
+    - p: これと区別したいのが @e604 です。believe ＋ 人 ＋ to be ～ の形では、人は believed の目的語になります。外したあとに to be が続けば目的格の whom（話し言葉では who も）、is や was が続けば主格の who です。@e605 では which は dropped の目的語で、この場合は I think の後に that を入れても正しい文です。
+    - ex: [e604, e605]
+    - h: 整序での並べ方と、関係代名詞の省略
+    - p: 整序問題では、語を次の順に置きます。主語の欠けた連鎖関係詞節では、I think の後に接続詞の that を入れません。the player who I think that is … は誤りです。
+      notes:
+      - {kind: 注意, text: that を入れてよいのは、@e605 のように節の中で目的語が欠けているときだけ。主語が欠けているときは think の直後に動詞を続ける。}
+    - steps:
+      - 先行詞の直後に関係代名詞を置く。
+      - その直後に I think・everyone says などの「主語＋動詞」を置く。
+      - 主語を書かずに、節の動詞（is, was, will win など）を続ける。
+    - p: 主格の関係代名詞はふつう省略できません（@s03）。ところが連鎖関係詞節では、@e606 のように主格の who が省略されることがあります。the man I thought was … のように「名詞＋S＋V＋動詞」が並んでいたら、名詞の直後に who が隠れていると考えて読みます。
+    - ex: [e606]
+    - check:
+      - {q: "She is the singer [＿] I think will win the contest.（who／whom）", a: who}
+      - {q: "He is the boy [＿] everyone says is the best cook in our class.（who／whom）", a: who}
+      - {q: "We chose a leader [＿] we believed to be fair.（who／whom）", a: whom（話し言葉では who も使う）}
+    examples:
+    - id: e601
+      en: Takumi is the player [*who* I think ＿ is the fastest runner on our team].
+      ja: タクミは、チームでいちばん足が速いと私が思う選手だ。
+    - id: e602
+      en: Takumi is the player [*who* ＿ is the fastest runner on our team].
+      ja: タクミは、チームでいちばん足が速い選手だ。
+    - id: e603
+      en: The small restaurant [*which* the guidebook says ＿ is the oldest in this town] closes at eight on Sundays and does not open on Mondays.
+      ja: 町でいちばん古いと案内書に書いてある小さなレストランは、日曜日は8時に閉まり、月曜日は休みだ。
+      gloss: [[guidebook, 旅行案内書]]
+    - id: e604
+      en: Ms. Kimura hired a high school student [*whom* she believed ＿ to be honest] for her bakery.
+      ja: キムラさんは、正直だと信じた高校生を自分のパン屋で雇った。
+      gloss: [[hire, 雇う]]
+    - id: e605
+      en: Here is the key [*which* I think you dropped ＿].
+      ja: ここに、あなたが落としたのだと思うかぎがある。
+    - id: e606
+      en: The man [I thought ＿ was Saki's father] turned out to be her uncle.
+      ja: サキのお父さんだと私が思った男の人は、実は彼女のおじだった。
+      gloss: [[turn out to be ～, 実は～だとわかる]]
+    summary:
+    - 先行詞＋who＋I think＋動詞 の文で I think を外すと、who は節の{{主語}}の働きをしている。
+    - I think の後に動詞が続くときは、whom ではなく{{who}}を選ぶ。
+    - believe ＋ 人 ＋ to be の形なら、関係代名詞は believe の{{目的語}}なので whom（who）を使う。
+    - 主語が欠けた連鎖関係詞節では、think の後に接続詞の{{that}}を入れない。
+    - 整序：先行詞 → 関係代名詞 → {{主語＋think}} → 節の動詞 の順に並べる。
+  - id: s18
+    title: 関係代名詞のように働く as・than・but
+    patterns: [P15]
+    body:
+    - h: なぜ as・than・but が関係代名詞になるのか
+    - p: as・than・but は、ふつうは接続詞や前置詞です。ところが such・the same・比較級・否定語の付いた名詞の後ろでは、主語や目的語の欠けた節を導き、関係代名詞と同じ働きをします。これを<<擬似関係代名詞>>といいます。見分け方は who や which と同じで、後ろの節が不完全な文かどうかを確かめます。ただし使える場所は決まった相手の後ろに限られ、who や which の代わりに自由に使えるわけではありません。
+      notes:
+      - {kind: 用語, term: 擬似関係代名詞, yomi: ぎじかんけいだいめいし, text: such・the same・比較級・否定語などと組になり、関係代名詞のように後ろの節の主語や目的語の働きをする as・than・but。}
+    - h: such … as と the same … as
+    - p: "@e607 の as の後ろは are written in easy English で、are の主語がありません。as が主語の働きです。@e608 では had の目的語が欠けていて、as は目的語の働きです。この such … as は改まった書き言葉で、少し古い感じがします。会話なら books that are written in easy English のように言うのがふつうです。"
+      notes:
+      - {kind: 注意, text: books such as dictionaries（辞書のような本）の such as は「たとえば」の意味で、後ろには名詞だけが来る。後ろに欠けのある節が続く such … as とは別のもの。}
+    - ex: [e607, e608]
+    - p: the same の後ろでも as が使われます。@e609 の as の後ろは her sister has で has の目的語が欠けており、@e610 では went to の後ろの名詞が欠けています。@e609 は「同じ種類のかばん」、@e610 は「まさにその学校」を指しています。どちらの意味かは文の内容から決まります。
+      notes:
+      - {kind: 注意, text: 「the same … as は同じ種類、the same … that は同一のもの」と区別する説明があるが、現代英語ではこの区別は厳密ではない。@e610 のように as で同一のものを指すことも多い。}
+    - ex: [e609, e610]
+    - h: as is often the case with
+    - p: "@e611 の As is often the case with Takumi は「タクミにはよくあることだが」という意味の決まった言い方です。as が受けているのは名詞ではなく、後ろの主節の内容（弁当を家に忘れたこと）で、as は is の主語になっています。前の文の内容を受ける , which（@s14）と似ていますが、which は文の先頭に置けないのに対し、as は文頭にも文の後ろにも置けます。"
+    - ex: [e611]
+    - h: 比較級＋than、否定語＋but
+    - p: "@e612 では、than の後ろの are needed for the cake に主語がありません。than が主語の働きをしているので、than it is needed のように it を入れると誤りです。@e613 では expected の目的語が欠けていて、than はその代わりをしています。比較級の後ろの than に動詞が直接続いていたら、than が主語の働きをしていると考えます。"
+      notes:
+      - {kind: 参照, text: more … than is necessary は、is を省いて more … than necessary とも言う。}
+    - ex: [e612, e613]
+    - p: 否定語の付いた名詞の後ろの but は、that … not の意味の関係代名詞になります。@e614 は There is no rule that does not have exceptions.（例外をもたない規則はない）と同じ意味で、今の英語なら Every rule has exceptions. と言います。この but はことわざや古い文章で見る古風な表現なので、読んで意味が取れれば十分で、英作文で使う必要はありません。
+      notes:
+      - {kind: 注意, text: no one but Mia（ミア以外はだれも〜ない）の but は「〜以外」を表す前置詞で、後ろは名詞だけ。後ろに動詞が続くかどうかで区別する。}
+    - ex: [e614]
+    - check:
+      - {q: "Take such clothes [＿] are warm enough for the mountains.", a: as}
+      - {q: "There were more people at the station [＿] we expected.", a: than}
+      - {q: "[＿] is often the case with my brother, he slept through his alarm.", a: As}
+    examples:
+    - id: e607
+      en: Our teacher told us to read such books [*as* ＿ are written in easy English].
+      ja: 先生は、やさしい英語で書かれた本を読むようにと私たちに言った。
+    - id: e608
+      en: Noah's grandmother served us such food [*as* she had ＿ in the house].
+      ja: ノアの祖母は、家にある食べ物を出せるだけ出してくれた。
+      gloss: [[serve, 料理を出す]]
+    - id: e609
+      en: Mia bought the same bag [*as* her sister has ＿].
+      ja: ミアは、姉が持っているのと同じかばんを買った。
+    - id: e610
+      en: Saki goes to the same school [*as* her mother went to ＿] thirty years ago.
+      ja: サキは、母親が30年前に通っていたのと同じ学校に通っている。
+    - id: e611
+      en: "[*As* ＿ is often the case with Takumi], he left his lunch at home on the first day of the trip."
+      ja: タクミにはよくあることだが、彼は旅行の初日に弁当を家に忘れた。
+    - id: e612
+      en: Don't buy more eggs [*than* ＿ are needed for the cake].
+      ja: ケーキに必要な数より多くの卵を買ってはいけない。
+    - id: e613
+      en: The summer festival had more visitors [*than* the city had expected ＿].
+      ja: 夏祭りには、市の予想を上回る数の人が来た。
+    - id: e614
+      en: There is no rule [*but* ＿ has exceptions].
+      ja: 例外のない規則はない。
+      gloss: [[exception, 例外]]
+    summary:
+    - such … as ／ the same … as の{{as}}は、後ろの節で主語や目的語の働きをする。
+    - As is often the case with A ＝ A には{{よくあることだが}}。as は{{主節の内容}}を受け、文頭にも置ける。
+    - 比較級の後の than が節の主語になる形：more … than {{is needed}}（it を入れない）。
+    - 否定語＋but の but は{{that … not}}の意味。There is no rule but has exceptions. は{{古風}}な言い方で、読んで分かればよい。
+  - id: s19
+    title: 先行詞と動詞の数の一致、離れた関係詞節
+    patterns: [P18, P19]
+    body:
+    - h: 関係代名詞の後の動詞は先行詞に合わせる
+    - p: who や which そのものには、単数・複数の区別がありません。関係詞節の動詞の形は、先行詞の数で決まります。@e615 と @e616 はどちらも the mother of the twins who … ですが、lives なら先行詞は単数の the mother、live なら複数の the twins です。動詞の -s が、どの名詞を説明しているかを教えてくれます。
+      notes:
+      - {kind: 語注, items: [[twins, 双子]]}
+    - ex: [e615, e616]
+    - h: one of the students who … と the only one of …
+    - p: "@e617 で who が説明しているのは、one ではなく the students です。放課後に韓国語を学んでいる生徒が何人かいて、ミアはその1人だという意味なので、伝統的な文法では動詞を複数形の are にします。"
+    - p: 実際の英語では、one of the students who is … と単数形を使う人も少なくありません。話し言葉に多く、書き言葉にも見られ、これを認める語法書もあります。それでも入試では複数形が正解で、正誤問題では単数形が誤りの箇所として出されます。自分で書くときは複数形にしておきます。
+    - p: "@e618 のように the only one of the students who … となると話が変わります。ブラジルに行ったことがあるのはノア1人で、who が説明しているのは the only one です。そのため動詞は単数形の has になります。the only が付いたら、先行詞は1人に絞られると考えます。"
+    - ex: [e617, e618]
+    - h: 先行詞から離れた関係詞節
+    - p: "@e619 では、主語の A man と関係詞節 who was carrying … の間に came into the shop が入っています。主語が長く、述語が短いとき、英語は重い部分を文の後ろに回す傾向があります。これを関係詞節の<<外置>>といいます。who の直前の the shop を先行詞と思うと意味が通りません。人を表す名詞で、was に合う単数のものを前にさかのぼって探します。"
+      notes:
+      - {kind: 用語, term: 外置, yomi: がいち, text: 関係詞節などを先行詞から離して、文の後ろに置くこと。主語が長く、述語が短い文で起きやすい。}
+    - ex: [e619, e620]
+    - p: "@e620 の which も、直前の this morning や Ms. Kimura を説明してはいません。which は人以外の名詞を受け、節の中に had no stamp on it とあるので、先行詞は A letter です。外置された関係詞節は、和訳のときに先行詞の前に戻して「切手の貼られていない手紙」と訳すと自然な日本語になります。"
+    - h: 長い主語の文の骨組み
+    - p: "@e621 の主語は The bike から station まで続き、その中に関係詞節が2つ入っています。文全体の動詞を見つけるには、関係詞節を［ ］でくくって外します。残るのは The bike was stolen on Friday night. です。"
+    - steps:
+      - 名詞の後ろに関係詞（または「名詞＋S＋V」の並び）を見つけたら、［ を開く。
+      - 節の中の動詞と、その後ろの語句まで読んで ］ を閉じる。
+      - ［ ］の外に残った動詞が文全体の動詞になる。その数を文頭の主語に合わせて確かめる。
+    - p: "@e622 では、class の直後の were を見て「class は単数なのに」と迷うかもしれません。in the last class までが関係詞節なので、were の主語は文頭の The questions です。正誤問題では、主語と本動詞の間に長い関係詞節をはさみ、動詞の数を問う形がよく出ます。"
+    - ex: [e621, e622]
+    - check:
+      - {q: "My cousin is one of the girls who [＿] in the brass band.（play／plays）", a: play（入試では先行詞 the girls に合わせる）}
+      - {q: "He is the only one of the boys who [＿] a driver's license.（have／has）", a: has}
+      - {q: "The keys that I found under the desks [＿] mine.（is／are）", a: are}
+    examples:
+    - id: e615
+      en: The mother of the twins [*who* ＿ lives next door] works at the city library.
+      ja: 隣に住んでいる、その双子の母親は、市立図書館で働いている。（隣に住んでいるのは母親）
+    - id: e616
+      en: I know the mother of the twins [*who* ＿ live next door].
+      ja: 私は、隣に住んでいる双子の母親を知っている。（隣に住んでいるのは双子）
+    - id: e617
+      en: Mia is one of the students [*who* ＿ are learning Korean after school].
+      ja: ミアは、放課後に韓国語を学んでいる生徒の1人だ。
+    - id: e618
+      en: Noah is the only one of the students [*who* ＿ has been to Brazil].
+      ja: その生徒たちの中で、ブラジルに行ったことがあるのはノアだけだ。
+    - id: e619
+      en: A man came into the shop [*who* ＿ was carrying three large boxes].
+      ja: 大きな箱を3つ抱えた男の人が、店に入ってきた。
+    - id: e620
+      en: A letter arrived for Ms. Kimura this morning [*which* ＿ had no stamp on it].
+      ja: 切手の貼られていない手紙が、今朝キムラさんあてに届いた。
+      gloss: [[stamp, 切手]]
+    - id: e621
+      en: The bike [*that* my brother borrowed ＿ from a friend [*who* ＿ lives near the station]] was stolen on Friday night.
+      ja: 兄が駅の近くに住む友人から借りた自転車が、金曜日の夜に盗まれた。
+    - id: e622
+      en: The questions [*that* Dr. Patel asked ＿ in the last class] were harder than the ones in the textbook.
+      ja: パテル先生が前回の授業で出した問題は、教科書の問題より難しかった。
+    summary:
+    - 関係詞節の動詞の数は{{先行詞}}に合わせる。who・which そのものに単数・複数の区別はない。
+    - one of the students who … の先行詞は{{the students}}なので、入試では動詞を{{複数形}}にする。
+    - the only one of the students who … の先行詞は{{the only one}}なので、動詞は{{単数形}}。
+    - 主語が長く述語が短いとき、関係詞節が文の後ろに回ることがある。これを{{外置}}という。
+    - 長い主語の文は、関係詞節を［ ］でくくり、外に残った{{動詞}}を見つける。
+
+problems:
+- id: q6001
+  sec: s17
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: This is the café (＿) I think serves the best pancakes in town.
+  choices: [who, which, whom, what]
+  ans: "2"
+  why: 先行詞 the café は人以外。I think を外すと (＿) serves … となり、serves の主語が欠けているので which。
+  trap: I think の直後に空所があるように見えて④what を選びやすい。what は先行詞をふくむので、the café の後ろには置けない（@s10）。
+- id: q6002
+  sec: s17
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  q: The boy (＿) everyone says is the best singer in our class will sing first at the festival.
+  choices: [whom, whose, who, which]
+  ans: "3"
+  why: everyone says を外すと (＿) is the best singer となり、is の主語が欠けている。先行詞は人なので who。
+  trap: everyone says の目的語だと考えて①whom を選ぶ誤りが多い。says の目的語は人ではなく「＿ is the best singer」という節で、外したあとに動詞 is が続くので主格になる。
+- id: q6003
+  sec: s17
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りを含むものを1つ選びなさい。
+  q: The man __whom__① I believed __was__② the owner of the shop __was__③ actually a customer __who__④ came every day.
+  ans: "1"
+  why: I believed を外すと (＿) was the owner となり、was の主語が欠けている。主格なので whom ではなく who にする。
+  trap: believed の直後に was（動詞）が続くことを見落とし、believe ＋ 人 ＋ to be の形と同じだと考えて whom を正しいとする誤り。to be が続くときだけ目的格になる。
+- id: q6004
+  sec: s17
+  set: 節末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: あれが、この店でいちばん親切だと私が思う店員だ。<br>That is the clerk ( I / is / kindest / the / think / who ) in this shop.
+  words: [I, is, kindest, the, think, who]
+  ans: That is the clerk who I think is the kindest in this shop.
+  why: 先行詞 the clerk の直後に who、その後に I think を入れ、主語を書かずに節の動詞 is を続ける。
+  trap: the clerk I think who is … のように I think を関係代名詞の前に置く誤り。I think は関係代名詞と節の動詞の間に入る。
+- id: q6005
+  sec: s17
+  set: 節末
+  lv: 2
+  kind: 和訳
+  min: 3
+  inst: 次の英文を日本語に訳しなさい。
+  q: The shop which my friend said was the best in town had closed when we got there.
+  ans: 友人が町でいちばんだと言っていた店は、私たちが着いたときには閉まっていた。
+  alt: [町でいちばんいいと友人が言っていたその店は、私たちが着いたときにはもう閉まっていた。]
+  why: my friend said を外すと which was the best in town となり、which は was の主語。文全体の動詞は had closed。「友人が言っていた」が「店」にかかり、「店は〜閉まっていた」の骨組みが訳に出ていれば正解。
+  trap: said の目的語を the shop と取り、「友人が店に言った」のように訳す誤り。said の内容は「その店が町でいちばんだ」という節である。
+- id: q6006
+  sec: s17
+  set: 節末
+  lv: 3
+  kind: 4択
+  min: 1
+  q: The question (＿) was too difficult for first-year students was removed from the test.
+  choices: [which the teachers thought that, whom the teachers thought, which the teachers thought, the teachers thought it]
+  ans: "3"
+  why: the teachers thought を外すと which was too difficult となり、which は was の主語。主語が欠けた連鎖関係詞節なので、thought の後に that は入れない。
+  trap: ①は「think that ～」の形に引かれて選びやすいが、主語が欠けた節の前に that を置くことはできない。④は節の中に it が残り、主語が二重になる。
+- id: q6007
+  sec: s18
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  q: My sister goes to the same dance school (＿) our cousin went to.
+  choices: [as, than, but, what]
+  ans: "1"
+  why: the same の付いた名詞の後ろで、went to の後ろの名詞が欠けている。the same … as の as が関係代名詞の働きをしている。
+  trap: ②than は比較級と組む語で、the same とは組まない。the same を見たら as を探す。
+- id: q6008
+  sec: s18
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  q: (＿) is often the case with my father, he left his umbrella on the train.
+  choices: [What, Which, As, That]
+  ans: "3"
+  why: As is often the case with A は「A にはよくあることだが」。as は後ろの主節の内容を受け、is の主語になっている。文頭に置けるのは as。
+  trap: 前の内容を受ける which（@s14）と混同して②を選ぶ誤り。which で内容を受けるのは , which … の形で文の後ろに置く場合で、文頭には置けない。
+- id: q6009
+  sec: s18
+  set: 節末
+  lv: 2
+  kind: 補充
+  min: 1
+  inst: （　）に適切な1語を入れなさい。
+  q: Please don't bring more water than (＿) needed for the one-day hike.
+  ans: is
+  why: 比較級 more water の後ろの than が節の主語の働きをしている。主語の water は数えられない名詞なので is。
+  trap: than の後に主語がないと感じて it is と2語を入れたくなる。than 自体が主語なので、than it is needed は誤り。
+- id: q6010
+  sec: s18
+  set: 節末
+  lv: 3
+  kind: 和訳
+  min: 3
+  inst: 次の英文を日本語に訳しなさい。
+  q: There was no one at the meeting but agreed with the plan.
+  ans: 会議には、その計画に賛成しない人は1人もいなかった。
+  alt: [会議に出ていた人はみな、その計画に賛成した。]
+  why: no one の後ろの but は that … not の意味の関係代名詞で、agreed の主語の働き。There was no one that did not agree with the plan. と同じ。二重否定が「全員賛成した」という意味で訳に出ていれば正解。古風な表現。
+  trap: but を「しかし」と読み、「会議にはだれもいなかったが、計画に賛成した」と訳す誤り。後ろに主語のない agreed が続くことから、関係代名詞の but だと分かる。
+- id: q6011
+  sec: s18
+  set: 節末
+  lv: 3
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りを含むものを1つ選びなさい。
+  q: __Such__① students __as wants__② to join the trip __must__③ hand in this form __by__④ Friday.
+  ans: "2"
+  why: as は such students を受けて節の主語になっている。先行詞が複数の students なので、動詞は want にする。
+  trap: as の直後の動詞を、as を単数の主語とみなして wants のままにする誤り。関係代名詞と同じく、動詞の数は先行詞に合わせる（@s19）。
+- id: q6012
+  sec: s18
+  set: 節末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 私が持っている本でよければ、貸してあげよう。<br>I'll lend you ( as / books / have / I / such ).
+  words: [as, books, have, I, such]
+  ans: I'll lend you such books as I have.
+  why: such books の後ろに、have の目的語が欠けた節 as I have を置く。as は have の目的語の働きをしている。改まった言い方で、会話では the books I have などと言う。
+  trap: such as books I have のように such as を続けて書く誤り。「たとえば」の such as の後ろには名詞だけが来て、欠けのある節は続かない。
+- id: q6013
+  sec: s19
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  q: I have two cousins who (＿) in Sapporo.
+  choices: [live, lives, living, to live]
+  ans: "1"
+  why: who の先行詞は複数の two cousins。関係詞節の動詞は先行詞の数に合わせるので、複数の主語に合う live。
+  trap: who を単数の主語とみなして②lives を選ぶ誤り。who 自体には単数・複数の区別がなく、先行詞で決まる。
+- id: q6014
+  sec: s19
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  q: Mia is one of the members who (＿) never missed a practice this year.
+  choices: [have, has, having, is]
+  ans: "1"
+  why: who の先行詞は one ではなく the members（練習を休まなかった部員が何人かいて、ミアはその1人）。伝統的な文法と入試では、動詞を複数形の have にする。
+  trap: 主語の Mia や one に引かれて②has を選ぶ誤り。実際の英語では has も見られるが、入試では先行詞 the members に合わせた have が正解になる。
+- id: q6015
+  sec: s19
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りを含むものを1つ選びなさい。
+  q: Our coach is __the only one__① of the players __who__② __have__③ played __for__④ the national team.
+  ans: "3"
+  why: the only one of the players who … の先行詞は the only one（代表でプレーしたのはコーチ1人）。動詞は単数形の has にする。
+  trap: one of the players who … と同じだと考えて、複数形の have を正しいとする誤り。the only が付くと先行詞は1人に絞られる。
+- id: q6016
+  sec: s19
+  set: 節末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 姉が去年の夏に北海道で撮った写真が、市のカレンダーに選ばれた。<br>The photos ( Hokkaido / in / last / my / sister / summer / that / took / were ) chosen for the city calendar.
+  words: [Hokkaido, in, last, my, sister, summer, that, took, were]
+  ans: The photos that my sister took in Hokkaido last summer were chosen for the city calendar.
+  alt: [The photos that my sister took last summer in Hokkaido were chosen for the city calendar.]
+  why: The photos の後ろに took の目的語が欠けた関係詞節 that my sister took … を置き、その後に文全体の動詞 were を続ける。were は文頭の The photos に合う複数形。
+  trap: The photos were … を先に作ってしまい、関係詞節の置き場所がなくなる誤り。主語の名詞の直後に関係詞節を置き、外に残った動詞を最後に続ける。
+- id: q6017
+  sec: s19
+  set: 節末
+  lv: 3
+  kind: 和訳
+  min: 3
+  inst: 次の英文を日本語に訳しなさい。
+  q: Two postcards arrived from the hotel which were written in Japanese.
+  ans: 日本語で書かれた絵はがきが2枚、そのホテルから届いた。
+  alt: [そのホテルから、日本語で書かれた絵はがきが2枚届いた。]
+  why: which 節は文の後ろに回された外置の関係詞節。動詞が複数形の were なので、先行詞は単数の the hotel ではなく Two postcards。「日本語で書かれた」が「絵はがき」にかかっていれば正解。
+  trap: 直前の the hotel を先行詞と取り、「日本語で書かれたホテル」と訳す誤り。were が複数形であることと、意味から先行詞を決める。
+- id: q6018
+  sec: s19
+  set: 節末
+  lv: 2
+  kind: 読解
+  min: 4
+  inst: 次の英文を読み、問いの答えとして最も適切なものを1つ選びなさい。
+  q: "The volunteers who clean the beach near our school meet on the first Sunday of every month. Last month, a woman joined them who had just moved to the town from Osaka. She brought a large bag of gloves that her old group had given her. The gloves, which were bright yellow, were easy to see on the sand. By noon, the group had collected forty bags of trash, more than they had ever collected before.<br>問：What did the woman bring?"
+  choices: [Forty bags of trash., Gloves from the group she had belonged to before., A map of the town from Osaka., Yellow sand for the beach.]
+  ans: "2"
+  why: a bag of gloves that her old group had given her の that 節は gloves を説明しており、以前のグループからもらった手袋を持ってきたことが分かる。
+  trap: 2文目の a woman joined them who had just moved … の who 節が them を説明すると誤読すると、だれが何をしたかが混乱する。who は離れた a woman を受けている。
+- id: q6019
+  sec: s17
+  set: 章末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りを含むものを1つ選びなさい。
+  q: The girl __who__① I thought __that__② was Noah's sister __was__③ actually his cousin, __who__④ lives in Osaka.
+  ans: "2"
+  why: I thought を外すと who was Noah's sister となり、who は was の主語。主語が欠けた連鎖関係詞節では thought の後に that を入れないので、② を取り除く。
+  trap: 「think that ～」の形を思い出して that を正しいと判断する誤り。that を入れてよいのは、節の中で目的語が欠けているときだけである。
+- id: q6020
+  sec: s18
+  set: 章末
+  lv: 2
+  kind: 4択
+  min: 1
+  q: There were more people at the beach (＿) we had expected.
+  choices: [than, as, which, what]
+  ans: "1"
+  why: 比較級 more people の後ろで、expected の目的語が欠けている。比較級と組んで関係代名詞の働きをするのは than。
+  trap: 後ろが不完全な文なので③which を選びやすい。しかし more people … which では比較の相手が示されない。比較級があれば than を探す。
+- id: q6021
+  sec: s19
+  set: 章末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: おばは、毎朝駅前を掃除しているボランティアの1人だ。<br>My aunt is one ( clean / of / the / volunteers / who ) the area in front of the station every morning.
+  words: [clean, of, the, volunteers, who]
+  ans: My aunt is one of the volunteers who clean the area in front of the station every morning.
+  why: one of the volunteers の後ろに who clean … を置く。who の先行詞は the volunteers なので、動詞は複数形の clean になっている。
+  trap: My aunt is one who clean … のように one の直後に who を置く誤り。one of the volunteers までが1つのまとまりで、who はその後ろに来る。
+- id: q6022
+  sec: s17
+  set: 章末
+  lv: 3
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: テストに出ると先生が言った単語を覚えなさい。<br>Learn the words ( be / said / teacher / the / which / would ) on the test.
+  words: [be, said, teacher, the, which, would]
+  ans: Learn the words which the teacher said would be on the test.
+  why: 先行詞 the words の後ろに which、その後に the teacher said を入れ、主語を書かずに節の動詞 would be を続ける。which は would be の主語。
+  trap: which would be … the teacher said のように said を後ろに回そうとして、語が余る誤り。the teacher said は which と節の動詞の間に入れる。
+- id: q6023
+  sec: s19
+  set: 章末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りを含むものを1つ選びなさい。
+  q: The number of students __who__① __use__② the new library __have__③ increased __since__④ April.
+  ans: "3"
+  why: 関係詞節 who use the new library を外すと、文全体の主語は The number（数）で単数。動詞は has increased にする。②use は先行詞 students に合っているので正しい。
+  trap: 直前の library や students に引かれて have を正しいとする誤り。関係詞節をくくり、文頭の主語と本動詞を結びつけて数を確かめる。
+- id: q6024
+  sec: s17
+  set: 章末
+  lv: 2
+  kind: 読解
+  min: 4
+  inst: 次の英文を読み、問いの答えとして最も適切なものを1つ選びなさい。
+  q: "Last Sunday, Saki went to a small concert in the park. Before it started, she saw a woman with a violin who she thought was her old piano teacher. Saki waved, but the woman did not wave back. After the concert, Saki talked to her and learned that she was the teacher's younger sister. The two sisters looked so alike that even their friends sometimes confused them. The sister gave Saki a ticket for her next concert in December.<br>問：Who was the woman with the violin?"
+  choices: [Saki's old piano teacher., The younger sister of Saki's old piano teacher., A friend of Saki's mother., Saki's own sister.]
+  ans: "2"
+  why: who she thought was her old piano teacher は「サキがピアノの先生だと思った」という意味で、実際は4文目にある通り先生の妹だった。
+  trap: 連鎖関係詞節の she thought を読み落とし、「昔のピアノの先生であるバイオリンの女性」と取って①を選ぶ誤り。
+- id: q6025
+  sec: s18
+  set: 章末
+  lv: 3
+  kind: 読解
+  min: 4
+  inst: 次の英文を読み、問いの答えとして最も適切なものを1つ選びなさい。
+  q: "Ms. Kimura's cooking club held a curry party for the first-year students in May. As is often the case with first events, the club made a few mistakes. They cooked far more rice than was needed, because more students had said they would come than actually came. Only twenty of the thirty-five students who had signed up showed up. The next day, the club gave the extra rice to the soccer team, and the players ate all of it in ten minutes.<br>問：Which of the following is true?"
+  choices: [More students came than the club had expected., The club cooked too much rice for the party., Thirty-five students came to the party., The soccer team cooked the rice for the club.]
+  ans: "2"
+  why: far more rice than was needed は「必要な量よりはるかに多くのご飯」。than が was needed の主語の働きをしている。35人の申し込みに対し20人しか来なかったので、ご飯が余った。
+  trap: more students had said they would come than actually came の more students に引かれて①を選ぶ誤り。than 以下と比べると、来ると言った人数のほうが多く、実際に来た人数は少ない。
+- id: q6026
+  sec: s19
+  set: 章末
+  lv: 3
+  kind: 読解
+  min: 4
+  inst: 次の英文を読み、問いの答えとして最も適切なものを1つ選びなさい。
+  q: "Dr. Patel works at a hospital in Yokohama. Last week a boy came to her office who had hurt his arm while playing basketball. He was one of the players who were practicing for the city tournament on Saturday. The X-ray showed no broken bones, but Dr. Patel told him to rest for a week. Of all the players on his team, he was the only one who was going to miss the tournament, and he looked very sad.<br>問：Why did the boy look sad?"
+  choices: [His arm was broken., He was the only player on his team who could not play in the tournament., All the players on his team had hurt their arms., Dr. Patel could not see him that day.]
+  ans: "2"
+  why: 最後の文の the only one who was going to miss the tournament から、チームで大会に出られないのは彼1人だったと分かる。2文目の who had hurt his arm は外置された関係詞節で、a boy を説明している。
+  trap: 2文目の who 節を直前の her office に結びつけて読むと、けがをしたのがだれか分からなくなる。who は人を受けるので、離れた a boy が先行詞になる。

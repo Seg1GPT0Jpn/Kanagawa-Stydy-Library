@@ -39,9 +39,10 @@ window.__paginate = function () {
     page.dataset.done = 1;
     if (page.classList.contains('nohead')) return;
     const h = document.createElement('div'); h.className = 'hashira';
-    h.innerHTML = (pageNo % 2 === 0 ? curChapter : curSection);
+    h.innerHTML = (pageNo % 2 === 0 ? (page.dataset.ch || curChapter) : (page.dataset.sec || curSection));
     const n = document.createElement('div'); n.className = 'nombre'; n.textContent = pageNo;
     const odd = pageNo % 2 === 1;
+    h.style.top = (C.top - 9) + 'mm'; n.style.bottom = (C.bottom - 11) + 'mm';
     for (const el of [h, n]) { el.style[odd ? 'right' : 'left'] = C.outer + 'mm'; el.style.textAlign = odd ? 'right' : 'left'; page.appendChild(el); }
   }
   function outerH(el) { const cs = getComputedStyle(el); return el.getBoundingClientRect().height + parseFloat(cs.marginTop) + parseFloat(cs.marginBottom); }
@@ -54,6 +55,8 @@ window.__paginate = function () {
   function measure(el, box) { box.appendChild(el); const h = outerH(el); box.removeChild(el); return h; }
 
   const blocks = Array.from(flow.children);
+  if (blocks.length !== C.nblocks) errors.push(`ブロック数の不一致: 生成 ${C.nblocks}、配置対象 ${blocks.length}（HTML の入れ子の誤り）`);
+  if (flow.parentElement !== document.body) errors.push('#flow の位置が不正');
   newPage(blocks[0] && blocks[0].dataset.pagekind);
   for (let i = 0; i < blocks.length; i++) {
     const b = blocks[i];
@@ -88,6 +91,7 @@ window.__paginate = function () {
     h = measure(b, meas);
     b.style.top = (y / MM) + 'mm';
     mainEl.appendChild(b); b.style.position = 'absolute'; b.style.left = '0'; b.style.right = '0';
+    if (!page.dataset.ch) { page.dataset.ch = curChapter; page.dataset.sec = curSection; }
     page.classList.add('used');
     let sy = Math.max(sideY, y);
     for (const n of notes) { const nh1 = measure(n, smeas); n.style.position = 'absolute'; n.style.top = (sy / MM) + 'mm'; n.style.left = 0; n.style.right = 0; sideEl.appendChild(n); sy += nh1; }
@@ -104,5 +108,7 @@ window.__paginate = function () {
     pg.querySelectorAll('[data-anchor]').forEach(a => { for (const k of a.dataset.anchor.split(' ')) if (!(k in anchors)) anchors[k] = +pg.dataset.no; });
   });
   window.__anchorsLocal = anchors;
+  const placed = document.querySelectorAll('#pages .blk').length;
+  if (placed !== C.nblocks) errors.push(`配置されたブロック数 ${placed} が生成数 ${C.nblocks} と違う`);
   window.__layout = { pages: pageNo, anchors, errors };
 };

@@ -1,0 +1,61 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><style>/* 書体（すべて SIL OFL 1.1。series/fonts/ を参照）。HTML は series/build/<id>/ に置く */
+@font-face { font-family: "Min"; src: url("../fonts/BIZ_UDPMincho/BIZUDPMincho-Regular.ttf"); font-weight: 400; }
+@font-face { font-family: "Min"; src: url("../fonts/BIZ_UDPMincho/BIZUDPMincho-Bold.ttf"); font-weight: 700; }
+@font-face { font-family: "Goth"; src: url("../fonts/BIZ_UDPGothic/BIZUDPGothic-Regular.ttf"); font-weight: 400; }
+@font-face { font-family: "Goth"; src: url("../fonts/BIZ_UDPGothic/BIZUDPGothic-Bold.ttf"); font-weight: 700; }
+@font-face { font-family: "Ser"; src: url("../fonts/Source_Serif_4/SourceSerif4SmText-Regular.ttf"); font-weight: 400; size-adjust: 108%; unicode-range: U+0000-02FF, U+2018-201D; }
+@font-face { font-family: "Ser"; src: url("../fonts/Source_Serif_4/SourceSerif4SmText-It.ttf"); font-weight: 400; font-style: italic; size-adjust: 108%; unicode-range: U+0000-02FF, U+2018-201D; }
+@font-face { font-family: "Ser"; src: url("../fonts/Source_Serif_4/SourceSerif4SmText-Semibold.ttf"); font-weight: 600; size-adjust: 108%; unicode-range: U+0000-02FF, U+2018-201D; }
+@font-face { font-family: "Ser"; src: url("../fonts/Source_Serif_4/SourceSerif4SmText-Bold.ttf"); font-weight: 700; size-adjust: 108%; unicode-range: U+0000-02FF, U+2018-201D; }
+
+:root { --ink: #000; --red: #FF4B00; --net: #E6E6E6; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: #fff; color: #000; }
+body { font-family: "Ser", "Min", serif; font-size: 10pt; line-height: 1.75;
+  line-break: strict; hyphens: manual; text-autospace: normal; font-kerning: normal; }
+#flow { position: absolute; left: -10000px; top: 0; width: 134mm; }
+.measure { position: absolute; left: -20000px; top: 0; }
+.page { position: relative; overflow: hidden; break-after: page; }
+.page:last-child { break-after: auto; }
+.body { position: absolute; }
+.maincol, .sidecol { position: absolute; top: 0; bottom: 0; }
+.measure.maincol, .measure.sidecol { bottom: auto; }
+.hashira { position: absolute; font: 8pt/1 "Goth"; letter-spacing: .04em; white-space: nowrap; }
+.nombre { position: absolute; font: 9pt/1 "Ser", "Goth"; }
+
+/* 文中記法 */
+.ans { color: var(--red); }
+.rp { font-weight: 600; text-decoration: underline; text-decoration-thickness: .6pt; text-underline-offset: 2px; }
+.term { font-weight: 700; }
+.gap { display: inline-block; width: 1.1em; border-bottom: .5pt solid #000; height: .9em; vertical-align: baseline; margin: 0 .1em; }
+.blank { display: inline-block; width: 3.2em; }
+.pref { white-space: nowrap; font-family: "Ser", "Goth"; }
+u { text-decoration-thickness: .6pt; text-underline-offset: 2px; }
+sub { font: 7.5pt "Goth"; vertical-align: -1pt; margin-left: .1em; }
+.en { font-family: "Ser", serif; }
+.page{width:210mm;height:297mm;position:relative;overflow:hidden}
+.s{font:700 10pt/1 "Goth";letter-spacing:.2em}
+.t{font:700 38pt/1.25 "Goth"}
+.p{font:700 15pt/1.4 "Goth"}
+.u{font:9.5pt/1.6 "Goth"}</style></head><body><div class="page"><div style="position:absolute;left:0;right:0;top:0;height:150mm;background:#E6E6E6"></div>
+<div style="position:absolute;left:20mm;top:22mm" class="s">高校英語シリーズ　1</div>
+<div style="position:absolute;left:20mm;right:20mm;top:45mm;display:flex;justify-content:center"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 62" width="170mm" height="62mm">
+<text x="13.71" y="34" font-family="Ser" font-size="8.47" font-weight="400">the</text>
+<text x="29.56" y="34" font-family="Ser" font-size="8.47" font-weight="400">book</text>
+<text x="52.94" y="34" font-family="Ser" font-size="8.47" font-weight="400">[that</text>
+<text x="75.03" y="34" font-family="Ser" font-size="8.47" font-weight="400">I</text>
+<text x="80.60" y="34" font-family="Ser" font-size="8.47" font-weight="400">read</text>
+<line x1="101.93" y1="34.60" x2="109.55" y2="34.60" stroke="#000" stroke-width=".5"/>
+<text x="111.70" y="34" font-family="Ser" font-size="8.47" font-weight="400">yesterday]</text>
+<path d="M51.94,36.5 V38.5 H157.29 V36.5" fill="none" stroke="#000" stroke-width=".35"/>
+<text x="104.61" y="43.5" font-family="Goth" font-size="3.2" text-anchor="middle">関係詞節</text>
+<line x1="13.71" y1="38.5" x2="50.79" y2="38.5" stroke="#000" stroke-width="1"/>
+<text x="32.25" y="43.5" font-family="Goth" font-size="3.2" text-anchor="middle">先行詞</text>
+<path d="M105.74,32.73 C105.74,13.65 32.25,13.65 32.25,25.15" fill="none" stroke="#000" stroke-width=".5"/>
+<path d="M30.95,22.85 L32.25,25.45 L33.55,22.85" fill="none" stroke="#000" stroke-width=".5"/>
+<text x="105.74" y="49.5" font-family="Goth" font-size="3.2" text-anchor="middle">欠けた目的語</text>
+<line x1="105.74" y1="36.2" x2="105.74" y2="46.0" stroke="#000" stroke-width=".25"/>
+</svg></div>
+<div style="position:absolute;left:20mm;top:168mm;border-top:1.2pt solid #000;padding-top:5mm;width:170mm" class="t">英文法　関係詞</div>
+<div style="position:absolute;left:20mm;top:200mm" class="p">完全解説book</div>
+<div style="position:absolute;left:20mm;bottom:22mm" class="u">大学入学共通テスト・GMARCH 個別試験 対応　／　かながわ教材ライブラリ</div></div></body></html>

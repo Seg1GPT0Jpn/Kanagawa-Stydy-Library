@@ -1,0 +1,481 @@
+chapters:
+- id: c3
+  title: what と that
+  lead: 第1章と第2章では、先行詞の後ろに置く関係詞を学びました。この章では、先行詞を自分の中にふくむ what と、what を使った決まった言い方を扱います。最後に、関係代名詞の that と接続詞の that を「後ろが完全な文か不完全な文か」で見分け、what もふくめた4つの形を1つの表で整理します。
+  sections:
+  - id: s10
+    title: 先行詞をふくむ関係代名詞 what
+    patterns: [P6]
+    body:
+    - h: what は先行詞を自分の中にふくむ
+    - p: s01 では、関係代名詞は先行詞の後ろに置くと学びました。ところが what の前には先行詞がありません。what 自体が「もの」「こと」という名詞を中にふくんでいるからです。そのため what は the thing(s) which と置きかえられます。@e301 の What Ben said は「ベンが言ったこと」で、The thing which Ben said と同じ意味です。
+    - ex: [e301, e302]
+    - p: what から始まるまとまりは、文の中で1つの名詞として働きます。このように名詞の働きをする節が<<名詞節>>です。名詞と同じ働きなので、主語（@e301）、目的語（@e302）、補語（@e303）、前置詞の目的語（@e304）のどこにでも置けます。訳は「〜すること」「〜するもの」とまとめるのが基本です。
+      notes:
+      - {kind: 用語, term: 名詞節, yomi: めいしせつ, text: 主語と動詞をふくむまとまりで、文の中で名詞と同じ働き（主語・目的語・補語など）をするもの。what 節や接続詞 that の節がこれにあたる。}
+    - ex: [e303, e304]
+    - h: what の後ろは不完全な文
+    - p: what も関係代名詞なので、節の中で主語や目的語の代わりをします。だから what の後ろには、何かが欠けた不完全な文が続くのです。@e302 では looking for の後ろの目的語が、@e303 では gave の目的語が欠けています。s01 の問2「節の中で何が欠けているか」は、what にもそのまま使えるわけです。主語も目的語もそろった完全な文が後ろに来るなら、what は入りません。
+      notes:
+      - {kind: 注意, text: 前置詞の目的語が欠けることもある。@e302 の looking for ＿ のように、前置詞が節の最後に残っている文を見落とさない。}
+    - h: 先行詞があれば what は使えない
+    - p: what はすでに先行詞をふくんでいるので、前に先行詞を置くと「もの」が二重になります。@e305 のように the cups という先行詞があれば that（または which）、@e306 のように先行詞がなければ what です。the things what … や all what … は誤りです。「〜するすべてのこと」なら all that … や everything that … を使います。
+      notes:
+      - {kind: 注意, text: everything, all, anything の後ろに what は置けない。that を使うか、目的格なら that を省略する（everything he said）。}
+    - ex: [e305, e306]
+    - check:
+      - {q: "I'll tell you [＿] I saw at the zoo.", a: what}
+      - {q: "This is the key [＿] opens the back door.", a: which／that}
+      - {q: "Everything [＿] he said was true.", a: that（省略も可）}
+    - h: 疑問詞の what との見分け方
+    - p: what には「何」という疑問詞の働きもあります。@e307 の what I wanted for lunch は「昼食に何が欲しいか」で、ask（たずねる）の目的語です。ask や wonder、I'm not sure のように「分からないこと」を表す語の後ろでは、疑問詞として「何を〜か」と訳すのが自然です。
+    - p: 一方、know, tell, remember などの後ろでは、どちらにも読める場合があります。@e308 は「加藤先生が何と言ったか」とも「加藤先生が言ったこと」とも訳せ、意味はほとんど変わりません。和訳では文脈に合う方を選べば十分です。buy や find のように物を相手にする動詞の後ろなら、関係代名詞として「〜するもの」と読みます（@e302）。
+    - ex: [e307, e308]
+    examples:
+    - id: e301
+      en: "[*What* ＿ Ben said at the meeting] surprised everyone."
+      ja: ベンが会議で言ったことは、全員を驚かせた。
+    - id: e302
+      en: "I couldn't find [*what* I was looking for ＿] at the shop near the station."
+      ja: 駅の近くの店では、探していたものが見つからなかった。
+    - id: e303
+      en: "This bag is [*what* my grandmother gave ＿ to me on my sixteenth birthday]."
+      ja: このかばんは、16歳の誕生日に祖母がくれたものだ。
+    - id: e304
+      en: "Thank you for [*what* you did ＿ for our club last week]."
+      ja: 先週、私たちの部のためにしてくれたことに感謝している。
+    - id: e305
+      en: "Amir showed me the cups [*that* he had bought ＿ in Kyoto]."
+      ja: アミールは、京都で買ったカップを私に見せてくれた。
+    - id: e306
+      en: "Amir showed me [*what* he had bought ＿ in Kyoto]."
+      ja: アミールは、京都で買ったものを私に見せてくれた。
+    - id: e307
+      en: Nora asked me what I wanted for lunch.
+      ja: ノーラは私に、昼食に何が欲しいかとたずねた。
+    - id: e308
+      en: Do you remember what Mr. Kato told us in class yesterday?
+      ja: 昨日の授業で加藤先生が私たちに何と言ったか（言ったこと）を覚えているか。
+    summary:
+    - "what は先行詞を{{ふくむ}}関係代名詞で、{{the thing(s) which}} と同じ意味になる。"
+    - "what 節は{{名詞節}}で、主語・目的語・補語・前置詞の目的語になる。訳は「〜{{すること}}」「〜するもの」。"
+    - "what の後ろは{{不完全な}}文。前に先行詞があれば what は使えず、{{which／that}} を使う（all what、everything what は誤り）。"
+    - "ask や wonder の後ろの what は{{疑問詞}}で、「{{何を〜か}}」と訳す。"
+  - id: s11
+    title: what を使った決まった言い方
+    patterns: [P16, P17]
+    body:
+    - h: いわゆる：what we call / what is called
+    - p: what we call … と what is called … は、どちらも「いわゆる…」と訳す決まった言い方です。形を分けて見ると、なぜそう訳すのかが分かります。call A B（AをBと呼ぶ）のAが what になったのが what we call B（私たちがBと呼ぶもの）で、受け身の A is called B のAが what になったのが what is called B です（@e309、@e310）。
+      notes:
+      - {kind: 注意, text: we の代わりに you や they を使った what you call、what they call も同じ意味になる。}
+    - ex: [e309, e310]
+    - h: 今の姿と昔の姿：what S is / what S was
+    - p: what S is は「Sの今の姿」を表します。be 動詞の後ろの補語が what になって欠けている形です。@e311 の what it was ten years ago は「10年前の駅の姿」で、was の後ろの補語が欠けています。昔の姿は what S was のほかに what S used to be でも表せ、意味はほぼ同じです。
+    - p: 人について使うと、その人の人柄や、努力して手に入れた今の立場を指すことが多くなります。@e312 の what he is today は「今日の加藤先生」、つまり教師として今ある姿全体です。what he has（その人が持っているもの、財産）と対比して使われることもあります。
+    - ex: [e311, e312]
+    - h: 情報を付け足す what is more / what is worse
+    - p: what is more は「そのうえ、さらに」、what is worse は「さらに悪いことに」という意味で、2つの文の間に入れて情報を付け足します（@e313、@e314）。文の中ではコンマではさんで置くのが普通です。過去の出来事を話すときは、@e314 のように what was worse と過去形にすることが多くあります。よいことを足すなら what is better（さらによいことに）を使います。
+    - ex: [e313, e314]
+    - check:
+      - {q: "My brother is [＿] we call a bookworm.", a: what}
+      - {q: "The town is not [＿] it used to be.", a: what}
+      - {q: "We got lost, and [＿] was worse, my phone died.", a: what}
+    - h: 発展：A is to B what C is to D と関係形容詞の what
+    - p: A is to B what C is to D は「AとBの関係は、CとDの関係と同じだ」という意味です（@e315）。what a map is to a traveler は「地図が旅行者にとってそうであるもの」という名詞節で、最初の is の補語になっています。訳すときは、分かりやすい後半のCとDの関係を先に考え、それを前半に当てはめます。What C is to D, A is to B. と前後を入れかえた形も使われます。
+    - p: what の直後に名詞を置くと、what は「〜するすべての（名詞）」という意味でその名詞を修飾します。このような what が<<関係形容詞>>です。what money I had は all the money that I had と同じ意味。@e316 では little が加わり、「少ないながらも持っていたお金を全部」となります。数えられる名詞なら what few books のように few を使います。
+      notes:
+      - {kind: 用語, term: 関係形容詞, yomi: かんけいけいようし, text: 後ろの名詞を修飾しながら、関係詞節をつくる what や which。what ＋名詞は「〜するすべての（名詞）」の意味になる。}
+    - ex: [e315, e316]
+    examples:
+    - id: e309
+      en: "Hana is [*what* we call ＿ a morning person]."
+      ja: ハナは、いわゆる朝型の人間だ。
+      gloss: [[morning person, 朝型の人]]
+    - id: e310
+      en: 'My uncle lives in [*what* ＿ is called a "smart house,"] so he can turn on the lights with his voice.'
+      ja: おじはいわゆる「スマートハウス」に住んでいるので、声で明かりをつけられる。
+    - id: e311
+      en: "The station is very different from [*what* it was ＿ ten years ago]."
+      ja: その駅は、10年前の姿とはずいぶん違っている。
+    - id: e312
+      en: "Mr. Kato owes [*what* he is ＿ today] to the coach he met in high school."
+      ja: 加藤先生が今日あるのは、高校時代に出会ったコーチのおかげだ。
+      gloss: [[owe, 〜のおかげである]]
+    - id: e313
+      en: "This phone is light, and [*what* ＿ is more], its battery lasts for two days."
+      ja: この電話は軽く、そのうえ電池が2日もつ。
+      gloss: [[battery, 電池]]
+    - id: e314
+      en: "We missed the last bus, and [*what* ＿ was worse], it started to rain."
+      ja: 私たちは最終バスに乗り遅れ、さらに悪いことに雨が降り出した。
+    - id: e315
+      en: "A dictionary is to a language learner [*what* a map is ＿ to a traveler]."
+      ja: 辞書と語学の学習者の関係は、地図と旅行者の関係と同じだ。
+      gloss: [[language learner, 語学の学習者]]
+    - id: e316
+      en: "Nora spent [*what* little money she had ＿] on a birthday present for her brother."
+      ja: ノーラは、少ないながらも持っていたお金を全部、弟の誕生日プレゼントに使った。
+    summary:
+    - "what we call B／what is called B ＝「{{いわゆる}}B」"
+    - "what S is ＝「Sの{{今の姿}}」、what S was／what S {{used to be}} ＝「Sの昔の姿」"
+    - "what is more ＝「{{そのうえ}}」、what is worse ＝「{{さらに悪いことに}}」。過去の話では what {{was}} worse にすることが多い。"
+    - "A is to B what C is to D ＝「AとBの関係は、{{CとD}}の関係と同じ」"
+    - "what (little) ＋名詞＋S＋V ＝「（少ないながらも）Sが〜する{{すべての}}名詞」。この what を{{関係形容詞}}という。"
+  - id: s12
+    title: 関係代名詞の that と接続詞の that
+    patterns: [P7]
+    body:
+    - h: 見た目は同じでも働きが違う
+    - p: that には、関係代名詞の that と接続詞の that があります。見た目が同じなので、手がかりは後ろの文です。関係代名詞の that は節の中で主語や目的語の代わりをするため、後ろは不完全な文になります。接続詞の that は「〜ということ」というまとまりをつくるだけで、節の中では何の役もしません。だから後ろは完全な文です。
+    - p: "@e317 では、told us の後ろに「何を」伝えたかが欠けていて、that がその代わりをしています。これは関係代名詞です。@e318 の that 以下は our team had won the final で、主語も目的語もそろっています。同じ the news の後ろでも、that の後ろを見れば働きが決まるのです。"
+    - ex: [e317, e318]
+    - h: 同格の that：名詞の中身を説明する
+    - p: "@e318 のように、名詞の後ろに接続詞の that を置き、その名詞の中身を説明する使い方が<<同格>>の that です。訳は「〜という知らせ」「〜という事実」（@e319）のようになります。前に来る名詞は fact, news, idea, hope, rumor, possibility など、中身を持つ名詞に限られます。book や bag のような物の名詞の後ろには来ません。"
+      notes:
+      - {kind: 用語, term: 同格, yomi: どうかく, text: 前の名詞と後ろの語句が同じものを指し、後ろが前の名詞の中身を説明する関係。the fact that … は「…という事実」。}
+      - {kind: 注意, text: 同格の that は接続詞なので、which に置きかえられない。the idea which we should start early は誤り。}
+    - p: 関係詞節も同格の that 節も、前の名詞を説明する点は似ています。ただし訳し方には差が出ます。@e317 は「ベンが伝えた知らせ」、@e318 は「チームが勝ったという知らせ」です。「という」を付けて自然に訳せるかどうかは手がかりになりますが、迷ったときは後ろが完全な文かどうかで決めます。
+      notes:
+      - {kind: 語注, items: [[nail, くぎ]]}
+    - ex: [e319]
+    - h: 名詞節をつくる that と、that の省略
+    - p: 名詞の後ろではなく、動詞の後ろや主語の位置に置かれた that 節は、名詞節をつくる接続詞です（@e320）。この that の後ろも完全な文です。think, know, say などの後ろでは、この that はよく省略されます。
+    - p: 省略できるかどうかは、that の種類によって違います。目的格の関係代名詞 that は省略できます（@e321）。主格の関係代名詞は、原則として省略できません（@s03）。同格の that は、書き言葉では省略しないのが普通で、the fact that の that も省きません。ただし話し言葉では、I have a feeling (that) … のように、一部の名詞の後ろで省かれることがあります。
+    - ex: [e320, e321]
+    - h: 4つの形を1つの表で見分ける
+    - p: s10 の what と合わせると、2つの問いで4つの形が決まります。1つは「前の名詞を説明しているか」、もう1つは「後ろが完全な文か」です。後ろが完全な文で前の名詞を説明しているときは、同格の that のほかに関係副詞（@s09）の可能性もあるので、名詞の意味も確かめます。
+    - table:
+        head: ["", 後ろが不完全な文, 後ろが完全な文]
+        rows:
+        - [前の名詞を説明する, "{{関係代名詞}} which／who／that（@e317）", "{{同格の that}}（@e318）"]
+        - [前の名詞を説明しない（名詞節）, "{{what}}（@e301）", "{{接続詞の that}}（@e320）"]
+    - check:
+      - {q: "The rumor [＿] the shop will close is not true.", a: that（同格）}
+      - {q: "I agree with [＿] you said.", a: what}
+      - {q: "Is this the bike [＿] you bought last week?", a: which／that（省略も可）}
+    examples:
+    - id: e317
+      en: "The news [*that* Ben told us ＿] was not true."
+      ja: ベンが私たちに伝えた知らせは、本当ではなかった。
+    - id: e318
+      en: The news that our team had won the final reached the school before noon.
+      ja: 私たちのチームが決勝で勝ったという知らせは、正午前に学校に届いた。
+      gloss: [[final, 決勝]]
+    - id: e319
+      en: We were surprised by the fact that the old bridge was built without a single nail.
+      ja: その古い橋がくぎを1本も使わずに造られたという事実に、私たちは驚いた。
+    - id: e320
+      en: Aoi knows that the library closes at five on Saturdays.
+      ja: アオイは、土曜日は図書館が5時に閉まることを知っている。
+    - id: e321
+      en: "The shirt [I bought ＿ online] was too small for my brother."
+      ja: 私がネットで買ったシャツは、弟には小さすぎた。
+    summary:
+    - "関係代名詞の that の後ろは{{不完全な}}文、接続詞の that の後ろは{{完全な}}文。"
+    - "名詞＋that＋完全な文で名詞の中身を説明する that を{{同格}}の that といい、「〜{{という}}」と訳す。fact, news, idea などの後ろに来る。"
+    - "目的格の関係代名詞 that は省略{{できる}}。同格の that は書き言葉では{{省略しない}}。"
+    - "名詞を説明・不完全 → {{関係代名詞}}　名詞節・不完全 → {{what}}　名詞を説明・完全 → {{同格の that}}　名詞節・完全 → {{接続詞の that}}"
+
+problems:
+- id: q3001
+  sec: s10
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: (＿) Nora made for us last night was delicious.
+  choices: [That, What, Which, Who]
+  ans: "2"
+  why: 空所の前に先行詞がなく、節の中で made の目的語が欠けている。先行詞をふくみ「〜するもの」を表す What が入る。
+  trap: ①That を選ぶ誤り。文頭の That 節は接続詞なので後ろに完全な文が必要だが、made の目的語が欠けている。
+- id: q3002
+  sec: s10
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  q: Excuse me, but this is not (＿) I ordered. I asked for iced tea.
+  choices: [what, that, which, who]
+  ans: "1"
+  why: is not の後ろに先行詞がなく、ordered の目的語が欠けている。「私が注文したもの」は what I ordered。
+  trap: ②that を選ぶ誤り。関係代名詞の that は先行詞が必要で、接続詞の that なら後ろは完全な文でなければならない。
+- id: q3003
+  sec: s10
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部のうち、誤りをふくむものを1つ選びなさい。
+  q: __All__① the things __what__② my sister __bought__③ at the market __were__④ cheap.
+  choices: ["1", "2", "3", "4"]
+  ans: "2"
+  why: the things という先行詞があるので what は使えない。that（または which）にするか、省略する。
+  trap: 「〜するもの」という日本語につられて what を正しいと考える誤り。what はすでに先行詞をふくんでいる。
+- id: q3004
+  sec: s10
+  set: 節末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。ただし文頭に来る語も小文字にしてある。
+  q: ベンが昨日私に話したことは本当だった。<br>( Ben / me / told / what / yesterday ) was true.
+  words: [Ben, me, told, what, yesterday]
+  ans: What Ben told me yesterday was true.
+  why: 「ベンが昨日私に話したこと」は what で始まる名詞節で、文の主語になる。what の後ろは told me ＿ と目的語が欠けた形。
+  trap: Ben told me what yesterday のように what を節の中に残す誤り。what は欠けた目的語の位置ではなく節の先頭に出る。
+- id: q3005
+  sec: s10
+  set: 節末
+  lv: 2
+  kind: 和訳
+  min: 3
+  inst: 次の英文を日本語に訳しなさい。
+  q: What surprised me most on the trip was the size of the trains.
+  ans: 旅行でいちばん驚いたのは、列車の大きさだった。
+  alt: [旅行で私をいちばん驚かせたものは、列車の大きさだった。]
+  why: What surprised me most on the trip が主語の名詞節で、「旅行で私をいちばん驚かせたもの（こと）」。was の後ろの補語を「列車の大きさ」と訳せていれば正解。
+  trap: What を疑問詞と考えて「何が驚かせたか」と訳す誤り。文の主語になっていて was で受けるので、「〜したもの」と訳す。
+- id: q3006
+  sec: s10
+  set: 節末
+  lv: 3
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: The guide at the museum explained (＿) the old tools had been used for.
+  choices: [what, which, that, how]
+  ans: "1"
+  why: explained の後ろに先行詞がなく、節の最後の for の目的語が欠けている。先行詞なし・不完全な文なので what が入る（「何のために使われていたか」）。
+  trap: ④how を選ぶ誤り。how の後ろは完全な文が必要だが、used for で前置詞の目的語が欠けている。
+- id: q3007
+  sec: s11
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  q: My cousin is (＿) is called a "night owl." He usually goes to bed at three in the morning.
+  choices: [which, what, who, that]
+  ans: "2"
+  why: what is called … で「いわゆる…」。is の補語の位置に先行詞がなく、節の中の主語が欠けているので what が入る。
+  trap: 主語が人なので③who を選ぶ誤り。who も関係代名詞として使うには先行詞が必要で、ここには先行詞がない。
+- id: q3008
+  sec: s11
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  q: Since the new mall opened, our town has become very different from (＿) it used to be.
+  choices: [that, what, which, who]
+  ans: "2"
+  why: what S used to be で「Sの昔の姿」。from の後ろに先行詞がなく、used to be の補語が欠けているので what が入る。
+  trap: different from の後ろだから①that を選ぶ誤り。that には先行詞が必要で、接続詞なら後ろは完全な文でなければならない。
+- id: q3009
+  sec: s11
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  q: I left my umbrella on the train, and (＿) was worse, it began to rain hard.
+  choices: [what, that, it, this]
+  ans: "1"
+  why: what is worse は「さらに悪いことに」。過去の話なので was になっている。
+  trap: ③it を選んで「それはもっと悪かった」と読む誤り。it was worse を入れると、コンマだけで2つの文がつながる誤った形になる。
+- id: q3010
+  sec: s11
+  set: 節末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: ハナはいわゆる天才だ。<br>Hana is ( what / call / a / we / genius ).
+  words: [what, call, a, we, genius]
+  ans: Hana is what we call a genius.
+  why: we call A B（AをBと呼ぶ）のAが what になった what we call B で「いわゆるB」。
+  trap: what a genius we call と並べる誤り。call の後ろにはBにあたる a genius を置く。
+- id: q3011
+  sec: s11
+  set: 節末
+  lv: 3
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Leaves are to a tree (＿) lungs are to a human.
+  choices: [what, which, that, how]
+  ans: "1"
+  why: A is to B what C is to D で「AとBの関係はCとDの関係と同じ」。what lungs are to a human は are の補語が欠けた名詞節。
+  trap: ③that を選ぶ誤り。接続詞の that なら後ろに完全な文が必要だが、are の補語が欠けている。
+- id: q3012
+  sec: s11
+  set: 節末
+  lv: 3
+  kind: 和訳
+  min: 3
+  inst: 次の英文を日本語に訳しなさい。
+  q: Amir gave the hungry cat what little food he had in his bag.
+  ans: アミールは、かばんに入っていたわずかな食べ物を全部、おなかをすかせたネコにあげた。
+  alt: [アミールは、空腹のネコに、少ないながらもかばんに持っていた食べ物をすべて与えた。]
+  why: what little food he had は関係形容詞の what で、all the little food that he had と同じ。「少ないながら持っていた食べ物を全部」の意味が出ていれば正解。
+  trap: what を疑問詞と考えて「何の食べ物を持っていたか」と訳す誤り。gave の2つ目の目的語なので「あげたもの」になる。
+- id: q3013
+  sec: s12
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Hana heard the news (＿) the concert was canceled.
+  choices: [what, that, which, who]
+  ans: "2"
+  why: 後ろの the concert was canceled は主語も動詞もそろった完全な文。the news の中身を説明する同格の that が入る。
+  trap: ③which を選ぶ誤り。which は関係代名詞なので後ろが不完全な文でなければならないが、ここでは何も欠けていない。
+- id: q3014
+  sec: s12
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  q: The cake (＿) my father baked for my birthday was too sweet.
+  choices: [what, that, who, whose]
+  ans: "2"
+  why: 先行詞 The cake は人以外で、節の中で baked の目的語が欠けている。関係代名詞の that が入る（which も可）。
+  trap: 「〜したもの」と考えて①what を選ぶ誤り。The cake という先行詞があるので what は使えない。
+- id: q3015
+  sec: s12
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部のうち、誤りをふくむものを1つ選びなさい。
+  q: __The__① idea __which__② we should __share__③ the cost __was__④ suggested by Aoi.
+  choices: ["1", "2", "3", "4"]
+  ans: "2"
+  why: we should share the cost は完全な文で、idea の中身を説明している。同格の that にする。
+  trap: idea が物の名詞なので which を正しいと考える誤り。which の後ろは不完全な文でなければならない。
+- id: q3016
+  sec: s12
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  q: The photos __that__① Mr. Kato __took__② __them__③ in Hokkaido __were__④ beautiful.
+  choices: ["1", "2", "3", "4"]
+  ans: "3"
+  why: that は took の目的語の代わりをする関係代名詞なので、節の中に目的語 them を残してはいけない。them を取る。
+  trap: 「写真を撮った」と考えて took の後ろに目的語が必要だと思う誤り。目的語はすでに that が代わりをしている。
+- id: q3017
+  sec: s12
+  set: 節末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: その歌手が日本に来るという知らせに、私たちはわくわくした。<br>We were excited by ( singer / the / coming / news / that / was / the ) to Japan.
+  words: [singer, the, coming, news, that, was, the]
+  ans: We were excited by the news that the singer was coming to Japan.
+  why: 「〜という知らせ」は同格の that を使い、the news that ＋完全な文（the singer was coming）の順に並べる。
+  trap: the singer news that … のように名詞を並べてしまう誤り。that の前は中身を説明される名詞 the news だけを置く。
+- id: q3018
+  sec: s12
+  set: 節末
+  lv: 3
+  kind: 和訳
+  min: 3
+  inst: 次の英文を日本語に訳しなさい。
+  q: The rumor that the team that won last year would not join the tournament turned out to be false.
+  ans: 去年優勝したチームが大会に出ないといううわさは、うそだと分かった。
+  alt: [昨年勝ったチームが今回の大会に参加しないといううわさは、事実ではないと判明した。]
+  why: 1つ目の that は rumor の中身を説明する同格の that（後ろが完全な文）、2つ目の that は won の主語が欠けた関係代名詞。「〜したチームが…しないといううわさ」と組み立てられていれば正解。
+  trap: 1つ目の that も関係代名詞と考え、「チームが広めたうわさ」のように訳す誤り。the team … would not join the tournament は何も欠けていない完全な文である。
+- id: q3019
+  sec: s10
+  set: 章末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部のうち、誤りをふくむものを1つ選びなさい。
+  q: I'm sorry, but I can't __remember__① __everything__② __what__③ you told me __on__④ the phone.
+  choices: ["1", "2", "3", "4"]
+  ans: "3"
+  why: everything が先行詞なので what は使えない。that にするか、省略して everything you told me とする。
+  trap: 「〜したことすべて」の「こと」に引かれて what を選ぶ誤り。everything がすでに「こと」にあたる。
+- id: q3020
+  sec: s12
+  set: 章末
+  lv: 2
+  kind: 正誤
+  min: 1
+  q: We were all happy __to hear__① the news __what__② our coach __had__③ recovered __from__④ his illness.
+  choices: ["1", "2", "3", "4"]
+  ans: "2"
+  why: our coach had recovered from his illness は完全な文で、the news の中身を説明している。同格の that にする。
+  trap: what を「〜ということ」の意味と考える誤り。what の後ろは不完全な文で、前に名詞を置くこともできない。
+- id: q3021
+  sec: s11
+  set: 章末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: この町は30年前とはまったく違う。<br>This town is ( was / different / it / from / what / quite ) thirty years ago.
+  words: [was, different, it, from, what, quite]
+  ans: This town is quite different from what it was thirty years ago.
+  why: 「30年前の町の姿」は what it was thirty years ago。be different from の後ろに置く。
+  trap: different from it was … のように what を落とす誤り。from の後ろには名詞（名詞節）が必要で、was の補語も欠けている。
+- id: q3022
+  sec: s11
+  set: 章末
+  lv: 3
+  kind: 整序
+  min: 2
+  q: アオイは、少ないながらためたお金を全部、新しいギターに使った。<br>Aoi spent ( had / little / what / she / money / saved ) on a new guitar.
+  words: [had, little, what, she, money, saved]
+  ans: Aoi spent what little money she had saved on a new guitar.
+  why: 関係形容詞の what を使い、what little money ＋ she had saved の順にする。「少ないながら〜したすべてのお金」。
+  trap: what she had saved little money と並べる誤り。関係形容詞の what は直後に（little ＋）名詞を連れてくる。
+- id: q3023
+  sec: s12
+  set: 章末
+  lv: 2
+  kind: 補充
+  min: 2
+  inst: 各文の（　）に that か what のどちらかを入れなさい。
+  q: (1) (＿) I need now is a cup of hot tea.<br>(2) My sister told me (＿) she would be late for dinner.
+  ans: (1) What (2) that
+  why: (1) は先行詞がなく need の目的語が欠けているので What。(2) は she would be late for dinner が完全な文なので接続詞の that。
+  trap: (2) で told me の後ろだから「言ったこと」と考え what を入れる誤り。what なら後ろが不完全でなければならない。
+- id: q3024
+  sec: s12
+  set: 章末
+  lv: 2
+  kind: 読解
+  min: 4
+  inst: 次の英文を読み、問いの答えとして最も適切なものを1つ選びなさい。
+  q: Last spring, our class planted twenty small trees along the river near our school. Many people in town believed the story that the river water was too salty for trees. However, the trees that we planted are now taller than our teacher. Last week a reporter from a local newspaper came to see them. The fact that every tree is still alive surprised her. She wrote an article that was printed on the front page, and now younger students want to plant more trees next year.<br>問　What surprised the reporter?
+  choices: [The river water was too salty for trees., All of the trees were still alive., The students wrote an article for the newspaper., The trees were taller than the reporter.]
+  ans: "2"
+  why: The fact that every tree is still alive surprised her. の that は同格で、fact の中身が「どの木もまだ生きていること」。これが記者を驚かせた。
+  trap: ①を選ぶ誤り。the story that the river water was too salty の that も同格だが、これは町の人々が信じていた話で、記者が驚いたことではない。
+- id: q3025
+  sec: s10
+  set: 章末
+  lv: 2
+  kind: 読解
+  min: 4
+  q: On Sunday my family had a stall at the flea market in the park. We sold old books and children's clothes. What sold fastest was a box of picture books that my brother no longer reads. A woman bought all twelve books for 600 yen. In the afternoon, it got cloudy, and what was worse, a strong wind blew some of our clothes off the table. Still, we made 4,800 yen in total. We will use what we earned to buy a new tent for our summer camping trip.<br>問　Which of the following is true according to the passage?
+  choices: [The family sold all of their clothes., A woman paid 600 yen for twelve picture books., The weather was bad all day., "The family earned 6,000 yen."]
+  ans: "2"
+  why: What sold fastest was a box of picture books と A woman bought all twelve books for 600 yen から、②が正しい。
+  trap: ③を選ぶ誤り。what was worse は午後の出来事を付け足しているだけで、天気が悪くなったのは午後からである。
+- id: q3026
+  sec: s11
+  set: 章末
+  lv: 3
+  kind: 読解
+  min: 4
+  q: My grandfather runs a small bakery near the station. He says he owes what he is today to an old baker in Osaka who taught him for five years. When he was young, he was what you call a slow learner, and he often burned the bread. "Flour is to a baker what paint is to an artist," the old baker told him. "Learn how it changes." Now my grandfather can tell how dry the flour is just by touching it. What is more, he still bakes every morning at four.<br>問　What did the old baker mean by his words about flour?
+  choices: [A baker should also learn to paint., A baker works with flour in the same way an artist works with paint., Bakers and artists need the same tools., Flour is more expensive than paint.]
+  ans: "2"
+  why: A is to B what C is to D は「AとBの関係はCとDの関係と同じ」。小麦粉とパン職人の関係は、絵の具と画家の関係と同じだと言っている。
+  trap: ③を選ぶ誤り。この形は2つの「関係」が同じだと言っており、パン職人と画家が同じ道具を使うという意味ではない。

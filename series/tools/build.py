@@ -19,6 +19,7 @@ class Book:
     def __init__(self, bid):
         self.bid = bid
         self.data = yaml.safe_load((ROOT / 'src' / f'{bid}.yaml').read_text())
+        self.merge_parts()
         self.out = ROOT / 'build' / bid
         self.out.mkdir(parents=True, exist_ok=True)
         self.ex_no = {}      # e001 -> 1
@@ -39,7 +40,39 @@ class Book:
                         if nt['kind'] == '用語':
                             self.terms[nt['term']] = nt.get('yomi', nt['term'])
         self.problems = self.data.get('problems', [])
+        n = 0
+        for p in self.problems:
+            if p['set'] != '模試':
+                n += 1; p['no'] = n
+        m = 0
+        for p in self.problems:
+            if p['set'] == '模試':
+                m += 1; p['no'] = m
         self.pages = {}      # 参照ページ表（完全解説book）: anchor -> page
+
+    def merge_parts(self):
+        """src/parts/*.yaml（章ごとの執筆ファイル）を節 ID で本体に差し込む。
+        配布する本の唯一の情報源は、結合後に書き出す build/<id>/merged.yaml。"""
+        chs = {c['id']: c for c in self.data['chapters']}
+        for p in sorted((ROOT / 'src' / 'parts').glob('c*.yaml')):
+            part = yaml.safe_load(p.read_text())
+            for pc in part.get('chapters', []):
+                ch = chs[pc['id']]
+                if pc.get('lead'): ch['lead'] = pc['lead']
+                idx = {s['id']: i for i, s in enumerate(ch['sections'])}
+                for ps in pc['sections']:
+                    ch['sections'][idx[ps['id']]] = ps
+            self.data.setdefault('problems', []).extend(part.get('problems', []) or [])
+        order = {s['id']: i for i, s in enumerate(s for c in self.data['chapters'] for s in c['sections'])}
+        setord = {'節末': 0, '章末': 1, '模試': 2}
+        # 並び：模試は最後。章末は章の最後。節末は節の順
+        def key(p):
+            ch = next(c for c in self.data['chapters'] if any(s['id'] == p['sec'] for s in c['sections']))
+            ci = self.data['chapters'].index(ch)
+            if p['set'] == '模試': return (99, 0, 0)
+            if p['set'] == '章末': return (ci, 1, 0)
+            return (ci, 0, order[p['sec']])
+        self.data['problems'] = sorted(self.data.get('problems', []), key=key)  # 安定ソート
 
     # ---------- 文中記法 ----------
     def md(self, s, pages=None):
@@ -64,7 +97,8 @@ class Book:
         def secref(m):
             k = m.group(1)
             if k not in self.sec_no: raise SystemExit(f'節 ID がない: {k}')
-            p = (pages or {}).get(k)
+            # 節への参照は常に完全解説book のページを指す（完全解説book を組むときは自分のページ）
+            p = (self.pages or pages or {}).get(k)
             return f'<span class="pref" data-ref="{k}">→&nbsp;p.{p if p else "00"}</span>'
         s = re.sub(r'@(s\d+)', secref, s)
         s = s.replace('[＿]', '[<span class="blank"></span>]').replace('(＿)', '(<span class="blank"></span>)')
@@ -79,7 +113,7 @@ class Book:
         return f'''<!doctype html><html lang="ja"><head><meta charset="utf-8"><title>{html.escape(title)}</title>
 <style>{base}\n{css}</style></head><body>
 <div id="flow">{''.join(blocks)}</div><div id="pages"></div>
-<script>window.__cfg = {cfg};</script><script>{js}</script></body></html>'''
+<script>window.__cfg = {cfg}; window.__cfg.nblocks = {len(blocks)};</script><script>{js}</script></body></html>'''
 
     def render(self, name, title, css, cfg, blocks_fn):
         """2回組み。blocks_fn(pages_self) がブロック列を返す。"""
