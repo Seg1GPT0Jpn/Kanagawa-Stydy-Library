@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'tools'))
 from build import Book
 
-NAMES = {'kaisetsu': '完全解説book', 'matome': '要点まとめbook', 'mondai': '問題集', 'kaitou': '解答解説'}
+NAMES = {'honsatsu': '本冊', 'bessatsu': '別冊 解答解説'}
 FAIL, OK = [], []
 
 
@@ -48,7 +48,7 @@ def coltext(pdf, npages, n, layout=True):
     """本文欄と側注欄を分けて読み取る（側注の文字が本文の行に混ざらないように）"""
     from books import A4, A5
     from books import A4_1COL
-    cfg = A5 if n == 'matome' else (A4_1COL if n == 'mondai' else A4)
+    cfg = A4
     pt = 72 / 25.4
     out = []
     for pg in range(1, npages + 1):
@@ -59,8 +59,7 @@ def coltext(pdf, npages, n, layout=True):
             mainL = left + (0 if odd else cfg['sideW'] + cfg['gap'])
             sideL = left + (cfg['mainW'] + cfg['gap'] if odd else 0)
             boxes = [(mainL, cfg['mainW'] + 2), (sideL, cfg['sideW'])]
-            if n in ('mondai',):
-                boxes = [(left, cfg['pw'] - cfg['inner'] - cfg['outer'])]
+            boxes.append((left, cfg['pw'] - cfg['inner'] - cfg['outer']))  # 全幅（本冊の問題）
         else:
             boxes = [(left, cfg['pw'] - cfg['inner'] - cfg['outer'])]
         for x, w in boxes:
@@ -73,10 +72,10 @@ def main(bid):
     global BK
     bk = Book(bid)
     BK = bk
-    bk.pages = json.loads((bk.out / 'kaisetsu.layout.json').read_text())['anchors']
+    bk.pages = json.loads((bk.out / 'honsatsu.layout.json').read_text())['anchors']
     out = bk.out
     lay = {n: json.loads((out / f'{n}.layout.json').read_text()) for n in NAMES}
-    kp = lay['kaisetsu']['anchors']
+    kp = lay['honsatsu']['anchors']
     texts = {n: pdftext(out / f'{n}.pdf') for n in NAMES}
     cols = {n: coltext(out / f'{n}.pdf', lay[n]['pages'], n) for n in NAMES}
     cols2 = {n: coltext(out / f'{n}.pdf', lay[n]['pages'], n, layout=False) for n in NAMES}
@@ -103,42 +102,42 @@ def main(bid):
         # 表のマスは折り返しで隣のマスと行が混ざる。英語は語ごと、和文は1字ずつ、同じページにすべてあるかを見る（弱い照合。表のマスだけに使う）
         tn = norm(t)
         chunks = [norm(w) for w in re.findall(r"[A-Za-z0-9'\-]+", t)] + re.findall(r'[ぁ-んァ-ヶ一-龥]', tn)
-        for pg in range(1, lay['kaisetsu']['pages'] + 1):
-            if pg not in pagetexts: pagetexts[pg] = norm(pdftext(out / 'kaisetsu.pdf', pg))
+        for pg in range(1, lay['honsatsu']['pages'] + 1):
+            if pg not in pagetexts: pagetexts[pg] = norm(pdftext(out / 'honsatsu.pdf', pg))
             if all(ch in pagetexts[pg] for ch in chunks): return True
         return False
     for s in secs:
-        if norm(s['title'], md=True) not in ntexts['kaisetsu']: miss.append(('節題', s['id']))
+        if norm(s['title'], md=True) not in ntexts['honsatsu']: miss.append(('節題', s['id']))
         for e in s.get('examples', []):
-            if norm(e['en'], md=True) not in ntexts['kaisetsu']: miss.append(('例文', e['id'], e['en'][:30]))
-            if norm(e['ja'], md=True) not in ntexts['kaisetsu']: miss.append(('和訳', e['id']))
+            if norm(e['en'], md=True) not in ntexts['honsatsu']: miss.append(('例文', e['id'], e['en'][:30]))
+            if norm(e['ja'], md=True) not in ntexts['honsatsu']: miss.append(('和訳', e['id']))
         for b in s.get('body', []):
-            if 'p' in b and norm(b['p'], md=True)[:40] not in ntexts['kaisetsu']: miss.append(('段落', s['id'], b['p'][:20]))
+            if 'p' in b and norm(b['p'], md=True)[:40] not in ntexts['honsatsu']: miss.append(('段落', s['id'], b['p'][:20]))
             if 'table' in b:
                 for r in b['table']['rows']:
                     for c in r:
-                        if norm(c, md=True) not in ntexts['kaisetsu'] and not cell_on_page(c):
+                        if norm(c, md=True) not in ntexts['honsatsu'] and not cell_on_page(c):
                             miss.append(('表', s['id'], c))
             if 'check' in b:
                 for q in b['check']:
-                    if norm(q['a'], md=True) not in ntexts['kaisetsu']: miss.append(('確認の答え', s['id'], q['a']))
+                    if norm(q['a'], md=True) not in ntexts['honsatsu']: miss.append(('確認の答え', s['id'], q['a']))
         for sm in s.get('summary', []):
-            if norm(sm, md=True) not in ntexts['matome']: miss.append(('要点', s['id'], sm[:20]))
+            if norm(sm, md=True) not in ntexts['honsatsu']: miss.append(('要点', s['id'], sm[:20]))
     for p in bk.problems:
-        if norm(p['why'], md=True)[:40] not in ntexts['kaitou']: miss.append(('根拠', p['id']))
-        if norm(p['trap'], md=True)[:40] not in ntexts['kaitou']: miss.append(('よくある間違い', p['id']))
-        if norm(p['q'], md=True)[:40] not in ntexts['mondai']: miss.append(('問題文', p['id']))
+        if norm(p['why'], md=True)[:40] not in ntexts['bessatsu']: miss.append(('根拠', p['id']))
+        if norm(p['trap'], md=True)[:40] not in ntexts['bessatsu']: miss.append(('よくある間違い', p['id']))
+        if norm(p['q'], md=True)[:40] not in ntexts['honsatsu']: miss.append(('問題文', p['id']))
     if miss: fail(f'抜け落ち {len(miss)} 件: {miss[:8]}')
     else: ok(f'抜け落ちなし（節 {len(secs)}、例文 {sum(len(s.get("examples", [])) for s in secs)}、問題 {len(bk.problems)}、要点 {sum(len(s.get("summary", [])) for s in secs)}）')
 
     # 例文番号が本文の中で 1, 2, 3, … と飛ばずに並ぶか
-    seq = [int(m) for m in re.findall(r'<span class="n">(\d+)</span><div><div class="e">', (out / 'kaisetsu.html').read_text())]
+    seq = [int(m) for m in re.findall(r'<span class="n">(\d+)</span><div><div class="e">', (out / 'honsatsu.html').read_text())]
     if seq != list(range(1, len(seq) + 1)): fail(f'例文番号が連番でない: {[x for i, x in enumerate(seq) if x != i + 1][:5]}')
     else: ok(f'例文番号 1〜{len(seq)} が本文の順に連番')
 
     # 3. 番号の一致：問題集と解答解説の問題番号が、データの順と完全に一致するか
     want = [p['no'] for p in bk.problems if p['set'] != '模試']
-    for n in ('mondai', 'kaitou'):
+    for n in ('honsatsu', 'bessatsu'):
         got = [int(x) for x in re.findall(r'問\s?(\d+)\s', texts[n])]
         # 本文中の「問1」（3つの問い）などを除くため、データにある番号の出現順だけを見る
         seq = [x for x in got if x in set(want)]
@@ -152,18 +151,18 @@ def main(bid):
     mock = [p for p in bk.problems if p['set'] == '模試']
     if mock:
         labels = [p['label'] for p in mock]
-        for n, where in (('mondai', '問題冊子'), ('kaitou', '解答解説')):
+        for n, where in (('honsatsu', '本冊'), ('bessatsu', '別冊')):
             t = re.sub(r'\s', '', texts[n])
             lost = [l for l in labels if re.sub(r'\s', '', l) not in t]
             if lost: fail(f'模擬試験の番号が{where}にない: {lost}')
         # 解答用紙：同じ番号が同じ順で並ぶか
-        sheet = (out / 'mondai.html').read_text()
+        sheet = (out / 'honsatsu.html').read_text()
         got = re.findall(r'<td class="sl">(第\d問 \(\d+\))</td>', sheet)
         if got != labels: fail(f'解答用紙の番号が問題と違う: {got[:5]} / {labels[:5]}')
         else: ok(f'模擬試験 {len(labels)} 問：問題冊子・解答用紙・解答解説の番号が一致')
         tot = sum(p.get('pts', 0) for p in mock)
         if tot != 100: fail(f'模擬試験の配点合計が {tot}')
-    a_m = lay['mondai']['anchors']; a_k = lay['kaitou']['anchors']
+    a_m = lay['honsatsu']['anchors']; a_k = lay['bessatsu']['anchors']
     if [k for k in a_m if k.startswith('q')] and set(k for k in a_m if re.fullmatch(r'q\d+', k)) != set(k for k in a_k if re.fullmatch(r'q\d+', k)):
         fail('問題集と解答解説で問題の集合が違う')
 
@@ -176,13 +175,7 @@ def main(bid):
     # 節の見出しが、参照表のページに本当にあるか
     for s in secs:
         pg = kp.get(s['id'])
-        if not pg or norm(s['title'], md=True) not in norm(pdftext(out / 'kaisetsu.pdf', pg)): bad.append(('kaisetsu', s['id'], pg, '見出しがそのページにない'))
-    # 問題集の「解説 → 完全解説book p.N」・要点まとめ・解答解説の参照
-    for n, pat in (('mondai', r'解説 → 完全解説book p\.(\d+)'), ('matome', r'→ 完全解説book p\.(\d+)')):
-        found = [int(x) for x in re.findall(pat, texts[n])]
-        valid = set(kp[s['id']] for s in secs)
-        for f in found:
-            if f not in valid: bad.append((n, 'p.' + str(f), '節の先頭ページでない'))
+        if not pg or norm(s['title'], md=True) not in norm(pdftext(out / 'honsatsu.pdf', pg)): bad.append(('honsatsu', s['id'], pg, '見出しがそのページにない'))
     n_ref = sum(len(re.findall(r'data-ref="s\d+"', (out / f'{n}.html').read_text())) for n in NAMES)
     if bad: fail(f'参照ページの誤り {len(bad)} 件: {bad[:6]}')
     else: ok(f'参照ページ {n_ref} か所がすべて正しいページを指す')

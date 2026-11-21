@@ -51,7 +51,8 @@ window.__paginate = function () {
   const meas = document.createElement('div'); meas.className = 'maincol measure';
   meas.style.width = (C.sideW ? C.mainW : (C.pw - C.inner - C.outer)) + 'mm';
   const smeas = document.createElement('div'); smeas.className = 'sidecol measure'; smeas.style.width = C.sideW + 'mm';
-  document.body.appendChild(meas); document.body.appendChild(smeas);
+  const wmeas = document.createElement('div'); wmeas.className = 'maincol measure'; wmeas.style.width = (C.pw - C.inner - C.outer) + 'mm';
+  document.body.appendChild(meas); document.body.appendChild(smeas); document.body.appendChild(wmeas);
   function measure(el, box) { box.appendChild(el); const h = outerH(el); box.removeChild(el); return h; }
 
   const blocks = Array.from(flow.children);
@@ -77,7 +78,10 @@ window.__paginate = function () {
       finishPage(); newPage(b.dataset.pagekind);
       if (b.classList.contains('recto-start') && pageNo % 2 === 0) { page.classList.add('blank', 'nohead'); newPage(b.dataset.pagekind); }
     } else if (forceNew && b.dataset.pagekind) { page.className += ' ' + b.dataset.pagekind; }
-    let h = measure(b, meas);
+    const isWide = b.classList.contains('wide');  // 側注欄まで使う全幅のかたまり（問題など）
+    const mbox = b2 => (b2.classList.contains('wide') ? wmeas : meas);
+    if (isWide) y = Math.max(y, sideY);  // 側注の下から置く
+    let h = measure(b, mbox(b));
     // 見出しは次のブロックと一緒に送る
     let need = h;
     if (b.classList.contains('keepnext')) {
@@ -85,7 +89,7 @@ window.__paginate = function () {
       let j = i + 1;
       while (blocks[j]) {
         const c = blocks[j].cloneNode(true); c.querySelectorAll('.sn').forEach(n => n.remove());
-        const hj = measure(c, meas);
+        const hj = measure(c, mbox(blocks[j]));
         if (need + hj <= H) need += hj; else break;
         if (!blocks[j].classList.contains('keepnext')) break;
         j++;
@@ -98,12 +102,14 @@ window.__paginate = function () {
       else {
         // ページの最後に残る見出し・指示文（keepnext）は、送るかたまりと一緒に次のページへ移す
         const carry = [];
-        let last = mainEl.lastElementChild;
-        while (last && last.classList.contains('keepnext')) { carry.unshift(last); last.remove(); last = mainEl.lastElementChild; }
+        const placedHere = () => Array.from(page.querySelectorAll('.maincol > .blk, .body > .blk')).sort((a, c) => parseFloat(a.style.top) - parseFloat(c.style.top));
+        let lst = placedHere(); let last = lst[lst.length - 1];
+        while (last && last.classList.contains('keepnext')) { carry.unshift(last); last.remove(); lst = placedHere(); last = lst[lst.length - 1]; }
         finishPage(); newPage();
         for (const c of carry) {
           if (y === 0) c.classList.add('first'); else c.classList.remove('first');
-          c.style.top = (y / MM) + 'mm'; mainEl.appendChild(c);
+          c.style.top = (y / MM) + 'mm';
+          if (c.classList.contains('wide')) page.querySelector('.body').appendChild(c); else mainEl.appendChild(c);
           y += outerH(c);
           if (!page.dataset.ch) { page.dataset.ch = curChapter; page.dataset.sec = c.dataset.section || curSection; }
         }
@@ -111,19 +117,24 @@ window.__paginate = function () {
       }
     }
     if (y === 0) b.classList.add('first'); else b.classList.remove('first');
-    h = measure(b, meas);
+    if (isWide) y = Math.max(y, sideY);
+    h = measure(b, mbox(b));
     b.style.top = (y / MM) + 'mm';
-    mainEl.appendChild(b); b.style.position = 'absolute'; b.style.left = '0'; b.style.right = '0';
+    if (isWide) {
+      const body = page.querySelector('.body');
+      body.appendChild(b); b.style.position = 'absolute'; b.style.left = '0'; b.style.width = (C.pw - C.inner - C.outer) + 'mm';
+    } else { mainEl.appendChild(b); b.style.position = 'absolute'; b.style.left = '0'; b.style.right = '0'; }
     if (!page.dataset.ch) { page.dataset.ch = curChapter; page.dataset.sec = curSection; }
     page.classList.add('used');
     let sy = Math.max(sideY, y);
     for (const n of notes) { const nh1 = measure(n, smeas); n.style.position = 'absolute'; n.style.top = (sy / MM) + 'mm'; n.style.left = 0; n.style.right = 0; sideEl.appendChild(n); sy += nh1; }
     sideY = sy;
     y += h;
+    if (isWide) sideY = Math.max(sideY, y);
     if (y > H + 0.5) errors.push(`p${pageNo}: はみ出し ${(y / MM - H / MM).toFixed(1)}mm: ${b.textContent.slice(0, 40)}`);
   }
   finishPage();
-  meas.remove(); smeas.remove();
+  meas.remove(); smeas.remove(); wmeas.remove();
 
   // 参照先のページ
   const anchors = {};
@@ -133,7 +144,7 @@ window.__paginate = function () {
   window.__anchorsLocal = anchors;
   // ページの最後に見出し・指示文だけが残っていないか
   document.querySelectorAll('#pages .page').forEach(pg => {
-    const bl = pg.querySelectorAll('.maincol > .blk');
+    const bl = Array.from(pg.querySelectorAll('.maincol > .blk, .body > .blk')).sort((a, c) => parseFloat(a.style.top) - parseFloat(c.style.top));
     const last = bl[bl.length - 1];
     if (last && last.classList.contains('keepnext')) errors.push(`p${pg.dataset.no}: ページの最後に見出し・指示文だけが残っている: ${last.textContent.slice(0, 30)}`);
   });

@@ -24,6 +24,23 @@ def wordlists():
 
 
 def load(paths):
+    """本体（eg01.yaml）があれば、ほかのファイルの節を節 ID で差し込んでから返す（組版と同じ結合）。"""
+    paths = list(paths)
+    mainp = [p for p in paths if Path(p).name == 'eg01.yaml']
+    if mainp:
+        d = yaml.safe_load(Path(mainp[0]).read_text())
+        chapters = d.get('chapters', []) or []; problems = list(d.get('problems', []) or [])
+        chs = {c['id']: c for c in chapters}
+        for p in paths:
+            if p in mainp: continue
+            part = yaml.safe_load(Path(p).read_text())
+            for pc in part.get('chapters', []) or []:
+                ch = chs[pc['id']]
+                if pc.get('lead'): ch['lead'] = pc['lead']
+                idx = {s['id']: i for i, s in enumerate(ch['sections'])}
+                for ps in pc['sections']: ch['sections'][idx[ps['id']]].update(ps)
+            problems += part.get('problems', []) or []
+        return chapters, problems
     chapters, problems = [], []
     for p in paths:
         d = yaml.safe_load(Path(p).read_text())
@@ -76,6 +93,15 @@ def main(paths):
                     for q in b['check']:
                         if not q.get('q') or not q.get('a'): err.append(f'{s["id"]}: 確認問題に q/a がない')
                         if set(q) - {'q', 'a'}: err.append(f'{s["id"]}: 確認問題に余分な項目（半角コンマで文が切れた可能性）: {sorted(set(q) - {"q", "a"})}')
+            for k, w in enumerate(s.get('worked', []) or [], 1):
+                wid = f'{s["id"]} 例題{k}'
+                for key in ('q', 'steps', 'ans', 'point'):
+                    if not w.get(key): err.append(f'{wid}: {key} がない')
+                if len(w.get('steps') or []) < 2: err.append(f'{wid}: 解き方の手順が2つ未満')
+                if set(w) - {'q', 'choices', 'steps', 'ans', 'point'}: err.append(f'{wid}: 余分な項目 {sorted(set(w) - {"q", "choices", "steps", "ans", "point"})}')
+                if w.get('choices') and (len(w['choices']) != 4 or str(w.get('ans')) not in '1234'): err.append(f'{wid}: 選択肢が4つでない、または ans が 1〜4 でない')
+                en_texts.append((wid, w.get('q', '')))
+                ja_texts.append((wid, ' '.join(map(str, w.get('steps') or [])) + str(w.get('point', ''))))
             defined = {e['id'] for e in s.get('examples', []) or []}
             if defined - used_ex: err.append(f'{s["id"]}: 本文で使っていない例文: {sorted(defined - used_ex)}')
             if used_ex - defined: err.append(f'{s["id"]}: 定義のない例文: {sorted(used_ex - defined)}')
@@ -103,6 +129,7 @@ def main(paths):
         return ' '.join(re.findall(r"[a-z']+", t))
     refs = [(e['id'], simp(e['en'])) for c in chapters for s in c['sections'] for e in s.get('examples', []) or []]
     refs += [(s['id'] + ' 確認', simp(q['q'])) for c in chapters for s in c['sections'] for b in s.get('body', []) or [] for q in (b.get('check') or [])]
+    refs += [(f'{s["id"]} 例題', simp(w['q'])) for c in chapters for s in c['sections'] for w in (s.get('worked') or [])]
     refs = [(i, t) for i, t in refs if len(t.split()) >= 6]
     for p in problems:
         sents = re.split(r'(?<=[.?!])\s+', re.sub(r'<br>.*', '', str(p.get('q', '')))) if p.get('kind') != '読解' else []

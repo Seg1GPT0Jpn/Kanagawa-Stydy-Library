@@ -1,8 +1,8 @@
 book:
   id: eg01
-  series: 高校英語シリーズ
-  vol: 1
-  title: 英文法　関係詞
+  series: 超基礎から学ぶ高校英語
+  vol: 第1講
+  title: 関係詞
   edition: 第1版
   date: 2026年12月
   publisher: かながわ教材ライブラリ
@@ -92,6 +92,23 @@ chapters:
       en: The bus [*which* ＿ goes to the station] leaves every fifteen minutes.
       ja: 駅へ行くバスは15分おきに出る。
       gloss: [[every fifteen minutes, 15分ごとに]]
+    worked:
+    - q: "The girl (＿) is talking with Ms. Lee is my cousin."
+      choices: [who, which, whose, what]
+      steps:
+      - 先行詞を確かめる。(＿) の直前の The girl は人。
+      - 後ろの文で欠けているものを探す。(＿) is talking with Ms. Lee では、is talking の主語がない。
+      - 人で、主語が欠けている。表のマスから who（that でもよい）を選ぶ。
+      ans: "1"
+      point: 文全体の動詞は後ろの is my cousin。関係詞節［who is talking with Ms. Lee］を外すと The girl is my cousin. が残る。
+    - q: "This is the bag (＿) my mother gave me for my birthday."
+      choices: [who, which, whose, what]
+      steps:
+      - 先行詞を確かめる。the bag は人以外。
+      - 後ろの文で欠けているものを探す。give は「人に・物を」の2つの目的語をとる。gave me の後ろに「何を」にあたる目的語がない。
+      - 人以外で、目的語が欠けている。which（that でもよい。省略もできる）を選ぶ。
+      ans: "2"
+      point: gave me の me で目的語がそろったと思わないこと。動詞がとる語の数を確かめると、欠けている位置が見つかる。
     summary:
     - 先行詞を説明する関係詞節は先行詞の{{後ろ}}に置き、外しても文法上は文が{{成り立つ}}。
     - 関係代名詞を決める問い：①先行詞は{{人}}か人以外か　②節の中で{{何が欠けているか}}　③先行詞の直後に{{コンマ}}があるか

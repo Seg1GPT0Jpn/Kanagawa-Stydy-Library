@@ -209,8 +209,8 @@ def gojuon_row(yomi):
 def cover_html(bk, part):
     from cover import relclause_svg, EG01
     b = bk.data['book']
-    return f'''<div class="cv"><div class="cv-series"><span>{E(b["series"])}</span><span>{b["vol"]}</span></div>
-<div class="cv-title">{E(b["title"])}</div><div class="cv-sub">{E(part)}</div>
+    return f'''<div class="cv"><div class="cv-series"><span>{E(b["series"])}</span><span>{E(b["vol"])}</span></div>
+<div class="cv-title"><span class="cv-vol">{E(b["vol"])}</span>【{E(b["title"])}】</div><div class="cv-sub">{E(part)}</div>
 <div class="cv-fig">{relclause_svg(**EG01)}</div>
 <div class="cv-note">関係詞節は、欠けた語の代わりに先行詞を後ろから説明する。<br>大学入学共通テスト・GMARCH 個別試験の水準まで。</div>
 <div class="cv-pub">{E(b["publisher"])}</div></div>'''
@@ -218,8 +218,8 @@ def cover_html(bk, part):
 
 def back_html(bk, part):
     b = bk.data['book']
-    return f'''<div class="cv"><div class="cv-back">{E(b["series"])} {b["vol"]}　{E(b["title"])}<br>
-完全解説book・要点まとめbook・問題集・解答解説（4冊組）<br><br>
+    return f'''<div class="cv"><div class="cv-back">{E(b["series"])}　{E(b["vol"])}【{E(b["title"])}】<br>
+本冊（解説・例題・問題・要点・章末問題・模擬試験）と別冊（解答解説）の2冊組<br><br>
 本書は無料の教材です。{E(b["license"])} のもとで、出典を表示すれば自由に複製・配布・改変できます。<br>
 人間の専門家による確認を受ける前の版です。使う前に奥付の「ご利用の前に」をお読みください。</div>
 <div class="cv-pub">{E(b["publisher"])}</div></div>'''
@@ -228,7 +228,8 @@ def back_html(bk, part):
 COVER_CSS = '''
 .cv { position: absolute; inset: 0; }
 .cv-series { position: absolute; left: 20mm; right: 20mm; top: 24mm; border-bottom: .75pt solid #000; padding-bottom: 3mm; display: flex; justify-content: space-between; font: 700 10pt/1 "Goth"; letter-spacing: .2em; }
-.cv-title { position: absolute; left: 20mm; top: 48mm; font: 700 38pt/1.25 "Goth"; }
+.cv-title { position: absolute; left: 20mm; top: 46mm; font: 700 36pt/1.25 "Goth"; }
+.cv-vol { margin-right: .2em; }
 .cv-sub { position: absolute; left: 20mm; top: 72mm; font: 700 15pt/1.4 "Goth"; }
 .cv-fig { position: absolute; left: 20mm; right: 20mm; top: 110mm; height: 84mm; background: var(--net); display: flex; align-items: center; justify-content: center; }
 .cv-note { position: absolute; left: 20mm; top: 202mm; font: 9.5pt/1.6 "Goth"; }
@@ -241,12 +242,10 @@ COVER_CSS = '''
 def legend_html(bk, part):
     return f'''<div class="fm-title">本書の使い方</div>
 
-<p>本書は「{E(bk.data["book"]["title"])}」の4冊組のうちの{E(part)}です。4冊は同じ1つのデータから作っているので、問題番号やページの参照は4冊の間で一致します。</p>
+<p>本書は「{E(bk.data["book"]["series"])}　{E(bk.data["book"]["vol"])}【{E(bk.data["book"]["title"])}】」の{E(part)}です。本冊と別冊は同じ1つのデータから作っているので、問題番号やページの参照は2冊の間で一致します。</p>
 <table class="t lgt"><tbody>
-<tr><th>完全解説book</th><td>なぜそうなるかから説明した本体。例文・確認問題つき。</td></tr>
-<tr><th>要点まとめbook</th><td>持ち歩き用の A5 判。赤字を赤シートで隠して思い出す。</td></tr>
-<tr><th>問題集</th><td>書き込み式。節末問題・章末問題・模擬試験。</td></tr>
-<tr><th>解答解説</th><td>全問に正解・根拠・よくある間違い・完全解説book のページ。</td></tr>
+<tr><th>本冊</th><td>各節を「解説 → 例題 → 問題 → 要点」の順に学ぶ。章の終わりに章末問題、本の終わりに模擬試験と解答用紙。</td></tr>
+<tr><th>別冊　解答解説</th><td>全問に正解・根拠・よくある間違い・本冊の戻り先のページ。</td></tr>
 </tbody></table>
 <!--split--><div class="lgh">記号</div>
 <table class="t lgt"><tbody>
@@ -260,7 +259,8 @@ def legend_html(bk, part):
 <tr><th>□□□</th><td>解いた記録。1回目・1週間後・1か月後に1つずつ印を付ける</td></tr>
 </tbody></table>
 <!--split--><div class="lgh">進め方</div>
-<p>1節ずつ、完全解説book を読む → 節の最後の「確認」を赤シートで隠して答える → 問題集の節末問題を解く → 解答解説で答え合わせ、の順に進めます。間違えた問題は1週間後と1か月後にもう一度解き、□に印を付けます。時間をあけて思い出すほうが、続けて読み返すより長く覚えていられることが、実験で確かめられています。</p>
+<p>1節ずつ、次の順に進めます。①解説を読み、例文を声に出して読む。②節の中の「確認」を赤シートで隠して答える。③例題の「解き方」を読み、同じ手順で考えられるようにする。④問題を解き、別冊で答え合わせをする。間違えた問題は、別冊に書いた戻り先のページを読み直す。⑤要点を赤シートで隠して言えるか確かめる。</p>
+<p>間違えた問題は1週間後と1か月後にもう一度解き、□に印を付けます。時間をあけて思い出すほうが、続けて読み返すより長く覚えていられることが、実験で確かめられています。章の終わりの章末問題は、いくつかの節を混ぜて出しています。どの節の考え方を使うかを自分で見分ける練習です。</p>
 '''
 
 
@@ -276,7 +276,7 @@ def colophon_html(bk, part):
     b = bk.data['book']
     return f'''<div class="colo">
 <div class="warn"><b>ご利用の前に</b>　本書の本文・例文・問題・解説は AI（Claude）が作成し、自動検査と AI による点検を行ったものです。人間の専門家（英語の教員など）による確認はまだ受けていません。授業や配布に使う前に、必ず専門家の確認を受けてください。誤りを見つけた場合は配布ページでお知らせください。</div>
-<div class="bt">{E(b["series"])} {b["vol"]}　{E(b["title"])}　{E(part)}</div>
+<div class="bt">{E(b["series"])}　{E(b["vol"])}【{E(b["title"])}】　{E(part)}</div>
 <table><tbody>
 <tr><td>版</td><td>{E(b["edition"])}（{E(b["date"])}）</td></tr>
 <tr><td>発行</td><td>{E(b["publisher"])}</td></tr>
@@ -370,6 +370,27 @@ def q_body(bk, p, pages):
     return s
 
 
+def problem_blocks(bk, pages, probs, wide=False):
+    """問題を指示文つきで並べる。wide=True なら側注欄まで使う全幅で組む（本体の問題）。"""
+    out = []
+    W = ' wide' if wide else ''
+    last_inst = None
+    for p in probs:
+        inst = p.get('inst_eff')
+        if inst and inst != last_inst:
+            out.append(blk(bk.md(inst, pages), 'inst keepnext' + W))
+        last_inst = inst
+        body = q_body(bk, p, pages)
+        if p['kind'] == '正誤' and '直しなさい' in (p.get('inst_eff') or ''):
+            out.append(blk(f'<div class="q">{body}</div><div class="acol"><span class="alab">記号</span><div class="abox"></div></div><div class="wl"><span class="alab">正しい形</span><div class="aline"></div><div class="aline"></div></div>', 'qr w' + W, anchor='q' + str(p['no'])))
+        elif p['kind'] in ('4択', '正誤') or (p['kind'] == '読解' and p.get('choices')):
+            out.append(blk(f'<div class="q">{body}</div><div class="acol"><span class="alab">解答</span><div class="abox"></div></div>', 'qr' + W, anchor='q' + str(p['no'])))
+        else:
+            n = {'整序': 1, '補充': 1, '和訳': 2, '英作': 2, '読解': 2}[p['kind']]
+            out.append(blk(f'<div class="q">{body}</div><div></div><div class="wl"><span class="alab">解答</span>' + '<div class="aline"></div>' * (n + 1) + '</div>', 'qr w' + W, anchor='q' + str(p['no'])))
+    return out
+
+
 def mondai_blocks(bk, pages, part, cover, colophon, legend):
     kp = bk.pages  # 完全解説book のページ
     out = [fullpage(cover, 'nohead pk-cover', anchor='cover'), fullpage('', 'nohead pk-blank')]
@@ -385,22 +406,6 @@ def mondai_blocks(bk, pages, part, cover, colophon, legend):
     toc.append('</div>')
     out.append(blk(''.join(toc), 'newpage', anchor='toc', chapter='目次', section='目次'))
 
-    def emit(probs):
-        last_inst = None
-        for p in probs:
-            inst = p.get('inst_eff')
-            if inst and inst != last_inst:
-                out.append(blk(bk.md(inst, pages), 'inst keepnext'))
-            last_inst = inst
-            body = q_body(bk, p, pages)
-            if p['kind'] == '正誤' and '直しなさい' in (p.get('inst_eff') or ''):
-                out.append(blk(f'<div class="q">{body}</div><div class="acol"><span class="alab">記号</span><div class="abox"></div></div><div class="wl"><span class="alab">正しい形</span><div class="aline"></div><div class="aline"></div></div>', 'qr w', anchor='q' + str(p['no'])))
-            elif p['kind'] in ('4択', '正誤') or (p['kind'] == '読解' and p.get('choices')):
-                out.append(blk(f'<div class="q">{body}</div><div class="acol"><span class="alab">解答</span><div class="abox"></div></div>', 'qr', anchor='q' + str(p['no'])))
-            else:
-                n = {'整序': 1, '補充': 1, '和訳': 2, '英作': 2, '読解': 2}[p['kind']]
-                out.append(blk(f'<div class="q">{body}</div><div></div><div class="wl"><span class="alab">解答</span>' + '<div class="aline"></div>' * (n + 1) + '</div>', 'qr w', anchor='q' + str(p['no'])))
-
     for ch in bk.data['chapters']:
         chap_label = f'第{ch["no"]}章　{ch["title"]}'
         out.append(blk(f'<div class="cno">第{ch["no"]}章</div><div class="ct">{E(ch["title"])}</div>', 'chap newpage keepnext', anchor=ch['id'], chapter=chap_label, section=chap_label))
@@ -413,11 +418,21 @@ def mondai_blocks(bk, pages, part, cover, colophon, legend):
                 ps = [p for p in probs if p['lv'] == lv]
                 if not ps: continue
                 out.append(blk(f'◆ {LVNAME[lv]}　<span class="lvs">{STAR[lv]}</span>', 'lvh keepnext'))
-                emit(ps)
+                out.extend(problem_blocks(bk, pages, ps))
         probs = [p for p in bk.problems if p['set'] == '章末' and bk.ch_of[p['sec']] is ch]
         if probs:
             out.append(blk(prob_header(bk, f'第{ch["no"]}章　章末問題', probs, '節を混ぜて出題'), 'sech keepnext newpage', anchor='end' + ch['id'], section=f'第{ch["no"]}章　章末問題'))
-            emit(probs)
+            out.extend(problem_blocks(bk, pages, probs))
+    out.extend(mock_blocks(bk, pages))
+    pad_and_colophon(out, pages, colophon)
+    return out
+
+
+_back = ''
+
+
+def mock_blocks(bk, pages, wide=False):
+    out = []
     mock = [p for p in bk.problems if p['set'] == '模試']
     if mock:
         tot = sum(p.get('pts', 0) for p in mock)
@@ -426,7 +441,7 @@ def mondai_blocks(bk, pages, part, cover, colophon, legend):
         for pt in parts:
             ps = [p for p in mock if p['part'] == pt]
             out.append(blk(f'第{pt}問　<span class="pp">（配点 {sum(p.get("pts", 0) for p in ps)}点）</span>', 'parth keepnext'))
-            emit(ps)
+            out.extend(problem_blocks(bk, pages, ps, wide))
         # 解答用紙
         rows = []
         for pt in parts:
@@ -439,11 +454,7 @@ def mondai_blocks(bk, pages, part, cover, colophon, legend):
         out.append(blk('<div class="fm-title">模擬試験　解答用紙</div><div class="sheet-h">名前 <span class="u"></span>　　得点 <span class="u s"></span> ／ ' + str(tot) + '</div>', 'newpage', anchor='sheet', section='模擬試験　解答用紙'))
         for i in range(0, len(rows), 10):
             out.append(blk('<table class="sheet"><thead><tr><th>番号</th><th>解答</th><th>配点</th></tr></thead><tbody>' + ''.join(rows[i:i + 10]) + '</tbody></table>', 'sheetblk'))
-    pad_and_colophon(out, pages, colophon)
     return out
-
-
-_back = ''
 
 
 def pad_and_colophon(out, pages, colophon):
@@ -486,7 +497,7 @@ def kaitou_blocks(bk, pages, part, cover, colophon, legend):
         if p.get('alt'):
             alt = '<dt>別解</dt><dd>' + '／'.join(bk.md(a, pages) for a in p['alt']) + '</dd>'
         ref = p.get('ref') or p['sec']
-        side = f'<div class="sn"><span class="lab">参照</span>完全解説book<br>{bk.sec_no[ref]}　{E(bk.sec_title[ref])}<br><span class="pref">→&nbsp;p.{kp.get(ref, "00")}</span></div>'
+        side = f'<div class="sn"><span class="lab">参照</span>本冊<br>{bk.sec_no[ref]}　{E(bk.sec_title[ref])}<br><span class="pref">→&nbsp;p.{kp.get(ref, "00")}</span></div>'
         label = p['label']
         out.append(blk(f'''<div class="hd"><span class="no">{label}</span><span>{STAR[p["lv"]]}</span><span>{E(p["kind"])}</span></div>
 <div><span class="ans-l">正解　</span><span class="ans-v ans">{ans_text(bk, p, pages)}</span></div>
@@ -540,19 +551,145 @@ def matome_blocks(bk, pages, part, cover, colophon, legend):
     return out
 
 
+# ====================================================================
+# 本体（1冊）：各節＝解説 → 例題 → 問題 → 要点。章末問題、模擬試験、索引
+# ====================================================================
+WORKED_STYLE = 'band'   # 試作：'box'（囲み）か 'band'（帯の見出し）
+
+WORKED_CSS = '''
+.blk.wk { margin: 3mm 0 2mm; }
+.wk.box { border: .75pt solid #000; padding: 2mm 3mm 2mm; }
+.wk.band { border-top: 1.2pt solid #000; padding: 1.5mm 0 1mm; }
+.wk .wh { display: flex; gap: 3mm; align-items: baseline; font: 700 10pt/1.5 "Goth"; }
+.wk.band .wh { background: var(--net); padding: .8mm 2mm; margin-bottom: 1mm; }
+.wk .wq { font-family: "Ser", "Min"; font-size: 10.5pt; line-height: 1.7; margin: 1mm 0 .5mm; }
+.wk .ch { margin-bottom: 1.5mm; }
+.wk .how { font-size: 9.5pt; line-height: 1.7; }
+.wk .how .hl { font: 700 8.5pt/1.7 "Goth"; display: inline-block; border: .5pt solid #000; padding: 0 1.5mm; margin-bottom: .5mm; }
+.wk .how ol { list-style: none; }
+.wk .how li { padding-left: 1.6em; text-indent: -1.6em; }
+.wk .how li .sn2 { font: 700 9pt "Goth"; margin-right: .4em; }
+.wk .wa { margin-top: 1mm; font: 700 9.5pt/1.7 "Goth"; }
+.wk .wa .ans { font-family: "Ser", "Min"; font-weight: 600; }
+.wk .wp { margin-top: .8mm; font-size: 9pt; line-height: 1.65; border-top: .35pt dotted #000; padding-top: .8mm; }
+.wk .wp b { font: 700 8.5pt "Goth"; margin-right: .5em; }
+.blk.phase { margin: 6mm 0 1mm; padding: 1.2mm 2mm; font: 700 11pt/1.4 "Goth"; border-top: 1.2pt solid #000; border-bottom: .5pt solid #000; display: flex; justify-content: space-between; align-items: baseline; }
+.phase .meta { font: 400 8.5pt "Goth"; }
+.blk.sumh { margin: 5mm 0 0; font: 700 10pt/1.5 "Goth"; border: .75pt solid #000; border-bottom: 0; padding: 1mm 2mm; background: var(--net); }
+.blk.sm { display: grid; grid-template-columns: 6mm 1fr; padding: 1mm 2mm; border-left: .75pt solid #000; border-right: .75pt solid #000; border-bottom: .35pt solid #000; line-height: 1.75; font-size: 9.5pt; }
+.blk.sm.last { border-bottom: .75pt solid #000; margin-bottom: 2mm; }
+.sm .n { font: 8pt/1.9 "Goth"; }
+'''
+
+
+def worked_html(bk, s, k, w, pages, style):
+    ch = ''
+    if w.get('choices'):
+        ch = '<div class="ch">' + ''.join(f'<span><span class="cn">{CIRC[i]}</span>{bk.md(c, pages)}</span>' for i, c in enumerate(w['choices'])) + '</div>'
+    steps = ''.join(f'<li><span class="sn2">{CIRC[i]}</span>{bk.md(t, pages)}</li>' for i, t in enumerate(w['steps']))
+    a = str(w['ans'])
+    ans = f'{CIRC[int(a) - 1]}　{bk.md(w["choices"][int(a) - 1], pages)}' if (w.get('choices') and a.isdigit()) else bk.md(a, pages)
+    return (f'<div class="wh"><span>例題{k}</span></div><div class="wq">{bk.md(w["q"], pages)}</div>{ch}'
+            f'<div class="how"><span class="hl">解き方</span><ol>{steps}</ol></div>'
+            f'<div class="wa">答え　<span class="ans">{ans}</span></div>'
+            + (f'<div class="wp"><b>ポイント</b>{bk.md(w["point"], pages)}</div>' if w.get('point') else ''))
+
+
+def honbun_blocks(bk, pages, part, cover, colophon, legend):
+    d = bk.data
+    out = [fullpage(cover, 'nohead pk-cover', anchor='cover'), fullpage('', 'nohead pk-blank')]
+    out.extend(legend_blocks(legend))
+    # 目次は章ごとのかたまりに分ける（ページをまたげるように）
+    tocb = []
+    for k, ch in enumerate(d['chapters']):
+        rows = [f'<div class="tc">第{ch["no"]}章　{E(ch["title"])}<span class="dots"></span><span class="pg">{pages.get(ch["id"], "00")}</span></div>']
+        for s in ch['sections']:
+            rows.append(f'<div class="ts">{s["no"]}　{E(s["title"])}<span class="dots"></span><span class="pg">{pages.get(s["id"], "00")}</span></div>')
+        if any(p['set'] == '章末' and bk.ch_of[p['sec']] is ch for p in bk.problems):
+            rows.append(f'<div class="ts">章末問題<span class="dots"></span><span class="pg">{pages.get("end" + ch["id"], "00")}</span></div>')
+        tocb.append(''.join(rows))
+    tail = []
+    if any(p['set'] == '模試' for p in bk.problems):
+        tail.append(f'<div class="tc">模擬試験・解答用紙<span class="dots"></span><span class="pg">{pages.get("mock", "00")}</span></div>')
+    tail.append(f'<div class="tc">索引<span class="dots"></span><span class="pg">{pages.get("index", "00")}</span></div>')
+    out.append(blk('<div class="fm-title">目次</div><div class="toc">' + tocb[0] + '</div>', 'newpage', anchor='toc', chapter='目次', section='目次'))
+    for t in tocb[1:]:
+        out.append(blk(f'<div class="toc">{t}</div>', 'tocb'))
+    out.append(blk('<div class="toc">' + ''.join(tail) + '</div>', 'tocb'))
+    wk_no = 0
+    # 解説部分は完全解説book と同じ組み方を使う（表紙・目次・索引などを除いた本文だけを取り出す）
+    body_blocks = kaisetsu_section_blocks(bk, pages)
+    for ch in d['chapters']:
+        out.extend(body_blocks[ch['id']])
+        for s in ch['sections']:
+            out.extend(body_blocks[s['id']])
+            # 例題
+            if s.get('worked'):
+                out.append(blk('例題　<span class="meta">解き方の手順を読んでから、同じ手順で問題を解く</span>', 'phase keepnext'))
+                for w in s['worked']:
+                    wk_no += 1
+                    out.append(blk(worked_html(bk, s, wk_no, w, pages, WORKED_STYLE), 'wk ' + WORKED_STYLE, anchor=f'w{wk_no}'))
+            # 問題
+            probs = [p for p in bk.problems if p['sec'] == s['id'] and p['set'] == '節末']
+            if probs:
+                mins = sum(p['min'] for p in probs)
+                out.append(blk(f'問題　<span class="meta">{len(probs)}問　目安 {mins}分　答え → 別冊</span>', 'phase keepnext wide', anchor='m' + s['id']))
+                for lv in (1, 2, 3):
+                    ps = [p for p in probs if p['lv'] == lv]
+                    if not ps: continue
+                    out.append(blk(f'◆ {LVNAME[lv]}　<span class="lvs">{STAR[lv]}</span>', 'lvh keepnext wide'))
+                    out.extend(problem_blocks(bk, pages, ps, wide=True))
+            # 要点（赤シート）
+            if s.get('summary'):
+                out.append(blk('要点　赤字を赤シートで隠して言えるか確かめる', 'sumh keepnext'))
+                n = len(s['summary'])
+                for i, t in enumerate(s['summary'], 1):
+                    out.append(blk(f'<span class="n">{i}</span><div>{bk.md(t, pages)}</div>', 'sm' + (' last' if i == n else '')))
+        probs = [p for p in bk.problems if p['set'] == '章末' and bk.ch_of[p['sec']] is ch]
+        if probs:
+            out.append(blk(prob_header(bk, f'第{ch["no"]}章　章末問題', probs, '節を混ぜて出題　答え → 別冊'), 'sech keepnext newpage wide', anchor='end' + ch['id'], section=f'第{ch["no"]}章　章末問題'))
+            out.extend(problem_blocks(bk, pages, probs, wide=True))
+    out.extend(mock_blocks(bk, pages, wide=True))
+    # 索引
+    terms = sorted(bk.terms.items(), key=lambda kv: kv[1])
+    rows = []; cur = None
+    for t, yomi in terms:
+        g = gojuon_row(yomi)
+        if g != cur:
+            rows.append(f'<div class="k">{g}</div>'); cur = g
+        rows.append(f'<div class="row">{E(t)}<span class="dots"></span><span class="pg">{pages.get("term:" + t, "00")}</span></div>')
+    out.append(blk('<div class="fm-title">索引</div><div class="idx toc">' + ''.join(rows) + '</div>', 'newpage', anchor='index', chapter='索引', section='索引'))
+    pad_and_colophon(out, pages, colophon)
+    return out
+
+
+def kaisetsu_section_blocks(bk, pages):
+    """完全解説book の組み方から、章の見出しと各節の解説のかたまりだけを、章 ID・節 ID ごとに取り出す。"""
+    allb = kaisetsu_blocks(bk, pages, '', '', '')
+    res = {}
+    cur = None
+    for b in allb:
+        m = re.search(r'data-anchor="(c\d+|s\d+)"', b.split('>', 1)[0])
+        if m and ('chap' in b.split('>', 1)[0] or 'h2' in b.split('>', 1)[0]):
+            cur = m.group(1); res[cur] = []
+        if 'data-anchor="index"' in b.split('>', 1)[0]:
+            cur = None
+        if cur:
+            res[cur].append(b)
+    return res
+
+
 def build_all(bk):
     b = bk.data['book']
-    css_common = KAISETSU_CSS + COVER_CSS + LEGEND_CSS
-    def go(name, part, cfg, fn, css):
+    css = KAISETSU_CSS + COVER_CSS + LEGEND_CSS + PROB_CSS + WORKED_CSS
+    def go(name, part, cfg, fn):
         global _back
         _back = back_html(bk, part)
-        lay = bk.render(name, f'{b["title"]} {part}', css, json.dumps(cfg),
+        lay = bk.render(name, f'{b["series"]} {b["vol"]}【{b["title"]}】{part}', css, json.dumps(cfg),
                         lambda pages: fn(bk, pages, part, cover_html(bk, part), colophon_html(bk, part), legend_html(bk, part)))
         print(f'{part}: {lay["pages"]} ページ')
         return lay
-    lay = go('kaisetsu', '完全解説book', A4, lambda bk, pages, part, c, col, lg: kaisetsu_blocks(bk, pages, c, col, lg), css_common)
-    bk.pages = lay['anchors']
-    (bk.out / 'pages_kaisetsu.json').write_text(json.dumps(lay['anchors'], ensure_ascii=False, indent=1))
-    go('matome', '要点まとめbook', A5, matome_blocks, css_common + MATOME_CSS)
-    go('mondai', '問題集', A4_1COL, mondai_blocks, css_common + PROB_CSS)
-    go('kaitou', '解答解説', A4, kaitou_blocks, css_common + PROB_CSS)
+    lay = go('honsatsu', '本冊', A4, honbun_blocks)
+    bk.pages = lay['anchors']   # 別冊の参照ページは本冊のページ
+    (bk.out / 'pages_honsatsu.json').write_text(json.dumps(lay['anchors'], ensure_ascii=False, indent=1))
+    go('bessatsu', '別冊　解答解説', A4, kaitou_blocks)

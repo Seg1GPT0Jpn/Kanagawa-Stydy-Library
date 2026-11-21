@@ -68,7 +68,8 @@ class Book:
                 if pc.get('lead'): ch['lead'] = pc['lead']
                 idx = {s['id']: i for i, s in enumerate(ch['sections'])}
                 for ps in pc['sections']:
-                    ch['sections'][idx[ps['id']]] = ps
+                    # 部分ファイルの節は、書いてある項目だけを本体の節に上書き・追加する（例題だけの追加にも使える）
+                    ch['sections'][idx[ps['id']]].update(ps)
             self.data.setdefault('problems', []).extend(part.get('problems', []) or [])
         # 指示文：同じ形式の直前の問題から引き継ぐ（節末は節ごと、章末は章ごと、模試は大問ごと）。
         # 引き継ぐものがなければ形式ごとの標準の指示を使う。正誤は全冊で1つの言い回しにそろえる。
