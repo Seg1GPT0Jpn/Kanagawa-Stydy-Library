@@ -138,16 +138,16 @@ def main(bid):
     # 3. 番号の一致：問題集と解答解説の問題番号が、データの順と完全に一致するか
     want = [p['no'] for p in bk.problems if p['set'] != '模試']
     for n in ('honsatsu', 'bessatsu'):
-        got = [int(x) for x in re.findall(r'問\s?(\d+)\s', texts[n])]
-        # 本文中の「問1」（3つの問い）などを除くため、データにある番号の出現順だけを見る
-        seq = [x for x in got if x in set(want)]
-        dedup = [x for i, x in enumerate(seq) if i == 0 or x != seq[i - 1]]
-        if [x for x in dedup] != want and sorted(set(dedup)) == want and dedup[:len(want)] != want:
-            fail(f'{NAMES[n]}: 問題番号の順がデータと違う')
-        elif set(want) - set(got):
-            fail(f'{NAMES[n]}: 問題番号の欠け {sorted(set(want) - set(got))[:10]}')
+        # 問題の見出しとして組んだ番号（<span class="no">問N</span>）の並び。診断表の番号は含めない
+        h = (out / f'{n}.html').read_text()
+        heads = [int(x) for x in re.findall(r'<span class="no">問(\d+)</span>', h)]
+        got_txt = {int(x) for x in re.findall(r'問\s?(\d+)', texts[n])}
+        if heads != want:
+            fail(f'{NAMES[n]}: 問題の見出しの番号の並びがデータと違う（先頭の違い: {[(i + 1, a, b) for i, (a, b) in enumerate(zip(heads, want)) if a != b][:3]}、数 {len(heads)}/{len(want)}）')
+        elif set(want) - got_txt:
+            fail(f'{NAMES[n]}: PDF に出ていない問題番号 {sorted(set(want) - got_txt)[:10]}')
         else:
-            ok(f'{NAMES[n]}: 問題番号 問1〜問{len(want)} がそろっている')
+            ok(f'{NAMES[n]}: 問題番号 問1〜問{len(want)} がデータの順にそろい、PDF にも出ている')
     mock = [p for p in bk.problems if p['set'] == '模試']
     if mock:
         labels = [p['label'] for p in mock]

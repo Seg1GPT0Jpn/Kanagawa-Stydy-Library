@@ -11,8 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'tools'))
 from impose import impose, dummy, order, fold_and_read
 
-PARTS = [('kaisetsu', '1_完全解説book', 'A4', 'A3'), ('matome', '2_要点まとめbook', 'A5', 'A4'),
-         ('mondai', '3_問題集', 'A4', 'A3'), ('kaitou', '4_解答解説', 'A4', 'A3')]
+PARTS = [('honsatsu', '本冊', 'A4', 'A3'), ('bessatsu', '別冊_解答解説', 'A4', 'A3')]
 
 
 def main(bid):

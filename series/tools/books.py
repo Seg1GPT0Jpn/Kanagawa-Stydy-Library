@@ -332,6 +332,13 @@ table.sheet td.pt { width: 14mm; text-align: center; font: 9pt "Goth"; }
 table.sheet tr.w td { height: 18mm; }
 table.sheet tr.ww td { height: 34mm; }
 .sl-fix { font: 7.5pt "Goth"; margin-top: 1mm; }
+/* 診断表 */
+.blk.diag { margin: 5mm 0 3mm; border: 2.4pt double #000; padding: 2.5mm 3mm; }
+.dgt { font: 700 11pt/1.5 "Goth"; }
+.dgs { font-size: 9pt; line-height: 1.6; margin: 1mm 0 2mm; }
+table.dg td { text-align: left; font-size: 9pt; }
+table.dg td.cb { width: 10mm; text-align: center; }
+.ck { display: inline-block; width: 4mm; height: 4mm; border: .5pt solid #000; vertical-align: middle; }
 /* 解答解説 */
 .blk.ka { border-bottom: .35pt solid #000; padding: 2mm 0 2.2mm; }
 .ka .hd { display: flex; gap: 3mm; align-items: baseline; font: 8.5pt/1.5 "Goth"; }
@@ -478,6 +485,20 @@ def ans_text(bk, p, pages):
     return bk.md(a, pages)
 
 
+def diagnosis_blocks(bk, ch, kp):
+    """章末問題の診断表：間違えた問題から、読み直す節と本冊のページが分かる。"""
+    ps = [p for p in bk.problems if p['set'] == '章末' and bk.ch_of[p['sec']] is ch]
+    rows = ''
+    for p in ps:
+        ref = p.get('ref') or p['sec']
+        wks = bk.wk_nos.get(ref, [])
+        rows += (f'<tr><td class="nwc">{p["label"]}</td><td class="cb"><span class="ck"></span></td><td>{bk.sec_no[ref]}　{E(bk.sec_title[ref])}</td>'
+                 f'<td class="nwc">p.{kp.get(ref, "00")}</td><td class="nwc">{"例題" + "・".join(map(str, wks)) if wks else ""}</td></tr>')
+    head = '<tr><th>問題</th><th>×</th><th>読み直す節</th><th>本冊</th><th>例題</th></tr>'
+    return [blk(f'<div class="dgt">第{ch["no"]}章　診断表</div><div class="dgs">間違えた問題の「×」の欄に印を付け、その節の解説と例題を読み直してから、本冊の節の問題をもう一度解きます。</div>'
+                f'<table class="t dg"><thead>{head}</thead><tbody>{rows}</tbody></table>', 'diag')]
+
+
 def kaitou_blocks(bk, pages, part, cover, colophon, legend):
     kp = bk.pages
     out = [fullpage(cover, 'nohead pk-cover', anchor='cover'), fullpage('', 'nohead pk-blank')]
@@ -497,11 +518,19 @@ def kaitou_blocks(bk, pages, part, cover, colophon, legend):
         if p.get('alt'):
             alt = '<dt>別解</dt><dd>' + '／'.join(bk.md(a, pages) for a in p['alt']) + '</dd>'
         ref = p.get('ref') or p['sec']
-        side = f'<div class="sn"><span class="lab">参照</span>本冊<br>{bk.sec_no[ref]}　{E(bk.sec_title[ref])}<br><span class="pref">→&nbsp;p.{kp.get(ref, "00")}</span></div>'
+        wks = bk.wk_nos.get(ref, [])
+        wk = ''
+        if wks:
+            wk = '<br>例題' + '・'.join(str(n) for n in wks) + f' <span class="pref">→&nbsp;p.{kp.get(f"w{wks[0]}", "00")}</span>'
+        side = f'<div class="sn"><span class="lab">間違えたら戻る</span>本冊 {bk.sec_no[ref]}　{E(bk.sec_title[ref])}<br>解説 <span class="pref">→&nbsp;p.{kp.get(ref, "00")}</span>{wk}</div>'
         label = p['label']
         out.append(blk(f'''<div class="hd"><span class="no">{label}</span><span>{STAR[p["lv"]]}</span><span>{E(p["kind"])}</span></div>
 <div><span class="ans-l">正解　</span><span class="ans-v ans">{ans_text(bk, p, pages)}</span></div>
 <dl>{alt}<dt>根拠</dt><dd>{bk.md(p["why"], pages)}</dd><dt>よくある間違い</dt><dd>{bk.md(p["trap"], pages)}</dd></dl>''', 'ka', side, anchor='q' + str(p['no'])))
+        # 章末問題の最後に診断表
+        nxt = bk.problems[bk.problems.index(p) + 1] if bk.problems.index(p) + 1 < len(bk.problems) else None
+        if p['set'] == '章末' and (nxt is None or nxt['set'] != '章末' or bk.ch_of[nxt['sec']] is not ch):
+            out.extend(diagnosis_blocks(bk, ch, kp))
     pad_and_colophon(out, pages, colophon)
     return out
 

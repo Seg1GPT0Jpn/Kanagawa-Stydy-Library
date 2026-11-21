@@ -43,6 +43,15 @@ class Book:
                         if nt['kind'] == '用語':
                             self.terms[nt['term']] = nt.get('yomi', nt['term'])
         self.problems = self.data.get('problems', [])
+        # 例題の番号（本冊と同じく、節の順に通しで数える）
+        self.wk_nos = {}
+        k = 0
+        for ch in self.data['chapters']:
+            for s in ch['sections']:
+                nos = []
+                for _ in s.get('worked') or []:
+                    k += 1; nos.append(k)
+                self.wk_nos[s['id']] = nos
         n = 0
         for p in self.problems:
             if p['set'] != '模試':
