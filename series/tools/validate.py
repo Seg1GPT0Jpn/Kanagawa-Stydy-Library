@@ -48,6 +48,9 @@ def main(paths):
         for s in c['sections']:
             for e in s.get('examples', []) or []:
                 ex_ids[e['id']] += 1
+                for g in e.get('gloss') or []:
+                    if not isinstance(g, list) or len(g) != 2: err.append(f'{e["id"]}: 語注の形が不正（[英語, 意味] の2つ組でない。半角コンマで切れた可能性）: {g}')
+                if set(e) - {'id', 'en', 'ja', 'gloss'}: err.append(f'{e["id"]}: 例文に余分な項目: {sorted(set(e) - {"id", "en", "ja", "gloss"})}')
                 for k in ('id', 'en', 'ja'):
                     if not e.get(k): err.append(f'{s["id"]}: 例文に {k} がない: {e}')
                 en_texts.append((e['id'], e.get('en', '')))
@@ -59,6 +62,8 @@ def main(paths):
                     err.append(f'{s["id"]}: 本文ブロックの形が不正: {list(b)}')
                 for n in b.get('notes', []) or []:
                     if n.get('kind') not in NOTE_KINDS: err.append(f'{s["id"]}: 側注の種類が不正: {n}')
+                    extra = set(n) - {'kind', 'term', 'yomi', 'text', 'items'}
+                    if extra: err.append(f'{s["id"]}: 側注に余分な項目（1行の {{…}} の中の半角コンマで文が切れた可能性）: {sorted(extra)}')
                     if n.get('kind') == '用語':
                         if not n.get('yomi') or not re.fullmatch(r'[ぁ-んー]+', n['yomi']): err.append(f'{s["id"]}: 用語 {n.get("term")} の yomi（ひらがな）がない')
                         if n.get('term') in terms: err.append(f'{s["id"]}: 用語の二重定義: {n.get("term")}')
@@ -68,6 +73,7 @@ def main(paths):
                 if 'check' in b:
                     for q in b['check']:
                         if not q.get('q') or not q.get('a'): err.append(f'{s["id"]}: 確認問題に q/a がない')
+                        if set(q) - {'q', 'a'}: err.append(f'{s["id"]}: 確認問題に余分な項目（半角コンマで文が切れた可能性）: {sorted(set(q) - {"q", "a"})}')
             defined = {e['id'] for e in s.get('examples', []) or []}
             if defined - used_ex: err.append(f'{s["id"]}: 本文で使っていない例文: {sorted(defined - used_ex)}')
             if used_ex - defined: err.append(f'{s["id"]}: 定義のない例文: {sorted(used_ex - defined)}')
@@ -98,6 +104,8 @@ def main(paths):
         for k in ('id', 'sec', 'set', 'lv', 'kind', 'min', 'q', 'ans', 'why', 'trap'):
             if p.get(k) in (None, ''): err.append(f'{pid}: {k} がない')
         if p.get('kind') not in KINDS: err.append(f'{pid}: kind が不正: {p.get("kind")}')
+        extra = set(p) - {'id', 'sec', 'set', 'lv', 'kind', 'min', 'inst', 'q', 'choices', 'words', 'ans', 'alt', 'why', 'trap', 'ref', 'passage', 'part', 'pts', 'fix'}
+        if extra: err.append(f'{pid}: 問題に余分な項目（半角コンマで文が切れた可能性）: {sorted(extra)}')
         if p.get('set') not in SETS: err.append(f'{pid}: set が不正: {p.get("set")}')
         if p.get('lv') not in (1, 2, 3): err.append(f'{pid}: lv が不正')
         if p.get('sec') not in sec_ids: err.append(f'{pid}: sec が存在しない: {p.get("sec")}')

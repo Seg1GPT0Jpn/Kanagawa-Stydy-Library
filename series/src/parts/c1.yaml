@@ -10,7 +10,10 @@ chapters:
     - h: 主語が欠けた関係詞節
     - p: The girl is from Hokkaido. と She sits next to me in math class. の2つの文を、1つにすることを考えます。2つ目の文の She を who に変えて、先行詞 The girl の直後に置くと @e101 ができます。who は節の中で sits の主語の働きをしているので、この who を<<主格>>の関係代名詞と呼びます。
       notes:
-      - {kind: 用語, term: 主格, yomi: しゅかく, text: 関係代名詞が、関係詞節の中で主語の働きをしていること。主格の関係代名詞は who, which, that。}
+      - kind: 用語
+        term: 主格
+        yomi: しゅかく
+        text: "関係代名詞が、関係詞節の中で主語の働きをしていること。主格の関係代名詞は who, which, that。"
     - p: 主格の関係代名詞の後ろには、主語のない形が続きます。@e101 の［ ］の中では、sits の前に主語がありません。文に欠かせない語が抜けたこの形が、@s01 で見た不完全な文です。who・which・that の後ろは不完全な文になり、何が欠けているかで使う語が決まるのです（whose と、前置詞が前に出る形は @s04・@s06 で扱います）。
     - ex: [e101, e102]
     - h: who・which・that の使い分け
@@ -22,7 +25,8 @@ chapters:
     - ex: [e106, e107]
     - p: 書くときに多い誤りの1つは、be 動詞を落とすことです。the students who in the art club や a girl who playing tennis は誤りで、who are in the art club、who is playing tennis としなければなりません。関係詞節も文の一種なので、主語の働きをする who の後ろには動詞が要ります。
       notes:
-      - {kind: 注意, text: 主語を二重にしない。the girl who she sits next to me は誤り。who がすでに主語の働きをしているので、she は要らない。}
+      - kind: 注意
+        text: "主語を二重にしない。the girl who she sits next to me は誤り。who がすでに主語の働きをしているので、she は要らない。"
     - p: 主格の関係代名詞は、原則として省略できません。@e101 から who を外すと The girl sits next to me in math class is from Hokkaido. となり、sits と is のどちらが文の動詞なのか分からなくなります。省略できる場合とできない場合は、次の @s03 でまとめて見ます。
     - check:
       - {q: "The woman [＿] runs this café used to be a nurse.", a: who／that}
@@ -65,16 +69,23 @@ chapters:
     - h: 目的語が欠けた関係詞節
     - p: 今度は、関係詞節の中で目的語が欠けている場合です。@e108 の［ ］の中では、bought の後ろにあるはずの「何を」がありません。I bought it last spring の it が which に変わり、先行詞 The bike の直後に移ったと考えます。この which のように、節の中で目的語の働きをするものを<<目的格>>の関係代名詞といいます。
       notes:
-      - {kind: 用語, term: 目的格, yomi: もくてきかく, text: 関係代名詞が、関係詞節の中で動詞や前置詞の目的語の働きをしていること。目的格の関係代名詞は who(m), which, that。}
+      - kind: 用語
+        term: 目的格
+        yomi: もくてきかく
+        text: "関係代名詞が、関係詞節の中で動詞や前置詞の目的語の働きをしていること。目的格の関係代名詞は who(m), which, that。"
     - ex: [e108, e109, e110]
     - p: 使う語は s01 の表のとおりで、人なら whom か who（@e109）、人以外なら which（@e108）、どちらにも that（@e110）が使えます。whom は改まった書き言葉の形です。会話や普通の文章では who や that を使うか、関係代名詞そのものを省きます。入試の4択で、人が先行詞の目的格の位置に whom があれば、それが正解です。
     - p: 目的格の関係詞節では、関係代名詞のすぐ後ろに主語が来ます。which I bought、whom Ken helped がその例で、主格の who sits（@e101）とはちがい「関係代名詞＋主語＋動詞」の並びになります。後ろの動詞の目的語の位置が空いているかを確かめれば、主格と取りちがえることはありません。
       notes:
-      - {kind: 注意, text: 目的語の位置に it や her を残さない。the bike which I bought it は誤り。which がすでに目的語の働きをしている。}
+      - kind: 注意
+        text: "目的語の位置に it や her を残さない。the bike which I bought it は誤り。which がすでに目的語の働きをしている。"
     - h: 目的格の関係代名詞は省略できる
     - p: 目的格の関係代名詞は、よく省略されます。@e111 では、The sandwiches の後ろに my mother makes がすぐ続いています。名詞の後ろに「主語＋動詞」がいきなり来たら、その間に which や that が省かれていると考えて読みます。この形の関係詞節を<<接触節>>と呼ぶことがあり、会話ではむしろ省略した形のほうが普通です。
       notes:
-      - {kind: 用語, term: 接触節, yomi: せっしょくせつ, text: 目的格の関係代名詞が省略され、先行詞の直後に「主語＋動詞」が続く関係詞節。the cake my mother made の my mother made など。}
+      - kind: 用語
+        term: 接触節
+        yomi: せっしょくせつ
+        text: "目的格の関係代名詞が省略され、先行詞の直後に「主語＋動詞」が続く関係詞節。the cake my mother made の my mother made など。"
     - ex: [e111, e112]
     - p: 前置詞の目的語が欠けている場合も、前置詞を節の最後に残しておけば、関係代名詞を省略できます（@e112）。読むときは、文の途中の to の後ろに何もないことに気づくのが手がかりです。the girl が「to の相手」だと分かれば、正しく訳せます。前置詞を関係代名詞の前に出す形は @s06 で扱います。
     - h: 主格は省略できない（例外もある）
@@ -83,7 +94,8 @@ chapters:
     - p: ただし、例外もあります。関係代名詞が be 動詞の後ろの補語の働きをする場合で、@e114 の it was ＿ では that を省くのが普通です。I think などがはさまる場合も、the man I think lives next door のように主格が省かれることがあります（@s17）。
     - p: くだけた話し言葉では、There's a man wants to see you.（あなたに会いたいという男の人が来ている）のように、there is や here is の後で主格が省かれることもあります。とはいえ、これは書き言葉では誤りとされる形です。入試の整序や正誤では、There is a man who wants to see you. のように主格を入れた形を正解とします。
       notes:
-      - {kind: 注意, text: there is の文でも、関係代名詞が目的格なら普通に省略できる。There is something I want to tell you.（話したいことがある）}
+      - kind: 注意
+        text: "there is の文でも、関係代名詞が目的格なら普通に省略できる。There is something I want to tell you.（話したいことがある）"
     - table:
         head: ["", 省略, 例]
         rows:
@@ -132,13 +144,17 @@ chapters:
     - h: 「その人の〜」を表す whose
     - p: 「母親が横浜で花屋をしている友人」では、友人と母親が「友人の母親」という持ち主の関係でつながっています。I have a friend. と His mother runs a flower shop in Yokohama. を1つにすると、His が whose に変わって @e115 ができます。whose は「その人の」「その物の」を表す<<所有格>>の関係代名詞で、すぐ後ろの名詞といっしょに動きます。
       notes:
-      - {kind: 用語, term: 所有格, yomi: しょゆうかく, text: 「〜の」という持ち主を表す形。関係代名詞では whose がこれに当たる。}
+      - kind: 用語
+        term: 所有格
+        yomi: しょゆうかく
+        text: "「〜の」という持ち主を表す形。関係代名詞では whose がこれに当たる。"
     - ex: [e115, e116, e117]
     - p: whose かどうかを見分けるには、whose を his、her、its、their に置きかえてみます。@e116 なら His bike was stolen. となり、完全な文がもどります。who や which の後ろは主語や目的語が欠けた不完全な文でした（@s02、@s03）。whose の後ろは「冠詞のない名詞」から始まり、欠けているのは持ち主だけです。
     - p: 「whose＋名詞」は1つのかたまりとして、節の中で主語にも目的語にもなります。@e115 の whose mother、@e116 の whose bike は主語です。一方、@e117 の whose umbrella は took の目的語で、もとは took の後ろにあったかたまりが前に出ています。本書の例文では、かたまりがもとあった位置を ＿ で示しています。
     - p: whose の直後の名詞には、a、the、my などを付けません。whose がすでに「その人の」という意味をもっているので、whose the bike とすると「〜の」が二重になるからです。発音が同じ who's と書きまちがえる誤りにも気をつけます。
       notes:
-      - {kind: 注意, text: who's は who is または who has の短縮形。a man who's son is a doctor は誤りで、a man whose son is a doctor とする。}
+      - kind: 注意
+        text: "who's は who is または who has の短縮形。a man who's son is a doctor は誤りで、a man whose son is a doctor とする。"
     - h: 先行詞が物のときの whose と of which
     - p: whose は、先行詞が人以外でも使えます。@e118 では a house が先行詞で、whose roof は「その家の屋根」です。後ろの名詞は複数形でもよく、@e120 の whose uniforms では、動詞も uniforms に合わせて are になっています。物に whose を使うのはやや硬い言い方なので、会話では a house with a green roof のように with を使うことも多くあります。
     - ex: [e118, e119, e120]
@@ -185,7 +201,8 @@ chapters:
     - ex: [e121, e123, e124]
     - p: 気をつけたいのは、「好まれる」は「that でなければならない」という意味ではないことです。先行詞が人なら、@e122 のように the only person who とするのも普通の英語です。the best movie which I have seen の which も誤りではありません。**入試で that だけが正解になるのは、ほかの選択肢が文法的に成り立たないとき**です。
       notes:
-      - {kind: 注意, text: 4択で that と which（または who）が両方並び、先行詞に最上級や all などが付いているときは、that を選ぶのが安全である。}
+      - kind: 注意
+        text: "4択で that と which（または who）が両方並び、先行詞に最上級や all などが付いているときは、that を選ぶのが安全である。"
     - ex: [e122]
     - p: 先行詞が「人と、人以外のもの」の組み合わせのときも that を使います。@e125 の a boy and his dog は、少年（人）と犬（人以外）です。who では犬に合わず、which では少年に合わないので、両方に使える that が選ばれます。節の中の動詞は、先行詞が2つなので were になっています。
     - ex: [e125]
@@ -201,7 +218,8 @@ chapters:
     - ex: [e126]
     - p: 2つ目は前置詞の直後です。「コンサートが開かれるホール」と言うとき、in を関係代名詞の前に出すなら in which とし、in that とは言えません。that を使いたいなら、@e127 のように in を節の最後に残します。前置詞と関係代名詞の組み合わせは @s06 でくわしく見ます。
       notes:
-      - {kind: 注意, text: in that S V（〜という点で）という言い方があるが、この that は接続詞で、関係代名詞ではない。}
+      - kind: 注意
+        text: "in that S V（〜という点で）という言い方があるが、この that は接続詞で、関係代名詞ではない。"
     - ex: [e127]
     - check:
       - {q: "This is the tallest building [＿] I have ever seen.", a: that（which も可）}
@@ -245,7 +263,8 @@ chapters:
     - p: 前置詞を後ろに残す形は会話で普通に使われ、関係代名詞を省略することもできます（@e130）。in which のように前に出す形は、改まった書き言葉で多く見られます。前に出した場合、in which の後ろの my father grew up は完全な文になります。欠けていた in the town が、in which としてまるごと前に移ったからです。
     - p: 前置詞の直後に置ける関係代名詞は which と whom だけです。that は前置詞の直後に置けず（@s05）、who は前置詞の直後では whom の形にします。in that や with who は、標準的な英語では誤りとされます。前置詞の直後の関係代名詞は、省略もできません。
       notes:
-      - {kind: 注意, text: 前置詞を後ろに残すときは who も that も使える。the girl who I talked with ／ the girl that I talked with}
+      - kind: 注意
+        text: "前置詞を後ろに残すときは who も that も使える。the girl who I talked with ／ the girl that I talked with"
     - h: 前置詞は節の中の語で決まる
     - p: どの前置詞を使うかは、先行詞ではなく、節の中の動詞や名詞との結びつきで決まります。@e131 は「棚の上に置く」なので put the cups on the shelf の on、@e132 は「友だちに送る」なので send the photos to a friend の to です。迷ったら、先行詞をもとの位置にもどして文を作ってみると、前置詞が見えてきます。
     - ex: [e131, e132]
@@ -254,7 +273,10 @@ chapters:
     - h: 前置詞を前に出せない場合
     - p: 動詞と前置詞が結びついて、1つの動詞のような意味になるものを<<句動詞>>といいます。look after（世話をする）や put up with（我慢する）では、前置詞を動詞から切りはなすと意味のまとまりがこわれます。そのため、前置詞は動詞の後ろに残します（@e135）。the dog after which my brother looks は不自然で、入試では誤りとされます。
       notes:
-      - {kind: 用語, term: 句動詞, yomi: くどうし, text: 動詞と前置詞・副詞が結びついて、1つの動詞のような意味になるもの。look after（世話をする）、turn off（消す）など。}
+      - kind: 用語
+        term: 句動詞
+        yomi: くどうし
+        text: "動詞と前置詞・副詞が結びついて、1つの動詞のような意味になるもの。look after（世話をする）、turn off（消す）など。"
     - ex: [e135]
     - p: turn off（消す）や pick up（拾う）の off や up は前置詞ではなく副詞なので、関係代名詞の前に出すことはできません。the light off which I turned は誤りで、the light (that) I turned off とします。逆に @e134 のように、前置詞を後ろに残すと不自然になる言い方もあります（the speed which the typhoon was moving at とはあまり言わない）。
     - check:

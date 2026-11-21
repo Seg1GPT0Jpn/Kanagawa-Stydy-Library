@@ -10,20 +10,28 @@ chapters:
     - h: 先行詞をふくむ whoever・whatever・whichever
     - p: what が「もの・こと」という先行詞をふくんでいたように（@s10）、who・what・which に -ever を付けた語も先行詞をふくみます。whoever は anyone who（〜する人は誰でも）、whatever は anything that（〜するものは何でも）と同じ意味です。@e501 では Whoever から Saturday までが文の主語です。こうした -ever の付いた関係詞を<<複合関係詞>>といいます。
       notes:
-      - {kind: 用語, term: 複合関係詞, yomi: ふくごうかんけいし, text: who, what, which, when, where, how に -ever が付いた語。先行詞をふくみ、名詞節（〜する人は誰でも）や譲歩の副詞節（誰が〜しても）をつくる。}
+      - kind: 用語
+        term: 複合関係詞
+        yomi: ふくごうかんけいし
+        text: "who, what, which, when, where, how に -ever が付いた語。先行詞をふくみ、名詞節（〜する人は誰でも）や譲歩の副詞節（誰が〜しても）をつくる。"
     - ex: [e501, e502]
     - p: 先行詞をふくんでいるので、前に名詞を置くことはありません（× anyone whoever wants them）。欠けている語を探す手順は s01 と同じで、@e502 の whoever wants them では wants の主語が欠けています。whichever は「いくつかある中のどれでも」の意味で、選ぶ範囲が決まっているときに使います（Take whichever you like.）。
     - h: whoever か whomever か
     - p: whoever と whomever のどちらを使うかは、直前の語ではなく、節の中での働きで決まります。@e502 では直前に前置詞 to があるので、目的格の whomever を選びたくなるはずです。しかし節の中で whoever は wants の主語です。to の目的語になっているのは whoever wants them という節全体なので、主格の whoever を使います。
     - p: 一方、@e503 の whomever you like では、like の目的語が欠けています。節の中で目的語の働きをしているので whomever になります。s01 の「節の中で何が欠けているか」という問いをそのまま当てはめれば、前置詞があってもなくても迷いません。
       notes:
-      - {kind: 注意, text: whomever はかたい書き言葉。話し言葉では目的語の位置でも whoever を使うことが多い（You can bring whoever you like.）。4択で両方が並んだら節の中の働きで選ぶ。主語の位置に whomever を置くのは、書き言葉でも誤り。}
+      - kind: 注意
+        text: "whomever はかたい書き言葉。話し言葉では目的語の位置でも whoever を使うことが多い（You can bring whoever you like.）。4択で両方が並んだら節の中の働きで選ぶ。主語の位置に whomever を置くのは、書き言葉でも誤り。"
     - ex: [e503]
     - h: 名詞節か、譲歩の副詞節か
     - p: 複合関係詞の節には、もう1つの使い方があります。@e505 の Whoever comes to the door は、文の主語にも目的語にもなっていません。この節を外しても、don't open it until I get home at five という命令文が残ります。外せる節は副詞の働きをしていて、「誰が来ても」と、どんな場合でも主節が変わらないことを表します。この言い方を<<譲歩>>といいます。
       notes:
-      - {kind: 用語, term: 譲歩, yomi: じょうほ, text: 「たとえ〜でも」「誰が〜しても」のように、ある場合を認めたうえで、それでも主節の内容は変わらないと述べる言い方。}
-      - {kind: 注意, text: 未来のことでも、譲歩の副詞節の中は現在形にする（@e505 の comes）。Whoever will come とはしない。}
+      - kind: 用語
+        term: 譲歩
+        yomi: じょうほ
+        text: "「たとえ〜でも」「誰が〜しても」のように、ある場合を認めたうえで、それでも主節の内容は変わらないと述べる言い方。"
+      - kind: 注意
+        text: "未来のことでも、譲歩の副詞節の中は現在形にする（@e505 の comes）。Whoever will come とはしない。"
     - ex: [e504, e505, e506]
     - p: 見分けるには、節を外してみます。@e504 から Whatever you decide を外すと is fine with me しか残らず、主語がありません。だからこの節は名詞節で、「あなたが決めることなら何でも」と訳します。@e506 は外しても Rina won't change her plan for the summer が残るので副詞節です。訳は「ジャックが何と言っても」となります。
     - p: 譲歩の副詞節は no matter who／what／which で言い換えられます（@e505 → No matter who comes to the door）。名詞節は言い換えられません。× No matter what you decide is fine with me. が誤りなのは、no matter what の節は文の主語になれないからです。
@@ -36,7 +44,10 @@ chapters:
     - h: whatever・whichever＋名詞
     - p: whatever と whichever は、直後に名詞を置いて形容詞のように使うこともできます。これを<<複合関係形容詞>>といいます。@e507 の whatever books you need は「必要な本なら何でも」で、lend の目的語になる名詞節です。@e508 の Whichever から stop までは外しても文が残るので、譲歩の副詞節です。whichever＋名詞は、選ぶ範囲が限られているときに使います。
       notes:
-      - {kind: 用語, term: 複合関係形容詞, yomi: ふくごうかんけいけいようし, text: 直後の名詞と結びついて節をつくる whatever・whichever。whatever＋名詞＝どんな〜でも、whichever＋名詞＝（限られた中の）どの〜でも。}
+      - kind: 用語
+        term: 複合関係形容詞
+        yomi: ふくごうかんけいけいようし
+        text: "直後の名詞と結びついて節をつくる whatever・whichever。whatever＋名詞＝どんな〜でも、whichever＋名詞＝（限られた中の）どの〜でも。"
     - ex: [e507, e508]
     - check:
       - {q: "[＿] arrives last has to lock the door.", a: Whoever（arrives の主語）}
@@ -86,7 +97,8 @@ chapters:
     - ex: [e509, e510]
     - p: 入試でねらわれるのは語順です。@e509 を × However Yuto is tired とすると、tired が however から離れるので誤りになります。疑問文のような倒置もしません（× However tired is Yuto）。量を言うときは however much／many＋名詞の形にし、数えられない名詞には much を使います（However much homework I have, …）。
       notes:
-      - {kind: 注意, text: however の直後に形容詞・副詞を置かない形もある。However you travel to the airport, leave home by eight.（どんな方法で行くにしても、8時までに家を出なさい）。この however は「どんな方法で」の意味。}
+      - kind: 注意
+        text: "however の直後に形容詞・副詞を置かない形もある。However you travel to the airport, leave home by eight.（どんな方法で行くにしても、8時までに家を出なさい）。この however は「どんな方法で」の意味。"
     - h: 「しかし」の however との違い
     - p: 文頭の However の直後にコンマがあり、すぐ主語が続くときは、「しかし」という意味の副詞です。@e511 の However, は前の文と逆の内容をつないでいるだけで、節をつくっていません。複合関係詞の however は直後に形容詞・副詞があり、コンマは節が終わったところに来ます（@e509）。コンマの位置と however の直後の語を見れば、区別がつきます。
     - ex: [e511]
@@ -108,7 +120,8 @@ chapters:
         - [wherever, "{{no matter where}}"]
     - p: 譲歩の節に may を入れることがあります。@e516 の However busy he may be は「どんなに忙しくても」で、この may は「かもしれない」と訳しません。かたい書き言葉の言い方で、ふだんの英語では However busy he is のように現在形を使うほうが普通です。入試には両方の形が出るので、may があっても意味は同じだと分かれば足ります。
       notes:
-      - {kind: 注意, text: no matter how busy he may be のように、no matter＋疑問詞の節でも may を使うことがある。意味は may のない形と同じ。}
+      - kind: 注意
+        text: "no matter how busy he may be のように、no matter＋疑問詞の節でも may を使うことがある。意味は may のない形と同じ。"
     - ex: [e516]
     - check:
       - {q: "[＿] tired you are, brush your teeth before bed.", a: However（＝No matter how）}

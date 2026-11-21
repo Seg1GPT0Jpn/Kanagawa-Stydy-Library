@@ -10,13 +10,17 @@ chapters:
     - h: 場所や時を説明する関係副詞
     - p: 「祖母がパン屋を営んでいる町」を英語にするとき、the town の後ろに説明の節を置くところまでは関係代名詞と同じです。違うのは節の中身で、もとの文 His grandmother runs a bakery in the town. の in the town は、主語でも目的語でもなく「その町で」という場所を表す副詞のまとまりです。このまとまりの代わりをして節を始める語を<<関係副詞>>といい、場所なら where を使います（@e201）。
       notes:
-      - {kind: 用語, term: 関係副詞, yomi: かんけいふくし, text: 先行詞を後ろから説明する節をつくり、その節の中で場所・時・理由・方法を表す副詞の働きをする語。where, when, why, how の4つ。}
+      - kind: 用語
+        term: 関係副詞
+        yomi: かんけいふくし
+        text: "先行詞を後ろから説明する節をつくり、その節の中で場所・時・理由・方法を表す副詞の働きをする語。where, when, why, how の4つ。"
     - ex: [e201, e202]
     - p: 時を表す名詞の後ろでは when を使います。@e202 の節 we moved to Kobe は、主語 we と動詞 moved がそろっていて、何も欠けていません。もとの文の in that year（その年に）にあたる副詞の部分を、when が受け持っているからです。関係副詞の節は、関係代名詞の節と違って欠けた位置がなく、そのままで文として成り立ちます。本書で関係副詞の節に ＿ を書かないのは、このためです。
     - h: 関係副詞は「前置詞＋which」で言いかえられる
     - p: where と when は副詞のまとまりを丸ごと受けるので、前置詞と which の組み合わせ（@s06）で言いかえられます。@e203 の where は in which、@e204 の when は on which と同じ意味です。どの前置詞を使うかは、もとの文で先行詞の前に付く前置詞で決まる。in the park なら in which、on Friday なら on which になります。
       notes:
-      - {kind: 注意, text: 時を表す先行詞の後ろでは、when の代わりに that を使うこともある（the day that we met）。}
+      - kind: 注意
+        text: "時を表す先行詞の後ろでは、when の代わりに that を使うこともある（the day that we met）。"
     - ex: [e203, e204]
     - table:
         head: ["", 先行詞の例, 関係副詞, 前置詞＋which]
@@ -26,7 +30,8 @@ chapters:
     - h: 先行詞や関係副詞が省かれる形
     - p: 関係副詞の文では、先行詞か関係副詞のどちらかが省かれることがよくあります。@e205 では先行詞の the place が省かれ、where から始まる節が「〜する場所」という意味で is の後ろに置かれている。when も同じ使い方ができ、@e206 の when 節は「〜する時」を表します。先行詞 the time を補って読めば、意味はすぐにとれるはずです。
       notes:
-      - {kind: 参照, text: コンマの付いた「, where」「, when」は @s13 で扱う。}
+      - kind: 参照
+        text: "コンマの付いた「, where」「, when」は @s13 で扱う。"
     - ex: [e205, e206]
     - p: 反対に、先行詞を残して関係副詞を省くこともあります。@e207 は the day の後ろの when が省かれた形で、名詞の直後に主語と動詞がいきなり続きます。the day, the year, the time などの時の名詞の後ろでは、この省略がよく起こる。where の省略はそれより少なく、the place や somewhere などの後ろでおもに見られます。
     - ex: [e207]
@@ -76,7 +81,8 @@ chapters:
     - ex: [e209, e210]
     - p: That's why … と That's because … は、理由と結果の向きが逆になります。@e210 では「バスの故障」が理由で、why 節の「30分遅れた」が結果です。That's because … なら、because の後ろに理由がきます。前の文が理由なのか結果なのかを確かめてから訳すと、取り違えずにすみます。
       notes:
-      - {kind: 注意, text: "That's why A. は「だから A」（前の内容が理由、A が結果）。That's because A. は「それは A だからだ」（A が理由）。"}
+      - kind: 注意
+        text: "That's why A. は「だから A」（前の内容が理由、A が結果）。That's because A. は「それは A だからだ」（A が理由）。"
     - h: 方法を表す how と the way
     - p: 「〜するやり方」を表すときは、関係副詞 how を使います。ただし、先行詞 the way と how を並べた the way how という形は、古い英語には見られるものの、今の英語では使いません。入試の正誤問題でも誤りとして扱われます。the way か how のどちらか一方だけを使う、と覚えておけば迷いません（@e211、@e212）。
     - ex: [e211, e212]
@@ -138,7 +144,8 @@ chapters:
     - ex: [e217, e218, e219]
     - p: 同じ the house でも、@e217 と @e218 では入る語が違います。@e217 の節 my uncle lived until he was twenty は、live が目的語をとらない動詞なので完全な文で、where が入る。@e218 の節 my uncle built ＿ by himself は built の目的語が欠けているので which です。
       notes:
-      - {kind: 注意, text: the place where we stayed を which で書くなら、前置詞が必要になる（the place which we stayed at ＿／the place at which we stayed）。}
+      - kind: 注意
+        text: "the place where we stayed を which で書くなら、前置詞が必要になる（the place which we stayed at ＿／the place at which we stayed）。"
     - p: 前置詞が節の最後に残る形にも気をつけます。@e219 の節 Grace comes from ＿ は、from の後ろの名詞が欠けた不完全な文です。この from の目的語の代わりをしているのが which です。前置詞を前に出して from which Grace comes にすると、後ろは完全な文になります（@s06）。
     - h: 時や理由の名詞でも同じ手順で決める
     - p: 時や理由の先行詞でも、判断の手順は変わりません。@e220 の先行詞 the three days は時を表しますが、spent の目的語が欠けているので which（または that）が入ります。@e221 の the reason も、gave の目的語が欠けているので why ではなく that か which です。正誤問題で場所・時・理由の名詞の後ろに where・when・why を見つけたら、後ろの節に欠けた語がないかを確かめます。

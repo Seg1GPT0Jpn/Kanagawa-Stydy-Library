@@ -12,16 +12,21 @@ chapters:
     - ex: [e301, e302]
     - p: what から始まるまとまりは、文の中で1つの名詞として働きます。このように名詞の働きをする節が<<名詞節>>です。名詞と同じ働きなので、主語（@e301）、目的語（@e302）、補語（@e303）、前置詞の目的語（@e304）のどこにでも置けます。訳は「〜すること」「〜するもの」とまとめるのが基本です。
       notes:
-      - {kind: 用語, term: 名詞節, yomi: めいしせつ, text: 主語と動詞をふくむまとまりで、文の中で名詞と同じ働き（主語・目的語・補語など）をするもの。what 節や接続詞 that の節がこれにあたる。}
+      - kind: 用語
+        term: 名詞節
+        yomi: めいしせつ
+        text: "主語と動詞をふくむまとまりで、文の中で名詞と同じ働き（主語・目的語・補語など）をするもの。what 節や接続詞 that の節がこれにあたる。"
     - ex: [e303, e304]
     - h: what の後ろは不完全な文
     - p: what も関係代名詞なので、節の中で主語や目的語の代わりをします。だから what の後ろには、何かが欠けた不完全な文が続くのです。@e302 では looking for の後ろの目的語が、@e303 では gave の目的語が欠けています。s01 の問2「節の中で何が欠けているか」は、what にもそのまま使えるわけです。主語も目的語もそろった完全な文が後ろに来るなら、what は入りません。
       notes:
-      - {kind: 注意, text: 前置詞の目的語が欠けることもある。@e302 の looking for ＿ のように、前置詞が節の最後に残っている文を見落とさない。}
+      - kind: 注意
+        text: "前置詞の目的語が欠けることもある。@e302 の looking for ＿ のように、前置詞が節の最後に残っている文を見落とさない。"
     - h: 先行詞があれば what は使えない
     - p: what はすでに先行詞をふくんでいるので、前に先行詞を置くと「もの」が二重になります。@e305 のように the cups という先行詞があれば that（または which）、@e306 のように先行詞がなければ what です。the things what … や all what … は誤りです。「〜するすべてのこと」なら all that … や everything that … を使います。
       notes:
-      - {kind: 注意, text: everything, all, anything の後ろに what は置けない。that を使うか、目的格なら that を省略する（everything he said）。}
+      - kind: 注意
+        text: "everything, all, anything の後ろに what は置けない。that を使うか、目的格なら that を省略する（everything he said）。"
     - ex: [e305, e306]
     - check:
       - {q: "I'll tell you [＿] I saw at the zoo.", a: what}
@@ -68,7 +73,8 @@ chapters:
     - h: いわゆる：what we call / what is called
     - p: what we call … と what is called … は、どちらも「いわゆる…」と訳す決まった言い方です。形を分けて見ると、なぜそう訳すのかが分かります。call A B（AをBと呼ぶ）のAが what になったのが what we call B（私たちがBと呼ぶもの）で、受け身の A is called B のAが what になったのが what is called B です（@e309、@e310）。
       notes:
-      - {kind: 注意, text: we の代わりに you や they を使った what you call、what they call も同じ意味になる。}
+      - kind: 注意
+        text: "we の代わりに you や they を使った what you call、what they call も同じ意味になる。"
     - ex: [e309, e310]
     - h: 今の姿と昔の姿：what S is / what S was
     - p: what S is は「Sの今の姿」を表します。be 動詞の後ろの補語が what になって欠けている形です。@e311 の what it was ten years ago は「10年前の駅の姿」で、was の後ろの補語が欠けています。昔の姿は what S was のほかに what S used to be でも表せ、意味はほぼ同じです。
@@ -85,7 +91,10 @@ chapters:
     - p: A is to B what C is to D は「AとBの関係は、CとDの関係と同じだ」という意味です（@e315）。what a map is to a traveler は「地図が旅行者にとってそうであるもの」という名詞節で、最初の is の補語になっています。訳すときは、分かりやすい後半のCとDの関係を先に考え、それを前半に当てはめます。What C is to D, A is to B. と前後を入れかえた形も使われます。
     - p: what の直後に名詞を置くと、what は「〜するすべての（名詞）」という意味でその名詞を修飾します。このような what が<<関係形容詞>>です。what money I had は all the money that I had と同じ意味。@e316 では little が加わり、「少ないながらも持っていたお金を全部」となります。数えられる名詞なら what few books のように few を使います。
       notes:
-      - {kind: 用語, term: 関係形容詞, yomi: かんけいけいようし, text: 後ろの名詞を修飾しながら、関係詞節をつくる what や which。what ＋名詞は「〜するすべての（名詞）」の意味になる。}
+      - kind: 用語
+        term: 関係形容詞
+        yomi: かんけいけいようし
+        text: "後ろの名詞を修飾しながら、関係詞節をつくる what や which。what ＋名詞は「〜するすべての（名詞）」の意味になる。"
     - ex: [e315, e316]
     examples:
     - id: e309
@@ -133,8 +142,12 @@ chapters:
     - h: 同格の that：名詞の中身を説明する
     - p: "@e318 のように、名詞の後ろに接続詞の that を置き、その名詞の中身を説明する使い方が<<同格>>の that です。訳は「〜という知らせ」「〜という事実」（@e319）のようになります。前に来る名詞は fact, news, idea, hope, rumor, possibility など、中身を持つ名詞に限られます。book や bag のような物の名詞の後ろには来ません。"
       notes:
-      - {kind: 用語, term: 同格, yomi: どうかく, text: 前の名詞と後ろの語句が同じものを指し、後ろが前の名詞の中身を説明する関係。the fact that … は「…という事実」。}
-      - {kind: 注意, text: 同格の that は接続詞なので、which に置きかえられない。the idea which we should start early は誤り。}
+      - kind: 用語
+        term: 同格
+        yomi: どうかく
+        text: "前の名詞と後ろの語句が同じものを指し、後ろが前の名詞の中身を説明する関係。the fact that … は「…という事実」。"
+      - kind: 注意
+        text: "同格の that は接続詞なので、which に置きかえられない。the idea which we should start early は誤り。"
     - p: 関係詞節も同格の that 節も、前の名詞を説明する点は似ています。ただし訳し方には差が出ます。@e317 は「ベンが伝えた知らせ」、@e318 は「チームが勝ったという知らせ」です。「という」を付けて自然に訳せるかどうかは手がかりになりますが、迷ったときは後ろが完全な文かどうかで決めます。
       notes:
       - {kind: 語注, items: [[nail, くぎ]]}

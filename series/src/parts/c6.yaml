@@ -10,7 +10,10 @@ chapters:
     - h: I think が間に入ると何が起きるか
     - p: "@e601 は、Takumi is the player. と I think he is the fastest runner on our team. の2つの文を1つにしたものです。he を who に変えて前に出すと、I think は who と is の間に取り残されます。このように、関係詞のすぐ後ろに I think や they say などの「主語＋動詞」が入りこんだ関係詞節を<<連鎖関係詞節>>といいます。"
       notes:
-      - {kind: 用語, term: 連鎖関係詞節, yomi: れんさかんけいしせつ, text: 関係詞の直後に I think・they say・she believes などが入りこみ、その後ろに節の動詞が続く関係詞節。}
+      - kind: 用語
+        term: 連鎖関係詞節
+        yomi: れんさかんけいしせつ
+        text: "関係詞の直後に I think・they say・she believes などが入りこみ、その後ろに節の動詞が続く関係詞節。"
     - ex: [e601, e602, e603]
     - p: 入りこんだ I think を指でかくしてみます。@e601 から I think を外すと @e602 の the player who is the fastest runner となり、who の後ろに is が直接続きます。主語が欠けているので、who は主格です。
     - p: "@e603 も the guidebook says を外すと which is the oldest となり、which は is の主語だと分かります。入りこむのは think のほか、believe, say, suppose, be sure, hear など「〜と思う・〜と言う」を表す動詞です。"
@@ -19,13 +22,15 @@ chapters:
     - h: whom を選ぶ誤り
     - p: 空所の後ろに I think があると、「think の目的語だから whom」と考えたくなります。けれども think の目的語は人ではなく、「＿ is the fastest runner」という節のほうです。関係代名詞の格は、I think を外したあとに残る節で決めます。外したときに動詞がすぐ続けば主語が欠けているので、人なら who です。
       notes:
-      - {kind: 注意, text: 英米の新聞などでも whom I think is … と書かれた例は見られるが、規範的な文法では誤りとされ、入試の4択・正誤では who が正解になる。}
+      - kind: 注意
+        text: "英米の新聞などでも whom I think is … と書かれた例は見られるが、規範的な文法では誤りとされ、入試の4択・正誤では who が正解になる。"
     - p: これと区別したいのが @e604 です。believe ＋ 人 ＋ to be ～ の形では、人は believed の目的語になります。外したあとに to be が続けば目的格の whom（話し言葉では who も）、is や was が続けば主格の who です。@e605 では which は dropped の目的語で、この場合は I think の後に that を入れても正しい文です。
     - ex: [e604, e605]
     - h: 整序での並べ方と、関係代名詞の省略
     - p: 整序問題では、語を次の順に置きます。主語の欠けた連鎖関係詞節では、I think の後に接続詞の that を入れません。the player who I think that is … は誤りです。
       notes:
-      - {kind: 注意, text: that を入れてよいのは、@e605 のように節の中で目的語が欠けているときだけ。主語が欠けているときは think の直後に動詞を続ける。}
+      - kind: 注意
+        text: "that を入れてよいのは、@e605 のように節の中で目的語が欠けているときだけ。主語が欠けているときは think の直後に動詞を続ける。"
     - steps:
       - 先行詞の直後に関係代名詞を置く。
       - その直後に I think・everyone says などの「主語＋動詞」を置く。
@@ -71,15 +76,20 @@ chapters:
     - h: なぜ as・than・but が関係代名詞になるのか
     - p: as・than・but は、ふつうは接続詞や前置詞です。ところが such・the same・比較級・否定語の付いた名詞の後ろでは、主語や目的語の欠けた節を導き、関係代名詞と同じ働きをします。これを<<擬似関係代名詞>>といいます。見分け方は who や which と同じで、後ろの節が不完全な文かどうかを確かめます。ただし使える場所は決まった相手の後ろに限られ、who や which の代わりに自由に使えるわけではありません。
       notes:
-      - {kind: 用語, term: 擬似関係代名詞, yomi: ぎじかんけいだいめいし, text: such・the same・比較級・否定語などと組になり、関係代名詞のように後ろの節の主語や目的語の働きをする as・than・but。}
+      - kind: 用語
+        term: 擬似関係代名詞
+        yomi: ぎじかんけいだいめいし
+        text: "such・the same・比較級・否定語などと組になり、関係代名詞のように後ろの節の主語や目的語の働きをする as・than・but。"
     - h: such … as と the same … as
     - p: "@e607 の as の後ろは are written in easy English で、are の主語がありません。as が主語の働きです。@e608 では had の目的語が欠けていて、as は目的語の働きです。この such … as は改まった書き言葉で、少し古い感じがします。会話なら books that are written in easy English のように言うのがふつうです。"
       notes:
-      - {kind: 注意, text: books such as dictionaries（辞書のような本）の such as は「たとえば」の意味で、後ろには名詞だけが来る。後ろに欠けのある節が続く such … as とは別のもの。}
+      - kind: 注意
+        text: "books such as dictionaries（辞書のような本）の such as は「たとえば」の意味で、後ろには名詞だけが来る。後ろに欠けのある節が続く such … as とは別のもの。"
     - ex: [e607, e608]
     - p: the same の後ろでも as が使われます。@e609 の as の後ろは her sister has で has の目的語が欠けており、@e610 では went to の後ろの名詞が欠けています。@e609 は「同じ種類のかばん」、@e610 は「まさにその学校」を指しています。どちらの意味かは文の内容から決まります。
       notes:
-      - {kind: 注意, text: 「the same … as は同じ種類、the same … that は同一のもの」と区別する説明があるが、現代英語ではこの区別は厳密ではない。@e610 のように as で同一のものを指すことも多い。}
+      - kind: 注意
+        text: "「the same … as は同じ種類、the same … that は同一のもの」と区別する説明があるが、現代英語ではこの区別は厳密ではない。@e610 のように as で同一のものを指すことも多い。"
     - ex: [e609, e610]
     - h: as is often the case with
     - p: "@e611 の As is often the case with Takumi は「タクミにはよくあることだが」という意味の決まった言い方です。as が受けているのは名詞ではなく、後ろの主節の内容（弁当を家に忘れたこと）で、as は is の主語になっています。前の文の内容を受ける , which（@s14）と似ていますが、which は文の先頭に置けないのに対し、as は文頭にも文の後ろにも置けます。"
@@ -87,11 +97,13 @@ chapters:
     - h: 比較級＋than、否定語＋but
     - p: "@e612 では、than の後ろの are needed for the cake に主語がありません。than が主語の働きをしているので、than it is needed のように it を入れると誤りです。@e613 では expected の目的語が欠けていて、than はその代わりをしています。比較級の後ろの than に動詞が直接続いていたら、than が主語の働きをしていると考えます。"
       notes:
-      - {kind: 参照, text: more … than is necessary は、is を省いて more … than necessary とも言う。}
+      - kind: 参照
+        text: "more … than is necessary は、is を省いて more … than necessary とも言う。"
     - ex: [e612, e613]
     - p: 否定語の付いた名詞の後ろの but は、that … not の意味の関係代名詞になります。@e614 は There is no rule that does not have exceptions.（例外をもたない規則はない）と同じ意味で、今の英語なら Every rule has exceptions. と言います。この but はことわざや古い文章で見る古風な表現なので、読んで意味が取れれば十分で、英作文で使う必要はありません。
       notes:
-      - {kind: 注意, text: no one but Mia（ミア以外はだれも〜ない）の but は「〜以外」を表す前置詞で、後ろは名詞だけ。後ろに動詞が続くかどうかで区別する。}
+      - kind: 注意
+        text: "no one but Mia（ミア以外はだれも〜ない）の but は「〜以外」を表す前置詞で、後ろは名詞だけ。後ろに動詞が続くかどうかで区別する。"
     - ex: [e614]
     - check:
       - {q: "Take such clothes [＿] are warm enough for the mountains.", a: as}
@@ -146,7 +158,10 @@ chapters:
     - h: 先行詞から離れた関係詞節
     - p: "@e619 では、主語の A man と関係詞節 who was carrying … の間に came into the shop が入っています。主語が長く、述語が短いとき、英語は重い部分を文の後ろに回す傾向があります。これを関係詞節の<<外置>>といいます。who の直前の the shop を先行詞と思うと意味が通りません。人を表す名詞で、was に合う単数のものを前にさかのぼって探します。"
       notes:
-      - {kind: 用語, term: 外置, yomi: がいち, text: 関係詞節などを先行詞から離して、文の後ろに置くこと。主語が長く、述語が短い文で起きやすい。}
+      - kind: 用語
+        term: 外置
+        yomi: がいち
+        text: "関係詞節などを先行詞から離して、文の後ろに置くこと。主語が長く、述語が短い文で起きやすい。"
     - ex: [e619, e620]
     - p: "@e620 の which も、直前の this morning や Ms. Kimura を説明してはいません。which は人以外の名詞を受け、節の中に had no stamp on it とあるので、先行詞は A letter です。外置された関係詞節は、和訳のときに先行詞の前に戻して「切手の貼られていない手紙」と訳すと自然な日本語になります。"
     - h: 長い主語の文の骨組み
