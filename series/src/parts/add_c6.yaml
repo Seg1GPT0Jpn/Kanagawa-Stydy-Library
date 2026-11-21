@@ -189,7 +189,7 @@ problems:
   kind: 4択
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
-  q: Mr. Ueda has a big dog that (＿) to play in the snow.
+  q: Mr. Ueda has a big dog that (＿) to chase tennis balls in the park.
   choices: [love, loves, loving, to love]
   ans: "2"
   why: that の先行詞は単数の a big dog。関係詞節の動詞は先行詞に合わせるので、現在形の loves。
@@ -201,20 +201,20 @@ problems:
   kind: 補充
   min: 1
   inst: （　）内の動詞を、現在形の正しい形にしなさい。
-  q: The girl who (sit) next to Takumi in math class is from Okinawa.
-  ans: sits
-  why: who の先行詞は単数の The girl。関係詞節の動詞は先行詞に合わせるので、現在形の sits。文全体の動詞 is も The girl に合っている。
-  trap: who には単数・複数の区別がないので、動詞は sit のままでよいと考える誤り。動詞の形は先行詞で決まり、The girl は単数なので -s を付ける。
+  q: The boy who (wait) for the bus with Takumi every morning lives on my street.
+  ans: waits
+  why: who の先行詞は単数の The boy。関係詞節の動詞は先行詞に合わせるので、現在形の waits。文全体の動詞 lives も The boy に合っている。
+  trap: who には単数・複数の区別がないので、動詞は wait のままでよいと考える誤り。動詞の形は先行詞で決まり、The boy は単数なので -s を付ける。
 - id: q6213
   sec: s19
   set: 節末
   lv: 1
   kind: 4択
   min: 1
-  q: The bag that Saki bought for her two little sisters (＿) too small for their books.
+  q: The bag that Saki bought for her two little sisters (＿) light blue with white stars.
   choices: [were, are, was, be]
   ans: "3"
-  why: 関係詞節 that Saki bought for her two little sisters を［ ］でくくって外すと、The bag (＿) too small が残る。主語は単数の The bag で、bought から過去の話と分かるので was。
+  why: 関係詞節 that Saki bought for her two little sisters を［ ］でくくって外すと、The bag (＿) light blue with white stars が残る。主語は単数の The bag で、bought から過去の話と分かるので was。
   trap: 空所の直前の her two little sisters（複数）に合わせて①were を選ぶ誤り。sisters は関係詞節の中の語で、文全体の主語ではない。
 - id: q6214
   sec: s19
