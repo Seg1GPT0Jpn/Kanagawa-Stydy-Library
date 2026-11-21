@@ -1286,7 +1286,7 @@ chapters:
     - q: "(＿) gets the highest score on today's quiz will get a notebook from Ms. Abe."
       choices: [Whoever, Whatever, Who, Anyone]
       steps:
-      - (＿) の前に先行詞があるかを見る。文の先頭なので説明される名詞はなく、先行詞を自分の中にふくむ Whoever か Whatever が入る。Anyone は名詞なので、節を始めるには後ろに who が要る（Anyone who …）。Who だけでは「〜する人は誰でも」の節を始められない。どちらも外れる。
+      - (＿) の前に先行詞があるかを見る。文の先頭なので説明される名詞はなく、先行詞を自分の中にふくむ Whoever か Whatever が入る。Anyone は代名詞なので、節を始めるには後ろに who が要る（Anyone who …）。Who だけでは「〜する人は誰でも」の節を始められない。どちらも外れる。
       - 後ろで欠けているものを探す。(＿) gets the highest score では gets の主語がない。点を取るのは人なので、物を表す Whatever ではなく、人を表す Whoever が合う。
       - 節を外してみる。will get a notebook from Ms. Abe しか残らず、主語がない。(＿) から quiz までが文の主語になる名詞節なので、「〜する人は誰でも」の Whoever を選ぶ。
       ans: "1"
@@ -1297,7 +1297,7 @@ chapters:
       - (＿) の前に先行詞があるかを見る。文の先頭なので先行詞はない。
       - 節を外してみる。is always too spicy for his little sister しか残らず、is の主語がない。(＿) から dinner までは、文の主語になる名詞節である。
       - However・Whenever・No matter what がつくるのは、外しても文が残る副詞節なので、文の主語にはなれない。
-      - 残る Whatever は、名詞節（〜するものは何でも）も副詞節（何を〜しても）もつくれる。ここでは手順2のとおり、文の主語になる名詞節として使う。節の中では cooks の目的語（何を作るか）の代わりをしていて、「レンが夕食に作るものは何でも」の意味になる。
+      - 残る Whatever は、名詞節（〜するものは何でも）も副詞節（何を〜しても）もつくれる。ここでは②で確かめたとおり、文の主語になる名詞節として使う。節の中では cooks の目的語（何を作るか）の代わりをしていて、「レンが夕食に作るものは何でも」の意味になる。
       ans: "2"
       point: 「レンが何を作っても」と訳せそうでも、節を外して主語がなくなるなら名詞節。No matter what は外しても文が残る譲歩の副詞節にしか使えない。
     summary:
@@ -2557,7 +2557,7 @@ problems:
   lv: 2
   kind: 整序
   min: 2
-  inst: 日本語の意味になるように（　）内の語を並べかえなさい。ただし文頭に来る語も小文字にしてある。
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
   q: ベンが昨日私に話したことは本当だった。<br>( Ben / me / told / what / yesterday ) was true.
   words: [Ben, me, told, what, yesterday]
   ans: What Ben told me yesterday was true.
@@ -4304,7 +4304,7 @@ problems:
   q: The bus (＿) to school every morning was twenty minutes late today.
   choices: [takes Saya, it takes Saya, Saya takes it, Saya takes]
   ans: "4"
-  why: the bus［(which) Saya takes ＿ to school every morning］で、takes の目的語が欠けている。目的格の関係代名詞は省略できるので Saya takes だけでよい。文全体の動詞は was。②③は節の中に it がもう1つ入り、欠けた位置がなくなる。
+  why: the bus［(which) Saya takes ＿ to school every morning］で、takes の目的語が欠けている。目的格の関係代名詞は省略できるので Saya takes だけでよい。文全体の動詞は was。②は it が節の主語、③は it が takes の目的語として入るので、どちらも欠けた位置がなくなる。
   trap: ①takes Saya を選ぶ誤り。The bus takes Saya … とすると takes が文の動詞に見え、was の前の主語がなくなる。「サヤを運ぶバス」の意味なら主格の which が要り（the bus which takes Saya …）、主格の関係代名詞は省略できない。
 - id: q1218
   sec: s03
