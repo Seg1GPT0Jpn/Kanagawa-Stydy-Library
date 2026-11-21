@@ -85,7 +85,7 @@ class Book:
             if p.get('inst'): last[k] = p['inst']
             p['inst_eff'] = p.get('inst') or last.get(k) or DEFAULT.get(p['kind'])
             if p['kind'] == '正誤':
-                p['inst_eff'] = DEFAULT['正誤'] if '直しなさい' not in (p['inst_eff'] or '') else '下線部①〜④のうち、誤りをふくむものを1つ選び、正しい形に直しなさい。'
+                p['inst_eff'] = DEFAULT['正誤'] if '直しなさい' not in (p['inst_eff'] or '') else '下線部①〜④のうち、誤りをふくむものを1つ選び、正しい形に直しなさい。語を取り除くときは「削除」と書きなさい。'
         order = {s['id']: i for i, s in enumerate(s for c in self.data['chapters'] for s in c['sections'])}
         setord = {'節末': 0, '章末': 1, '模試': 2}
         # 並び：模試は最後。章末は章の最後。節末は節の順

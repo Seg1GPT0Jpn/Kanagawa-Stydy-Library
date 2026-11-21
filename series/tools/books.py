@@ -155,7 +155,8 @@ def kaisetsu_blocks(bk, pages, cover_html, colophon_html, legend_html):
                     cap = f'<div class="ptl">● {E(t["title"])}</div>' if t.get('title') else '<div class="ptl">● 要点</div>'
                     out.append(blk(f'{cap}<table class="t"><thead><tr>{th}</tr></thead><tbody>{tr}</tbody></table>', 'tbl pt', notes))
                 elif 'check' in b:
-                    rows = ''.join(f'<div class="r{" long" if len(str(c["a"])) > 12 else ""}"><span>({i})</span><span class="q">{bk.md(c["q"], pages)}</span><span class="a ans">{bk.md(c["a"], pages)}</span></div>' for i, c in enumerate(b['check'], 1))
+                    anylong = any(len(str(c["a"])) > 12 for c in b['check'])  # 囲みの中で答えの位置をそろえる
+                    rows = ''.join(f'<div class="r{" long" if anylong else ""}"><span>({i})</span><span class="q">{bk.md(c["q"], pages)}</span><span class="a ans">{bk.md(c["a"], pages)}</span></div>' for i, c in enumerate(b['check'], 1))
                     out.append(blk(f'<div class="t">確認　{E(b.get("inst", "［　］に入る語を答えなさい。答えは赤シートで隠して確かめる。"))}</div>{rows}', 'check', notes))
                 else:
                     raise SystemExit(f'未知の本文ブロック: {b}')
@@ -316,6 +317,7 @@ table.sheet td { border: .5pt solid #000; padding: 1.5mm 2mm; height: 12mm; }
 table.sheet td.sl { width: 24mm; font: 700 9.5pt "Goth"; white-space: nowrap; }
 table.sheet td.pt { width: 14mm; text-align: center; font: 9pt "Goth"; }
 .sl-box { width: 14mm; height: 8mm; border: .75pt solid #000; }
+.sl-line { height: 8mm; border-bottom: .5pt solid #000; }
 table.sheet tr.w td { height: 18mm; }
 table.sheet tr.ww td { height: 34mm; }
 .sl-fix { font: 7.5pt "Goth"; margin-top: 1mm; }
@@ -420,7 +422,7 @@ def mondai_blocks(bk, pages, part, cover, colophon, legend):
             for p in [p for p in mock if p['part'] == pt]:
                 fixq = p['kind'] == '正誤' and '直しなさい' in (p.get('inst_eff') or '')
                 wide = fixq or (p['kind'] not in ('4択', '正誤', '読解') or (p['kind'] == '読解' and not p.get('choices')))
-                cell = '<div class="sl-box"></div><div class="sl-fix">正しい形</div>' if fixq else ('<div class="sl-line"></div>' if wide else '<div class="sl-box"></div>')
+                cell = '<div class="sl-box"></div><div class="sl-fix">正しい形</div><div class="sl-line"></div>' if fixq else ('<div class="sl-line"></div>' if wide else '<div class="sl-box"></div>')
                 cls = 'ww' if p['kind'] in ('和訳', '英作') else ('w' if wide else '')
                 rows.append(f'<tr class="{cls}"><td class="sl">{p["label"]}</td><td>{cell}</td><td class="pt">{p.get("pts", "")}</td></tr>')
         out.append(blk('<div class="fm-title">模擬試験　解答用紙</div><div class="sheet-h">名前 <span class="u"></span>　　得点 <span class="u s"></span> ／ ' + str(tot) + '</div>', 'newpage', anchor='sheet', section='模擬試験　解答用紙'))

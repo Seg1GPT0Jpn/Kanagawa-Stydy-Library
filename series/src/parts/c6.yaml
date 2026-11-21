@@ -410,7 +410,7 @@ problems:
   kind: 読解
   min: 4
   inst: 次の英文を読み、問いの答えとして最も適切なものを1つ選びなさい。
-  q: "The volunteers who clean the beach near our school meet on the first Sunday of every month. Last month, a woman joined them who had just moved to the town from Osaka. She brought a large bag of gloves that her old group had given her. The gloves, which were bright yellow, were easy to see on the sand. By noon, the group had collected forty bags of trash, more than they had ever collected before.<br>問い：What did the woman bring?"
+  q: "The volunteers who clean the beach near our school meet on the first Sunday of every month. Last month, a woman joined them who had just moved to the town from Osaka. She brought a large bag of gloves that her old group had given her. The gloves, which were bright yellow, were easy to see on the sand. By noon, the group had collected forty bags of trash, more than they had ever collected before.<br>問　What did the woman bring?"
   choices: [Forty bags of trash., Gloves from the group she had belonged to before., A map of the town from Osaka., Yellow sand for the beach.]
   ans: "2"
   why: a bag of gloves that her old group had given her の that 節は gloves を説明しており、以前のグループからもらった手袋を持ってきたことが分かる。
@@ -479,7 +479,7 @@ problems:
   kind: 読解
   min: 4
   inst: 次の英文を読み、問いの答えとして最も適切なものを1つ選びなさい。
-  q: "Last Sunday, Saki went to a small concert in the park. Before it started, she saw a woman with a violin who she thought was her old piano teacher. Saki waved, but the woman did not wave back. After the concert, Saki talked to her and learned that she was the teacher's younger sister. The two sisters looked so alike that even their friends sometimes confused them. The sister gave Saki a ticket for her next concert in December.<br>問い：Who was the woman with the violin?"
+  q: "Last Sunday, Saki went to a small concert in the park. Before it started, she saw a woman with a violin who she thought was her old piano teacher. Saki waved, but the woman did not wave back. After the concert, Saki talked to her and learned that she was the teacher's younger sister. The two sisters looked so alike that even their friends sometimes confused them. The sister gave Saki a ticket for her next concert in December.<br>問　Who was the woman with the violin?"
   choices: [Saki's old piano teacher., Saki's own sister., A friend of Saki's mother., The younger sister of Saki's old piano teacher.]
   ans: "4"
   why: who she thought was her old piano teacher は「サキがピアノの先生だと思った」という意味で、実際は4文目にある通り先生の妹だった。
@@ -491,7 +491,7 @@ problems:
   kind: 読解
   min: 4
   inst: 次の英文を読み、問いの答えとして最も適切なものを1つ選びなさい。
-  q: "Ms. Kimura's cooking club held a curry party for the first-year students in May. As is often the case with first events, the club made a few mistakes. They cooked far more rice than was needed, because more students had said they would come than actually came. Only twenty of the thirty-five students who had signed up showed up. The next day, the club gave the extra rice to the soccer team, and the players ate all of it in ten minutes.<br>問い：Which of the following is true?"
+  q: "Ms. Kimura's cooking club held a curry party for the first-year students in May. As is often the case with first events, the club made a few mistakes. They cooked far more rice than was needed, because more students had said they would come than actually came. Only twenty of the thirty-five students who had signed up showed up. The next day, the club gave the extra rice to the soccer team, and the players ate all of it in ten minutes.<br>問　Which of the following is true?"
   choices: [The club cooked too much rice for the party., More students came than the club had expected., Thirty-five students came to the party., The soccer team cooked the rice for the club.]
   ans: "1"
   why: far more rice than was needed は「必要な量よりはるかに多くのご飯」。than が was needed の主語の働きをしている。35人の申し込みに対し20人しか来なかったので、ご飯が余った。
@@ -503,7 +503,7 @@ problems:
   kind: 読解
   min: 4
   inst: 次の英文を読み、問いの答えとして最も適切なものを1つ選びなさい。
-  q: "Dr. Patel works at a hospital in Yokohama. Last week a boy came to her office who had hurt his arm while playing basketball. He was one of the players who were practicing for the city tournament on Saturday. The X-ray showed no broken bones, but Dr. Patel told him to rest for a week. Of all the players on his team, he was the only one who was going to miss the tournament, and he looked very sad.<br>問い：Why did the boy look sad?"
+  q: "Dr. Patel works at a hospital in Yokohama. Last week a boy came to her office who had hurt his arm while playing basketball. He was one of the players who were practicing for the city tournament on Saturday. The X-ray showed no broken bones, but Dr. Patel told him to rest for a week. Of all the players on his team, he was the only one who was going to miss the tournament, and he looked very sad.<br>問　Why did the boy look sad?"
   choices: [His arm was broken., He was the only player on his team who could not play in the tournament., All the players on his team had hurt their arms., Dr. Patel could not see him that day.]
   ans: "2"
   why: 最後の文の the only one who was going to miss the tournament から、チームで大会に出られないのは彼1人だったと分かる。2文目の who had hurt his arm は外置された関係詞節で、a boy を説明している。

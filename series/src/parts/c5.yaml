@@ -360,7 +360,7 @@ problems:
   kind: 読解
   min: 4
   inst: 次の英文を読み、問いの答えとして最も適切なものを1つ選びなさい。
-  q: "Our school library has a new rule this term. Whoever borrows a book must return it within two weeks. If you return a book late, you cannot borrow anything for one week, however good your reason is. Mr. Mori, the librarian, says the rule is fair. 'Take whatever books you like, and read them wherever you want,' he says. 'Just bring them back on time.' Last month, Olivia returned three books one day late, so she could not borrow the new mystery novel she wanted. Now she writes the return date in her notebook.<br>問い：本文の内容に合うものはどれか。"
+  q: "Our school library has a new rule this term. Whoever borrows a book must return it within two weeks. If you return a book late, you cannot borrow anything for one week, however good your reason is. Mr. Mori, the librarian, says the rule is fair. 'Take whatever books you like, and read them wherever you want,' he says. 'Just bring them back on time.' Last month, Olivia returned three books one day late, so she could not borrow the new mystery novel she wanted. Now she writes the return date in her notebook.<br>問　本文の内容に合うものはどれか。"
   choices:
   - Students can keep a book for a month if they have a good reason.
   - A student who returns a book late cannot borrow books for one week.
@@ -375,7 +375,7 @@ problems:
   lv: 2
   kind: 読解
   min: 4
-  q: "My grandmother lives alone in a small town by the sea. Whenever I visit her, we cook fish together in her kitchen. She does not use a smartphone, so I write her a letter every month. 'Whatever you write about is interesting to me,' she always says. Last winter, I could not visit her because of heavy snow. However hard it snowed, the post office kept working, and my letters arrived on time.<br>問い：本文の内容に合うものはどれか。"
+  q: "My grandmother lives alone in a small town by the sea. Whenever I visit her, we cook fish together in her kitchen. She does not use a smartphone, so I write her a letter every month. 'Whatever you write about is interesting to me,' she always says. Last winter, I could not visit her because of heavy snow. However hard it snowed, the post office kept working, and my letters arrived on time.<br>問　本文の内容に合うものはどれか。"
   choices:
   - The grandmother only wants letters about the sea.
   - The grandmother sends the writer an email every month.
@@ -390,7 +390,7 @@ problems:
   lv: 2
   kind: 読解
   min: 4
-  q: "Yuto's soccer club practices on the school field every Tuesday and Friday. The coach has one rule: whoever arrives late must run three laps of the field before joining practice. However, the coach always listens first. Last Friday, Yuto was twenty minutes late because his train stopped between two stations. He gave the coach a note from the station staff, so he did not have to run. 'Whatever the reason is, tell me,' the coach says. 'Then I'll decide.'<br>問い：先週の金曜日、ユウトがグラウンドを走らなくてよかったのはなぜか。"
+  q: "Yuto's soccer club practices on the school field every Tuesday and Friday. The coach has one rule: whoever arrives late must run three laps of the field before joining practice. However, the coach always listens first. Last Friday, Yuto was twenty minutes late because his train stopped between two stations. He gave the coach a note from the station staff, so he did not have to run. 'Whatever the reason is, tell me,' the coach says. 'Then I'll decide.'<br>問　先週の金曜日、ユウトがグラウンドを走らなくてよかったのはなぜか。"
   choices:
   - He arrived at practice before it started.
   - He gave the coach a note that explained the train problem.
