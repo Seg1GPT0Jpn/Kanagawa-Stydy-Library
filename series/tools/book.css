@@ -1,0 +1,35 @@
+/* 書体（すべて SIL OFL 1.1。series/fonts/ を参照）。HTML は series/build/<id>/ に置く */
+@font-face { font-family: "Min"; src: url("../../fonts/BIZ_UDPMincho/BIZUDPMincho-Regular.ttf"); font-weight: 400; }
+@font-face { font-family: "Min"; src: url("../../fonts/BIZ_UDPMincho/BIZUDPMincho-Bold.ttf"); font-weight: 700; }
+@font-face { font-family: "Goth"; src: url("../../fonts/BIZ_UDPGothic/BIZUDPGothic-Regular.ttf"); font-weight: 400; }
+@font-face { font-family: "Goth"; src: url("../../fonts/BIZ_UDPGothic/BIZUDPGothic-Bold.ttf"); font-weight: 700; }
+@font-face { font-family: "Ser"; src: url("../../fonts/Source_Serif_4/SourceSerif4SmText-Regular.ttf"); font-weight: 400; size-adjust: 108%; unicode-range: U+0000-02FF, U+2018-201D; }
+@font-face { font-family: "Ser"; src: url("../../fonts/Source_Serif_4/SourceSerif4SmText-It.ttf"); font-weight: 400; font-style: italic; size-adjust: 108%; unicode-range: U+0000-02FF, U+2018-201D; }
+@font-face { font-family: "Ser"; src: url("../../fonts/Source_Serif_4/SourceSerif4SmText-Semibold.ttf"); font-weight: 600; size-adjust: 108%; unicode-range: U+0000-02FF, U+2018-201D; }
+@font-face { font-family: "Ser"; src: url("../../fonts/Source_Serif_4/SourceSerif4SmText-Bold.ttf"); font-weight: 700; size-adjust: 108%; unicode-range: U+0000-02FF, U+2018-201D; }
+
+:root { --ink: #000; --red: #FF4B00; --net: #E6E6E6; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: #fff; color: #000; }
+body { font-family: "Ser", "Min", serif; font-size: 10pt; line-height: 1.75;
+  line-break: strict; hyphens: manual; text-autospace: normal; font-kerning: normal; }
+#flow { position: absolute; left: -10000px; top: 0; width: 134mm; }
+.measure { position: absolute; left: -20000px; top: 0; }
+.page { position: relative; overflow: hidden; break-after: page; }
+.page:last-child { break-after: auto; }
+.body { position: absolute; }
+.maincol, .sidecol { position: absolute; top: 0; bottom: 0; }
+.measure.maincol, .measure.sidecol { bottom: auto; }
+.hashira { position: absolute; font: 8pt/1 "Goth"; letter-spacing: .04em; white-space: nowrap; }
+.nombre { position: absolute; font: 9pt/1 "Ser", "Goth"; }
+
+/* 文中記法 */
+.ans { color: var(--red); }
+.rp { font-weight: 600; text-decoration: underline; text-decoration-thickness: .6pt; text-underline-offset: 2px; }
+.term { font-weight: 700; }
+.gap { display: inline-block; width: 1.1em; border-bottom: .5pt solid #000; height: .9em; vertical-align: baseline; margin: 0 .1em; }
+.blank { display: inline-block; width: 3.2em; }
+.pref { white-space: nowrap; font-family: "Ser", "Goth"; }
+u { text-decoration-thickness: .6pt; text-underline-offset: 2px; }
+sub { font: 7.5pt "Goth"; vertical-align: -1pt; margin-left: .1em; }
+.en { font-family: "Ser", serif; }

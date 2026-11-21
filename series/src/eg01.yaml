@@ -1,0 +1,221 @@
+book:
+  id: eg01
+  series: 高校英語シリーズ
+  vol: 1
+  title: 英文法　関係詞
+  edition: 第1版
+  date: 2026年12月
+  publisher: かながわ教材ライブラリ
+  license: CC BY 4.0
+
+chapters:
+- id: c1
+  title: 関係代名詞の基本
+  sections:
+  - id: s01
+    title: 関係代名詞は「名詞の後ろに付く説明」をつくる
+    patterns: [P1]
+    body:
+    - h: なぜ関係代名詞が必要なのか
+    - p: 日本語では、名詞を説明することばを名詞の前に置きます。「私が昨日読んだ本」では、「私が昨日読んだ」が「本」を説明しています。英語は逆で、主語と動詞をふくむ文の形の説明は、必ず名詞の後ろに置きます。そのとき「ここから説明が始まる」と知らせる目印が<<関係代名詞>>です（@e001〜@e003）。
+      notes:
+      - {kind: 用語, term: 関係代名詞, yomi: かんけいだいめいし, text: 先行詞を後ろから説明する節をつくり、その節の中で主語や目的語の働きもする語。who, which, that, whose など。}
+    - ex: [e001, e002, e003]
+    - p: ［ ］で囲んだ部分を<<関係詞節>>、説明される名詞（@e002 の the woman、@e003 の the bus）を<<先行詞>>といいます。関係詞節は名詞を説明する部分なので、外しても文法上は文が成り立ちます。@e002 から［ ］を外すと The woman teaches music at a junior high school. となり、主語と動詞がそろった文が残ります。この「外しても文が残る」ことが、長文で文の骨組みを見抜く手がかりになります。
+      notes:
+      - {kind: 用語, term: 関係詞節, yomi: かんけいしせつ, text: 関係詞から始まり、先行詞を説明するひとまとまり。本書では［ ］で示す。}
+      - {kind: 用語, term: 先行詞, yomi: せんこうし, text: 関係詞節に説明される名詞。関係詞より「先に行く」ことばなので、こう呼ぶ。}
+    - h: 関係代名詞を決める3つの問い
+    - p: 先行詞が人なら who、物なら which、と覚えるだけでは入試の問題は解けません。@e001 の that I read yesterday では、節の中の read の目的語がありません。関係代名詞は、この欠けた目的語の代わりをしています。どの語を使うかは、次の順に問いを立てて決めます。
+    - steps:
+      - 先行詞は人か、人以外か。
+      - 関係詞節の中で、何が欠けているか（主語か、目的語か、それとも欠けていないか）。
+      - 先行詞の直後にコンマがあるか（@s13）。
+    - p: 問1と問2の答えを組み合わせると、使える語が決まります。赤シートで隠して、表のどのマスも言えるようにしておきます。
+      notes:
+      - {kind: 注意, text: 目的語が欠けているときの whom は、会話や普通の文では who を使うことが多い。入試の4択では whom も正解になる。}
+    - table:
+        head: ["", 主語が欠けている, 目的語が欠けている, 所有者（〜の）を表す]
+        rows:
+        - [人, "{{who / that}}", "{{who(m) / that}}", "{{whose}}"]
+        - [人以外, "{{which / that}}", "{{which / that}}", "{{whose}}"]
+    - check:
+      - {q: "I have a friend [＿] lives in Osaka.", a: who／that}
+      - {q: "This is the photo [＿] my sister took.", a: which／that}
+    examples:
+    - id: e001
+      en: the book [*that* I read ＿ yesterday]
+      ja: 私が昨日読んだ本
+    - id: e002
+      en: The woman [*who* ＿ lives next door] teaches music at a junior high school.
+      ja: 隣に住んでいる女性は、中学校で音楽を教えている。
+      gloss: [[next door, 隣に]]
+    - id: e003
+      en: The bus [*which* ＿ goes to the station] leaves every fifteen minutes.
+      ja: 駅へ行くバスは15分おきに出る。
+      gloss: [[every fifteen minutes, 15分ごとに]]
+    summary:
+    - 関係詞節は先行詞の{{後ろ}}に置き、外しても文法上は文が{{成り立つ}}。
+    - 関係代名詞を決める問い：①先行詞は{{人}}か人以外か　②節の中で{{何が欠けているか}}　③先行詞の直後に{{コンマ}}があるか
+    - 人・主語が欠ける → {{who／that}}　人・目的語が欠ける → {{who(m)／that}}
+    - 人以外・主語または目的語が欠ける → {{which／that}}　所有者 → {{whose}}
+  - id: s02
+    title: 主格の関係代名詞 who・which・that
+    patterns: [P1]
+    body: []
+    examples: []
+    summary: []
+  - id: s03
+    title: 目的格の関係代名詞と省略
+    patterns: [P2, P14]
+    body: []
+    examples: []
+    summary: []
+  - id: s04
+    title: 所有格の whose
+    patterns: [P3]
+    body: []
+    examples: []
+    summary: []
+  - id: s05
+    title: that が好まれる場合・使えない場合
+    patterns: [P1]
+    body: []
+    examples: []
+    summary: []
+  - id: s06
+    title: 前置詞＋関係代名詞
+    patterns: [P10]
+    body: []
+    examples: []
+    summary: []
+- id: c2
+  title: 関係副詞
+  sections:
+  - id: s07
+    title: 場所・時を表す where と when
+    patterns: [P5]
+    body: []
+    examples: []
+    summary: []
+  - id: s08
+    title: 理由・方法を表す why と how
+    patterns: [P5]
+    body: []
+    examples: []
+    summary: []
+  - id: s09
+    title: 関係副詞か、関係代名詞か
+    patterns: [P4]
+    body: []
+    examples: []
+    summary: []
+- id: c3
+  title: what と that
+  sections:
+  - id: s10
+    title: 先行詞をふくむ関係代名詞 what
+    patterns: [P6]
+    body: []
+    examples: []
+    summary: []
+  - id: s11
+    title: what を使った決まった言い方
+    patterns: [P16, P17]
+    body: []
+    examples: []
+    summary: []
+  - id: s12
+    title: 関係代名詞の that と接続詞の that
+    patterns: [P7]
+    body: []
+    examples: []
+    summary: []
+- id: c4
+  title: 非制限用法
+  sections:
+  - id: s13
+    title: コンマの付いた関係詞節
+    patterns: [P8]
+    body: []
+    examples: []
+    summary: []
+  - id: s14
+    title: 前の文の内容を受ける which と、数の表現＋of which
+    patterns: [P9, P11]
+    body: []
+    examples: []
+    summary: []
+- id: c5
+  title: 複合関係詞
+  sections:
+  - id: s15
+    title: whoever・whatever・whichever
+    patterns: [P12]
+    body: []
+    examples: []
+    summary: []
+  - id: s16
+    title: however・whenever・wherever と譲歩
+    patterns: [P12]
+    body: []
+    examples: []
+    summary: []
+- id: c6
+  title: 入試で差がつく関係詞
+  sections:
+  - id: s17
+    title: I think などが入りこむ関係詞節
+    patterns: [P13]
+    body: []
+    examples: []
+    summary: []
+  - id: s18
+    title: 関係代名詞のように働く as・than・but
+    patterns: [P15]
+    body: []
+    examples: []
+    summary: []
+  - id: s19
+    title: 先行詞と動詞の数の一致、離れた関係詞節
+    patterns: [P18, P19]
+    body: []
+    examples: []
+    summary: []
+
+problems:
+- id: q0001
+  sec: s01
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: The man (＿) car was stolen went to the police station.
+  choices: [who, whose, which, whom]
+  ans: "2"
+  why: 空所の直後の car に冠詞がなく、「その男性の車」という所有の関係になっている。所有者を表すのは whose。
+  trap: 先行詞が人なので①who を選びやすい。しかし who を入れると who car was stolen となり、car の前に冠詞も所有者もない形になってしまう。
+- id: q0002
+  sec: s01
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  q: I need a box (＿) is big enough for these books.
+  choices: [what, who, which, whose]
+  ans: "3"
+  why: 先行詞 a box は人以外で、節の中で is の主語が欠けている。人以外・主語が欠ける場合は which（または that）。
+  trap: ①what は先行詞をふくむ関係代名詞なので、a box のような先行詞があるときは使えない（@s10）。
+- id: q0003
+  sec: s01
+  set: 節末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 私が先週会った少年はピアノがとても上手だ。<br>The boy ( I / last / met / week / who ) plays the piano very well.
+  words: [I, last, met, week, who]
+  ans: The boy who I met last week plays the piano very well.
+  why: 先行詞 The boy の直後に関係詞節 who I met ＿ last week を置く。met の目的語が欠けているので、who は目的格の働きをしている。
+  trap: The boy who met I last week の語順にしてしまう誤り。関係詞節の中は「主語＋動詞」の普通の語順になる。

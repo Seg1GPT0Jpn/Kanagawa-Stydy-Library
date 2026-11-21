@@ -1,0 +1,174 @@
+#!/usr/bin/env python3
+"""データ（本全体または章ごとの部分ファイル）の検査。
+使い方: python3 validate.py <yaml> [<yaml> ...]   複数渡すと結合して検査する。
+失敗（ERROR）が1つでもあれば終了コード 1。WARN は要確認の候補。
+"""
+import re, sys, yaml
+from pathlib import Path
+from collections import Counter
+
+ROOT = Path(__file__).resolve().parents[1]
+KINDS = {'4択', '正誤', '整序', '補充', '和訳', '英作', '読解'}
+SETS = {'節末', '章末', '模試'}
+NOTE_KINDS = {'用語', '語注', '注意', '参照'}
+
+
+def wordlists():
+    """04_ai_tells.md の禁止語リスト（コードブロック）を読む。調査ファイルを唯一の情報源にする。"""
+    t = (ROOT / 'research' / '04_ai_tells.md').read_text()
+    t = t[t.index('## 自動検査用の禁止語リスト'):]
+    lists = {}
+    for m in re.finditer(r'### (.+?)\n.*?```\n(.*?)```', t, re.S):
+        lists[m.group(1).strip()] = [w.strip() for w in m.group(2).splitlines() if w.strip()]
+    return lists
+
+
+def load(paths):
+    chapters, problems = [], []
+    for p in paths:
+        d = yaml.safe_load(Path(p).read_text())
+        chapters += d.get('chapters', []) or []
+        problems += d.get('problems', []) or []
+    return chapters, problems
+
+
+def plain(s):
+    s = re.sub(r'<[^>]+>', ' ', str(s))
+    return re.sub(r'[{}*_\[\]<>@]', ' ', s)
+
+
+def main(paths):
+    err, warn = [], []
+    chapters, problems = load(paths)
+    full = yaml.safe_load((ROOT / 'src' / 'eg01.yaml').read_text())
+    sec_ids = {s['id'] for c in full['chapters'] for s in c['sections']} | {s['id'] for c in chapters for s in c['sections']}
+    ex_ids = Counter(); terms = set()
+    en_texts, ja_texts = [], []
+    for c in chapters:
+        for s in c['sections']:
+            for e in s.get('examples', []) or []:
+                ex_ids[e['id']] += 1
+                for k in ('id', 'en', 'ja'):
+                    if not e.get(k): err.append(f'{s["id"]}: 例文に {k} がない: {e}')
+                en_texts.append((e['id'], e.get('en', '')))
+                ja_texts.append((e['id'], e.get('ja', '')))
+            used_ex = set()
+            for b in s.get('body', []) or []:
+                keys = set(b) - {'notes'}
+                if len(keys) != 1 or not keys <= {'h', 'p', 'ex', 'steps', 'table', 'check'}:
+                    err.append(f'{s["id"]}: 本文ブロックの形が不正: {list(b)}')
+                for n in b.get('notes', []) or []:
+                    if n.get('kind') not in NOTE_KINDS: err.append(f'{s["id"]}: 側注の種類が不正: {n}')
+                    if n.get('kind') == '用語':
+                        if not n.get('yomi') or not re.fullmatch(r'[ぁ-んー]+', n['yomi']): err.append(f'{s["id"]}: 用語 {n.get("term")} の yomi（ひらがな）がない')
+                        terms.add(n.get('term'))
+                if 'ex' in b: used_ex |= set(b['ex'])
+                if 'p' in b: ja_texts.append((s['id'], b['p']))
+                if 'check' in b:
+                    for q in b['check']:
+                        if not q.get('q') or not q.get('a'): err.append(f'{s["id"]}: 確認問題に q/a がない')
+            defined = {e['id'] for e in s.get('examples', []) or []}
+            if defined - used_ex: err.append(f'{s["id"]}: 本文で使っていない例文: {sorted(defined - used_ex)}')
+            if used_ex - defined: err.append(f'{s["id"]}: 定義のない例文: {sorted(used_ex - defined)}')
+            if s.get('body') and not s.get('summary'): err.append(f'{s["id"]}: summary（要点まとめ）がない')
+            for sm in s.get('summary', []) or []:
+                if '{{' not in sm: warn.append(f'{s["id"]}: 要点に赤シートの穴 {{{{}}}} がない: {sm[:30]}')
+    for k, v in ex_ids.items():
+        if v > 1: err.append(f'例文 ID の重複: {k}')
+    # 参照
+    alltext = yaml.safe_dump({'c': chapters, 'p': problems}, allow_unicode=True)
+    for m in re.finditer(r'@(s\d+)', alltext):
+        if m.group(1) not in sec_ids: err.append(f'存在しない節への参照: @{m.group(1)}')
+    full_ex = {e['id'] for c in full['chapters'] for s in c['sections'] for e in s.get('examples', []) or []} | set(ex_ids)
+    for m in re.finditer(r'@(e\d+)', alltext):
+        if m.group(1) not in full_ex: err.append(f'存在しない例文への参照: @{m.group(1)}')
+    full_terms = {n['term'] for c in full['chapters'] for s in c['sections'] for b in s.get('body', []) or [] for n in (b.get('notes') or []) if n.get('kind') == '用語'} | terms
+    for m in re.finditer(r'<<(.+?)>>', alltext):
+        if m.group(1) not in full_terms: err.append(f'用語の定義（側注「用語」）がない: <<{m.group(1)}>>')
+    # 問題
+    qids = Counter(p.get('id') for p in problems)
+    for k, v in qids.items():
+        if v > 1: err.append(f'問題 ID の重複: {k}')
+    for p in problems:
+        pid = p.get('id', '?')
+        for k in ('id', 'sec', 'set', 'lv', 'kind', 'min', 'q', 'ans', 'why', 'trap'):
+            if p.get(k) in (None, ''): err.append(f'{pid}: {k} がない')
+        if p.get('kind') not in KINDS: err.append(f'{pid}: kind が不正: {p.get("kind")}')
+        if p.get('set') not in SETS: err.append(f'{pid}: set が不正: {p.get("set")}')
+        if p.get('lv') not in (1, 2, 3): err.append(f'{pid}: lv が不正')
+        if p.get('sec') not in sec_ids: err.append(f'{pid}: sec が存在しない: {p.get("sec")}')
+        if p.get('kind') == '4択':
+            ch = p.get('choices') or []
+            if len(ch) != 4: err.append(f'{pid}: 4択の選択肢が4つでない')
+            if str(p.get('ans')) not in ('1', '2', '3', '4'): err.append(f'{pid}: 4択の ans が 1〜4 でない')
+            if len(set(ch)) != len(ch): err.append(f'{pid}: 選択肢が重複')
+            if '(＿)' not in p.get('q', '') and '＿' not in p.get('q', ''): err.append(f'{pid}: 4択の問題文に空所 ＿ がない')
+        if p.get('kind') == '読解' and p.get('choices'):
+            if len(p['choices']) != 4: err.append(f'{pid}: 読解の選択肢が4つでない')
+            if str(p.get('ans')) not in ('1', '2', '3', '4'): err.append(f'{pid}: 読解の ans が 1〜4 でない')
+        if p.get('kind') in ('和訳', '英作', '補充') and not p.get('why'): err.append(f'{pid}: 採点の目安（why）がない')
+        if p.get('kind') == '正誤':
+            marks = re.findall(r'__.+?__([①-⑳])', p.get('q', ''))
+            if len(marks) != 4: err.append(f'{pid}: 正誤の下線部が4つでない（__…__① の形）')
+            if str(p.get('ans')) not in ('1', '2', '3', '4'): err.append(f'{pid}: 正誤の ans が 1〜4 でない')
+        if p.get('kind') == '整序':
+            words = p.get('words') or []
+            if not words: err.append(f'{pid}: 整序に words がない')
+            ans = str(p.get('ans', ''))
+            toks = re.findall(r"[A-Za-z][A-Za-z'’\-]*", ans)
+            # 問題文に出ている語（括弧の外）を答えから除き、残りが words と一致するか
+            q = re.sub(r'<br>', ' ', p.get('q', ''))
+            outside = re.sub(r'\(([^()]*/[^()]*)\)', ' ', q)
+            outside_toks = re.findall(r"[A-Za-z][A-Za-z'’\-]*", outside)
+            rest = Counter(t.lower() for t in toks)
+            for t in outside_toks:
+                if rest[t.lower()] > 0: rest[t.lower()] -= 1
+            want = Counter(w.lower() for w in words)
+            rest = +rest
+            if rest != want:
+                err.append(f'{pid}: 整序の語が答えと一致しない: 与えた {sorted(want.elements())} / 答えの残り {sorted(rest.elements())}')
+            inparen = re.search(r'\(([^()]*/[^()]*)\)', q)
+            if inparen:
+                shown = Counter(w.strip().lower() for w in inparen.group(1).split('/'))
+                if shown != want: err.append(f'{pid}: 問題文の（ / ）内の語と words が一致しない')
+        for alt in p.get('alt') or []:
+            if not str(alt).strip(): err.append(f'{pid}: 空の別解')
+        en_texts.append((pid, p.get('q', '')))
+        ja_texts.append((pid, (p.get('why', '') or '') + (p.get('trap', '') or '')))
+    # 禁止語
+    wl = wordlists()
+    for key in ('英語・強（単語。活用形を含む）', '英語・強（句）'):
+        for w in wl.get(key, []):
+            pat = re.compile(r'\b' + re.escape(w) + r'\b', re.I)
+            for i, t in en_texts:
+                if pat.search(plain(t)): err.append(f'{i}: AI多用語（強）「{w}」')
+    for w in wl.get('英語・注意（単語）', []):
+        pat = re.compile(r'\b' + re.escape(w) + r'\b', re.I)
+        n = [i for i, t in en_texts if pat.search(plain(t))]
+        if n: warn.append(f'AI多用語（注意）「{w}」: {n}')
+    for w in wl.get('英語・定番名（物語系AIの名前。頻度で判定）', []):
+        for i, t in en_texts:
+            if re.search(r'\b' + re.escape(w) + r'\b', t): err.append(f'{i}: 定番名「{w}」')
+    for w in wl.get('日本語・強', []):
+        for i, t in ja_texts:
+            if w in str(t): err.append(f'{i}: 日本語の避ける表現「{w}」')
+    for w in wl.get('日本語・注意（密度で判定）', []):
+        n = [i for i, t in ja_texts if w in str(t)]
+        if len(n) >= 3: warn.append(f'日本語の注意表現「{w}」が {len(n)} か所: {n[:6]}')
+    for i, t in ja_texts:
+        if re.search(r'[！!]', str(t)) and not re.search(r'[A-Za-z]!', str(t)): warn.append(f'{i}: 解説文に「！」')
+        if '—' in str(t) or '――' in str(t): err.append(f'{i}: 長いダッシュ')
+        if len(re.findall(r'\*\*', str(t))) > 2: warn.append(f'{i}: 太字が1段落に2か所以上')
+    # 人名の偏り
+    names = Counter()
+    for i, t in en_texts:
+        for m in re.finditer(r'\b(?:Mr\.|Ms\.|Mrs\.|Dr\.)?\s?([A-Z][a-z]+)\b', plain(t)):
+            pass
+    for e in warn: print('WARN ', e)
+    for e in err: print('ERROR', e)
+    print(f'例文 {sum(ex_ids.values())}、問題 {len(problems)}、ERROR {len(err)}、WARN {len(warn)}')
+    return 1 if err else 0
+
+
+if __name__ == '__main__':
+    sys.exit(main(sys.argv[1:]))

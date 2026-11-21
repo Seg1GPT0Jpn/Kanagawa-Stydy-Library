@@ -1,26 +1,23 @@
-// HTML を Chromium で PDF にする。使い方: node render.js in.html out.pdf
+// HTML を Chromium で組んで PDF にする。使い方: node render.js in.html out.pdf
+// ページ組み (window.__paginate) があれば書体の読み込み後に実行し、結果を <out>.layout.json に書く。
 const { chromium } = require('playwright');
 const path = require('path');
+const fs = require('fs');
 (async () => {
   const [inp, out] = process.argv.slice(2);
   const browser = await chromium.launch();
   const page = await browser.newPage();
+  page.on('pageerror', e => { console.error('JS error:', e.message); process.exitCode = 3; });
   await page.goto('file://' + path.resolve(inp), { waitUntil: 'load' });
   await page.evaluate(() => document.fonts.ready);
-  // ページ内のはみ出しを検出（.page の中で .overflow-check が下端を越えたら失敗）
-  const over = await page.evaluate(() => {
-    const bad = [];
-    document.querySelectorAll('.page').forEach((pg, i) => {
-      const body = pg.querySelector('.body') || pg;
-      const lim = body.getBoundingClientRect().bottom + 0.5;
-      body.querySelectorAll('*').forEach(el => {
-        const r = el.getBoundingClientRect();
-        if (r.height > 0 && r.bottom > lim) bad.push(`p${i + 1}: <${el.tagName.toLowerCase()} class="${el.className}"> ${(el.textContent || '').slice(0, 30)}`);
-      });
-    });
-    return bad;
-  });
+  const hasPag = await page.evaluate(() => typeof window.__paginate === 'function');
+  let layout = null;
+  if (hasPag) {
+    layout = await page.evaluate(() => { window.__paginate(); return window.__layout; });
+    const fonts = await page.evaluate(() => Array.from(document.fonts).filter(f => f.status !== 'loaded' && f.status !== 'unloaded').map(f => f.family + ':' + f.status));
+    if (fonts.length) layout.errors.push('書体の読み込み失敗: ' + fonts.join(','));
+    fs.writeFileSync(out.replace(/\.pdf$/, '.layout.json'), JSON.stringify(layout));
+  }
   await page.pdf({ path: out, preferCSSPageSize: true, printBackground: true });
   await browser.close();
-  if (over.length) { console.error('OVERFLOW\n' + over.slice(0, 20).join('\n')); process.exit(2); }
 })();
