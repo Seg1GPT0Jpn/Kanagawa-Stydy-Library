@@ -186,7 +186,7 @@
 - ノンブル：地（下）の小口側。左ページは左下、右ページは右下（拡大教科書規格のノンブル位置とも一致）。版面からの距離は本文文字サイズよりやや大きく（例：本文 9.5pt なら 4–5mm）。
 - 柱：天の小口側に章名（左右とも）または左＝章名・右＝節名（両柱）。柱は本文より 1–2 段階小さいゴシック（7.5–8pt）。
 - 章扉・目次・白ページにはノンブルを表示しない（隠しノンブル）。
-- CSS：`@page :left { @bottom-left {...} }`／`@page :right { @bottom-right {...} }` の margin box は Chromium 131 以降で対応【記憶・未確認】。未対応なら Paged.js 等のポリフィル、または各ページを固定高さの div で組む方式。
+- CSS：`@page :left { @bottom-left { content: counter(page) } }`／`@page :right { @bottom-right {...} }` の page margin box が、手元の Chrome 153 headless の `--print-to-pdf` で動作することを確認【実測】（1ページ目＝右ページ、`counter(page)` も出力）。柱の章名は `string-set` が Chromium 未対応の可能性があるため【記憶・未確認】、章ごとに名前付きページ（`page: ch1`）を使い `@page ch1 { @top-right { content: "第1章 …" } }` と書く方式が確実。
 
 ### 7.3 見出し階層とサイズ
 JLREQ §4.1 の例（本文9pt→小10・中12・大14pt）を、本文 9.5–10pt に合わせて1段ずつ上げる【設計判断】：
