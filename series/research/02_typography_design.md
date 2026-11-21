@@ -1,6 +1,6 @@
 # 02 組版・視覚デザイン調査（関係詞 ほか シリーズ共通）
 
-調査日：2026-11-21　状態：作成中（随時追記）
+調査日：2026-11-21　状態：初版（調査完了分。要確認事項は冒頭表の下に列挙）
 
 凡例：【設計判断】＝一次情報から直接は出ない、本シリーズとしての決め。【記憶・未確認】＝資料を開かずに記憶で書いた箇所。【実測】＝同梱フォントファイルを fontTools で実際に読んだ値。
 
@@ -55,7 +55,7 @@
 | Source Serif 4 | SourceSerif4[opsz,wght].ttf ＋ Italic（可変 wght 200–900, opsz 8–60） | Version 4.004 | OFL.txt：Copyright 2014 The Source Serif 4 Project Authors (https://github.com/adobe-fonts/source-serif) | **あり：‘Source’**（フォント name ID 0 と METADATA.pb に “with Reserved Font Name ‘Source’”。同梱 OFL.txt 冒頭には書かれていない） | SIL OFL 1.1 |
 
 ライセンス上の帰結（OFL 1.1 本文を読んだうえで）：
-- PDF へのフォント埋め込み・PDF の無料／有料配布は OFL の制約対象外（OFL は「フォントソフトウェア」自体の再配布条件を定める。文書への埋め込みは FAQ で許容）。【記憶・未確認：OFL-FAQ の該当項目番号は未照合】
+- PDF へのフォント埋め込み・PDF の無料／有料配布は OFL の制約対象外（OFL-FAQ 1.12：文書への埋め込みは「in full or a subset」で可、改変・再配布の制限は適用されない。1.13：埋め込んでも文書のライセンスは変わらない）。
 - フォントファイル自体を配布物（HTML ソース一式など）に同梱する場合は、OFL.txt（著作権表示＋ライセンス本文）を同梱する。単体販売は不可。
 - 改変（サブセット化を含む派生物と解釈されうる）したフォントを配布する場合、RFN を持つ Source Serif 4 は派生物に “Source” を含む名前を付けられない。Chromium が PDF 埋め込み時に行うサブセット化は文書埋め込みであり、通常は問題にされない。【設計判断：フォントファイルを改変・同梱配布しない。PDF のみ配布】
 - 奥付に「使用書体：BIZ UDP明朝・BIZ UDPゴシック（モリサワ／SIL OFL 1.1）、Source Serif 4（Adobe／SIL OFL 1.1）」を記載する【設計判断】（OFL上の義務ではないが、透明性のため）。
@@ -130,7 +130,7 @@
 - 本シリーズでは赤が1色だけなので色同士の識別問題はほぼ生じない。CUD 上の注意は「赤と黒の区別」であり、ver.4 の #FF4B00 はそれを満たすよう調整済み。ただし、赤だけで情報を区別しない（太字・下線・記号を併用する）のが CUD の基本【設計判断】。
 
 ### 2.2 Chromium の PDF 出力と色
-- Chromium の印刷 PDF は RGB（sRGB）で出力され、CMYK・特色・オーバープリントは指定できない。【記憶・未確認：Chromium の仕様書は未確認】→ 印刷所に入稿する場合は RGB→CMYK 変換が入り、#FF4B00 はおおむね M75–85 Y90–100 付近、黒 #000000 は4色リッチブラック化しうる。文字の黒を K100 にするには、印刷所の変換設定（「RGB の黒を K100 に」）に頼るか、Ghostscript 等で後処理が必要。【設計判断：家庭用・コンビニ印刷前提なら RGB のままでよい。オフセット入稿版を作るときだけ変換を検討】
+- Chromium の印刷 PDF は RGB で出力される【実測：Chrome 153 の `--print-to-pdf` 出力のコンテンツストリームを展開し、#FF4B00 が `1 .2941 0 rg`、#E6E6E6 が `.902 .902 .902 rg`、黒文字が `0 0 0 rg`（いずれも RGB の塗り演算子。CMYK の `k` 演算子は出現せず、CSS `cmyk()` 指定も反映されない）】。特色・オーバープリントも指定できない【記憶・未確認】。→ 印刷所に入稿する場合は RGB→CMYK 変換が入り、#FF4B00 はおおむね M75–85 Y90–100 付近、黒 #000000 は4色リッチブラック化しうる。文字の黒を K100 にするには、印刷所の変換設定（「RGB の黒を K100 に」）に頼るか、Ghostscript 等で後処理が必要。【設計判断：家庭用・コンビニ印刷前提なら RGB のままでよい。オフセット入稿版を作るときだけ変換を検討】
 
 ### 2.3 赤シートで隠れる条件
 - 文京組版「Dr.シローの覚え書き」112「赤シート付き書籍の組版」（2016-01-14） https://bunkyo-kumihan.com/kumihan_blog/?p=2451 ：赤シート付き書籍は「墨＋オレンジ（特色）」が多い。特色の色文字は白地や色網の上なら「赤シートで消えます」。**墨網の上の色文字を赤シートで消すには、色文字をノセ（オーバープリント）にする必要がある**。抜き合わせだと墨網に白抜き文字が見えてしまい NG。
@@ -188,6 +188,7 @@
 - 【記憶・未確認】市販の高校英語参考書（A5〜B5判）の日本語解説はおおむね 8.5–10pt、英文例文はそれより 0.5–1pt 大きいことが多い。現物計測はしていない。
 
 ### 5.2 本シリーズへの適用【設計判断】
+（最終的な推奨値は冒頭「設計規則の候補」の表に統一。以下は検討過程）
 - A4 本文 1段組で 40 字以内にすると、9.5pt（3.35mm）×40 字＝134mm。A4 幅 210mm から左右マージン計 76mm となり余白が大きすぎる。→ **A4 は「本文欄＋側注欄（または書き込み欄）」の2カラム**にし、本文欄の行長を 36–40 字に収める。あるいは本文 10.5pt×40 字＝148mm（左右マージン計 62mm）とする。
 - A5 冊子（A4 二つ折り）では 9pt×33 字≈105mm、左右マージン計 43mm 程度。
 - 行送り：和文本文は 1.7–1.8 倍（JLREQ の「35字超なら全角アキ（2.0）かやや詰め」と、書き込み・赤シート利用で行間に余裕が要ることから）。英文例文は 1.5 倍前後（Butterick の 120–145% より広めだが、和文行と同じ行送りグリッドに乗せるため）。
@@ -206,7 +207,7 @@
 | 段落末1字の行・ページ頭1行を避ける（JLREQ §4.x 段落末尾処理） | `orphans: 2; widows: 2;`、見出しに `break-after: avoid;`、例文ブロック・表に `break-inside: avoid;` | Chromium は orphans/widows をサポート【記憶・未確認】 |
 
 約物の選択【設計判断】：
-- 和文中の括弧は全角（（）「」【】）、英文中は半角 ( ) “ ” ’。和文中で英語を引用するときは「 」ではなく英文側の引用符を使わない。
+- 和文中の括弧は全角（（）「」【】）、英文中は半角 ( ) “ ” ’。和文の地の文で英語の語句を示すときは引用符で囲まず、英文 span（欧文書体）で示すか和文の「 」で囲む。
 - 英文のアポストロフィ・引用符は直線 ' " でなく ’ “ ” に（Source Serif 4 は持つ）。
 - 空所補充の下線は `_____`（アンダースコア連続）ではなく CSS の border-bottom 付き inline-block（一定幅）で描く。
 - 記号「①」「⇒」「【】」「・」は Source Serif 4 にないため和文フォントで出る（実測）。英文 span 内でこれらを使う場合のフォールバック順を明示：`font-family: "Source Serif 4", "BIZ UDPMincho";`。
@@ -268,3 +269,40 @@ JLREQ §4.1 の例（本文9pt→小10・中12・大14pt）を、本文 9.5–10
 - 面付けは Chromium ではできないので、単ページ PDF を出してから別ツールで 2-up 面付けする（例：pypdf でページ並べ替え＋2面配置、または pdfjam --booklet）。プリンタドライバの「小冊子印刷」に任せる方式もあるが機種依存。【設計判断：単ページ PDF と面付け済み PDF の両方を配布】
 - ノド（綴じ側）マージン：中綴じは開きがよいので無線綴じほど広くなくてよいが、ホチキス針と折り目の分として最低 12mm【設計判断】。小口はクリープと手持ちを考え 12mm 以上。
 
+## 10. 出典一覧
+
+証拠の強さ：A＝規格・公的文書・仕様・一次データ（実測含む）／B＝業界団体・メーカー・専門家の公開資料／C＝事業者の実務記事・二次情報／D＝検索結果の要約のみ。
+確認状況：「確認済」＝本文を実際に開いて該当箇所を読んだ／「一部確認」＝一部のみ読めた／「未確認」＝開けなかった・要約のみ。
+
+| # | 著者／発行者 | 年 | タイトル | URL | 確認した内容 | 強さ | 確認状況 |
+|---|---|---|---|---|---|---|---|
+| 1 | 同梱フォント（Morisawa/Type Bank, Google/Adobe, Adobe） | 2022/2012–2024/2014–2021 | OFL.txt・METADATA.pb・フォント name テーブル | /home/user/Kanagawa-Stydy-Library/series/fonts/ | 著作権表示、RFN（Source Serif 4 のみ ‘Source’）、版、x ハイト等の寸法、OpenType 機能、収録字形 | A | 確認済（fontTools で実測） |
+| 2 | SIL International | 2007（FAQ 随時） | SIL Open Font License 1.1 / OFL-FAQ | https://openfontlicense.org/ofl-faq/ | FAQ 1.12（文書への埋め込み可・サブセット可・改変再配布の制限は適用されない）、1.13（文書のライセンスは変わらない）、2.6–2.7（サブセットと RFN） | A | 確認済 |
+| 3 | W3C（JLTF） | Working Group Note（最新版） | Requirements for Japanese Text Layout 日本語組版処理の要件 | https://www.w3.org/TR/jlreq/ | §2.4 基本版面（9pt・最低 8pt・欧文 10/12pt・横組 40 字・行間二分〜全角）、§2.6 柱ノンブル、§3.1 禁則、§3.2 和欧混植（四分アキ・欧単語分割禁止・全角欧字不可）、§4.1 見出し | A | 確認済（HTML 全文を取得して検索） |
+| 4 | JIS X 4051（日本産業標準調査会） | 2004 | 日本語文書の組版方法 | https://www.jisc.go.jp/ | JLREQ からの参照（7.4.1 基本版面、7.5.4 ノンブル、7.6.4 柱、8.1 改丁・改ページ、8.3 見出し）のみ | A | 未確認（本文を閲覧していない） |
+| 5 | カラーユニバーサルデザイン推奨配色セット制作委員会 | 2018 | カラーユニバーサルデザイン推奨配色セット ガイドブック 第2版／概要版（2018年4月改定 ver.4） | https://jfly.uni-koeln.de/colorset/ | 赤 RGB 255,75,0／CMYK 0,75,90,0、明るいグレー 200,200,203／15,10,10,0、グレー 132,145,158／18,10,0,55、文字・細線の黒は K100 指定、ver.4 で「赤を黒と見分けやすく」、使用許諾不要 | B | 確認済（概要版 PDF を画像化して目視。ガイドブック本体 PDF は文字抽出できず未読） |
+| 6 | 文京組版「Dr.シローの覚え書き」 | 2016-01-14 | 112. 赤シート付き書籍の組版 | https://bunkyo-kumihan.com/kumihan_blog/?p=2451 | 墨＋特色オレンジが多い、墨網上の色文字はノセにしないと赤シートで消えない | C | 確認済 |
+| 7 | 文京組版「Dr.シローの覚え書き」 | 2019-06-13 | 228. 赤シート対応色―デジタル印刷機で試し刷り | https://bunkyo-kumihan.com/kumihan_blog/?p=7186 | RICOH Pro C651EX での試験：薄ピンク・薄橙は消えない、黄は消えるが読めない、マゼンタの網点が主因 | C | 確認済 |
+| 8 | 文部科学省 初等中等教育局 教科書課（拡大教科書普及推進会議） | 平成21年以前 | 第2章 拡大教科書の標準的な規格について | https://www.mext.go.jp/a_menu/shotou/kyoukasho/1282361.htm | 本文 22pt 程度、ゴシック中太、行間は文字の 1/2 以上、見にくい線は太く、ノンブルは本文と同程度・左下／右下 | A（ただし弱視者向け拡大教科書） | 確認済 |
+| 9 | W3C WAI | 2023 | Understanding SC 1.4.8 Visual Presentation (WCAG 2.2) | https://www.w3.org/WAI/WCAG22/Understanding/visual-presentation.html | 80 字（CJK 40 字）以内、両端揃えにしない、行送り 1.5 以上、段落間 1.5 倍 | A（Web 向け） | 確認済 |
+| 10 | Matthew Butterick | 随時更新 | Practical Typography: line length / line spacing / point size | https://practicaltypography.com/line-length.html ほか | 行長 45–90 字、行送り 120–145%、印刷本文 10–12pt | B | 確認済 |
+| 11 | W3C CSS WG | Editor's Draft | CSS Text Module Level 4 | https://drafts.csswg.org/css-text-4/ | `text-autospace-size` 初期値 0.125（1/8ic）、慣行は 1/4ic〜1/8ic | A | 確認済（該当節） |
+| 12 | MDN | 随時 | text-spacing-trim / text-autospace | https://developer.mozilla.org/en-US/docs/Web/CSS/text-spacing-trim | text-spacing-trim は halt/chws がないフォントでは無効、値の定義；text-autospace の値の定義 | B | 確認済（互換表は読めず） |
+| 13 | Chrome for Developers（Jack J.） | 不明 | Introducing four new international features in CSS | https://developer.chrome.com/blog/css-i18n-features | auto-phrase（Chrome 119、lang="ja" 必須）、text-autospace はフラグ付き（Chrome 120〜）、明示スペースがあると挿入しない | B | 確認済 |
+| 14 | 本調査（Chrome for Testing 153 headless） | 2026-11-21 | テスト HTML→PDF の実測 | ― | text-autospace +0.125em×2、BIZ UDP には text-spacing-trim 無効、hyphens:auto で分割、可変フォントは Type 3 埋め込み、PDF は DeviceRGB、@page margin box 動作 | A（実測、ただし1環境） | 確認済 |
+| 15 | googlefonts / Morisawa | 2022 | morisawa-biz-ud-mincho README | https://github.com/googlefonts/morisawa-biz-ud-mincho | 教育・ビジネス文書向け、横線が太い、濁点半濁点の可読性、OFL | B | 確認済 |
+| 16 | 中野泰志 ほか（慶應義塾大学） | 2010 | JPA2010 ポスター（明朝・ゴシック・UD 書体の読みやすさ比較） | https://web.econ.keio.ac.jp/staff/nakanoy/research/largeprint/03_kaken/2012/fig/JPA2010.pdf | PDF は取得したが文字抽出・描画できず内容未読。検索要約では UD 書体でもメーカーで可読性が異なる等 | D | 未確認 |
+| 17 | 窓の杜 ほか | 2017–2018 | BIZ UD フォント無償提供の記事 | https://forest.watch.impress.co.jp/docs/news/1149745.html | 検索要約のみ：TBUD 書体ベース | D | 未確認 |
+| 18 | Adobe Fonts | 不明（リリース 4.005） | adobe-fonts/source-serif Releases | https://github.com/adobe-fonts/source-serif/releases | 最新 4.005R、OTF・TTF・WOFF・Variable を配布、Windows の CFF2 可変フォント不具合の注意 | B | 一部確認（アセット名は読めず） |
+| 19 | Onlineprinters | 不明 | Line weight（入稿ガイド） | https://www.onlineprinters.ie/c/print-files/line-weight | 最小線幅 0.25pt（濃い線）、0.5pt（白抜き）、網の細線は途切れる | C | 確認済 |
+| 20 | Tradeprint | 不明 | What is creep? | https://help.tradeprint.co.uk/what-is-creep | 40 ページ未満なら通常問題にならない、量の数値なし | C | 確認済 |
+| 21 | キヤノン | 不明 | imagePRESS 等 取扱説明書「小冊子になるようプリントする（製本）」 | https://oip.manual.canon/USRMA-0055-zz-PS-jaJP/contents/PS800_hold556_syousassininaruyouprintsuruseihon.html | クリープ（ずれ）補正の定義、中綴じ上限 25 枚／16 枚 | B | 確認済 |
+| 22 | 世界思想社教学社（@Press） | 2024-04-10 | 赤本 新装丁のプレスリリース | https://www.atpress.ne.jp/news/391407 | 残した要素（赤地・黒ゴシック・中央寄せ・上部帯・幾何学模様）、変えた要素（差し色・強調を弱め読みやすく・余白）、高校生の意見 | C | 確認済 |
+| 23 | 版元ドットコム ほか | ― | 奥付と出版法の経緯 | https://www.hanmoto.com/nisshi985 | 503 で開けず。検索要約：明治26年出版法で義務化、昭和20年効力停止、現在は慣習 | D | 未確認 |
+| 24 | Smartpress / Adobe HelpX | ― | Page creep / Adjust creep settings in booklets | https://smartpress.com/support/printing-basics/creep | 本文取得できず（空・403） | ― | 未確認 |
+
+### 記憶に基づく記述（【記憶・未確認】）の一覧
+- 市販高校英語参考書の本文サイズ（8.5–10pt）。
+- `hanging-punctuation`、`string-set`、`text-autospace-size` の Chromium 対応状況、`orphans/widows` の対応。
+- 断裁誤差 ±1mm 程度。
+- Source Serif 4 静的版の正確なファイル名。
