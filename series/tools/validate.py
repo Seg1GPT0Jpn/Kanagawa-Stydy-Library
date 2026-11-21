@@ -82,6 +82,17 @@ def main(paths):
                 if '{{' not in sm: warn.append(f'{s["id"]}: 要点に赤シートの穴 {{{{}}}} がない: {sm[:30]}')
     for k, v in ex_ids.items():
         if v > 1: err.append(f'例文 ID の重複: {k}')
+    # YAML の真偽値化け（on/off/yes/no などを引用符なしで書くと true/false になる）
+    def walk(x, path):
+        if isinstance(x, bool): err.append(f'{path}: 真偽値 {x}（on/off/yes/no を引用符で囲んでいない可能性）')
+        elif isinstance(x, dict):
+            for k, v in x.items():
+                if isinstance(k, bool): err.append(f'{path}: キーが真偽値 {k}')
+                walk(v, f'{path}.{k}')
+        elif isinstance(x, list):
+            for i, v in enumerate(x): walk(v, f'{path}[{i}]')
+    for c in chapters: walk(c, c.get('id', '?'))
+    for p in problems: walk(p, p.get('id', '?'))
     # 参照
     alltext = yaml.safe_dump({'c': chapters, 'p': problems}, allow_unicode=True)
     for m in re.finditer(r'@(s\d+)', alltext):

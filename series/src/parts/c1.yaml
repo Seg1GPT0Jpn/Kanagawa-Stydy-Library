@@ -642,7 +642,7 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Mr. Ogawa is a neighbor (＿) whom our family can always depend.
-  choices: [on, to, for, with]
+  choices: ["on", to, for, with]
   ans: "1"
   why: 節の中の動詞 depend は depend on（〜を頼りにする）の形で使う。our family can always depend on him の on が whom の前に出ている。
   trap: 先行詞が人なので「人に」の to や with を選ぶ誤り。前置詞は先行詞ではなく、節の中の動詞 depend で決まる。
