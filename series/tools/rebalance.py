@@ -5,7 +5,7 @@
 結果は実行のたびに同じ（乱数を使わない）。正誤は下線の位置が文の順で決まるので対象外。
 使い方: python3 rebalance.py        （src/parts/*.yaml と src/eg01.yaml を書き換える）
 """
-import glob, sys, zlib
+import glob, re, sys, zlib
 from collections import Counter
 from pathlib import Path
 from ruamel.yaml import YAML
@@ -43,6 +43,10 @@ def main():
                     p[k] = type(p[k])(''.join(m.get(c, c) for c in p[k])) if type(p[k]) is not str else ''.join(m.get(c, c) for c in p[k])
             if p.get('alt'):
                 p['alt'] = [''.join(m.get(c, c) for c in str(a)) for a in p['alt']]
+            # 番号が並ぶとき（③④ など）は小さい順にそろえる
+            for k in ('why', 'trap'):
+                if isinstance(p.get(k), str):
+                    p[k] = re.sub('[①②③④]{2,}', lambda mm: ''.join(sorted(mm.group(0))), p[k])
             p['ans'] = str(target + 1)
             changed += 1
         count[target] += 1
