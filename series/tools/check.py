@@ -60,6 +60,7 @@ def coltext(pdf, npages, n, layout=True):
             sideL = left + (cfg['mainW'] + cfg['gap'] if odd else 0)
             boxes = [(mainL, cfg['mainW'] + 2), (sideL, cfg['sideW'])]
             boxes.append((left, cfg['pw'] - cfg['inner'] - cfg['outer']))  # 全幅（本冊の問題）
+            boxes.append((left, 130))  # 問題文の範囲（外側の解答欄を除く）
         else:
             boxes = [(left, cfg['pw'] - cfg['inner'] - cfg['outer'])]
         for x, w in boxes:

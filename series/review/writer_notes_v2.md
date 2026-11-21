@@ -36,3 +36,9 @@
 - q6209：the same dress … as she had worn の as を had worn の目的語として扱った（@e609 と同じ扱い）。
 - q6214：which の先行詞の取り方が違っても答えは④のまま、と判断。
 - q6215（整序）：10語と多め。at the shop を（　）の外に固定して別の並べ方を防いだ。
+
+## 第1章（add_c1）
+- q1225（a farmer and his cows (＿) were walking）：人＋人以外なので that を正解に。近い名詞に合わせて who を許す人もいるかもしれない。
+- q1224（the first student that came）：文法上は正しいが、the first student to come のほうが普通。
+- q1213・q1216 の和訳：turned out to be、pen pal の訳語の幅。採点の幅を要確認。
+- q1205（a shop who sells …）、q1212（… our class who lives …）：who が別の名詞を受けると読む余地はないと判断。
