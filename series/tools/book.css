@@ -32,4 +32,5 @@ body { font-family: "Ser", "Min", serif; font-size: 10pt; line-height: 1.75;
 .pref { white-space: nowrap; font-family: "Ser", "Goth"; }
 u { text-decoration-thickness: .6pt; text-underline-offset: 2px; }
 sub { font: 7.5pt "Goth"; vertical-align: -1pt; margin-left: .1em; }
-.en { font-family: "Ser", serif; }
+.nw { white-space: nowrap; }
+.en { font-family: "Ser", "Min", serif; }

@@ -63,13 +63,13 @@ KAISETSU_CSS = '''
 .blk.ex.top, .blk.ex.first { border-top: .35pt solid #000; margin-top: 1.5mm; }
 .blk.ex.last { margin-bottom: 2mm; }
 .ex .n { font: 9pt/1.9 "Goth"; }
-.ex .e { font-family: "Ser"; font-size: 10.5pt; line-height: 1.55; }
+.ex .e { font-family: "Ser", "Min"; font-size: 10.5pt; line-height: 1.55; }
 .ex .j { font: 9pt/1.6 "Min"; }
 .blk.steps { margin: .5mm 0 1.5mm; }
 .blk.pt { border: 2.4pt double #000; padding: 2mm 3mm 1mm; margin: 2.5mm 0 3mm; }
 .pt .ptl { font: 700 9.5pt/1.6 "Goth"; margin-bottom: 1mm; }
 .pt table.t { margin: 0 0 1.5mm; }
-.steps div { padding-left: 2.6em; text-indent: -2.6em; }
+.steps div { padding-left: 3.6em; text-indent: -3.6em; }
 .steps b { font: 700 9.5pt "Goth"; margin-right: .6em; }
 table.t { border-collapse: collapse; width: 100%; margin: 1.5mm 0 3mm; font-size: 9.5pt; line-height: 1.5; }
 table.t th, table.t td { border: .5pt solid #000; padding: 1.2mm 2mm; text-align: center; }
@@ -79,13 +79,13 @@ table.t td { font-family: "Ser", "Min"; font-size: 10pt; }
 .blk.check { border: .75pt solid #000; padding: 2mm 3mm; margin: 3mm 0 2mm; }
 .check .t { font: 700 9pt/1.6 "Goth"; }
 .check .r { display: grid; grid-template-columns: 7mm 1fr 32mm; align-items: baseline; }
-.check .q { font-family: "Ser"; }
+.check .q { font-family: "Ser", "Min"; }
 .check .a { font-family: "Ser", "Min"; text-align: center; border-bottom: .35pt solid #000; }
 .check .r.long { grid-template-columns: 7mm 1fr; }
 .check .r.long .a { grid-column: 2; text-align: left; padding-left: 2mm; }
 .sn { font: 8pt/1.6 "Goth"; padding: 1.2mm 0 3mm; border-top: .35pt solid #000; }
 .sn .lab { font-weight: 700; display: block; }
-.sn .en { font-family: "Ser"; font-size: 8.5pt; }
+.sn .en { font-family: "Ser", "Min"; font-size: 8.5pt; }
 .sn .gl { padding-left: 1em; }
 /* 前付・後付 */
 .page > .blk.fullpage { position: absolute; inset: 0; }
@@ -93,7 +93,7 @@ table.t td { font-family: "Ser", "Min"; font-size: 10pt; }
 .toc .tc { display: flex; font: 700 10.5pt/1.5 "Goth"; margin-top: 4mm; }
 .toc .ts { display: flex; font-size: 10pt; line-height: 1.9; padding-left: 2em; }
 .toc .dots { flex: 1; border-bottom: .35pt dotted #000; margin: 0 2mm .45em; }
-.toc .pg { font-family: "Ser"; min-width: 6mm; text-align: right; }
+.toc .pg { font-family: "Ser", "Min"; min-width: 6mm; text-align: right; }
 .idx { column-count: 2; column-gap: 8mm; font-size: 9.5pt; line-height: 1.8; }
 .idx .row { display: flex; }
 .idx .k { font: 700 9pt/2 "Goth"; margin-top: 2mm; border-bottom: .35pt solid #000; }
@@ -145,7 +145,8 @@ def kaisetsu_blocks(bk, pages, cover_html, colophon_html, legend_html):
                         nt = notes if i == 0 else ''
                         out.append(blk(f'<span class="n">{bk.ex_no[eid]}</span><div><div class="e">{bk.md(e["en"], pages)}</div><div class="j">{bk.md(e["ja"], pages)}</div></div>', cls, nt + gl, anchor=eid))
                 elif 'steps' in b:
-                    rows = ''.join(f'<div><b>問{i}</b>{bk.md(t, pages)}</div>' for i, t in enumerate(b['steps'], 1))
+                    lab = b.get('label', '手順')
+                    rows = ''.join(f'<div><b>{lab}{i}</b>{bk.md(t, pages)}</div>' for i, t in enumerate(b['steps'], 1))
                     out.append(blk(f'<div class="ptl">● 要点</div>{rows}', 'steps pt', notes))
                 elif 'table' in b:
                     t = b['table']
@@ -289,7 +290,7 @@ PROB_CSS = '''
 .box3 { display: inline-block; vertical-align: -.4mm; }
 .qt { font-family: "Ser", "Min"; font-size: 10.5pt; line-height: 1.7; }
 .qt .ja { font-family: "Min"; font-size: 10pt; }
-.psg { font-family: "Ser"; font-size: 10pt; line-height: 1.65; text-align: justify; margin: 1mm 0 2mm; padding: 2mm 3mm; border: .5pt solid #000; }
+.psg { font-family: "Ser", "Min"; font-size: 10pt; line-height: 1.65; text-align: justify; margin: 1mm 0 2mm; padding: 2mm 3mm; border: .5pt solid #000; }
 .ch { display: flex; flex-wrap: wrap; column-gap: 6mm; font-family: "Ser", "Min"; font-size: 10.5pt; line-height: 1.7; }
 .ch.col { flex-direction: column; }
 .ch span .cn { font-family: "Goth"; font-size: 9pt; margin-right: 1.5mm; }

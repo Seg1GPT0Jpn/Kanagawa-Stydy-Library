@@ -15,10 +15,10 @@ chapters:
         yomi: ふくごうかんけいし
         text: "who, what, which, when, where, how に -ever が付いた語。先行詞をふくみ、名詞節（〜する人は誰でも）や譲歩の副詞節（誰が〜しても）をつくる。"
     - ex: [e501, e502]
-    - p: 先行詞をふくんでいるので、前に名詞を置くことはありません（× anyone whoever wants them）。欠けている語を探す手順は s01 と同じで、@e502 の whoever wants them では wants の主語が欠けています。whichever は「いくつかある中のどれでも」の意味で、選ぶ範囲が決まっているときに使います（Take whichever you like.）。
+    - p: 先行詞をふくんでいるので、前に名詞を置くことはありません（× anyone whoever wants them）。欠けている語を探す手順は第1節（@s01）と同じで、@e502 の whoever wants them では wants の主語が欠けています。whichever は「いくつかある中のどれでも」の意味で、選ぶ範囲が決まっているときに使います（Take whichever you like.）。
     - h: whoever か whomever か
     - p: whoever と whomever のどちらを使うかは、直前の語ではなく、節の中での働きで決まります。@e502 では直前に前置詞 to があるので、目的格の whomever を選びたくなるはずです。しかし節の中で whoever は wants の主語です。to の目的語になっているのは whoever wants them という節全体なので、主格の whoever を使います。
-    - p: 一方、@e503 の whomever you like では、like の目的語が欠けています。節の中で目的語の働きをしているので whomever になります。s01 の「節の中で何が欠けているか」という問いをそのまま当てはめれば、前置詞があってもなくても迷いません。
+    - p: 一方、@e503 の whomever you like では、like の目的語が欠けています。節の中で目的語の働きをしているので whomever になります。第1節（@s01）の「節の中で何が欠けているか」という問いをそのまま当てはめれば、前置詞があってもなくても迷いません。
       notes:
       - kind: 注意
         text: "whomever はかたい書き言葉。話し言葉では目的語の位置でも whoever を使うことが多い（You can bring whoever you like.）。4択で両方が並んだら節の中の働きで選ぶ。主語の位置に whomever を置くのは、書き言葉でも誤り。"

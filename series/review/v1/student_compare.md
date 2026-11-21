@@ -1,6 +1,6 @@
 # 模擬生徒の答えと正答の突き合わせ
 
-突き合わせ 189 問、一致 162、不一致 1：問30
+突き合わせ 189 問、一致 156、不一致 7：問30, 問149, 第2問 (9), 第3問 (2), 第4問 (1), 第4問 (2), 第4問 (3)
 
 | 番号 | 形式 | ★ | 生徒の答え | 正答（別解） | 判定 |
 |---|---|---|---|---|---|
@@ -11,7 +11,7 @@
 | 問5 | 4択 | ★ | 3 | 3 | 一致 |
 | 問6 | 正誤 | ★★ | 2 | 2 | 一致 |
 | 問7 | 整序 | ★★ | The woman who was sitting next to me told me the way to the  | The woman who was sitting next to me told me the way to the  | 一致 |
-| 問8 | 和訳 | ★★ | バスでダニエルの隣に座っていた少年が、ダニエルに傘を貸してくれた。 | バスでダニエルの隣に座った少年が、彼に傘を貸してくれた。 ／ バスでダニエルの隣に座っていた少年が、ダニエルに傘を貸した。 | 目視 |
+| 問8 | 和訳 | ★★ | バスでダニエルの隣に座っていた少年が、ダニエルに傘を貸してくれた。 | バスでダニエルの隣に座った少年が、彼に傘を貸した。 ／ バスでダニエルの隣に座っていた少年が、ダニエルに傘を貸した。 | 目視 |
 | 問9 | 正誤 | ★★★ | 2 | 2 | 一致 |
 | 問10 | 4択 | ★ | 3 | 3 | 一致 |
 | 問11 | 整序 | ★ | I'll show you the photos I took in Kyoto. | I'll show you the photos I took in Kyoto. | 一致 |
@@ -44,7 +44,7 @@
 | 問38 | 英作 | ★★ | a house whose roof is red | My aunt lives in a house whose roof is red. ／ My aunt lives in a house the roof of which is red. ／ My aunt lives in a house which has a red roof. ／ My aunt lives in a house that has a red roof. | 目視 |
 | 問39 | 読解 | ★★ | 2 | 2 | 一致 |
 | 問40 | 読解 | ★★ | 2 | 2 | 一致 |
-| 問41 | 読解 | ★★★ | 2 | 2 | 一致 |
+| 問41 | 読解 | ★★ | 2 | 2 | 一致 |
 | 問42 | 4択 | ★ | 2 | 2 | 一致 |
 | 問43 | 4択 | ★ | 3 | 3 | 一致 |
 | 問44 | 整序 | ★★ | Do you remember the year when we moved to this town? | Do you remember the year when we moved to this town? | 一致 |
@@ -145,14 +145,14 @@
 | 問139 | 整序 | ★★ | That is the clerk who I think is the kindest in this shop. | That is the clerk who I think is the kindest in this shop. | 一致 |
 | 問140 | 和訳 | ★★ | 友人が町でいちばんだと言っていた店は、私たちが着いたときにはもう閉まっていた。 | 友人が町でいちばんだと言っていた店は、私たちが着いたときには閉まっていた。 ／ 町でいちばんいいと友人が言っていたその店は、私たちが着いたときにはもう閉まっていた。 | 目視 |
 | 問141 | 4択 | ★★★ | 3 | 3 | 一致 |
-| 問142 | 4択 | ★★ | 1 | 1 | 一致 |
+| 問142 | 4択 | ★ | 1 | 1 | 一致 |
 | 問143 | 4択 | ★★ | 3 | 3 | 一致 |
 | 問144 | 補充 | ★★ | is | is | 目視 |
 | 問145 | 整序 | ★★ | I'll lend you such books as I have. | I'll lend you such books as I have. | 一致 |
 | 問146 | 和訳 | ★★★ | 会議には、その計画に賛成しない人は一人もいなかった。 | 会議には、その計画に賛成しない人は1人もいなかった。 ／ 会議に出ていた人はみな、その計画に賛成した。 | 目視 |
 | 問147 | 正誤 | ★★★ | 2 | 2 | 一致 |
 | 問148 | 4択 | ★ | 1 | 1 | 一致 |
-| 問149 | 4択 | ★★ | 1 | 1 | 一致 |
+| 問149 | 4択 | ★★ | 1 | 2 | 不一致 |
 | 問150 | 正誤 | ★★ | 3 | 3 | 一致 |
 | 問151 | 整序 | ★★ | The photos that my sister took in Hokkaido last summer were  | The photos that my sister took in Hokkaido last summer were  ／ The photos that my sister took last summer in Hokkaido were  | 一致 |
 | 問152 | 読解 | ★★ | 2 | 2 | 一致 |
@@ -164,13 +164,13 @@
 | 問158 | 正誤 | ★★ | 3 | 3 | 一致 |
 | 問159 | 読解 | ★★ | 2 | 2 | 一致 |
 | 問160 | 読解 | ★★★ | 2 | 2 | 一致 |
-| 問161 | 読解 | ★★★ | 2 | 2 | 一致 |
+| 問161 | 読解 | ★★ | 2 | 2 | 一致 |
 | 第1問 (1) | 読解 | ★ | 2 | 2 | 一致 |
 | 第1問 (2) | 読解 | ★★ | 3 | 3 | 一致 |
 | 第1問 (3) | 読解 | ★★ | 1 | 1 | 一致 |
 | 第1問 (4) | 読解 | ★ | 2 | 2 | 一致 |
 | 第1問 (5) | 読解 | ★★ | 3 | 3 | 一致 |
-| 第1問 (6) | 読解 | ★★★ | 1 | 1 | 一致 |
+| 第1問 (6) | 読解 | ★★ | 1 | 1 | 一致 |
 | 第2問 (1) | 4択 | ★ | 2 | 2 | 一致 |
 | 第2問 (2) | 4択 | ★ | 3 | 3 | 一致 |
 | 第2問 (3) | 4択 | ★ | 3 | 3 | 一致 |
@@ -179,16 +179,16 @@
 | 第2問 (6) | 4択 | ★★ | 2 | 2 | 一致 |
 | 第2問 (7) | 4択 | ★★ | 2 | 2 | 一致 |
 | 第2問 (8) | 4択 | ★★ | 1 | 1 | 一致 |
-| 第2問 (9) | 4択 | ★★★ | 2 | 2 | 一致 |
-| 第2問 (10) | 4択 | ★★★ | 2 | 2 | 一致 |
+| 第2問 (9) | 4択 | ★★ | 2 | 3 | 不一致 |
+| 第2問 (10) | 4択 | ★★ | 2 | 2 | 一致 |
 | 第3問 (1) | 正誤 | ★ | 3 | 3 | 一致 |
-| 第3問 (2) | 正誤 | ★★ | 1 | 1 | 一致 |
+| 第3問 (2) | 正誤 | ★★ | 1 | 3 | 不一致 |
 | 第3問 (3) | 正誤 | ★★ | 1 | 1 | 一致 |
 | 第3問 (4) | 正誤 | ★★ | 1 | 1 | 一致 |
-| 第3問 (5) | 正誤 | ★★★ | 1 | 1 | 一致 |
-| 第4問 (1) | 整序 | ★★ | I left the umbrella Laura lent me yesterday on the train. | I left the umbrella Laura lent me yesterday on the train. | 一致 |
-| 第4問 (2) | 整序 | ★★ | I have ten T-shirts, three of which I bought in Italy. | I have ten T-shirts, three of which I bought in Italy. | 一致 |
-| 第4問 (3) | 整序 | ★★ | However tired he is, Kenta studies English for 30 minutes ev | However tired he is, Kenta studies English for 30 minutes ev | 一致 |
+| 第3問 (5) | 正誤 | ★★ | 1 | 1 | 一致 |
+| 第4問 (1) | 整序 | ★★ | I left the umbrella Laura lent me yesterday on the train. | The cake my sister made for me was too sweet. | 不一致 |
+| 第4問 (2) | 整序 | ★★ | I have ten T-shirts, three of which I bought in Italy. | I have read five novels by this writer, two of which were ma | 不一致 |
+| 第4問 (3) | 整序 | ★★ | However tired he is, Kenta studies English for 30 minutes ev | However tired Kenta is, he studies English for 30 minutes ev | 不一致 |
 | 第4問 (4) | 整序 | ★★ | The clerk who I thought was honest lied to me. | The clerk who I thought was honest lied to me. | 一致 |
 | 第4問 (5) | 整序 | ★★★ | I owe what I am today to my grandmother. | I owe what I am today to my grandmother. | 一致 |
 | 第5問 (1) | 和訳 | ★★ | エラはコーチにテニス部をやめると伝え、そのことは部員全員を驚かせた。 | エラはテニス部をやめるとコーチに伝え、そのことは部員全員を驚かせた。 ／ エラがテニス部をやめるとコーチに伝えたので、部員全員が驚いた。 ／ エラはテニス部をやめるつもりだとコーチに言ったが、それに部員はみな驚いた。 | 目視 |

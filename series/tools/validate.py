@@ -59,7 +59,7 @@ def main(paths):
                 ja_texts.append((e['id'], e.get('ja', '')))
             used_ex = set()
             for b in s.get('body', []) or []:
-                keys = set(b) - {'notes'}
+                keys = set(b) - {'notes', 'label'}
                 if len(keys) != 1 or not keys <= {'h', 'p', 'ex', 'steps', 'table', 'check'}:
                     err.append(f'{s["id"]}: 本文ブロックの形が不正: {list(b)}')
                 for n in b.get('notes', []) or []:

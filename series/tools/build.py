@@ -132,6 +132,8 @@ class Book:
         s = s.replace('[＿]', '[<span class="blank"></span>]').replace('(＿)', '(<span class="blank"></span>)')
         s = s.replace('＿', '<span class="gap"></span>')
         s = s.replace('［ ］', '［&nbsp;］')
+        # ハイフンでつながった英単語（thank-you など）はハイフンの位置で改行しない
+        s = re.sub(r'(?<![\w-])([A-Za-z]+(?:-[A-Za-z]+)+)(?![\w-])(?![^<]*>)', r'<span class="nw">\1</span>', s)
         return s
 
     # ---------- 共通 ----------

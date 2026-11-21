@@ -244,8 +244,11 @@ def main(bid):
     for n, name in NAMES.items():
         f = subprocess.run(['pdffonts', str(out / f'{n}.pdf')], capture_output=True, text=True).stdout.splitlines()[2:]
         if any('Type 3' in l for l in f): fail(f'{name}: Type 3 書体')
+        fams = {re.sub(r'^[A-Z]{6}\+', '', l.split()[0]) for l in f if l.strip()}
+        bad = {x for x in fams if not x.startswith(('BIZUDPMincho', 'BIZUDPGothic', 'SourceSerif4'))}
+        if bad: fail(f'{name}: ライセンスを確かめていない書体が入っている（代わりの書体で表示された文字がある）: {sorted(bad)}')
         if any(l.split()[-5] != 'yes' for l in f if l.strip()): fail(f'{name}: 埋め込まれていない書体')
-    ok('書体はすべて埋め込み・Type 3 なし')
+    if not any('書体' in x for x in FAIL): ok('書体は BIZ UDP明朝・BIZ UDPゴシック・Source Serif 4 だけ。すべて埋め込み・Type 3 なし')
 
     # 9. データ検査（形式・参照・整序の語・AI多用語）
     r = subprocess.run([sys.executable, str(ROOT / 'tools' / 'validate.py'), str(ROOT / 'src' / f'{bid}.yaml')] + [str(p) for p in sorted((ROOT / 'src' / 'parts').glob('*.yaml'))], capture_output=True, text=True)
