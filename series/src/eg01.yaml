@@ -46,7 +46,7 @@ chapters:
         yomi: かんけいだいめいし
         text: "先行詞を後ろから説明する節をつくり、その節の中で主語・目的語・所有者（〜の）などの働きもする語。who, which, that, whose など（whose は「whose＋名詞」の形で働く）。"
     - ex: [e001, e002, e003]
-    - p: ［ ］で囲んだ部分を<<関係詞節>>、説明される名詞（@e002 の the woman、@e003 の the bus）を<<先行詞>>といいます。先行詞を説明する関係詞節は、外しても文法上は文が成り立ちます。ただし what の節のように、先行詞をもたずに文の主語や目的語になる関係詞節は外せません（@s10）。whoever などの節が「誰が〜しても」という譲歩を表すときは、副詞の働きなので外せます（@s15）。@e002 から［ ］を外すと The woman teaches music at a junior high school. となり、主語と動詞がそろった文が残ります。この「外しても文が残る」ことが、長文で文の骨組みを見抜く手がかりになります。
+    - p: ［ ］で囲んだ部分を<<関係詞節>>、説明される名詞（@e002 の the woman、@e003 の the bus）を<<先行詞>>といいます。先行詞を説明する関係詞節は、外しても文法上は文が成り立ちます。ただし what の節のように、先行詞をもたずに文の主語・目的語・補語になる関係詞節は外せません（@s10）。whoever などの節が「誰が〜しても」という譲歩を表すときは、副詞の働きなので外せます（@s15）。@e002 から［ ］を外すと The woman teaches music at a junior high school. となり、主語と動詞がそろった文が残ります。この「外しても文が残る」ことが、長文で文の骨組みを見抜く手がかりになります。
       notes:
       - kind: 用語
         term: 関係詞節
@@ -200,7 +200,7 @@ chapters:
         - [目的格（前置詞を後ろに残す）, "{{できる}}", "the girl (who) I was talking to"]
         - [主格, "{{原則できない}}", "the man who called you"]
         - [補語（be 動詞の後ろ）, "{{普通は省く}}", "the quiet place (that) it was"]
-        - [前置詞の直後, "{{できない}}", "the town in which he grew up"]
+        - [前置詞の直後, "{{できない}}", "the town in which he grew up"]
         - [コンマの後（@s13）, "{{できない}}", "my aunt, whom you met last year"]
     - check:
       - {q: "The cake [＿] my sister baked was too sweet.", a: which／that（目的格なので省略も可）}
@@ -308,10 +308,10 @@ chapters:
     - table:
         head: [先行詞の特徴, 例, that 以外]
         rows:
-        - [最上級・the first・the last, "the best song that …", which・who も誤りではない]
-        - [the only・the same, "the only person that …", 人なら who もよく使う]
-        - [all・every・any・no、-thing の語, "everything that …", which はあまり使わない]
-        - [人＋人以外, "a boy and his dog that …", who・which は一方にしか合わない]
+        - [最上級・the first・the last, "the best song that …", "which・who も<br>誤りではない"]
+        - [the only・the same, "the only person that …", "人なら who も<br>よく使う"]
+        - [all・every・any・no、-thing の語, "everything that …", "which は<br>あまり使わない"]
+        - [人＋人以外, "a boy and his dog that …", "who・which は<br>一方にしか合わない"]
     - h: that が使えない場所
     - p: 反対に、that を使えない場所が2つあります。1つ目はコンマの後です。@e126 の My grandmother は1人に決まっている人なので、コンマを付けて説明を足す形になります（@s13）。この形では that は使えず、who か which にします。My grandmother, that is eighty, … は誤りです。
     - ex: [e126]
@@ -617,7 +617,7 @@ chapters:
     - h: what は先行詞を自分の中にふくむ
     - p: 第1節（@s01）では、関係代名詞は先行詞の後ろに置くと学びました。ところが what の前には先行詞がありません。what 自体が「もの」「こと」という名詞を中にふくんでいるからです。そのため what は the thing(s) which と置きかえられます。@e301 の What Ben said は「ベンが言ったこと」で、The thing which Ben said と同じ意味です。
     - ex: [e301, e302]
-    - p: what から始まるまとまりは、文の中で1つの名詞として働きます。このように名詞の働きをする節が<<名詞節>>です。名詞と同じ働きなので、主語（@e301）、目的語（@e302）、補語（@e303）、前置詞の目的語（@e304）のどこにでも置けます。訳は「〜すること」「〜するもの」とまとめるのが基本です。本書では what の節も［ ］で示しますが、第1節（@s01）で見た「外しても文が成り立つ」関係詞節とは違います。what の節は名詞節で、それ自体が文の主語や目的語なので、［ ］を外すと文が成り立ちません。@e301 から［ ］を外すと surprised everyone しか残らないのです。
+    - p: what から始まるまとまりは、文の中で1つの名詞として働きます。このように名詞の働きをする節が<<名詞節>>です。名詞と同じ働きなので、主語（@e301）、目的語（@e302）、補語（@e303）、前置詞の目的語（@e304）のどこにでも置けます。訳は「〜すること」「〜するもの」とまとめるのが基本です。本書では what の節も［ ］で示しますが、第1節（@s01）で見た「外しても文が成り立つ」関係詞節とは違います。what の節は名詞節で、それ自体が文の主語・目的語・補語なので、［ ］を外すと文が成り立ちません。@e301 から［ ］を外すと surprised everyone しか残らないのです。
       notes:
       - kind: 用語
         term: 名詞節
@@ -3195,7 +3195,7 @@ problems:
   choices: [who, as, than, what]
   ans: "3"
   why: "比較級 more letters の後ろで、answer の目的語が欠けている。比較級と組んで関係代名詞の働きをするのは than で、「1週間で返事を書ききれないほどの手紙が届いた」という意味になる。"
-  trap: "後ろが不完全な文なので、関係代名詞の①who を選ぶ誤り。who は先行詞が人のときに使う語で、letters（手紙）には使えない。比較級 more letters があるときは、than が関係代名詞の働きをする形を考える。"
+  trap: "後ろが不完全な文なので、関係代名詞の①who を選ぶ誤り。who は先行詞が人のときに使う語で、letters（手紙）には使えない。比較級 more letters があるときは、than が関係代名詞の働きをする形を考える。 ②as が関係代名詞の働きをするのは such … as や the same … as の形のときで、比較級 more とは組まない。"
 - id: q6021
   sec: s19
   set: 章末
@@ -3741,7 +3741,7 @@ problems:
   alt:
   - エラがテニス部をやめるとコーチに伝えたので、部員全員が驚いた。
   - エラはテニス部をやめるつもりだとコーチに言ったが、それに部員はみな驚いた。
-  why: ", which は直前の the tennis club ではなく、前の節 Ella told her coach that she would quit the tennis club の内容全体（エラがテニス部をやめるとコーチに伝えたこと）を受ける。「そのこと」は、エラがテニス部をやめるとコーチに伝えたことを指す。採点の目安（6点）：which が前の節の内容を受けていることが訳に出ている（「そのこと」「それ」「〜と伝えたので」など）3点。「エラがやめること」に驚いたと読んだ訳も、驚いた中身は同じなので3点を与える。told her coach that she would quit the tennis club（やめるとコーチに伝えた）2点。surprised all the members（部員全員を驚かせた）1点。which を「テニス部」と訳したものは which の3点を与えない。"
+  why: ", which は直前の the tennis club ではなく、前の節 Ella told her coach that she would quit the tennis club の内容全体（エラがテニス部をやめるとコーチに伝えたこと）を受ける。採点の目安（6点）：which が前の節の内容を受けていることが訳に出ている（「そのこと」「それ」「〜と伝えたので」など）3点。「エラがやめること」に驚いたと読んだ訳も、驚いた中身は同じなので3点を与える。told her coach that she would quit the tennis club（やめるとコーチに伝えた）2点。surprised all the members（部員全員を驚かせた）1点。which を「テニス部」と訳したものは which の3点を与えない。"
   trap: which を直前の the tennis club と結びつけ「部員全員を驚かせたテニス部をやめる」と訳す誤り。テニス部が部員を驚かせたのでは意味が通らない。
 - id: q9028
   part: 5

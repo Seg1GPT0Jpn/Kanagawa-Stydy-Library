@@ -115,7 +115,7 @@ class Book:
             a, b = m.group(1), m.group(2)
             for k in (a, b):
                 if k and k not in self.ex_no: raise SystemExit(f'例文 ID がない: {k}')
-            return f'例文{self.ex_no[a]}' + (f'〜{self.ex_no[b]}' if b else '')
+            return '<span class="nw">' + f'例文{self.ex_no[a]}' + (f'〜{self.ex_no[b]}' if b else '') + '</span>'  # 例文番号の途中で改行しない
         s = re.sub(r'@(e\d+)(?:〜@(e\d+))?', exref, s)
         def secref(m):
             k = m.group(1)

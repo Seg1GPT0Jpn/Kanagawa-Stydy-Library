@@ -153,9 +153,13 @@ def kaisetsu_blocks(bk, pages, cover_html, colophon_html, legend_html):
                     t = b['table']
                     th = ''.join(f'<th{" class=nwc" if len(str(c)) <= 8 else ""}>{bk.md(c, pages)}</th>' for c in t['head'])
                     def td(c):
+                        if '<br>' in str(c):
+                            # 改行位置を指定したマスは、区切った1かたまりごとに改行しない（列の最小幅がそのかたまりの幅になる）
+                            segs = str(c).split('<br>')
+                            return '<td>' + '<br>'.join(f'<span class="nw">{bk.md(sg, pages)}</span>' for sg in segs) + '</td>'
                         plain = re.sub(r'\{\{|\}\}|<<|>>|\*', '', str(c))
                         ascii_ratio = sum(ch.isascii() for ch in plain) / max(1, len(plain))
-                        short = len(plain) <= 9 or (ascii_ratio > 0.8 and len(plain) <= 20)  # 短いマスと英語の句は改行しない
+                        short = len(plain) <= 12 or (ascii_ratio > 0.8 and len(plain) <= 20)  # 短いマスと英語の句は改行しない
                         return f'<td class="nwc">{bk.md(c, pages)}</td>' if short else f'<td>{bk.md(c, pages)}</td>'
                     tr = ''.join('<tr><th>' + bk.md(r[0], pages) + '</th>' + ''.join(td(c) for c in r[1:]) + '</tr>' for r in t['rows'])
                     cap = f'<div class="ptl">● {E(t["title"])}</div>' if t.get('title') else '<div class="ptl">● 要点</div>'
