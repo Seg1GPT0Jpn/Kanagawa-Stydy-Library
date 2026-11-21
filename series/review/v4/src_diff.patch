@@ -1,0 +1,156 @@
+diff --git a/series/src/parts/c1.yaml b/series/src/parts/c1.yaml
+index 98adbd4..f874316 100644
+--- a/series/src/parts/c1.yaml
++++ b/series/src/parts/c1.yaml
+@@ -97,7 +97,7 @@ chapters:
+       - kind: 注意
+         text: "there is の文でも、関係代名詞が目的格なら普通に省略できる。There is something I want to tell you.（話したいことがある）"
+     - h: 補語の働きをする関係代名詞は普通省く
+-    - p: 関係代名詞が be 動詞の後ろの補語の働きをすることもあります。@e114 の［ ］の中では、was の後ろの「どんな場所だったか」にあたる補語が欠けていて、これも不完全な文です。この関係代名詞は主格でも目的格でもありません。実際の英語ではほとんどの場合省かれ、入れるときは that を使うのがふつうです。
++    - p: 関係代名詞が be 動詞の後ろの補語の働きをすることもあります。@e114 の［ ］の中では、was の後ろの「どんな場所だったか」にあたる補語が欠けていて、これも不完全な文です。この関係代名詞は主格でも目的格でもありません。実際の英語ではほとんどの場合省かれ、入れるときは that を使うのが普通です。
+     - ex: [e114]
+     - table:
+         head: ["", 省略, 例]
+@@ -204,7 +204,7 @@ chapters:
+     - p: 先行詞に「ただ1つに決まる」ことを表す語が付いていると、関係代名詞は that がよく使われます。@e121 の the most interesting book は、今年読んだ本の中の1冊を「いちばん」で指し示しています。強く範囲をしぼる先行詞には、しぼる働きだけをもつ that がなじむと説明されます。最上級、the first、the last、the only、the same などが付いた先行詞が、その代表です。
+     - p: 同じように、all、every、any、no の付いた先行詞や、everything、anything、nothing などの語にも that が好まれます（@e123、@e124）。which も文法上は誤りではありませんが、all which のような形はあまり使われません。@e124 の All that we need は「必要なのは〜だけだ」という意味になる言い方です。
+     - ex: [e121, e123, e124]
+-    - p: 気をつけたいのは、「好まれる」は「that でなければならない」という意味ではないことです。先行詞が人なら、@e122 のように the only person who とするのも普通の英語です。the best movie which I have seen の which も、文法上は誤りではありません。**そのため入試では、which だけを誤りとする問題はふつう出ません。**
++    - p: 気をつけたいのは、「好まれる」は「that でなければならない」という意味ではないことです。先行詞が人なら、@e122 のように the only person who とするのも普通の英語です。the best movie which I have seen の which も、文法上は誤りではありません。**そのため入試では、which だけを誤りとする問題は普通出ません。**
+       notes:
+       - kind: 注意
+         text: "4択で that と which が並んでいたら、コンマの後か、前置詞の直後か、先行詞が「人＋人以外」かを確かめる。どちらか一方だけが正解になるのは、こうした理由でもう一方が使えないときである。最上級や all が付くだけでは which は誤りにならない。"
+@@ -469,7 +469,7 @@ problems:
+   q: 彼女は、10年前のような内気な少女ではない。<br>She is not ( girl / she / shy / the / was ) ten years ago.
+   words: [girl, she, shy, the, was]
+   ans: She is not the shy girl she was ten years ago.
+-  why: the shy girl の直後に she was を続ける。省略された関係代名詞（that）は was の補語の働きをしており、補語の関係代名詞はふつう省略される。
++  why: the shy girl の直後に she was を続ける。省略された関係代名詞（that）は was の補語の働きをしており、補語の関係代名詞は普通省略される。
+   trap: the girl she was shy のように shy を節の中に入れる誤り。shy は先行詞 girl に付き、節の中で欠けているのは was の後ろの補語である。
+ # ---- s04 ----
+ - id: q1013
+diff --git a/series/src/parts/c2.yaml b/series/src/parts/c2.yaml
+index 97e0413..fff0518 100644
+--- a/series/src/parts/c2.yaml
++++ b/series/src/parts/c2.yaml
+@@ -235,8 +235,8 @@ problems:
+   q: "It was __already__① dark __when__② we __got__③ to Nikko, so we went straight to the inn __when__④ my parents had stayed twenty years before."
+   choices: [①, ②, ③, ④]
+   ans: "4"
+-  why: "先行詞 the inn は場所を表し、節 my parents had stayed twenty years before は主語も目的語もそろった完全な文。場所の先行詞なので④の when を where（または at which）にする。②の when は「〜したとき」の接続詞で、It was already dark when we got to Nikko は正しい。"
+-  trap: "when が2つあるので②を疑い、④は twenty years before という時の語句に引かれて when でよいと考える誤り。when・where を決めるのは節の中の時の語句ではなく先行詞で、the inn は場所である。"
++  why: "先行詞 the inn は場所を表す。節 my parents had stayed twenty years before は、stay が目的語をとらない動詞なので、主語と動詞がそろえば何も欠けていない完全な文になる。後ろが完全な文なので関係副詞を使い、先行詞が場所なので where（または at which）にする。④の when を where に直す。②の when は「〜したとき」の接続詞で、It was already dark when we got to Nikko は正しい。"
++  trap: "when が2つあるので②を疑い、④は twenty years before という時の語句に引かれて when でよいと考える誤り。関係副詞を使うかどうかは後ろの文が完全かで決まり、where か when かは先行詞の意味で決まる。節の中の時の語句では決まらない。"
+ - id: q2005
+   sec: s07
+   set: 節末
+diff --git a/series/src/parts/c5.yaml b/series/src/parts/c5.yaml
+index db4a2e9..6ec9739 100644
+--- a/series/src/parts/c5.yaml
++++ b/series/src/parts/c5.yaml
+@@ -122,7 +122,7 @@ chapters:
+         - [however, "{{no matter how}}（＋形容詞・副詞＋S＋V）"]
+         - [whenever, "{{no matter when}}"]
+         - [wherever, "{{no matter where}}"]
+-    - p: 譲歩の節に may を入れることがあります。@e516 の However busy he may be は「どんなに忙しくても」で、この may は「かもしれない」と訳しません。かたい書き言葉の言い方で、ふだんの英語では However busy he is のように現在形を使うほうが普通です。未来のことを言うときも、will は使わず現在形で表すのが普通です。入試には may の形も現在形の形も出るので、may があっても意味は同じだと分かれば足ります。
++    - p: 譲歩の節に may を入れることがあります。@e516 の However busy he may be は「どんなに忙しくても」で、この may は「かもしれない」と訳しません。かたい書き言葉の言い方で、ふだんの英語では However busy he is のように現在形を使うほうが普通です。未来のことを言うときも、will は使わず現在形で表すのが普通です。入試には may を使う形も現在形だけの形も出るので、may があっても意味は同じだと分かれば足ります。
+       notes:
+       - kind: 注意
+         text: "no matter how busy he may be のように、no matter＋疑問詞の節でも may を使うことがある。意味は may のない形と同じ。"
+@@ -249,7 +249,7 @@ problems:
+   choices: [Which, Whatever, Whoever, Whenever]
+   ans: "4"
+   why: I visit my aunt in Sendai は主語・動詞・目的語のそろった完全な文。欠けた語がないので、関係代名詞ではなく whenever（〜するときはいつでも）が入る。
+-  trap: ②Whatever を選ぶ誤り。whatever は節の中で主語や目的語の代わりをするので、visit の目的語 my aunt がすでにある文には入らない。
++  trap: ②Whatever を選ぶ誤り。whatever は節の中で主語・目的語・補語のどれかの代わりをするので、後ろは不完全な文になる。visit の目的語 my aunt がすでにある完全な文には入らない。
+ - id: q5008
+   sec: s16
+   set: 節末
+@@ -329,7 +329,7 @@ problems:
+   q: __Wherever__① you __will go__② in Hokkaido next month, __take__③ a warm jacket __with__④ you.
+   ans: "2"
+   why: 譲歩の副詞節では、来月のことでも will を使わず現在形で表すのが普通。Wherever you go in Hokkaido next month とする（かたい書き言葉では may を使う形もある）。
+-  trap: next month があるので will を正しいと思う誤り。時・条件の副詞節と同じく、譲歩の副詞節でも未来のことはふつう現在形で表す。
++  trap: next month があるので will を正しいと思う誤り。時・条件の副詞節と同じく、譲歩の副詞節でも未来のことは普通現在形で表す。
+ - id: q5015
+   sec: s15
+   set: 章末
+diff --git a/series/src/parts/c6.yaml b/series/src/parts/c6.yaml
+index ba586fa..8853be1 100644
+--- a/series/src/parts/c6.yaml
++++ b/series/src/parts/c6.yaml
+@@ -33,7 +33,7 @@ chapters:
+       - 先行詞の直後に関係代名詞を置く。
+       - その直後に I think・everyone says などの「主語＋動詞」を置く。
+       - 主語を書かずに、節の動詞（is, was, will win など）を続ける。
+-    - p: 主格の関係代名詞はふつう省略できません（@s03）。ところが連鎖関係詞節では、@e606 のように主格の who が省略されることがあります。the man I thought was … のように「名詞＋S＋V＋動詞」が並んでいたら、名詞の直後に who が隠れていると考えて読みます。
++    - p: 主格の関係代名詞は普通省略できません（@s03）。ところが連鎖関係詞節では、@e606 のように主格の who が省略されることがあります。the man I thought was … のように「名詞＋S＋V＋動詞」が並んでいたら、名詞の直後に who が隠れていると考えて読みます。
+     - ex: [e606]
+     - check:
+       - {q: "She is the singer [＿] I think will win the contest.（who／whom）", a: who}
+@@ -72,14 +72,14 @@ chapters:
+     patterns: [P15]
+     body:
+     - h: なぜ as・than・but が関係代名詞になるのか
+-    - p: as・than・but は、ふつうは接続詞や前置詞です。ところが such・the same・比較級・否定語の付いた名詞の後ろでは、主語や目的語の欠けた節を導き、関係代名詞と同じ働きをします。これを<<擬似関係代名詞>>といいます。見分け方は who や which と同じで、後ろの節が不完全な文かどうかを確かめます。ただし使える場所は決まった相手の後ろに限られ、who や which の代わりに自由に使えるわけではありません。
++    - p: as・than・but は、普通は接続詞や前置詞です。ところが such・the same・比較級・否定語の付いた名詞の後ろでは、主語や目的語の欠けた節を導き、関係代名詞と同じ働きをします。これを<<擬似関係代名詞>>といいます。見分け方は who や which と同じで、後ろの節が不完全な文かどうかを確かめます。ただし使える場所は決まった相手の後ろに限られ、who や which の代わりに自由に使えるわけではありません。
+       notes:
+       - kind: 用語
+         term: 擬似関係代名詞
+         yomi: ぎじかんけいだいめいし
+         text: "such・the same・比較級・否定語などと組になり、関係代名詞のように後ろの節の主語や目的語の働きをする as・than・but。"
+     - h: such … as と the same … as
+-    - p: "@e607 の as の後ろは are written in easy English で、are の主語がありません。as が主語の働きです。@e608 では had の目的語が欠けていて、as は目的語の働きです。この such … as は改まった書き言葉で、少し古い感じがします。会話なら books that are written in easy English のように言うのがふつうです。"
++    - p: "@e607 の as の後ろは are written in easy English で、are の主語がありません。as が主語の働きです。@e608 では had の目的語が欠けていて、as は目的語の働きです。この such … as は改まった書き言葉で、少し古い感じがします。会話なら books that are written in easy English のように言うのが普通です。"
+       notes:
+       - kind: 注意
+         text: "books such as dictionaries（辞書のような本）の such as は「たとえば」の意味で、後ろには名詞だけが来る。後ろに欠けのある節が続く such … as とは別のもの。"
+@@ -433,10 +433,10 @@ problems:
+   kind: 4択
+   min: 1
+   q: "We received more letters (＿) we could answer in a week."
+-  choices: [which, as, than, what]
++  choices: [who, as, than, what]
+   ans: "3"
+   why: "比較級 more letters の後ろで、answer の目的語が欠けている。比較級と組んで関係代名詞の働きをするのは than で、「1週間で返事を書ききれないほどの手紙が届いた」という意味になる。"
+-  trap: "後ろが不完全な文なので①which を選びやすい。しかし more letters … which では比較の相手が示されない。比較級があれば than を探す。"
++  trap: "後ろが不完全な文なので、関係代名詞の①who を選ぶ誤り。who は先行詞が人のときに使う語で、letters（手紙）には使えない。比較級 more letters があるときは、than が関係代名詞の働きをする形を考える。"
+ - id: q6021
+   sec: s19
+   set: 章末
+diff --git a/series/src/parts/mock.yaml b/series/src/parts/mock.yaml
+index b4fe860..0fecb53 100644
+--- a/series/src/parts/mock.yaml
++++ b/series/src/parts/mock.yaml
+@@ -247,7 +247,7 @@ problems:
+   pts: 3
+   sec: s17
+   set: 模試
+-  lv: 2
++  lv: 1
+   kind: 4択
+   min: 1
+   q: "The old painting (＿) the experts believed to be a copy turned out to be real."
+@@ -348,7 +348,7 @@ problems:
+   ans: "4"
+   fix: "the two exchange students from Brazil, both of whom speak Japanese well"
+   why: "both of them のままでは、コンマだけで2つの文（I talked … と both of them speak …）をつないでいることになる。先行詞 the two exchange students は人なので④を both of whom にする。採点の目安（4点）：誤りの下線部の番号が正しければ2点、訂正が正しければ2点。番号が誤っているときは、訂正にも点を与えない。④を and both of them、who both に直したものも文法上正しい文になるので、訂正の2点を与える。"
+-  trap: "①talked with を talked to に直すべきだと考えて選ぶ誤り。talk with も talk to も正しい。both の後ろの speak が複数形で合っているので④を見落としやすいが、問題は動詞の数ではなく、2つの文がコンマだけでつながっていることにある。"
++  trap: "talked with を talked to に直すべきだと考えて、②with を選ぶ誤り。talk with も talk to も正しい。both の後ろの speak が複数形で合っているので④を見落としやすいが、問題は動詞の数ではなく、2つの文がコンマだけでつながっていることにある。"
+ - id: q9021
+   part: 3
+   pts: 4
+@@ -470,11 +470,11 @@ problems:
+   min: 3
+   inst: 次の英文の下線部を日本語に訳しなさい。
+   q: __Ella told her coach that she would quit the tennis club, which surprised all the members.__
+-  ans: エラはテニス部をやめるとコーチに伝え、そのことは部員全員を驚かせた。（「そのこと」＝エラがテニス部をやめるとコーチに伝えたこと）
++  ans: エラはテニス部をやめるとコーチに伝え、そのことは部員全員を驚かせた。
+   alt:
+   - エラがテニス部をやめるとコーチに伝えたので、部員全員が驚いた。
+   - エラはテニス部をやめるつもりだとコーチに言ったが、それに部員はみな驚いた。
+-  why: ", which は直前の the tennis club ではなく、前の節 Ella told her coach that she would quit the tennis club の内容全体（エラがテニス部をやめるとコーチに伝えたこと）を受ける。採点の目安（6点）：which が前の節の内容を受けていることが訳に出ている（「そのこと」「それ」「〜と伝えたので」など）3点。「エラがやめること」に驚いたと読んだ訳も、驚いた中身は同じなので3点を与える。told her coach that she would quit the tennis club（やめるとコーチに伝えた）2点。surprised all the members（部員全員を驚かせた）1点。which を「テニス部」と訳したものは which の3点を与えない。"
++  why: ", which は直前の the tennis club ではなく、前の節 Ella told her coach that she would quit the tennis club の内容全体（エラがテニス部をやめるとコーチに伝えたこと）を受ける。「そのこと」は、エラがテニス部をやめるとコーチに伝えたことを指す。採点の目安（6点）：which が前の節の内容を受けていることが訳に出ている（「そのこと」「それ」「〜と伝えたので」など）3点。「エラがやめること」に驚いたと読んだ訳も、驚いた中身は同じなので3点を与える。told her coach that she would quit the tennis club（やめるとコーチに伝えた）2点。surprised all the members（部員全員を驚かせた）1点。which を「テニス部」と訳したものは which の3点を与えない。"
+   trap: which を直前の the tennis club と結びつけ「部員全員を驚かせたテニス部をやめる」と訳す誤り。テニス部が部員を驚かせたのでは意味が通らない。
+ - id: q9028
+   part: 5

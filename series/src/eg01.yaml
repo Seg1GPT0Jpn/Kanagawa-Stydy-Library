@@ -32,6 +32,7 @@ aims:
 chapters:
 - id: c1
   title: 関係代名詞の基本
+  lead: この章では、who・which・that・whose の使い分けと、前置詞と組み合わせた形を学びます。どの節でも、第1節の3つの問い（@s01）で関係代名詞を決め、後ろが完全な文か不完全な文かを確かめます。
   sections:
   - id: s01
     title: 関係代名詞は「名詞の後ろに付く説明」をつくる
@@ -99,126 +100,1234 @@ chapters:
   - id: s02
     title: 主格の関係代名詞 who・which・that
     patterns: [P1]
-    body: []
-    examples: []
-    summary: []
+    body:
+    - h: 主語が欠けた関係詞節
+    - p: The girl is from Hokkaido. と She sits next to me in math class. の2つの文を、1つにすることを考えます。2つ目の文の She を who に変えて、先行詞 The girl の直後に置くと @e101 ができます。who は節の中で sits の主語の働きをしているので、この who を<<主格>>の関係代名詞と呼びます。
+      notes:
+      - kind: 用語
+        term: 主格
+        yomi: しゅかく
+        text: "関係代名詞が、関係詞節の中で主語の働きをしていること。主格の関係代名詞は who, which, that。"
+    - p: 主格の関係代名詞の後ろには、主語のない形が続きます。@e101 の［ ］の中では、sits の前に主語がありません。文に欠かせない語が抜けたこの形が、第1節（@s01）で見た不完全な文です。who・which・that の後ろは不完全な文になり、何が欠けているかで使う語が決まるのです（whose と、前置詞が前に出る形は @s04・@s06 で扱います）。
+    - ex: [e101, e102]
+    - h: who・which・that の使い分け
+    - p: 主格で使う語は、第1節の問い1「先行詞は人か」で決まります。人なら who（@e101）、人以外なら which（@e102）。that は人にも人以外にも使えます（@e103、@e104）。ただし書き言葉では、先行詞が人のときは that より who のほうがよく使われます。
+    - ex: [e103, e104, e105]
+    - p: 動物は人以外として扱うので、@e105 のように which か that を使います。ペットのように名前で呼び、家族の一員として話す動物には who を使うこともありますが、入試の4択で先行詞が動物なら、which か that を選ぶのが基本です。
+    - h: 節の中の動詞と、よくある書きまちがい
+    - p: 主格の関係代名詞の後ろの動詞は、先行詞に形を合わせます。@e106 では先行詞 The students が複数なので are、@e107 では Anyone が単数あつかいなので wants です。who そのものには単数・複数の区別がありません。動詞の形を決めるときは、先行詞までもどって確かめます（@s19）。
+    - ex: [e106, e107]
+    - p: 書くときに多い誤りの1つは、be 動詞を落とすことです。the students who in the art club や a girl who playing tennis は誤りで、who are in the art club、who is playing tennis としなければなりません。関係詞節も文の一種なので、主語の働きをする who の後ろには動詞が要ります。
+      notes:
+      - kind: 注意
+        text: "主語を二重にしない。the girl who she sits next to me は誤り。who がすでに主語の働きをしているので、she は要らない。"
+    - p: 主格の関係代名詞は、原則として省略できません。@e101 から who を外すと The girl sits next to me in math class is from Hokkaido. となり、sits と is のどちらが文の動詞なのか分からなくなります。省略できる場合とできない場合は、次の節（@s03）の終わりの表にまとめます。
+    - check:
+      - {q: "The woman [＿] runs this café used to be a nurse.", a: who／that}
+      - {q: "Take the bus [＿] stops in front of the city hall.", a: which／that}
+      - {q: "Students [who (want／wants) to join the chorus] should talk to the coach.", a: want}
+    examples:
+    - id: e101
+      en: The girl [*who* ＿ sits next to me in math class] is from Hokkaido.
+      ja: 数学の授業で私の隣に座っている女の子は、北海道の出身だ。
+    - id: e102
+      en: I bought an alarm clock [*which* ＿ plays a song at 6:30].
+      ja: 私は、6時半に歌が流れる目覚まし時計を買った。
+      gloss: [[alarm clock, 目覚まし時計]]
+    - id: e103
+      en: Mei has an uncle [*that* ＿ drives a taxi in Osaka].
+      ja: メイには、大阪でタクシーを運転しているおじがいる。
+    - id: e104
+      en: The shop [*that* ＿ sold these shoes] has closed.
+      ja: この靴を売っていた店は、もう閉店してしまった。
+    - id: e105
+      en: My grandmother has a dog [*which* ＿ barks at the delivery truck every morning].
+      ja: 祖母は、毎朝配達のトラックに向かってほえる犬を飼っている。
+      gloss: [[bark, ほえる], [delivery, 配達]]
+    - id: e106
+      en: The students [*who* ＿ are in the art club] stay at school until six on weekdays.
+      ja: 美術部に入っている生徒たちは、平日は6時まで学校に残る。
+    - id: e107
+      en: Anyone [*who* ＿ wants to use the music room after school] has to write their name on this list.
+      ja: 放課後に音楽室を使いたい人はだれでも、この表に名前を書かなければならない。
+    summary:
+    - 関係詞節の中で主語の働きをする関係代名詞を{{主格}}の関係代名詞という。
+    - 主格：先行詞が人 → {{who}}／that　人以外（動物をふくむ） → {{which}}／that
+    - 主格の関係代名詞の後ろの動詞は、{{先行詞}}の数に合わせる。
+    - 主格の関係代名詞の後ろには{{動詞}}が要る（who in the club は誤り）。主格は原則として{{省略できない}}。
+
   - id: s03
     title: 目的格の関係代名詞と省略
     patterns: [P2, P14]
-    body: []
-    examples: []
-    summary: []
+    body:
+    - h: 目的語が欠けた関係詞節
+    - p: 今度は、関係詞節の中で目的語が欠けている場合です。@e108 の［ ］の中では、bought の後ろにあるはずの「何を」がありません。I bought it last spring の it が which に変わり、先行詞 The bike の直後に移ったと考えます。この which のように、節の中で目的語の働きをするものを<<目的格>>の関係代名詞といいます。
+      notes:
+      - kind: 用語
+        term: 目的格
+        yomi: もくてきかく
+        text: "関係代名詞が、関係詞節の中で動詞や前置詞の目的語の働きをしていること。目的格の関係代名詞は who(m), which, that。"
+    - ex: [e108, e109, e110]
+    - p: 使う語は第1節の表のとおりで、人なら whom か who（@e109）、人以外なら which（@e108）、どちらにも that（@e110）が使えます。whom は改まった書き言葉の形です。会話や普通の文章では who や that を使うか、関係代名詞そのものを省きます。入試の4択で、人が先行詞の目的格の位置に whom を選んで、間違いになることはありません。
+    - p: 目的格の関係詞節では、関係代名詞のすぐ後ろに主語が来ます。which I bought、whom Ken helped がその例で、主格の who sits（@e101）とはちがい「関係代名詞＋主語＋動詞」の並びになります。後ろの動詞の目的語の位置が空いているかを確かめれば、主格と取りちがえることはありません。
+      notes:
+      - kind: 注意
+        text: "目的語の位置に it や her を残さない。the bike which I bought it は誤り。which がすでに目的語の働きをしている。"
+    - h: 目的格の関係代名詞は省略できる
+    - p: 目的格の関係代名詞は、よく省略されます。@e111 では、The sandwiches の後ろに my mother makes がすぐ続いています。名詞の後ろに「主語＋動詞」がいきなり来たら、その間に which や that が省かれていると考えて読みます。この形の関係詞節を<<接触節>>と呼ぶことがあり、会話ではむしろ省略した形のほうが普通です。
+      notes:
+      - kind: 用語
+        term: 接触節
+        yomi: せっしょくせつ
+        text: "目的格の関係代名詞が省略され、先行詞の直後に「主語＋動詞」が続く関係詞節。the cake my mother made の my mother made など。"
+    - ex: [e111, e112]
+    - p: 前置詞の目的語が欠けている場合も、前置詞を節の最後に残しておけば、関係代名詞を省略できます（@e112）。読むときは、文の途中の to の後ろに何もないことに気づくのが手がかりです。the girl が「to の相手」だと分かれば、正しく訳せます。前置詞を関係代名詞の前に出す形は @s06 で扱います。
+    - h: 主格は原則として省略できない
+    - p: 主格の関係代名詞は、原則として省略できません。@e113 から who を外すと The man called you this morning left a message for you. となり、called と left のどちらが文の動詞なのか分からなくなります。目的格を省いても「名詞＋主語＋動詞」の並びが目印として残るのに対し、主格を省くと目印が何も残らないからです。
+    - ex: [e113]
+    - p: ただし、例外もあります。I think などが関係詞節の中にはさまる場合は、the man I think lives next door のように主格が省かれることがあります（@s17）。
+    - p: くだけた話し言葉では、There's a man wants to see you.（あなたに会いたいという男の人が来ている）のように、there is や here is の後で主格が省かれることもあります。とはいえ、これは書き言葉では誤りとされる形です。入試の整序や正誤では、There is a man who wants to see you. のように主格を入れた形を正解とします。
+      notes:
+      - kind: 注意
+        text: "there is の文でも、関係代名詞が目的格なら普通に省略できる。There is something I want to tell you.（話したいことがある）"
+    - h: 補語の働きをする関係代名詞は普通省く
+    - p: 関係代名詞が be 動詞の後ろの補語の働きをすることもあります。@e114 の［ ］の中では、was の後ろの「どんな場所だったか」にあたる補語が欠けていて、これも不完全な文です。この関係代名詞は主格でも目的格でもありません。実際の英語ではほとんどの場合省かれ、入れるときは that を使うのが普通です。
+    - ex: [e114]
+    - table:
+        head: ["", 省略, 例]
+        rows:
+        - [目的格（動詞の目的語）, "{{できる}}", "the sandwiches (that) my mother makes"]
+        - [目的格（前置詞を後ろに残す）, "{{できる}}", "the girl (who) I was talking to"]
+        - [主格, "{{原則できない}}", "the man who called you"]
+        - [補語（be 動詞の後ろ）, "{{普通は省く}}", "the quiet place (that) it was"]
+        - [前置詞の直後, "{{できない}}", "the town in which he grew up"]
+        - [コンマの後（@s13）, "{{できない}}", "my aunt, whom you met last year"]
+    - check:
+      - {q: "The cake [＿] my sister baked was too sweet.", a: which／that（目的格なので省略も可）}
+      - {q: "The boy [＿] won the race is my cousin.", a: who／that（主格なので省略できない）}
+      - {q: "The bench [＿] we sat on was wet from the rain.", a: which／that（前置詞の目的語なので省略も可）}
+    examples:
+    - id: e108
+      en: The bike [*which* I bought ＿ last spring] already has a flat tire.
+      ja: 去年の春に買った自転車は、もうタイヤがパンクしている。
+      gloss: [[flat tire, パンクしたタイヤ]]
+    - id: e109
+      en: The woman [*whom* Ken helped ＿ at the station] sent a thank-you letter to our school.
+      ja: 駅でケンが手助けした女性が、学校にお礼の手紙を送ってきた。
+    - id: e110
+      en: The songs [*that* our band played ＿ at the school festival last October] were all written by Yui, our drummer.
+      ja: 去年の10月の文化祭で私たちのバンドが演奏した曲は、すべてドラム担当のユイが書いたものだ。
+    - id: e111
+      en: The sandwiches [my mother makes ＿] are better than the ones at the station café.
+      ja: 母が作るサンドイッチは、駅のカフェのものよりおいしい。
+    - id: e112
+      en: The girl [I was talking to ＿] is a new student from Australia.
+      ja: 私が話していた女の子は、オーストラリアから来た新しい生徒だ。
+    - id: e113
+      en: The man [*who* ＿ called you this morning] left a message for you.
+      ja: 今朝あなたに電話してきた男性が、あなたへの伝言を残していった。
+    - id: e114
+      en: My town is not the quiet place [it was ＿ twenty years ago].
+      ja: 私の町は、20年前のような静かな場所ではない。
+    summary:
+    - 関係詞節の中で目的語の働きをする関係代名詞を{{目的格}}という。人 → {{whom}}／who／that　人以外 → {{which}}／that
+    - 目的格の関係代名詞は{{省略できる}}。名詞の直後に「{{主語＋動詞}}」が続いたら、省略を疑う。
+    - 主格の関係代名詞は原則として{{省略できない}}。there is の後の省略は{{くだけた話し言葉}}に限られる。
+    - 前置詞の{{直後}}の関係代名詞と、コンマの後の関係代名詞は省略できない。
+    - be 動詞の後ろの{{補語}}の働きをする関係代名詞は、普通は{{省く}}。
+
   - id: s04
     title: 所有格の whose
     patterns: [P3]
-    body: []
-    examples: []
-    summary: []
+    body:
+    - h: 「その人の〜」を表す whose
+    - p: 「母親が横浜で花屋をしている友人」では、友人と母親が「友人の母親」という持ち主の関係でつながっています。I have a friend. と His mother runs a flower shop in Yokohama. を1つにすると、His が whose に変わって @e115 ができます。whose は「その人の」「その物の」を表す<<所有格>>の関係代名詞で、すぐ後ろの名詞といっしょに動きます。
+      notes:
+      - kind: 用語
+        term: 所有格
+        yomi: しょゆうかく
+        text: "「〜の」という持ち主を表す形。関係代名詞では whose がこれに当たる。"
+    - ex: [e115, e116, e117]
+    - p: whose かどうかを見分けるには、「whose＋名詞」を「his＋名詞」「its＋名詞」などに置きかえて、節の中の欠けた位置に戻してみます。@e116 なら His bike was stolen.、@e117 なら I took her umbrella by mistake. となり、完全な文がもどります。whose の節も、who や which の節（@s02、@s03）と同じく不完全な文です。違うのは、欠けた主語や目的語の代わりをするのが whose 1語ではなく、「whose＋名詞」のかたまりだという点です。
+    - p: 「whose＋名詞」は1つのかたまりとして、節の中で主語にも目的語にもなります。@e115 の whose mother、@e116 の whose bike は主語です。一方、@e117 の whose umbrella は took の目的語で、もとは took の後ろにあったかたまりが前に出ています。本書の例文では、かたまりがもとあった位置を ＿ で示しています。
+    - p: whose の直後の名詞には、a、the、my などを付けません（whose two sons、whose older brother のように、数や形容詞が付くことはあります）。whose がすでに「その人の」という意味をもっているので、whose the bike とすると「〜の」が二重になるからです。発音が同じ who's と書きまちがえる誤りにも気をつけます。
+      notes:
+      - kind: 注意
+        text: "who's は who is または who has の短縮形。a man who's son is a doctor は誤りで、a man whose son is a doctor とする。"
+    - h: 先行詞が物のときの whose と of which
+    - p: whose は、先行詞が人以外でも使えます。@e118 では a house が先行詞で、whose roof は「その家の屋根」です。後ろの名詞は複数形でもよく、@e120 の whose uniforms では、動詞も uniforms に合わせて are になっています。物に whose を使うのはやや硬い言い方なので、会話では a house with a green roof のように with を使うことも多くあります。
+    - ex: [e118, e119, e120]
+    - p: 同じ意味を of which で表すこともできます。@e119 の the roof of which は「その家の屋根」で、whose roof と同じ働きです。of which the roof の語順もありますが、どちらも改まった書き言葉の形です。whose roof を書きかえるときは、the roof of which と、名詞の前の the を落とさないようにします。
+    - check:
+      - {q: "I know a girl [＿] brother plays in a rock band.", a: whose}
+      - {q: "We stayed at a hotel [＿] garden was full of roses.", a: whose}
+      - {q: "a house whose roof is green ＝ a house the roof [＿] [＿] is green", a: of which}
+    examples:
+    - id: e115
+      en: I have a friend [*whose* mother ＿ runs a flower shop in Yokohama].
+      ja: 私には、母親が横浜で花屋を営んでいる友人がいる。
+      gloss: [[run, 経営する]]
+    - id: e116
+      en: The boy [*whose* bike ＿ was stolen] went to the police box near the station.
+      ja: 自転車を盗まれた少年は、駅の近くの交番へ行った。
+      gloss: [[police box, 交番]]
+    - id: e117
+      en: This is the girl [*whose* umbrella I took ＿ by mistake].
+      ja: これが、私がまちがえて傘を持っていってしまった女の子だ。
+      gloss: [[by mistake, まちがえて]]
+    - id: e118
+      en: We live in a house [*whose* roof ＿ is painted green].
+      ja: 私たちは、屋根が緑色にぬられた家に住んでいる。
+    - id: e119
+      en: We live in a house [the roof of *which* ＿ is painted green].
+      ja: 私たちは、屋根が緑色にぬられた家に住んでいる。
+    - id: e120
+      en: The team [*whose* uniforms ＿ are dark blue] won the final 3-1.
+      ja: 紺色のユニフォームのチームが、決勝で3対1で勝った。
+    summary:
+    - whose は「その人の・その物の」を表す{{所有格}}の関係代名詞で、すぐ後ろの{{名詞}}といっしょに動く。
+    - whose の直後の名詞には {{a・the・my}} などを付けない。
+    - 「whose＋名詞」を「{{his／its}}＋名詞」などに置きかえて欠けた{{位置}}に戻すと、完全な文がもどる。
+    - 先行詞が物でも whose を使える。a house whose roof ＝ a house {{the roof of which}}
+
   - id: s05
     title: that が好まれる場合・使えない場合
     patterns: [P1]
-    body: []
-    examples: []
-    summary: []
+    body:
+    - h: that が好まれる先行詞
+    - p: 先行詞に「ただ1つに決まる」ことを表す語が付いていると、関係代名詞は that がよく使われます。@e121 の the most interesting book は、今年読んだ本の中の1冊を「いちばん」で指し示しています。強く範囲をしぼる先行詞には、しぼる働きだけをもつ that がなじむと説明されます。最上級、the first、the last、the only、the same などが付いた先行詞が、その代表です。
+    - p: 同じように、all、every、any、no の付いた先行詞や、everything、anything、nothing などの語にも that が好まれます（@e123、@e124）。which も文法上は誤りではありませんが、all which のような形はあまり使われません。@e124 の All that we need は「必要なのは〜だけだ」という意味になる言い方です。
+    - ex: [e121, e123, e124]
+    - p: 気をつけたいのは、「好まれる」は「that でなければならない」という意味ではないことです。先行詞が人なら、@e122 のように the only person who とするのも普通の英語です。the best movie which I have seen の which も、文法上は誤りではありません。**そのため入試では、which だけを誤りとする問題は普通出ません。**
+      notes:
+      - kind: 注意
+        text: "4択で that と which が並んでいたら、コンマの後か、前置詞の直後か、先行詞が「人＋人以外」かを確かめる。どちらか一方だけが正解になるのは、こうした理由でもう一方が使えないときである。最上級や all が付くだけでは which は誤りにならない。"
+    - ex: [e122]
+    - p: 先行詞が「人と、人以外のもの」の組み合わせのときも that を使います。@e125 の a boy and his dog は、少年（人）と犬（人以外）です。who では犬に合わず、which では少年に合わないので、両方に使える that が選ばれます。節の中の動詞は、先行詞が2つなので were になっています。
+    - ex: [e125]
+    - table:
+        head: [先行詞の特徴, 例, that 以外]
+        rows:
+        - [最上級・the first・the last, "the best song that …", which・who も誤りではない]
+        - [the only・the same, "the only person that …", 人なら who もよく使う]
+        - [all・every・any・no、-thing の語, "everything that …", which はあまり使わない]
+        - [人＋人以外, "a boy and his dog that …", who・which は一方にしか合わない]
+    - h: that が使えない場所
+    - p: 反対に、that を使えない場所が2つあります。1つ目はコンマの後です。@e126 の My grandmother は1人に決まっている人なので、コンマを付けて説明を足す形になります（@s13）。この形では that は使えず、who か which にします。My grandmother, that is eighty, … は誤りです。
+    - ex: [e126]
+    - p: 2つ目は前置詞の直後です。「コンサートが開かれるホール」と言うとき、in を関係代名詞の前に出すなら in which とし、in that とは言えません。that を使いたいなら、@e127 のように in を節の最後に残します。前置詞と関係代名詞の組み合わせは次の節（@s06）でくわしく見ます。
+      notes:
+      - kind: 注意
+        text: "in that S V（〜という点で）という言い方があるが、この that は接続詞で、関係代名詞ではない。"
+    - ex: [e127]
+    - check:
+      - {q: "This is the tallest building [＿] I have ever seen.", a: that（which も可）}
+      - {q: "Look at the girl and the horse [＿] are running along the beach.", a: that}
+      - {q: "My aunt, [＿] works in Nagoya, called me last night.", a: who（that は不可）}
+    examples:
+    - id: e121
+      en: This is the most interesting book [*that* I have read ＿ this year], and I finished it in just two days.
+      ja: これは今年私が読んだ中でいちばんおもしろい本で、私はたった2日で読み終えた。
+    - id: e122
+      en: Yui is the only person in our class [*who* ＿ can speak Korean].
+      ja: ユイは、私たちのクラスでただ1人、韓国語を話せる人だ。
+    - id: e123
+      en: Is there anything [*that* I can do ＿ to help]?
+      ja: 何か私に手伝えることはあるか。
+    - id: e124
+      en: All [*that* we need ＿ now] is a little more time.
+      ja: 今私たちに必要なのは、もう少しの時間だけだ。
+    - id: e125
+      en: We watched a boy and his dog [*that* ＿ were playing in the snow].
+      ja: 私たちは、雪の中で遊んでいる少年と犬をながめていた。
+    - id: e126
+      en: My grandmother, [*who* ＿ is eighty], still goes swimming twice a week.
+      ja: 祖母は80歳だが、今でも週に2回泳ぎに行く。
+    - id: e127
+      en: This is the hall [*that* the concert will be held in ＿].
+      ja: ここが、コンサートが開かれるホールだ。
+    summary:
+    - 先行詞に{{最上級}}・the first・{{the only}}・all・-thing の語などが付くと、関係代名詞は {{that}} が好まれる。
+    - 「好まれる」は「必須」ではない。先行詞が人なら the only person {{who}} も普通に使う。
+    - 先行詞が「{{人＋人以外}}」なら that を使う。
+    - "{{コンマの後}}と{{前置詞の直後}}では that を使えない。"
+
   - id: s06
     title: 前置詞＋関係代名詞
     patterns: [P10]
-    body: []
-    examples: []
-    summary: []
+    body:
+    - h: 前置詞の置き場所は2つある
+    - p: 「父が育った町」のもとの文は My father grew up in the town. です。the town は前置詞 in の目的語なので、関係代名詞は目的格になります。このとき in を置ける場所は2つあります。節の最後に残す形（@e128）と、関係代名詞の前に出す形（@e129）で、意味は同じです。
+    - ex: [e128, e129, e130]
+    - p: 前置詞を後ろに残す形は会話で普通に使われ、関係代名詞を省略することもできます（@e130）。in which のように前に出す形は、改まった書き言葉で多く見られます。前に出した場合、in which の後ろの my father grew up は完全な文になります。欠けていた in the town が、in which としてまるごと前に移ったからです。
+    - p: 関係代名詞のうち、that と who は前置詞の直後に置けません。前置詞の直後に置けるのは which・whom と、the painter about whose life a movie was made（その生涯について映画が作られた画家）のような「whose＋名詞」です。that を使いたいときは前置詞を節の最後に残し（@e127）、人を受けるときは who ではなく whom の形にします。in that や with who は、標準的な英語では誤りとされます。前置詞の直後の関係代名詞は、省略もできません。
+      notes:
+      - kind: 注意
+        text: "前置詞を後ろに残すときは who も that も使える。the girl who I talked with ／ the girl that I talked with"
+    - h: 前置詞は節の中の語で決まる
+    - p: どの前置詞を使うかは、先行詞ではなく、節の中の動詞や名詞との結びつきで決まります。@e131 は「棚の上に置く」なので put the cups on the shelf の on、@e132 は「友だちに送る」なので send the photos to a friend の to です。迷ったら、先行詞をもとの位置にもどして文を作ってみると、前置詞が見えてきます。
+    - ex: [e131, e132]
+    - p: 動詞と前置詞が決まった組み合わせになっている場合もあります。@e133 の depend on（〜を頼りにする）では on が depend と結びついているので、on which になります。@e134 の at which は、at a speed（〜の速さで）の at です。こうした問題は語法の知識で解くので、動詞や名詞を覚えるときに前置詞もいっしょに覚えておきます。
+    - ex: [e133, e134]
+    - h: 前置詞を前に出せない場合
+    - p: 動詞と前置詞が結びついて、1つの動詞のような意味になるものを<<句動詞>>といいます。look after（世話をする）や put up with（我慢する）では、前置詞を動詞から切りはなすと意味のまとまりがこわれます。そのため、前置詞は動詞の後ろに残します（@e135）。the dog after which my brother looks は不自然で、入試では誤りとされます。
+      notes:
+      - kind: 用語
+        term: 句動詞
+        yomi: くどうし
+        text: "動詞と前置詞・副詞が結びついて、1つの動詞のような意味になるもの。look after（世話をする）、turn off（消す）など。"
+    - ex: [e135]
+    - p: turn off（消す）や pick up（拾う）の off や up は前置詞ではなく副詞なので、関係代名詞の前に出すことはできません。the light off which I turned は誤りで、the light (that) I turned off とします。逆に @e134 のように、前置詞を後ろに残すと不自然になる言い方もあります（the speed which the typhoon was moving at とはあまり言わない）。
+    - check:
+      - {q: "This is the box in [＿] I keep my old letters.", a: which}
+      - {q: "The man to [＿] I gave my seat on the train thanked me twice.", a: whom}
+      - {q: "The children [＿] my aunt looks after are four and six.", a: who(m)／that（省略も可）}
+    examples:
+    - id: e128
+      en: This is the town [*which* my father grew up in ＿].
+      ja: ここは、父が育った町だ。
+    - id: e129
+      en: This is the town [in *which* my father grew up].
+      ja: ここは、父が育った町だ。
+    - id: e130
+      en: This is the town [my father grew up in ＿].
+      ja: ここは、父が育った町だ。
+    - id: e131
+      en: The shelf [on *which* Ken put the cups] was not strong enough.
+      ja: ケンがカップを置いた棚は、十分な強さがなかった。
+    - id: e132
+      en: Mei is the friend [to *whom* I sent the photos from the trip].
+      ja: メイは、私が旅行の写真を送った友だちだ。
+    - id: e133
+      en: The bus [on *which* many students from the next town depend] runs only once an hour, so it is always full.
+      ja: 隣町から通う多くの生徒が頼りにしているバスは、1時間に1本しか走らないので、いつも満員だ。
+      gloss: [[depend on, 〜を頼りにする]]
+    - id: e134
+      en: The speed [at *which* the typhoon was moving toward the island last night] surprised even the weather experts on TV.
+      ja: 昨夜、台風が島に向かって進んだ速さには、テレビに出ていた気象の専門家でさえ驚いた。
+      gloss: [[typhoon, 台風], [expert, 専門家]]
+    - id: e135
+      en: The dog [*that* my brother looks after ＿] is fourteen years old.
+      ja: 兄が世話をしている犬は14歳だ。
+      gloss: [[look after, 世話をする]]
+    summary:
+    - 前置詞の目的語が欠けた関係詞節では、前置詞を{{節の最後}}に残すか、関係代名詞の{{前}}に出す。
+    - 前置詞の直後に {{that}} と {{who}} は置けない（which・whom・whose＋名詞は置ける）。in that、with who は誤り。
+    - 前置詞を前に出すと、後ろは{{完全な文}}になる。
+    - 前置詞は先行詞ではなく、節の中の{{動詞}}や名詞との結びつきで決まる。
+    - look after などの{{句動詞}}では、前置詞を前に出さない。
+
 - id: c2
   title: 関係副詞
+  lead: 第1章の関係代名詞は、関係詞節の中で主語・目的語・補語などの代わりをしました。この章で学ぶ関係副詞は、節の中で「そこで」「その時に」のような副詞の代わりをします。どちらを使うかは先行詞の意味ではなく、後ろの節が完全な文か不完全な文かで決まる、というのがこの章の軸です。
   sections:
   - id: s07
     title: 場所・時を表す where と when
     patterns: [P5]
-    body: []
-    examples: []
-    summary: []
+    body:
+    - h: 場所や時を説明する関係副詞
+    - p: 「祖母がパン屋を営んでいる町」を英語にするとき、the town の後ろに説明の節を置くところまでは関係代名詞と同じです。違うのは節の中身で、もとの文 His grandmother runs a bakery in the town. の in the town は、主語でも目的語でもなく「その町で」という場所を表す副詞のまとまりです。このまとまりの代わりをして節を始める語を<<関係副詞>>といい、場所なら where を使います（@e201）。
+      notes:
+      - kind: 用語
+        term: 関係副詞
+        yomi: かんけいふくし
+        text: "先行詞を後ろから説明する節をつくり、その節の中で場所・時・理由・方法を表す副詞の働きをする語。where, when, why, how の4つ。"
+    - ex: [e201, e202]
+    - p: 時を表す名詞の後ろでは when を使います。@e202 の節 we moved to Kobe は、主語 we と動詞 moved がそろっていて、何も欠けていません。もとの文の in that month（その月に）にあたる副詞の部分を、when が受け持っているからです。関係副詞の節は、関係代名詞の節と違って欠けた位置がなく、そのままで文として成り立ちます。本書で関係副詞の節に ＿ を書かないのは、このためです。
+    - h: 関係副詞は「前置詞＋which」で言いかえられる
+    - p: where と when は副詞のまとまりを丸ごと受けるので、前置詞と which の組み合わせ（@s06）で言いかえられます。@e203 の where は in which、@e204 の when は on which と同じ意味です。どの前置詞を使うかは、もとの文で先行詞の前に付く前置詞で決まります。in the park なら in which、on Friday なら on which になります。
+      notes:
+      - kind: 注意
+        text: "時を表す先行詞の後ろでは、when の代わりに that を使うこともある（the day that we met）。"
+    - ex: [e203, e204]
+    - table:
+        head: ["", 先行詞の例, 関係副詞, 前置詞＋which]
+        rows:
+        - [場所, "the town, the room, the park", "{{where}}", "{{in / at / on which}}"]
+        - [時, "the day, the year, the time", "{{when}}", "{{on / in / at which}}"]
+    - h: 先行詞や関係副詞が省かれる形
+    - p: 関係副詞の文では、先行詞か関係副詞のどちらかが省かれることがよくあります。@e205 では先行詞の the place が省かれ、where から始まる節が「〜する場所」という意味で is の後ろに置かれています。when も同じ使い方ができ、@e206 の when 節は「〜する時」を表します。先行詞 the time を補って読めば、意味はすぐにとれるはずです。
+      notes:
+      - kind: 参照
+        text: "コンマの付いた「, where」「, when」は第13節（@s13）で扱う。"
+    - ex: [e205, e206]
+    - p: 反対に、先行詞を残して関係副詞を省くこともあります。@e207 は the day の後ろの when が省かれた形で、名詞の直後に主語と動詞がいきなり続きます。the day, the year, the time などの時の名詞の後ろでは、この省略がよく起こります。where の省略はそれより少なく、the place や somewhere などの後ろでおもに見られます。
+    - ex: [e207]
+    - check:
+      - {q: "the café [＿] my sister works on weekends", a: where}
+      - {q: "the month [＿] the new station opened", a: when}
+      - {q: "the room in [＿] we practice the piano", a: which}
+    examples:
+    - id: e201
+      en: Haruto visited the small town [*where* his grandmother runs a bakery].
+      ja: ハルトは、祖母がパン屋を営んでいる小さな町を訪れた。
+      gloss: [[run, （店を）営む]]
+    - id: e202
+      en: March 2019 was the month [*when* we moved to Kobe].
+      ja: 2019年3月は、私たちが神戸に引っ越した月だ。
+    - id: e203
+      en: The park [*where* we play soccer after school] has two new benches and a water fountain near the gate.
+      ja: 放課後に私たちがサッカーをする公園には、新しいベンチが2つと、門の近くに水飲み場がある。
+      gloss: [[water fountain, 水飲み場]]
+    - id: e204
+      en: Friday is the day [*when* the school library stays open until seven].
+      ja: 金曜日は、学校の図書館が7時まで開いている日だ。
+    - id: e205
+      en: This bench is [*where* Sofia waits for her bus every morning].
+      ja: このベンチは、ソフィアが毎朝バスを待つ場所だ。
+    - id: e206
+      en: Lunchtime is [*when* the school store gets most crowded].
+      ja: 昼休みは、学校の売店がいちばん混む時間だ。
+      gloss: [[crowded, 混んだ]]
+    - id: e207
+      en: I still remember the day [we got our first dog].
+      ja: 私は、うちで初めて犬を飼った日を今でも覚えている。
+    summary:
+    - 場所を表す先行詞の後ろで、節の中の「そこで」にあたる副詞の代わりをする → {{where}}
+    - 時を表す先行詞の後ろで、「その時に」にあたる副詞の代わりをする → {{when}}
+    - 関係副詞の後ろの節は、主語・目的語・補語などが欠けていない{{完全な文}}になる。
+    - where は{{in / at / on which}}、when は{{on / in / at which}}で言いかえられる。
+    - 先行詞が省かれると、where 節は「{{〜する場所}}」、when 節は「{{〜する時}}」という意味になる。
   - id: s08
     title: 理由・方法を表す why と how
     patterns: [P5]
-    body: []
-    examples: []
-    summary: []
+    body:
+    - h: 理由を表す why
+    - p: 関係副詞 why の先行詞になるのは、ほぼ the reason に限られます。@e208 の節 Riku missed the first train today は主語・動詞・目的語がそろった完全な文で、もとの文の for that reason（その理由で）にあたる部分を why が受けています。そのため why は for which でも言いかえられます。where や when と同じく、副詞のまとまりを受ける語だからです。
+    - ex: [e208]
+    - p: the reason why の形では、the reason と why のどちらか一方がよく省かれます。@e209 は why を省いた形、@e210 は the reason を省いた形です。why の代わりに that を使った the reason that … も使われます。@e210 の That's why … は、先行詞が省かれた why 節が is の後ろに置かれた形で、「だから〜」という意味になります。
+    - ex: [e209, e210]
+    - p: That's why … と That's because … は、理由と結果の向きが逆になります。@e210 では「バスの故障」が理由で、why 節の「30分遅れた」が結果です。That's because … なら、because の後ろに理由がきます。前の文が理由なのか結果なのかを確かめてから訳すと、取り違えずにすみます。
+      notes:
+      - kind: 注意
+        text: "That's why A. は「だから A」（前の内容が理由、A が結果）。That's because A. は「それは A だからだ」（A が理由）。"
+    - h: 方法を表す how と the way
+    - p: 「〜するやり方」を表すときは、関係副詞 how を使います。ただし、先行詞 the way と how を並べた the way how という形は、古い英語には見られるものの、今の英語では使いません。入試の正誤問題でも誤りとして扱われます。the way か how のどちらか一方だけを使う、と覚えておけば迷いません（@e211、@e212）。
+    - ex: [e211, e212]
+    - p: the way の後ろには、that や in which を置くこともできます。@e213 の the way in which はやや改まった書き言葉で、the way that は話し言葉でも使われます。言いかえの形を並べると次の表のようになり、このうち使えないのは the way how の1つだけです。
+    - ex: [e213]
+    - table:
+        head: [形, 使えるか, 例]
+        rows:
+        - [the way S V, "{{○}}", the way she talks]
+        - [how S V, "{{○}}", how she talks]
+        - [the way that S V／the way in which S V, "{{○}}", the way in which she talks]
+        - [the way how S V, "{{×}}", 使わない]
+    - check:
+      - {q: "I don't know the reason [＿] the shop closed early today.", a: why（that も可。省略もできる）}
+      - {q: "Please tell me [＿] you made this cake so soft.（1語）", a: how}
+      - {q: "This is the way [＿] [＿] he fixed the bike.（2語）", a: in which}
+    examples:
+    - id: e208
+      en: Nobody knows the reason [*why* Riku missed the first train today].
+      ja: 今日リクが始発電車に乗り遅れた理由は、だれも知らない。
+    - id: e209
+      en: The reason [the soccer game was canceled] was the heavy rain.
+      ja: サッカーの試合が中止になった理由は、大雨だった。
+    - id: e210
+      en: The bus broke down near the bridge. That's [*why* we were thirty minutes late].
+      ja: バスが橋の近くで故障した。だから私たちは30分遅れたのだ。
+      gloss: [[break down, 故障する]]
+    - id: e211
+      en: This is [*how* Mr. Sato makes curry for forty students in one hour].
+      ja: これが、佐藤さんが1時間で40人分のカレーを作る方法だ。
+    - id: e212
+      en: I like the way [Ms. Brown explains grammar with simple pictures].
+      ja: 私は、ブラウン先生が簡単な絵を使って文法を説明するやり方が好きだ。
+    - id: e213
+      en: After the first test in April, Grace changed the way [*in which* she studies at home].
+      ja: 4月の最初のテストの後、グレースは家での勉強のやり方を変えた。
+    summary:
+    - 理由を表す the reason の後ろ → {{why}}（{{for which}} や that でも言いかえられる）
+    - the reason why は、{{the reason}}か{{why}}のどちらかを省くことが多い。
+    - 方法は{{the way}} S V か{{how}} S V で表し、{{the way how}}とは言わない。
+    - the way の後ろには{{that}}や{{in which}}も置ける。
+    - That's why … は「{{だから}}〜」、That's because … は「それは〜{{だからだ}}」。
   - id: s09
     title: 関係副詞か、関係代名詞か
     patterns: [P4]
-    body: []
-    examples: []
-    summary: []
+    body:
+    - h: 先行詞の意味だけでは決まらない
+    - p: 「先行詞が場所なら where」と覚えていると、@e214 で間違えます。先行詞 the museum は場所ですが、節の中を見ると visited の目的語がありません。visit は「〜を訪れる」という意味で、後ろに目的語が必要な動詞です。欠けた目的語の代わりになれるのは関係代名詞の which（または that）で、副詞の働きしかしない where には無理です。@e215 も、stands の主語が欠けているので which が入ります。
+    - ex: [e214, e215]
+    - p: 反対に、場所や時の名詞でなくても where が入ることがあります。@e216 の先行詞 a situation は「状況」で、場所ではありません。それでも節 you have to choose between two friends は完全な文なので、関係副詞の where が入ります。situation（状況）、case（場合）、point（段階）なども、「その中で」という意味の where で説明されることがある名詞です。
+    - ex: [e216]
+    - h: 後ろが完全な文か、不完全な文か
+    - p: 関係副詞か関係代名詞かは、先行詞ではなく、関係詞の後ろの節で決めます。これは第1節（@s01）の2つ目の問い「節の中で何が欠けているか」と同じ考え方です。節の中で主語・目的語（前置詞の目的語もふくむ）・補語などのどれも欠けていなければ完全な文、どれかが欠けていれば不完全な文と考え、次の順に確かめます。
+    - steps:
+      - 関係詞の後ろの節だけを取り出す。
+      - 動詞が目的語を必要とする動詞か、be 動詞などの後ろに補語があるか、前置詞の後ろに名詞があるかを確かめる。
+      - 主語・目的語・補語などのどれも欠けていなければ（完全な文）→ where / when / why / how、または前置詞＋which。
+      - 主語・目的語・補語などのどれかが欠けていれば（不完全な文）→ which / that（先行詞が人なら who / whom / that）。
+    - ex: [e217, e218, e219]
+    - p: 同じ the house でも、@e217 と @e218 では入る語が違います。@e217 の節 my uncle lived until he was twenty は、live が目的語をとらない動詞なので完全な文で、where が入ります。@e218 の節 my uncle built ＿ by himself は built の目的語が欠けているので which です。
+      notes:
+      - kind: 注意
+        text: "the place where we stayed を which で書くなら、前置詞が必要になる（the place which we stayed at ＿／the place at which we stayed）。"
+    - p: 前置詞が節の最後に残る形にも気をつけます。@e219 の節 Grace comes from ＿ は、from の後ろの名詞が欠けた不完全な文です。この from の目的語の代わりをしているのが which です。前置詞を前に出して from which Grace comes にすると、後ろは完全な文になります（@s06）。
+    - h: 時や理由の名詞でも同じ手順で決める
+    - p: 時や理由の先行詞でも、判断の手順は変わりません。@e220 の先行詞 the three days は時を表しますが、spent の目的語が欠けているので which（または that）が入ります。@e221 の the reason も、gave の目的語が欠けているので why ではなく that か which です。正誤問題で場所・時・理由の名詞の後ろに where・when・why を見つけたら、後ろの節に欠けた語がないかを確かめます。
+    - ex: [e220, e221]
+    - check:
+      - {q: "the restaurant [＿] we had dinner last night", a: where（in which / at which も可）}
+      - {q: "the restaurant [＿] my aunt told me about", a: which／that（省略も可）}
+      - {q: "the year [＿] I will never forget", a: which／that（省略も可）}
+      - {q: "the year [＿] I started high school", a: when（in which も可）}
+    examples:
+    - id: e214
+      en: The museum [*which* we visited ＿ on our school trip] had a real train from 1872.
+      ja: 修学旅行で私たちが訪れた博物館には、1872年の本物の列車があった。
+    - id: e215
+      en: We stayed at a hotel [*which* ＿ stands right next to the station].
+      ja: 私たちは、駅のすぐ隣に建っているホテルに泊まった。
+    - id: e216
+      en: Sometimes you are in a situation [*where* you have to choose between two friends].
+      ja: 2人の友達のどちらかを選ばなければならない状況になることもある。
+      gloss: [[situation, 状況]]
+    - id: e217
+      en: That is the house [*where* my uncle lived until he was twenty].
+      ja: あれは、おじが20歳になるまで住んでいた家だ。
+    - id: e218
+      en: That is the house [*which* my uncle built ＿ by himself].
+      ja: あれは、おじが自分で建てた家だ。
+    - id: e219
+      en: The town [*which* Grace comes from ＿] is famous for its apples.
+      ja: グレースの出身の町は、リンゴで有名だ。
+    - id: e220
+      en: We will never forget the three days [*which* we spent ＿ at the camp in Nagano last August].
+      ja: 私たちは、去年の8月に長野のキャンプで過ごした3日間を決して忘れないだろう。
+    - id: e221
+      en: The reason [*that* Riku gave ＿ for being late on Monday morning] sounded a little strange to our teacher, so she called his mother after school.
+      ja: リクが月曜の朝の遅刻について述べた理由は先生には少し妙に聞こえたので、先生は放課後に彼の母親に電話をした。
+    summary:
+    - 関係副詞か関係代名詞かは、先行詞ではなく関係詞の{{後ろの節}}で決める。
+    - 後ろが{{完全な文}} → where / when / why / how、または{{前置詞＋which}}
+    - 後ろが{{不完全な文}}（主語・目的語・補語などが欠ける） → {{which／that}}（先行詞が人なら {{who(m)／that}}）
+    - 場所の名詞でも、節の中で visit などの{{目的語}}が欠けていれば where ではなく which になる。
+    - the town which she comes from では、節の最後の{{from}}の目的語が欠けている。
+
 - id: c3
   title: what と that
+  lead: 第1章と第2章では、先行詞の後ろに置く関係詞を学びました。この章では、先行詞を自分の中にふくむ what と、what を使った決まった言い方を扱います。最後に、関係代名詞の that と接続詞の that を「後ろが完全な文か不完全な文か」で見分け、what もふくめた4つの形を1つの表で整理します。
   sections:
   - id: s10
     title: 先行詞をふくむ関係代名詞 what
     patterns: [P6]
-    body: []
-    examples: []
-    summary: []
+    body:
+    - h: what は先行詞を自分の中にふくむ
+    - p: 第1節（@s01）では、関係代名詞は先行詞の後ろに置くと学びました。ところが what の前には先行詞がありません。what 自体が「もの」「こと」という名詞を中にふくんでいるからです。そのため what は the thing(s) which と置きかえられます。@e301 の What Ben said は「ベンが言ったこと」で、The thing which Ben said と同じ意味です。
+    - ex: [e301, e302]
+    - p: what から始まるまとまりは、文の中で1つの名詞として働きます。このように名詞の働きをする節が<<名詞節>>です。名詞と同じ働きなので、主語（@e301）、目的語（@e302）、補語（@e303）、前置詞の目的語（@e304）のどこにでも置けます。訳は「〜すること」「〜するもの」とまとめるのが基本です。本書では what の節も［ ］で示しますが、第1節（@s01）で見た「外しても文が成り立つ」関係詞節とは違います。what の節は名詞節で、それ自体が文の主語や目的語なので、［ ］を外すと文が成り立ちません。@e301 から［ ］を外すと surprised everyone しか残らないのです。
+      notes:
+      - kind: 用語
+        term: 名詞節
+        yomi: めいしせつ
+        text: "主語と動詞をふくむまとまりで、文の中で名詞と同じ働き（主語・目的語・補語など）をするもの。what 節や接続詞 that の節がこれにあたる。"
+    - ex: [e303, e304]
+    - h: what の後ろは不完全な文
+    - p: what も関係代名詞なので、節の中で主語・目的語（前置詞の目的語もふくむ）・補語のどれかの代わりをします。だから what の後ろには、文に必要な語が1つ欠けた不完全な文が続くのです。@e301 では said の目的語が、@e302 では looking for の後ろの目的語が、@e303 では gave の目的語が欠けています。第1節（@s01）の問い2「節の中で何が欠けているか」は、what にもそのまま使えるわけです。欠けている語のない完全な文が後ろに来るなら、what は入りません。補語が欠ける what S is などの形は第11節（@s11）で扱います。
+      notes:
+      - kind: 注意
+        text: "前置詞の目的語が欠けることもある。@e302 の looking for ＿ のように、前置詞が節の最後に残っている文を見落とさない。"
+    - h: 先行詞があれば what は使えない
+    - p: what はすでに先行詞をふくんでいるので、前に先行詞を置くと「もの」が二重になります。@e305 のように the cups という先行詞があれば that（または which）、@e306 のように先行詞がなければ what です。the things what … や all what … は誤りです。「〜するすべてのこと」なら all that … や everything that … を使います。
+      notes:
+      - kind: 注意
+        text: "everything, all, anything の後ろに what は置けない。that を使うか、目的格なら that を省略する（everything he said）。"
+    - ex: [e305, e306]
+    - check:
+      - {q: "I'll tell you [＿] I saw at the zoo.", a: what}
+      - {q: "This is the key [＿] opens the back door.", a: which／that}
+      - {q: "Everything [＿] he said was true.", a: that（省略も可。which はあまり使わない）}
+    - h: 疑問詞の what との見分け方
+    - p: what には「何」という疑問詞の働きもあります。@e307 の what I wanted for lunch は「昼食に何が欲しいか」で、ask（たずねる）の目的語です。ask や wonder、I'm not sure のように「分からないこと」を表す語の後ろでは、疑問詞として「何を〜か」と訳すのが自然です。
+    - p: 一方、know, tell, remember などの後ろでは、どちらにも読める場合があります。@e308 は「加藤先生が何と言ったか」とも「加藤先生が言ったこと」とも訳せ、意味はほとんど変わりません。和訳では文脈に合う方を選べば十分です。buy や find のように物を相手にする動詞の後ろなら、関係代名詞として「〜するもの」と読むことが多くなります（@e302）。
+    - ex: [e307, e308]
+    examples:
+    - id: e301
+      en: "[*What* Ben said ＿ at the meeting] surprised everyone."
+      ja: ベンが会議で言ったことは、全員を驚かせた。
+    - id: e302
+      en: "I couldn't find [*what* I was looking for ＿] at the shop near the station."
+      ja: 駅の近くの店では、探していたものが見つからなかった。
+    - id: e303
+      en: "This bag is [*what* my grandmother gave ＿ to me on my sixteenth birthday]."
+      ja: このかばんは、16歳の誕生日に祖母がくれたものだ。
+    - id: e304
+      en: "Thank you for [*what* you did ＿ for our club last week]."
+      ja: 先週、私たちの部のためにしてくれたことに感謝している。
+    - id: e305
+      en: "Amir showed me the cups [*that* he had bought ＿ in Kyoto]."
+      ja: アミールは、京都で買ったカップを私に見せてくれた。
+    - id: e306
+      en: "Amir showed me [*what* he had bought ＿ in Kyoto]."
+      ja: アミールは、京都で買ったものを私に見せてくれた。
+    - id: e307
+      en: Nora asked me what I wanted for lunch.
+      ja: ノーラは私に、昼食に何が欲しいかとたずねた。
+    - id: e308
+      en: Do you remember what Mr. Kato told us in class yesterday?
+      ja: 昨日の授業で加藤先生が私たちに何と言ったか（言ったこと）を覚えているか。
+    summary:
+    - "what は先行詞を{{ふくむ}}関係代名詞で、{{the thing(s) which}} と同じ意味になる。"
+    - "what 節は{{名詞節}}で、主語・目的語・補語・前置詞の目的語になる。訳は「〜{{すること}}」「〜するもの」。"
+    - "what の後ろは{{不完全な}}文。前に先行詞があれば what は使えず、{{which／that}} を使う（all what、everything what は誤り）。"
+    - "ask や wonder の後ろの what は{{疑問詞}}で、「{{何を〜か}}」と訳す。"
   - id: s11
     title: what を使った決まった言い方
     patterns: [P16, P17]
-    body: []
-    examples: []
-    summary: []
+    body:
+    - h: いわゆる：what we call / what is called
+    - p: what we call … と what is called … は、どちらも「いわゆる…」と訳す決まった言い方です。形を分けて見ると、なぜそう訳すのかが分かります。call A B（AをBと呼ぶ）のAが what になったのが what we call B（私たちがBと呼ぶもの）で、受け身の A is called B のAが what になったのが what is called B です（@e309、@e310）。
+      notes:
+      - kind: 注意
+        text: "we の代わりに you や they を使った what you call、what they call も同じ意味になる。"
+    - ex: [e309, e310]
+    - h: 今の姿と昔の姿：what S is / what S was
+    - p: what S is は「Sの今の姿」を表します。be 動詞の後ろの補語が what になって欠けている形です。@e311 の what it was ten years ago は「10年前の駅の姿」で、was の後ろの補語が欠けています。昔の姿は what S was のほかに what S used to be でも表せ、意味はほぼ同じです。
+    - p: 人について使うと、その人の人柄や、努力して手に入れた今の立場を指すことが多くなります。@e312 の what he is today は「今日の加藤先生」、つまり教師として今ある姿全体です。what he has（その人が持っているもの、財産）と対比して使われることもあります。
+    - ex: [e311, e312]
+    - h: 情報を付け足す what is more / what is worse
+    - p: what is more は「そのうえ、さらに」、what is worse は「さらに悪いことに」という意味で、2つの文の間に入れて情報を付け足します（@e313、@e314）。文の中ではコンマではさんで置くのが普通です。過去の出来事を話すときは、@e314 のように what was worse と過去形にすることが多くあります。よいことを足すなら what is better（さらによいことに）を使います。
+    - ex: [e313, e314]
+    - check:
+      - {q: "My brother is [＿] we call a bookworm.", a: what}
+      - {q: "The town is not [＿] it used to be.", a: what}
+      - {q: "We got lost, and [＿] was worse, my phone died.", a: what}
+    - h: 発展：A is to B what C is to D と関係形容詞の what
+    - p: A is to B what C is to D は「AとBの関係は、CとDの関係と同じだ」という意味です（@e315）。what a map is to a traveler は「地図が旅行者にとってそうであるもの」という名詞節で、最初の is の補語になっています。訳すときは、分かりやすい後半のCとDの関係を先に考え、それを前半に当てはめます。What C is to D, A is to B. と前後を入れかえた形も使われます。
+    - p: what の直後に名詞を置くと、what は「〜するすべての（名詞）」という意味でその名詞を修飾します。このような what が<<関係形容詞>>です。what money I had は all the money that I had と同じ意味。@e316 では little が加わり、「少ないながらも持っていたお金を全部」となります。数えられる名詞なら what few books のように few を使います。
+      notes:
+      - kind: 用語
+        term: 関係形容詞
+        yomi: かんけいけいようし
+        text: "後ろの名詞を修飾しながら、関係詞節をつくる what。what ＋名詞は「〜するすべての（名詞）」の意味になる。"
+    - ex: [e315, e316]
+    examples:
+    - id: e309
+      en: "Hana is [*what* we call ＿ a morning person]."
+      ja: ハナは、いわゆる朝型の人間だ。
+      gloss: [[morning person, 朝型の人]]
+    - id: e310
+      en: 'My uncle lives in [*what* ＿ is called a "smart house,"] so he can turn on the lights with his voice.'
+      ja: おじはいわゆる「スマートハウス」に住んでいるので、声で明かりをつけられる。
+    - id: e311
+      en: "The station is very different from [*what* it was ＿ ten years ago]."
+      ja: その駅は、10年前の姿とはずいぶん違っている。
+    - id: e312
+      en: "Mr. Kato owes [*what* he is ＿ today] to the coach he met in high school."
+      ja: 加藤先生が今日あるのは、高校時代に出会ったコーチのおかげだ。
+      gloss: [[owe, 〜のおかげである]]
+    - id: e313
+      en: "This phone is light, and [*what* ＿ is more], its battery lasts for two days."
+      ja: この電話は軽く、そのうえ電池が2日もつ。
+      gloss: [[battery, 電池]]
+    - id: e314
+      en: "We missed the last bus, and [*what* ＿ was worse], it started to rain."
+      ja: 私たちは最終バスに乗り遅れ、さらに悪いことに雨が降り出した。
+    - id: e315
+      en: "A dictionary is to a language learner [*what* a map is ＿ to a traveler]."
+      ja: 辞書と語学の学習者の関係は、地図と旅行者の関係と同じだ。
+      gloss: [[language learner, 語学の学習者]]
+    - id: e316
+      en: "Nora spent [*what* little money she had ＿] on a birthday present for her brother."
+      ja: ノーラは、少ないながらも持っていたお金を全部、弟の誕生日プレゼントに使った。
+    summary:
+    - "what we call B／what is called B ＝「{{いわゆる}}B」"
+    - "what S is ＝「Sの{{今の姿}}」、what S was／what S {{used to be}} ＝「Sの昔の姿」"
+    - "what is more ＝「{{そのうえ}}」、what is worse ＝「{{さらに悪いことに}}」。過去の話では what {{was}} worse にすることが多い。"
+    - "A is to B what C is to D ＝「AとBの関係は、{{CとD}}の関係と同じ」"
+    - "what (little) ＋名詞＋S＋V ＝「（少ないながらも）Sが〜する{{すべての}}名詞」。この what を{{関係形容詞}}という。"
   - id: s12
     title: 関係代名詞の that と接続詞の that
     patterns: [P7]
-    body: []
-    examples: []
-    summary: []
+    body:
+    - h: 見た目は同じでも働きが違う
+    - p: that には、関係代名詞の that と接続詞の that があります。見た目が同じなので、手がかりは後ろの文です。関係代名詞の that は節の中で主語・目的語（前置詞の目的語もふくむ）・補語のどれかの代わりをするため、後ろは不完全な文になります。接続詞の that は「〜ということ」というまとまりをつくるだけで、節の中では何の役もしません。だから後ろは完全な文です。
+    - p: "@e317 では、told us の後ろに「何を」伝えたかが欠けていて、that がその代わりをしています。これは関係代名詞です。@e318 の that 以下は our team had won the final で、主語も目的語もそろい、欠けている語がありません。同じ the news の後ろでも、that の後ろを見れば働きが決まるのです。"
+    - ex: [e317, e318]
+    - h: 同格の that：名詞の中身を説明する
+    - p: "@e318 のように、名詞の後ろに接続詞の that を置き、その名詞の中身を説明する使い方が<<同格>>の that です。訳は「〜という知らせ」「〜という事実」（@e319）のようになります。前に来る名詞は fact, news, idea, hope, rumor, possibility など、中身を持つ名詞に限られます。book や bag のような物の名詞の後ろには来ません。"
+      notes:
+      - kind: 用語
+        term: 同格
+        yomi: どうかく
+        text: "前の名詞と後ろの語句が同じものを指し、後ろが前の名詞の中身を説明する関係。the fact that … は「…という事実」。"
+      - kind: 注意
+        text: "同格の that は接続詞なので、which に置きかえられない。the idea which we should start early は誤り。"
+    - p: 関係詞節も同格の that 節も、前の名詞を説明する点は似ています。ただし訳し方には差が出ます。@e317 は「ベンが伝えた知らせ」、@e318 は「チームが勝ったという知らせ」です。「という」を付けて自然に訳せるかどうかは手がかりになりますが、迷ったときは後ろが完全な文かどうかで決めます。
+      notes:
+      - {kind: 語注, items: [[nail, くぎ]]}
+    - ex: [e319]
+    - h: 名詞節をつくる that と、that の省略
+    - p: 名詞の後ろではなく、動詞の後ろや主語の位置に置かれた that 節は、名詞節をつくる接続詞です（@e320）。この that の後ろも完全な文です。think, know, say などの後ろでは、この that はよく省略されます。
+    - p: 省略できるかどうかは、that の種類によって違います。目的格の関係代名詞 that は省略できます（@e321）。主格の関係代名詞は、原則として省略できません（@s03）。同格の that は、書き言葉では省略しないのが普通で、the fact that の that も省きません。ただし話し言葉では、I have a feeling (that) … のように、一部の名詞の後ろで省かれることがあります。
+    - ex: [e320, e321]
+    - h: 4つの形を1つの表で見分ける
+    - p: 第10節（@s10）の what と合わせると、2つの問いで4つの形が決まります。1つは「前の名詞を説明しているか」、もう1つは「後ろが完全な文か」です。後ろが完全な文で前の名詞を説明しているときは、同格の that のほかに関係副詞（@s09）の可能性もあるので、名詞の意味も確かめます。
+    - table:
+        head: ["", 後ろが不完全な文, 後ろが完全な文]
+        rows:
+        - [前の名詞を説明する, "{{関係代名詞}} which／who／that（@e317）", "{{同格の that}}（@e318）"]
+        - [前の名詞を説明しない（名詞節）, "{{what}}（@e301）", "{{接続詞の that}}（@e320）"]
+    - check:
+      - {q: "The rumor [＿] the shop will close is not true.", a: that（同格）}
+      - {q: "I agree with [＿] you said.", a: what}
+      - {q: "Is this the bike [＿] you bought last week?", a: which／that（省略も可）}
+    examples:
+    - id: e317
+      en: "The news [*that* Ben told us ＿] was not true."
+      ja: ベンが私たちに伝えた知らせは、本当ではなかった。
+    - id: e318
+      en: The news that our team had won the final reached the school before noon.
+      ja: 私たちのチームが決勝で勝ったという知らせは、正午前に学校に届いた。
+      gloss: [[final, 決勝]]
+    - id: e319
+      en: We were surprised by the fact that the old bridge was built without a single nail.
+      ja: その古い橋がくぎを1本も使わずに造られたという事実に、私たちは驚いた。
+    - id: e320
+      en: Aoi knows that the library closes at five on Saturdays.
+      ja: アオイは、土曜日は図書館が5時に閉まることを知っている。
+    - id: e321
+      en: "The shirt [I bought ＿ online] was too small for my brother."
+      ja: 私がネットで買ったシャツは、弟には小さすぎた。
+    summary:
+    - "関係代名詞の that の後ろは{{不完全な}}文、接続詞の that の後ろは{{完全な}}文。"
+    - "名詞＋that＋完全な文で名詞の中身を説明する that を{{同格}}の that といい、「〜{{という}}」と訳す。fact, news, idea などの後ろに来る。"
+    - "目的格の関係代名詞 that は省略{{できる}}。同格の that は書き言葉では{{省略しない}}。"
+    - "名詞を説明・不完全 → {{関係代名詞}}　名詞節・不完全 → {{what}}　名詞を説明・完全 → {{同格の that}}　名詞節・完全 → {{接続詞の that}}"
+
 - id: c4
   title: 非制限用法
+  lead: これまでの章で見てきた関係詞節は、主に先行詞が「どの〜か」を絞りこむ働きをしていました。この章では、先行詞の後ろにコンマを置いて、すでに決まっているものに情報を付け足す使い方を学びます。コンマ1つで文の意味も使える語も変わるため、入試では正誤問題と和訳でくり返し問われます。
   sections:
   - id: s13
     title: コンマの付いた関係詞節
     patterns: [P8]
-    body: []
-    examples: []
-    summary: []
+    body:
+    - h: コンマ1つで意味が変わる
+    - p: "第1節（@s01）では、関係代名詞を決める3つ目の問いとして「先行詞の直後にコンマがあるか」を挙げました。@e401 と @e402 は、コンマがあるかないかだけが違う文です。コンマのない @e401 の関係詞節は、おばの娘たちの中から「病院で働いている娘」を選び出しています。病院で働いていない娘が、ほかにいるかもしれません。"
+    - ex: [e401, e402]
+    - p: 一方、コンマのある @e402 は、まず「おばには娘が2人いる」と言い切り、その2人について「病院で働いている」という情報を付け足しています。娘は2人だけで、2人とも病院で働いているという意味です。@e401 のように先行詞を絞りこむ使い方を<<制限用法>>、@e402 のように絞りこまずに説明を付け足す使い方を<<非制限用法>>といいます。
+      notes:
+      - kind: 用語
+        term: 制限用法
+        yomi: せいげんようほう
+        text: "コンマを付けずに関係詞節を置き、先行詞が「どの〜か」を絞りこむ使い方。限定用法ともいう。"
+      - kind: 用語
+        term: 非制限用法
+        yomi: ひせいげんようほう
+        text: "先行詞の後ろにコンマを置き、すでに決まっている先行詞に情報を付け足す使い方。継続用法ともいう。"
+    - p: 非制限用法の関係詞節は、前から順に「〜で、その人は…」「〜が、それは…」と訳すと、付け足しの感じが出ます。@e402 を「病院で働いている2人の娘がいる」と後ろから訳すと、@e401 と区別がつきません。入試の和訳では、娘がほかにもいると読める訳は減点されます。
+    - h: 先行詞が1つに決まっているとき
+    - p: 固有名詞や my father のように、聞き手にとって指すものが1つに決まっている名詞は、関係詞節で絞りこむ余地がありません。だから、関係詞節を付けるときは非制限用法にします（@e403〜@e405）。金沢という町は1つしかないので、@e403 のコンマを外して Kanazawa which … とすると誤りです。
+      notes:
+      - kind: 注意
+        text: "固有名詞でも、同じものの「ある時期の姿」を選び出すときは the を付けて制限用法にできる。例：the Kanazawa that my grandmother knew as a child（祖母が子どものころに知っていた金沢）。"
+    - ex: [e403, e404, e405]
+    - p: "@e404 と @e405 のように関係詞節が文の途中に入るときは、節の前と後ろの両方にコンマを打つのが決まりです。節を外すと Ms. Garcia comes from Mexico. という文が残り、主語と動詞の骨組みが見えます。和訳では、@e404 のように「私たちに英語を教えているガルシア先生は」と名詞の前に置いたほうが自然な場合もあります。先行詞が1つに決まっているので、こう訳しても意味は変わりません。"
+    - h: 非制限用法で使えない形
+    - p: 非制限用法では that を使いません。×Ms. Garcia, that teaches us English, comes from Mexico. は誤りです。that は先行詞を絞りこむ制限用法のための語、と考えると覚えやすくなります。what は先行詞をふくむ語なので（@s10）、そもそも先行詞の後ろのコンマに続けることはできません。入試の正誤問題では、コンマの直後の that がよく誤りの箇所になります。
+      notes:
+      - kind: 注意
+        text: "古い文学作品には、コンマの後ろに that を置いた例がまれにある。現代の英語では使わず、入試では誤りになる。"
+    - p: 目的格の関係代名詞は、制限用法なら省略できました（@s03）。非制限用法では省略できません。@e406 から which を消すと Sota's bike, he bought in April, … となり、コンマの間にいきなり「主語＋動詞」が現れて、前の名詞とのつながりが分からなくなります。非制限用法では、関係代名詞が「ここから先行詞の説明が始まる」と知らせるただ1つの目印なのです。
+    - ex: [e406]
+    - table:
+        head: ["", 制限用法, 非制限用法]
+        rows:
+        - [先行詞の後ろのコンマ, なし, "{{あり}}"]
+        - [働き, 先行詞を絞りこむ, "{{情報を付け足す}}"]
+        - [that, 使える, "{{使えない}}"]
+        - [目的格の省略, できる（@s03）, "{{できない}}"]
+        - [訳し方, 後ろから「〜する…」, "{{前から}}「…で、それは〜」"]
+    - h: ", where と , when"
+    - p: 関係副詞の where と when にも非制限用法があります（@e407、@e408）。which との使い分けは @s09 と同じで、コンマの後ろの形で決まります。欠けたところのない完全な文なら where / when、目的語などが欠けた不完全な文なら which です。
+      notes:
+      - kind: 注意
+        text: "関係副詞のうち why と how には非制限用法がない。コンマの後ろに続けられる関係副詞は where と when だけである。"
+    - ex: [e407, e408]
+    - p: "@e407 の his mother opened a small bakery は完全な文なので where を使います。一方、@e403 の we had never visited before は visited の目的語が欠けているので、同じ地名の後ろでも which でした。@e408 の , when は「そしてそのときには」と前から訳すと、時間の流れどおりに読めます。"
+    - check:
+      - {q: "My grandfather, [＿] lives alone in Akita, sends us rice every fall.", a: who}
+      - {q: "This bag, [＿] I bought in Kobe, is already broken.", a: which（省略できない）}
+      - {q: "We went to Ueno Zoo, [＿] we saw two baby pandas.", a: where}
+    examples:
+    - id: e401
+      en: My aunt has two daughters [*who* ＿ work at a hospital].
+      ja: おばには病院で働いている娘が2人いる。
+    - id: e402
+      en: My aunt has two daughters, [*who* ＿ work at a hospital].
+      ja: おばには娘が2人いて、2人とも病院で働いている。
+    - id: e403
+      en: Last summer my family went to Kanazawa, [*which* we had never visited ＿ before].
+      ja: 去年の夏、家族で金沢へ行ったが、そこはそれまで一度も訪れたことのない町だった。
+    - id: e404
+      en: Ms. Garcia, [*who* ＿ teaches us English], comes from Mexico.
+      ja: 私たちに英語を教えているガルシア先生は、メキシコの出身だ。
+    - id: e405
+      en: My father, [*who* ＿ usually takes the 7:10 train], missed it this morning because of the heavy snow.
+      ja: 父はいつも7時10分の電車に乗るのだが、今朝は大雪のせいで乗り遅れた。
+    - id: e406
+      en: Sota's bike, [*which* he bought ＿ in April], already has a flat tire.
+      ja: ソウタの自転車は4月に買ったものだが、もうタイヤがパンクしている。
+      gloss: [[flat tire, パンクしたタイヤ]]
+    - id: e407
+      en: Kaito's family moved to Sendai, [*where* his mother opened a small bakery].
+      ja: カイトの家族は仙台に引っ越し、そこで母親が小さなパン屋を開いた。
+    - id: e408
+      en: We finally got to the hotel at 11:30 at night, [*when* the restaurant on the first floor had already closed].
+      ja: 私たちがやっとホテルに着いたのは夜の11時半で、そのときには1階のレストランはもう閉まっていた。
+    summary:
+    - コンマのない関係詞節は先行詞を{{絞りこみ}}（制限用法）、コンマのある関係詞節は決まっている先行詞に情報を{{付け足す}}（非制限用法）。
+    - My aunt has two daughters, who … は、娘が{{2人だけ}}いることを表す。コンマがなければ、ほかにも娘がいる可能性が残る。
+    - 固有名詞や my father のように1つに決まる先行詞には、{{非制限用法}}で関係詞節を付ける（原則）。
+    - 非制限用法では{{that}}を使わず、目的格の関係代名詞も{{省略できない}}。
+    - コンマの後ろが完全な文なら{{, where／, when}}、不完全な文なら{{, which}}を使う。
   - id: s14
     title: 前の文の内容を受ける which と、数の表現＋of which
     patterns: [P9, P11]
-    body: []
-    examples: []
-    summary: []
+    body:
+    - h: ", which が前の内容全体を受ける"
+    - p: 非制限用法の which の先行詞は、名詞とは限りません。@e409 の which が受けているのは、直前の his report ではなく、「トムがレポートを書き終えたと言った」という前の部分全体です。レポートそのものが「本当ではない」というのはおかしいので、意味から考えても、先行詞は名詞ではないと分かります。
+    - ex: [e409, e410]
+    - p: 前の内容をひとまとまりの「こと」として受けるので、which の後ろの動詞は単数の形になります（@e409 の was、@e410 の meant）。@e409 は Tom said he had finished his report, but that was not true. と言いかえられ、「それは」「そのため」と前から訳します。関係代名詞のうち、この使い方ができるのはコンマの付いた which で、that や what にはこの使い方がありません。
+      notes:
+      - kind: 参照
+        text: "前の文の内容を受ける語には、as もある（@s18）。"
+    - h: 直前の名詞か、前の内容全体か
+    - p: "@e411 と @e412 は、前半がまったく同じ文です。違いは関係詞節の中身にあります。@e411 では used の目的語が欠けていて、which は「辞書」を指します。"
+    - ex: [e411, e412]
+    - p: "@e412 の was very kind of her は「彼女は親切だった」という意味です。辞書が親切だというのはおかしいので、which は「辞書を貸してくれたこと」を指しています。which の先行詞は、候補を節の中に戻して意味が通るかで確かめるのが確実です。入試の和訳や内容一致では、前の内容を受ける which を直前の名詞と取り違える誤りがよく狙われます。"
+    - h: 数の表現＋of whom / of which
+    - p: 「いとこが3人いて、そのうち2人は」のように、先行詞の一部や全部について説明を付け足すときは、two of whom のように「数の表現＋of＋関係代名詞」を節の先頭に置きます（@e413〜@e415）。先行詞が人なら whom、人以外なら which を使います。前置詞 of の直後なので、主格の who ではなく目的格の whom になります（@s06）。
+    - ex: [e413, e414, e415]
+    - p: of の前に置ける主な語を表にしました。数を表す語なら、two や three のほかに half（半分）や one も使えます。節の中の動詞の数は、@e414 の come のように、指している人や物の数に合わせます。one of which の後ろなら動詞は単数になる、という具合です。
+    - table:
+        head: ["", 人, 人以外]
+        rows:
+        - [いくつか, "some of {{whom}}", "some of {{which}}"]
+        - [ほとんど, most of whom, most of which]
+        - [2つとも・2人とも, both of whom, both of which]
+        - [どれも〜ない, none of whom, none of which]
+        - [数（2つ・3人など）, two of whom, three of which]
+    - p: よくある誤りは、whom や which の代わりに them を入れることです。×I have three cousins, two of them live in Canada. では、コンマの前後の2つの文が、接続詞なしでコンマだけでつながっています。英語で2つの文を1つにするには、and などの接続詞か関係詞が要ります。them を使うなら、@e416 のように and を入れれば正しい文になり、@e413 と同じ意味です。
+      notes:
+      - kind: 注意
+        text: "コンマだけで2つの文をつなぐ書き方は、くだけた文章で見かけることもある。入試の正誤問題や英作文では誤りとされる。"
+    - ex: [e416]
+    - check:
+      - {q: "The bus was 30 minutes late, [＿] made us late for class.", a: which}
+      - {q: "I have four uncles, two of [＿] are teachers.", a: whom}
+      - {q: "We picked 50 apples, some of [＿] were too small to eat.", a: which}
+    examples:
+    - id: e409
+      en: Tom said he had finished his report, [*which* ＿ was not true].
+      ja: トムはレポートを書き終えたと言ったが、それは本当ではなかった。
+    - id: e410
+      en: It rained hard all day on Sunday, [*which* ＿ meant that our baseball game was put off until the next weekend].
+      ja: 日曜日は一日中強い雨が降り、そのため野球の試合は次の週末に延期になった。
+      gloss: [[put off, 延期する]]
+    - id: e411
+      en: Ayaka lent me her dictionary, [*which* I used ＿ for my English homework].
+      ja: アヤカが辞書を貸してくれて、私はその辞書を英語の宿題に使った。
+    - id: e412
+      en: Ayaka lent me her dictionary, [*which* ＿ was very kind of her].
+      ja: アヤカは私に辞書を貸してくれたが、それはとても親切なことだった。
+    - id: e413
+      en: I have three cousins, [two of *whom* ＿ live in Canada].
+      ja: 私にはいとこが3人いて、そのうち2人はカナダに住んでいる。
+    - id: e414
+      en: There are 32 students in our class, [most of *whom* ＿ come to school by bike].
+      ja: 私たちのクラスには生徒が32人いて、そのほとんどが自転車で通学している。
+    - id: e415
+      en: Kaito bought two used guitars last year, [both of *which* ＿ need new strings now].
+      ja: カイトは去年中古のギターを2本買ったが、今はどちらも新しい弦に替える必要がある。
+      gloss: [[used, 中古の], [string, 弦]]
+    - id: e416
+      en: I have three cousins, and two of them live in Canada.
+      ja: 私にはいとこが3人いて、そのうち2人はカナダに住んでいる。
+    summary:
+    - 非制限用法の which は、名詞だけでなく前の{{文・節の内容全体}}を受けることができる。このとき後ろの動詞は{{単数}}の形になる。
+    - which が何を指すかは、節の中の{{意味}}から決める。直前の名詞を指すとは限らない。
+    - 数の表現＋of＋関係代名詞：先行詞が人なら{{whom}}、人以外なら{{which}}（some of which、most of whom、both of which）。
+    - "×three cousins, two of them live … はコンマだけで2文をつないでいるので誤り。{{and}} two of them … か、two of {{whom}} … にする。"
+
 - id: c5
   title: 複合関係詞
+  lead: who・what・which・when・where・how に -ever が付いた語は、先行詞を自分の中にふくみ、「〜する人は誰でも」のような名詞節と、「誰が〜しても」という譲歩の節の両方をつくります。この章では、同じ whoever や whatever がどちらの働きをしているかを、節を外して文が残るかどうかで見分けます。however の後の語順と no matter＋疑問詞への言い換えは、GMARCH の4択と整序でくり返し問われる点です。
   sections:
   - id: s15
     title: whoever・whatever・whichever
     patterns: [P12]
-    body: []
-    examples: []
-    summary: []
+    body:
+    - h: 先行詞をふくむ whoever・whatever・whichever
+    - p: what が「もの・こと」という先行詞をふくんでいたように（@s10）、who・what・which に -ever を付けた語も先行詞をふくみます。whoever は anyone who（〜する人は誰でも）、whatever は anything that（〜するものは何でも）と同じ意味です。@e501 では Whoever から Saturday までが文の主語です。こうした -ever の付いた関係詞を<<複合関係詞>>といいます。
+      notes:
+      - kind: 用語
+        term: 複合関係詞
+        yomi: ふくごうかんけいし
+        text: "who, what, which, when, where, how に -ever が付いた語。先行詞をふくみ、名詞節（〜する人は誰でも）や譲歩の副詞節（誰が〜しても）をつくる。"
+    - ex: [e501, e502]
+    - p: 先行詞をふくんでいるので、前に名詞を置くことはありません（× anyone whoever wants them）。欠けている語を探す手順は第1節（@s01）と同じで、@e502 の whoever wants them では wants の主語が欠けています。whichever は「いくつかある中のどれでも」の意味で、選ぶ範囲が決まっているときに使います（Take whichever you like.）。
+    - h: whoever か whomever か
+    - p: whoever と whomever のどちらを使うかは、直前の語ではなく、節の中での働きで決まります。@e502 では直前に前置詞 to があるので、目的格の whomever を選びたくなるはずです。しかし節の中で whoever は wants の主語です。to の目的語になっているのは whoever wants them という節全体なので、主格の whoever を使います。
+    - p: 一方、@e503 の whomever you like では、like の目的語が欠けています。節の中で目的語の働きをしているので whomever になります。第1節（@s01）の「節の中で何が欠けているか」という問いをそのまま当てはめれば、前置詞があってもなくても迷いません。
+      notes:
+      - kind: 注意
+        text: "whomever はかたい書き言葉。話し言葉では目的語の位置でも whoever を使うことが多い（You can bring whoever you like.）。4択で両方が並んだら節の中の働きで選ぶ。主語の位置に whomever を置くのは、書き言葉でも誤り。"
+    - ex: [e503]
+    - h: 名詞節か、譲歩の副詞節か
+    - p: 複合関係詞の節には、もう1つの使い方があります。@e505 の Whoever comes to the door は、文の主語にも目的語にもなっていません。この節を外しても、don't open it until I get home at five という命令文が残ります。外せる節は、文の中で副詞と同じ働きをする<<副詞節>>です。ここでは「誰が来ても」と、どんな場合でも主節が変わらないことを表します。この言い方を<<譲歩>>といいます。
+      notes:
+      - kind: 用語
+        term: 副詞節
+        yomi: ふくしせつ
+        text: "文の中で副詞の働きをする節。時・条件・理由・譲歩などを表し、外しても残りの部分で文が成り立つ。"
+      - kind: 用語
+        term: 譲歩
+        yomi: じょうほ
+        text: "「たとえ〜でも」「誰が〜しても」のように、ある場合を認めたうえで、それでも主節の内容は変わらないと述べる言い方。"
+      - kind: 注意
+        text: "譲歩の副詞節では、未来のことでも will を使わず現在形で表すのが普通（@e505 の comes）。かたい書き言葉では may を使う形もある（@e516）。"
+    - ex: [e504, e505, e506]
+    - p: 見分けるには、節を外してみます。@e504 から Whatever you decide を外すと is fine with me しか残らず、主語がありません。だからこの節は名詞節で、「あなたが決めることなら何でも」と訳します。@e506 は外しても Rina won't change her plan for the summer が残るので副詞節です。訳は「ジャックが何と言っても」となります。
+    - p: 譲歩の副詞節は no matter who／what／which で言い換えられます（@e505 → No matter who comes to the door）。名詞節は言い換えられません。× No matter what you decide is fine with me. が誤りなのは、no matter what の節は文の主語になれないからです。
+    - table:
+        head: ["", 名詞節（外すと文が欠ける）, 譲歩の副詞節（外しても文が残る）]
+        rows:
+        - [whoever, "{{〜する人は誰でも}}（＝anyone who）", "{{誰が〜しても}}（＝no matter who）"]
+        - [whatever, "{{〜するものは何でも}}（＝anything that）", "{{何が・何を〜しても}}（＝no matter what）"]
+        - [whichever, "{{〜するものはどれでも}}（＝any one that）", "{{どれが・どれを〜しても}}（＝no matter which）"]
+    - h: whatever・whichever＋名詞
+    - p: whatever と whichever は、直後に名詞を置いて形容詞のように使うこともできます。これを<<複合関係形容詞>>といいます。@e507 の whatever books you need は「必要な本なら何でも」で、lend の目的語になる名詞節です。@e508 の Whichever から stop までは外しても文が残るので、譲歩の副詞節です。whichever＋名詞は、選ぶ範囲が限られているときに使います。
+      notes:
+      - kind: 用語
+        term: 複合関係形容詞
+        yomi: ふくごうかんけいけいようし
+        text: "直後の名詞と結びついて節をつくる whatever・whichever。whatever＋名詞＝どんな〜でも、whichever＋名詞＝（限られた中の）どの〜でも。"
+    - ex: [e507, e508]
+    - check:
+      - {q: "[＿] arrives last has to lock the door.", a: Whoever（arrives の主語）}
+      - {q: "I'll give this ticket to [＿] wants it.", a: whoever（wants の主語なので whomever は不可）}
+      - {q: "[＿] happens tomorrow, I'll call you at nine.", a: Whatever（＝No matter what）}
+    examples:
+    - id: e501
+      en: "[*Whoever* ＿ wants to join the trip on Saturday] must sign up by Thursday."
+      ja: 土曜日の遠足に参加したい人は誰でも、木曜日までに申し込まなければならない。
+      gloss: [[sign up, 申し込む]]
+    - id: e502
+      en: "You can give these old comics to [*whoever* ＿ wants them]."
+      ja: この古いマンガは、欲しい人なら誰にあげてもよい。
+    - id: e503
+      en: "You may bring [*whomever* you like ＿] to the school festival in October."
+      ja: 10月の学園祭には、好きな人を誰でも連れてきてよい。
+    - id: e504
+      en: "[*Whatever* you decide ＿] is fine with me."
+      ja: あなたが決めることなら何でも、私はかまわない。
+    - id: e505
+      en: "[*Whoever* ＿ comes to the door], don't open it until I get home at five."
+      ja: 誰が玄関に来ても、私が5時に帰るまでドアを開けてはいけない。
+    - id: e506
+      en: "[*Whatever* Jack says ＿], Rina won't change her plan for the summer."
+      ja: ジャックが何と言っても、リナは夏の計画を変えないだろう。
+    - id: e507
+      en: "Chloe will lend you [*whatever* books you need ＿] for your history report."
+      ja: クロエは、あなたの歴史のレポートに必要な本なら何でも貸してくれるだろう。
+    - id: e508
+      en: "[*Whichever* bus you take ＿ from this stop], you'll reach the stadium before noon."
+      ja: このバス停からどのバスに乗っても、正午前にはスタジアムに着く。
+    summary:
+    - "whoever＝{{anyone who}}、whatever＝{{anything that}}。先行詞を{{ふくむ}}ので、前に名詞を置かない。"
+    - "whoever と whomever は{{節の中の働き}}で選ぶ。主語なら {{whoever}}（Give it to whoever wants it.）。"
+    - "節を外して文が残れば{{譲歩の副詞節}}で、{{no matter who／what／which}} に言い換えられる。名詞節は no matter で言い換え{{られない}}。"
+    - "whatever／whichever の直後に名詞を置く形を{{複合関係形容詞}}という。whichever は選ぶ範囲が{{限られている}}ときに使う。"
   - id: s16
     title: however・whenever・wherever と譲歩
     patterns: [P12]
-    body: []
-    examples: []
-    summary: []
+    body:
+    - h: however＋形容詞・副詞＋S＋V
+    - p: however を複合関係詞として使うと、「どんなに〜でも」という譲歩の意味になります。このとき however は直後に形容詞や副詞（much／many＋名詞のこともあります）を引き連れて、節の先頭に出ます。@e509 は Yuto is tired という文の tired が however の直後に移った形です。残りの Yuto is は、主語・動詞の普通の語順のままです。
+    - steps:
+      - 元の文を考える。Yuto is tired.／I tried hard.
+      - 程度を表す形容詞・副詞（tired, hard）を however の直後に出す。However tired／However hard
+      - 残りを主語＋動詞の語順で続ける。However tired Yuto is／However hard I tried
+    - ex: [e509, e510]
+    - p: 入試でねらわれるのは語順です。@e509 を × However Yuto is tired とすると、tired が however から離れるので誤りになります。疑問文のような倒置もしません（× However tired is Yuto）。量を言うときは however much／many＋名詞の形にし、数えられない名詞には much を使います（However much homework I have, …）。
+      notes:
+      - kind: 注意
+        text: "however の直後に形容詞・副詞を置かない形もある。However you travel to the airport, leave home by eight.（どんな方法で行くにしても、8時までに家を出なさい）。この however は「どんな方法で」の意味。"
+    - h: 「しかし」の however との違い
+    - p: 文頭の However の直後にコンマがあり、すぐ主語が続くときは、「しかし」という意味の副詞です。@e511 の However, は前の文と逆の内容をつないでいるだけで、節をつくっていません。複合関係詞の however は直後に形容詞・副詞があり、コンマは節が終わったところに来ます（@e509）。コンマの位置と however の直後の語を見れば、区別がつきます。
+    - ex: [e511]
+    - h: whenever と wherever の2つの意味
+    - p: whenever と wherever の後ろには、主語と動詞のそろった完全な文が続きます。関係副詞の when・where と同じで、節の中に欠けた語はありません（@s07）。意味の1つ目は「〜するときはいつでも」「〜するところならどこでも」です。@e512 は every time と同じく「京都に行くたびに」、@e513 は「空いているところならどこにでも」の意味になります。
+    - ex: [e512, e513]
+    - p: 2つ目は譲歩で、「いつ〜しても」「どこで〜しても」となります。@e514 は「日本のどこにいても」、@e515 は「今夜何時に着いても」の意味で、no matter where／no matter when に言い換えられます。2つの意味は形では区別できないので、主節との関係から決めます。「そのたびに〜する」と言っていれば1つ目、「どんな場合でも結果は変わらない」と言っていれば譲歩です。
+    - ex: [e514, e515]
+    - h: no matter＋疑問詞と、譲歩の節の may
+    - p: 譲歩の意味の複合関係詞は、no matter＋疑問詞で言い換えられます。however は no matter how になり、語順も同じく no matter how＋形容詞・副詞＋S＋V です（@e510 → No matter how hard I tried）。整序問題では no matter how が2語分になるので、並べる語が1つ増えます。この言い換えは副詞節だけのもので、名詞節には使えません（第15節の「名詞節か、譲歩の副詞節か」。@e504 と @e505 を比べる）。
+    - table:
+        head: [複合関係詞, 譲歩の意味での言い換え]
+        rows:
+        - [whoever, "{{no matter who}}"]
+        - [whatever, "{{no matter what}}"]
+        - [whichever, "{{no matter which}}"]
+        - [however, "{{no matter how}}（＋形容詞・副詞＋S＋V）"]
+        - [whenever, "{{no matter when}}"]
+        - [wherever, "{{no matter where}}"]
+    - p: 譲歩の節に may を入れることがあります。@e516 の However busy he may be は「どんなに忙しくても」で、この may は「かもしれない」と訳しません。かたい書き言葉の言い方で、ふだんの英語では However busy he is のように現在形を使うほうが普通です。未来のことを言うときも、will は使わず現在形で表すのが普通です。入試には may を使う形も現在形だけの形も出るので、may があっても意味は同じだと分かれば足ります。
+      notes:
+      - kind: 注意
+        text: "no matter how busy he may be のように、no matter＋疑問詞の節でも may を使うことがある。意味は may のない形と同じ。"
+    - ex: [e516]
+    - check:
+      - {q: "[＿] tired you are, brush your teeth before bed.", a: However（＝No matter how）}
+      - {q: "[＿] I hear this song, I remember our trip to Okinawa.", a: Whenever（＝Every time）}
+      - {q: "Sit [＿] you like. There are plenty of seats.", a: wherever}
+    examples:
+    - id: e509
+      en: "[*However* tired Yuto is ＿], he walks his dog every morning at six."
+      ja: どんなに疲れていても、ユウトは毎朝6時に犬を散歩させる。
+    - id: e510
+      en: "[*However* hard I tried ＿], I couldn't open the jar of jam."
+      ja: どんなに頑張っても、私はジャムのびんのふたを開けられなかった。
+      gloss: [[jar, （ガラスの）びん]]
+    - id: e511
+      en: "The café on the third floor was crowded. However, we found two seats by the window."
+      ja: 3階のカフェは混んでいた。しかし、私たちは窓際に席を2つ見つけた。
+      gloss: [[crowded, 混んでいる]]
+    - id: e512
+      en: "[*Whenever* Olivia visits Kyoto with her parents], she buys green tea at the same small shop near the station and sends some to her friends in London."
+      ja: オリビアは両親と京都に行くたびに、駅の近くの同じ小さな店で緑茶を買い、ロンドンの友人に送る。
+    - id: e513
+      en: "You can put your bag [*wherever* there is space]."
+      ja: かばんは、空いているところならどこに置いてもよい。
+    - id: e514
+      en: "[*Wherever* you are in Japan], you can watch the final on TV at seven tonight."
+      ja: 日本のどこにいても、今夜7時にテレビで決勝戦を見ることができる。
+      gloss: [[final, 決勝戦]]
+    - id: e515
+      en: "[*Whenever* you arrive tonight], I'll still be awake, so just ring the bell."
+      ja: 今夜何時に着いても私はまだ起きているから、呼び鈴を鳴らしてくれればいい。
+    - id: e516
+      en: "[*However* busy he may be ＿], my father reads to my little sister before bed."
+      ja: どんなに忙しくても、父は寝る前に妹に本を読んでやる。
+    summary:
+    - "however は {{however＋形容詞・副詞＋S＋V}} の語順にする。× However Yuto is tired"
+    - "文頭の However の直後に{{コンマ}}があれば「しかし」の副詞で、節をつくらない。"
+    - "whenever／wherever の後ろは{{完全な文}}。意味は「〜するときはいつでも」と、譲歩の「{{いつ〜しても}}」の2つ。"
+    - "譲歩の複合関係詞は {{no matter＋疑問詞}} で言い換えられる（however → {{no matter how}}）。"
+    - "譲歩の節の may は{{かたい}}言い方で、「かもしれない」と訳さ{{ない}}。"
+
 - id: c6
   title: 入試で差がつく関係詞
+  lead: この章では、形は見慣れていても入試で正答率に差がつく関係詞を扱います。I think が入りこんだ関係詞節、関係代名詞のように働く as・than・but、関係詞節の中の動詞の数、先行詞から離れた関係詞節です。どれも @s01 の3つの問いと「後ろが不完全な文か」の判断で解けるので、見た目に惑わされずに欠けた位置を探します。
   sections:
   - id: s17
     title: I think などが入りこむ関係詞節
     patterns: [P13]
-    body: []
-    examples: []
-    summary: []
+    body:
+    - h: I think が間に入ると何が起きるか
+    - p: "@e601 は、Takumi is the player. と I think he is the fastest runner on our team. の2つの文を1つにしたものです。he を who に変えて前に出すと、I think は who と is の間に取り残されます。このように、関係詞のすぐ後ろに I think や they say などの「主語＋動詞」が入りこんだ関係詞節を<<連鎖関係詞節>>といいます。"
+      notes:
+      - kind: 用語
+        term: 連鎖関係詞節
+        yomi: れんさかんけいしせつ
+        text: "関係詞の直後に I think・they say・she believes などが入りこみ、その後ろに節の動詞が続く関係詞節。"
+    - ex: [e601, e602, e603]
+    - p: 入りこんだ I think を指でかくしてみます。@e601 から I think を外すと @e602 の the player who is the fastest runner となり、who の後ろに is が直接続きます。主語が欠けているので、who は主格です。
+    - p: "@e603 も the guidebook says を外すと which is the oldest となり、which は is の主語だと分かります。入りこむのは think のほか、believe, say, suppose, be sure, hear など「〜と思う・〜と言う」を表す動詞です。"
+    - h: whom を選ぶ誤り
+    - p: 空所の後ろに I think があると、「think の目的語だから whom」と考えたくなります。けれども think の目的語は人ではなく、「＿ is the fastest runner」という節のほうです。関係代名詞の格は、I think を外したあとに残る節で決めます。外したときに動詞がすぐ続けば主語が欠けているので、人なら who です。
+      notes:
+      - kind: 注意
+        text: "英米の新聞などでも whom I think is … と書かれた例は見られるが、規範的な文法では誤りとされ、入試の4択・正誤では who が正解になる。"
+    - p: これと区別したいのが @e604 です。believe ＋ 人 ＋ to be ～ の形では、人は believed の目的語になります。外したあとに to be が続けば目的格の whom（話し言葉では who も）、is や was が続けば主格の who です。@e605 では which は dropped の目的語で、この場合は I think の後に that を入れても正しい文です。
+    - ex: [e604, e605]
+    - h: 整序での並べ方と、関係代名詞の省略
+    - p: 整序問題では、語を次の順に置きます。主語の欠けた連鎖関係詞節では、I think の後に接続詞の that を入れません。the player who I think that is … は誤りです。
+      notes:
+      - kind: 注意
+        text: "that を入れてよいのは、@e605 のように節の中で目的語が欠けているときだけ。主語が欠けているときは think の直後に動詞を続ける。"
+    - steps:
+      - 先行詞の直後に関係代名詞を置く。
+      - その直後に I think・everyone says などの「主語＋動詞」を置く。
+      - 主語を書かずに、節の動詞（is, was, will win など）を続ける。
+    - p: 主格の関係代名詞は普通省略できません（@s03）。ところが連鎖関係詞節では、@e606 のように主格の who が省略されることがあります。the man I thought was … のように「名詞＋S＋V＋動詞」が並んでいたら、名詞の直後に who が隠れていると考えて読みます。
+    - ex: [e606]
+    - check:
+      - {q: "She is the singer [＿] I think will win the contest.（who／whom）", a: who}
+      - {q: "He is the boy [＿] everyone says is the best cook in our class.（who／whom）", a: who}
+      - {q: "We chose a leader [＿] we believed to be fair.（who／whom）", a: whom（話し言葉では who も使う）}
+    examples:
+    - id: e601
+      en: Takumi is the player [*who* I think ＿ is the fastest runner on our team].
+      ja: タクミは、チームでいちばん足が速いと私が思う選手だ。
+    - id: e602
+      en: Takumi is the player [*who* ＿ is the fastest runner on our team].
+      ja: タクミは、チームでいちばん足が速い選手だ。
+    - id: e603
+      en: The small restaurant [*which* the guidebook says ＿ is the oldest in this town] closes at eight on Sundays and does not open on Mondays.
+      ja: 町でいちばん古いと案内書に書いてある小さなレストランは、日曜日は8時に閉まり、月曜日は休みだ。
+      gloss: [[guidebook, 旅行案内書]]
+    - id: e604
+      en: Ms. Kimura hired a high school student [*whom* she believed ＿ to be honest] for her bakery.
+      ja: キムラさんは、正直だと信じた高校生を自分のパン屋で雇った。
+      gloss: [[hire, 雇う]]
+    - id: e605
+      en: Here is the key [*which* I think you dropped ＿].
+      ja: ここに、あなたが落としたのだと思うかぎがある。
+    - id: e606
+      en: The man [I thought ＿ was Saki's father] turned out to be her uncle.
+      ja: サキのお父さんだと私が思った男の人は、実は彼女のおじだった。
+      gloss: [[turn out to be ～, 実は～だとわかる]]
+    summary:
+    - 先行詞＋who＋I think＋動詞 の文で I think を外すと、who は節の{{主語}}の働きをしている。
+    - I think の後に動詞が続くときは、whom ではなく{{who}}を選ぶ。
+    - believe ＋ 人 ＋ to be の形なら、関係代名詞は believe の{{目的語}}なので whom（who）を使う。
+    - 主語が欠けた連鎖関係詞節では、think の後に接続詞の{{that}}を入れない。
+    - 整序：先行詞 → 関係代名詞 → {{主語＋think}} → 節の動詞 の順に並べる。
   - id: s18
     title: 関係代名詞のように働く as・than・but
     patterns: [P15]
-    body: []
-    examples: []
-    summary: []
+    body:
+    - h: なぜ as・than・but が関係代名詞になるのか
+    - p: as・than・but は、普通は接続詞や前置詞です。ところが such・the same・比較級・否定語の付いた名詞の後ろでは、主語や目的語の欠けた節を導き、関係代名詞と同じ働きをします。これを<<擬似関係代名詞>>といいます。見分け方は who や which と同じで、後ろの節が不完全な文かどうかを確かめます。ただし使える場所は決まった相手の後ろに限られ、who や which の代わりに自由に使えるわけではありません。
+      notes:
+      - kind: 用語
+        term: 擬似関係代名詞
+        yomi: ぎじかんけいだいめいし
+        text: "such・the same・比較級・否定語などと組になり、関係代名詞のように後ろの節の主語や目的語の働きをする as・than・but。"
+    - h: such … as と the same … as
+    - p: "@e607 の as の後ろは are written in easy English で、are の主語がありません。as が主語の働きです。@e608 では had の目的語が欠けていて、as は目的語の働きです。この such … as は改まった書き言葉で、少し古い感じがします。会話なら books that are written in easy English のように言うのが普通です。"
+      notes:
+      - kind: 注意
+        text: "books such as dictionaries（辞書のような本）の such as は「たとえば」の意味で、後ろには名詞だけが来る。後ろに欠けのある節が続く such … as とは別のもの。"
+    - ex: [e607, e608]
+    - p: the same の後ろでも as が使われます。@e609 の as の後ろは her sister has で has の目的語が欠けており、@e610 では went to の後ろの名詞が欠けています。@e609 は「同じ種類のかばん」、@e610 は「まさにその学校」を指しています。どちらの意味かは文の内容から決まります。
+      notes:
+      - kind: 注意
+        text: "「the same … as は同じ種類、the same … that は同一のもの」と区別する説明があるが、現代英語ではこの区別は厳密ではない。@e610 のように as で同一のものを指すことも多い。"
+    - ex: [e609, e610]
+    - h: as is often the case with
+    - p: "@e611 の As is often the case with Takumi は「タクミにはよくあることだが」という意味の決まった言い方です。as が受けているのは名詞ではなく、後ろの主節の内容（弁当を家に忘れたこと）で、as は is の主語になっています。前の文の内容を受ける , which（@s14）と似ていますが、which は文の先頭に置けないのに対し、as は文頭にも文の後ろにも置けます。"
+    - ex: [e611]
+    - h: 比較級＋than、否定語＋but
+    - p: "@e612 では、than の後ろの are needed for the cake に主語がありません。than が主語の働きをしているので、than it is needed のように it を入れると誤りです。@e613 では expected の目的語が欠けていて、than はその代わりをしています。比較級の後ろの than に動詞が直接続いていたら、than が主語の働きをしていると考えます。"
+      notes:
+      - kind: 参照
+        text: "more … than is necessary は、is を省いて more … than necessary とも言う。"
+    - ex: [e612, e613]
+    - p: 否定語の付いた名詞の後ろの but は、that … not の意味の関係代名詞になります。@e614 は There is no rule that does not have exceptions.（例外をもたない規則はない）と同じ意味で、今の英語なら Every rule has exceptions. と言います。この but はことわざや古い文章で見る古風な表現なので、読んで意味が取れれば十分で、英作文で使う必要はありません。
+      notes:
+      - kind: 注意
+        text: "no one but Mia（ミア以外はだれも〜ない）の but は「〜以外」を表す前置詞で、後ろは名詞だけ。後ろに動詞が続くかどうかで区別する。"
+    - ex: [e614]
+    - check:
+      - {q: "Take such clothes [＿] are warm enough for the mountains.", a: as}
+      - {q: "There were more people at the station [＿] we expected.", a: than}
+      - {q: "[＿] is often the case with my brother, he slept through his alarm.", a: As}
+    examples:
+    - id: e607
+      en: Our teacher told us to read such books [*as* ＿ are written in easy English].
+      ja: 先生は、やさしい英語で書かれた本を読むようにと私たちに言った。
+    - id: e608
+      en: Noah's grandmother served us such food [*as* she had ＿ in the house].
+      ja: ノアの祖母は、家にあるだけの食べ物を出してくれた。
+      gloss: [[serve, 料理を出す]]
+    - id: e609
+      en: Mia bought the same bag [*as* her sister has ＿].
+      ja: ミアは、姉が持っているのと同じかばんを買った。
+    - id: e610
+      en: Saki goes to the same school [*as* her mother went to ＿] thirty years ago.
+      ja: サキは、母親が30年前に通っていたのと同じ学校に通っている。
+    - id: e611
+      en: "[*As* ＿ is often the case with Takumi], he left his lunch at home on the first day of the trip."
+      ja: タクミにはよくあることだが、彼は旅行の初日に弁当を家に忘れた。
+    - id: e612
+      en: Don't buy more eggs [*than* ＿ are needed for the cake].
+      ja: 卵は、ケーキに必要な数より多く買ってはいけない。
+    - id: e613
+      en: The summer festival had more visitors [*than* the city had expected ＿].
+      ja: 夏祭りには、市の予想を上回る数の人が来た。
+    - id: e614
+      en: There is no rule [*but* ＿ has exceptions].
+      ja: 例外のない規則はない。
+      gloss: [[exception, 例外]]
+    summary:
+    - such … as ／ the same … as の{{as}}は、後ろの節で主語や目的語の働きをする。
+    - As is often the case with A ＝ A には{{よくあることだが}}。as は{{主節の内容}}を受け、文頭にも置ける。
+    - 比較級の後の than が節の主語になる形：more … than {{is needed}}（it を入れない）。
+    - 否定語＋but の but は{{that … not}}の意味。There is no rule but has exceptions. は{{古風}}な言い方で、読んで分かればよい。
   - id: s19
     title: 先行詞と動詞の数の一致、離れた関係詞節
     patterns: [P18, P19]
-    body: []
-    examples: []
-    summary: []
+    body:
+    - h: 関係代名詞の後の動詞は先行詞に合わせる
+    - p: who や which そのものには、単数・複数の区別がありません。関係詞節の動詞の形は、先行詞の数で決まります。@e615 と @e616 はどちらも the mother of the twins who … ですが、lives なら先行詞は単数の the mother、live なら複数の the twins です。動詞の -s が、どの名詞を説明しているかを教えてくれます。
+      notes:
+      - {kind: 語注, items: [[twins, 双子]]}
+    - ex: [e615, e616]
+    - h: one of the students who … と the only one of …
+    - p: "@e617 で who が説明しているのは、one ではなく the students です。放課後に韓国語を学んでいる生徒が何人かいて、ミアはその1人だという意味なので、伝統的な文法では動詞を複数形の are にします。"
+    - p: 実際の英語では、one of the students who is … と単数形を使う人も少なくありません。話し言葉に多く、書き言葉にも見られ、これを認める語法書もあります。入試では伝統的な文法に従って複数形を正解とするのが一般的ですが、単数形も実際に使われているので、本書では単数形と複数形のどちらか一方だけを正解にする問題は出しません。自分で書くときは複数形にしておきます。
+    - p: "@e618 のように the only one of the students who … となると話が変わります。ブラジルに行ったことがあるのはノア1人で、who が説明しているのは the only one です。そのため動詞は単数形の has になります。the only が付いたら、先行詞は1人に絞られると考えます。"
+    - ex: [e617, e618]
+    - h: 先行詞から離れた関係詞節
+    - p: "@e619 では、主語の A man と関係詞節 who was carrying … の間に came into the shop が入っています。主語が長く、述語が短いとき、英語は重い部分を文の後ろに回す傾向があります。これを関係詞節の<<外置>>といいます。who の直前の the shop を先行詞と思うと意味が通りません。人を表す名詞で、was に合う単数のものを前にさかのぼって探します。"
+      notes:
+      - kind: 用語
+        term: 外置
+        yomi: がいち
+        text: "関係詞節などを先行詞から離して、文の後ろに置くこと。主語が長く、述語が短い文で起きやすい。"
+    - ex: [e619, e620]
+    - p: "@e620 の which も、直前の this morning や Ms. Kimura を説明してはいません。which は人以外の名詞を受け、節の中に had no stamp on it とあるので、先行詞は A letter です。外置された関係詞節は、和訳のときに先行詞の前に戻して「切手の貼られていない手紙」と訳すと自然な日本語になります。"
+    - h: 長い主語の文の骨組み
+    - p: "@e621 の主語は The bike から station まで続き、その中に関係詞節が2つ入っています。文全体の動詞を見つけるには、関係詞節を［ ］でくくって外します。残るのは The bike was stolen on Friday night. です。"
+    - steps:
+      - 名詞の後ろに関係詞（または「名詞＋S＋V」の並び）を見つけたら、［ を開く。
+      - 節の中の動詞と、その後ろの語句まで読んで ］ を閉じる。
+      - ［ ］の外に残った動詞が文全体の動詞になる。その数を文頭の主語に合わせて確かめる。
+    - p: "@e622 では、class の直後の were を見て「class は単数なのに」と迷うかもしれません。in the last class までが関係詞節なので、were の主語は文頭の The questions です。正誤問題では、主語と本動詞の間に長い関係詞節をはさみ、動詞の数を問う形がよく出ます。"
+    - ex: [e621, e622]
+    - check:
+      - {q: "The two girls who [＿] next to me in class are sisters.（sit／sits）", a: sit（先行詞 the two girls は複数）}
+      - {q: "He is the only one of the boys who [＿] a driver's license.（have／has）", a: has}
+      - {q: "The keys that I found under the desks [＿] mine.（is／are）", a: are}
+    examples:
+    - id: e615
+      en: The mother of the twins [*who* ＿ lives next door] works at the city library.
+      ja: 隣に住んでいる、その双子の母親は、市立図書館で働いている。（隣に住んでいるのは母親）
+    - id: e616
+      en: I know the mother of the twins [*who* ＿ live next door].
+      ja: 私は、隣に住んでいる双子の母親を知っている。（隣に住んでいるのは双子）
+    - id: e617
+      en: Mia is one of the students [*who* ＿ are learning Korean after school].
+      ja: ミアは、放課後に韓国語を学んでいる生徒の1人だ。
+    - id: e618
+      en: Noah is the only one of the students [*who* ＿ has been to Brazil].
+      ja: その生徒たちの中で、ブラジルに行ったことがあるのはノアだけだ。
+    - id: e619
+      en: A man came into the shop [*who* ＿ was carrying three large boxes].
+      ja: 大きな箱を3つ抱えた男の人が、店に入ってきた。
+    - id: e620
+      en: A letter arrived for Ms. Kimura this morning [*which* ＿ had no stamp on it].
+      ja: 切手の貼られていない手紙が、今朝キムラさんあてに届いた。
+      gloss: [[stamp, 切手]]
+    - id: e621
+      en: The bike [*that* my brother borrowed ＿ from a friend [*who* ＿ lives near the station]] was stolen on Friday night.
+      ja: 兄が駅の近くに住む友人から借りた自転車が、金曜日の夜に盗まれた。
+    - id: e622
+      en: The questions [*that* Dr. Patel asked ＿ in the last class] were harder than the ones in the textbook.
+      ja: パテル先生が前回の授業で出した問題は、教科書の問題より難しかった。
+    summary:
+    - 関係詞節の動詞の数は{{先行詞}}に合わせる。who・which そのものに単数・複数の区別はない。
+    - one of the students who … の先行詞は{{the students}}なので、入試では動詞を{{複数形}}にする。
+    - the only one of the students who … の先行詞は{{the only one}}なので、動詞は{{単数形}}。
+    - 主語が長く述語が短いとき、関係詞節が文の後ろに回ることがある。これを{{外置}}という。
+    - 長い主語の文は、関係詞節を［ ］でくくり、外に残った{{動詞}}を見つける。
+
 
 problems:
 - id: q0001
@@ -256,3 +1365,2395 @@ problems:
   ans: The boy who I met last week plays the piano very well.
   why: 先行詞 The boy の直後に関係詞節 who I met ＿ last week を置く。met の目的語が欠けているので、who は目的格の働きをしている。
   trap: The boy who met I last week の語順にしてしまう誤り。関係詞節の中は「主語＋動詞」の普通の語順になる。
+- id: q1001
+  sec: s02
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: I have a cousin (＿) works at a bakery near Ueno Station.
+  choices: [which, who, whose, what]
+  ans: "2"
+  why: 先行詞 a cousin は人で、節の中で works の主語が欠けている。人・主語が欠ける場合は who。
+  trap: 空所の後ろの a bakery（物）につられて①which を選ぶ誤り。先行詞は空所の直前にある a cousin である。
+- id: q1002
+  sec: s02
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: The train (＿) leaves at 7:10 is usually crowded.
+  choices: [who, whom, whose, which]
+  ans: "4"
+  why: 先行詞 The train は人以外で、節の中で leaves の主語が欠けている。人以外・主語が欠ける場合は which。
+  trap: ②whom を選ぶ誤り。whom は目的格で、しかも先行詞が人のときの語なので、主語の欠けた節にも物の先行詞にも合わない。
+- id: q1003
+  sec: s02
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: __The students__① who __joining__② the brass band __practice__③ in the music room __every morning__④.
+  ans: "2"
+  why: 主格の who の後ろには動詞が要る。joining だけでは動詞にならないので、who join（または who have joined）とする。③practice は主語 The students に対する文の動詞で正しい。
+  trap: 「吹奏楽部に入っている」の「〜ている」から who joining を正しいと思う誤り。be 動詞のない -ing 形は進行形にならない。
+- id: q1004
+  sec: s02
+  set: 節末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 私の隣に座っていた女性が、駅への道を教えてくれた。<br>The woman ( me / next / sitting / to / was / who ) told me the way to the station.
+  words: [me, next, sitting, to, was, who]
+  ans: The woman who was sitting next to me told me the way to the station.
+  why: 主語 The woman の直後に関係詞節 who was sitting next to me を置き、その後に文の動詞 told を続ける。who の後ろは主語が欠けた形。
+  trap: who sitting next to me と並べて was を余らせる誤り。主格の who の後ろには be 動詞をふくむ動詞の形が要る。
+- id: q1005
+  sec: s02
+  set: 節末
+  lv: 2
+  kind: 和訳
+  min: 3
+  inst: 次の英文を日本語に訳しなさい。
+  q: The boy who sat next to Daniel on the bus lent him an umbrella.
+  ans: バスでダニエルの隣に座った少年が、彼に傘を貸した。
+  alt: [バスでダニエルの隣に座っていた少年が、ダニエルに傘を貸した。]
+  why: 主語は The boy who … on the bus までで、文の動詞は lent。関係詞節「バスでダニエルの隣に座った」を「少年」の前に置いて訳せていれば正解。
+  trap: sat を文の動詞と読み「少年はバスでダニエルの隣に座り、傘を貸した」と2つの動作を並べる誤り。sat は関係詞節の中の動詞である。
+- id: q1006
+  sec: s02
+  set: 節末
+  lv: 3
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: The girls in the photo __who__① __is__② holding the trophy __are__③ my __classmates__④.
+  ans: "2"
+  why: who は人を受けるので、先行詞は the photo ではなく The girls（複数）。節の中の動詞は is ではなく are にする。③are は主語 The girls に合っていて正しい。
+  trap: who の直前の the photo（単数）に合わせて is を正しいと判断する誤り。who の先行詞は「直前の名詞」とは限らない。
+# ---- s03 ----
+- id: q1007
+  sec: s03
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: The cake (＿) my aunt made for my birthday had strawberries on top.
+  choices: [who, whose, which, what]
+  ans: "3"
+  why: 先行詞 The cake は人以外で、節の中で made の目的語が欠けている。人以外・目的語が欠ける場合は which。
+  trap: 空所の直後の my aunt（人）につられて①who を選ぶ誤り。人か人以外かは、空所の前の先行詞で決める。
+- id: q1008
+  sec: s03
+  set: 節末
+  lv: 1
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 私が京都で撮った写真を見せてあげよう。<br>I'll show you ( I / in / Kyoto / photos / the / took ).
+  words: [I, in, Kyoto, photos, the, took]
+  ans: I'll show you the photos I took in Kyoto.
+  why: 関係代名詞が与えられていないので、the photos の直後に I took を続ける接触節にする。took の目的語が欠けた形。
+  trap: I took the photos in Kyoto と普通の文の順に並べてしまう誤り。show you の後ろには「写真」という名詞が来る。
+- id: q1009
+  sec: s03
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: The bag __which__① I bought __it__② at the station shop __was__③ cheaper __than__④ yours.
+  ans: "2"
+  why: which が bought の目的語の働きをしているので、it を残すと目的語が二重になる。The bag which I bought at the station shop とする。
+  trap: 日本語の「それを買った」の感覚で it を入れたままにする誤り（関係詞節の中に代名詞を残す誤り）。
+- id: q1010
+  sec: s03
+  set: 節末
+  lv: 2
+  kind: 読解
+  min: 4
+  inst: 次の英文を読み、問いの答えとして最も適切なものを1つ選びなさい。
+  q: "Every Saturday, my grandmother bakes bread for our family. The bread she makes is soft and a little sweet. Last week, she taught me a recipe her own mother used in the 1960s. I tried it at home the next day, but the bread I baked was hard and dry. When I told my grandmother about it, she laughed and said the oven we have at home gets too hot. Next time, I will use the old oven she has in her kitchen.<br>問　According to the grandmother, why was the writer's bread hard and dry?"
+  choices:
+  - The oven in the writer's home gets too hot.
+  - The writer used a recipe from the 1960s.
+  - The grandmother's oven is too old.
+  - The writer baked it on a Saturday.
+  ans: "1"
+  why: said (that) the oven we have at home gets too hot の the oven we have at home は接触節で「私たちが家に持っているオーブン」。祖母は、家のオーブンが熱くなりすぎることを原因にしている。
+  trap: 最後の文の the old oven she has を読み、③を選ぶ誤り。これは「祖母が持っている古いオーブン」で、次に使うつもりのオーブンである。
+- id: q1011
+  sec: s03
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: The man (＿) talked to me at the bus stop was Mr. Ogawa's brother.
+  choices: [（何も入れない）, whom, whose, who]
+  ans: "4"
+  why: 節の中で talked の主語が欠けているので主格の who。主格の関係代名詞は省略できないので①は誤り。
+  trap: 接触節と同じだと考えて①を選ぶ誤り。The man talked to me … とすると talked が文の動詞に見え、was の主語がなくなる。
+- id: q1012
+  sec: s03
+  set: 節末
+  lv: 3
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 彼女は、10年前のような内気な少女ではない。<br>She is not ( girl / she / shy / the / was ) ten years ago.
+  words: [girl, she, shy, the, was]
+  ans: She is not the shy girl she was ten years ago.
+  why: the shy girl の直後に she was を続ける。省略された関係代名詞（that）は was の補語の働きをしており、補語の関係代名詞は普通省略される。
+  trap: the girl she was shy のように shy を節の中に入れる誤り。shy は先行詞 girl に付き、節の中で欠けているのは was の後ろの補語である。
+# ---- s04 ----
+- id: q1013
+  sec: s04
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: I know a girl (＿) father is a pilot.
+  choices: [who, whose, which, that]
+  ans: "2"
+  why: 空所の後ろは冠詞のない名詞 father で始まり、「その女の子の父親」という持ち主の関係になっている。所有格の whose を使う。
+  trap: 先行詞が人なので①who を選ぶ誤り。who father is a pilot では、father の持ち主が示されない。
+- id: q1014
+  sec: s04
+  set: 節末
+  lv: 1
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: I met a man __who's__① son __goes__② to __the same__③ school __as__④ my brother.
+  ans: "1"
+  why: 「その男性の息子」なので所有格の whose にする。who's は who is または who has の短縮形。
+  trap: 発音が同じなので who's を whose と同じだと思う誤り。who's son では「〜の」の意味にならない。
+- id: q1015
+  sec: s04
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: We stayed at a hotel (＿) rooms all had a view of the sea.
+  choices: [who, whose, which, what]
+  ans: "2"
+  why: 空所の後ろは冠詞のない rooms で始まり、「そのホテルの部屋」という持ち主の関係。先行詞が物でも whose を使う。
+  trap: 先行詞が物なので③which を選ぶ誤り。which の後ろには主語や目的語などが欠けた不完全な文が来るが、rooms all had a view of the sea は欠けていない。
+- id: q1016
+  sec: s04
+  set: 節末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 私は昨夜、題名が思い出せない映画を見た。<br>Last night I watched a movie ( can't / I / remember / title / whose ).
+  words: [can't, I, remember, title, whose]
+  ans: Last night I watched a movie whose title I can't remember.
+  why: whose title をかたまりとして先行詞 a movie の直後に置く。whose title は remember の目的語なので、その後ろに I can't remember を続ける。
+  trap: whose I can't remember title のように whose と title を切りはなす誤り。whose はすぐ後ろの名詞といっしょに動く。
+- id: q1017
+  sec: s04
+  set: 節末
+  lv: 2
+  kind: 補充
+  min: 1
+  inst: 2つの文がほぼ同じ意味になるように、（　）に適切な語を1語ずつ入れなさい。
+  q: Look at that house whose windows are all round.<br>＝ Look at that house the windows (＿) (＿) are all round.
+  ans: of which
+  why: whose windows（その家の窓）は the windows of which で言いかえられる。which は先行詞 that house を受ける。
+  trap: the windows whose のように whose をそのまま入れようとする誤り。名詞の後ろに置くときは「of＋which」の形になる。
+- id: q1018
+  sec: s04
+  set: 節末
+  lv: 3
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: これは、メイが昨日話していた小説の作者だ。<br>This is the writer ( about / Mei / novel / talking / was / whose ) yesterday.
+  words: [about, Mei, novel, talking, was, whose]
+  ans: This is the writer whose novel Mei was talking about yesterday.
+  alt: [This is the writer about whose novel Mei was talking yesterday.]
+  why: whose novel は about の目的語。先行詞 the writer の直後に whose novel を置き、about を節の最後に残す。about を前に出した about whose novel も正しい。
+  trap: Mei was talking about whose novel と、whose novel を普通の文の位置に置いたままにする誤り。関係詞のかたまりは節の先頭に出る。
+# ---- s05 ----
+- id: q1019
+  sec: s05
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: This is the best curry (＿) I have ever eaten.
+  choices: [that, what, who, whose]
+  ans: "1"
+  why: 先行詞 the best curry は人以外で、eaten の目的語が欠けている。最上級の付いた先行詞には that が好まれる。
+  trap: ②what を選ぶ誤り。what は先行詞をふくむので、the best curry のような先行詞の後ろには置けない（@s10）。
+- id: q1020
+  sec: s05
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Ken ate everything (＿) was on his plate.
+  choices: [what, who, that, whose]
+  ans: "3"
+  why: 先行詞 everything の後ろで、was の主語が欠けている。-thing の語が先行詞のときは that が好まれる。
+  trap: 「皿にあったもの」という日本語から①what を選ぶ誤り。everything という先行詞があるので what は使えない。
+- id: q1021
+  sec: s05
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: My uncle, __that__① __lives__② in Aomori, __sends__③ us apples __every__④ autumn.
+  ans: "1"
+  why: コンマの後では that は使えない。先行詞 My uncle は人なので、, who lives in Aomori, とする。
+  trap: 先行詞が人なので that でもよいと考える誤り。that は人にも物にも使えるが、コンマの後には置けない。
+- id: q1022
+  sec: s05
+  set: 節末
+  lv: 2
+  kind: 和訳
+  min: 3
+  inst: 次の英文を日本語に訳しなさい。
+  q: Everything that Daniel cooked at the camp was eaten in ten minutes.
+  ans: ダニエルがキャンプで作ったものは、10分ですべて食べられてしまった。
+  alt: [ダニエルがキャンプで作った料理は、10分で全部なくなった。]
+  why: 主語は Everything that … camp までで、文の動詞は was eaten。「ダニエルがキャンプで作ったもの（料理）はすべて」と主語をまとめられていれば正解。
+  trap: that を「それ」と訳し「すべて、それをダニエルが作った」と2つに切る誤り。that の後ろは cooked の目的語が欠けた関係詞節である。
+- id: q1023
+  sec: s05
+  set: 節末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 公園を走っている少年と犬を見てごらん。<br>Look at the boy and ( are / dog / his / running / that ) in the park.
+  words: [are, dog, his, running, that]
+  ans: Look at the boy and his dog that are running in the park.
+  why: 先行詞は the boy and his dog（人＋人以外）なので that を使い、先行詞が2つなので動詞は are。
+  trap: and の後ろに that を置き、the boy and that his dog … と並べる誤り。先行詞 the boy and his dog を言い切ってから関係詞節を始める。
+- id: q1024
+  sec: s05
+  set: 節末
+  lv: 3
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: My brother is __the only__① student in his class __who__② __have__③ read all seven books __on__④ the list.
+  ans: "3"
+  why: who の先行詞は the only student（単数）なので、節の中の動詞は has read にする。先行詞が人なので②who は正しい（the only の後ろの that は「好まれる」だけで、必須ではない）。
+  trap: 「the only の後ろは that」と覚えていて②を選ぶ誤り。that が好まれるだけで、先行詞が人なら who も正しい。
+# ---- s06 ----
+- id: q1025
+  sec: s06
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: This is the park in (＿) my sister lost her ring.
+  choices: [that, whom, who, which]
+  ans: "4"
+  why: 先行詞 the park は人以外で、前置詞 in の直後に置ける関係代名詞は which。
+  trap: ①that を選ぶ誤り。that は前置詞の直後には置けない。
+- id: q1026
+  sec: s06
+  set: 節末
+  lv: 1
+  kind: 和訳
+  min: 3
+  inst: 次の英文を日本語に訳しなさい。
+  q: This is the box in which my grandfather keeps his old coins.
+  ans: これは、祖父が古い硬貨をしまっている箱だ。
+  alt: [これが、祖父が古いコインを入れている箱だ。]
+  why: in which 以下が the box を説明する。my grandfather keeps his old coins in the box（箱に硬貨をしまう）の関係が訳せていれば正解。
+  trap: in which を「その中で」と切って「これは箱だ。その中で祖父は…」と2文に分ける誤り。関係詞節は「箱」の説明として前に回して訳す。
+- id: q1027
+  sec: s06
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Mr. Ogawa is a neighbor (＿) whom our family can always depend.
+  choices: ["on", to, for, with]
+  ans: "1"
+  why: 節の中の動詞 depend は depend on（〜を頼りにする）の形で使う。our family can always depend on him の on が whom の前に出ている。
+  trap: 先行詞が人なので「人に」の to や with を選ぶ誤り。前置詞は先行詞ではなく、節の中の動詞 depend で決まる。
+- id: q1028
+  sec: s06
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: "I __was__① so busy __with__② club practice this week __that__③ I couldn't start the report __about that__④ Ms. Ono spoke in class."
+  ans: "4"
+  why: "前置詞の直後に that は置けない。④を about which にして the report about which Ms. Ono spoke in class とする（または前置詞を節の最後に残して the report that Ms. Ono spoke about in class）。③の that は so … that（とても〜なので…）の接続詞で、後ろの I couldn't start … は完全な文なので正しい。"
+  trap: "that が2つあるので③を疑い、④の about that は「that は人にも物にも使える」から正しいと思う誤り。関係代名詞のうち that と who は前置詞の直後に置けない（which・whom・whose＋名詞は置ける）。"
+- id: q1029
+  sec: s06
+  set: 節末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 私たちが2泊したホテルは、海岸の近くだった。<br>The hotel at ( nights / stayed / two / we / which ) was near the beach.
+  words: [nights, stayed, two, we, which]
+  ans: The hotel at which we stayed two nights was near the beach.
+  why: at の直後に which を置き、その後ろに完全な文 we stayed two nights を続ける。we stayed two nights at the hotel の at the hotel が at which になって前に出ている。
+  trap: at which の後ろに目的語の欠けた形が来ると考え、which we stayed のように which を前に出したまま at を余らせる誤り。
+- id: q1030
+  sec: s06
+  set: 節末
+  lv: 3
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: The old dog __after which__① my sister __looks__② every weekend __belongs__③ to __our neighbor__④.
+  ans: "1"
+  why: look after（世話をする）は句動詞で、after を関係代名詞の前に出せない。The old dog (that) my sister looks after every weekend とする。
+  trap: 「前置詞＋which」の形を見て正しいと判断する誤り。前置詞を前に出せるかどうかは、動詞との結びつきで決まる。
+# ---- 章末 ----
+- id: q1031
+  sec: s02
+  set: 章末
+  lv: 1
+  kind: 読解
+  min: 4
+  inst: 次の英文を読み、問いの答えとして最も適切なものを1つ選びなさい。
+  q: "Notice from the School Library<br>The library will be closed on November 3. Students who want to borrow books for the holiday should come before 4:30 p.m. on November 2. Books which are borrowed on that day can be kept until November 10. The study room which is next to the library will be open as usual on November 3, so you can study there. If you have any questions, please ask the teacher who works at the front desk.<br>問　What can students do on November 3?"
+  choices:
+  - Borrow books from the library.
+  - Use the study room next to the library.
+  - Return books to the teacher at the front desk.
+  - Study in the library.
+  ans: "2"
+  why: The study room which is next to the library will be open … on November 3 から、図書館の隣の自習室は11月3日も使える。which is next to the library が the study room を説明している。
+  trap: ④を選ぶ誤り。図書館そのものは11月3日は閉まっている。勉強できるのは、which is next to the library で説明された隣の自習室である。
+- id: q1032
+  sec: s06
+  set: 章末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: This is the club (＿) Yui joined last year.
+  choices: [whose, in which, which, who]
+  ans: "3"
+  why: join は他動詞で、節の中で joined の目的語が欠けている（不完全な文）。目的格の which を使う。
+  trap: 「クラブに入る」の日本語から in を補って②in which を選ぶ誤り。in which の後ろには完全な文が来るが、Yui joined last year は目的語が欠けている。
+- id: q1033
+  sec: s05
+  set: 章末
+  lv: 1
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: これが、私が持っているお金のすべてだ。<br>This is ( all / have / I / money / that / the ).
+  words: [all, have, I, money, that, the]
+  ans: This is all the money that I have.
+  why: 先行詞 all the money の後ろに that I have を続ける。all の付いた先行詞なので that が使われている。have の目的語が欠けた形。
+  trap: the all money と all を the の後ろに置く誤り。all は the の前に置く。
+- id: q1034
+  sec: s06
+  set: 章末
+  lv: 3
+  kind: 和訳
+  min: 3
+  inst: 次の英文を日本語に訳しなさい。
+  q: The house in which my grandfather was born, and which he left at the age of fifteen, is now a small museum.
+  ans: 祖父が生まれ、15歳で離れた家は、今では小さな博物館になっている。
+  alt: [祖父が生まれて15歳のときに出ていった家は、今は小さな博物館だ。]
+  why: The house を2つの関係詞節（in which my grandfather was born と which he left at the age of fifteen）が説明し、文の動詞は is。2つ目の which は left の目的語。
+  trap: and の後ろを文の続きと読み「祖父はそこで生まれ、15歳で家を出て、今は博物館にいる」のように主語を取りちがえる誤り。
+- id: q1035
+  sec: s04
+  set: 章末
+  lv: 2
+  kind: 英作
+  min: 3
+  inst: 下線部の日本語を、関係代名詞を使って英語にし、空所に入れなさい。
+  q: 私のおばは、__屋根が赤い家__に住んでいる。<br>My aunt lives in ＿＿＿＿.
+  ans: My aunt lives in a house whose roof is red.
+  alt: [My aunt lives in a house the roof of which is red., My aunt lives in a house which has a red roof., My aunt lives in a house that has a red roof.]
+  why: 「その家の屋根」の持ち主の関係を whose roof で表す。whose の直後の roof には the を付けない。採点の目安：関係代名詞を使って「屋根が赤い家」が表せていれば正解とし、a house the roof of which is red、a house which［that］has a red roof も正解とする。関係代名詞を使わない a house with a red roof は、意味は合っていても指示に合わないので不可。a house whose the roof is red のように whose の後ろに the を付けたものも不可。
+  trap: a house which roof is red のように which を使う誤り。which の後ろには欠けた語が要るが、roof is red は欠けていない。
+- id: q1036
+  sec: s05
+  set: 章末
+  lv: 2
+  kind: 読解
+  min: 4
+  inst: 次の英文を読み、問いの答えとして最も適切なものを1つ選びなさい。
+  q: "Our class held a quiz contest last Friday. There were twenty questions, and my team answered sixteen of them correctly. That was the highest score that any team got that day. The last question was about a river in Africa, and the only student who knew the answer was Daniel. Everything that he said about the river was correct, so our teacher gave him a small prize: a notebook that has a map of the world on its cover.<br>問　Which of the following is true?"
+  choices:
+  - The writer's team answered all of the twenty questions correctly.
+  - Several students knew the answer to the last question.
+  - Daniel's team got a map of the world as a prize.
+  - No team got a higher score than the writer's team.
+  ans: "4"
+  why: the highest score that any team got that day（その日に各チームが取った得点の中で最も高い得点）から、筆者のチームより高い得点のチームはない。
+  trap: ③を選ぶ誤り。a notebook that has a map of the world on its cover は「表紙に世界地図がついたノート」で、もらったのは地図そのものではなく、チームでもない。
+- id: q1037
+  sec: s06
+  set: 章末
+  lv: 2
+  kind: 読解
+  min: 4
+  inst: 次の英文を読み、問いの答えとして最も適切なものを1つ選びなさい。
+  q: "Last summer, I stayed with a host family in Canada for three weeks. The house in which they lived stood on a hill near the sea. My room was small, but it had a large window from which I could see boats every morning. The person with whom I talked most was the family's ten-year-old son. He showed me the beach on which he had learned to swim, and we played there almost every evening.<br>問　Which of the following is true?"
+  choices:
+  - The host family's house was in the center of a busy city.
+  - The son learned to swim in a pool near the house.
+  - The writer talked most with the mother of the family.
+  - The writer could see boats from the window of the room.
+  ans: "4"
+  why: a large window from which I could see boats every morning は「毎朝ボートが見える大きな窓」。I could see boats from the window の from が which の前に出ている。
+  trap: ②を選ぶ誤り。the beach on which he had learned to swim は「彼が泳ぎを覚えた浜辺」で、プールではない。
+- id: q1038
+  sec: s04
+  set: 章末
+  lv: 2
+  kind: 読解
+  min: 4
+  inst: 次の英文を読み、問いの答えとして最も適切なものを1つ選びなさい。
+  q: "There is a small bike shop near our station. The man who runs it is over seventy, and the shop is full of tools his father used. Customers whose bikes are more than ten years old can get a free check once a year. He says that old bikes people bring him are often better than new ones, because their parts were made to last. Last month, my sister took him the bike she had used for twelve years. He checked it, fixed the brakes in twenty minutes, and did not ask for any money.<br>問　Which of the following is true?"
+  choices:
+  - The man believes that old bikes are often better than new ones.
+  - Only bikes that are less than ten years old can get a free check.
+  - The writer's sister bought a new bike at the shop last month.
+  - It took the man two hours to fix the brakes on the bike.
+  ans: "1"
+  why: He says that old bikes people bring him are often better than new ones の old bikes people bring him は接触節で「人々が持ってくる古い自転車」。店主は古い自転車のほうがよいことが多いと言っている。
+  ref: s03
+  trap: ②を選ぶ誤り。Customers whose bikes are more than ten years old は「自転車が10年より古いお客」で（whose は @s04）、無料点検の対象は古い自転車のほうである。
+- id: q2001
+  sec: s07
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: The library (＿) I study on Saturdays opens at nine.
+  choices: [which, where, when, what]
+  ans: "2"
+  why: 節 I study on Saturdays は主語と動詞がそろった完全な文で、「その図書館で」という場所の副詞が抜けている。場所の副詞の代わりをするのは where。
+  trap: 先行詞 the library が物なので①which を選びやすい。しかし which は節の中で主語や目的語などの代わりをするので、何も欠けていない I study on Saturdays の前には置けない。
+- id: q2002
+  sec: s07
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  q: I'll never forget the summer (＿) we went camping by the lake with our grandfather.
+  choices: [where, which, when, who]
+  ans: "3"
+  why: 先行詞 the summer は時を表し、節 we went camping … は完全な文。「その夏に」という時の副詞の代わりをするのは when。
+  trap: by the lake という場所の語句に目が行き①where を選ぶ誤り。まず後ろが完全な文なので関係副詞だと決め、そのうえで場所か時かを先行詞で決める。by the lake は節の中の語句で、先行詞ではない。先行詞 the summer は時を表すので when になる。
+- id: q2003
+  sec: s07
+  set: 節末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 私たちがこの町に引っ越してきた年を覚えていますか。<br>Do you remember ( moved / the / to / we / when / year ) this town?
+  words: [moved, the, to, we, when, year]
+  ans: Do you remember the year when we moved to this town?
+  why: 先行詞 the year の直後に when を置き、その後に完全な文 we moved to this town を続ける。when は in that year の代わりをしている。
+  trap: Do you remember when we moved to the year … のように、when を remember の直後に置いてしまう誤り。year が余り、文が成り立たなくなる。
+- id: q2004
+  sec: s07
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部のうち、誤りを含むものを1つ選びなさい。
+  q: "It was __already__① dark __when__② we __got__③ to Nikko, so we went straight to the inn __when__④ my parents had stayed twenty years before."
+  choices: [①, ②, ③, ④]
+  ans: "4"
+  why: "先行詞 the inn は場所を表す。節 my parents had stayed twenty years before は、stay が目的語をとらない動詞なので、主語と動詞がそろえば何も欠けていない完全な文になる。後ろが完全な文なので関係副詞を使い、先行詞が場所なので where（または at which）にする。④の when を where に直す。②の when は「〜したとき」の接続詞で、It was already dark when we got to Nikko は正しい。"
+  trap: "when が2つあるので②を疑い、④は twenty years before という時の語句に引かれて when でよいと考える誤り。関係副詞を使うかどうかは後ろの文が完全かで決まり、where か when かは先行詞の意味で決まる。節の中の時の語句では決まらない。"
+- id: q2005
+  sec: s07
+  set: 節末
+  lv: 3
+  kind: 和訳
+  min: 3
+  inst: 次の英文を日本語に訳しなさい。
+  q: The year I spent in Canada was when I first became interested in foreign languages.
+  ans: 私がカナダで過ごした1年は、私が初めて外国語に興味を持った時期だった。
+  alt: [カナダで過ごした1年間は、私が初めて外国語に興味を持ったときだった。]
+  why: The year の後ろには which／that が省かれ、spent の目的語が欠けている（「過ごした1年」）。was の後ろの when 節は先行詞 the time が省かれた形で「〜した時期」と訳す。この2点がとれていれば可。
+  trap: The year の後ろに when が省かれたと考えて「私がカナダで過ごした年に」と副詞のように訳す誤り。spent の目的語がないので、The year は節の中で目的語の位置にある。
+- id: q2006
+  sec: s07
+  set: 節末
+  lv: 2
+  kind: 読解
+  min: 4
+  inst: 次の英文を読んで、問いの答えとして最も適切なものを1つ選びなさい。
+  q: "Last October, Haruto's class went on a three-day trip to Nagasaki. On the first day, they visited a hill where an old church stands. Haruto liked the second day best. That was the day when they took a small boat around the bay. The guide showed them the place where ships from other countries arrived long ago. On the last day, it rained, so they spent the morning in a museum. In his diary, Haruto wrote, “The second day was when I learned the most.”<br>問　What did Haruto's class do on the day Haruto liked best?"
+  choices: [They visited an old church on a hill., They stayed in a museum because of the rain., They went around the bay by boat., They went to Nagasaki Station to meet the guide.]
+  ans: "3"
+  why: Haruto liked the second day best. That was the day when they took a small boat around the bay. とあり、2日目に船で湾を回った。the day when … が「〜した日」を表す。
+  trap: 本文の最初に出てくる a hill where an old church stands に引かれて①を選ぶ誤り。教会を訪れたのは1日目で、ハルトがいちばん気に入ったのは2日目である。
+
+# ---------- s08 節末 ----------
+- id: q2007
+  sec: s08
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Can you tell me the reason (＿) you didn't come to practice yesterday?
+  choices: [why, how, where, which]
+  ans: "1"
+  why: 先行詞 the reason の後ろに完全な文 you didn't come to practice yesterday が続く。理由を表す関係副詞は why。
+  trap: 先行詞が物（the reason）なので④which を選ぶ誤り。which は節の中で主語や目的語などの代わりをするが、この節には欠けている語がない。
+- id: q2008
+  sec: s08
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  q: This is (＿) I make rice balls in only five minutes.
+  choices: [the way how, what, which, how]
+  ans: "4"
+  why: 「これが〜するやり方だ」は This is how S V。how の後ろの I make rice balls … は完全な文。
+  trap: ①the way how を選ぶ誤り。今の英語では the way と how を並べず、the way か how の一方だけを使う。
+- id: q2009
+  sec: s08
+  set: 節末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 母のカレーの作り方は、祖母の作り方とは違う。<br>( curry / makes / mother / my / the / way ) is different from my grandmother's.
+  words: [curry, makes, mother, my, the, way]
+  ans: The way my mother makes curry is different from my grandmother's.
+  why: 「母がカレーを作るやり方」は the way の後ろに完全な文 my mother makes curry を続ける。how がないので the way S V の形にする。
+  trap: 「やり方」に how が必要だと考え、語が足りないと迷う誤り。the way の後ろの how は使わないので、与えられた語だけで文ができる。
+- id: q2010
+  sec: s08
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部のうち、誤りを含むものを1つ選びなさい。
+  q: My grandfather __grows__① such sweet tomatoes __in__② his small garden, and I want to learn __the way how__③ he __does__④ it.
+  choices: [①, ②, ③, ④]
+  ans: "3"
+  why: the way how は使わない。the way he does it か how he does it に直す。
+  trap: ④does を「grows でなければおかしい」と考えて選ぶ誤り。does it は前の grows such sweet tomatoes を言いかえた代動詞で正しい。
+- id: q2011
+  sec: s08
+  set: 節末
+  lv: 2
+  kind: 英作
+  min: 3
+  inst: 次の日本語を英語にしなさい。ただし why を使うこと。
+  q: バスが来なかった。だから私たちは駅まで歩いた。
+  ans: The bus didn't come. That's why we walked to the station.
+  alt: [The bus did not come. That is why we walked to the station., The bus didn't come. This is why we walked to the station.]
+  why: 「だから〜」は That's why S V で表す。前の文（バスが来なかった）が理由、why 節（駅まで歩いた）が結果になる向きで書けていれば可。
+  trap: That's because we walked to the station. と書く誤り。because の後ろには理由がくるので、「それは駅まで歩いたからだ」と逆の意味になる。
+- id: q2012
+  sec: s08
+  set: 節末
+  lv: 2
+  kind: 読解
+  min: 4
+  inst: 次の英文を読んで、問いの答えとして最も適切なものを1つ選びなさい。
+  q: "Ms. Brown, an English teacher, made a new rule this year. Before each lesson, students put their phones in a box by the door. Many students asked her the reason why she made the rule. She said that students cannot focus well when their phones are on their desks. At first, nobody liked it. But after a month, Riku said, “I like the way we talk in class now. We really listen to each other.” That is why Ms. Brown plans to keep the rule next year.<br>問　Why does Ms. Brown plan to keep the rule next year?"
+  choices:
+  - Because many students asked her to explain the rule.
+  - Because the rule has changed the way students talk to each other in class.
+  - Because nobody liked the rule at first.
+  - Because students can focus well with their phones on their desks.
+  ans: "2"
+  why: 最後の That is why … の That は、直前のリクの発言（I like the way we talk in class now. We really listen to each other.）を指す。授業での話し方が変わったことがルールを続ける理由で、②はそれを言いかえている。
+  trap: 本文の asked her the reason why she made the rule に引かれて①を選ぶ誤り。生徒がたずねたのはルールを作った理由で、ルールを続ける理由ではない。①と③は本文にある事実だが、That is why の That が指す内容ではない。
+
+# ---------- s09 節末 ----------
+- id: q2013
+  sec: s09
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: The museum (＿) we visited last Sunday has a big dinosaur model.
+  choices: [which, where, when, what]
+  ans: "1"
+  why: visit は目的語が必要な動詞で、節 we visited last Sunday では visited の目的語が欠けている。欠けた目的語の代わりをするのは which。
+  trap: 先行詞 the museum が場所なので②where を選ぶ誤り。where は副詞の代わりなので、目的語が欠けた不完全な文の前には置けない。
+- id: q2014
+  sec: s09
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  q: This is the town (＿) Sofia lived for three years before she moved to Tokyo.
+  choices: [which, where, what, that]
+  ans: "2"
+  why: live は目的語をとらない動詞なので、節 Sofia lived for three years は完全な文。「その町に」という場所の副詞の代わりをする where が入る。
+  trap: 前の問題（@q2013）と同じく「場所の名詞の後ろは where か which か」で迷い、①which を選ぶ誤り。which にするなら the town which Sofia lived in のように前置詞が必要になる。
+- id: q2015
+  sec: s09
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  q: The day (＿) my grandparents chose for their party was a Sunday in May.
+  choices: [when, on which, where, which]
+  ans: "4"
+  why: choose は目的語が必要な動詞で、節 my grandparents chose for their party では chose の目的語が欠けている。目的語の代わりをするのは which。
+  trap: 先行詞 the day が時なので①when や②on which を選ぶ誤り。どちらも後ろに完全な文が必要で、chose の目的語が欠けたこの節には合わない。
+- id: q2016
+  sec: s09
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  q: The village (＿) my grandmother often talks about is in the mountains of Nagano.
+  choices: [where, about which, which, when]
+  ans: "3"
+  why: 節の最後の about の後ろに名詞がなく、前置詞の目的語が欠けた不完全な文になっている。欠けた目的語の代わりをするのは which。
+  trap: ②about which を選ぶ誤り。about which にすると about が節の最後にも残り、about が2回になってしまう。
+- id: q2017
+  sec: s09
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部のうち、誤りを含むものを1つ選びなさい。
+  q: The beach __where__① we swam every morning was near the hotel __where__② we chose for our trip, so we __walked__③ there __in five minutes__④.
+  choices: [①, ②, ③, ④]
+  ans: "2"
+  why: 節 we chose for our trip では chose の目的語が欠けている。目的語の代わりになる which（または that）に直す。
+  trap: ①where も同じ形なので両方を疑い、①を選ぶ誤り。swim は目的語をとらないので、we swam every morning は完全な文で where が正しい。
+- id: q2018
+  sec: s09
+  set: 節末
+  lv: 3
+  kind: 正誤
+  min: 1
+  q: When you are in a situation __which__① you cannot find your bag on a train, you should __tell__② a station worker __about__③ it soon. The reason __that__④ I know this is that it happened to me last year.
+  choices: [①, ②, ③, ④]
+  ans: "1"
+  why: 節 you cannot find your bag on a train は完全な文なので、which ではなく where（または in which）を使う。situation は場所ではないが、「その状況の中で」という意味の where で説明できる。
+  trap: ④that を「reason の後ろは why」と考えて選ぶ誤り。the reason that I know this の that は why の代わりに使える形で正しい。
+- id: q2019
+  sec: s09
+  set: 節末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: これは、私の父が若いころに働いていた工場だ。<br>This is the factory ( father / in / my / when / which / worked ) he was young.
+  words: [father, in, my, when, which, worked]
+  ans: This is the factory in which my father worked when he was young.
+  alt: [This is the factory which my father worked in when he was young.]
+  why: work は目的語をとらないので、関係代名詞を使うなら前置詞 in が必要になる。in which を前に出せば後ろは完全な文 my father worked。when は「若いころに」をつくる接続詞として使う。
+  trap: when を関係副詞と考えて the factory when my father worked … と並べる誤り。factory は時を表さず、when の後ろに he was young を置く場所がなくなる。
+- id: q2020
+  sec: s09
+  set: 節末
+  lv: 3
+  kind: 和訳
+  min: 3
+  inst: 次の英文を日本語に訳しなさい。
+  q: The hall where the concert was held was much smaller than the one which we had seen in the photos on the website.
+  ans: コンサートが開かれたホールは、私たちがウェブサイトの写真で見たホールよりもずっと小さかった。
+  alt: [そのコンサートが行われた会場は、私たちがウェブサイトの写真で見ていたものよりずっと小さかった。]
+  why: where 節（コンサートが開かれた）は The hall を、which 節（私たちが写真で見た）は the one（＝the hall）を説明する。主語 The hall … held に対する動詞が2つ目の was であることがとれていれば可。
+  trap: was held was の was が2つ続くところで迷い、「コンサートはホールで開かれ、それは小さかった」と2つの文に分けて訳す誤り。where から held までが The hall を説明する関係詞節である。
+
+# ---------- 章末 ----------
+- id: q2021
+  sec: s08
+  set: 章末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: I don't like (＿) my brother talks to his friends on the phone late at night.
+  choices: [the way how, the way, the way which, what]
+  ans: "2"
+  why: talks to his friends … は完全な文で、「兄が電話で友達と話す、その話し方」を表す。the way S V の形にする。
+  trap: ③the way which を選ぶ誤り。which は節の中で主語や目的語などの代わりをするが、この節には欠けている語がない。
+- id: q2022
+  sec: s09
+  set: 章末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部のうち、誤りを含むものを1つ選びなさい。
+  q: My sister __works__① at a hotel __which__② stands near the lake. She often __talks__③ about the days __which__④ she first worked there.
+  choices: [①, ②, ③, ④]
+  ans: "4"
+  why: 節 she first worked there は完全な文なので、時の副詞の代わりをする when（または on which）に直す。
+  trap: ②which を「場所の名詞の後ろは where」と考えて選ぶ誤り。stands の主語が欠けているので、②は which で正しい。
+- id: q2023
+  sec: s08
+  set: 章末
+  lv: 2
+  kind: 正誤
+  min: 1
+  q: __The way how__① Mr. Sato teaches math is different from __the way__② other teachers do, and that is __why__③ his classes are __popular__④.
+  choices: [①, ②, ③, ④]
+  ans: "1"
+  why: the way how は使わない。The way Mr. Sato teaches math か How Mr. Sato teaches math に直す。
+  trap: ③why を「理由なら because」と考えて選ぶ誤り。that is why … は「だから〜」の意味で正しい。
+- id: q2024
+  sec: s07
+  set: 章末
+  lv: 1
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: ここは、私が去年の夏に自転車をなくした場所だ。<br>This is ( bike / I / lost / my / where ) last summer.
+  words: [bike, I, lost, my, where]
+  ans: This is where I lost my bike last summer.
+  why: 先行詞 the place が省かれた形。This is の後ろに where 節を置くと「〜した場所」の意味になる。
+  trap: This is my bike where I lost … のように my bike を先行詞にしてしまう誤り。lost の目的語がなくなり、日本語の意味とも合わない。
+- id: q2025
+  sec: s09
+  set: 章末
+  lv: 3
+  kind: 整序
+  min: 2
+  q: 家族でよく行く公園には、父が子どものころに植えた木がある。<br>The park ( has / my / often / tree / where / a / family / goes / which ) my father planted as a child.
+  words: [has, my, often, tree, where, a, family, goes, which]
+  ans: The park where my family often goes has a tree which my father planted as a child.
+  alt: [The park where my family goes often has a tree which my father planted as a child.]
+  why: go は目的語をとらないので my family often goes は完全な文で、The park の後ろは where。planted は目的語が欠けているので、a tree の後ろは which。文の動詞は has。
+  trap: 場所の名詞 The park に which、木の後ろに where を置く逆の並べ方。where か which かは名詞の意味ではなく、後ろの節で目的語が欠けているかで決まる。
+- id: q2026
+  sec: s09
+  set: 章末
+  lv: 2
+  kind: 読解
+  min: 4
+  inst: 次の英文を読んで、問いの答えとして最も適切なものを1つ選びなさい。
+  q: "Sofia moved to Japan from Spain two years ago. The apartment where she lives now is on the fifth floor, and from her window she can see a river which runs through the city. Her favorite place is a small bookstore which her neighbor told her about. It is the place where she bought her first Japanese picture book. April is when she likes the city best, because the cherry trees along the river turn pink.<br>問　Which of the following is true about Sofia?"
+  choices: [She learned about the bookstore from her neighbor., She lives in a house next to the river., She found the bookstore by herself., She likes the city best in the fall.]
+  ans: "1"
+  why: a small bookstore which her neighbor told her about は「隣人が彼女に教えてくれた小さな本屋」。told her about の about の目的語が which で、本屋のことは隣人から聞いた。
+  trap: 「川が見える」から②を選ぶ誤り。彼女が住んでいるのは5階のアパートで、川は窓から見えるだけである。
+- id: q2027
+  sec: s08
+  set: 章末
+  lv: 2
+  kind: 読解
+  min: 4
+  q: "Grace's grandmother lives alone in a small town, three hours from Grace's home by train. Last spring, Grace gave her a tablet and taught her how to make video calls. At first, her grandmother kept pressing the wrong button, so Grace wrote each step on a card in large letters. Now they talk every Sunday evening. Her grandmother says, “Sunday is when I wait for the tablet to ring. I can see Grace's face, and that's why I have stopped writing letters.”<br>問　Why has Grace's grandmother stopped writing letters?"
+  choices: [Because the post office in her town is far away., Because Grace asked her to use the cards instead., Because she can see Grace's face during video calls., Because she is busy every Sunday evening.]
+  ans: "3"
+  why: I can see Grace's face, and that's why I have stopped writing letters. の that は「グレースの顔が見えること」を指し、それが手紙をやめた理由になっている。
+  trap: Sunday is when I wait for the tablet to ring の Sunday に引かれて④を選ぶ誤り。日曜の夜は電話を待つ時間で、忙しいとは書かれていない。
+- id: q2028
+  sec: s08
+  set: 章末
+  lv: 2
+  kind: 和訳
+  min: 3
+  inst: 次の英文の下線部を日本語に訳しなさい。
+  q: The trains often stop in strong winds. __That is why Haruto leaves home thirty minutes early on stormy days.__
+  ans: だから、嵐の日にはハルトは30分早く家を出る。
+  alt: [それが、嵐の日にハルトが30分早く家を出る理由だ。]
+  why: That is why S V は「だから S V」。前の文（強風で電車が止まる）が理由で、why 節が結果になる。「だから」か「それが〜する理由だ」と訳せていれば可。
+  trap: That is because と取り違え、「それはハルトが30分早く家を出るからだ」と理由と結果を逆に訳す誤り。
+- id: q3001
+  sec: s10
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: (＿) Nora made for us last night was delicious.
+  choices: [That, Who, Which, What]
+  ans: "4"
+  why: 空所の前に先行詞がなく、節の中で made の目的語が欠けている。先行詞をふくみ「〜するもの」を表す What が入る。
+  trap: ①That を選ぶ誤り。文頭の That 節は接続詞なので後ろに完全な文が必要だが、made の目的語が欠けている。
+- id: q3002
+  sec: s10
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  q: Excuse me, but this is not (＿) I ordered. I asked for iced tea.
+  choices: [which, that, what, who]
+  ans: "3"
+  why: is not の後ろに先行詞がなく、ordered の目的語が欠けている。「私が注文したもの」は what I ordered。
+  trap: ②that を選ぶ誤り。関係代名詞の that は先行詞が必要で、接続詞の that なら後ろは完全な文でなければならない。
+- id: q3003
+  sec: s10
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部のうち、誤りをふくむものを1つ選びなさい。
+  q: "My cousin __lent__① me the novels __she had__② at home, and __they__③ were just the ones __what__④ I wanted to read."
+  choices: ["1", "2", "3", "4"]
+  ans: "4"
+  why: "the ones という先行詞があるので what は使えない。④を that（または which）にするか、省略して the ones I wanted to read とする。②の she had は、the novels の後ろで目的格の関係代名詞が省略された形（the novels she had ＿ at home）で正しい。"
+  trap: "②she had の前に関係代名詞がないので②を選ぶ誤り。名詞の直後に「主語＋動詞」が続く目的格の省略で、正しい。④は「〜するもの」という日本語につられて what を正しいと考えやすいが、what はすでに先行詞をふくんでいる。"
+- id: q3004
+  sec: s10
+  set: 節末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。ただし文頭に来る語も小文字にしてある。
+  q: ベンが昨日私に話したことは本当だった。<br>( Ben / me / told / what / yesterday ) was true.
+  words: [Ben, me, told, what, yesterday]
+  ans: What Ben told me yesterday was true.
+  why: 「ベンが昨日私に話したこと」は what で始まる名詞節で、文の主語になる。what の後ろは told me ＿ と目的語が欠けた形。
+  trap: Ben told me what yesterday のように what を節の中に残す誤り。what は欠けた目的語の位置ではなく節の先頭に出る。
+- id: q3005
+  sec: s10
+  set: 節末
+  lv: 2
+  kind: 和訳
+  min: 3
+  inst: 次の英文を日本語に訳しなさい。
+  q: What surprised me most on the trip was the size of the trains.
+  ans: 旅行でいちばん驚いたのは、列車の大きさだった。
+  alt: [旅行で私をいちばん驚かせたものは、列車の大きさだった。]
+  why: What surprised me most on the trip が主語の名詞節で、「旅行で私をいちばん驚かせたもの（こと）」。was の後ろの補語を「列車の大きさ」と訳せていれば正解。
+  trap: What を疑問詞と考えて「何が驚かせたか」と訳す誤り。文の主語になっていて was で受けるので、「〜したもの」と訳す。
+- id: q3006
+  sec: s10
+  set: 節末
+  lv: 3
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: The guide at the museum explained (＿) the old tools had been used for.
+  choices: [which, what, that, how]
+  ans: "2"
+  why: explained の後ろに先行詞がなく、節の最後の for の目的語が欠けている。先行詞なし・不完全な文なので what が入る。explained の後ろでは、関係代名詞（「使われていた目的」）とも疑問詞（「何のために使われていたか」）とも読めるが（第10節（@s10）の「疑問詞の what との見分け方」）、どちらに読んでも what が入る。
+  trap: ④how を選ぶ誤り。how の後ろは完全な文が必要だが、used for で前置詞の目的語が欠けている。
+- id: q3007
+  sec: s11
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  q: My cousin is (＿) is called a "night owl." He usually goes to bed at three in the morning.
+  choices: [which, that, who, what]
+  ans: "4"
+  why: what is called … で「いわゆる…」。is の補語の位置に先行詞がなく、節の中の主語が欠けているので what が入る。
+  trap: 主語が人なので③who を選ぶ誤り。who も関係代名詞として使うには先行詞が必要で、ここには先行詞がない。
+- id: q3008
+  sec: s11
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  q: Since the new mall opened, our town has become very different from (＿) it used to be.
+  choices: [what, that, which, who]
+  ans: "1"
+  why: what S used to be で「Sの昔の姿」。from の後ろに先行詞がなく、used to be の補語が欠けているので what が入る。
+  trap: different from の後ろだから②that を選ぶ誤り。that には先行詞が必要で、接続詞なら後ろは完全な文でなければならない。
+- id: q3009
+  sec: s11
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  q: I left my umbrella on the train, and (＿) was worse, it began to rain hard.
+  choices: [it, that, what, this]
+  ans: "3"
+  why: what is worse は「さらに悪いことに」。過去の話なので was になっている。
+  trap: ①it を選んで「それはもっと悪かった」と読む誤り。it was worse を入れると、コンマだけで2つの文がつながる誤った形になる。
+- id: q3010
+  sec: s11
+  set: 節末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: ハナはいわゆる天才だ。<br>Hana is ( what / call / a / we / genius ).
+  words: [what, call, a, we, genius]
+  ans: Hana is what we call a genius.
+  why: we call A B（AをBと呼ぶ）のAが what になった what we call B で「いわゆるB」。
+  trap: what a genius we call と並べる誤り。call の後ろにはBにあたる a genius を置く。
+- id: q3011
+  sec: s11
+  set: 節末
+  lv: 3
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Leaves are to a tree (＿) lungs are to a human.
+  choices: [how, which, that, what]
+  ans: "4"
+  why: A is to B what C is to D で「AとBの関係はCとDの関係と同じ」。what lungs are to a human は are の補語が欠けた名詞節。
+  trap: ③that を選ぶ誤り。接続詞の that なら後ろに完全な文が必要だが、are の補語が欠けている。
+- id: q3012
+  sec: s11
+  set: 節末
+  lv: 3
+  kind: 和訳
+  min: 3
+  inst: 次の英文を日本語に訳しなさい。
+  q: Amir gave the hungry cat what little food he had in his bag.
+  ans: アミールは、かばんに入っていたわずかな食べ物を全部、おなかをすかせたネコにあげた。
+  alt: [アミールは、空腹のネコに、少ないながらもかばんに持っていた食べ物をすべて与えた。]
+  why: what little food he had は関係形容詞の what で、all the little food that he had と同じ。「少ないながら持っていた食べ物を全部」の意味が出ていれば正解。
+  trap: what を疑問詞と考えて「何の食べ物を持っていたか」と訳す誤り。what little food he had は gave の2つ目の目的語になる名詞節なので、「何を持っていたか」ではなく「持っていた（わずかな）食べ物を全部」と訳す。
+- id: q3013
+  sec: s12
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Hana heard the news (＿) the concert was canceled.
+  choices: [that, what, which, who]
+  ans: "1"
+  why: 後ろの the concert was canceled は主語も動詞もそろった完全な文。the news の中身を説明する同格の that が入る。
+  trap: ③which を選ぶ誤り。which は関係代名詞なので後ろが不完全な文でなければならないが、ここでは何も欠けていない。
+- id: q3014
+  sec: s12
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  q: The cake (＿) my father baked for my birthday was too sweet.
+  choices: [what, that, who, whose]
+  ans: "2"
+  why: 先行詞 The cake は人以外で、節の中で baked の目的語が欠けている。関係代名詞の that が入る（which も可）。
+  trap: 「〜したもの」と考えて①what を選ぶ誤り。The cake という先行詞があるので what は使えない。
+- id: q3015
+  sec: s12
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部のうち、誤りをふくむものを1つ選びなさい。
+  q: __The__① idea __which__② we should __share__③ the cost __was__④ suggested by Aoi.
+  choices: ["1", "2", "3", "4"]
+  ans: "2"
+  why: we should share the cost は完全な文で、idea の中身を説明している。同格の that にする。
+  trap: idea が物の名詞なので which を正しいと考える誤り。which の後ろは不完全な文でなければならない。
+- id: q3016
+  sec: s12
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  q: The photos __that__① Mr. Kato __took__② __them__③ in Hokkaido __were__④ beautiful.
+  choices: ["1", "2", "3", "4"]
+  ans: "3"
+  why: that は took の目的語の代わりをする関係代名詞なので、節の中に目的語 them を残してはいけない。them を取る。
+  trap: 「写真を撮った」と考えて took の後ろに目的語が必要だと思う誤り。目的語はすでに that が代わりをしている。
+- id: q3017
+  sec: s12
+  set: 節末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: その歌手が日本に来るという知らせに、私たちはわくわくした。<br>We were excited by ( singer / the / coming / news / that / was / the ) to Japan.
+  words: [singer, the, coming, news, that, was, the]
+  ans: We were excited by the news that the singer was coming to Japan.
+  why: 「〜という知らせ」は同格の that を使い、the news that ＋完全な文（the singer was coming）の順に並べる。
+  trap: the singer news that … のように名詞を並べてしまう誤り。that の前は中身を説明される名詞 the news だけを置く。
+- id: q3018
+  sec: s12
+  set: 節末
+  lv: 3
+  kind: 和訳
+  min: 3
+  inst: 次の英文を日本語に訳しなさい。
+  q: The rumor that the team that won last year would not join the tournament turned out to be false.
+  ans: 去年優勝したチームが大会に出ないといううわさは、うそだと分かった。
+  alt: [昨年勝ったチームが今回の大会に参加しないといううわさは、事実ではないと判明した。]
+  why: 1つ目の that は rumor の中身を説明する同格の that（後ろが完全な文）、2つ目の that は won の主語が欠けた関係代名詞。「〜したチームが…しないといううわさ」と組み立てられていれば正解。
+  trap: 1つ目の that も関係代名詞と考え、「チームが広めたうわさ」のように訳す誤り。the team … would not join the tournament は何も欠けていない完全な文である。
+- id: q3019
+  sec: s10
+  set: 章末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部のうち、誤りをふくむものを1つ選びなさい。
+  q: I'm sorry, but I can't __remember__① __everything__② __what__③ you told me __on__④ the phone.
+  choices: ["1", "2", "3", "4"]
+  ans: "3"
+  why: everything が先行詞なので what は使えない。that にするか、省略して everything you told me とする。
+  trap: 「〜したことすべて」の「こと」に引かれて what を選ぶ誤り。everything がすでに「こと」にあたる。
+- id: q3020
+  sec: s12
+  set: 章末
+  lv: 2
+  kind: 正誤
+  min: 1
+  q: We were all happy __to hear__① the news __what__② our coach __had__③ recovered __from__④ his illness.
+  choices: ["1", "2", "3", "4"]
+  ans: "2"
+  why: our coach had recovered from his illness は完全な文で、the news の中身を説明している。同格の that にする。
+  trap: what を「〜ということ」の意味と考える誤り。what の後ろは不完全な文で、前に名詞を置くこともできない。
+- id: q3021
+  sec: s11
+  set: 章末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: この町は30年前とはまったく違う。<br>This town is ( was / different / it / from / what / quite ) thirty years ago.
+  words: [was, different, it, from, what, quite]
+  ans: This town is quite different from what it was thirty years ago.
+  why: 「30年前の町の姿」は what it was thirty years ago。be different from の後ろに置く。
+  trap: different from it was … のように what を落とす誤り。from の後ろには名詞（名詞節）が必要で、was の補語も欠けている。
+- id: q3022
+  sec: s11
+  set: 章末
+  lv: 3
+  kind: 整序
+  min: 2
+  q: アオイは、少ないながらためたお金を全部、新しいギターに使った。<br>Aoi spent ( had / little / what / she / money / saved ) on a new guitar.
+  words: [had, little, what, she, money, saved]
+  ans: Aoi spent what little money she had saved on a new guitar.
+  why: 関係形容詞の what を使い、what little money ＋ she had saved の順にする。「少ないながら〜したすべてのお金」。
+  trap: what she had saved little money と並べる誤り。関係形容詞の what は直後に（little ＋）名詞を連れてくる。
+- id: q3023
+  sec: s12
+  set: 章末
+  lv: 2
+  kind: 補充
+  min: 2
+  inst: 各文の（　）に that か what のどちらかを入れなさい。文頭に入る語は大文字で書き始めること。
+  q: (1) (＿) I need now is a cup of hot tea.<br>(2) My sister told me (＿) she would be late for dinner.
+  ans: (1) What (2) that
+  why: (1) は先行詞がなく need の目的語が欠けているので What（文頭なので大文字）。(2) は she would be late for dinner が完全な文なので接続詞の that。told me の後ろの that は省略もできるが、ここでは空所があるので that を入れる。
+  trap: (2) で told me の後ろだから「言ったこと」と考え what を入れる誤り。what なら後ろが不完全でなければならない。
+- id: q3024
+  sec: s12
+  set: 章末
+  lv: 2
+  kind: 読解
+  min: 4
+  inst: 次の英文を読み、問いの答えとして最も適切なものを1つ選びなさい。
+  q: Last spring, our class planted twenty small trees along the river near our school. Many people in town believed the story that the river water was too salty for trees. However, the trees that we planted are now taller than our teacher. Last week a reporter from a local newspaper came to see them. The fact that every tree is still alive surprised her. She wrote an article that was printed on the front page, and now younger students want to plant more trees next year.<br>問　What surprised the reporter?
+  choices: [The river water was too salty for trees., The trees were taller than the reporter., The students wrote an article for the newspaper., All of the trees were still alive.]
+  ans: "4"
+  why: The fact that every tree is still alive surprised her. の that は同格で、fact の中身が「どの木もまだ生きていること」。これが記者を驚かせた。
+  trap: ①を選ぶ誤り。the story that the river water was too salty の that も同格だが、これは町の人々が信じていた話で、記者が驚いたことではない。
+- id: q3025
+  sec: s10
+  set: 章末
+  lv: 2
+  kind: 読解
+  min: 4
+  q: On Sunday my family had a stall at the flea market in the park. We sold old books and children's clothes. What sold fastest was a box of picture books that my brother no longer reads. A woman bought all twelve books for 600 yen. In the afternoon, it got cloudy, and what was worse, a strong wind blew some of our clothes off the table. Still, we made 4,800 yen in total. We will use what we earned to buy a new tent for our summer camping trip.<br>問　Which of the following is true according to the passage?
+  choices: [The family sold all of their clothes., A woman paid 600 yen for twelve picture books., The weather was bad all day., "The family earned 6,000 yen."]
+  ans: "2"
+  why: What sold fastest was a box of picture books と A woman bought all twelve books for 600 yen から、②が正しい。
+  trap: ③を選ぶ誤り。what was worse は午後の出来事を付け足しているだけで、天気が悪くなったのは午後からである。
+- id: q3026
+  sec: s11
+  set: 章末
+  lv: 3
+  kind: 読解
+  min: 4
+  q: My grandfather runs a small bakery near the station. He says he owes what he is today to an old baker in Osaka who taught him for five years. When he was young, he was what you call a slow learner, and he often burned the bread. "Flour is to a baker what paint is to an artist," the old baker told him. "Learn how it changes." Now my grandfather can tell how dry the flour is just by touching it. What is more, he still bakes every morning at four.<br>問　What did the old baker mean by his words about flour?
+  choices: [A baker works with flour in the same way an artist works with paint., A baker should also learn to paint., Bakers and artists need the same tools., Flour is more expensive than paint.]
+  ans: "1"
+  why: A is to B what C is to D は「AとBの関係はCとDの関係と同じ」。小麦粉とパン職人の関係は、絵の具と画家の関係と同じだと言っている。
+  trap: ③を選ぶ誤り。この形は2つの「関係」が同じだと言っており、パン職人と画家が同じ道具を使うという意味ではない。
+- id: q4001
+  sec: s13
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: My grandmother, (＿) is 82 years old, still swims twice a week.
+  choices: [that, which, who, whose]
+  ans: "3"
+  why: 先行詞 My grandmother は人で、節の中で is の主語が欠けている。コンマがあるので非制限用法になり、that は使えない。残るのは who。
+  trap: 人・主語の欠けた関係詞節なので①that も入ると考えやすい。しかし that は非制限用法では使わない。
+- id: q4002
+  sec: s13
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  q: Last year Lucy stayed in Okinawa, (＿) she learned to dive.
+  choices: [which, where, when, that]
+  ans: "2"
+  why: コンマの後ろの she learned to dive は主語も目的語もそろった完全な文。場所の Okinawa を受けて「そしてそこで」とつなぐ where が入る。
+  trap: 先行詞が地名なので①which を選ぶ誤り。which は節の中で主語や目的語などが欠けた不完全な文のときにしか使えない（@e403 と比べる）。
+- id: q4003
+  sec: s13
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りを含むものを1つ選びなさい。
+  q: "Last week we __visited__① our uncle __in__② Hakodate, and he __took__③ us to see his best friend, __that__④ runs a sushi restaurant near the port."
+  ans: "4"
+  why: "先行詞 his best friend の後ろにコンマがある非制限用法なので that は使えない。先行詞は人で、runs の主語が欠けているので④を who にする。"
+  trap: "「人の先行詞には that も使える」という第1節の表（@s01）だけで判断し、④を正しいと見てしまう誤り。第1節の3つ目の問い（コンマがあるか）を落としている。"
+- id: q4004
+  sec: s13
+  set: 節末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 私は傘を電車に置き忘れた。その傘は先月母が買ってくれたものだ。<br>I left my umbrella, ( bought / for / me / mother / my / which ) last month, on the train.
+  words: [bought, for, me, mother, my, which]
+  ans: I left my umbrella, which my mother bought for me last month, on the train.
+  why: 先行詞 my umbrella の後ろにコンマがあるので、非制限用法の which で節を始める。節の中は my mother bought ＿ for me で、bought の目的語が欠けている。
+  trap: 制限用法と同じつもりで which を省き、語群の which を使わずに余らせてしまう誤り。非制限用法では目的格の関係代名詞も省略できないので、which は my umbrella, の直後に置く。
+- id: q4005
+  sec: s13
+  set: 節末
+  lv: 2
+  kind: 和訳
+  min: 3
+  inst: 次の英文を日本語に訳しなさい。
+  q: My uncle has two sons, who both play soccer for their high school team.
+  ans: おじには息子が2人いて、2人とも高校のチームでサッカーをしている。
+  alt: [おじには息子が2人おり、その2人はどちらも高校のサッカー部でプレーしている。]
+  why: コンマがあるので、息子は2人だけで、その2人について情報を付け足していると読む。「息子が2人いて、2人とも〜」と前から訳せているかが採点の要点。
+  trap: 「高校のチームでサッカーをしている息子が2人いる」と後ろから訳すと、ほかにも息子がいるように読める。コンマのない文の訳になってしまう。
+- id: q4006
+  sec: s13
+  set: 節末
+  lv: 3
+  kind: 読解
+  min: 4
+  inst: 次の英文を読み、内容に合うものを1つ選びなさい。
+  q: "Hi Mom,<br>I arrived in Matsumoto on Friday. My host family, the Itos, live near the station. Mr. Ito, who works at a bank, drives me to school every morning. The Itos have two daughters, who both study in Tokyo, so their rooms are empty during the week. Yesterday we went to the castle, where I took a lot of pictures. In the evening we had dinner at a soba restaurant, which Mrs. Ito's brother runs. I'll write again soon.<br>Love,<br>Lucy"
+  choices:
+  - The Itos have another daughter who lives with them in Matsumoto.
+  - Mr. Ito took Lucy to a bank on Friday.
+  - Neither of the Itos' daughters lives at home during the week.
+  - Mrs. Ito runs a soba restaurant.
+  ans: "3"
+  why: The Itos have two daughters, who both study in Tokyo はコンマのある非制限用法なので、娘は2人だけで、その2人とも東京で学んでいる。続く so their rooms are empty during the week から、平日はどちらの娘も家にいないと分かる。
+  trap: コンマを読み落として「東京で学ぶ娘が2人いる（ほかにもいるかもしれない）」と考え、①を選ぶ。コンマがあるので娘は2人だけである。④は which Mrs. Ito's brother runs の主語を取り違えている（店を営むのは伊藤夫人の兄弟）。
+# 第14節（@s14）節末
+- id: q4007
+  sec: s14
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Ayaka didn't come to practice yesterday, (＿) surprised everyone on the team.
+  choices: [which, what, that, who]
+  ans: "1"
+  why: チームのみんなを驚かせたのは「アヤカが昨日練習に来なかったこと」という前の内容全体。前の内容を受けられるのはコンマの付いた which。
+  trap: 文の主語の Ayaka を先行詞と考え、④who を選ぶ誤り。驚かせたのは人ではなく、来なかったという出来事である。
+- id: q4008
+  sec: s14
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  q: Our club has 18 members, most of (＿) are first-year students.
+  choices: [them, who, which, whom]
+  ans: "4"
+  why: 先行詞 18 members は人で、前置詞 of の直後なので目的格の whom。most of whom で「そのほとんどは」となる。
+  trap: ①them を選ぶ誤り。them にすると Our club has 18 members と most of them are … の2文が接続詞なしでつながり、文として成り立たない。
+- id: q4009
+  sec: s14
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りを含むものを1つ選びなさい。
+  q: Ms. Garcia __gave__① us four handouts __for__② the test, __two of them__③ __were__④ about the history of Yokohama.
+  ans: "3"
+  why: two of them のままだと、前の文と後ろの文がコンマだけでつながってしまう。関係代名詞を使って two of which にする（and two of them でもよいが、下線部だけでは and を足せない）。
+  trap: two of them は「そのうち2枚」という意味が通るので正しいと思いこむ。意味ではなく、2つの文をつなぐ語があるかで判断する。
+- id: q4010
+  sec: s14
+  set: 節末
+  lv: 1
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: トムは電車に乗り遅れ、そのせいで会議に遅刻した。<br>Tom missed the train, ( for / him / late / made / which ) the meeting.
+  words: [for, him, late, made, which]
+  ans: Tom missed the train, which made him late for the meeting.
+  why: which は「電車に乗り遅れたこと」という前の内容全体を受け、made の主語になる。make ＋人＋形容詞で「人を〜にする」。
+  trap: which を the train だけを指すと考えると、「電車が彼を遅刻させた」と読んでしまう。遅刻の原因は電車ではなく、乗り遅れたことである。
+- id: q4011
+  sec: s14
+  set: 節末
+  lv: 2
+  kind: 和訳
+  min: 3
+  inst: 次の英文を日本語に訳しなさい。
+  q: My sister passed her driving test on the first try, which made my parents very happy.
+  ans: 姉は運転免許の試験に一度で合格し、そのことで両親はとても喜んだ。
+  alt: [妹は運転免許の試験に1回目で受かり、それを両親はとても喜んだ。]
+  why: which は「一度で試験に合格したこと」を受けている。「そのことで」「それで」のように前の内容全体を指す訳になっていれば正解。sister は姉・妹のどちらでもよい。
+  trap: which を直前の the first try や her driving test と考え、「その試験が両親を喜ばせた」と訳す誤り。
+- id: q4012
+  sec: s14
+  set: 節末
+  lv: 3
+  kind: 読解
+  min: 4
+  inst: 次の英文を読み、内容に合うものを1つ選びなさい。
+  q: In May, Sota's school started a new rule. Students put their phones in a box before lunch and get them back after lunch, which many students did not like at first. Sota's class has 35 students, about half of whom now say they talk with their friends more. Sota found that he finished lunch much faster, which gave him time to practice the guitar. He also borrowed six books from the library, three of which he has already read.
+  choices:
+  - Most students liked the new rule from the beginning.
+  - About half of Sota's class still do not like the rule.
+  - Eating lunch more quickly gave Sota time to practice the guitar.
+  - Sota has read all six books from the library.
+  ans: "3"
+  why: he finished lunch much faster, which gave him time to practice the guitar の which は「昼食を早く食べ終えたこと」を受ける。それがギターを練習する時間を生んだ、という内容が③と合う。
+  trap: about half of whom の後ろを読み飛ばし、②を選ぶ。半数が言っているのは「友だちと話すことが増えた」で、ルールが嫌いだとは書かれていない。
+# 章末
+- id: q4013
+  sec: s13
+  set: 章末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: This guitar, (＿) my uncle gave me ten years ago, still sounds great.
+  choices: [which, where, that, what]
+  ans: "1"
+  why: 先行詞 This guitar は人以外で、節の中では gave me の後ろの目的語が欠けている。コンマがあるので that は使えず、which が入る。
+  trap: 目的語が欠けていることには気づいても、③that を選ぶ誤り。コンマの後ろでは that は使えない。
+- id: q4014
+  sec: s14
+  set: 章末
+  lv: 2
+  kind: 4択
+  min: 1
+  q: The museum has about 500 old photos, many of (＿) were taken by local people.
+  choices: [them, which, that, whom]
+  ans: "2"
+  why: 先行詞 500 old photos は人以外で、前置詞 of の後ろなので which。many of which で「そのうちの多くは」。
+  trap: ①them を選ぶと、The museum has … と many of them were … の2文が接続詞なしでつながる。意味が通っても文の形として誤り。
+- id: q4015
+  sec: s13
+  set: 章末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りを含むものを1つ選びなさい。
+  q: Lucy's family __moved__① to Nagano, __which__② they __opened__③ a small café __near__④ the lake.
+  ans: "2"
+  why: コンマの後ろの they opened a small café は主語も目的語もそろった完全な文。which ではなく、場所を受ける where にする。
+  trap: 先行詞 Nagano が地名なので which も使えると考える誤り。which を使うのは、節の中で主語や目的語などが欠けた不完全な文のときだけである。
+- id: q4016
+  sec: s14
+  set: 章末
+  lv: 2
+  kind: 正誤
+  min: 1
+  q: My grandfather, __who__① __is__② 75, started __learning__③ English last year, __that__④ surprised all of us.
+  ans: "4"
+  why: 驚かせたのは「祖父が去年英語を習い始めたこと」という前の内容全体。前の内容を受けるのはコンマの付いた which で、that は使えない。
+  trap: ①who に目が行き、④を見落とす。①は人・主語が欠けた非制限用法なので正しい。
+- id: q4017
+  sec: s14
+  set: 章末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 姉はスカーフを3枚持っていて、そのうち2枚は祖母が作ったものだ。<br>My sister has three scarves, two ( by / grandmother / made / of / our / were / which ).
+  words: [by, grandmother, made, of, our, were, which]
+  ans: My sister has three scarves, two of which were made by our grandmother.
+  why: 先行詞 three scarves は人以外なので、two of which で「そのうち2枚は」とする。節の中は受け身の were made by our grandmother。
+  trap: of の後ろに whom を考えて迷う誤り。whom は先行詞が人のときだけで、スカーフには which を使う。
+- id: q4018
+  sec: s14
+  set: 章末
+  lv: 3
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。ただし、必要なコンマを1つ補うこと。
+  q: ガルシア先生には息子が2人いて、2人とも医者になり、先生はそのことをとても誇りに思った。<br>Ms. Garcia has two sons, ( became / both / doctors / her / made / of / proud / very / which / whom ).
+  words: [became, both, doctors, her, made, of, proud, very, which, whom]
+  ans: Ms. Garcia has two sons, both of whom became doctors, which made her very proud.
+  why: 息子2人については both of whom became doctors、それを誇りに思ったことは「2人とも医者になったこと」全体を受ける , which made her very proud で表す。人を受ける whom と、内容を受ける which を使い分ける。
+  trap: both of which became doctors と並べる誤り。sons は人なので of の後ろは whom になり、which は後半の「そのこと」を受ける側に回る。
+- id: q4019
+  sec: s14
+  set: 章末
+  lv: 2
+  kind: 読解
+  min: 4
+  inst: 次の英文を読み、問いの答えとして最も適切なものを1つ選びなさい。
+  q: "Tom joined the cooking club in April. The club has twelve members, most of whom had never cooked before. Their teacher, who runs a restaurant in town, visits every Friday. Last month the club made curry at a care home near the school, where about 40 older people live. Some of the members cut their fingers while they were cutting vegetables, which made the teacher a little worried. However, everyone enjoyed the curry, and the club plans to cook there again in December.<br>問　What made the teacher a little worried?"
+  choices:
+  - The club cooked for about 40 people.
+  - The curry was not very good.
+  - Most members had never cooked before.
+  - Some members cut their fingers while cooking.
+  ans: "4"
+  why: ", which made the teacher a little worried の which は、直前の「何人かの部員が野菜を切っていて指を切ったこと」全体を受けている。"
+  trap: ③を選ぶ誤り。部員の多くが料理をしたことがなかったのは本文にあるが、先生を心配させた内容として which が受けているのは、すぐ前の指を切った出来事である。
+- id: q4020
+  sec: s14
+  set: 章末
+  lv: 2
+  kind: 補充
+  min: 1
+  inst: 2つの文がほぼ同じ意味になるように、空所に1語ずつ入れなさい。
+  q: I have two older brothers, and both of them live in Osaka.<br>= I have two older brothers, (＿)(＿)(＿) live in Osaka.
+  ans: both of whom
+  why: and both of them を関係代名詞で言いかえると both of whom になる。brothers は人で、of の後ろなので目的格の whom。
+  trap: 空所の数に合わせて both of who と書く誤り。前置詞 of の直後に主格の who は置かない。
+- id: q5001
+  sec: s15
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: (＿) wants to use the music room after school must ask Mr. Mori first.
+  choices: [Whoever, Whatever, Whomever, Anyone]
+  ans: "1"
+  why: 空所から school までが must ask の主語になる名詞節で、節の中では wants の主語が欠けている。人を表し主語の働きをするのは Whoever（＝Anyone who）。
+  trap: ④Anyone を選ぶ誤り。Anyone は先行詞をふくまないので、Anyone who wants … と who が要る。
+- id: q5002
+  sec: s15
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  q: Here are four T-shirts from the trip. You can take (＿) you like.
+  choices: [whoever, however, whichever, wherever]
+  ans: "3"
+  why: 4枚のTシャツという限られた中から「好きなものをどれでも」と言っている。take の目的語になり、節の中で like の目的語が欠けているので whichever。
+  trap: ②however を選ぶ誤り。however you like は「好きなやり方で」という副詞の節で、take の目的語にならない。
+- id: q5003
+  sec: s15
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  q: I'll give this extra concert ticket to (＿) asks me first.
+  choices: [whomever, whoever, who, whatever]
+  ans: "2"
+  why: 節の中で asks の主語が欠けているので主格の whoever。to の目的語は whoever asks me first という節全体である。
+  trap: 直前の前置詞 to を見て①whomever を選ぶ誤り。whoever／whomever は直前の語ではなく、節の中の働きで決まる。
+- id: q5004
+  sec: s15
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部のうち、誤りをふくむものを1つ選びなさい。
+  q: __No matter what__① you decide __is__② fine with me, so __choose__③ the restaurant __for__④ tonight.
+  ans: "1"
+  why: 下線部から decide までが is の主語になる名詞節。名詞節は no matter what で言い換えられないので、Whatever にする。
+  trap: 「何を決めても」と訳せるので①を正しいと思う誤り。主節の主語がないことに気づけば、譲歩の副詞節ではないと分かる。
+- id: q5005
+  sec: s15
+  set: 節末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: バーベキューには、好きな人を誰でも招待してよい。<br>You can ( invite / like / to / whomever / you ) the barbecue.
+  words: [invite, like, to, whomever, you]
+  ans: You can invite whomever you like to the barbecue.
+  why: invite の目的語に whomever you like（好きな人は誰でも）を置き、to the barbecue を後ろに続ける。節の中で like の目的語が欠けているので whomever を使う。
+  trap: invite to whomever you like と to を前に出す誤り。to は the barbecue と結びつく語で、whomever の前には来ない。
+- id: q5006
+  sec: s15
+  set: 節末
+  lv: 3
+  kind: 和訳
+  min: 3
+  inst: 下線部①②を日本語に訳しなさい。
+  q: __Whatever Rina says about the weather__① is usually right, but __whatever she says__②, her little brother never takes an umbrella.
+  ans: ① リナが天気について言うことは（何でも）　② 彼女が何と言っても
+  alt: [② 彼女がどんなことを言おうと, ② たとえ彼女が何を言っても]
+  why: ①は is の主語になる名詞節で「〜することは何でも」。②は外しても her little brother never takes an umbrella が残る譲歩の副詞節で「何と言っても」。①を「何と言っても」、②を「言うことは」と訳したら、それぞれ誤り。
+  trap: 同じ whatever なので①②を同じ訳にする誤り。節を外して文が残るかどうかを確かめないと、名詞節と副詞節を取り違える。
+# ---- s16 節末 ----
+- id: q5007
+  sec: s16
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: (＿) I visit my aunt in Sendai, she takes me to a sushi shop near the station.
+  choices: [Which, Whatever, Whoever, Whenever]
+  ans: "4"
+  why: I visit my aunt in Sendai は主語・動詞・目的語のそろった完全な文。欠けた語がないので、関係代名詞ではなく whenever（〜するときはいつでも）が入る。
+  trap: ②Whatever を選ぶ誤り。whatever は節の中で主語・目的語・補語のどれかの代わりをするので、後ろは不完全な文になる。visit の目的語 my aunt がすでにある完全な文には入らない。
+- id: q5008
+  sec: s16
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  q: (＿) hard Chloe practiced, she couldn't beat her older brother at table tennis.
+  choices: [However, Whatever, Whenever, No matter]
+  ans: "1"
+  why: 空所の直後に副詞 hard があり、その後に Chloe practiced が続く。however＋副詞＋S＋V で「どんなに〜しても」。
+  trap: ④No matter を選ぶ誤り。言い換えるなら No matter how hard と how が要る。
+- id: q5009
+  sec: s16
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部のうち、誤りをふくむものを1つ選びなさい。
+  q: __However__① __busy is Rina__②, she __always__③ calls her grandmother __on__④ Sundays.
+  ans: "2"
+  why: however の節は however＋形容詞＋S＋V の語順で、疑問文のような倒置はしない。However busy Rina is とする。①However は「どんなに〜でも」の意味に合っていて、直後に形容詞 busy もあるので正しい。
+  trap: 「どんなに忙しいのか」という疑問文の語順に引かれて、is Rina を正しいと思う誤り。複合関係詞の節の中は、主語＋動詞の普通の語順になる。
+- id: q5010
+  sec: s16
+  set: 節末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: どんなに速く走っても、9時の電車には間に合わないだろう。<br>( fast / however / run / you ), you won't catch the nine o'clock train.
+  words: [fast, however, run, you]
+  ans: However fast you run, you won't catch the nine o'clock train.
+  why: 副詞 fast を however の直後に置き、その後を you run の普通の語順にする。
+  trap: However you run fast と、副詞を動詞の後ろに残す誤り。however は程度を表す語を引き連れて節の先頭に出る。
+- id: q5011
+  sec: s16
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: No matter (＿) you stand in this park, you can see Mt. Fuji on a clear day.
+  choices: [what, wherever, which, where]
+  ans: "4"
+  why: you stand in this park は欠けた語のない完全な文なので、場所を表す where が入る。No matter where＝Wherever（どこに立っても）。
+  trap: ②wherever を選ぶ誤り。no matter の後には疑問詞を置き、-ever の語は置かない。
+- id: q5012
+  sec: s16
+  set: 節末
+  lv: 3
+  kind: 英作
+  min: 3
+  inst: however を使って、日本語を英語に直しなさい。
+  q: どんなにたくさん宿題があっても、ジャックは毎晩10時に寝る。
+  ans: However much homework Jack has, he goes to bed at ten every night.
+  alt: ["Jack goes to bed at ten every night, however much homework he has.", "However much homework Jack has, he goes to bed at ten o'clock every night."]
+  why: homework は数えられない名詞なので however much＋名詞＋S＋V にする。however much homework を節の先頭にまとめ、主節は現在形で習慣を表す。
+  trap: However many homeworks や However Jack has much homework とする誤り。homework は複数形にならず、much homework は however の直後にまとめて置く。
+# ---- 章末 ----
+- id: q5013
+  sec: s15
+  set: 章末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部のうち、誤りをふくむものを1つ選びなさい。
+  q: "Our school __keeps__① some umbrellas __at__② the front desk, and the staff __will__③ lend one to __whomever__④ needs it on a rainy day."
+  ans: "4"
+  why: "節の中で needs の主語が欠けているので、④を主格の whoever にする（anyone who でもよい）。to の目的語は whoever needs it という節全体で、whoever はその節の中の主語である。"
+  trap: "前置詞 to の直後なので目的格の whomever が正しいと考え、①〜③の中から誤りを探してしまう誤り。複合関係詞の格は、直前の語ではなく節の中での働きで決まる。"
+- id: q5014
+  sec: s16
+  set: 章末
+  lv: 2
+  kind: 正誤
+  min: 1
+  q: __Wherever__① you __will go__② in Hokkaido next month, __take__③ a warm jacket __with__④ you.
+  ans: "2"
+  why: 譲歩の副詞節では、来月のことでも will を使わず現在形で表すのが普通。Wherever you go in Hokkaido next month とする（かたい書き言葉では may を使う形もある）。
+  trap: next month があるので will を正しいと思う誤り。時・条件の副詞節と同じく、譲歩の副詞節でも未来のことは普通現在形で表す。
+- id: q5015
+  sec: s15
+  set: 章末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: どちらの道を選んでも、駅までは15分ほどかかる。<br>( choose / road / whichever / you ), it takes about fifteen minutes to get to the station.
+  words: [choose, road, whichever, you]
+  ans: Whichever road you choose, it takes about fifteen minutes to get to the station.
+  why: whichever＋名詞（複合関係形容詞）の whichever road を節の先頭に置き、you choose を続ける。節の中で choose の目的語が欠けている。
+  trap: Whichever you choose road と、名詞を後ろに回す誤り。whichever＋名詞は1つのまとまりとして節の先頭に出る。
+- id: q5016
+  sec: s16
+  set: 章末
+  lv: 3
+  kind: 整序
+  min: 2
+  q: どんなに簡単に見えても、その問題は解くのに時間がかかるだろう。<br>( easy / however / look / may / question / the ), it will take you some time to solve.
+  words: [easy, however, look, may, question, the]
+  ans: However easy the question may look, it will take you some time to solve.
+  why: 形容詞 easy を however の直後に置き、the question may look と主語＋助動詞＋動詞の語順で続ける。この may は譲歩の節に入るもので「かもしれない」の意味ではない。
+  trap: However the question may look easy と easy を後ろに残す誤り。look easy の easy も however の直後に出る。
+- id: q5017
+  sec: s15
+  set: 章末
+  lv: 2
+  kind: 読解
+  min: 4
+  inst: 次の英文を読み、問いの答えとして最も適切なものを1つ選びなさい。
+  q: "Our school library has a new rule this term. Whoever borrows a book must return it within two weeks. If you return a book late, you cannot borrow anything for one week, however good your reason is. Mr. Mori, the librarian, says the rule is fair. 'Take whatever books you like, and read them wherever you want,' he says. 'Just bring them back on time.' Last month, Olivia returned three books one day late, so she could not borrow the new mystery novel she wanted. Now she writes the return date in her notebook.<br>問　本文の内容に合うものはどれか。"
+  choices:
+  - Students can keep a book for a month if they have a good reason.
+  - A student who returns a book late cannot borrow books for one week.
+  - Mr. Mori says students must read library books in the library.
+  - Olivia borrowed the mystery novel because she returned her books early.
+  ans: "2"
+  why: 2文目と3文目に、返却が遅れると1週間何も借りられないとある。however good your reason is は「理由がどんなによくても」で、①の内容を打ち消している。
+  trap: however good your reason is を「理由がよければ」と条件の意味に読んで①を選ぶ誤り。however は「どんなに〜でも」の譲歩を表す。
+- id: q5018
+  sec: s16
+  set: 章末
+  lv: 2
+  kind: 読解
+  min: 4
+  q: "My grandmother lives alone in a small town by the sea. Whenever I visit her, we cook fish together in her kitchen. She does not use a smartphone, so I write her a letter every month. 'Whatever you write about is interesting to me,' she always says. Last winter, I could not visit her because of heavy snow. However hard it snowed, the post office kept working, and my letters arrived on time.<br>問　本文の内容に合うものはどれか。"
+  choices:
+  - The grandmother only wants letters about the sea.
+  - The grandmother sends the writer an email every month.
+  - The writer and the grandmother cook fish together on every visit.
+  - The heavy snow stopped the writer's letters last winter.
+  ans: "3"
+  why: Whenever I visit her, we cook fish together は「訪ねるたびに魚を料理する」で③と合う。④は However hard it snowed（どんなに雪が降っても）手紙は届いたので誤り。
+  trap: Whatever you write about を「海について書いたこと」と結びつけて①を選ぶ誤り。whatever you write about は is の主語になる名詞節で「あなたが書くことなら何でも」。話題を海に限っていない。
+- id: q5019
+  sec: s15
+  set: 章末
+  lv: 2
+  kind: 読解
+  min: 4
+  q: "Yuto's soccer club practices on the school field every Tuesday and Friday. The coach has one rule: whoever arrives late must run three laps of the field before joining practice. However, the coach always listens first. Last Friday, Yuto was twenty minutes late because his train stopped between two stations. He gave the coach a note from the station staff, so he did not have to run. 'Whatever the reason is, tell me,' the coach says. 'Then I'll decide.'<br>問　先週の金曜日、ユウトがグラウンドを走らなくてよかったのはなぜか。"
+  choices:
+  - He arrived at practice before it started.
+  - He gave the coach a note that explained the train problem.
+  - The coach's rule is only for Tuesday practice.
+  - The coach did not see him arrive late.
+  ans: "2"
+  why: 5文目に、駅員からの書面をコーチに渡したので走らなくてよかったとある。whoever arrives late は「遅れて来た人は誰でも」で、規則そのものは毎回の練習に当てはまる。
+  trap: However, the coach always listens first. の However を「どんなに〜でも」と読み、規則に例外がないと考える誤り。直後にコンマがあるので「しかし」の意味。
+- id: q5020
+  sec: s16
+  set: 章末
+  lv: 2
+  kind: 和訳
+  min: 3
+  inst: 次の英文を日本語に訳しなさい。
+  q: Whenever you get lost in the city, call me, and I'll come and find you wherever you are.
+  ans: 町で道に迷ったときはいつでも電話して。あなたがどこにいても見つけに行くから。
+  alt: [街で迷子になったらいつでも電話してね。どこにいても私が見つけに行くよ。, 町で道に迷うたびに私に電話しなさい。そうすれば、あなたがどこにいても見つけに行こう。]
+  why: Whenever は「〜するときはいつでも」、wherever you are は譲歩で「どこにいても」。call me, and … は「電話して。そうすれば〜」の関係を訳に出す。
+  trap: wherever you are を「あなたがいるところへ」とだけ訳し、譲歩の「どこにいても」を落とす誤り。どんな場所でも結果が変わらないという意味まで訳す。
+- id: q6001
+  sec: s17
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: This is the café (＿) I think serves the best pancakes in town.
+  choices: [who, whom, which, what]
+  ans: "3"
+  why: 先行詞 the café は人以外。I think を外すと (＿) serves … となり、serves の主語が欠けているので which。
+  trap: I think の直後に空所があるように見えて④what を選びやすい。what は先行詞をふくむので、the café の後ろには置けない（@s10）。
+- id: q6002
+  sec: s17
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  q: The boy (＿) everyone says is the best singer in our class will sing first at the festival.
+  choices: [who, whose, whom, which]
+  ans: "1"
+  why: everyone says を外すと (＿) is the best singer となり、is の主語が欠けている。先行詞は人なので who。
+  trap: everyone says の目的語だと考えて③whom を選ぶ誤りが多い。says の目的語は人ではなく「＿ is the best singer」という節で、外したあとに動詞 is が続くので主格になる。
+- id: q6003
+  sec: s17
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りを含むものを1つ選びなさい。
+  q: The man __whom__① I believed __was__② the owner of the shop __was__③ actually a customer __who__④ came every day.
+  ans: "1"
+  why: I believed を外すと (＿) was the owner となり、was の主語が欠けている。主格なので whom ではなく who にする。
+  trap: believed の直後に was（動詞）が続くことを見落とし、believe ＋ 人 ＋ to be の形と同じだと考えて whom を正しいとする誤り。to be が続くときだけ目的格になる。
+- id: q6004
+  sec: s17
+  set: 節末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: あれが、この店でいちばん親切だと私が思う店員だ。<br>That is the clerk ( I / is / kindest / the / think / who ) in this shop.
+  words: [I, is, kindest, the, think, who]
+  ans: That is the clerk who I think is the kindest in this shop.
+  why: 先行詞 the clerk の直後に who、その後に I think を入れ、主語を書かずに節の動詞 is を続ける。
+  trap: the clerk I think who is … のように I think を関係代名詞の前に置く誤り。I think は関係代名詞と節の動詞の間に入る。
+- id: q6005
+  sec: s17
+  set: 節末
+  lv: 2
+  kind: 和訳
+  min: 3
+  inst: 次の英文を日本語に訳しなさい。
+  q: The shop which my friend said was the best in town had closed when we got there.
+  ans: 友人が町でいちばんだと言っていた店は、私たちが着いたときには閉まっていた。
+  alt: [町でいちばんいいと友人が言っていたその店は、私たちが着いたときにはもう閉まっていた。]
+  why: my friend said を外すと which was the best in town となり、which は was の主語。文全体の動詞は had closed。「友人が言っていた」が「店」にかかり、「店は〜閉まっていた」の骨組みが訳に出ていれば正解。had closed は「（その日の営業を終えて）閉まっていた」と取るのが自然だが、「店をやめていた（閉店していた）」と訳しても誤りとしない。
+  trap: said の目的語を the shop と取り、「友人が店に言った」のように訳す誤り。said の内容は「その店が町でいちばんだ」という節である。
+- id: q6006
+  sec: s17
+  set: 節末
+  lv: 3
+  kind: 4択
+  min: 1
+  q: The question (＿) was too difficult for first-year students was removed from the test.
+  choices: [which the teachers thought that, whom the teachers thought, the teachers thought it, which the teachers thought]
+  ans: "4"
+  why: the teachers thought を外すと which was too difficult となり、which は was の主語。主語が欠けた連鎖関係詞節なので、thought の後に that は入れない。
+  trap: ①は「think that ～」の形に引かれて選びやすいが、主語が欠けた節の前に that を置くことはできない。③は節の中に it が残り、主語が二重になる。
+- id: q6007
+  sec: s18
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  q: My sister goes to the same dance school (＿) our cousin went to.
+  choices: [than, as, but, what]
+  ans: "2"
+  why: the same の付いた名詞の後ろで、went to の後ろの名詞が欠けている。the same … as の as が関係代名詞の働きをしている。
+  trap: ①than は比較級と組む語で、the same とは組まない。the same を見たら as を探す。
+- id: q6008
+  sec: s18
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  q: (＿) is often the case with my father, he left his umbrella on the train.
+  choices: [What, Which, As, That]
+  ans: "3"
+  why: As is often the case with A は「A にはよくあることだが」。as は後ろの主節の内容を受け、is の主語になっている。文頭に置けるのは as。
+  trap: 前の内容を受ける which（@s14）と混同して②を選ぶ誤り。which で内容を受けるのは , which … の形で文の後ろに置く場合で、文頭には置けない。
+- id: q6009
+  sec: s18
+  set: 節末
+  lv: 2
+  kind: 補充
+  min: 1
+  inst: （　）に適切な1語を入れなさい。
+  q: Please don't bring more water than (＿) needed for the one-day hike.
+  ans: is
+  why: 比較級 more water の後ろの than が節の主語の働きをしている。主語の water は数えられない名詞なので is。
+  trap: than の後に主語がないと感じて it is と2語を入れたくなる。than 自体が主語なので、than it is needed は誤り。
+- id: q6010
+  sec: s18
+  set: 節末
+  lv: 3
+  kind: 和訳
+  min: 3
+  inst: 次の英文を日本語に訳しなさい。
+  q: There was no one at the meeting but agreed with the plan.
+  ans: 会議には、その計画に賛成しない人は1人もいなかった。
+  alt: [会議に出ていた人はみな、その計画に賛成した。]
+  why: no one の後ろの but は that … not の意味の関係代名詞で、agreed の主語の働き。There was no one that did not agree with the plan. と同じ。二重否定が「全員賛成した」という意味で訳に出ていれば正解。古風な表現。
+  trap: but を「しかし」と読み、「会議にはだれもいなかったが、計画に賛成した」と訳す誤り。後ろに主語のない agreed が続くことから、関係代名詞の but だと分かる。
+- id: q6011
+  sec: s18
+  set: 節末
+  lv: 3
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りを含むものを1つ選びなさい。
+  q: __Such__① students __as wants__② to join the trip __must__③ hand in this form __by__④ Friday.
+  ans: "2"
+  why: as は such students を受けて節の主語になっている。先行詞が複数の students なので、動詞は want にする。
+  trap: as の直後の動詞を、as を単数の主語とみなして wants のままにする誤り。関係代名詞と同じく、動詞の数は先行詞に合わせる（@s19）。
+- id: q6012
+  sec: s18
+  set: 節末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 私が持っている本でよければ、貸してあげよう。<br>I'll lend you ( as / books / have / I / such ).
+  words: [as, books, have, I, such]
+  ans: I'll lend you such books as I have.
+  why: such books の後ろに、have の目的語が欠けた節 as I have を置く。as は have の目的語の働きをしている。改まった言い方で、会話では the books I have などと言う。
+  trap: such as books I have のように such as を続けて書く誤り。「たとえば」の such as の後ろには名詞だけが来て、欠けのある節は続かない。
+- id: q6013
+  sec: s19
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  q: I have two cousins who (＿) in Sapporo.
+  choices: [to live, lives, living, live]
+  ans: "4"
+  why: who の先行詞は複数の two cousins。関係詞節の動詞は先行詞の数に合わせるので、複数の主語に合う live。
+  trap: who を単数の主語とみなして②lives を選ぶ誤り。who 自体には単数・複数の区別がなく、先行詞で決まる。
+- id: q6014
+  sec: s19
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  q: Yesterday I met the father of the twins who (＿) both in my class.
+  choices: [are, is, be, being]
+  ans: "1"
+  why: the father of the twins の後ろの who が、the father と the twins のどちらを説明しているかを考える。節の中に both（2人とも）があるので、先行詞は複数の the twins で、動詞は are になる。
+  trap: 文頭の I や、名詞のかたまりの先頭にある the father に合わせて②is を選ぶ誤り。who の後の動詞は先行詞の数で決まり、both は1人の人には使えない。
+- id: q6015
+  sec: s19
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りを含むものを1つ選びなさい。
+  q: Our captain is __the only one__① of the players __who__② __have__③ played __for__④ the national team.
+  ans: "3"
+  why: the only one of the players who … の先行詞は the only one（選手の中で代表でプレーしたのはキャプテン1人）。動詞は単数形の has にする。
+  trap: one of the players who … と同じだと考えて、複数形の have を正しいとする誤り。the only が付くと先行詞は1人に絞られる。
+- id: q6016
+  sec: s19
+  set: 節末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 姉が去年の夏に北海道で撮った写真が、市のカレンダーに選ばれた。<br>The photos ( Hokkaido / in / last / my / sister / summer / that / took / were ) chosen for the city calendar.
+  words: [Hokkaido, in, last, my, sister, summer, that, took, were]
+  ans: The photos that my sister took in Hokkaido last summer were chosen for the city calendar.
+  alt: [The photos that my sister took last summer in Hokkaido were chosen for the city calendar.]
+  why: The photos の後ろに took の目的語が欠けた関係詞節 that my sister took … を置き、その後に文全体の動詞 were を続ける。were は文頭の The photos に合う複数形。
+  trap: The photos were … を先に作ってしまい、関係詞節の置き場所がなくなる誤り。主語の名詞の直後に関係詞節を置き、外に残った動詞を最後に続ける。
+- id: q6017
+  sec: s19
+  set: 節末
+  lv: 3
+  kind: 和訳
+  min: 3
+  inst: 次の英文を日本語に訳しなさい。
+  q: Two postcards arrived from the hotel which were written in Japanese.
+  ans: 日本語で書かれた絵はがきが2枚、そのホテルから届いた。
+  alt: [そのホテルから、日本語で書かれた絵はがきが2枚届いた。]
+  why: which 節は文の後ろに回された外置の関係詞節。動詞が複数形の were なので、先行詞は単数の the hotel ではなく Two postcards。「日本語で書かれた」が「絵はがき」にかかっていれば正解。
+  trap: 直前の the hotel を先行詞と取り、「日本語で書かれたホテル」と訳す誤り。were が複数形であることと、意味から先行詞を決める。
+- id: q6018
+  sec: s19
+  set: 節末
+  lv: 2
+  kind: 読解
+  min: 4
+  inst: 次の英文を読み、問いの答えとして最も適切なものを1つ選びなさい。
+  q: "The volunteers who clean the beach near our school meet on the first Sunday of every month. Last month, a woman joined them who had just moved to the town from Osaka. She brought a large bag of gloves that her old group had given her. The gloves, which were bright yellow, were easy to see on the sand. By noon, the group had collected forty bags of trash, more than they had ever collected before.<br>問　What did the woman bring?"
+  choices: [Forty bags of trash., Gloves from the group she had belonged to before., A map of the town from Osaka., Yellow sand for the beach.]
+  ans: "2"
+  why: a bag of gloves that her old group had given her の that 節は gloves を説明しており、以前のグループからもらった手袋を持ってきたことが分かる。
+  trap: 2文目の a woman joined them who had just moved … の who 節が them を説明すると誤読すると、だれが何をしたかが混乱する。who は離れた a woman を受けている。
+- id: q6019
+  sec: s17
+  set: 章末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りを含むものを1つ選びなさい。
+  q: "At the bus stop I __met__① a woman __who__② was __carrying__③ a big guitar case, and she turned out to be the new music teacher __whom__④ we had heard would come in April."
+  ans: "4"
+  why: "we had heard を外すと the new music teacher whom would come in April となり、関係代名詞は would come の主語。主語なので④の whom を who（または that）にする。②の who は was carrying の主語で正しい。"
+  trap: "we had heard の目的語だと考えて④の whom を正しいとする誤り。heard の目的語は「＿ would come in April」という節全体で、関係代名詞は節の中で主語の働きをしている。"
+- id: q6020
+  sec: s18
+  set: 章末
+  lv: 2
+  kind: 4択
+  min: 1
+  q: "We received more letters (＿) we could answer in a week."
+  choices: [who, as, than, what]
+  ans: "3"
+  why: "比較級 more letters の後ろで、answer の目的語が欠けている。比較級と組んで関係代名詞の働きをするのは than で、「1週間で返事を書ききれないほどの手紙が届いた」という意味になる。"
+  trap: "後ろが不完全な文なので、関係代名詞の①who を選ぶ誤り。who は先行詞が人のときに使う語で、letters（手紙）には使えない。比較級 more letters があるときは、than が関係代名詞の働きをする形を考える。"
+- id: q6021
+  sec: s19
+  set: 章末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: おばは、毎朝駅前を掃除しているボランティアの1人だ。<br>My aunt is one ( clean / of / the / volunteers / who ) the area in front of the station every morning.
+  words: [clean, of, the, volunteers, who]
+  ans: My aunt is one of the volunteers who clean the area in front of the station every morning.
+  why: one of the volunteers の後ろに who clean … を置く。who の先行詞は the volunteers なので、動詞は複数形の clean になっている。
+  trap: My aunt is one who clean … のように one の直後に who を置く誤り。one of the volunteers までが1つのまとまりで、who はその後ろに来る。
+- id: q6022
+  sec: s17
+  set: 章末
+  lv: 3
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: テストに出ると先生が言った単語を覚えなさい。<br>Learn the words ( be / said / teacher / the / which / would ) on the test.
+  words: [be, said, teacher, the, which, would]
+  ans: Learn the words which the teacher said would be on the test.
+  why: 先行詞 the words の後ろに which、その後に the teacher said を入れ、主語を書かずに節の動詞 would be を続ける。which は would be の主語。
+  trap: which would be … the teacher said のように said を後ろに回そうとして、語が余る誤り。the teacher said は which と節の動詞の間に入れる。
+- id: q6023
+  sec: s19
+  set: 章末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りを含むものを1つ選びなさい。
+  q: The number of students __who__① __use__② the new library __have__③ increased __since__④ April.
+  ans: "3"
+  why: 関係詞節 who use the new library を外すと、文全体の主語は The number（数）で単数。動詞は has increased にする。②use は先行詞 students に合っているので正しい。
+  trap: 直前の library や students に引かれて have を正しいとする誤り。関係詞節をくくり、文頭の主語と本動詞を結びつけて数を確かめる。
+- id: q6024
+  sec: s17
+  set: 章末
+  lv: 2
+  kind: 読解
+  min: 4
+  inst: 次の英文を読み、問いの答えとして最も適切なものを1つ選びなさい。
+  q: "Last Sunday, Saki went to a small concert in the park. Before it started, she saw a woman with a violin who she thought was her old piano teacher. Saki waved, but the woman did not wave back. After the concert, Saki talked to her and learned that she was the teacher's younger sister. The two sisters looked so alike that even their friends sometimes confused them. The sister gave Saki a ticket for her next concert in December.<br>問　Who was the woman with the violin?"
+  choices: [Saki's old piano teacher., Saki's own sister., A friend of Saki's mother., The younger sister of Saki's old piano teacher.]
+  ans: "4"
+  why: who she thought was her old piano teacher は「サキがピアノの先生だと思った」という意味で、実際は4文目にある通り先生の妹だった。
+  trap: 連鎖関係詞節の she thought を読み落とし、「昔のピアノの先生であるバイオリンの女性」と取って①を選ぶ誤り。
+- id: q6025
+  sec: s18
+  set: 章末
+  lv: 2
+  kind: 読解
+  min: 4
+  inst: 次の英文を読み、問いの答えとして最も適切なものを1つ選びなさい。
+  q: "Ms. Kimura's cooking club held a curry party for the first-year students in May. As is often the case with first events, the club made a few mistakes. They cooked far more rice than was needed, because more students had said they would come than actually came. Only twenty of the thirty-five students who had signed up showed up. The next day, the club gave the extra rice to the soccer team, and the players ate all of it in ten minutes.<br>問　Which of the following is true?"
+  choices: [The club cooked too much rice for the party., More students came than the club had expected., Thirty-five students came to the party., The soccer team cooked the rice for the club.]
+  ans: "1"
+  why: far more rice than was needed は「必要な量よりはるかに多くのご飯」。than が was needed の主語の働きをしている。35人の申し込みに対し20人しか来なかったので、ご飯が余った。
+  trap: more students had said they would come than actually came の more students に引かれて②を選ぶ誤り。than 以下と比べると、来ると言った人数のほうが多く、実際に来た人数は少ない。
+- id: q6026
+  sec: s19
+  set: 章末
+  lv: 2
+  kind: 読解
+  min: 4
+  inst: 次の英文を読み、問いの答えとして最も適切なものを1つ選びなさい。
+  q: "Dr. Patel works at a hospital in Yokohama. Last week a boy came to her office who had hurt his arm while playing basketball. He was one of the players who were practicing for the city tournament on Saturday. The X-ray showed no broken bones, but Dr. Patel told him to rest for a week. Of all the players on his team, he was the only one who was going to miss the tournament, and he looked very sad.<br>問　Why did the boy look sad?"
+  choices: [His arm was broken., He was the only player on his team who could not play in the tournament., All the players on his team had hurt their arms., Dr. Patel could not see him that day.]
+  ans: "2"
+  why: 最後の文の the only one who was going to miss the tournament から、チームで大会に出られないのは彼1人だったと分かる。2文目の who had hurt his arm は外置された関係詞節で、a boy を説明している。
+  trap: 2文目の who 節を直前の her office に結びつけて読むと、けがをしたのがだれか分からなくなる。who は人を受けるので、離れた a boy が先行詞になる。
+- id: q9001
+  part: 1
+  pts: 3
+  sec: s07
+  set: 模試
+  lv: 1
+  kind: 読解
+  min: 4
+  inst: 次の英文A・Bを読み、問いの答えとして最も適切なものを1つずつ選びなさい。
+  passage: '**A（学校新聞の記事）**<br>New Reading Room Opens<br>On November 9, the room where the brass band used to practice opened as a reading room. The idea came from Ms. Wood, who teaches English and also helps in the library. Last spring she noticed that the library was too crowded at lunchtime, which made it hard for students to find a seat.<br>The new room has 24 chairs and three long tables. The books on its shelves are ones that students chose themselves. In June, the library committee asked every class to write down the titles they wanted to read. More than 300 students answered, most of whom asked for comics and travel books. The committee then bought 150 books with the money the PTA had collected at the school festival.<br>The room is open from 12:40 to 1:20 on weekdays. Students whose classes finish early on Wednesdays can also use it after school until 4:30. What the committee needs now is a name for the room. If you have an idea, write it on a card and put it in the box which is next to the library door. The winner will get a 1,000-yen book card.'
+  q: 英文A（学校新聞の記事）について。<br>問　What was the reading room used for before November 9?
+  choices:
+  - It was a room where the brass band practiced.
+  - It was a room for the library staff.
+  - It was a classroom for English lessons.
+  - It was a room where the PTA held meetings.
+  ans: '1'
+  why: 第1段落の the room where the brass band used to practice が答え。where 以下の完全な文が the room を説明し、「吹奏楽部が以前練習していた部屋」となる。
+  trap: 直後に出てくる Ms. Wood, who teaches English に引かれて③を選ぶ誤り。who 節が説明しているのはウッド先生で、部屋ではない。
+- id: q9002
+  part: 1
+  pts: 3
+  sec: s14
+  set: 模試
+  lv: 2
+  kind: 読解
+  min: 2
+  q: 英文Aについて。<br>問　In the first paragraph, what does "which" in "which made it hard for students to find a seat" refer to?
+  choices:
+  - the library
+  - lunchtime
+  - the fact that the library was too crowded at lunchtime
+  - the fact that students wanted more books
+  ans: '3'
+  why: コンマの付いた which が、前の節 the library was too crowded at lunchtime の内容全体を受けている。「混んでいたこと」が席を見つけにくくした、と読めば意味が通る。
+  trap: which の直前の名詞 lunchtime や the library を先行詞と考えて①②を選ぶ誤り。図書館や昼休みそのものが席を見つけにくくした、では意味がずれる。
+- id: q9003
+  part: 1
+  pts: 3
+  sec: s14
+  set: 模試
+  lv: 2
+  kind: 読解
+  min: 1
+  q: 英文Aについて。<br>問　Which of the following is true according to the article?
+  choices:
+  - The committee has already decided the name of the room.
+  - Students chose all of the 300 books in the new room.
+  - Every student can use the room after school on Wednesdays.
+  - Most of the students who answered asked for comics and travel books.
+  ans: '4'
+  why: More than 300 students answered, most of whom asked for comics and travel books. の most of whom は「回答した生徒のうちの大半」を指す。④はこれの言いかえである。
+  trap: ③を選ぶ誤り。放課後に使えるのは Students whose classes finish early on Wednesdays、つまり水曜の授業が早く終わる生徒だけで、全員ではない。whose 節が主語を絞りこんでいる。
+- id: q9004
+  part: 1
+  pts: 3
+  sec: s04
+  set: 模試
+  lv: 1
+  kind: 読解
+  min: 4
+  passage: '**B（ブログ）**<br>Last Saturday I joined a walking tour of my town, which a group of volunteers holds twice a month. Our guide was Mr. Hayashi, a retired bus driver who has lived here for over sixty years. He showed us places that I had passed many times without noticing them.<br>The first stop was a small shrine behind the post office. He told us the reason why it stands in such a narrow space: it was moved there in 1972 from a hill that was cut down for a new road. Then we walked to the riverside, where a wooden bridge stood until a typhoon broke it in 1959. The stone base that held the bridge is still there, and he said it is what he most wants young people to see.<br>The tour ended at a coffee shop whose owner is an old friend of his. There, we each got a hand-drawn map on which all the stops were marked. I was surprised that the tour cost only 300 yen, including a cup of coffee. Whoever likes local history should try it. The next tour is on December 5, and you can sign up at the information desk in the station.'
+  q: 英文B（ブログ）について。<br>問　Where did the walking tour end?
+  choices:
+  - At the post office.
+  - At a coffee shop owned by the guide's old friend.
+  - At the information desk in the station.
+  - At the riverside.
+  ans: '2'
+  why: 第3段落の a coffee shop whose owner is an old friend of his が答え。whose owner は「その店の持ち主」で、his はガイドを指す。
+  trap: 最後の文の the information desk in the station に引かれて③を選ぶ誤り。駅の案内所は次回の申しこみをする場所で、ツアーが終わった場所ではない。
+- id: q9005
+  part: 1
+  pts: 3
+  sec: s10
+  set: 模試
+  lv: 2
+  kind: 読解
+  min: 2
+  q: 英文Bについて。<br>問　According to the guide, what does he most want young people to see?
+  choices:
+  - the small shrine behind the post office
+  - the hill that was cut down for a new road
+  - the map on which all the stops are marked
+  - the stone base of the old wooden bridge
+  ans: '4'
+  why: he said it is what he most wants young people to see の it は、同じ文の前半の The stone base that held the bridge を指す。what 節は「彼が若い人に最も見てほしいもの」という名詞節で、is の補語になっている。
+  trap: it を第2段落の最初の話題である神社と結びつけて①を選ぶ誤り。it は同じ文の前半の主語 The stone base を受けている。
+- id: q9006
+  part: 1
+  pts: 3
+  sec: s06
+  set: 模試
+  lv: 2
+  kind: 読解
+  min: 1
+  q: 英文Bについて。<br>問　Which is closest in meaning to "we each got a hand-drawn map on which all the stops were marked"?
+  choices:
+  - We got one map, and the guide wrote our names on it.
+  - Each of us drew a map and marked the stops on it.
+  - Each of us received a map that showed all the places the tour stopped at.
+  - Each of us got a map which was put up at every stop.
+  ans: '3'
+  why: on which は「その地図の上に」で、もとの文は all the stops were marked on the map。「立ち寄る場所がすべて記された地図を1人1枚もらった」となり、③と同じ意味になる。
+  trap: hand-drawn と marked から「自分で描いて印を付けた」と読み、②を選ぶ誤り。were marked は受け身で、地図はもらったもの（got）である。
+- id: q9007
+  part: 2
+  pts: 3
+  sec: s02
+  set: 模試
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つずつ選びなさい。
+  q: The train (＿) leaves Hakata at 7:15 goes straight to Osaka.
+  choices:
+  - which
+  - who
+  - what
+  - whose
+  ans: '1'
+  why: 先行詞 The train は人以外で、節の中で leaves の主語が欠けている。人以外・主語が欠ける → which（または that）。
+  trap: ③what を選ぶ誤り。what は先行詞をふくむので、The train のような先行詞の後ろには置けない。
+- id: q9008
+  part: 2
+  pts: 3
+  sec: s04
+  set: 模試
+  lv: 1
+  kind: 4択
+  min: 1
+  q: I have a friend (＿) father works as a vet at the city zoo.
+  choices:
+  - whose
+  - whom
+  - who
+  - which
+  ans: '1'
+  why: 空所の直後の father に冠詞も所有格もなく、「その友達の父親」という所有の関係になっている。所有者を表すのは whose。
+  trap: 先行詞が人なので③who を選ぶ誤り。who を入れると who father works … となり、father の前に何もない形が残る。
+- id: q9009
+  part: 2
+  pts: 3
+  sec: s05
+  set: 模試
+  lv: 1
+  kind: 4択
+  min: 1
+  q: Kenta ate all the cookies (＿) his mother had baked for the guests.
+  choices:
+  - what
+  - who
+  - that
+  - whose
+  ans: '3'
+  why: 先行詞 all the cookies は人以外で、baked の目的語が欠けている。all が付いた先行詞の後ろでは that がよく使われる。
+  trap: 「〜したもの」という日本語から①what を選ぶ誤り。all the cookies という先行詞があるので what は使えない（all what は誤り）。
+- id: q9010
+  part: 2
+  pts: 3
+  sec: s09
+  set: 模試
+  lv: 2
+  kind: 4択
+  min: 1
+  q: The aquarium (＿) my class visited in May has a glass tunnel under a big tank.
+  choices:
+  - where
+  - which
+  - when
+  - in which
+  ans: '2'
+  why: 節 my class visited ＿ in May は、visited の目的語が欠けた不完全な文。目的語の代わりができるのは関係代名詞の which で、関係副詞の where は入らない。
+  trap: 先行詞 The aquarium が場所なので①where を選ぶ誤り。where の後ろは完全な文でなければならない。
+- id: q9011
+  part: 2
+  pts: 3
+  sec: s06
+  set: 模試
+  lv: 2
+  kind: 4択
+  min: 1
+  q: The club (＿) Ella belongs has 42 members.
+  choices:
+  - which
+  - for which
+  - of which
+  - to which
+  ans: '4'
+  why: もとの文は Ella belongs to the club.。belong to（〜に所属する）の to を関係代名詞の前に出すと to which になる。
+  trap: ①which を選ぶ誤り。belongs の後ろに前置詞 to が残っていないので、which だけでは to が足りない。
+- id: q9012
+  part: 2
+  pts: 3
+  sec: s10
+  set: 模試
+  lv: 2
+  kind: 4択
+  min: 1
+  q: Please show me (＿) you bought at the market this morning.
+  choices:
+  - that
+  - what
+  - whom
+  - where
+  ans: '2'
+  why: show me の後ろに先行詞がなく、bought の目的語が欠けている。先行詞をふくむ what が入り、「あなたが買ったもの」という名詞節になる。
+  trap: ①that を選ぶ誤り。関係代名詞の that には先行詞が要る。接続詞の that なら後ろは完全な文でなければならないが、bought の目的語が欠けている。
+- id: q9013
+  part: 2
+  pts: 3
+  sec: s13
+  set: 模試
+  lv: 2
+  kind: 4択
+  min: 1
+  q: Our new math teacher, (＿) came from Okinawa in April, plays the guitar in a band.
+  choices:
+  - that
+  - what
+  - whom
+  - who
+  ans: '4'
+  why: コンマの付いた非制限用法で、先行詞 Our new math teacher は人、came の主語が欠けている。非制限用法・人・主語 → who。
+  trap: ①that を選ぶ誤り。that は非制限用法（コンマの後ろ）では使わない。③whom は目的格で、came の主語にはなれない。
+- id: q9014
+  part: 2
+  pts: 3
+  sec: s16
+  set: 模試
+  lv: 2
+  kind: 4択
+  min: 1
+  q: No matter (＿) late you come home, send me a message before you leave the station.
+  choices:
+  - however
+  - what
+  - how
+  - when
+  ans: '3'
+  why: 空所の直後に形容詞 late があり、その後に you come home が続く。no matter how＋形容詞・副詞＋S＋V で「どんなに遅く帰っても」となる（＝However late you come home）。
+  trap: ①however を選ぶ誤り。no matter の後ろには疑問詞を置き、-ever の付いた語は置かない。④when では late を引き連れられない。
+- id: q9015
+  part: 2
+  pts: 3
+  sec: s17
+  set: 模試
+  lv: 1
+  kind: 4択
+  min: 1
+  q: "The old painting (＿) the experts believed to be a copy turned out to be real."
+  choices:
+  - which
+  - what
+  - whom
+  - where
+  ans: '1'
+  why: "the experts believed の後ろに to be a copy が続き、believed の目的語が欠けている（believe O to be C「OをCだと思う」。もとの文は The experts believed the painting to be a copy.）。先行詞 The old painting は人以外で、節の中で目的語の働きをするので which。文全体の動詞は turned out。"
+  trap: "believed の目的語が欠けているので目的格の③whom を選ぶ誤り。目的格を選ぶ考え方は正しいが、whom は先行詞が人のときに使う。先行詞は絵（物）なので which になる。"
+- id: q9016
+  part: 2
+  pts: 3
+  sec: s18
+  set: 模試
+  lv: 2
+  kind: 4択
+  min: 1
+  q: Ella packed more clothes for the three-day trip (＿) were really necessary.
+  choices:
+  - as
+  - but
+  - than
+  - what
+  ans: '3'
+  why: 先行詞に比較級 more が付いている。than が were necessary の主語の働きをして「本当に必要な量を超える服」となる。
+  trap: ①as を選ぶ誤り。as が関係代名詞の働きをするのは such … as や the same … as のときで、比較級 more と組むのは than。
+- id: q9017
+  part: 3
+  pts: 4
+  sec: s03
+  set: 模試
+  lv: 1
+  kind: 正誤
+  min: 1
+  inst: 下線部のうち、誤りを含むものを1つずつ選び、正しい形に直しなさい。
+  q: The bag __which__① my uncle __gave__② me __it__③ last month is __too__④ heavy to carry to school.
+  choices:
+  - ①
+  - ②
+  - ③
+  - ④
+  ans: '3'
+  fix: "The bag which my uncle gave me last month（it を削除）"
+  why: "which が gave の目的語の代わりをしているので、節の中に it を残すと目的語が2つになる。採点の目安（4点）：誤りの下線部の番号が正しければ2点、訂正が正しければ2点。番号が誤っているときは、訂正にも点を与えない。指示文のとおり、語を取り除く訂正は「it を削除」と書く。「削除」の語がなくても、「it を取り除く」「it は不要」のように it を消すことがはっきり分かれば訂正の2点を与える。"
+  trap: ④too を選ぶ誤り。too heavy to carry は「重すぎて運べない」で正しい。
+- id: q9018
+  part: 3
+  pts: 4
+  sec: s19
+  set: 模試
+  lv: 2
+  kind: 正誤
+  min: 1
+  q: The cookies __that__① my grandmother __bakes__② every Sunday __is__③ always gone __by__④ Monday morning.
+  choices:
+  - ①
+  - ②
+  - ③
+  - ④
+  ans: '3'
+  fix: The cookies … are always gone
+  why: 関係詞節 that my grandmother bakes every Sunday を［ ］でくくって外すと、The cookies is always gone が残る。主語は複数の The cookies なので、is を are にする。②bakes は節の中の主語 my grandmother に合っているので正しい。採点の目安（4点）：誤りの下線部の番号が正しければ2点、訂正が正しければ2点。番号が誤っているときは、訂正にも点を与えない。
+  trap: is の直前の Sunday や my grandmother に引かれて、単数の is を正しいと思う誤り。文全体の動詞の数は、関係詞節の外にある文頭の主語に合わせる。
+- id: q9019
+  part: 3
+  pts: 4
+  sec: s13
+  set: 模試
+  lv: 2
+  kind: 正誤
+  min: 1
+  q: We stayed at a small hotel near the station, __that__① had __no__② elevator, so we __had to__③ carry our bags __up__④ to the fourth floor.
+  choices:
+  - ①
+  - ②
+  - ③
+  - ④
+  ans: '1'
+  fix: a small hotel near the station, which had no elevator
+  why: "コンマの後ろの非制限用法なので that は使えない。先行詞 a small hotel は人以外で、had の主語が欠けているので which にする。採点の目安（4点）：誤りの下線部の番号が正しければ2点、訂正が正しければ2点。番号が誤っているときは、訂正にも点を与えない。①を and it に直した … near the station, and it had no elevator も文法上正しい文になるので、訂正の2点を与える。"
+  trap: ③had to を「must にすべき」と考えて選ぶ誤り。過去のことなので must の過去の意味を表す had to で正しい。
+- id: q9020
+  part: 3
+  pts: 4
+  sec: s14
+  set: 模試
+  lv: 2
+  kind: 正誤
+  min: 1
+  q: "Yesterday I __talked__① __with__② the two exchange students __from__③ Brazil, __both of them__④ speak Japanese well."
+  choices:
+  - ①
+  - ②
+  - ③
+  - ④
+  ans: "4"
+  fix: "the two exchange students from Brazil, both of whom speak Japanese well"
+  why: "both of them のままでは、コンマだけで2つの文（I talked … と both of them speak …）をつないでいることになる。先行詞 the two exchange students は人なので④を both of whom にする。採点の目安（4点）：誤りの下線部の番号が正しければ2点、訂正が正しければ2点。番号が誤っているときは、訂正にも点を与えない。④を and both of them、who both に直したものも文法上正しい文になるので、訂正の2点を与える。"
+  trap: "talked with を talked to に直すべきだと考えて、②with を選ぶ誤り。talk with も talk to も正しい。both の後ろの speak が複数形で合っているので④を見落としやすいが、問題は動詞の数ではなく、2つの文がコンマだけでつながっていることにある。"
+- id: q9021
+  part: 3
+  pts: 4
+  sec: s15
+  set: 模試
+  lv: 2
+  kind: 正誤
+  min: 1
+  q: __Whomever__① __finishes__② the test first __may__③ leave the room __quietly__④.
+  choices:
+  - ①
+  - ②
+  - ③
+  - ④
+  ans: '1'
+  fix: Whoever finishes the test first
+  why: 節の中で finishes の主語が欠けているので、主格の Whoever にする。Whoever finishes the test first が文全体の主語になる名詞節である。採点の目安（4点）：誤りの下線部の番号が正しければ2点、訂正が正しければ2点。番号が誤っているときは、訂正にも点を与えない。
+  trap: 文頭なので目的格でも主格でもよいと考え、whomever を正しいとする誤り。格は節の中の働きで決まり、主語の位置に whomever は置けない。
+- id: q9022
+  part: 4
+  pts: 4
+  sec: s03
+  set: 模試
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。文頭に来る語も小文字で示してある。
+  q: 父が私に買ってくれた腕時計は、もう動かない。<br>The ( bought / father / for / me / my / watch ) no longer works.
+  words:
+  - bought
+  - father
+  - for
+  - me
+  - my
+  - watch
+  ans: The watch my father bought for me no longer works.
+  why: "関係代名詞が与えられていないので、目的格の関係代名詞を省いた the watch my father bought ＿ for me の形にする。bought の目的語が欠けている。文全体の動詞は works。"
+  trap: "関係代名詞が見当たらないので bought を文の動詞と考え、The watch bought … と並べる誤り。文の動詞は works で、the watch の直後に my father bought を続ける。"
+- id: q9023
+  part: 4
+  pts: 4
+  sec: s14
+  set: 模試
+  lv: 2
+  kind: 整序
+  min: 2
+  q: 私はこの作家の小説を5冊読んだが、そのうち2冊は映画になった。<br>I have read five novels by this writer, ( into / made / of / two / were / which ) films.
+  words:
+  - into
+  - made
+  - of
+  - two
+  - were
+  - which
+  ans: I have read five novels by this writer, two of which were made into films.
+  why: 「そのうち2冊」は two of which で節の先頭に置き、その後に were made into films（映画にされた）を続ける。先行詞 five novels は人以外なので which。two of which は節の中で were の主語になる。
+  trap: which を先に置いて which two of … と並べようとする誤り。数の表現＋of＋which の順で1つのまとまりになる。
+- id: q9024
+  part: 4
+  pts: 4
+  sec: s16
+  set: 模試
+  lv: 2
+  kind: 整序
+  min: 2
+  q: どんなに疲れていても、ケンタは毎晩30分英語を勉強する。<br>( is / Kenta / however / tired ), he studies English for 30 minutes every night.
+  words:
+  - is
+  - Kenta
+  - however
+  - tired
+  ans: However tired Kenta is, he studies English for 30 minutes every night.
+  why: however は形容詞 tired を引き連れて節の先頭に出る。残りは Kenta is の普通の語順にする。
+  trap: However Kenta is tired と tired を後ろに残す誤り。「どんなに」の意味は however＋形容詞のまとまりで表す。
+- id: q9025
+  part: 4
+  pts: 4
+  sec: s17
+  set: 模試
+  lv: 2
+  kind: 整序
+  min: 2
+  q: 私が正直だと思っていた店員は、私にうそをついていた。<br>The clerk ( honest / I / thought / was / who ) lied to me.
+  words:
+  - honest
+  - I
+  - thought
+  - was
+  - who
+  ans: The clerk who I thought was honest lied to me.
+  why: The clerk who was honest に I thought が入りこんだ形。先行詞 → who → I thought → was honest の順に並べる。
+  trap: The clerk who was honest I thought … のように I thought を節の後ろに回す誤り。I thought は who の直後に入る。
+- id: q9026
+  part: 4
+  pts: 4
+  sec: s11
+  set: 模試
+  lv: 3
+  kind: 整序
+  min: 2
+  q: 今の私があるのは祖母のおかげだ。<br>I owe ( am / I / my / to / today / what ) grandmother.
+  words:
+  - am
+  - I
+  - my
+  - to
+  - today
+  - what
+  ans: I owe what I am today to my grandmother.
+  why: owe A to B（AはBのおかげだ）の A に what I am today（今日の私）を置く。what I am today は am の補語が欠けた不完全な文で、what がその補語の代わりをしている。what S is は「Sの今の姿」を表す。
+  trap: 「私が何であるか」と考えて what am I の疑問文の語順にする誤り。what 節の中は I am の普通の語順になる。
+- id: q9027
+  part: 5
+  pts: 6
+  sec: s14
+  set: 模試
+  lv: 2
+  kind: 和訳
+  min: 3
+  inst: 次の英文の下線部を日本語に訳しなさい。
+  q: __Ella told her coach that she would quit the tennis club, which surprised all the members.__
+  ans: エラはテニス部をやめるとコーチに伝え、そのことは部員全員を驚かせた。
+  alt:
+  - エラがテニス部をやめるとコーチに伝えたので、部員全員が驚いた。
+  - エラはテニス部をやめるつもりだとコーチに言ったが、それに部員はみな驚いた。
+  why: ", which は直前の the tennis club ではなく、前の節 Ella told her coach that she would quit the tennis club の内容全体（エラがテニス部をやめるとコーチに伝えたこと）を受ける。「そのこと」は、エラがテニス部をやめるとコーチに伝えたことを指す。採点の目安（6点）：which が前の節の内容を受けていることが訳に出ている（「そのこと」「それ」「〜と伝えたので」など）3点。「エラがやめること」に驚いたと読んだ訳も、驚いた中身は同じなので3点を与える。told her coach that she would quit the tennis club（やめるとコーチに伝えた）2点。surprised all the members（部員全員を驚かせた）1点。which を「テニス部」と訳したものは which の3点を与えない。"
+  trap: which を直前の the tennis club と結びつけ「部員全員を驚かせたテニス部をやめる」と訳す誤り。テニス部が部員を驚かせたのでは意味が通らない。
+- id: q9028
+  part: 5
+  pts: 6
+  sec: s19
+  set: 模試
+  lv: 3
+  kind: 和訳
+  min: 3
+  q: __A letter arrived this morning which said that the concert Ms. Wood had planned for March would be held in a larger hall.__
+  ans: ウッド先生が3月に計画していたコンサートは、もっと大きなホールで開かれるという手紙が、今朝届いた。
+  alt:
+  - 今朝手紙が届き、そこには、ウッド先生が3月に予定していたコンサートがより大きなホールで行われると書いてあった。
+  why: 採点の目安（6点）：which の先行詞が離れた A letter であることをとらえ、「〜という手紙」「手紙が届き、そこには〜」と訳す 2点。the concert Ms. Wood had planned for March（ウッド先生が3月に計画していたコンサート。目的格の関係代名詞の省略）2点。would be held in a larger hall（より大きなホールで開かれる。受け身と比較級）2点。
+  trap: which の直前の this morning を先行詞と考え「〜と言った今朝」のように訳す誤り。said の主語になれるのは人以外の名詞 A letter で、関係詞節が文の後ろに回っている（外置）。
