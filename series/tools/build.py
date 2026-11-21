@@ -70,12 +70,22 @@ class Book:
                 for ps in pc['sections']:
                     ch['sections'][idx[ps['id']]] = ps
             self.data.setdefault('problems', []).extend(part.get('problems', []) or [])
-        # 指示文の引き継ぎ：inst を省いた問題は、同じ節・同じ区分の直前の問題の指示を使う（並べ替えの前に確定する）
+        # 指示文：同じ形式の直前の問題から引き継ぐ（節末は節ごと、章末は章ごと、模試は大問ごと）。
+        # 引き継ぐものがなければ形式ごとの標準の指示を使う。正誤は全冊で1つの言い回しにそろえる。
+        DEFAULT = {'4択': '（　）に入る最も適切なものを1つ選びなさい。',
+                   '正誤': '下線部①〜④のうち、誤りをふくむものを1つ選びなさい。',
+                   '整序': '日本語の意味になるように（　）内の語を並べかえなさい。',
+                   '和訳': '下線部を日本語に訳しなさい。',
+                   '読解': '次の英文を読み、問いの答えとして最も適切なものを1つ選びなさい。'}
         last = {}
         for p in self.data.get('problems', []):
-            k = (p['sec'] if p['set'] == '節末' else 'ch', p['set'], p.get('part'))
+            chid = next(c['id'] for c in self.data['chapters'] if any(s['id'] == p['sec'] for s in c['sections']))
+            unit = ('模試', p.get('part')) if p['set'] == '模試' else ((p['sec'] if p['set'] == '節末' else chid), p['set'])
+            k = unit + (p['kind'],)
             if p.get('inst'): last[k] = p['inst']
-            p['inst_eff'] = p.get('inst') or last.get(k)
+            p['inst_eff'] = p.get('inst') or last.get(k) or DEFAULT.get(p['kind'])
+            if p['kind'] == '正誤':
+                p['inst_eff'] = DEFAULT['正誤'] if '直しなさい' not in (p['inst_eff'] or '') else '下線部①〜④のうち、誤りをふくむものを1つ選び、正しい形に直しなさい。'
         order = {s['id']: i for i, s in enumerate(s for c in self.data['chapters'] for s in c['sections'])}
         setord = {'節末': 0, '章末': 1, '模試': 2}
         # 並び：模試は最後。章末は章の最後。節末は節の順

@@ -315,7 +315,9 @@ table.sheet td { border: .5pt solid #000; padding: 1.5mm 2mm; height: 12mm; }
 table.sheet td.sl { width: 24mm; font: 700 9.5pt "Goth"; white-space: nowrap; }
 table.sheet td.pt { width: 14mm; text-align: center; font: 9pt "Goth"; }
 .sl-box { width: 14mm; height: 8mm; border: .75pt solid #000; }
-table.sheet tr.w td { height: 20mm; }
+table.sheet tr.w td { height: 18mm; }
+table.sheet tr.ww td { height: 34mm; }
+.sl-fix { font: 7.5pt "Goth"; margin-top: 1mm; }
 /* 解答解説 */
 .blk.ka { border-bottom: .35pt solid #000; padding: 2mm 0 2.2mm; }
 .ka .hd { display: flex; gap: 3mm; align-items: baseline; font: 8.5pt/1.5 "Goth"; }
@@ -377,7 +379,9 @@ def mondai_blocks(bk, pages, part, cover, colophon, legend):
                 out.append(blk(bk.md(inst, pages), 'inst keepnext'))
             last_inst = inst
             body = q_body(bk, p, pages)
-            if p['kind'] in ('4択', '正誤') or (p['kind'] == '読解' and p.get('choices')):
+            if p['kind'] == '正誤' and '直しなさい' in (p.get('inst_eff') or ''):
+                out.append(blk(f'<div class="q">{body}</div><div class="acol"><span class="alab">記号</span><div class="abox"></div></div><div class="wl"><span class="alab">正しい形</span><div class="aline"></div><div class="aline"></div></div>', 'qr w', anchor='q' + str(p['no'])))
+            elif p['kind'] in ('4択', '正誤') or (p['kind'] == '読解' and p.get('choices')):
                 out.append(blk(f'<div class="q">{body}</div><div class="acol"><span class="alab">解答</span><div class="abox"></div></div>', 'qr', anchor='q' + str(p['no'])))
             else:
                 n = {'整序': 1, '補充': 1, '和訳': 2, '英作': 2, '読解': 2}[p['kind']]
@@ -413,9 +417,11 @@ def mondai_blocks(bk, pages, part, cover, colophon, legend):
         rows = []
         for pt in parts:
             for p in [p for p in mock if p['part'] == pt]:
-                wide = p['kind'] not in ('4択', '正誤', '読解') or not p.get('choices')
-                cell = '<div class="sl-line"></div>' if wide else '<div class="sl-box"></div>'
-                rows.append(f'<tr class="{"w" if wide else ""}"><td class="sl">{p["label"]}</td><td>{cell}</td><td class="pt">{p.get("pts", "")}</td></tr>')
+                fixq = p['kind'] == '正誤' and '直しなさい' in (p.get('inst_eff') or '')
+                wide = fixq or (p['kind'] not in ('4択', '正誤', '読解') or (p['kind'] == '読解' and not p.get('choices')))
+                cell = '<div class="sl-box"></div><div class="sl-fix">正しい形</div>' if fixq else ('<div class="sl-line"></div>' if wide else '<div class="sl-box"></div>')
+                cls = 'ww' if p['kind'] in ('和訳', '英作') else ('w' if wide else '')
+                rows.append(f'<tr class="{cls}"><td class="sl">{p["label"]}</td><td>{cell}</td><td class="pt">{p.get("pts", "")}</td></tr>')
         out.append(blk('<div class="fm-title">模擬試験　解答用紙</div><div class="sheet-h">名前 <span class="u"></span>　　得点 <span class="u s"></span> ／ ' + str(tot) + '</div>', 'newpage', anchor='sheet', section='模擬試験　解答用紙'))
         for i in range(0, len(rows), 10):
             out.append(blk('<table class="sheet"><thead><tr><th>番号</th><th>解答</th><th>配点</th></tr></thead><tbody>' + ''.join(rows[i:i + 10]) + '</tbody></table>', 'sheetblk'))
