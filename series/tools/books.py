@@ -254,7 +254,7 @@ def legend_html(bk, part):
 <tr><th><span class="gap"></span></th><td>関係詞節の中で欠けている位置</td></tr>
 <tr><th>→ p.16</th><td>本書の16ページを参照</td></tr>
 <tr><th><span class="ans">赤字</span></th><td>赤シートで隠して答える部分。赤はこの用途にだけ使う</td></tr>
-<tr><th>①②③④（下線）</th><td>正誤問題の下線部の番号。文の前から順に付けている</td></tr>
+<tr><th>①②③④（下線）</th><td>正誤問題の下線部の番号。下線部のすぐ後ろに付け、文の前から順に①②③④とする</td></tr>
 <tr><th>★／★★／★★★</th><td>共通テスト水準／GMARCH 標準／入試より難しい発展</td></tr>
 <tr><th>□□□</th><td>解いた記録。1回目・1週間後・1か月後に1つずつ印を付ける</td></tr>
 </tbody></table>
@@ -394,6 +394,8 @@ def problem_blocks(bk, pages, probs, wide=False):
             out.append(blk(f'<div class="q">{body}</div><div class="acol"><span class="alab">解答</span><div class="abox"></div></div>', 'qr' + W, anchor='q' + str(p['no'])))
         else:
             n = {'整序': 1, '補充': 1, '和訳': 2, '英作': 2, '読解': 2}[p['kind']]
+            if p['kind'] == '補充':
+                n = max(1, len(re.findall(r'\(＿\)|\[＿\]', str(p['q']))))  # 空所の数だけ線を引く
             out.append(blk(f'<div class="q">{body}</div><div></div><div class="wl"><span class="alab">解答</span>' + '<div class="aline"></div>' * (n + 1) + '</div>', 'qr w' + W, anchor='q' + str(p['no'])))
     return out
 
@@ -490,10 +492,13 @@ def diagnosis_blocks(bk, ch, kp):
     ps = [p for p in bk.problems if p['set'] == '章末' and bk.ch_of[p['sec']] is ch]
     rows = ''
     for p in ps:
-        ref = p.get('ref') or p['sec']
-        wks = bk.wk_nos.get(ref, [])
-        rows += (f'<tr><td class="nwc">{p["label"]}</td><td class="cb"><span class="ck"></span></td><td>{bk.sec_no[ref]}　{E(bk.sec_title[ref])}</td>'
-                 f'<td class="nwc">p.{kp.get(ref, "00")}</td><td class="nwc">{"例題" + "・".join(map(str, wks)) if wks else ""}</td></tr>')
+        refs = p.get('ref') or p['sec']
+        refs = refs if isinstance(refs, list) else [refs]
+        secs = '<br>'.join(f'{bk.sec_no[r]}　{E(bk.sec_title[r])}' for r in refs)
+        pgs = '<br>'.join(f'p.{kp.get(r, "00")}' for r in refs)
+        wkc = '<br>'.join(('例題' + '・'.join(map(str, bk.wk_nos.get(r, [])))) if bk.wk_nos.get(r) else '' for r in refs)
+        rows += (f'<tr><td class="nwc">{p["label"]}</td><td class="cb"><span class="ck"></span></td><td>{secs}</td>'
+                 f'<td class="nwc">{pgs}</td><td class="nwc">{wkc}</td></tr>')
     head = '<tr><th>問題</th><th>×</th><th>読み直す節</th><th>本冊</th><th>例題</th></tr>'
     return [blk(f'<div class="dgt">第{ch["no"]}章　診断表</div><div class="dgs">間違えた問題の「×」の欄に印を付け、その節の解説と例題を読み直してから、本冊の節の問題をもう一度解きます。</div>'
                 f'<table class="t dg"><thead>{head}</thead><tbody>{rows}</tbody></table>', 'diag')]
@@ -517,12 +522,16 @@ def kaitou_blocks(bk, pages, part, cover, colophon, legend):
         alt = ''
         if p.get('alt'):
             alt = '<dt>別解</dt><dd>' + '／'.join(bk.md(a, pages) for a in p['alt']) + '</dd>'
-        ref = p.get('ref') or p['sec']
-        wks = bk.wk_nos.get(ref, [])
-        wk = ''
-        if wks:
-            wk = '<br>例題' + '・'.join(str(n) for n in wks) + f' <span class="pref">→&nbsp;p.{kp.get(f"w{wks[0]}", "00")}</span>'
-        side = f'<div class="sn"><span class="lab">間違えたら戻る</span>本冊 {bk.sec_no[ref]}　{E(bk.sec_title[ref])}<br>解説 <span class="pref">→&nbsp;p.{kp.get(ref, "00")}</span>{wk}</div>'
+        refs = p.get('ref') or p['sec']
+        refs = refs if isinstance(refs, list) else [refs]   # 2つの節にまたがる問題は戻り先を複数示す
+        items = []
+        for ref in refs:
+            wks = bk.wk_nos.get(ref, [])
+            wk = ''
+            if wks:
+                wk = '<br>例題' + '・'.join(str(n) for n in wks) + f' <span class="pref">→&nbsp;p.{kp.get(f"w{wks[0]}", "00")}</span>'
+            items.append(f'本冊 {bk.sec_no[ref]}　{E(bk.sec_title[ref])}<br>解説 <span class="pref">→&nbsp;p.{kp.get(ref, "00")}</span>{wk}')
+        side = '<div class="sn"><span class="lab">間違えたら戻る</span>' + '<br>'.join(items) + '</div>'
         label = p['label']
         out.append(blk(f'''<div class="hd"><span class="no">{label}</span><span>{STAR[p["lv"]]}</span><span>{E(p["kind"])}</span></div>
 <div><span class="ans-l">正解　</span><span class="ans-v ans">{ans_text(bk, p, pages)}</span></div>

@@ -94,6 +94,8 @@ class Book:
             k = unit + (p['kind'],)
             if p.get('inst'): last[k] = p['inst']
             p['inst_eff'] = p.get('inst') or last.get(k) or DEFAULT.get(p['kind'])
+            if p['kind'] == '整序' and p['inst_eff'] and '小文字' not in p['inst_eff']:
+                p['inst_eff'] = p['inst_eff'].rstrip() + '文頭に来る語も小文字で示してある。'
             if p['kind'] == '正誤':
                 p['inst_eff'] = DEFAULT['正誤'] if '直しなさい' not in (p['inst_eff'] or '') else '下線部①〜④のうち、誤りをふくむものを1つ選び、正しい形に直しなさい。語を取り除くときは「削除」と書きなさい。'
         order = {s['id']: i for i, s in enumerate(s for c in self.data['chapters'] for s in c['sections'])}

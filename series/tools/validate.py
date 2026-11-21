@@ -182,6 +182,8 @@ def main(paths):
         if p.get('set') not in SETS: err.append(f'{pid}: set が不正: {p.get("set")}')
         if p.get('lv') not in (1, 2, 3): err.append(f'{pid}: lv が不正')
         if p.get('sec') not in sec_ids: err.append(f'{pid}: sec が存在しない: {p.get("sec")}')
+        for r in (p.get('ref') if isinstance(p.get('ref'), list) else [p.get('ref')] if p.get('ref') else []):
+            if r not in sec_ids: err.append(f'{pid}: ref の節が存在しない: {r}')
         if p.get('kind') == '4択':
             ch = p.get('choices') or []
             if len(ch) != 4: err.append(f'{pid}: 4択の選択肢が4つでない')
