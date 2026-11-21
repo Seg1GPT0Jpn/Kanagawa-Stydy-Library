@@ -1,7 +1,7 @@
 chapters:
 - id: c1
   title: 関係代名詞の基本
-  lead: この章では、who・which・that・whose の使い分けと、前置詞と組み合わせた形を学びます。どの節でも、s01 の3つの問い（@s01）で関係代名詞を決め、後ろが完全な文か不完全な文かを確かめます。
+  lead: この章では、who・which・that・whose の使い分けと、前置詞と組み合わせた形を学びます。どの節でも、第1節の3つの問い（@s01）で関係代名詞を決め、後ろが完全な文か不完全な文かを確かめます。
   sections:
   - id: s02
     title: 主格の関係代名詞 who・which・that
@@ -14,10 +14,10 @@ chapters:
         term: 主格
         yomi: しゅかく
         text: "関係代名詞が、関係詞節の中で主語の働きをしていること。主格の関係代名詞は who, which, that。"
-    - p: 主格の関係代名詞の後ろには、主語のない形が続きます。@e101 の［ ］の中では、sits の前に主語がありません。文に欠かせない語が抜けたこの形が、@s01 で見た不完全な文です。who・which・that の後ろは不完全な文になり、何が欠けているかで使う語が決まるのです（whose と、前置詞が前に出る形は @s04・@s06 で扱います）。
+    - p: 主格の関係代名詞の後ろには、主語のない形が続きます。@e101 の［ ］の中では、sits の前に主語がありません。文に欠かせない語が抜けたこの形が、第1節（@s01）で見た不完全な文です。who・which・that の後ろは不完全な文になり、何が欠けているかで使う語が決まるのです（whose と、前置詞が前に出る形は @s04・@s06 で扱います）。
     - ex: [e101, e102]
     - h: who・which・that の使い分け
-    - p: 主格で使う語は、s01 の問1「先行詞は人か」で決まります。人なら who（@e101）、人以外なら which（@e102）。that は人にも人以外にも使えます（@e103、@e104）。ただし書き言葉では、先行詞が人のときは that より who のほうがよく使われます。
+    - p: 主格で使う語は、第1節の問1「先行詞は人か」で決まります。人なら who（@e101）、人以外なら which（@e102）。that は人にも人以外にも使えます（@e103、@e104）。ただし書き言葉では、先行詞が人のときは that より who のほうがよく使われます。
     - ex: [e103, e104, e105]
     - p: 動物は人以外として扱うので、@e105 のように which か that を使います。ペットのように名前で呼び、家族の一員として話す動物には who を使うこともありますが、入試の4択で先行詞が動物なら、which か that を選ぶのが基本です。
     - h: 節の中の動詞と、よくある書きまちがい
@@ -27,7 +27,7 @@ chapters:
       notes:
       - kind: 注意
         text: "主語を二重にしない。the girl who she sits next to me は誤り。who がすでに主語の働きをしているので、she は要らない。"
-    - p: 主格の関係代名詞は、原則として省略できません。@e101 から who を外すと The girl sits next to me in math class is from Hokkaido. となり、sits と is のどちらが文の動詞なのか分からなくなります。省略できる場合とできない場合は、次の @s03 でまとめて見ます。
+    - p: 主格の関係代名詞は、原則として省略できません。@e101 から who を外すと The girl sits next to me in math class is from Hokkaido. となり、sits と is のどちらが文の動詞なのか分からなくなります。省略できる場合とできない場合は、次の節（@s03）の終わりの表にまとめます。
     - check:
       - {q: "The woman [＿] runs this café used to be a nurse.", a: who／that}
       - {q: "Take the bus [＿] stops in front of the city hall.", a: which／that}
@@ -74,7 +74,7 @@ chapters:
         yomi: もくてきかく
         text: "関係代名詞が、関係詞節の中で動詞や前置詞の目的語の働きをしていること。目的格の関係代名詞は who(m), which, that。"
     - ex: [e108, e109, e110]
-    - p: 使う語は s01 の表のとおりで、人なら whom か who（@e109）、人以外なら which（@e108）、どちらにも that（@e110）が使えます。whom は改まった書き言葉の形です。会話や普通の文章では who や that を使うか、関係代名詞そのものを省きます。入試の4択で、人が先行詞の目的格の位置に whom があれば、それが正解です。
+    - p: 使う語は第1節の表のとおりで、人なら whom か who（@e109）、人以外なら which（@e108）、どちらにも that（@e110）が使えます。whom は改まった書き言葉の形です。会話や普通の文章では who や that を使うか、関係代名詞そのものを省きます。入試の4択で、人が先行詞の目的格の位置に whom を選んで、間違いになることはありません。
     - p: 目的格の関係詞節では、関係代名詞のすぐ後ろに主語が来ます。which I bought、whom Ken helped がその例で、主格の who sits（@e101）とはちがい「関係代名詞＋主語＋動詞」の並びになります。後ろの動詞の目的語の位置が空いているかを確かめれば、主格と取りちがえることはありません。
       notes:
       - kind: 注意
@@ -88,26 +88,30 @@ chapters:
         text: "目的格の関係代名詞が省略され、先行詞の直後に「主語＋動詞」が続く関係詞節。the cake my mother made の my mother made など。"
     - ex: [e111, e112]
     - p: 前置詞の目的語が欠けている場合も、前置詞を節の最後に残しておけば、関係代名詞を省略できます（@e112）。読むときは、文の途中の to の後ろに何もないことに気づくのが手がかりです。the girl が「to の相手」だと分かれば、正しく訳せます。前置詞を関係代名詞の前に出す形は @s06 で扱います。
-    - h: 主格は省略できない（例外もある）
+    - h: 主格は原則として省略できない
     - p: 主格の関係代名詞は、原則として省略できません。@e113 から who を外すと The man called you this morning left a message for you. となり、called と left のどちらが文の動詞なのか分からなくなります。目的格を省いても「名詞＋主語＋動詞」の並びが目印として残るのに対し、主格を省くと目印が何も残らないからです。
-    - ex: [e113, e114]
-    - p: ただし、例外もあります。関係代名詞が be 動詞の後ろの補語の働きをする場合で、@e114 の it was ＿ では that を省くのが普通です。I think などがはさまる場合も、the man I think lives next door のように主格が省かれることがあります（@s17）。
+    - ex: [e113]
+    - p: ただし、例外もあります。I think などが関係詞節の中にはさまる場合は、the man I think lives next door のように主格が省かれることがあります（@s17）。
     - p: くだけた話し言葉では、There's a man wants to see you.（あなたに会いたいという男の人が来ている）のように、there is や here is の後で主格が省かれることもあります。とはいえ、これは書き言葉では誤りとされる形です。入試の整序や正誤では、There is a man who wants to see you. のように主格を入れた形を正解とします。
       notes:
       - kind: 注意
         text: "there is の文でも、関係代名詞が目的格なら普通に省略できる。There is something I want to tell you.（話したいことがある）"
+    - h: 補語の働きをする関係代名詞は普通省く
+    - p: 関係代名詞が be 動詞の後ろの補語の働きをすることもあります。@e114 の［ ］の中では、was の後ろの「どんな場所だったか」にあたる補語が欠けていて、これも不完全な文です。この関係代名詞は主格でも目的格でもなく、使うなら that ですが、普通は省きます。
+    - ex: [e114]
     - table:
         head: ["", 省略, 例]
         rows:
         - [目的格（動詞の目的語）, "{{できる}}", "the sandwiches (that) my mother makes"]
         - [目的格（前置詞を後ろに残す）, "{{できる}}", "the girl (who) I was talking to"]
         - [主格, "{{原則できない}}", "the man who called you"]
+        - [補語（be 動詞の後ろ）, "{{普通は省く}}", "the quiet place (that) it was"]
         - [前置詞の直後, "{{できない}}", "the town in which he grew up"]
         - [コンマの後（@s13）, "{{できない}}", "my aunt, whom you met last year"]
     - check:
-      - {q: "The cake [which my sister baked ＿] was too sweet. の which は省略できるか。", a: できる（目的格）}
-      - {q: "The boy [who ＿ won the race] is my cousin. の who は省略できるか。", a: できない（主格）}
-      - {q: "This is the pen [＿] my grandfather gave me.", a: which／that（省略も可）}
+      - {q: "The cake [＿] my sister baked was too sweet.", a: which／that（目的格なので省略も可）}
+      - {q: "The boy [＿] won the race is my cousin.", a: who／that（主格なので省略できない）}
+      - {q: "He is not the shy boy [＿] he was five years ago.", a: that（補語なので、普通は何も入れない）}
     examples:
     - id: e108
       en: The bike [*which* I bought ＿ last spring] already has a flat tire.
@@ -136,6 +140,7 @@ chapters:
     - 目的格の関係代名詞は{{省略できる}}。名詞の直後に「{{主語＋動詞}}」が続いたら、省略を疑う。
     - 主格の関係代名詞は原則として{{省略できない}}。there is の後の省略は{{くだけた話し言葉}}に限られる。
     - 前置詞の{{直後}}の関係代名詞と、コンマの後の関係代名詞は省略できない。
+    - be 動詞の後ろの{{補語}}の働きをする関係代名詞は、普通は{{省く}}。
 
   - id: s04
     title: 所有格の whose
@@ -149,9 +154,9 @@ chapters:
         yomi: しょゆうかく
         text: "「〜の」という持ち主を表す形。関係代名詞では whose がこれに当たる。"
     - ex: [e115, e116, e117]
-    - p: whose かどうかを見分けるには、whose を his、her、its、their に置きかえてみます。@e116 なら His bike was stolen. となり、完全な文がもどります。who や which の後ろは主語や目的語が欠けた不完全な文でした（@s02、@s03）。whose の後ろは「冠詞のない名詞」から始まり、欠けているのは持ち主だけです。
+    - p: whose かどうかを見分けるには、「whose＋名詞」を「his＋名詞」「its＋名詞」などに置きかえて、節の中の欠けた位置に戻してみます。@e116 なら His bike was stolen.、@e117 なら I took her umbrella by mistake. となり、完全な文がもどります。whose の節も、who や which の節（@s02、@s03）と同じく不完全な文です。違うのは、欠けた主語や目的語の代わりをするのが whose 1語ではなく、「whose＋名詞」のかたまりだという点です。
     - p: 「whose＋名詞」は1つのかたまりとして、節の中で主語にも目的語にもなります。@e115 の whose mother、@e116 の whose bike は主語です。一方、@e117 の whose umbrella は took の目的語で、もとは took の後ろにあったかたまりが前に出ています。本書の例文では、かたまりがもとあった位置を ＿ で示しています。
-    - p: whose の直後の名詞には、a、the、my などを付けません。whose がすでに「その人の」という意味をもっているので、whose the bike とすると「〜の」が二重になるからです。発音が同じ who's と書きまちがえる誤りにも気をつけます。
+    - p: whose の直後の名詞には、a、the、my などを付けません（whose two sons、whose older brother のように、数や形容詞が付くことはあります）。whose がすでに「その人の」という意味をもっているので、whose the bike とすると「〜の」が二重になるからです。発音が同じ who's と書きまちがえる誤りにも気をつけます。
       notes:
       - kind: 注意
         text: "who's は who is または who has の短縮形。a man who's son is a doctor は誤りで、a man whose son is a doctor とする。"
@@ -188,7 +193,7 @@ chapters:
     summary:
     - whose は「その人の・その物の」を表す{{所有格}}の関係代名詞で、すぐ後ろの{{名詞}}といっしょに動く。
     - whose の直後の名詞には {{a・the・my}} などを付けない。
-    - whose を {{his／its}} などに置きかえると、完全な文がもどる。
+    - 「whose＋名詞」を「{{his／its}}＋名詞」などに置きかえて欠けた{{位置}}に戻すと、完全な文がもどる。
     - 先行詞が物でも whose を使える。a house whose roof ＝ a house {{the roof of which}}
 
   - id: s05
@@ -199,10 +204,10 @@ chapters:
     - p: 先行詞に「ただ1つに決まる」ことを表す語が付いていると、関係代名詞は that がよく使われます。@e121 の the most interesting book は、今年読んだ本の中の1冊を「いちばん」で指し示しています。強く範囲をしぼる先行詞には、しぼる働きだけをもつ that がなじむと説明されます。最上級、the first、the last、the only、the same などが付いた先行詞が、その代表です。
     - p: 同じように、all、every、any、no の付いた先行詞や、everything、anything、nothing などの語にも that が好まれます（@e123、@e124）。which も文法上は誤りではありませんが、all which のような形はあまり使われません。@e124 の All that we need は「必要なのは〜だけだ」という意味になる言い方です。
     - ex: [e121, e123, e124]
-    - p: 気をつけたいのは、「好まれる」は「that でなければならない」という意味ではないことです。先行詞が人なら、@e122 のように the only person who とするのも普通の英語です。the best movie which I have seen の which も誤りではありません。**入試で that だけが正解になるのは、ほかの選択肢が文法的に成り立たないとき**です。
+    - p: 気をつけたいのは、「好まれる」は「that でなければならない」という意味ではないことです。先行詞が人なら、@e122 のように the only person who とするのも普通の英語です。the best movie which I have seen の which も、文法上は誤りではありません。**そのため入試では、which だけを誤りとする問題はふつう出ません。**
       notes:
       - kind: 注意
-        text: "4択で that と which（または who）が両方並び、先行詞に最上級や all などが付いているときは、that を選ぶのが安全である。"
+        text: "4択で that と which が並んでいたら、コンマの後か、前置詞の直後か、先行詞が「人＋人以外」かを確かめる。どちらか一方だけが正解になるのは、こうした理由でもう一方が使えないときである。最上級や all が付くだけでは which は誤りにならない。"
     - ex: [e122]
     - p: 先行詞が「人と、人以外のもの」の組み合わせのときも that を使います。@e125 の a boy and his dog は、少年（人）と犬（人以外）です。who では犬に合わず、which では少年に合わないので、両方に使える that が選ばれます。節の中の動詞は、先行詞が2つなので were になっています。
     - ex: [e125]
@@ -261,7 +266,7 @@ chapters:
     - p: 「父が育った町」のもとの文は My father grew up in the town. です。the town は前置詞 in の目的語なので、関係代名詞は目的格になります。このとき in を置ける場所は2つあります。節の最後に残す形（@e128）と、関係代名詞の前に出す形（@e129）で、意味は同じです。
     - ex: [e128, e129, e130]
     - p: 前置詞を後ろに残す形は会話で普通に使われ、関係代名詞を省略することもできます（@e130）。in which のように前に出す形は、改まった書き言葉で多く見られます。前に出した場合、in which の後ろの my father grew up は完全な文になります。欠けていた in the town が、in which としてまるごと前に移ったからです。
-    - p: 前置詞の直後に置ける関係代名詞は which と whom だけです。that は前置詞の直後に置けず（@s05）、who は前置詞の直後では whom の形にします。in that や with who は、標準的な英語では誤りとされます。前置詞の直後の関係代名詞は、省略もできません。
+    - p: 関係代名詞のうち、that と who は前置詞の直後に置けません。前置詞の直後に置けるのは which・whom と、about whose novel のような「whose＋名詞」です（@q1018）。that を使いたいときは前置詞を節の最後に残し（@s05）、人を受けるときは who ではなく whom の形にします。in that や with who は、標準的な英語では誤りとされます。前置詞の直後の関係代名詞は、省略もできません。
       notes:
       - kind: 注意
         text: "前置詞を後ろに残すときは who も that も使える。the girl who I talked with ／ the girl that I talked with"
@@ -280,9 +285,9 @@ chapters:
     - ex: [e135]
     - p: turn off（消す）や pick up（拾う）の off や up は前置詞ではなく副詞なので、関係代名詞の前に出すことはできません。the light off which I turned は誤りで、the light (that) I turned off とします。逆に @e134 のように、前置詞を後ろに残すと不自然になる言い方もあります（the speed which the typhoon was moving at とはあまり言わない）。
     - check:
-      - {q: "This is the box [in ＿ I keep my old letters].", a: which}
-      - {q: "The man [to ＿ I gave my seat on the train] thanked me twice.", a: whom}
-      - {q: "The children [＿ my aunt looks after] are four and six.", a: who(m)／that（省略も可）}
+      - {q: "This is the box in [＿] I keep my old letters.", a: which}
+      - {q: "The man to [＿] I gave my seat on the train thanked me twice.", a: whom}
+      - {q: "The children [＿] my aunt looks after are four and six.", a: who(m)／that（省略も可）}
     examples:
     - id: e128
       en: This is the town [*which* my father grew up in ＿].
@@ -313,7 +318,7 @@ chapters:
       gloss: [[look after, 世話をする]]
     summary:
     - 前置詞の目的語が欠けた関係詞節では、前置詞を{{節の最後}}に残すか、関係代名詞の{{前}}に出す。
-    - 前置詞の直後には {{which}} と {{whom}} だけを置く。in that、with who は誤り。
+    - 前置詞の直後に {{that}} と {{who}} は置けない（which・whom・whose＋名詞は置ける）。in that、with who は誤り。
     - 前置詞を前に出すと、後ろは{{完全な文}}になる。
     - 前置詞は先行詞ではなく、節の中の{{動詞}}や名詞との結びつきで決まる。
     - look after などの{{句動詞}}では、前置詞を前に出さない。
@@ -351,9 +356,9 @@ problems:
   kind: 正誤
   min: 1
   inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
-  q: The students __who__① __joining__② the brass band __practice__③ in the music room __every morning__④.
+  q: __The students__① who __joining__② the brass band __practice__③ in the music room __every morning__④.
   ans: "2"
-  why: who の後ろには動詞が要る。joining だけでは動詞にならないので、who join（または who have joined）とする。③practice は主語 The students に対する文の動詞で正しい。
+  why: 主格の who の後ろには動詞が要る。joining だけでは動詞にならないので、who join（または who have joined）とする。③practice は主語 The students に対する文の動詞で正しい。
   trap: 「吹奏楽部に入っている」の「〜ている」から who joining を正しいと思う誤り。be 動詞のない -ing 形は進行形にならない。
 - id: q1004
   sec: s02
@@ -375,7 +380,7 @@ problems:
   min: 3
   inst: 次の英文を日本語に訳しなさい。
   q: The boy who sat next to Daniel on the bus lent him an umbrella.
-  ans: バスでダニエルの隣に座った少年が、彼に傘を貸してくれた。
+  ans: バスでダニエルの隣に座った少年が、彼に傘を貸した。
   alt: [バスでダニエルの隣に座っていた少年が、ダニエルに傘を貸した。]
   why: 主語は The boy who … on the bus までで、文の動詞は lent。関係詞節「バスでダニエルの隣に座った」を「少年」の前に置いて訳せていれば正解。
   trap: sat を文の動詞と読み「少年はバスでダニエルの隣に座り、傘を貸した」と2つの動作を並べる誤り。sat は関係詞節の中の動詞である。
@@ -607,7 +612,7 @@ problems:
   inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
   q: My brother is __the only__① student in his class __who__② __have__③ read all seven books __on__④ the list.
   ans: "3"
-  why: who の先行詞は the only student（単数）なので、節の中の動詞は has read にする。
+  why: who の先行詞は the only student（単数）なので、節の中の動詞は has read にする。先行詞が人なので②who は正しい（the only の後ろの that は「好まれる」だけで、必須ではない）。
   trap: 「the only の後ろは that」と覚えていて②を選ぶ誤り。that が好まれるだけで、先行詞が人なら who も正しい。
 # ---- s06 ----
 - id: q1025
@@ -656,7 +661,7 @@ problems:
   q: The bag __in that__① I put my phone __was__② stolen __at__③ the station __yesterday__④.
   ans: "1"
   why: 前置詞の直後に that は置けない。The bag in which I put my phone とする（または The bag that I put my phone in）。
-  trap: that は人にも物にも使えるので in that も正しいと思う誤り。前置詞の直後に置けるのは which と whom だけ。
+  trap: that は人にも物にも使えるので in that も正しいと思う誤り。関係代名詞のうち that と who は前置詞の直後に置けない（which・whom・whose＋名詞は置ける）。
 - id: q1029
   sec: s06
   set: 節末
@@ -693,10 +698,10 @@ problems:
   - Borrow books from the library.
   - Use the study room next to the library.
   - Return books to the teacher at the front desk.
-  - Ask questions at the library's front desk.
+  - Study in the library.
   ans: "2"
   why: The study room which is next to the library will be open … on November 3 から、図書館の隣の自習室は11月3日も使える。which is next to the library が the study room を説明している。
-  trap: ④を選ぶ誤り。the teacher who works at the front desk は図書館の受付の先生で、図書館は11月3日は閉まっている。
+  trap: ④を選ぶ誤り。図書館そのものは11月3日は閉まっている。勉強できるのは、which is next to the library で説明された隣の自習室である。
 - id: q1032
   sec: s06
   set: 章末
@@ -739,11 +744,11 @@ problems:
   lv: 2
   kind: 英作
   min: 3
-  inst: 日本語の意味になるように、関係代名詞を使って下線部を英語にしなさい。
-  q: 私のおばは、屋根が赤い家に住んでいる。<br>My aunt lives in ＿＿＿＿.
+  inst: 下線部の日本語を、関係代名詞を使って英語にし、空所に入れなさい。
+  q: 私のおばは、__屋根が赤い家__に住んでいる。<br>My aunt lives in ＿＿＿＿.
   ans: My aunt lives in a house whose roof is red.
   alt: [My aunt lives in a house the roof of which is red., My aunt lives in a house which has a red roof., My aunt lives in a house that has a red roof.]
-  why: 「その家の屋根」の持ち主の関係を whose roof で表す。whose の直後の roof には the を付けない。
+  why: 「その家の屋根」の持ち主の関係を whose roof で表す。whose の直後の roof には the を付けない。the roof of which is red、which［that］has a red roof も可。
   trap: a house which roof is red のように which を使う誤り。which の後ろには欠けた語が要るが、roof is red は欠けていない。
 - id: q1036
   sec: s05
@@ -759,7 +764,7 @@ problems:
   - Daniel's team got a map of the world as a prize.
   - Several students knew the answer to the last question.
   ans: "2"
-  why: the highest score that any team got that day（その日どのチームが取った得点よりも高い得点）から、筆者のチームより高い得点のチームはない。
+  why: the highest score that any team got that day（その日に各チームが取った得点の中で最も高い得点）から、筆者のチームより高い得点のチームはない。
   trap: ③を選ぶ誤り。a notebook that has a map of the world on its cover は「表紙に世界地図がついたノート」で、もらったのは地図そのものではなく、チームでもない。
 - id: q1037
   sec: s06
@@ -780,7 +785,7 @@ problems:
 - id: q1038
   sec: s04
   set: 章末
-  lv: 3
+  lv: 2
   kind: 読解
   min: 4
   inst: 次の英文を読み、問いの答えとして最も適切なものを1つ選びなさい。
@@ -792,4 +797,5 @@ problems:
   - It took the man two hours to fix the brakes on the bike.
   ans: "2"
   why: He says that old bikes people bring him are often better than new ones の old bikes people bring him は接触節で「人々が持ってくる古い自転車」。店主は古い自転車のほうがよいことが多いと言っている。
-  trap: ①を選ぶ誤り。Customers whose bikes are more than ten years old は「自転車が10年より古いお客」で、無料点検の対象は古い自転車のほうである。
+  ref: s03
+  trap: ①を選ぶ誤り。Customers whose bikes are more than ten years old は「自転車が10年より古いお客」で（whose は @s04）、無料点検の対象は古い自転車のほうである。

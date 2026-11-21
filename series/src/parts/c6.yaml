@@ -17,8 +17,6 @@ chapters:
     - ex: [e601, e602, e603]
     - p: 入りこんだ I think を指でかくしてみます。@e601 から I think を外すと @e602 の the player who is the fastest runner となり、who の後ろに is が直接続きます。主語が欠けているので、who は主格です。
     - p: "@e603 も the guidebook says を外すと which is the oldest となり、which は is の主語だと分かります。入りこむのは think のほか、believe, say, suppose, be sure, hear など「〜と思う・〜と言う」を表す動詞です。"
-      notes:
-      - {kind: 語注, items: [[guidebook, 旅行案内書]]}
     - h: whom を選ぶ誤り
     - p: 空所の後ろに I think があると、「think の目的語だから whom」と考えたくなります。けれども think の目的語は人ではなく、「＿ is the fastest runner」という節のほうです。関係代名詞の格は、I think を外したあとに残る節で決めます。外したときに動詞がすぐ続けば主語が欠けているので、人なら who です。
       notes:
@@ -115,7 +113,7 @@ chapters:
       ja: 先生は、やさしい英語で書かれた本を読むようにと私たちに言った。
     - id: e608
       en: Noah's grandmother served us such food [*as* she had ＿ in the house].
-      ja: ノアの祖母は、家にある食べ物を出せるだけ出してくれた。
+      ja: ノアの祖母は、家にあるだけの食べ物を出してくれた。
       gloss: [[serve, 料理を出す]]
     - id: e609
       en: Mia bought the same bag [*as* her sister has ＿].
@@ -128,7 +126,7 @@ chapters:
       ja: タクミにはよくあることだが、彼は旅行の初日に弁当を家に忘れた。
     - id: e612
       en: Don't buy more eggs [*than* ＿ are needed for the cake].
-      ja: ケーキに必要な数より多くの卵を買ってはいけない。
+      ja: ケーキに必要な数より多く卵を買ってはいけない。
     - id: e613
       en: The summer festival had more visitors [*than* the city had expected ＿].
       ja: 夏祭りには、市の予想を上回る数の人が来た。
@@ -152,7 +150,7 @@ chapters:
     - ex: [e615, e616]
     - h: one of the students who … と the only one of …
     - p: "@e617 で who が説明しているのは、one ではなく the students です。放課後に韓国語を学んでいる生徒が何人かいて、ミアはその1人だという意味なので、伝統的な文法では動詞を複数形の are にします。"
-    - p: 実際の英語では、one of the students who is … と単数形を使う人も少なくありません。話し言葉に多く、書き言葉にも見られ、これを認める語法書もあります。それでも入試では複数形が正解で、正誤問題では単数形が誤りの箇所として出されます。自分で書くときは複数形にしておきます。
+    - p: 実際の英語では、one of the students who is … と単数形を使う人も少なくありません。話し言葉に多く、書き言葉にも見られ、これを認める語法書もあります。入試では伝統的な文法に従って複数形を正解とするのが一般的ですが、単数形も実際に使われているので、本書では has と have のどちらか一方だけを正解にする問題は出しません。自分で書くときは複数形にしておきます。
     - p: "@e618 のように the only one of the students who … となると話が変わります。ブラジルに行ったことがあるのはノア1人で、who が説明しているのは the only one です。そのため動詞は単数形の has になります。the only が付いたら、先行詞は1人に絞られると考えます。"
     - ex: [e617, e618]
     - h: 先行詞から離れた関係詞節
@@ -173,7 +171,7 @@ chapters:
     - p: "@e622 では、class の直後の were を見て「class は単数なのに」と迷うかもしれません。in the last class までが関係詞節なので、were の主語は文頭の The questions です。正誤問題では、主語と本動詞の間に長い関係詞節をはさみ、動詞の数を問う形がよく出ます。"
     - ex: [e621, e622]
     - check:
-      - {q: "My cousin is one of the girls who [＿] in the brass band.（play／plays）", a: play（入試では先行詞 the girls に合わせる）}
+      - {q: "The two girls who [＿] next to me in class are sisters.（sit／sits）", a: sit（先行詞 the two girls は複数）}
       - {q: "He is the only one of the boys who [＿] a driver's license.（have／has）", a: has}
       - {q: "The keys that I found under the desks [＿] mine.（is／are）", a: are}
     examples:
@@ -266,7 +264,7 @@ problems:
   q: The shop which my friend said was the best in town had closed when we got there.
   ans: 友人が町でいちばんだと言っていた店は、私たちが着いたときには閉まっていた。
   alt: [町でいちばんいいと友人が言っていたその店は、私たちが着いたときにはもう閉まっていた。]
-  why: my friend said を外すと which was the best in town となり、which は was の主語。文全体の動詞は had closed。「友人が言っていた」が「店」にかかり、「店は〜閉まっていた」の骨組みが訳に出ていれば正解。
+  why: my friend said を外すと which was the best in town となり、which は was の主語。文全体の動詞は had closed。「友人が言っていた」が「店」にかかり、「店は〜閉まっていた」の骨組みが訳に出ていれば正解。had closed は「（その日の営業を終えて）閉まっていた」と取るのが自然だが、「店をやめていた（閉店していた）」と訳しても誤りとしない。
   trap: said の目的語を the shop と取り、「友人が店に言った」のように訳す誤り。said の内容は「その店が町でいちばんだ」という節である。
 - id: q6006
   sec: s17
@@ -282,7 +280,7 @@ problems:
 - id: q6007
   sec: s18
   set: 節末
-  lv: 2
+  lv: 1
   kind: 4択
   min: 1
   q: My sister goes to the same dance school (＿) our cousin went to.
@@ -364,11 +362,11 @@ problems:
   lv: 2
   kind: 4択
   min: 1
-  q: Mia is one of the members who (＿) never missed a practice this year.
-  choices: [have, has, having, is]
-  ans: "1"
-  why: who の先行詞は one ではなく the members（練習を休まなかった部員が何人かいて、ミアはその1人）。伝統的な文法と入試では、動詞を複数形の have にする。
-  trap: 主語の Mia や one に引かれて②has を選ぶ誤り。実際の英語では has も見られるが、入試では先行詞 the members に合わせた have が正解になる。
+  q: Yesterday I met the father of the twins who (＿) both in my class.
+  choices: [is, are, be, being]
+  ans: "2"
+  why: the father of the twins の後ろの who が、the father と the twins のどちらを説明しているかを考える。節の中に both（2人とも）があるので、先行詞は複数の the twins で、動詞は are になる。
+  trap: 文頭の I や、名詞のかたまりの先頭にある the father に合わせて①is を選ぶ誤り。who の後の動詞は先行詞の数で決まり、both は1人の人には使えない。
 - id: q6015
   sec: s19
   set: 節末
@@ -376,9 +374,9 @@ problems:
   kind: 正誤
   min: 1
   inst: 下線部①〜④のうち、誤りを含むものを1つ選びなさい。
-  q: Our coach is __the only one__① of the players __who__② __have__③ played __for__④ the national team.
+  q: Our captain is __the only one__① of the players __who__② __have__③ played __for__④ the national team.
   ans: "3"
-  why: the only one of the players who … の先行詞は the only one（代表でプレーしたのはコーチ1人）。動詞は単数形の has にする。
+  why: the only one of the players who … の先行詞は the only one（選手の中で代表でプレーしたのはキャプテン1人）。動詞は単数形の has にする。
   trap: one of the players who … と同じだと考えて、複数形の have を正しいとする誤り。the only が付くと先行詞は1人に絞られる。
 - id: q6016
   sec: s19
@@ -412,7 +410,7 @@ problems:
   kind: 読解
   min: 4
   inst: 次の英文を読み、問いの答えとして最も適切なものを1つ選びなさい。
-  q: "The volunteers who clean the beach near our school meet on the first Sunday of every month. Last month, a woman joined them who had just moved to the town from Osaka. She brought a large bag of gloves that her old group had given her. The gloves, which were bright yellow, were easy to see on the sand. By noon, the group had collected forty bags of trash, more than they had ever collected before.<br>問：What did the woman bring?"
+  q: "The volunteers who clean the beach near our school meet on the first Sunday of every month. Last month, a woman joined them who had just moved to the town from Osaka. She brought a large bag of gloves that her old group had given her. The gloves, which were bright yellow, were easy to see on the sand. By noon, the group had collected forty bags of trash, more than they had ever collected before.<br>問い：What did the woman bring?"
   choices: [Forty bags of trash., Gloves from the group she had belonged to before., A map of the town from Osaka., Yellow sand for the beach.]
   ans: "2"
   why: a bag of gloves that her old group had given her の that 節は gloves を説明しており、以前のグループからもらった手袋を持ってきたことが分かる。
@@ -481,7 +479,7 @@ problems:
   kind: 読解
   min: 4
   inst: 次の英文を読み、問いの答えとして最も適切なものを1つ選びなさい。
-  q: "Last Sunday, Saki went to a small concert in the park. Before it started, she saw a woman with a violin who she thought was her old piano teacher. Saki waved, but the woman did not wave back. After the concert, Saki talked to her and learned that she was the teacher's younger sister. The two sisters looked so alike that even their friends sometimes confused them. The sister gave Saki a ticket for her next concert in December.<br>問：Who was the woman with the violin?"
+  q: "Last Sunday, Saki went to a small concert in the park. Before it started, she saw a woman with a violin who she thought was her old piano teacher. Saki waved, but the woman did not wave back. After the concert, Saki talked to her and learned that she was the teacher's younger sister. The two sisters looked so alike that even their friends sometimes confused them. The sister gave Saki a ticket for her next concert in December.<br>問い：Who was the woman with the violin?"
   choices: [Saki's old piano teacher., The younger sister of Saki's old piano teacher., A friend of Saki's mother., Saki's own sister.]
   ans: "2"
   why: who she thought was her old piano teacher は「サキがピアノの先生だと思った」という意味で、実際は4文目にある通り先生の妹だった。
@@ -493,7 +491,7 @@ problems:
   kind: 読解
   min: 4
   inst: 次の英文を読み、問いの答えとして最も適切なものを1つ選びなさい。
-  q: "Ms. Kimura's cooking club held a curry party for the first-year students in May. As is often the case with first events, the club made a few mistakes. They cooked far more rice than was needed, because more students had said they would come than actually came. Only twenty of the thirty-five students who had signed up showed up. The next day, the club gave the extra rice to the soccer team, and the players ate all of it in ten minutes.<br>問：Which of the following is true?"
+  q: "Ms. Kimura's cooking club held a curry party for the first-year students in May. As is often the case with first events, the club made a few mistakes. They cooked far more rice than was needed, because more students had said they would come than actually came. Only twenty of the thirty-five students who had signed up showed up. The next day, the club gave the extra rice to the soccer team, and the players ate all of it in ten minutes.<br>問い：Which of the following is true?"
   choices: [More students came than the club had expected., The club cooked too much rice for the party., Thirty-five students came to the party., The soccer team cooked the rice for the club.]
   ans: "2"
   why: far more rice than was needed は「必要な量よりはるかに多くのご飯」。than が was needed の主語の働きをしている。35人の申し込みに対し20人しか来なかったので、ご飯が余った。
@@ -501,11 +499,11 @@ problems:
 - id: q6026
   sec: s19
   set: 章末
-  lv: 3
+  lv: 2
   kind: 読解
   min: 4
   inst: 次の英文を読み、問いの答えとして最も適切なものを1つ選びなさい。
-  q: "Dr. Patel works at a hospital in Yokohama. Last week a boy came to her office who had hurt his arm while playing basketball. He was one of the players who were practicing for the city tournament on Saturday. The X-ray showed no broken bones, but Dr. Patel told him to rest for a week. Of all the players on his team, he was the only one who was going to miss the tournament, and he looked very sad.<br>問：Why did the boy look sad?"
+  q: "Dr. Patel works at a hospital in Yokohama. Last week a boy came to her office who had hurt his arm while playing basketball. He was one of the players who were practicing for the city tournament on Saturday. The X-ray showed no broken bones, but Dr. Patel told him to rest for a week. Of all the players on his team, he was the only one who was going to miss the tournament, and he looked very sad.<br>問い：Why did the boy look sad?"
   choices: [His arm was broken., He was the only player on his team who could not play in the tournament., All the players on his team had hurt their arms., Dr. Patel could not see him that day.]
   ans: "2"
   why: 最後の文の the only one who was going to miss the tournament から、チームで大会に出られないのは彼1人だったと分かる。2文目の who had hurt his arm は外置された関係詞節で、a boy を説明している。

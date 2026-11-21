@@ -45,7 +45,9 @@ def main(paths):
     ex_ids = Counter(); terms = set()
     en_texts, ja_texts = [], []
     for c in chapters:
+        if c.get('lead'): ja_texts.append((c['id'], c['lead']))
         for s in c['sections']:
+            for sm in s.get('summary', []) or []: ja_texts.append((s['id'], sm))
             for e in s.get('examples', []) or []:
                 ex_ids[e['id']] += 1
                 for g in e.get('gloss') or []:
@@ -188,6 +190,7 @@ def main(paths):
         n = [i for i, t in ja_texts if w in str(t)]
         if len(n) >= 3: warn.append(f'日本語の注意表現「{w}」が {len(n)} か所: {n[:6]}')
     for i, t in ja_texts + en_texts:
+        if re.search(r'(?<![@\w])s\d{2}\b', str(t)): err.append(f'{i}: 節の内部 ID が本文に残っている: {re.findall(r"(?<![@\w])s\d{2}", str(t))}（@s01 か「第1節」と書く）')
         if re.search(r'(?<![@\w])[qe]\d{3,4}\b', str(t)): err.append(f'{i}: 内部の ID が本文に残っている: {re.findall(r"(?<![@\w])[qe]\d{3,4}", str(t))}')
     for i, t in ja_texts:
         if re.search(r'[！!]', str(t)) and not re.search(r'[A-Za-z]!', str(t)): warn.append(f'{i}: 解説文に「！」')

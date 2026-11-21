@@ -24,14 +24,18 @@ chapters:
         text: "whomever はかたい書き言葉。話し言葉では目的語の位置でも whoever を使うことが多い（You can bring whoever you like.）。4択で両方が並んだら節の中の働きで選ぶ。主語の位置に whomever を置くのは、書き言葉でも誤り。"
     - ex: [e503]
     - h: 名詞節か、譲歩の副詞節か
-    - p: 複合関係詞の節には、もう1つの使い方があります。@e505 の Whoever comes to the door は、文の主語にも目的語にもなっていません。この節を外しても、don't open it until I get home at five という命令文が残ります。外せる節は副詞の働きをしていて、「誰が来ても」と、どんな場合でも主節が変わらないことを表します。この言い方を<<譲歩>>といいます。
+    - p: 複合関係詞の節には、もう1つの使い方があります。@e505 の Whoever comes to the door は、文の主語にも目的語にもなっていません。この節を外しても、don't open it until I get home at five という命令文が残ります。外せる節は、文の中で副詞と同じ働きをする<<副詞節>>です。ここでは「誰が来ても」と、どんな場合でも主節が変わらないことを表します。この言い方を<<譲歩>>といいます。
       notes:
+      - kind: 用語
+        term: 副詞節
+        yomi: ふくしせつ
+        text: "文の中で副詞の働きをする節。時・条件・理由・譲歩などを表し、外しても残りの部分で文が成り立つ。"
       - kind: 用語
         term: 譲歩
         yomi: じょうほ
         text: "「たとえ〜でも」「誰が〜しても」のように、ある場合を認めたうえで、それでも主節の内容は変わらないと述べる言い方。"
       - kind: 注意
-        text: "未来のことでも、譲歩の副詞節の中は現在形にする（@e505 の comes）。Whoever will come とはしない。"
+        text: "譲歩の副詞節では、未来のことでも will を使わず現在形で表すのが普通（@e505 の comes）。かたい書き言葉では may を使う形もある（@e516）。"
     - ex: [e504, e505, e506]
     - p: 見分けるには、節を外してみます。@e504 から Whatever you decide を外すと is fine with me しか残らず、主語がありません。だからこの節は名詞節で、「あなたが決めることなら何でも」と訳します。@e506 は外しても Rina won't change her plan for the summer が残るので副詞節です。訳は「ジャックが何と言っても」となります。
     - p: 譲歩の副詞節は no matter who／what／which で言い換えられます（@e505 → No matter who comes to the door）。名詞節は言い換えられません。× No matter what you decide is fine with me. が誤りなのは、no matter what の節は文の主語になれないからです。
@@ -89,7 +93,7 @@ chapters:
     patterns: [P12]
     body:
     - h: however＋形容詞・副詞＋S＋V
-    - p: however を複合関係詞として使うと、「どんなに〜でも」という譲歩の意味になります。このとき however は形容詞や副詞を1語引き連れて、節の先頭に出ます。@e509 は Yuto is tired という文の tired が however の直後に移った形です。残りの Yuto is は、主語・動詞の普通の語順のままです。
+    - p: however を複合関係詞として使うと、「どんなに〜でも」という譲歩の意味になります。このとき however は直後に形容詞や副詞（much／many＋名詞のこともあります）を引き連れて、節の先頭に出ます。@e509 は Yuto is tired という文の tired が however の直後に移った形です。残りの Yuto is は、主語・動詞の普通の語順のままです。
     - steps:
       - 元の文を考える。Yuto is tired.／I tried hard.
       - 程度を表す形容詞・副詞（tired, hard）を however の直後に出す。However tired／However hard
@@ -108,7 +112,7 @@ chapters:
     - p: 2つ目は譲歩で、「いつ〜しても」「どこで〜しても」となります。@e514 は「日本のどこにいても」、@e515 は「今夜何時に着いても」の意味で、no matter where／no matter when に言い換えられます。2つの意味は形では区別できないので、主節との関係から決めます。「そのたびに〜する」と言っていれば1つ目、「どんな場合でも結果は変わらない」と言っていれば譲歩です。
     - ex: [e514, e515]
     - h: no matter＋疑問詞と、譲歩の節の may
-    - p: 譲歩の意味の複合関係詞は、no matter＋疑問詞で言い換えられます。however は no matter how になり、語順も同じく no matter how＋形容詞・副詞＋S＋V です（@e510 → No matter how hard I tried）。整序問題では no matter how が2語分になるので、並べる語が1つ増えます。この言い換えは副詞節だけのもので、名詞節には使えません（@s15）。
+    - p: 譲歩の意味の複合関係詞は、no matter＋疑問詞で言い換えられます。however は no matter how になり、語順も同じく no matter how＋形容詞・副詞＋S＋V です（@e510 → No matter how hard I tried）。整序問題では no matter how が2語分になるので、並べる語が1つ増えます。この言い換えは副詞節だけのもので、名詞節には使えません（@s15 の「名詞節か、譲歩の副詞節か」）。
     - table:
         head: [複合関係詞, 譲歩の意味での言い換え]
         rows:
@@ -118,7 +122,7 @@ chapters:
         - [however, "{{no matter how}}（＋形容詞・副詞＋S＋V）"]
         - [whenever, "{{no matter when}}"]
         - [wherever, "{{no matter where}}"]
-    - p: 譲歩の節に may を入れることがあります。@e516 の However busy he may be は「どんなに忙しくても」で、この may は「かもしれない」と訳しません。かたい書き言葉の言い方で、ふだんの英語では However busy he is のように現在形を使うほうが普通です。入試には両方の形が出るので、may があっても意味は同じだと分かれば足ります。
+    - p: 譲歩の節に may を入れることがあります。@e516 の However busy he may be は「どんなに忙しくても」で、この may は「かもしれない」と訳しません。かたい書き言葉の言い方で、ふだんの英語では However busy he is のように現在形を使うほうが普通です。未来のことを言うときも、will は使わず現在形で表すのが普通です。入試には両方の形が出るので、may があっても意味は同じだと分かれば足ります。
       notes:
       - kind: 注意
         text: "no matter how busy he may be のように、no matter＋疑問詞の節でも may を使うことがある。意味は may のない形と同じ。"
@@ -227,7 +231,7 @@ problems:
   lv: 3
   kind: 和訳
   min: 3
-  inst: 下線部①②を和訳しなさい。
+  inst: 下線部①②を日本語に訳しなさい。
   q: __Whatever Rina says about the weather__① is usually right, but __whatever she says__②, her little brother never takes an umbrella.
   ans: ① リナが天気について言うことは（何でも）　② 彼女が何と言っても
   alt: [② 彼女がどんなことを言おうと, ② たとえ彼女が何を言っても]
@@ -264,10 +268,10 @@ problems:
   kind: 正誤
   min: 1
   inst: 下線部のうち、誤りをふくむものを1つ選びなさい。
-  q: __However__① __Olivia is busy__②, she __always__③ calls her grandmother __on__④ Sundays.
+  q: __However__① __busy is Rina__②, she __always__③ calls her grandmother __on__④ Sundays.
   ans: "2"
-  why: 「どんなに忙しくても」は however の直後に形容詞を置き、However busy Olivia is とする。busy が however から離れているので誤り。
-  trap: 日本語の「どんなに／彼女が忙しくても」の順に引かれて、however の後に S＋V をそのまま置く誤り。
+  why: however の節は however＋形容詞＋S＋V の語順で、疑問文のような倒置はしない。However busy Rina is とする。①However は「どんなに〜でも」の意味に合っていて、直後に形容詞 busy もあるので正しい。
+  trap: 「どんなに忙しいのか」という疑問文の語順に引かれて、is Rina を正しいと思う誤り。複合関係詞の節の中は、主語＋動詞の普通の語順になる。
 - id: q5010
   sec: s16
   set: 節末
@@ -324,8 +328,8 @@ problems:
   min: 1
   q: __Wherever__① you __will go__② in Hokkaido next month, __take__③ a warm jacket __with__④ you.
   ans: "2"
-  why: 来月のことでも、譲歩の副詞節の中は現在形にする。Wherever you go in Hokkaido next month とする。
-  trap: next month があるので will を正しいと思う誤り。時・条件の副詞節と同じく、譲歩の副詞節でも未来のことを現在形で表す。
+  why: 譲歩の副詞節では、来月のことでも will を使わず現在形で表すのが普通。Wherever you go in Hokkaido next month とする（かたい書き言葉では may を使う形もある）。
+  trap: next month があるので will を正しいと思う誤り。時・条件の副詞節と同じく、譲歩の副詞節でも未来のことはふつう現在形で表す。
 - id: q5015
   sec: s15
   set: 章末
@@ -379,7 +383,7 @@ problems:
   - The heavy snow stopped the writer's letters last winter.
   ans: "1"
   why: Whenever I visit her, we cook fish together は「訪ねるたびに魚を料理する」で①と合う。④は However hard it snowed（どんなに雪が降っても）手紙は届いたので誤り。
-  trap: Whatever you write about を「海について書いたこと」と結びつけて③を選ぶ誤り。whatever は「何について書いても」で、話題を限っていない。
+  trap: Whatever you write about を「海について書いたこと」と結びつけて③を選ぶ誤り。whatever you write about は is の主語になる名詞節で「あなたが書くことなら何でも」。話題を海に限っていない。
 - id: q5019
   sec: s15
   set: 章末
@@ -401,7 +405,7 @@ problems:
   lv: 2
   kind: 和訳
   min: 3
-  inst: 次の英文を和訳しなさい。
+  inst: 次の英文を日本語に訳しなさい。
   q: Whenever you get lost in the city, call me, and I'll come and find you wherever you are.
   ans: 町で道に迷ったときはいつでも電話して。あなたがどこにいても見つけに行くから。
   alt: [街で迷子になったらいつでも電話してね。どこにいても私が見つけに行くよ。, 町で道に迷うたびに私に電話しなさい。そうすれば、あなたがどこにいても見つけに行こう。]

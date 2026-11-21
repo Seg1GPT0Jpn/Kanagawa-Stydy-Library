@@ -156,7 +156,7 @@ chapters:
     - "×three cousins, two of them live … はコンマだけで2文をつないでいるので誤り。{{and}} two of them … か、two of {{whom}} … にする。"
 
 problems:
-# s13 節末
+# 第13節（@s13）節末
 - id: q4001
   sec: s13
   set: 節末
@@ -190,7 +190,7 @@ problems:
   q: Kaito's older brother, __that__① works __at__② a hotel in Kobe, __is coming__③ home __during__④ the winter holidays.
   ans: "1"
   why: 先行詞の後ろにコンマがある非制限用法なので that は使えない。人・主語が欠けているので who にする。
-  trap: 「人の先行詞には that も使える」という s01 の表だけで判断し、①を正しいと見てしまう。表の3つ目の問い（コンマがあるか）を落としている。
+  trap: 「人の先行詞には that も使える」という 第1節（@s01）の表だけで判断し、①を正しいと見てしまう。表の3つ目の問い（コンマがあるか）を落としている。
 - id: q4004
   sec: s13
   set: 節末
@@ -231,7 +231,7 @@ problems:
   ans: "2"
   why: The Itos have two daughters, who both study in Tokyo はコンマのある非制限用法なので、娘は2人だけで、その2人とも東京で学んでいる。続く so their rooms are empty during the week から、平日はどちらの娘も家にいないと分かる。
   trap: コンマを読み落として「東京で学ぶ娘が2人いる（ほかにもいるかもしれない）」と考え、①を選ぶ。コンマがあるので娘は2人だけである。④は which Mrs. Ito's brother runs の主語を取り違えている（店を営むのは伊藤夫人の兄弟）。
-# s14 節末
+# 第14節（@s14）節末
 - id: q4007
   sec: s14
   set: 節末

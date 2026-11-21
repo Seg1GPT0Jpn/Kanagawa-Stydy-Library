@@ -9,8 +9,8 @@ problems:
   kind: 読解
   min: 4
   inst: 次の英文A・Bを読み、問いの答えとして最も適切なものを1つずつ選びなさい。
-  passage: New Reading Room Opens<br>On November 9, the room where the brass band used to practice opened as a reading room. The idea came from Ms. Wood, who teaches English and also helps in the library. Last spring she noticed that the library was too crowded at lunchtime, which made it hard for students to find a seat.<br>The new room has 24 chairs and three long tables. The books on its shelves are ones that students chose themselves. In June, the library committee asked every class to write down the titles they wanted to read. More than 300 students answered, most of whom asked for comics and travel books. The committee then bought 150 books with the money the PTA had collected at the school festival.<br>The room is open from 12:40 to 1:20 on weekdays. Students whose classes finish early on Wednesdays can also use it after school until 4:30. What the committee needs now is a name for the room. If you have an idea, write it on a card and put it in the box which is next to the library
-    door. The winner will get a 1,000-yen book card.
+  passage: '**A（学校新聞の記事）**<br>New Reading Room Opens<br>On November 9, the room where the brass band used to practice opened as a reading room. The idea came from Ms. Wood, who teaches English and also helps in the library. Last spring she noticed that the library was too crowded at lunchtime, which made it hard for students to find a seat.<br>The new room has 24 chairs and three long tables. The books on its shelves are ones that students chose themselves. In June, the library committee asked every class to write down the titles they wanted to read. More than 300 students answered, most of whom asked for comics and travel books. The committee then bought 150 books with the money the PTA had collected at the school festival.<br>The room is open from 12:40 to 1:20 on weekdays. Students whose classes finish early on Wednesdays can also use it after school until 4:30. What the committee needs now is a name for the room. If you have an idea, write it on a card and put it in the box which is next to the library
+    door. The winner will get a 1,000-yen book card.'
   q: 英文A（学校新聞の記事）について。<br>問　What was the reading room used for before November 9?
   choices:
   - It was a room for the library staff.
@@ -62,7 +62,7 @@ problems:
   lv: 1
   kind: 読解
   min: 4
-  passage: 'Last Saturday I joined a walking tour of my town, which a group of volunteers holds twice a month. Our guide was Mr. Hayashi, a retired bus driver who has lived here for over sixty years. He showed us places that I had passed many times without noticing them.<br>The first stop was a small shrine behind the post office. He told us the reason why it stands in such a narrow space: it was moved there in 1972 from a hill that was cut down for a new road. Then we walked to the riverside, where a wooden bridge stood until a typhoon broke it in 1959. The stone base that held the bridge is still there, and he said it is what he most wants young people to see.<br>The tour ended at a coffee shop whose owner is an old friend of his. There, we each got a hand-drawn map on which all the stops were marked. I was surprised that the tour cost only 300 yen, including a cup of coffee. Whoever likes local history should try it. The next tour is on December 5, and you can sign up at the information
+  passage: '**B（ブログ）**<br>Last Saturday I joined a walking tour of my town, which a group of volunteers holds twice a month. Our guide was Mr. Hayashi, a retired bus driver who has lived here for over sixty years. He showed us places that I had passed many times without noticing them.<br>The first stop was a small shrine behind the post office. He told us the reason why it stands in such a narrow space: it was moved there in 1972 from a hill that was cut down for a new road. Then we walked to the riverside, where a wooden bridge stood until a typhoon broke it in 1959. The stone base that held the bridge is still there, and he said it is what he most wants young people to see.<br>The tour ended at a coffee shop whose owner is an old friend of his. There, we each got a hand-drawn map on which all the stops were marked. I was surprised that the tour cost only 300 yen, including a cup of coffee. Whoever likes local history should try it. The next tour is on December 5, and you can sign up at the information
     desk in the station.'
   q: 英文B（ブログ）について。<br>問　Where did the walking tour end?
   choices:
@@ -95,7 +95,7 @@ problems:
   pts: 3
   sec: s06
   set: 模試
-  lv: 3
+  lv: 2
   kind: 読解
   min: 1
   q: 英文Bについて。<br>問　Which is closest in meaning to "we each got a hand-drawn map on which all the stops were marked"?
@@ -218,15 +218,15 @@ problems:
   lv: 2
   kind: 4択
   min: 1
-  q: Laura's grandmother, (＿) lives in Bristol, sends her a long letter every March.
+  q: Our new math teacher, (＿) came from Okinawa in April, plays the guitar in a band.
   choices:
   - that
   - who
   - whom
   - what
   ans: '2'
-  why: コンマの付いた非制限用法で、先行詞は人、lives の主語が欠けている。非制限用法・人・主語 → who。
-  trap: ①that を選ぶ誤り。that は非制限用法（コンマの後ろ）では使わない。
+  why: コンマの付いた非制限用法で、先行詞 Our new math teacher は人、came の主語が欠けている。非制限用法・人・主語 → who。
+  trap: ①that を選ぶ誤り。that は非制限用法（コンマの後ろ）では使わない。③whom は目的格で、came の主語にはなれない。
 - id: q9014
   part: 2
   pts: 3
@@ -235,49 +235,49 @@ problems:
   lv: 2
   kind: 4択
   min: 1
-  q: (＿) hard Kenta practiced, he couldn't hit the ball over the fence.
+  q: No matter (＿) late you come home, send me a message before you leave the station.
   choices:
-  - However
-  - Whatever
-  - Whenever
-  - Although
+  - how
+  - what
+  - however
+  - when
   ans: '1'
-  why: 直後に副詞 hard があり、その後に Kenta practiced が続く。however＋形容詞・副詞＋S＋V で「どんなに〜しても」となる。
-  trap: 「〜けれども」の意味から④Although を選ぶ誤り。Although hard Kenta practiced のように although の直後に副詞を置く語順はない。
+  why: 空所の直後に形容詞 late があり、その後に you come home が続く。no matter how＋形容詞・副詞＋S＋V で「どんなに遅く帰っても」となる（＝However late you come home）。
+  trap: ③however を選ぶ誤り。no matter の後ろには疑問詞を置き、-ever の付いた語は置かない。④when では late を引き連れられない。
 - id: q9015
   part: 2
   pts: 3
   sec: s17
   set: 模試
-  lv: 3
+  lv: 2
   kind: 4択
   min: 1
-  q: The man (＿) I believed was the shop owner turned out to be a customer.
+  q: The singer (＿) will win the contest is only sixteen years old.
   choices:
-  - whom
-  - who
-  - which
-  - whose
-  ans: '2'
-  why: I believed を外すと The man ＿ was the shop owner となり、was の主語が欠けている。人・主語 → who。
-  trap: I believed の目的語だと考えて①whom を選ぶ誤り。believed の目的語は「＿ was the shop owner」という節で、関係代名詞は節の中で主語の働きをしている。
+  - whom I think
+  - who I think that
+  - who I think
+  - I think who
+  ans: '3'
+  why: I think を外すと The singer who will win the contest となり、will win の主語が欠けている。人・主語 → who。主語が欠けた連鎖関係詞節では、think の後に that を入れない。
+  trap: I think の目的語だと考えて①whom を選ぶ誤り。think の目的語は「＿ will win the contest」という節で、関係代名詞は節の中で主語の働きをしている。②は think that の形に引かれた誤り。
 - id: q9016
   part: 2
   pts: 3
   sec: s18
   set: 模試
-  lv: 3
+  lv: 2
   kind: 4択
   min: 1
-  q: Don't use more water (＿) is needed when you cook rice.
+  q: Ella packed more clothes for the three-day trip (＿) were really necessary.
   choices:
   - as
   - than
-  - which
-  - that
+  - but
+  - what
   ans: '2'
-  why: 先行詞に比較級 more が付いている。than が is needed の主語の働きをして「必要な量を超える水」となる。
-  trap: is の主語が欠けているので③which や④that を選ぶ誤り。more water which is needed では比較の相手がなく、more が働かない。
+  why: 先行詞に比較級 more が付いている。than が were necessary の主語の働きをして「本当に必要な量を超える服」となる。
+  trap: ①as を選ぶ誤り。as が関係代名詞の働きをするのは such … as や the same … as のときで、比較級 more と組むのは than。
 - id: q9017
   part: 3
   pts: 4
@@ -295,7 +295,7 @@ problems:
   - ④
   ans: '3'
   fix: The bag which my uncle gave me last month（it を取り除く）
-  why: which が gave の目的語の代わりをしているので、節の中に it を残すと目的語が2つになる。
+  why: which が gave の目的語の代わりをしているので、節の中に it を残すと目的語が2つになる。採点の目安（4点）：誤りの下線部の番号が正しければ2点、訂正が正しければ2点。番号が誤っているときは、訂正にも点を与えない。不要な語は「it を削除」「it を取り除く」などと書けば訂正の2点を与える。
   trap: ④too を選ぶ誤り。too heavy to carry は「重すぎて運べない」で正しい。
 - id: q9018
   part: 3
@@ -305,16 +305,16 @@ problems:
   lv: 2
   kind: 正誤
   min: 1
-  q: Shun is one of the students who __has__① __already__② finished the report __that__③ Ms. Wood gave __us__④ on Monday.
+  q: The cookies __that__① my grandmother __bakes__② every Sunday __is__③ always gone __by__④ Monday morning.
   choices:
   - ①
   - ②
   - ③
   - ④
-  ans: '1'
-  fix: who have already finished
-  why: who の先行詞は one ではなく the students（複数）。報告書を終えた生徒が何人かいて、シュンはその1人という意味なので、入試では have にする。
-  trap: 主語の Shun や one に合わせて has でよいと考える誤り。関係詞節の動詞は先行詞の数に合わせる。
+  ans: '3'
+  fix: The cookies … are always gone
+  why: 関係詞節 that my grandmother bakes every Sunday を［ ］でくくって外すと、The cookies is always gone が残る。主語は複数の The cookies なので、is を are にする。②bakes は節の中の主語 my grandmother に合っているので正しい。採点の目安（4点）：誤りの下線部の番号が正しければ2点、訂正が正しければ2点。番号が誤っているときは、訂正にも点を与えない。
+  trap: is の直前の Sunday や my grandmother に引かれて、単数の is を正しいと思う誤り。文全体の動詞の数は、関係詞節の外にある文頭の主語に合わせる。
 - id: q9019
   part: 3
   pts: 4
@@ -323,16 +323,16 @@ problems:
   lv: 2
   kind: 正誤
   min: 1
-  q: My brother, __that__① works at a bank __in__② Sendai, __comes__③ home __only__④ twice a year.
+  q: We stayed at a small hotel near the station, __that__① had __no__② elevator, so we __had to__③ carry our bags __up__④ to the fourth floor.
   choices:
   - ①
   - ②
   - ③
   - ④
   ans: '1'
-  fix: My brother, who works
-  why: コンマではさんだ非制限用法なので that は使えない。先行詞は人で works の主語が欠けているので who にする。
-  trap: ③comes を「過去形にすべき」と考えて選ぶ誤り。年に2回帰ってくるという習慣なので現在形で正しい。
+  fix: a small hotel near the station, which had no elevator
+  why: コンマの後ろの非制限用法なので that は使えない。先行詞 a small hotel は人以外で、had の主語が欠けているので which にする。採点の目安（4点）：誤りの下線部の番号が正しければ2点、訂正が正しければ2点。番号が誤っているときは、訂正にも点を与えない。
+  trap: ③had to を「must にすべき」と考えて選ぶ誤り。過去のことなので must の過去の意味を表す had to で正しい。
 - id: q9020
   part: 3
   pts: 4
@@ -341,34 +341,34 @@ problems:
   lv: 2
   kind: 正誤
   min: 1
-  q: I bought five postcards in Kyoto, __two of them__① I __sent__② to my friends __who__③ __live__④ abroad.
+  q: Our class has 32 students, __most of them__① __come__② to school __by__③ bike __or__④ on foot.
   choices:
   - ①
   - ②
   - ③
   - ④
   ans: '1'
-  fix: two of which I sent
-  why: them のままではコンマだけで2つの文をつないでいる。先行詞 five postcards は人以外なので two of which にする（and two of them でも可）。
-  trap: ③who を「friends の後ろなので whom」と考えて選ぶ誤り。who は live の主語なので主格でよい。
+  fix: most of whom come
+  why: them のままでは、コンマだけで2つの文をつないでいる。先行詞 32 students は人なので most of whom にする（and most of them としても正しい文になる）。採点の目安（4点）：誤りの下線部の番号が正しければ2点、訂正が正しければ2点。番号が誤っているときは、訂正にも点を与えない。most of whom と and most of them のどちらを書いても訂正の2点を与える。
+  trap: ②come を「most は単数なので comes」と考えて選ぶ誤り。most of の後ろが複数の students（whom）なので、動詞は複数に合わせた come でよい。
 - id: q9021
   part: 3
   pts: 4
   sec: s15
   set: 模試
-  lv: 3
+  lv: 2
   kind: 正誤
   min: 1
-  q: Give these tickets to __whomever__① __wants__② them, because we __can't__③ use them __on__④ Sunday.
+  q: __Whomever__① __finishes__② the test first __may__③ leave the room __quietly__④.
   choices:
   - ①
   - ②
   - ③
   - ④
   ans: '1'
-  fix: to whoever wants them
-  why: 節の中で wants の主語が欠けているので、主格の whoever にする。to の目的語は whoever wants them という節全体である。
-  trap: 直前の前置詞 to を見て、目的格の whomever でよいと考える誤り。格は直前の語ではなく、節の中の働きで決まる。
+  fix: Whoever finishes the test first
+  why: 節の中で finishes の主語が欠けているので、主格の Whoever にする。Whoever finishes the test first が文全体の主語になる名詞節である。採点の目安（4点）：誤りの下線部の番号が正しければ2点、訂正が正しければ2点。番号が誤っているときは、訂正にも点を与えない。
+  trap: 文頭なので目的格でも主格でもよいと考え、whomever を正しいとする誤り。格は節の中の働きで決まり、主語の位置に whomever は置けない。
 - id: q9022
   part: 4
   pts: 4
@@ -378,17 +378,17 @@ problems:
   kind: 整序
   min: 2
   inst: 日本語の意味になるように（　）内の語を並べかえなさい。文頭に来る語も小文字で示してある。
-  q: ローラが昨日貸してくれた傘を、電車に置き忘れてしまった。<br>I left ( lent / Laura / me / the / umbrella / yesterday ) on the train.
+  q: 姉が私に作ってくれたケーキは、甘すぎた。<br>The ( cake / for / made / me / my / sister ) was too sweet.
   words:
-  - lent
-  - Laura
+  - cake
+  - for
+  - made
   - me
-  - the
-  - umbrella
-  - yesterday
-  ans: I left the umbrella Laura lent me yesterday on the train.
-  why: 関係代名詞が与えられていないので、目的格の関係代名詞を省いた the umbrella Laura lent me ＿ の形にする。lent me の後ろの目的語が欠けている。
-  trap: I left Laura the umbrella … のように Laura を left の後ろに置く誤り。「ローラが貸してくれた」の主語は Laura なので、the umbrella の直後に Laura lent を続ける。
+  - my
+  - sister
+  ans: The cake my sister made for me was too sweet.
+  why: 関係代名詞が与えられていないので、目的格の関係代名詞を省いた the cake my sister made ＿ for me の形にする。made の目的語が欠けている。文全体の動詞は was。
+  trap: 関係代名詞が見当たらないので made を文の動詞と考え、The cake made … と並べる誤り。文の動詞は was で、the cake の直後に my sister made を続ける。
 - id: q9023
   part: 4
   pts: 4
@@ -397,17 +397,17 @@ problems:
   lv: 2
   kind: 整序
   min: 2
-  q: 私はTシャツを10枚持っていて、そのうち3枚はイタリアで買ったものだ。<br>I have ten T-shirts, ( bought / I / in / of / three / which ) Italy.
+  q: 私はこの作家の小説を5冊読んだが、そのうち2冊は映画になった。<br>I have read five novels by this writer, ( into / made / of / two / were / which ) films.
   words:
-  - bought
-  - I
-  - in
+  - into
+  - made
   - of
-  - three
+  - two
+  - were
   - which
-  ans: I have ten T-shirts, three of which I bought in Italy.
-  why: 「そのうち3枚」は three of which で節の先頭に置き、その後に I bought ＿ in Italy を続ける。先行詞 ten T-shirts は人以外なので which。
-  trap: which を先に置いて which three of … と並べようとする誤り。数の表現＋of＋which の順で1つのまとまりになる。
+  ans: I have read five novels by this writer, two of which were made into films.
+  why: 「そのうち2冊」は two of which で節の先頭に置き、その後に were made into films（映画にされた）を続ける。先行詞 five novels は人以外なので which。two of which は節の中で were の主語になる。
+  trap: which を先に置いて which two of … と並べようとする誤り。数の表現＋of＋which の順で1つのまとまりになる。
 - id: q9024
   part: 4
   pts: 4
@@ -416,15 +416,15 @@ problems:
   lv: 2
   kind: 整序
   min: 2
-  q: どんなに疲れていても、ケンタは毎晩30分英語を勉強する。<br>( he / however / is / tired ), Kenta studies English for 30 minutes every night.
+  q: どんなに疲れていても、ケンタは毎晩30分英語を勉強する。<br>( is / Kenta / however / tired ), he studies English for 30 minutes every night.
   words:
-  - he
-  - however
   - is
+  - Kenta
+  - however
   - tired
-  ans: However tired he is, Kenta studies English for 30 minutes every night.
-  why: however は形容詞 tired を引き連れて節の先頭に出る。残りは he is の普通の語順にする。
-  trap: However he is tired と tired を後ろに残す誤り。「どんなに」の意味は however＋形容詞のまとまりで表す。
+  ans: However tired Kenta is, he studies English for 30 minutes every night.
+  why: however は形容詞 tired を引き連れて節の先頭に出る。残りは Kenta is の普通の語順にする。
+  trap: However Kenta is tired と tired を後ろに残す誤り。「どんなに」の意味は however＋形容詞のまとまりで表す。
 - id: q9025
   part: 4
   pts: 4
@@ -460,7 +460,7 @@ problems:
   - today
   - what
   ans: I owe what I am today to my grandmother.
-  why: owe A to B（AはBのおかげだ）の A に what I am today（今日の私）を置く。what S is は「Sの今の姿」を表す。
+  why: owe A to B（AはBのおかげだ）の A に what I am today（今日の私）を置く。what I am today は am の補語が欠けた不完全な文で、what がその補語の代わりをしている。what S is は「Sの今の姿」を表す。
   trap: 「私が何であるか」と考えて what am I の疑問文の語順にする誤り。what 節の中は I am の普通の語順になる。
 - id: q9027
   part: 5
@@ -471,7 +471,7 @@ problems:
   kind: 和訳
   min: 3
   inst: 次の英文の下線部を日本語に訳しなさい。
-  q: __Ella told her coach that she would quit the tennis club, which surprised all the members.__①
+  q: __Ella told her coach that she would quit the tennis club, which surprised all the members.__
   ans: エラはテニス部をやめるとコーチに伝え、そのことは部員全員を驚かせた。
   alt:
   - エラがテニス部をやめるとコーチに伝えたので、部員全員が驚いた。
@@ -486,7 +486,7 @@ problems:
   lv: 3
   kind: 和訳
   min: 3
-  q: __A letter arrived this morning which said that the concert Ms. Wood had planned for March would be held in a larger hall.__①
+  q: __A letter arrived this morning which said that the concert Ms. Wood had planned for March would be held in a larger hall.__
   ans: ウッド先生が3月に計画していたコンサートは、もっと大きなホールで開かれるという手紙が、今朝届いた。
   alt:
   - 今朝手紙が届き、そこには、ウッド先生が3月に予定していたコンサートがより大きなホールで行われると書いてあった。
