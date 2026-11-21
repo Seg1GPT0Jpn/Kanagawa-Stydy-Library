@@ -187,8 +187,8 @@ problems:
   kind: 4択
   min: 1
   q: Here are four T-shirts from the trip. You can take (＿) you like.
-  choices: [whichever, however, whoever, wherever]
-  ans: "1"
+  choices: [whoever, however, whichever, wherever]
+  ans: "3"
   why: 4枚のTシャツという限られた中から「好きなものをどれでも」と言っている。take の目的語になり、節の中で like の目的語が欠けているので whichever。
   trap: ②however を選ぶ誤り。however you like は「好きなやり方で」という副詞の節で、take の目的語にならない。
 - id: q5003
@@ -246,8 +246,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: (＿) I visit my aunt in Sendai, she takes me to a sushi shop near the station.
-  choices: [Whenever, Whatever, Whoever, Which]
-  ans: "1"
+  choices: [Which, Whatever, Whoever, Whenever]
+  ans: "4"
   why: I visit my aunt in Sendai は主語・動詞・目的語のそろった完全な文。欠けた語がないので、関係代名詞ではなく whenever（〜するときはいつでも）が入る。
   trap: ②Whatever を選ぶ誤り。whatever は節の中で主語や目的語の代わりをするので、visit の目的語 my aunt がすでにある文には入らない。
 - id: q5008
@@ -292,8 +292,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: No matter (＿) you stand in this park, you can see Mt. Fuji on a clear day.
-  choices: [where, wherever, which, what]
-  ans: "1"
+  choices: [what, wherever, which, where]
+  ans: "4"
   why: you stand in this park は欠けた語のない完全な文なので、場所を表す where が入る。No matter where＝Wherever（どこに立っても）。
   trap: ②wherever を選ぶ誤り。no matter の後には疑問詞を置き、-ever の語は置かない。
 - id: q5012
@@ -377,13 +377,13 @@ problems:
   min: 4
   q: "My grandmother lives alone in a small town by the sea. Whenever I visit her, we cook fish together in her kitchen. She does not use a smartphone, so I write her a letter every month. 'Whatever you write about is interesting to me,' she always says. Last winter, I could not visit her because of heavy snow. However hard it snowed, the post office kept working, and my letters arrived on time.<br>問い：本文の内容に合うものはどれか。"
   choices:
-  - The writer and the grandmother cook fish together on every visit.
-  - The grandmother sends the writer an email every month.
   - The grandmother only wants letters about the sea.
+  - The grandmother sends the writer an email every month.
+  - The writer and the grandmother cook fish together on every visit.
   - The heavy snow stopped the writer's letters last winter.
-  ans: "1"
-  why: Whenever I visit her, we cook fish together は「訪ねるたびに魚を料理する」で①と合う。④は However hard it snowed（どんなに雪が降っても）手紙は届いたので誤り。
-  trap: Whatever you write about を「海について書いたこと」と結びつけて③を選ぶ誤り。whatever you write about は is の主語になる名詞節で「あなたが書くことなら何でも」。話題を海に限っていない。
+  ans: "3"
+  why: Whenever I visit her, we cook fish together は「訪ねるたびに魚を料理する」で③と合う。④は However hard it snowed（どんなに雪が降っても）手紙は届いたので誤り。
+  trap: Whatever you write about を「海について書いたこと」と結びつけて①を選ぶ誤り。whatever you write about は is の主語になる名詞節で「あなたが書くことなら何でも」。話題を海に限っていない。
 - id: q5019
   sec: s15
   set: 章末

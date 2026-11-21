@@ -229,8 +229,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: The man (＿) car was stolen went to the police station.
-  choices: [who, whose, which, whom]
-  ans: "2"
+  choices: [who, which, whose, whom]
+  ans: "3"
   why: 空所の直後の car に冠詞がなく、「その男性の車」という所有の関係になっている。所有者を表すのは whose。
   trap: 先行詞が人なので①who を選びやすい。しかし who を入れると who car was stolen となり、car の前に冠詞も所有者もない形になってしまう。
 - id: q0002
@@ -240,10 +240,10 @@ problems:
   kind: 4択
   min: 1
   q: I need a box (＿) is big enough for these books.
-  choices: [what, who, which, whose]
-  ans: "3"
+  choices: [which, who, what, whose]
+  ans: "1"
   why: 先行詞 a box は人以外で、節の中で is の主語が欠けている。人以外・主語が欠ける場合は which（または that）。
-  trap: ①what は先行詞をふくむ関係代名詞なので、a box のような先行詞があるときは使えない（@s10）。
+  trap: ③what は先行詞をふくむ関係代名詞なので、a box のような先行詞があるときは使えない（@s10）。
 - id: q0003
   sec: s01
   set: 節末

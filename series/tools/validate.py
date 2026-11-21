@@ -84,6 +84,18 @@ def main(paths):
                 if '{{' not in sm: warn.append(f'{s["id"]}: 要点に赤シートの穴 {{{{}}}} がない: {sm[:30]}')
     for k, v in ex_ids.items():
         if v > 1: err.append(f'例文 ID の重複: {k}')
+    # 正解の位置の偏り（選択式の4択・読解）：各番号が全体の 15〜35% に入るか。正誤は ④ の少なさを警告
+    sel = [str(p.get('ans')) for p in problems if p.get('kind') in ('4択', '読解') and p.get('choices') and str(p.get('ans')) in '1234']
+    if len(sel) >= 20:
+        cnt = Counter(sel)
+        for k in '1234':
+            r = cnt[k] / len(sel)
+            if not 0.15 <= r <= 0.35: err.append(f'選択式の正解の位置が偏っている：{k} が {cnt[k]}/{len(sel)}（{r:.0%}）。tools/rebalance.py で直す')
+    sei = [str(p.get('ans')) for p in problems if p.get('kind') == '正誤']
+    if len(sei) >= 20:
+        cnt = Counter(sei)
+        for k in '1234':
+            if cnt[k] / len(sei) < 0.12: warn.append(f'正誤の正解の位置が偏っている：{k} が {cnt[k]}/{len(sei)}')
     # YAML の真偽値化け（on/off/yes/no などを引用符なしで書くと true/false になる）
     def walk(x, path):
         if isinstance(x, bool): err.append(f'{path}: 真偽値 {x}（on/off/yes/no を引用符で囲んでいない可能性）')

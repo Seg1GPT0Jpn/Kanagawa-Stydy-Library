@@ -257,8 +257,8 @@ problems:
   min: 4
   inst: 次の英文を読んで、問いの答えとして最も適切なものを1つ選びなさい。
   q: "Last October, Haruto's class went on a three-day trip to Nagasaki. On the first day, they visited a hill where an old church stands. Haruto liked the second day best. That was the day when they took a small boat around the bay. The guide showed them the place where ships from other countries arrived long ago. On the last day, it rained, so they spent the morning in a museum. In his diary, Haruto wrote, “The second day was when I learned the most.”<br>問　What did Haruto's class do on the day Haruto liked best?"
-  choices: [They visited an old church on a hill., They went around the bay by boat., They stayed in a museum because of the rain., They went to Nagasaki Station to meet the guide.]
-  ans: "2"
+  choices: [They visited an old church on a hill., They stayed in a museum because of the rain., They went around the bay by boat., They went to Nagasaki Station to meet the guide.]
+  ans: "3"
   why: Haruto liked the second day best. That was the day when they took a small boat around the bay. とあり、2日目に船で湾を回った。the day when … が「〜した日」を表す。
   trap: 本文の最初に出てくる a hill where an old church stands に引かれて①を選ぶ誤り。教会を訪れたのは1日目で、ハルトがいちばん気に入ったのは2日目である。
 
@@ -282,8 +282,8 @@ problems:
   kind: 4択
   min: 1
   q: This is (＿) I make rice balls in only five minutes.
-  choices: [the way how, how, which, what]
-  ans: "2"
+  choices: [the way how, what, which, how]
+  ans: "4"
   why: 「これが〜するやり方だ」は This is how S V。how の後ろの I make rice balls … は完全な文。
   trap: ①the way how を選ぶ誤り。今の英語では the way と how を並べず、the way か how の一方だけを使う。
 - id: q2009
@@ -348,10 +348,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: The museum (＿) we visited last Sunday has a big dinosaur model.
-  choices: [where, which, when, what]
-  ans: "2"
+  choices: [which, where, when, what]
+  ans: "1"
   why: visit は目的語が必要な動詞で、節 we visited last Sunday では visited の目的語が欠けている。欠けた目的語の代わりをするのは which。
-  trap: 先行詞 the museum が場所なので①where を選ぶ誤り。where は副詞の代わりなので、目的語が欠けた不完全な文の前には置けない。
+  trap: 先行詞 the museum が場所なので②where を選ぶ誤り。where は副詞の代わりなので、目的語が欠けた不完全な文の前には置けない。
 - id: q2014
   sec: s09
   set: 節末
@@ -370,8 +370,8 @@ problems:
   kind: 4択
   min: 1
   q: The day (＿) my grandparents chose for their party was a Sunday in May.
-  choices: [when, on which, which, where]
-  ans: "3"
+  choices: [when, on which, where, which]
+  ans: "4"
   why: choose は目的語が必要な動詞で、節 my grandparents chose for their party では chose の目的語が欠けている。目的語の代わりをするのは which。
   trap: 先行詞 the day が時なので①when や②on which を選ぶ誤り。どちらも後ろに完全な文が必要で、chose の目的語が欠けたこの節には合わない。
 - id: q2016
@@ -381,10 +381,10 @@ problems:
   kind: 4択
   min: 1
   q: The village (＿) my grandmother often talks about is in the mountains of Nagano.
-  choices: [where, which, about which, when]
-  ans: "2"
+  choices: [where, about which, which, when]
+  ans: "3"
   why: 節の最後の about の後ろに名詞がなく、前置詞の目的語が欠けた不完全な文になっている。欠けた目的語の代わりをするのは which。
-  trap: ③about which を選ぶ誤り。about which にすると about が節の最後にも残り、about が2回になってしまう。
+  trap: ②about which を選ぶ誤り。about which にすると about が節の最後にも残り、about が2回になってしまう。
 - id: q2017
   sec: s09
   set: 節末
@@ -443,10 +443,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: I don't like (＿) my brother talks to his friends on the phone late at night.
-  choices: [the way how, the way which, the way, what]
-  ans: "3"
+  choices: [the way how, the way, the way which, what]
+  ans: "2"
   why: talks to his friends … は完全な文で、「兄が電話で友達と話す、その話し方」を表す。the way S V の形にする。
-  trap: ②the way which を選ぶ誤り。which は節の中の主語か目的語の代わりだが、この節には欠けている語がない。
+  trap: ③the way which を選ぶ誤り。which は節の中の主語か目的語の代わりだが、この節には欠けている語がない。
 - id: q2022
   sec: s09
   set: 章末
@@ -502,8 +502,8 @@ problems:
   min: 4
   inst: 次の英文を読んで、問いの答えとして最も適切なものを1つ選びなさい。
   q: "Sofia moved to Japan from Spain two years ago. The apartment where she lives now is on the fifth floor, and from her window she can see a river which runs through the city. Her favorite place is a small bookstore which her neighbor told her about. It is the place where she bought her first Japanese picture book. April is when she likes the city best, because the cherry trees along the river turn pink.<br>問　Which of the following is true about Sofia?"
-  choices: [She found the bookstore by herself., She lives in a house next to the river., She learned about the bookstore from her neighbor., She likes the city best in the fall.]
-  ans: "3"
+  choices: [She learned about the bookstore from her neighbor., She lives in a house next to the river., She found the bookstore by herself., She likes the city best in the fall.]
+  ans: "1"
   why: a small bookstore which her neighbor told her about は「隣人が彼女に教えてくれた小さな本屋」。told her about の about の目的語が which で、本屋のことは隣人から聞いた。
   trap: 「川が見える」から②を選ぶ誤り。彼女が住んでいるのは5階のアパートで、川は窓から見えるだけである。
 - id: q2027
@@ -513,8 +513,8 @@ problems:
   kind: 読解
   min: 4
   q: "Grace's grandmother lives alone in a small town, three hours from Grace's home by train. Last spring, Grace gave her a tablet and taught her how to make video calls. At first, her grandmother kept pressing the wrong button, so Grace wrote each step on a card in large letters. Now they talk every Sunday evening. Her grandmother says, “Sunday is when I wait for the tablet to ring. I can see Grace's face, and that's why I have stopped writing letters.”<br>問　Why has Grace's grandmother stopped writing letters?"
-  choices: [Because the post office in her town is far away., Because she can see Grace's face during video calls., Because Grace asked her to use the cards instead., Because she is busy every Sunday evening.]
-  ans: "2"
+  choices: [Because the post office in her town is far away., Because Grace asked her to use the cards instead., Because she can see Grace's face during video calls., Because she is busy every Sunday evening.]
+  ans: "3"
   why: I can see Grace's face, and that's why I have stopped writing letters. の that は「グレースの顔が見えること」を指し、それが手紙をやめた理由になっている。
   trap: Sunday is when I wait for the tablet to ring の Sunday に引かれて④を選ぶ誤り。日曜の夜は電話を待つ時間で、忙しいとは書かれていない。
 - id: q2028

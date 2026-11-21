@@ -9,15 +9,14 @@ problems:
   kind: 読解
   min: 4
   inst: 次の英文A・Bを読み、問いの答えとして最も適切なものを1つずつ選びなさい。
-  passage: '**A（学校新聞の記事）**<br>New Reading Room Opens<br>On November 9, the room where the brass band used to practice opened as a reading room. The idea came from Ms. Wood, who teaches English and also helps in the library. Last spring she noticed that the library was too crowded at lunchtime, which made it hard for students to find a seat.<br>The new room has 24 chairs and three long tables. The books on its shelves are ones that students chose themselves. In June, the library committee asked every class to write down the titles they wanted to read. More than 300 students answered, most of whom asked for comics and travel books. The committee then bought 150 books with the money the PTA had collected at the school festival.<br>The room is open from 12:40 to 1:20 on weekdays. Students whose classes finish early on Wednesdays can also use it after school until 4:30. What the committee needs now is a name for the room. If you have an idea, write it on a card and put it in the box which is next to the library
-    door. The winner will get a 1,000-yen book card.'
+  passage: '**A（学校新聞の記事）**<br>New Reading Room Opens<br>On November 9, the room where the brass band used to practice opened as a reading room. The idea came from Ms. Wood, who teaches English and also helps in the library. Last spring she noticed that the library was too crowded at lunchtime, which made it hard for students to find a seat.<br>The new room has 24 chairs and three long tables. The books on its shelves are ones that students chose themselves. In June, the library committee asked every class to write down the titles they wanted to read. More than 300 students answered, most of whom asked for comics and travel books. The committee then bought 150 books with the money the PTA had collected at the school festival.<br>The room is open from 12:40 to 1:20 on weekdays. Students whose classes finish early on Wednesdays can also use it after school until 4:30. What the committee needs now is a name for the room. If you have an idea, write it on a card and put it in the box which is next to the library door. The winner will get a 1,000-yen book card.'
   q: 英文A（学校新聞の記事）について。<br>問　What was the reading room used for before November 9?
   choices:
-  - It was a room for the library staff.
   - It was a room where the brass band practiced.
+  - It was a room for the library staff.
   - It was a classroom for English lessons.
   - It was a room where the PTA held meetings.
-  ans: '2'
+  ans: '1'
   why: 第1段落の the room where the brass band used to practice が答え。where 以下の完全な文が the room を説明し、「吹奏楽部が以前練習していた部屋」となる。
   trap: 直後に出てくる Ms. Wood, who teaches English に引かれて③を選ぶ誤り。who 節が説明しているのはウッド先生で、部屋ではない。
 - id: q9002
@@ -47,12 +46,12 @@ problems:
   min: 1
   q: 英文Aについて。<br>問　Which of the following is true according to the article?
   choices:
-  - Most of the students who answered asked for comics and travel books.
+  - The committee has already decided the name of the room.
   - Students chose all of the 300 books in the new room.
   - Every student can use the room after school on Wednesdays.
-  - The committee has already decided the name of the room.
-  ans: '1'
-  why: More than 300 students answered, most of whom asked for comics and travel books. の most of whom は「回答した生徒のうちの大半」を指す。①はこれの言いかえである。
+  - Most of the students who answered asked for comics and travel books.
+  ans: '4'
+  why: More than 300 students answered, most of whom asked for comics and travel books. の most of whom は「回答した生徒のうちの大半」を指す。④はこれの言いかえである。
   trap: ③を選ぶ誤り。放課後に使えるのは Students whose classes finish early on Wednesdays、つまり水曜の授業が早く終わる生徒だけで、全員ではない。whose 節が主語を絞りこんでいる。
 - id: q9004
   part: 1
@@ -62,8 +61,7 @@ problems:
   lv: 1
   kind: 読解
   min: 4
-  passage: '**B（ブログ）**<br>Last Saturday I joined a walking tour of my town, which a group of volunteers holds twice a month. Our guide was Mr. Hayashi, a retired bus driver who has lived here for over sixty years. He showed us places that I had passed many times without noticing them.<br>The first stop was a small shrine behind the post office. He told us the reason why it stands in such a narrow space: it was moved there in 1972 from a hill that was cut down for a new road. Then we walked to the riverside, where a wooden bridge stood until a typhoon broke it in 1959. The stone base that held the bridge is still there, and he said it is what he most wants young people to see.<br>The tour ended at a coffee shop whose owner is an old friend of his. There, we each got a hand-drawn map on which all the stops were marked. I was surprised that the tour cost only 300 yen, including a cup of coffee. Whoever likes local history should try it. The next tour is on December 5, and you can sign up at the information
-    desk in the station.'
+  passage: '**B（ブログ）**<br>Last Saturday I joined a walking tour of my town, which a group of volunteers holds twice a month. Our guide was Mr. Hayashi, a retired bus driver who has lived here for over sixty years. He showed us places that I had passed many times without noticing them.<br>The first stop was a small shrine behind the post office. He told us the reason why it stands in such a narrow space: it was moved there in 1972 from a hill that was cut down for a new road. Then we walked to the riverside, where a wooden bridge stood until a typhoon broke it in 1959. The stone base that held the bridge is still there, and he said it is what he most wants young people to see.<br>The tour ended at a coffee shop whose owner is an old friend of his. There, we each got a hand-drawn map on which all the stops were marked. I was surprised that the tour cost only 300 yen, including a cup of coffee. Whoever likes local history should try it. The next tour is on December 5, and you can sign up at the information desk in the station.'
   q: 英文B（ブログ）について。<br>問　Where did the walking tour end?
   choices:
   - At the post office.
@@ -85,9 +83,9 @@ problems:
   choices:
   - the small shrine behind the post office
   - the hill that was cut down for a new road
-  - the stone base of the old wooden bridge
   - the map on which all the stops are marked
-  ans: '3'
+  - the stone base of the old wooden bridge
+  ans: '4'
   why: he said it is what he most wants young people to see の it は、同じ文の前半の The stone base that held the bridge を指す。what 節は「彼が若い人に最も見てほしいもの」という名詞節で、is の補語になっている。
   trap: it を第2段落の最初の話題である神社と結びつけて①を選ぶ誤り。it は同じ文の前半の主語 The stone base を受けている。
 - id: q9006
@@ -100,12 +98,12 @@ problems:
   min: 1
   q: 英文Bについて。<br>問　Which is closest in meaning to "we each got a hand-drawn map on which all the stops were marked"?
   choices:
-  - Each of us received a map that showed all the places the tour stopped at.
-  - Each of us drew a map and marked the stops on it.
   - We got one map, and the guide wrote our names on it.
+  - Each of us drew a map and marked the stops on it.
+  - Each of us received a map that showed all the places the tour stopped at.
   - Each of us got a map which was put up at every stop.
-  ans: '1'
-  why: on which は「その地図の上に」で、もとの文は all the stops were marked on the map。「立ち寄る場所がすべて記された地図を1人1枚もらった」となり、①と同じ意味になる。
+  ans: '3'
+  why: on which は「その地図の上に」で、もとの文は all the stops were marked on the map。「立ち寄る場所がすべて記された地図を1人1枚もらった」となり、③と同じ意味になる。
   trap: hand-drawn と marked から「自分で描いて印を付けた」と読み、②を選ぶ誤り。were marked は受け身で、地図はもらったもの（got）である。
 - id: q9007
   part: 2
@@ -118,11 +116,11 @@ problems:
   inst: （　）に入る最も適切なものを1つずつ選びなさい。
   q: The train (＿) leaves Hakata at 7:15 goes straight to Osaka.
   choices:
-  - who
   - which
+  - who
   - what
   - whose
-  ans: '2'
+  ans: '1'
   why: 先行詞 The train は人以外で、節の中で leaves の主語が欠けている。人以外・主語が欠ける → which（または that）。
   trap: ③what を選ぶ誤り。what は先行詞をふくむので、The train のような先行詞の後ろには置けない。
 - id: q9008
@@ -135,13 +133,13 @@ problems:
   min: 1
   q: I have a friend (＿) father works as a vet at the city zoo.
   choices:
-  - who
-  - whom
   - whose
+  - whom
+  - who
   - which
-  ans: '3'
+  ans: '1'
   why: 空所の直後の father に冠詞も所有格もなく、「その友達の父親」という所有の関係になっている。所有者を表すのは whose。
-  trap: 先行詞が人なので①who を選ぶ誤り。who を入れると who father works … となり、father の前に何もない形が残る。
+  trap: 先行詞が人なので③who を選ぶ誤り。who を入れると who father works … となり、father の前に何もない形が残る。
 - id: q9009
   part: 2
   pts: 3
@@ -170,10 +168,10 @@ problems:
   q: The aquarium (＿) my class visited in May has a glass tunnel under a big tank.
   choices:
   - where
-  - when
   - which
+  - when
   - in which
-  ans: '3'
+  ans: '2'
   why: 節 my class visited ＿ in May は、visited の目的語が欠けた不完全な文。目的語の代わりができるのは関係代名詞の which で、関係副詞の where は入らない。
   trap: 先行詞 The aquarium が場所なので①where を選ぶ誤り。where の後ろは完全な文でなければならない。
 - id: q9011
@@ -186,13 +184,13 @@ problems:
   min: 1
   q: The club (＿) Ella belongs has 42 members.
   choices:
-  - to which
+  - which
   - for which
   - of which
-  - which
-  ans: '1'
+  - to which
+  ans: '4'
   why: もとの文は Ella belongs to the club.。belong to（〜に所属する）の to を関係代名詞の前に出すと to which になる。
-  trap: ④which を選ぶ誤り。belongs の後ろに前置詞 to が残っていないので、which だけでは to が足りない。
+  trap: ①which を選ぶ誤り。belongs の後ろに前置詞 to が残っていないので、which だけでは to が足りない。
 - id: q9012
   part: 2
   pts: 3
@@ -221,10 +219,10 @@ problems:
   q: Our new math teacher, (＿) came from Okinawa in April, plays the guitar in a band.
   choices:
   - that
-  - who
-  - whom
   - what
-  ans: '2'
+  - whom
+  - who
+  ans: '4'
   why: コンマの付いた非制限用法で、先行詞 Our new math teacher は人、came の主語が欠けている。非制限用法・人・主語 → who。
   trap: ①that を選ぶ誤り。that は非制限用法（コンマの後ろ）では使わない。③whom は目的格で、came の主語にはなれない。
 - id: q9014
@@ -237,13 +235,13 @@ problems:
   min: 1
   q: No matter (＿) late you come home, send me a message before you leave the station.
   choices:
-  - how
-  - what
   - however
+  - what
+  - how
   - when
-  ans: '1'
+  ans: '3'
   why: 空所の直後に形容詞 late があり、その後に you come home が続く。no matter how＋形容詞・副詞＋S＋V で「どんなに遅く帰っても」となる（＝However late you come home）。
-  trap: ③however を選ぶ誤り。no matter の後ろには疑問詞を置き、-ever の付いた語は置かない。④when では late を引き連れられない。
+  trap: ①however を選ぶ誤り。no matter の後ろには疑問詞を置き、-ever の付いた語は置かない。④when では late を引き連れられない。
 - id: q9015
   part: 2
   pts: 3
@@ -254,13 +252,13 @@ problems:
   min: 1
   q: The singer (＿) will win the contest is only sixteen years old.
   choices:
-  - whom I think
-  - who I think that
   - who I think
+  - who I think that
+  - whom I think
   - I think who
-  ans: '3'
+  ans: '1'
   why: I think を外すと The singer who will win the contest となり、will win の主語が欠けている。人・主語 → who。主語が欠けた連鎖関係詞節では、think の後に that を入れない。
-  trap: I think の目的語だと考えて①whom を選ぶ誤り。think の目的語は「＿ will win the contest」という節で、関係代名詞は節の中で主語の働きをしている。②は think that の形に引かれた誤り。
+  trap: I think の目的語だと考えて③whom を選ぶ誤り。think の目的語は「＿ will win the contest」という節で、関係代名詞は節の中で主語の働きをしている。②は think that の形に引かれた誤り。
 - id: q9016
   part: 2
   pts: 3
@@ -272,10 +270,10 @@ problems:
   q: Ella packed more clothes for the three-day trip (＿) were really necessary.
   choices:
   - as
-  - than
   - but
+  - than
   - what
-  ans: '2'
+  ans: '3'
   why: 先行詞に比較級 more が付いている。than が were necessary の主語の働きをして「本当に必要な量を超える服」となる。
   trap: ①as を選ぶ誤り。as が関係代名詞の働きをするのは such … as や the same … as のときで、比較級 more と組むのは than。
 - id: q9017

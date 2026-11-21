@@ -165,8 +165,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: My grandmother, (＿) is 82 years old, still swims twice a week.
-  choices: [that, who, which, whose]
-  ans: "2"
+  choices: [that, which, who, whose]
+  ans: "3"
   why: 先行詞 My grandmother は人で、節の中で is の主語が欠けている。コンマがあるので非制限用法になり、that は使えない。残るのは who。
   trap: 人・主語の欠けた関係詞節なので①that も入ると考えやすい。しかし that は非制限用法では使わない。
 - id: q4002
@@ -225,10 +225,10 @@ problems:
   q: "Hi Mom,<br>I arrived in Matsumoto on Friday. My host family, the Itos, live near the station. Mr. Ito, who works at a bank, drives me to school every morning. The Itos have two daughters, who both study in Tokyo, so their rooms are empty during the week. Yesterday we went to the castle, where I took a lot of pictures. In the evening we had dinner at a soba restaurant, which Mrs. Ito's brother runs. I'll write again soon.<br>Love,<br>Lucy"
   choices:
   - The Itos have another daughter who lives with them in Matsumoto.
-  - Neither of the Itos' daughters lives at home during the week.
   - Mr. Ito took Lucy to a bank on Friday.
+  - Neither of the Itos' daughters lives at home during the week.
   - Mrs. Ito runs a soba restaurant.
-  ans: "2"
+  ans: "3"
   why: The Itos have two daughters, who both study in Tokyo はコンマのある非制限用法なので、娘は2人だけで、その2人とも東京で学んでいる。続く so their rooms are empty during the week から、平日はどちらの娘も家にいないと分かる。
   trap: コンマを読み落として「東京で学ぶ娘が2人いる（ほかにもいるかもしれない）」と考え、①を選ぶ。コンマがあるので娘は2人だけである。④は which Mrs. Ito's brother runs の主語を取り違えている（店を営むのは伊藤夫人の兄弟）。
 # 第14節（@s14）節末
@@ -240,8 +240,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Ayaka didn't come to practice yesterday, (＿) surprised everyone on the team.
-  choices: [that, what, which, who]
-  ans: "3"
+  choices: [which, what, that, who]
+  ans: "1"
   why: チームのみんなを驚かせたのは「アヤカが昨日練習に来なかったこと」という前の内容全体。前の内容を受けられるのはコンマの付いた which。
   trap: 文の主語の Ayaka を先行詞と考え、④who を選ぶ誤り。驚かせたのは人ではなく、来なかったという出来事である。
 - id: q4008
@@ -251,8 +251,8 @@ problems:
   kind: 4択
   min: 1
   q: Our club has 18 members, most of (＿) are first-year students.
-  choices: [them, who, whom, which]
-  ans: "3"
+  choices: [them, who, which, whom]
+  ans: "4"
   why: 先行詞 18 members は人で、前置詞 of の直後なので目的格の whom。most of whom で「そのほとんどは」となる。
   trap: ①them を選ぶ誤り。them にすると Our club has 18 members と most of them are … の2文が接続詞なしでつながり、文として成り立たない。
 - id: q4009
@@ -315,10 +315,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: This guitar, (＿) my uncle gave me ten years ago, still sounds great.
-  choices: [that, where, which, what]
-  ans: "3"
+  choices: [which, where, that, what]
+  ans: "1"
   why: 先行詞 This guitar は人以外で、節の中では gave me の後ろの目的語が欠けている。コンマがあるので that は使えず、which が入る。
-  trap: 目的語が欠けていることには気づいても、①that を選ぶ誤り。コンマの後ろでは that は使えない。
+  trap: 目的語が欠けていることには気づいても、③that を選ぶ誤り。コンマの後ろでは that は使えない。
 - id: q4014
   sec: s14
   set: 章末
@@ -326,8 +326,8 @@ problems:
   kind: 4択
   min: 1
   q: The museum has about 500 old photos, many of (＿) were taken by local people.
-  choices: [them, that, which, whom]
-  ans: "3"
+  choices: [them, which, that, whom]
+  ans: "2"
   why: 先行詞 500 old photos は人以外で、前置詞 of の後ろなので which。many of which で「そのうちの多くは」。
   trap: ①them を選ぶと、The museum has … と many of them were … の2文が接続詞なしでつながる。意味が通っても文の形として誤り。
 - id: q4015
@@ -385,10 +385,10 @@ problems:
   q: "Tom joined the cooking club in April. The club has twelve members, most of whom had never cooked before. Their teacher, who runs a restaurant in town, visits every Friday. Last month the club made curry at a care home near the school, where about 40 older people live. Some of the members cut their fingers while they were cutting vegetables, which made the teacher a little worried. However, everyone enjoyed the curry, and the club plans to cook there again in December.<br>問　What made the teacher a little worried?"
   choices:
   - The club cooked for about 40 people.
-  - Some members cut their fingers while cooking.
-  - Most members had never cooked before.
   - The curry was not very good.
-  ans: "2"
+  - Most members had never cooked before.
+  - Some members cut their fingers while cooking.
+  ans: "4"
   why: ", which made the teacher a little worried の which は、直前の「何人かの部員が野菜を切っていて指を切ったこと」全体を受けている。"
   trap: ③を選ぶ誤り。部員の多くが料理をしたことがなかったのは本文にあるが、先生を心配させた内容として which が受けているのは、すぐ前の指を切った出来事である。
 - id: q4020

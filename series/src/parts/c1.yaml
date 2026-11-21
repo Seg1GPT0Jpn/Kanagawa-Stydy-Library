@@ -345,8 +345,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: The train (＿) leaves at 7:10 is usually crowded.
-  choices: [who, whom, which, whose]
-  ans: "3"
+  choices: [who, whom, whose, which]
+  ans: "4"
   why: 先行詞 The train は人以外で、節の中で leaves の主語が欠けている。人以外・主語が欠ける場合は which。
   trap: ②whom を選ぶ誤り。whom は目的格で、しかも先行詞が人のときの語なので、主語の欠けた節にも物の先行詞にも合わない。
 - id: q1003
@@ -440,11 +440,11 @@ problems:
   inst: 次の英文を読み、問いの答えとして最も適切なものを1つ選びなさい。
   q: "Every Saturday, my grandmother bakes bread for our family. The bread she makes is soft and a little sweet. Last week, she taught me a recipe her own mother used in the 1960s. I tried it at home the next day, but the bread I baked was hard and dry. When I told my grandmother about it, she laughed and said the oven we have at home gets too hot. Next time, I will use the old oven she has in her kitchen.<br>問　According to the grandmother, why was the writer's bread hard and dry?"
   choices:
-  - The writer used a recipe from the 1960s.
   - The oven in the writer's home gets too hot.
+  - The writer used a recipe from the 1960s.
   - The grandmother's oven is too old.
   - The writer baked it on a Saturday.
-  ans: "2"
+  ans: "1"
   why: said (that) the oven we have at home gets too hot の the oven we have at home は接触節で「私たちが家に持っているオーブン」。祖母は、家のオーブンが熱くなりすぎることを原因にしている。
   trap: 最後の文の the old oven she has を読み、③を選ぶ誤り。これは「祖母が持っている古いオーブン」で、次に使うつもりのオーブンである。
 - id: q1011
@@ -455,10 +455,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: The man (＿) talked to me at the bus stop was Mr. Ogawa's brother.
-  choices: [who, whom, whose, （何も入れない）]
-  ans: "1"
-  why: 節の中で talked の主語が欠けているので主格の who。主格の関係代名詞は省略できないので④は誤り。
-  trap: 接触節と同じだと考えて④を選ぶ誤り。The man talked to me … とすると talked が文の動詞に見え、was の主語がなくなる。
+  choices: [（何も入れない）, whom, whose, who]
+  ans: "4"
+  why: 節の中で talked の主語が欠けているので主格の who。主格の関係代名詞は省略できないので①は誤り。
+  trap: 接触節と同じだと考えて①を選ぶ誤り。The man talked to me … とすると talked が文の動詞に見え、was の主語がなくなる。
 - id: q1012
   sec: s03
   set: 節末
@@ -480,8 +480,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: I know a girl (＿) father is a pilot.
-  choices: [who, which, whose, that]
-  ans: "3"
+  choices: [who, whose, which, that]
+  ans: "2"
   why: 空所の後ろは冠詞のない名詞 father で始まり、「その女の子の父親」という持ち主の関係になっている。所有格の whose を使う。
   trap: 先行詞が人なので①who を選ぶ誤り。who father is a pilot では、father の持ち主が示されない。
 - id: q1014
@@ -564,8 +564,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Ken ate everything (＿) was on his plate.
-  choices: [what, that, who, whose]
-  ans: "2"
+  choices: [what, who, that, whose]
+  ans: "3"
   why: 先行詞 everything の後ろで、was の主語が欠けている。-thing の語が先行詞のときは that が好まれる。
   trap: 「皿にあったもの」という日本語から①what を選ぶ誤り。everything という先行詞があるので what は使えない。
 - id: q1021
@@ -623,8 +623,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: This is the park in (＿) my sister lost her ring.
-  choices: [that, which, who, whom]
-  ans: "2"
+  choices: [that, whom, who, which]
+  ans: "4"
   why: 先行詞 the park は人以外で、前置詞 in の直後に置ける関係代名詞は which。
   trap: ①that を選ぶ誤り。that は前置詞の直後には置けない。
 - id: q1026
@@ -710,8 +710,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: This is the club (＿) Yui joined last year.
-  choices: [which, in which, whose, who]
-  ans: "1"
+  choices: [whose, in which, which, who]
+  ans: "3"
   why: join は他動詞で、節の中で joined の目的語が欠けている（不完全な文）。目的格の which を使う。
   trap: 「クラブに入る」の日本語から in を補って②in which を選ぶ誤り。in which の後ろには完全な文が来るが、Yui joined last year は目的語が欠けている。
 - id: q1033
@@ -760,10 +760,10 @@ problems:
   q: "Our class held a quiz contest last Friday. There were twenty questions, and my team answered sixteen of them correctly. That was the highest score that any team got that day. The last question was about a river in Africa, and the only student who knew the answer was Daniel. Everything that he said about the river was correct, so our teacher gave him a small prize: a notebook that has a map of the world on its cover.<br>問　Which of the following is true?"
   choices:
   - The writer's team answered all of the twenty questions correctly.
-  - No team got a higher score than the writer's team.
-  - Daniel's team got a map of the world as a prize.
   - Several students knew the answer to the last question.
-  ans: "2"
+  - Daniel's team got a map of the world as a prize.
+  - No team got a higher score than the writer's team.
+  ans: "4"
   why: the highest score that any team got that day（その日に各チームが取った得点の中で最も高い得点）から、筆者のチームより高い得点のチームはない。
   trap: ③を選ぶ誤り。a notebook that has a map of the world on its cover は「表紙に世界地図がついたノート」で、もらったのは地図そのものではなく、チームでもない。
 - id: q1037
@@ -776,12 +776,12 @@ problems:
   q: "Last summer, I stayed with a host family in Canada for three weeks. The house in which they lived stood on a hill near the sea. My room was small, but it had a large window from which I could see boats every morning. The person with whom I talked most was the family's ten-year-old son. He showed me the beach on which he had learned to swim, and we played there almost every evening.<br>問　Which of the following is true?"
   choices:
   - The host family's house was in the center of a busy city.
-  - The writer could see boats from the window of the room.
-  - The writer talked most with the mother of the family.
   - The son learned to swim in a pool near the house.
-  ans: "2"
+  - The writer talked most with the mother of the family.
+  - The writer could see boats from the window of the room.
+  ans: "4"
   why: a large window from which I could see boats every morning は「毎朝ボートが見える大きな窓」。I could see boats from the window の from が which の前に出ている。
-  trap: ④を選ぶ誤り。the beach on which he had learned to swim は「彼が泳ぎを覚えた浜辺」で、プールではない。
+  trap: ②を選ぶ誤り。the beach on which he had learned to swim は「彼が泳ぎを覚えた浜辺」で、プールではない。
 - id: q1038
   sec: s04
   set: 章末
@@ -791,11 +791,11 @@ problems:
   inst: 次の英文を読み、問いの答えとして最も適切なものを1つ選びなさい。
   q: "There is a small bike shop near our station. The man who runs it is over seventy, and the shop is full of tools his father used. Customers whose bikes are more than ten years old can get a free check once a year. He says that old bikes people bring him are often better than new ones, because their parts were made to last. Last month, my sister took him the bike she had used for twelve years. He checked it, fixed the brakes in twenty minutes, and did not ask for any money.<br>問　Which of the following is true?"
   choices:
-  - Only bikes that are less than ten years old can get a free check.
   - The man believes that old bikes are often better than new ones.
+  - Only bikes that are less than ten years old can get a free check.
   - The writer's sister bought a new bike at the shop last month.
   - It took the man two hours to fix the brakes on the bike.
-  ans: "2"
+  ans: "1"
   why: He says that old bikes people bring him are often better than new ones の old bikes people bring him は接触節で「人々が持ってくる古い自転車」。店主は古い自転車のほうがよいことが多いと言っている。
   ref: s03
-  trap: ①を選ぶ誤り。Customers whose bikes are more than ten years old は「自転車が10年より古いお客」で（whose は @s04）、無料点検の対象は古い自転車のほうである。
+  trap: ②を選ぶ誤り。Customers whose bikes are more than ten years old は「自転車が10年より古いお客」で（whose は @s04）、無料点検の対象は古い自転車のほうである。
