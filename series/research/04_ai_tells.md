@@ -3,7 +3,7 @@
 対象：大学入試向け英文法教材（日本語解説＋英語例文、印刷用PDF、黒・赤・灰色網の3色）。
 目的：AI生成物に典型的な特徴を避け、市販の学習参考書として通用する見た目と文章にする。
 
-> 作業中のファイル。調べた分から順に書き足している。末尾の「出典一覧」で確認状況を示す。
+> 調査日：2026-11-21。根拠は実際に開いて読んだ資料に限り、末尾の「出典一覧」で確認状況を示す。チェックリストと禁止語リストは本文の後半にある。
 
 ---
 
@@ -157,3 +157,318 @@
 - 見出しが全部同じ大きさ・同じ形（見出しのレベルに差がない）。
 - 余白・囲み・角丸がすべて同じ値（C-3、C-5 の「均一さ」）。
 
+---
+
+## 「避けること」チェックリスト
+
+判定の基本方針（Wikipedia ガイドの「当てにならない指標」と大西 2026 を踏まえる）：**1語・1か所で「AIっぽい」と判断しない。密度と偏りで見る。** 自動検査は「候補を出す」ためのもので、最終判断は人が読む。
+
+正規表現は PCRE／Python `re` 形式。`TEXT` は解説の日本語本文、`EX` は英語例文、`SRC` は HTML/CSS ソースを指す。
+
+### 1. 文章（日本語の解説）
+
+| # | 避けること | 根拠 | 検出方法（自動検査） |
+|---|---|---|---|
+| J1 | 読者への呼びかけ・号令（「〜しましょう！」「〜してみましょう」「覚えておきましょう」） | 記事レベル（B-5）。参考書の地の文では不要 | `TEXT`: `しましょう[！!]?` `てみましょう` → 1章で3回を超えたら要確認。`！` は解説文では0回を目標：`[！!]` |
+| J2 | 理由のない「〜が重要です」「〜が大切です」「〜が必要です」 | 中山 2026（B-3） | `(重要|大切|必要|大事)(です|である|だ)[。！]` を数え、直前の文に理由（「〜ので」「〜ため」「なぜなら」）がないものを拾う |
+| J3 | 断定回避の決まり文句（「〜と言えるでしょう」「〜と考えられます」の連続、「〜かもしれません」） | 中山 2026、大西 2026（婉曲・一般論に逃げる） | `(と言|とい)えるでしょう` `と考えられ(ます|る)` `かもしれません` → 文法の説明では原則0回 |
+| J4 | 締めの決まり文句（「まとめると」「いかがでしたか」「以上のように」「このように〜ことがわかります」） | B-4、B-5（記事レベル） | `まとめると` `いかがでした(か|でしょうか)` `以上のように` `^このように` |
+| J5 | 埋め草の抽象語（「さまざまな」「多くの」「効果的に」「効率的な」「〜において」「〜を通じて」） | 中山 2026、Imoto 2026 | `さまざまな|様々な|効率的な|効果的(な|に)|多くの場面で` → 1ページ2回超で要確認 |
+| J6 | 同じ接続詞の多用（特に「また、」）、接続詞の種類が少ない | 大西 2026（実測） | `(^|。)また、` を数え、全接続詞に占める割合が30%を超えたら要確認。接続詞の種類数も数える |
+| J7 | 同じ文末が続く（「〜です。」が3文以上連続、「〜ます。」の連続） | 大西 2026（文末の偏り）、中山 2026 | 文を `。` で区切り、末尾3字を比べ、同じものが3連続したら警告 |
+| J8 | 文の長さ・段落の長さがそろいすぎている | 大西 2026（実測）、Muñoz-Ortiz 2024 | 1項目内の文字数の標準偏差／平均（変動係数）が0.25未満なら警告。段落の文数がすべて同じなら警告 |
+| J9 | 三点セット（「A、B、そしてC」「〜で、〜で、〜です」を繰り返す） | Wikipedia、Pangram（三つ組4倍） | `[^、。]{1,15}、[^、。]{1,15}、(そして)?[^、。]{1,15}` を数え、1ページ2回超で要確認 |
+| J10 | 太字の多用（1段落に2か所以上、文全体が太字） | Wikipedia、Pangram（マークダウン12倍） | `SRC`: `<(strong|b)>` と `**` を段落ごとに数える。1段落1か所まで |
+| J11 | 箇条書きの多用（説明を箇条書きで済ませる、太字ラベル＋コロンで始まる箇条書き） | Wikipedia（inline-header lists）、Pangram（9倍） | `^\s*([-*・●■]|\d+\.)\s` の行数／本文行数が0.3を超えたら警告。`^\s*[-*・]\s*\*\*[^*]+\*\*[：:]` は原則0 |
+| J12 | 対話・接客の言い回し（「もちろんです」「いい質問ですね」「お役に立てば」「ぜひ〜してください」） | Wikipedia（collaborative communication）、Pangram | `もちろん(です)?[！!、]` `いい質問` `お役に立て` `ぜひ` |
+| J13 | 同義反復（「柔軟な対応が必要です。そのためには適応力を高めることが重要です」型） | 中山 2026 | 自動検査は困難。隣り合う2文で内容語の重なりが40%超のものを候補にする（pixelslop #19 の応用） |
+| J14 | 具体例のない一般論（「英語では関係詞がよく使われます」で終わる） | 大西 2026（最多の指摘「具体性がない」） | 自動検査は困難。各説明段落に例文番号への参照（`例文\d+` `\(\d+\)` `①-⑳`）があるかを確認 |
+| J15 | 長いダッシュ「——」「—」を挿入句に使う | Pangram（長ダッシュ10倍）、Wikipedia（2026年9月まで） | `TEXT`: `—|――|——` → 解説文では0回 |
+| J16 | 絵文字・装飾記号（✨✅👉💡、★☆を見出しに） | Wikipedia、Pangram | `[\x{1F300}-\x{1FAFF}\x{2600}-\x{27BF}\x{2B50}\x{2705}]` → 0回 |
+
+### 2. 英語例文
+
+| # | 避けること | 根拠 | 検出方法（自動検査） |
+|---|---|---|---|
+| E1 | LLMの多用語（delve, showcase, underscore, tapestry, testament, pivotal, intricate, meticulous, realm, vibrant, foster など） | Kobak 2025、Liang 2024a/b、Wikipedia | 下の「禁止語リスト（英語・強）」を単語境界つきで照合：`\b(delv(e|es|ed|ing)|showcas(e|es|ed|ing)|…)\b`（大文字小文字を区別しない）。1件でも出たら差し替えを検討 |
+| E2 | 重要性を誇張する定型句（stands as, serves as a testament, plays a crucial role, a rich history, deeply rooted） | Wikipedia | 「英語・句」リストを照合 |
+| E3 | 文末の分詞で意義づけ（…, highlighting the importance of…, …, ensuring that…） | Wikipedia（superficial analyses） | `,\s+(highlighting|underscoring|emphasizing|ensuring|reflecting|symbolizing|contributing to|fostering|showcasing)\b` |
+| E4 | 抽象・教訓・説教調の例文（Education is the key to…, Kindness can change the world.） | 推論（Wikipedia の誇張・表面的分析の型）。大西 2026 の「具体性がない」 | 主語が抽象名詞（education, success, life, kindness, technology, knowledge, happiness）で始まる例文を数える：`^(Education|Success|Life|Kindness|Technology|Knowledge|Happiness|Friendship|Hard work)\b`。全例文の10%を超えたら要確認 |
+| E5 | 同じ名前の使い回し、AI物語の定番名（Elias, Elara, Mara, Voss, Thorne, Marcus Chen, Sarah Chen） | Hamilton & Mimno 2026（報道で確認）、ほかは未確認 | 大文字始まりの人名を抽出して頻度表を作る。同じ名前が1冊で5回超、または定番名リストに当たれば警告 |
+| E6 | 例文の長さがそろいすぎる（どれも12〜16語） | Muñoz-Ortiz 2024、大西 2026 | 例文ごとの語数を数え、1節の変動係数が0.25未満、または±2語の幅に60%以上が入れば警告 |
+| E7 | not only … but also、not X but Y、rather than を飾りとして多用 | Wikipedia（negative parallelism）、Pangram（3倍） | `\bnot only\b.*\bbut( also)?\b` `\bnot just\b` `\bit'?s not\b.*\bit'?s\b` を数える。**ただし入試の構文項目として扱う章は除外** |
+| E8 | 3つ並べの形容詞・名詞（kind, smart, and brave） | Wikipedia、Pangram | `\b\w+,\s+\w+,?\s+and\s+\w+\b` を数え、例文の10%超で要確認 |
+| E9 | 褒め言葉の形容詞・副詞の集中（innovative, remarkable, invaluable, exceptional, impressively） | Liang 2024a（査読文で偏る形容詞・副詞） | 「英語・注意」リストの照合。1例文に2語以上なら差し替え |
+| E10 | 文頭の Additionally / Moreover / Furthermore / Notably の連続 | Kobak 2025（additionally, notably）、Wikipedia | `^(Additionally|Moreover|Furthermore|Notably|Importantly),` |
+| E11 | 長いダッシュ（—）の多用 | Pangram、Wikipedia | `EX`: `—` を数える。例文では原則使わない（使うならコンマ・括弧） |
+| E12 | 例文に入る「AIの語り」の舞台（lighthouse, keeper, whispering, a small town where…） | Hamilton & Mimno 2026 | `\b(lighthouse|keeper)\b` `\bwhisper(s|ed|ing)?\b` を数える |
+
+### 3. 見た目
+
+| # | 避けること | 根拠 | 検出方法（自動検査） |
+|---|---|---|---|
+| V1 | グラデーション（背景・文字・ボタン） | Anthropic 2025、Canatselis 2026、925studios、pixelslop #1/#5 | `SRC`: `(linear|radial|conic)-gradient\(` `background-clip:\s*text` `bg-gradient-to-` → 0回 |
+| V2 | 影 | pixelslop #10/S6、925studios、Laith | `box-shadow:(?!\s*none)` `text-shadow:(?!\s*none)` `filter:\s*drop-shadow` `shadow-(sm|md|lg|xl)` → 0回 |
+| V3 | 角丸の囲み・カード | pixelslop #10、Canatselis（同じ角丸の均一さ） | `border-radius:\s*(?!0(px)?\b)` → 0回が原則（使うなら1種類・2px以下・意味のある1種類の部品だけ） |
+| V4 | 色付きの太い左ボーダーだけの囲み | Canatselis 2026、pixelslop #15 | `border-left:\s*([3-9]|\d{2,})px` `border-left-width:\s*([3-9]|\d{2,})px`。左右上下のうち1辺だけ太い要素が2つ超で警告 |
+| V5 | 絵文字の見出し・アイコン、汎用アイコンの多用、見出し上のアイコン | Wikipedia、Laith、pixelslop #18、925studios | 本文・見出しで絵文字の正規表現（J16）→ 0回。`SRC`: `<svg` `<i class="(fa|bi|icon)` `material-icons` の数 → 原則0 |
+| V6 | 同じ大きさのカードを均等に並べる格子 | pixelslop #7、925studios（three-card reflex）、Laith | `SRC`: `grid-template-columns:\s*repeat\(\s*[2-4]\s*,\s*1fr\s*\)` `display:\s*grid` の箇所を目視確認。同じクラスの兄弟要素が3つ以上並ぶ箇所を候補にする |
+| V7 | 囲みばかり（ページの大半が箱に入っている）、箱の入れ子 | pixelslop #9/#23 | 1ページの枠つき要素が6個超で警告。枠つき要素の中の枠つき要素は0 |
+| V8 | 余白・角丸・見出しサイズがすべて同じ値 | Canatselis 2026、pixelslop #21 | `SRC` の `margin`/`padding` の値の種類数が2以下で警告。見出しレベルごとのフォントサイズが全部同じなら警告 |
+| V9 | すりガラス・光彩・ネオン | pixelslop #2/#3/#22、Laith | `backdrop-filter` `filter:\s*blur` → 0回 |
+| V10 | 既定のウェブ用フォント（Inter, Roboto, Arial, Open Sans, Lato, Space Grotesk）を欧文に使う | Anthropic 2025、pixelslop #8 | `font-family:[^;]*\b(Inter|Roboto|Arial|Open Sans|Lato|Space Grotesk|Helvetica)\b` |
+| V11 | 指定の3色（黒・赤・灰網）以外の色 | 依頼の仕様。Canatselis「色は役割で使う」 | `SRC` から `#[0-9a-fA-F]{3,8}\b` `rgba?\(` `hsla?\(` を全部抜き出し、許可リスト（黒・赤1色・灰の濃度数段）と照合 |
+| V12 | 全部中央揃え | pixelslop #17、Laith | `text-align:\s*center` の数が見出し・段落要素の70%超で警告 |
+| V13 | 英字大文字のラベルが多種類（POINT, CHECK, TIPS, NOTE, KEY, ADVANCED…） | 根拠は弱い（C-6 は許容）。参考書の慣行でラベルは2〜3種 | `\b[A-Z]{3,}\b` を見出し・ラベル要素から抜き出して種類を数え、4種以上で警告。`text-transform:\s*uppercase` `letter-spacing` の箇所も確認 |
+
+### 4. 組版
+
+| # | 避けること | 根拠 | 検出方法（自動検査） |
+|---|---|---|---|
+| T1 | 柱・ノンブルがない／位置がページごとにずれる | JLReq（基本版面基準） | PDF の各ページで上端・下端のテキストを抜き出し、ノンブルが連番で同じ座標にあるか確認（`pdftotext -bbox` など） |
+| T2 | 見出しに番号体系がない、番号の形が混ざる（1. と ① と (1) が同じレベルで混在） | 参考書の慣行（出典未確認） | 見出し要素ごとに先頭の番号形式を正規表現で分類：`^第\d+章` `^\d+\s` `^\(\d+\)` `^[①-⑳]`。同じレベルで2種以上なら警告 |
+| T3 | 空行で段落を区切る、段落頭を下げない（ウェブ式） | JLReq（段落頭は全角下げ） | `SRC`: `text-indent` が本文段落に 1em 指定されているか。`<p>` の間に `<br>` や空段落がないか |
+| T4 | 禁則違反（行頭の「、。」）」、行末の「（「」） | JLReq | PDF から行ごとに抜き出し、`^[、。，．）」』】〕・ー]` と `[（「『【〔]$` を検出 |
+| T5 | 約物の不統一（「，．」と「、。」の混在、全角・半角の括弧の混在、和文中の半角「,」「.」「!」「?」） | JLReq（約物の扱い）、表記の一貫性 | `TEXT`: `[、。]` と `[，．]` の両方が出たら警告。和文の間の半角約物：`(?<=[\p{Han}\p{Hiragana}\p{Katakana}])[,.!?()](?=[\p{Han}\p{Hiragana}\p{Katakana}])` |
+| T6 | 和文中のカーリー引用符（“ ”）や英語式の引用 | Wikipedia の指摘は wiki 文脈。**英文例文中の “ ” は印刷では正しい組版なので対象外** | 和文中の `[“”‘’]` を検出（例文の中は除外） |
+| T7 | ルビ・圏点で行間が変わる | JLReq（行送り一定） | PDF のベースライン間隔を測り、ばらつきがあれば警告 |
+| T8 | 画面操作の言葉、リンク表現 | D-3 | `クリック|タップ|スクロール|こちら(から|を)|リンク|ボタン` → 0回。`SRC`: `<a href` → 0回（印刷用） |
+| T9 | 色を飾りに使う（見出し全部が赤、網を背景装飾に） | 参考書の慣行、Canatselis | 赤の使用箇所を数え、「重要語・正解・注意」以外の要素（見出し、罫、背景）での使用を確認 |
+
+---
+
+## 「やること」チェックリスト
+
+### 文章（日本語の解説）
+- [ ] 1つの説明に1つ以上の**具体的な例文番号**を必ず結びつける（「例文③の who は…」）。
+- [ ] 規則を言い切る。「〜と言えるでしょう」ではなく「〜である／〜する」。例外があるなら例外を具体的に書く。
+- [ ] 「重要」と書くなら、なぜ重要か（入試で何が問われるか、どこで間違えやすいか）を同じ文か次の文に書く。
+- [ ] 文末を散らす（「〜である」「〜する」「〜だ」「〜に注意」、体言止め、問いかけ）。同じ文末を3回続けない。
+- [ ] 接続詞は「また」に頼らず、「ただし」「つまり」「一方」「たとえば」などを内容に合わせて選ぶ。
+- [ ] 文の長さに差をつける。短い一文の断定（「先行詞は人である。」）と長い説明を混ぜる。
+- [ ] 太字は**1段落に1か所まで**、または太字を使わず赤字・下線の一方に統一する。
+- [ ] 箇条書きは「手順」「対比」「一覧表」に限り、説明は段落の文章で書く。
+- [ ] 文体（だ・である調か、です・ます調か）を1冊で統一する。参考書の地の文は「だ・である」または簡潔な「です・ます」。
+
+### 英語例文
+- [ ] 日常の具体的な場面（家族、学校、店、駅、天気、部活）を使い、固有の物・数・時を入れる。
+- [ ] 入試の過去問や定評ある文法書の例文の**長さの幅**（5〜25語程度）に合わせ、短い文と長い文を混ぜる。
+- [ ] 文法項目（関係詞）が主役になるよう、他の要素は平易に保つ。語彙は高校の範囲に収める。
+- [ ] 人名は名前リストを作って順に割り当て、同じ名前の連続を防ぐ。教科書的な名前（Tom, Ken, Mary, Mr. Smith など）と日本人名を混ぜる。
+- [ ] 例文ごとに語数を表にして、ばらつきを点検する（E6）。
+- [ ] 教訓・格言調の例文は1章に1〜2個までにし、入れる場合は実際のことわざや出典のある文にする。
+- [ ] 英文の確認はネイティブまたは信頼できる例文コーパスで行う（AIの言い換えをそのまま採らない）。
+
+### 見た目
+- [ ] 色は**意味で使う**：赤＝文法の要点・正解・注意、灰網＝例文ブロックや表の見出し行、黒＝それ以外。各色の用途を1枚の仕様表に書く。
+- [ ] 囲みは四角（角丸なし・影なし）、細罫か網のどちらか一方。囲みの種類は3種以内。
+- [ ] 見出しのレベルごとに大きさ・太さ・罫の有無をはっきり変える（主役と脇役の差、C-3）。
+- [ ] 英字ラベルを使うなら2〜3種に絞り（例：POINT／注意）、毎回同じ位置・同じ形で出す。
+- [ ] 図やアイコンは「意味のある図解」（先行詞と関係詞を結ぶ矢印、文構造の図）だけにする。
+
+### 組版
+- [ ] 基本版面を決める（判型、本文サイズ、行長は文字サイズの整数倍、行数、行間）。
+- [ ] 柱：偶数ページに章名、奇数ページに節名（両柱）。ノンブルは小口側に、全ページ同じ位置。
+- [ ] 見出し番号の体系を決める（例：第1章 → 1 → (1) → ①）。目次・柱と一致させる。
+- [ ] 段落頭は全角下げ、段落の間に空行を入れない。
+- [ ] 約物を統一する（「、。」か「，．」のどちらか）。和欧混植のアキ（四分程度）をそろえる。
+- [ ] 禁則処理を確認する（行頭の句読点・閉じ括弧、行末の開き括弧）。
+- [ ] 例文に通し番号、和訳の位置を統一。ページをまたぐ例文と和訳の分離を避ける。
+- [ ] 印刷して紙で見る（画面だけで判断しない）。灰網の濃度は実際の印刷で確認する。
+
+---
+
+## 自動検査用の禁止語リスト
+
+使い方：大文字小文字を区別せず、英語は単語境界（`\b`）つきで照合する。**強**は例文に出たら差し替えを検討、**注意**は密度で判断（1章で複数回、または1文に2語以上で警告）。根拠は A・B 節。
+
+### 英語・強（単語。活用形を含む）
+```
+delve
+delves
+delved
+delving
+showcase
+showcases
+showcased
+showcasing
+underscore
+underscores
+underscored
+underscoring
+tapestry
+testament
+pivotal
+intricate
+intricacies
+meticulous
+meticulously
+realm
+vibrant
+commendable
+garner
+garnered
+bolster
+bolstered
+interplay
+multifaceted
+noteworthy
+invaluable
+laudable
+```
+
+### 英語・強（句）
+```
+stands as
+serves as a
+a testament to
+plays a crucial role
+plays a pivotal role
+a pivotal moment
+a key role
+deep dive
+rich tapestry
+evolving landscape
+indelible mark
+deeply rooted
+setting the stage for
+reflects broader
+valuable insights
+resonate with
+align with
+not just
+i hope this helps
+certainly!
+```
+
+### 英語・注意（単語）
+```
+crucial
+robust
+foster
+fostering
+enhance
+enhancing
+landscape
+additionally
+notably
+moreover
+furthermore
+comprehensive
+insights
+valuable
+enduring
+boasts
+innovative
+versatile
+remarkable
+exceptional
+profound
+seamless
+leverage
+navigate
+embark
+journey
+unwavering
+undoubtedly
+undeniably
+impressively
+```
+注：seamless, navigate, embark, journey, unwavering, remarkable、および句の it is important to note / in today's world / in conclusion は今回開いた資料には根拠がない（一般にAI語として挙げられるが**未確認**）。単語は注意リストにのみ置き、句はリストから外した（参考書の解説や例文で使う理由がないので、目視で避ければ足りる）。
+
+### 英語・定番名（物語系AIの名前。頻度で判定）
+```
+Elias
+Elara
+Mara
+Voss
+Thorne
+Marcus Chen
+Sarah Chen
+lighthouse
+```
+
+### 日本語・強
+```
+しましょう！
+てみましょう
+と言えるでしょう
+といえるでしょう
+いかがでしたか
+いかがでしたでしょうか
+まとめると
+もちろんです
+いい質問
+お役に立て
+効果が期待されます
+バランスが重要
+ケース・バイ・ケース
+正直に言うと
+クリック
+タップ
+スクロール
+```
+
+### 日本語・注意（密度で判定）
+```
+重要です
+大切です
+必要です
+と考えられます
+かもしれません
+さまざまな
+様々な
+効率的な
+効果的に
+多くの
+以上のように
+このように
+これにより
+また、
+において
+ぜひ
+を通じて
+ポイントは
+注目されています
+```
+
+---
+
+## 出典一覧
+
+証拠の強さ：◎査読論文／○プレプリント・学位論文／△記事・ブログ・企業ページ・規則集。確認状況：「本文確認」＝本文（または該当部分）を開いて読んだ、「一部確認」＝抄録・紹介記事・一部のみ、「未確認」＝開けなかった・読んでいない。
+
+| # | 著者・年 | タイトル | URL | 確認した内容 | 強さ | 確認状況 |
+|---|---|---|---|---|---|---|
+| 1 | Kobak, González-Márquez, Horvát, Lause（2024 arXiv／2025 *Science Advances* 11(27)） | Delving into ChatGPT usage in academic writing through excess vocabulary（arXiv 版の題名。雑誌版の題名は未確認） | https://arxiv.org/abs/2406.07016 ／ https://arxiv.org/html/2406.07016 | 2024年抄録の13.5%以上がLLM処理。delves r=28.0、underscores 13.8、showcasing 10.7、potential/findings/crucial の頻度差、共通セット10語 | ◎（雑誌掲載） | 本文確認（HTML版）。付録 Figure S6 の全語は未確認 |
+| 2 | Liang, Izzo, Zhang ほか（2024、ICML 2024） | Monitoring AI-Modified Content at Scale: A Case Study on the Impact of ChatGPT on AI Conference Peer Reviews | https://arxiv.org/abs/2403.07183 ／ https://arxiv.org/html/2403.07183 | 査読の6.5〜16.9%。commendable 9.8倍、meticulous 34.7倍、intricate 11.2倍。付録A・Bの形容詞・副詞上位30 | ◎（国際会議） | 本文確認 |
+| 3 | Liang, Zhang, Wu ほか（2024） | Mapping the Increasing Use of LLMs in Scientific Papers | https://arxiv.org/abs/2404.01268 ／ https://arxiv.org/html/2404.01268 | 約95万本、CS最大17.5%。Figure 2 の4語 realm, intricate, showcasing, pivotal | ○（その後 COLM 2024 採録とされるが未確認） | 本文一部確認 |
+| 4 | WikiProject AI Cleanup（Wikipedia 編集者、随時更新、2026-11閲覧） | Wikipedia:Signs of AI writing | https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing | AI語彙（時期別）、誇張・表面的分析・否定の並列・三点セット、太字・タイトルケース・絵文字・カーリー引用符、対話表現、当てにならない指標 | △（編集者コミュニティの手引き。経験則の集積） | 本文確認（約25万字中、前半20万字） |
+| 5 | Muñoz-Ortiz, Gómez-Rodríguez, Vilares（2024、*Artificial Intelligence Review* 57:265） | Contrasting Linguistic Patterns in Human and LLM-Generated News Text | https://arxiv.org/abs/2308.09067 | 人間の文長はばらつきが大きく語彙が多様。LLMは数字・記号・助動詞・代名詞が多い | ◎ | 抄録確認（本文の数値は未確認） |
+| 6 | Hamilton, Mimno（2026、EMNLP 2026） | Elias in the Lighthouse, Again? Diagnosing Low Diversity in LLM Stories | 紹介記事 https://news.cornell.edu/node/333804 （DiPietro, Cornell Chronicle, 2026-10-19） | 4モデル2万話、約90%が11語のどれかを含む。lighthouse, keeper, Elias, Mara, Elara | ◎（会議論文。ただし確認は紹介記事） | 一部確認（論文本文は未確認） |
+| 7 | 報道各社（404 Media, Gizmodo, Vice）・各種ブログ | Elias Thorne／Elara Voss／Marcus Chen などAIの定番名 | https://404media.co/elias-thorne-chatbots-llms-chatgpt-lighthouse-keeper-story/ ほか | 検索結果の要約のみ | △ | 未確認 |
+| 8 | Shieh, Vassel, Sugimoto, Monroe-White（2024 arXiv／2026 *Nature Communications* 17:1243） | Laissez-Faire Harms: Algorithmic Biases in Generative Language Models | https://arxiv.org/abs/2404.07475 | 抄録に名前の頻度表はなし（Sarah/Emily の偏りの根拠にはならない） | ◎ | 抄録のみ確認（HTML版は404） |
+| 9 | 大西夢（2025年度、広島大学文学部 卒業論文） | AI生成文からみた「自然な日本語」についての研究 | https://home.hiroshima-u.ac.jp/jshira/papers/AI生成文からみた「自然な日本語」についての研究（大西夢）.pdf | 予備調査148件の自由記述、文長・読点・接続詞・文末の偏り、婉曲・一般論 | ○（学位論文・査読なし・小規模） | 本文確認（PDFからテキスト抽出） |
+| 10 | Pangram（日付なし） | AIによる文章の特徴（Signs of AI writing） | https://www.pangram.com/ja/signs-of-ai-writing | 1万語あたりの頻度比：マークダウン12倍、箇条書き9倍、長ダッシュ10倍、三つ組4倍など | △（検出ツール企業。コーパスの言語・詳細不明） | 本文確認 |
+| 11 | 中山順司（2026-05-07、PRESIDENT Online） | AIで作った文章を見抜くたった一つのフレーズ | https://president.jp/articles/-/112658 | 「〜が重要です」「〜といえるでしょう」、抽象語、同義反復、文のリズムの均質化 | △（経験にもとづく記事） | 一部確認（有料部分は未読） |
+| 12 | Ken Imoto（2026、DEV Community） | We Measured 180 AI-Generated Japanese Articles | https://dev.to/kenimo49/we-measured-180-ai-generated-japanese-articles-the-results-were-not-what-we-expected-4k7e | 6モデル180本、語彙指標、構造指標の撤回 | △（個人の計測、Zenodo 稿は未確認） | 本文確認 |
+| 13 | 飯田一史（PRESIDENT Online） | AIの論文調の言い回しに関する記事 | https://president.jp/articles/-/119779 | 検索結果の要約のみ（「〜を示唆している」など論文調） | △ | 未確認 |
+| 14 | fyve.co.jp（記事） | AI文章判定の俗説（いかがでしたか はSEO記事由来など） | https://fyve.co.jp/ai-advisor/articles/ai-text-detection-myths-japan | 検索結果の要約のみ | △ | 未確認 |
+| 15 | Rajasekaran, Wei, Bricken ほか（Anthropic、2025-11-12） | Improving frontend design through Skills | https://claude.com/resources/articles/improving-frontend-design-through-skills | "AI slop" aesthetic：Inter、白地に紫グラデーション、控えめなアニメーション、予測可能なレイアウト | △（AI開発元の解説） | 本文確認 |
+| 16 | Ken Imoto（2026-07-03、DEV Community） | Anthropic Rewrote frontend-design Skill: 3 AI Design Clichés Named with Hex Codes | https://dev.to/kenimo49/anthropic-rewrote-frontend-design-skill-3-ai-design-cliches-named-with-hex-codes-22m4 | 3つの定番の見た目（クリーム＋セリフ＋テラコッタ、黒＋蛍光1色、細罫・角丸なしの新聞風） | △（第三者の紹介） | 本文確認（スキル本文そのものは未確認） |
+| 17 | Kosta Canatselis（2026-07-23） | Spot the slop: a UI designer's guide to fixing AI defaults | https://world.hey.com/kostac/spot-the-slop-a-ui-designer-s-guide-to-fixing-ai-defaults-4c448c9c | 均一な余白・角丸・カード、紫青グラデーション、中身のない見出し、色を役割で使う | △（デザイナーのブログ） | 本文確認 |
+| 18 | 925studios（2026） | AI Slop Fonts and Gradients: The Tells That Give Away AI Design | https://www.925studios.co/blog/ai-slop-design-tells | Inter、インディゴ紫グラデーション、3枚の角丸カード、淡い影、汎用アイコン | △（デザイン会社のブログ） | 本文確認 |
+| 19 | pixelslop（npm パッケージ v0.3.8） | AI Slop Pattern Catalog | https://cdn.jsdelivr.net/npm/pixelslop@0.3.8/dist/skill/resources/ai-slop-patterns.md | 視覚26・ソース16の検出規則と閾値 | △（ツールの規則集） | 本文確認 |
+| 20 | Laith0003（GitHub wiki、2026-11 更新） | Anti AI slop ban list | https://github.com/Laith0003/ux-skill/wiki/Anti-AI-slop-ban-list | 絵文字・グラデーション文字・同じカード3枚・重い影・均一な角丸・中央揃えの禁止。大文字ラベル・ピルは許容 | △（個人の規則集） | 本文確認 |
+| 21 | W3C（Japanese Layout Task Force） | Requirements for Japanese Text Layout（日本語組版処理の要件, JLReq） | https://www.w3.org/TR/jlreq/ | 基本版面、柱（両柱・片柱）とノンブル、約物のアキ、禁則、ルビと行送り、段落の字下げ | ◎（W3C 技術文書。査読論文ではないが規範的資料） | 一部確認（約54万字中、前半20万字） |
+| 22 | JIS X 4051 | 日本語文書の組版方法 | — | JLReq 経由で言及のみ | ◎（規格） | 未確認 |
+| 23 | 学習参考書の組版・2色刷りに関する公開資料 | — | — | 検索したが該当資料が見つからない（出版社の編集マニュアル、デザイナーのインタビュー） | — | 未確認（資料なし） |
+
+---
+
+## 調査の限界
+- 英語のAI語彙研究は**学術論文・査読文**が対象で、教材の例文に直接あてはまるかは検証されていない。語彙リストは「例文で使う理由がほぼない語」として使うのが妥当。
+- 「Sarah / Emily に偏る」という主張は、**今回の調査では裏付けが見つからなかった**。確認できたのは物語での Elias / Elara / Mara の偏り（紹介記事経由）のみ。
+- 日本語のAI文体の量的研究は、小規模な卒業論文1本と企業ページ1本だけ。「〜しましょう」「まとめると」「三点セット」が日本語AI文で多いことは、**数値では確認できていない**（意見記事レベル）。
+- デザインの「AIっぽさ」はすべてウェブUIについての記事・規則集で、査読研究はない。印刷参考書への応用は推論。
+- 学習参考書の組版の慣行は公開資料が見つからず、D-2 は実物の参考書で確認が必要。
