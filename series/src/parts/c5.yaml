@@ -122,7 +122,7 @@ chapters:
         - [however, "{{no matter how}}（＋形容詞・副詞＋S＋V）"]
         - [whenever, "{{no matter when}}"]
         - [wherever, "{{no matter where}}"]
-    - p: 譲歩の節に may を入れることがあります。@e516 の However busy he may be は「どんなに忙しくても」で、この may は「かもしれない」と訳しません。かたい書き言葉の言い方で、ふだんの英語では However busy he is のように現在形を使うほうが普通です。未来のことを言うときも、will は使わず現在形で表すのが普通です。入試には may の形も現在形の形も出るので、may があっても意味は同じだと分かれば足ります。
+    - p: 譲歩の節に may を入れることがあります。@e516 の However busy he may be は「どんなに忙しくても」で、この may は「かもしれない」と訳しません。かたい書き言葉の言い方で、ふだんの英語では However busy he is のように現在形を使うほうが普通です。未来のことを言うときも、will は使わず現在形で表すのが普通です。入試には may を使う形も現在形だけの形も出るので、may があっても意味は同じだと分かれば足ります。
       notes:
       - kind: 注意
         text: "no matter how busy he may be のように、no matter＋疑問詞の節でも may を使うことがある。意味は may のない形と同じ。"
@@ -249,7 +249,7 @@ problems:
   choices: [Which, Whatever, Whoever, Whenever]
   ans: "4"
   why: I visit my aunt in Sendai は主語・動詞・目的語のそろった完全な文。欠けた語がないので、関係代名詞ではなく whenever（〜するときはいつでも）が入る。
-  trap: ②Whatever を選ぶ誤り。whatever は節の中で主語や目的語の代わりをするので、visit の目的語 my aunt がすでにある文には入らない。
+  trap: ②Whatever を選ぶ誤り。whatever は節の中で主語・目的語・補語のどれかの代わりをするので、後ろは不完全な文になる。visit の目的語 my aunt がすでにある完全な文には入らない。
 - id: q5008
   sec: s16
   set: 節末
@@ -329,7 +329,7 @@ problems:
   q: __Wherever__① you __will go__② in Hokkaido next month, __take__③ a warm jacket __with__④ you.
   ans: "2"
   why: 譲歩の副詞節では、来月のことでも will を使わず現在形で表すのが普通。Wherever you go in Hokkaido next month とする（かたい書き言葉では may を使う形もある）。
-  trap: next month があるので will を正しいと思う誤り。時・条件の副詞節と同じく、譲歩の副詞節でも未来のことはふつう現在形で表す。
+  trap: next month があるので will を正しいと思う誤り。時・条件の副詞節と同じく、譲歩の副詞節でも未来のことは普通現在形で表す。
 - id: q5015
   sec: s15
   set: 章末

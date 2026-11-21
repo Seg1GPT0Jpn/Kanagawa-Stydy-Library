@@ -247,7 +247,7 @@ problems:
   pts: 3
   sec: s17
   set: 模試
-  lv: 2
+  lv: 1
   kind: 4択
   min: 1
   q: "The old painting (＿) the experts believed to be a copy turned out to be real."
@@ -348,7 +348,7 @@ problems:
   ans: "4"
   fix: "the two exchange students from Brazil, both of whom speak Japanese well"
   why: "both of them のままでは、コンマだけで2つの文（I talked … と both of them speak …）をつないでいることになる。先行詞 the two exchange students は人なので④を both of whom にする。採点の目安（4点）：誤りの下線部の番号が正しければ2点、訂正が正しければ2点。番号が誤っているときは、訂正にも点を与えない。④を and both of them、who both に直したものも文法上正しい文になるので、訂正の2点を与える。"
-  trap: "①talked with を talked to に直すべきだと考えて選ぶ誤り。talk with も talk to も正しい。both の後ろの speak が複数形で合っているので④を見落としやすいが、問題は動詞の数ではなく、2つの文がコンマだけでつながっていることにある。"
+  trap: "talked with を talked to に直すべきだと考えて、②with を選ぶ誤り。talk with も talk to も正しい。both の後ろの speak が複数形で合っているので④を見落としやすいが、問題は動詞の数ではなく、2つの文がコンマだけでつながっていることにある。"
 - id: q9021
   part: 3
   pts: 4
@@ -470,11 +470,11 @@ problems:
   min: 3
   inst: 次の英文の下線部を日本語に訳しなさい。
   q: __Ella told her coach that she would quit the tennis club, which surprised all the members.__
-  ans: エラはテニス部をやめるとコーチに伝え、そのことは部員全員を驚かせた。（「そのこと」＝エラがテニス部をやめるとコーチに伝えたこと）
+  ans: エラはテニス部をやめるとコーチに伝え、そのことは部員全員を驚かせた。
   alt:
   - エラがテニス部をやめるとコーチに伝えたので、部員全員が驚いた。
   - エラはテニス部をやめるつもりだとコーチに言ったが、それに部員はみな驚いた。
-  why: ", which は直前の the tennis club ではなく、前の節 Ella told her coach that she would quit the tennis club の内容全体（エラがテニス部をやめるとコーチに伝えたこと）を受ける。採点の目安（6点）：which が前の節の内容を受けていることが訳に出ている（「そのこと」「それ」「〜と伝えたので」など）3点。「エラがやめること」に驚いたと読んだ訳も、驚いた中身は同じなので3点を与える。told her coach that she would quit the tennis club（やめるとコーチに伝えた）2点。surprised all the members（部員全員を驚かせた）1点。which を「テニス部」と訳したものは which の3点を与えない。"
+  why: ", which は直前の the tennis club ではなく、前の節 Ella told her coach that she would quit the tennis club の内容全体（エラがテニス部をやめるとコーチに伝えたこと）を受ける。「そのこと」は、エラがテニス部をやめるとコーチに伝えたことを指す。採点の目安（6点）：which が前の節の内容を受けていることが訳に出ている（「そのこと」「それ」「〜と伝えたので」など）3点。「エラがやめること」に驚いたと読んだ訳も、驚いた中身は同じなので3点を与える。told her coach that she would quit the tennis club（やめるとコーチに伝えた）2点。surprised all the members（部員全員を驚かせた）1点。which を「テニス部」と訳したものは which の3点を与えない。"
   trap: which を直前の the tennis club と結びつけ「部員全員を驚かせたテニス部をやめる」と訳す誤り。テニス部が部員を驚かせたのでは意味が通らない。
 - id: q9028
   part: 5

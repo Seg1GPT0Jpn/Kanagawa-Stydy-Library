@@ -75,7 +75,7 @@ table.t { border-collapse: collapse; width: 100%; margin: 1.5mm 0 3mm; font-size
 table.t th, table.t td { border: .5pt solid #000; padding: 1.2mm 2mm; text-align: center; }
 table.t thead th { background: var(--net); font: 700 9pt/1.4 "Goth"; }
 table.t tbody th { font: 700 9pt/1.4 "Goth"; text-align: left; background: var(--net); white-space: nowrap; }
-table.t td.nwc { white-space: nowrap; }
+table.t td.nwc, table.t th.nwc { white-space: nowrap; }
 table.t td { font-family: "Ser", "Min"; font-size: 10pt; }
 .blk.check { border: .75pt solid #000; padding: 2mm 3mm; margin: 3mm 0 2mm; }
 .check .t { font: 700 9pt/1.6 "Goth"; }
@@ -151,10 +151,12 @@ def kaisetsu_blocks(bk, pages, cover_html, colophon_html, legend_html):
                     out.append(blk(f'<div class="ptl">● 要点</div>{rows}', 'steps pt', notes))
                 elif 'table' in b:
                     t = b['table']
-                    th = ''.join(f'<th>{bk.md(c, pages)}</th>' for c in t['head'])
+                    th = ''.join(f'<th{" class=nwc" if len(str(c)) <= 8 else ""}>{bk.md(c, pages)}</th>' for c in t['head'])
                     def td(c):
                         plain = re.sub(r'\{\{|\}\}|<<|>>|\*', '', str(c))
-                        return f'<td class="nwc">{bk.md(c, pages)}</td>' if len(plain) <= 9 else f'<td>{bk.md(c, pages)}</td>'  # 短いマスは改行しない
+                        ascii_ratio = sum(ch.isascii() for ch in plain) / max(1, len(plain))
+                        short = len(plain) <= 9 or (ascii_ratio > 0.8 and len(plain) <= 20)  # 短いマスと英語の句は改行しない
+                        return f'<td class="nwc">{bk.md(c, pages)}</td>' if short else f'<td>{bk.md(c, pages)}</td>'
                     tr = ''.join('<tr><th>' + bk.md(r[0], pages) + '</th>' + ''.join(td(c) for c in r[1:]) + '</tr>' for r in t['rows'])
                     cap = f'<div class="ptl">● {E(t["title"])}</div>' if t.get('title') else '<div class="ptl">● 要点</div>'
                     out.append(blk(f'{cap}<table class="t"><thead><tr>{th}</tr></thead><tbody>{tr}</tbody></table>', 'tbl pt', notes))

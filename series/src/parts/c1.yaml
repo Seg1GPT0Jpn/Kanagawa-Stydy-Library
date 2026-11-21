@@ -97,7 +97,7 @@ chapters:
       - kind: 注意
         text: "there is の文でも、関係代名詞が目的格なら普通に省略できる。There is something I want to tell you.（話したいことがある）"
     - h: 補語の働きをする関係代名詞は普通省く
-    - p: 関係代名詞が be 動詞の後ろの補語の働きをすることもあります。@e114 の［ ］の中では、was の後ろの「どんな場所だったか」にあたる補語が欠けていて、これも不完全な文です。この関係代名詞は主格でも目的格でもありません。実際の英語ではほとんどの場合省かれ、入れるときは that を使うのがふつうです。
+    - p: 関係代名詞が be 動詞の後ろの補語の働きをすることもあります。@e114 の［ ］の中では、was の後ろの「どんな場所だったか」にあたる補語が欠けていて、これも不完全な文です。この関係代名詞は主格でも目的格でもありません。実際の英語ではほとんどの場合省かれ、入れるときは that を使うのが普通です。
     - ex: [e114]
     - table:
         head: ["", 省略, 例]
@@ -204,7 +204,7 @@ chapters:
     - p: 先行詞に「ただ1つに決まる」ことを表す語が付いていると、関係代名詞は that がよく使われます。@e121 の the most interesting book は、今年読んだ本の中の1冊を「いちばん」で指し示しています。強く範囲をしぼる先行詞には、しぼる働きだけをもつ that がなじむと説明されます。最上級、the first、the last、the only、the same などが付いた先行詞が、その代表です。
     - p: 同じように、all、every、any、no の付いた先行詞や、everything、anything、nothing などの語にも that が好まれます（@e123、@e124）。which も文法上は誤りではありませんが、all which のような形はあまり使われません。@e124 の All that we need は「必要なのは〜だけだ」という意味になる言い方です。
     - ex: [e121, e123, e124]
-    - p: 気をつけたいのは、「好まれる」は「that でなければならない」という意味ではないことです。先行詞が人なら、@e122 のように the only person who とするのも普通の英語です。the best movie which I have seen の which も、文法上は誤りではありません。**そのため入試では、which だけを誤りとする問題はふつう出ません。**
+    - p: 気をつけたいのは、「好まれる」は「that でなければならない」という意味ではないことです。先行詞が人なら、@e122 のように the only person who とするのも普通の英語です。the best movie which I have seen の which も、文法上は誤りではありません。**そのため入試では、which だけを誤りとする問題は普通出ません。**
       notes:
       - kind: 注意
         text: "4択で that と which が並んでいたら、コンマの後か、前置詞の直後か、先行詞が「人＋人以外」かを確かめる。どちらか一方だけが正解になるのは、こうした理由でもう一方が使えないときである。最上級や all が付くだけでは which は誤りにならない。"
@@ -469,7 +469,7 @@ problems:
   q: 彼女は、10年前のような内気な少女ではない。<br>She is not ( girl / she / shy / the / was ) ten years ago.
   words: [girl, she, shy, the, was]
   ans: She is not the shy girl she was ten years ago.
-  why: the shy girl の直後に she was を続ける。省略された関係代名詞（that）は was の補語の働きをしており、補語の関係代名詞はふつう省略される。
+  why: the shy girl の直後に she was を続ける。省略された関係代名詞（that）は was の補語の働きをしており、補語の関係代名詞は普通省略される。
   trap: the girl she was shy のように shy を節の中に入れる誤り。shy は先行詞 girl に付き、節の中で欠けているのは was の後ろの補語である。
 # ---- s04 ----
 - id: q1013

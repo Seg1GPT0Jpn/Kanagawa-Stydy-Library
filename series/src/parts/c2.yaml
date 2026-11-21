@@ -235,8 +235,8 @@ problems:
   q: "It was __already__① dark __when__② we __got__③ to Nikko, so we went straight to the inn __when__④ my parents had stayed twenty years before."
   choices: [①, ②, ③, ④]
   ans: "4"
-  why: "先行詞 the inn は場所を表し、節 my parents had stayed twenty years before は主語も目的語もそろった完全な文。場所の先行詞なので④の when を where（または at which）にする。②の when は「〜したとき」の接続詞で、It was already dark when we got to Nikko は正しい。"
-  trap: "when が2つあるので②を疑い、④は twenty years before という時の語句に引かれて when でよいと考える誤り。when・where を決めるのは節の中の時の語句ではなく先行詞で、the inn は場所である。"
+  why: "先行詞 the inn は場所を表す。節 my parents had stayed twenty years before は、stay が目的語をとらない動詞なので、主語と動詞がそろえば何も欠けていない完全な文になる。後ろが完全な文なので関係副詞を使い、先行詞が場所なので where（または at which）にする。④の when を where に直す。②の when は「〜したとき」の接続詞で、It was already dark when we got to Nikko は正しい。"
+  trap: "when が2つあるので②を疑い、④は twenty years before という時の語句に引かれて when でよいと考える誤り。関係副詞を使うかどうかは後ろの文が完全かで決まり、where か when かは先行詞の意味で決まる。節の中の時の語句では決まらない。"
 - id: q2005
   sec: s07
   set: 節末

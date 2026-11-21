@@ -33,7 +33,7 @@ chapters:
       - 先行詞の直後に関係代名詞を置く。
       - その直後に I think・everyone says などの「主語＋動詞」を置く。
       - 主語を書かずに、節の動詞（is, was, will win など）を続ける。
-    - p: 主格の関係代名詞はふつう省略できません（@s03）。ところが連鎖関係詞節では、@e606 のように主格の who が省略されることがあります。the man I thought was … のように「名詞＋S＋V＋動詞」が並んでいたら、名詞の直後に who が隠れていると考えて読みます。
+    - p: 主格の関係代名詞は普通省略できません（@s03）。ところが連鎖関係詞節では、@e606 のように主格の who が省略されることがあります。the man I thought was … のように「名詞＋S＋V＋動詞」が並んでいたら、名詞の直後に who が隠れていると考えて読みます。
     - ex: [e606]
     - check:
       - {q: "She is the singer [＿] I think will win the contest.（who／whom）", a: who}
@@ -72,14 +72,14 @@ chapters:
     patterns: [P15]
     body:
     - h: なぜ as・than・but が関係代名詞になるのか
-    - p: as・than・but は、ふつうは接続詞や前置詞です。ところが such・the same・比較級・否定語の付いた名詞の後ろでは、主語や目的語の欠けた節を導き、関係代名詞と同じ働きをします。これを<<擬似関係代名詞>>といいます。見分け方は who や which と同じで、後ろの節が不完全な文かどうかを確かめます。ただし使える場所は決まった相手の後ろに限られ、who や which の代わりに自由に使えるわけではありません。
+    - p: as・than・but は、普通は接続詞や前置詞です。ところが such・the same・比較級・否定語の付いた名詞の後ろでは、主語や目的語の欠けた節を導き、関係代名詞と同じ働きをします。これを<<擬似関係代名詞>>といいます。見分け方は who や which と同じで、後ろの節が不完全な文かどうかを確かめます。ただし使える場所は決まった相手の後ろに限られ、who や which の代わりに自由に使えるわけではありません。
       notes:
       - kind: 用語
         term: 擬似関係代名詞
         yomi: ぎじかんけいだいめいし
         text: "such・the same・比較級・否定語などと組になり、関係代名詞のように後ろの節の主語や目的語の働きをする as・than・but。"
     - h: such … as と the same … as
-    - p: "@e607 の as の後ろは are written in easy English で、are の主語がありません。as が主語の働きです。@e608 では had の目的語が欠けていて、as は目的語の働きです。この such … as は改まった書き言葉で、少し古い感じがします。会話なら books that are written in easy English のように言うのがふつうです。"
+    - p: "@e607 の as の後ろは are written in easy English で、are の主語がありません。as が主語の働きです。@e608 では had の目的語が欠けていて、as は目的語の働きです。この such … as は改まった書き言葉で、少し古い感じがします。会話なら books that are written in easy English のように言うのが普通です。"
       notes:
       - kind: 注意
         text: "books such as dictionaries（辞書のような本）の such as は「たとえば」の意味で、後ろには名詞だけが来る。後ろに欠けのある節が続く such … as とは別のもの。"
@@ -433,10 +433,10 @@ problems:
   kind: 4択
   min: 1
   q: "We received more letters (＿) we could answer in a week."
-  choices: [which, as, than, what]
+  choices: [who, as, than, what]
   ans: "3"
   why: "比較級 more letters の後ろで、answer の目的語が欠けている。比較級と組んで関係代名詞の働きをするのは than で、「1週間で返事を書ききれないほどの手紙が届いた」という意味になる。"
-  trap: "後ろが不完全な文なので①which を選びやすい。しかし more letters … which では比較の相手が示されない。比較級があれば than を探す。"
+  trap: "後ろが不完全な文なので、関係代名詞の①who を選ぶ誤り。who は先行詞が人のときに使う語で、letters（手紙）には使えない。比較級 more letters があるときは、than が関係代名詞の働きをする形を考える。"
 - id: q6021
   sec: s19
   set: 章末
