@@ -1,0 +1,241 @@
+chapters:
+- id: c6
+  sections:
+  - id: s17
+    worked:
+    - q: "Ruby is the student (＿) I think will be our next class leader."
+      choices: [who, which, whose, what]
+      steps:
+      - 先行詞を確かめる。(＿) の直前の the student は人。
+      - 空所の直後の I think を指でかくす。残るのは (＿) will be our next class leader で、will be の主語がない。
+      - 人で、主語が欠けている。第1節の表のマスから who を選ぶ。I think がはさまっていても、選び方は変わらない。
+      ans: "1"
+      point: I think は関係代名詞と節の動詞 will be の間に入りこんでいるだけ。外したあとに動詞がすぐ続けば、関係代名詞は主語の働きをしている。
+    - q: "Saki asked a woman (＿) she thought worked at the station, but the woman was a tourist."
+      choices: [who, whom, whose, what]
+      steps:
+      - 先行詞を確かめる。(＿) の直前の a woman は人。
+      - she thought を指でかくす。残るのは (＿) worked at the station で、worked の主語がない。
+      - thought の直後に来ているのは動詞の worked で、to be ではない。believe ＋ 人 ＋ to be の形ではないので、目的格の whom にはならない。
+      - 人で、主語が欠けている。who を選ぶ。
+      ans: "1"
+      point: 「thought の目的語だから whom」と考えるのがいちばん多い誤り。thought の目的語は人ではなく「＿ worked at the station」という節のほうで、関係代名詞の格はこの節の中で決める。
+  - id: s18
+    worked:
+    - q: "Noah wants to buy the same shoes (＿) his favorite soccer player wears."
+      choices: [as, than, but, what]
+      steps:
+      - 空所の前に、such・the same・比較級・否定語のどれかがあるかを探す。the same shoes がある。
+      - 空所の後ろの文で欠けているものを探す。his favorite soccer player wears では、wears の目的語（何をはいているか）がない。後ろは不完全な文。
+      - the same と組んで、欠けた目的語の代わりをするのは as。than は比較級と、but は否定語と組む語なので、ここでは使えない。
+      ans: "1"
+      point: as・than・but のどれを選ぶかは、空所の前にある相手の語で決まる。the same を見たら as を考える。
+    - q: "Mr. Ueda set out more chairs than (＿) needed for the meeting, so ten of them stayed empty.（1語を入れる）"
+      steps:
+      - 空所の前を見る。比較級の more chairs と than がある。than が関係代名詞の働きをする形かもしれないと考える。
+      - than の後ろを読む。(＿) needed for the meeting では、「必要とされる」の be needed の be 動詞がなく、主語にあたる語もない。than がその主語の働きをしている。
+      - than が主語なので、it や they は入れない。入れるのは be 動詞の1語だけ。
+      - than が受けている chairs は複数で、文は過去（set out, stayed）。複数・過去の be 動詞 were を入れる。
+      ans: were
+      point: 比較級の後ろの than に be 動詞や動詞が直接続いていたら、than が主語の働きをしている。than it was needed や than they were needed のように主語を足すと誤りになる。
+  - id: s19
+    worked:
+    - q: "Takumi has an aunt who (＿) three languages."
+      choices: [speak, speaks, speaking, to speak]
+      steps:
+      - who の先行詞を探す。who の直前の an aunt（おば1人）が先行詞で、単数。
+      - 関係詞節の動詞の形は先行詞に合わせる。文は現在のことなので、単数の主語に合う現在形は speaks。
+      - speaking や to speak では、who の後ろに動詞がなくなり、関係詞節が文にならない。
+      ans: "2"
+      point: who そのものには単数・複数の区別がない。who の後ろの動詞に -s が付くかどうかは、先行詞 an aunt で決まる。
+    - q: "The boxes that Mr. Ueda carried up to the third floor (＿) full of old textbooks."
+      choices: [was, were, is, being]
+      steps:
+      - 文頭の名詞 The boxes の直後に that がある。ここで［ を開く。
+      - 節の中の動詞 carried と、その後ろの up to the third floor まで読んで ］ を閉じる。carried の目的語が欠けていて、that がその代わりをしている。
+      - "［ ］を外すと The boxes (＿) full of old textbooks. が残る。空所は文全体の動詞で、主語は The boxes。"
+      - The boxes は複数で、carried から過去の話と分かる。複数・過去の were を選ぶ。
+      ans: "2"
+      point: 空所の直前の the third floor（単数）や Mr. Ueda に合わせて was を選ぶのが多い誤り。関係詞節をくくって外し、文頭の主語と動詞を結びつける。
+
+problems:
+# ---- s17 ----
+- id: q6201
+  sec: s17
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Kota bought the jacket (＿) the clerk said was the warmest in the store.
+  choices: [who, which, what, where]
+  ans: "2"
+  why: 先行詞 the jacket は人以外。the clerk said を外すと (＿) was the warmest となり、was の主語が欠けているので which。
+  trap: 直前の the clerk（店員）を見て①who を選ぶ誤り。先行詞は空所の前の the jacket で、the clerk said は節の中に入りこんだ「主語＋動詞」である。
+- id: q6202
+  sec: s17
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: （　）に適切な1語を入れなさい。
+  q: Mia is the girl (＿) I hear won the speech contest last year.
+  ans: who
+  alt: [that]
+  why: 先行詞 the girl は人。I hear を外すと (＿) won the speech contest となり、won の主語が欠けているので who（that も可）。連鎖関係詞節では主格の who が省略されることもあるが、この問題は1語を入れる形なので who を答える。
+  trap: I hear の目的語だと考えて whom を入れる誤り。hear の後ろに続くのは「＿ won the speech contest」という節で、関係代名詞はその中の主語になっている。
+- id: q6203
+  sec: s17
+  set: 節末
+  lv: 1
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 私たちは、いちばんおいしいメロンパンがあるとルビーが言っていたパン屋に行った。<br>We went to the bakery ( best / had / Ruby / said / the / which ) melon bread.
+  words: [best, had, Ruby, said, the, which]
+  ans: We went to the bakery which Ruby said had the best melon bread.
+  why: 先行詞 the bakery の直後に which、その後に Ruby said を入れ、主語を書かずに節の動詞 had を続ける。which は had の主語。
+  trap: the bakery Ruby said which had … のように Ruby said を関係代名詞の前に置く誤り。先行詞 → which → Ruby said → had の順になる。
+- id: q6204
+  sec: s17
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りを含むものを1つ選びなさい。
+  q: The cake __which__① my brother __said__② __that__③ was too sweet __was__④ gone in five minutes.
+  ans: "3"
+  why: my brother said を外すと which was too sweet となり、which は was の主語。主語が欠けた連鎖関係詞節では said の後に接続詞の that を入れないので、③を消す。④was は文全体の動詞で、主語 The cake に合っている。
+  trap: say that ～ の形に引かれて③を正しいとする誤り。that を入れてよいのは、節の中で目的語が欠けているとき（Here is the key which I think that you dropped. など）だけである。
+- id: q6205
+  sec: s17
+  set: 節末
+  lv: 3
+  kind: 和訳
+  min: 3
+  inst: 次の英文を日本語に訳しなさい。
+  q: The girl I was sure would win the race fell just before the finish line.
+  ans: 私がレースに勝つと確信していた少女は、ゴールの直前で転んだ。
+  alt:
+  - きっとレースに勝つと私が思っていた女の子が、ゴールのすぐ手前で転んでしまった。
+  why: The girl の後ろで主格の who が省略された連鎖関係詞節。I was sure を外すと (who) would win the race となる。文全体の動詞は fell。「私が勝つと確信していた」が「少女」にかかり、「少女は〜転んだ」の骨組みが訳に出ていれば正解。
+  trap: I was sure を文全体の主語と動詞と取り、「その少女について私は確信していた」のように訳す誤り。名詞の直後に「S＋V＋動詞」が並んでいたら、名詞の直後に who が隠れていると考える。
+
+# ---- s18 ----
+- id: q6206
+  sec: s18
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: For the picnic, Kota brought such games (＿) everyone could play together.
+  choices: [as, than, who, what]
+  ans: "1"
+  why: such の付いた名詞 such games の後ろで、play の目的語が欠けている。such … as の as が関係代名詞の働きをして、「みんなでいっしょに遊べるようなゲーム」となる。
+  trap: 後ろが不完全な文なので関係代名詞の③who を選ぶ誤り。先行詞 games は人ではないうえ、such と組んで関係代名詞の働きをするのは as である。
+- id: q6207
+  sec: s18
+  set: 節末
+  lv: 1
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: ルビーは、去年の夏に泊まったのと同じホテルに泊まりたがっている。<br>Ruby wants to stay at ( as / hotel / same / she / stayed / the ) at last summer.
+  words: [as, hotel, same, she, stayed, the]
+  ans: Ruby wants to stay at the same hotel as she stayed at last summer.
+  why: the same hotel の後ろに、stayed at の後ろの名詞が欠けた節 as she stayed at を置く。as は at の目的語の働きをしている。
+  trap: the same as hotel … のように same の直後に as を置く誤り。the same＋名詞 のかたまりを先に作り、その後ろに as の節を続ける。
+- id: q6208
+  sec: s18
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: （　）に適切な1語を入れなさい。
+  q: Noah's family ordered more pizza (＿) they could eat, so they took some home.
+  ans: than
+  why: 比較級 more pizza の後ろで、eat の目的語が欠けている。比較級と組んで関係代名詞の働きをするのは than で、「食べきれないほどのピザ」という意味になる。
+  trap: as を入れる誤り。as が関係代名詞の働きをするのは such … as や the same … as のときで、比較級 more と組むのは than である。
+- id: q6209
+  sec: s18
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りを含むものを1つ選びなさい。
+  q: Ms. Kimura __wore__① the same dress to the party __than__② she __had worn__③ __at__④ her sister's wedding.
+  ans: "2"
+  why: the same dress の後ろで、had worn の目的語が欠けている。the same と組んで関係代名詞の働きをするのは as なので、②than を as にする。③had worn は、パーティーより前の結婚式のことなので過去完了で正しい。
+  trap: 「〜より」「〜と比べて」という感じから than を正しいとする誤り。than は比較級と組む語で、the same とは組まない。
+- id: q6210
+  sec: s18
+  set: 節末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: ノアにはよくあることだが、彼は朝の電車で眠ってしまい、駅を乗り過ごした。<br>( as / case / is / often / the / with ) Noah, he fell asleep on the morning train and missed his station.
+  words: [as, case, is, often, the, with]
+  ans: As is often the case with Noah, he fell asleep on the morning train and missed his station.
+  why: As is often the case with A（A にはよくあることだが）の決まった言い方。as は後ろの主節の内容（電車で眠って駅を乗り過ごしたこと）を受け、is の主語になっている。
+  trap: As the case is often with … のように、ふつうの文の語順（主語＋動詞）に並べようとする誤り。as が主語なので、as の直後に is が来る。
+
+# ---- s19 ----
+- id: q6211
+  sec: s19
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Mr. Ueda has a big dog that (＿) to play in the snow.
+  choices: [love, loves, loving, to love]
+  ans: "2"
+  why: that の先行詞は単数の a big dog。関係詞節の動詞は先行詞に合わせるので、現在形の loves。
+  trap: that を数のない語とみて①love を選ぶ誤り。that 自体には単数・複数の区別がなく、動詞の形は先行詞 a big dog で決まる。
+- id: q6212
+  sec: s19
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: （　）内の動詞を、現在形の正しい形にしなさい。
+  q: The girl who (sit) next to Takumi in math class is from Okinawa.
+  ans: sits
+  why: who の先行詞は単数の The girl。関係詞節の動詞は先行詞に合わせるので、現在形の sits。文全体の動詞 is も The girl に合っている。
+  trap: who には単数・複数の区別がないので、動詞は sit のままでよいと考える誤り。動詞の形は先行詞で決まり、The girl は単数なので -s を付ける。
+- id: q6213
+  sec: s19
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  q: The bag that Saki bought for her two little sisters (＿) too small for their books.
+  choices: [were, are, was, be]
+  ans: "3"
+  why: 関係詞節 that Saki bought for her two little sisters を［ ］でくくって外すと、The bag (＿) too small が残る。主語は単数の The bag で、bought から過去の話と分かるので was。
+  trap: 空所の直前の her two little sisters（複数）に合わせて①were を選ぶ誤り。sisters は関係詞節の中の語で、文全体の主語ではない。
+- id: q6214
+  sec: s19
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りを含むものを1つ選びなさい。
+  q: A package __came__① to our house __yesterday__② __which__③ __were__④ full of books for Mia.
+  ans: "4"
+  why: which 節は先行詞から離れて文の後ろに回った関係詞節（外置）。人以外で「本でいっぱい」になるものは A package で、単数なので④を was にする。
+  trap: 後ろの books（複数）に引かれて④were を正しいとする誤り。were の主語は which で、which が受けているのは離れた位置にある単数の A package である。
+- id: q6215
+  sec: s19
+  set: 節末
+  lv: 3
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: その店の客の中で、現金で払ったのはコウタだけだった。<br>Kota was ( cash / customers / in / of / one / only / paid / the / the / who ) at the shop.
+  words: [cash, customers, in, of, one, only, paid, the, the, who]
+  ans: Kota was the only one of the customers who paid in cash at the shop.
+  why: 「客の中でただ1人」は the only one of the customers。その後ろに who paid in cash を置く。who の先行詞は the only one で、現金で払ったのはコウタ1人。
+  trap: Kota was the one of the only customers … のように only の位置をずらす誤り。the only one of ～（～の中でただ1人）のかたまりを先に作ってから、who の節を続ける。

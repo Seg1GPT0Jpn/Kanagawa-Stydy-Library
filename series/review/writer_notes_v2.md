@@ -13,3 +13,11 @@
 - q4209：five を括弧の外に出して of whom five were … の並びを防いだ。
 - q4210：none of whom が正解の根拠が文法より意味（all・most は文脈に合わない、both は3人に使えない）。
 - q4207：先行詞を物にした（ペットだと whom を使う例があるため）。
+
+## 第3章（add_c3）
+- q3203：What we need … is a tent の is を正しい形とした（補語が単数なので is）。
+- q3205：I thought が入りこんだ what 節（What I thought was a stone …）を ★★★ とした。難易度の妥当性。
+- q3215：before ten が sold と baked のどちらにかかるか曖昧（答えは変わらない）。
+- q3207 (2)：what is called a hard worker も意味は通るが、空所の形で答えは what, call に決まるとした。
+- q3209（整序）：与える語に was が2つ。別の並べ方がないか要確認。
+- s12 例題2：「本の中で見つけた事実」がやや不自然。

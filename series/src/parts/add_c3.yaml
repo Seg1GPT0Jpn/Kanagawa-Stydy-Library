@@ -91,7 +91,7 @@ problems:
   q: "__That__① we need __for__② the camping trip __is__③ a tent __for__④ four people."
   choices: ['1', '2', '3', '4']
   ans: "1"
-  why: 文の最初に先行詞がなく、we need の後ろの目的語が欠けている。①を What にすると、「私たちがキャンプ旅行に必要なもの」という主語の名詞節になる。What の節が主語のとき、動詞は単数で受けるので③is は正しい。
+  why: 文の最初に先行詞がなく、we need の後ろの目的語が欠けている。①を What にすると、「私たちがキャンプ旅行に必要なもの」という主語の名詞節になる。What の節が主語のとき、動詞は単数で受けるのが普通なので③is は正しい。
   trap: 文頭の That を「〜ということ」の接続詞と考え、正しいとする誤り。接続詞の that の後ろは完全な文でなければならないが、need の目的語が欠けている。
 - id: q3204
   sec: s10
@@ -116,7 +116,7 @@ problems:
   choices: [That, Which, What, Who]
   ans: "3"
   why: I thought をいったん外すと (＿) was a stone で、was の主語が欠けている。先行詞がないので What が入る。［What I thought was a stone］が主語の名詞節で、動詞は turned out。「石だと思ったものは、小さなカエルだと分かった」。
-  trap: ①That を選ぶ誤り。I thought の直後に was が来るので、thought の後ろに接続詞の that が省略されていると考えやすいが、was の主語が欠けているので後ろは不完全な文であり、接続詞の That は入らない。
+  trap: 文頭の①That を「〜ということ」の接続詞と考えて選ぶ誤り。I thought を外すと was の主語が欠けた不完全な文が残るので、接続詞の That は入らない。
 - id: q3206
   sec: s11
   set: 節末
