@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><title>試作B 1段組＋行内注</title>
+<link rel="stylesheet" href="base.css">
+<style>
+/* 右ページ（奇数）：ノド＝左 15mm、小口＝右 15mm、天 22mm、地 25mm */
+.body { position: absolute; left: 15mm; top: 22mm; width: 180mm; height: 250mm; }
+.hashira { position: absolute; top: 13mm; right: 15mm; font: 8pt/1 "Goth"; letter-spacing: .05em; }
+.hashira b { font-weight: 700; margin-right: 1em; }
+.nombre { position: absolute; bottom: 14mm; right: 15mm; font: 9pt/1 "Ser", "Goth"; }
+.row { display: grid; grid-template-columns: 134mm 40mm; column-gap: 6mm; }
+.main p { text-indent: 1em; text-align: justify; }
+.side { font: 8pt/1.6 "Goth"; padding-top: .3em; }
+.side .note { margin-bottom: 4mm; padding-top: 1.2mm; border-top: .35pt solid #000; }
+.side .lab { font-weight: 700; display: block; }
+.side .en { font-family: "Ser"; font-size: 8.5pt; }
+h2 { font: 700 14pt/1.4 "Goth"; padding-bottom: 1.5mm; border-bottom: 1.2pt solid #000; margin: 0 0 4mm; display: flex; gap: 3mm; }
+h2 .no { font-family: "Goth"; }
+h3 { font: 700 11pt/1.5 "Goth"; margin: 5mm 0 1.5mm; }
+.ex { margin: 2mm 0 2mm; }
+.ex li { list-style: none; display: grid; grid-template-columns: 7mm 1fr; padding: 1.2mm 0; border-bottom: .35pt solid #000; }
+.ex li:first-child { border-top: .35pt solid #000; }
+.ex .n { font: 9pt/1.9 "Goth"; }
+.ex .e { font-family: "Ser"; font-size: 10.5pt; line-height: 1.55; }
+.ex .j { font: 9pt/1.6 "Min"; }
+.rc { }  /* 関係詞節 */
+.rc::before { content: "["; } .rc::after { content: "]"; }
+.rp { text-decoration: underline; text-underline-offset: 2px; text-decoration-thickness: .6pt; font-weight: 600; }
+table.q { border-collapse: collapse; width: 100%; margin: 2mm 0 3mm; font-size: 9.5pt; line-height: 1.5; }
+table.q th, table.q td { border: .5pt solid #000; padding: 1.2mm 2mm; text-align: center; }
+table.q thead th { background: var(--net); font: 700 9pt/1.4 "Goth"; }
+table.q tbody th { font: 700 9pt/1.4 "Goth"; text-align: left; background: var(--net); }
+table.q td { font-family: "Ser"; font-size: 10.5pt; }
+.steps { margin: 1mm 0 2mm 0; }
+.steps li { list-style: none; padding-left: 2.2em; text-indent: -2.2em; }
+.steps b { font: 700 9.5pt "Goth"; margin-right: .6em; }
+.check { border: .75pt solid #000; padding: 2mm 3mm; margin-top: 4mm; }
+.check .t { font: 700 9pt/1.6 "Goth"; }
+.check ol { list-style: none; }
+.check li { display: grid; grid-template-columns: 7mm 1fr 30mm; align-items: baseline; }
+.check .a { font-family: "Ser"; color: var(--red); border-bottom: .35pt solid #000; text-align: center; }
+
+.rowB { display:block; }
+.ex li { grid-template-columns: 7mm 1fr 52mm; column-gap: 4mm; }
+.ex .nt { font: 8pt/1.6 "Goth"; border-left: .35pt solid #000; padding-left: 3mm; }
+.ex .nt .en { font-family:"Ser"; font-size:8.5pt; }
+.defs { margin: 2mm 0 3mm; border-top:.35pt solid #000; border-bottom:.35pt solid #000; padding:1.5mm 0; font-size:9.5pt; line-height:1.65; }
+.defs dt { font: 700 9pt "Goth"; float:left; width: 22mm; }
+.defs dd { margin-left: 22mm; }
+</style></head><body>
+<div class="page">
+  <div class="hashira"><b>第1章</b>関係代名詞の基本</div>
+  <div class="body">
+    <h2><span class="no">1</span><span>関係代名詞は「名詞の後ろに付く説明」をつくる</span></h2>
+    <div class="rowB">
+      <div class="main">
+        <h3>(1) なぜ関係代名詞が必要なのか</h3>
+        <p>日本語では、名詞を説明することばを名詞の前に置きます。「私が昨日読んだ本」では、「私が昨日読んだ」が「本」を説明しています。英語は逆で、主語と動詞をふくむ文の形の説明は、必ず名詞の後ろに置きます。そのとき「ここから説明が始まる」と知らせる目印が、関係代名詞です（例文1〜3）。</p>
+        <ol class="ex">
+          <li><span class="n">1</span><div><div class="e">the book <span class="rc"><span class="rp">that</span> I read yesterday</span></div><div class="j">私が昨日読んだ本</div></div><div class="nt">that は which でもよい。目的語が欠けているので省略もできる（→&nbsp;p.16）。</div></li>
+          <li><span class="n">2</span><div><div class="e">The woman <span class="rc"><span class="rp">who</span> lives next door</span> teaches music at a junior high school.</div><div class="j">隣に住んでいる女性は、中学校で音楽を教えている。</div></div><div class="nt"><span class="en">next door</span>　隣に</div></li>
+          <li><span class="n">3</span><div><div class="e">The bus <span class="rc"><span class="rp">which</span> goes to the station</span> leaves every fifteen minutes.</div><div class="j">駅へ行くバスは15分おきに出る。</div></div><div class="nt"><span class="en">every fifteen minutes</span>　15分ごとに</div></li>
+        </ol>
+        <dl class="defs"><dt>関係詞節</dt><dd>関係詞から始まり、先行詞を説明するひとまとまり。本書では［&nbsp;］で示す。</dd><dt>先行詞</dt><dd>関係詞節に説明される名詞。関係詞より「先に行く」ことばなので、こう呼ぶ。</dd></dl>
+        <p>［&nbsp;］で囲んだ部分を<b>関係詞節</b>、説明される名詞（例文2の the woman、例文3の the bus）を<b>先行詞</b>といいます。関係詞節は名詞を説明する部分なので、外しても文法上は文が成り立ちます。例文2から［ ］を外すと The woman teaches music at a junior high school. となり、主語と動詞がそろった文が残ります。この「外しても文が残る」ことが、長文で文の骨組みを見抜く手がかりになります。</p>
+        <h3>(2) どの関係代名詞を使うかを決める3つの問い</h3>
+        <p>先行詞が人なら who、物なら which、と覚えるだけでは入試の問題は解けません。次の順に問いを立てます。</p>
+        <ol class="steps">
+          <li><b>問1</b>先行詞は人か、人以外か。</li>
+          <li><b>問2</b>関係詞節の中で、何が欠けているか（主語か、目的語か、それとも欠けていないか）。</li>
+          <li><b>問3</b>先行詞の直後にコンマがあるか（→ p.22）。</li>
+        </ol>
+        <p>問1と問2の答えを組み合わせると、使える語が決まります。赤シートで隠して言えるようにしておきます。</p>
+        <table class="q">
+          <thead><tr><th></th><th>主語が欠けている</th><th>目的語が欠けている</th><th>所有者（〜の）を表す</th></tr></thead>
+          <tbody>
+            <tr><th>人</th><td class="red">who / that</td><td class="red">who(m) / that</td><td class="red">whose</td></tr>
+            <tr><th>人以外</th><td class="red">which / that</td><td class="red">which / that</td><td class="red">whose</td></tr>
+          </tbody>
+        </table>
+        <div class="check">
+          <div class="t">確認　［　］に入る関係代名詞を書きなさい。</div>
+          <ol>
+            <li><span>(1)</span><span class="en">I have a friend [　　] lives in Osaka.</span><span class="a">who／that</span></li>
+            <li><span>(2)</span><span class="en">This is the photo [　　] my sister took.</span><span class="a">which／that</span></li>
+          </ol>
+        </div>
+      </div>
+          </div>
+  </div>
+  <div class="nombre">9</div>
+</div>
+</body></html>

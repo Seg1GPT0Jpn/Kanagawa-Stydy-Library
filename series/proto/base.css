@@ -1,0 +1,22 @@
+/* 書体（すべて SIL OFL 1.1。series/fonts/ を参照） */
+@font-face { font-family: "Min"; src: url("../fonts/BIZ_UDPMincho/BIZUDPMincho-Regular.ttf"); font-weight: 400; }
+@font-face { font-family: "Min"; src: url("../fonts/BIZ_UDPMincho/BIZUDPMincho-Bold.ttf"); font-weight: 700; }
+@font-face { font-family: "Goth"; src: url("../fonts/BIZ_UDPGothic/BIZUDPGothic-Regular.ttf"); font-weight: 400; }
+@font-face { font-family: "Goth"; src: url("../fonts/BIZ_UDPGothic/BIZUDPGothic-Bold.ttf"); font-weight: 700; }
+/* 欧文は BIZ の x ハイト 0.541 に対し 0.475 なので 108% に拡大して並べる */
+@font-face { font-family: "Ser"; src: url("../fonts/Source_Serif_4/SourceSerif4SmText-Regular.ttf"); font-weight: 400; size-adjust: 108%; unicode-range: U+0000-02FF, U+2018-201D; }
+@font-face { font-family: "Ser"; src: url("../fonts/Source_Serif_4/SourceSerif4SmText-It.ttf"); font-weight: 400; font-style: italic; size-adjust: 108%; unicode-range: U+0000-02FF, U+2018-201D; }
+@font-face { font-family: "Ser"; src: url("../fonts/Source_Serif_4/SourceSerif4SmText-Semibold.ttf"); font-weight: 600; size-adjust: 108%; unicode-range: U+0000-02FF, U+2018-201D; }
+@font-face { font-family: "Ser"; src: url("../fonts/Source_Serif_4/SourceSerif4SmText-Bold.ttf"); font-weight: 700; size-adjust: 108%; unicode-range: U+0000-02FF, U+2018-201D; }
+
+@page { size: 210mm 297mm; margin: 0; }
+:root { --ink: #000; --red: #FF4B00; --net: #E6E6E6; --paper: #fff; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: var(--paper); color: var(--ink); }
+body { font-family: "Ser", "Min", serif; font-size: 10pt; line-height: 1.75;
+  line-break: strict; hyphens: manual; text-autospace: normal; font-kerning: normal; }
+.page { width: 210mm; height: 297mm; position: relative; overflow: hidden; break-after: page; }
+.g { font-family: "Ser", "Goth", sans-serif; }
+.goth { font-family: "Goth", sans-serif; }
+.red { color: var(--red); }
+.en { font-family: "Ser", serif; }
