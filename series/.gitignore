@@ -1,2 +1,3 @@
 build/
 proto/*.png
+dist/
