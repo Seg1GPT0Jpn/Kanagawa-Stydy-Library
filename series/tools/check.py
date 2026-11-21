@@ -39,6 +39,7 @@ def norm(s, md=False):
     s = re.sub(r'\{\{|\}\}|\*\*|<<|>>|\*|__|[①-⑳]', '', s)
     s = s.replace('＿', '')
     s = unicodedata.normalize('NFKC', s)
+    s = s.replace('〜', '~').replace('～', '~')
     s = s.replace('’', "'").replace('‘', "'").replace('“', '"').replace('”', '"')
     return re.sub(r'[\s\[\]［］()（）]', '', s)
 
@@ -99,11 +100,9 @@ def main(bid):
         # 表のマスは折り返しで隣のマスと行が混ざるので、語のまとまりがすべて同じページにあるかで見る
         import html as _h
         t = _h.unescape(re.sub(r'<[^>]+>', ' ', bk.md(c, bk.pages)))
-        chunks = []
-        for x in re.split(r'[\s／（）()＝=]+', t):
-            x = norm(x)
-            # 和文は折り返しで切れるので4字ずつに分けて探す
-            chunks += [x[i:i + 4] for i in range(0, len(x), 4)] if re.search(r'[ぁ-んァ-ン一-龥]', x) else ([x] if x else [])
+        # 表のマスは折り返しで隣のマスと行が混ざる。英語は語ごと、和文は1字ずつ、同じページにすべてあるかを見る（弱い照合。表のマスだけに使う）
+        tn = norm(t)
+        chunks = [norm(w) for w in re.findall(r"[A-Za-z0-9'\-]+", t)] + re.findall(r'[ぁ-んァ-ヶ一-龥]', tn)
         for pg in range(1, lay['kaisetsu']['pages'] + 1):
             if pg not in pagetexts: pagetexts[pg] = norm(pdftext(out / 'kaisetsu.pdf', pg))
             if all(ch in pagetexts[pg] for ch in chunks): return True
@@ -132,6 +131,11 @@ def main(bid):
     if miss: fail(f'抜け落ち {len(miss)} 件: {miss[:8]}')
     else: ok(f'抜け落ちなし（節 {len(secs)}、例文 {sum(len(s.get("examples", [])) for s in secs)}、問題 {len(bk.problems)}、要点 {sum(len(s.get("summary", [])) for s in secs)}）')
 
+    # 例文番号が本文の中で 1, 2, 3, … と飛ばずに並ぶか
+    seq = [int(m) for m in re.findall(r'<span class="n">(\d+)</span><div><div class="e">', (out / 'kaisetsu.html').read_text())]
+    if seq != list(range(1, len(seq) + 1)): fail(f'例文番号が連番でない: {[x for i, x in enumerate(seq) if x != i + 1][:5]}')
+    else: ok(f'例文番号 1〜{len(seq)} が本文の順に連番')
+
     # 3. 番号の一致：問題集と解答解説の問題番号が、データの順と完全に一致するか
     want = [p['no'] for p in bk.problems if p['set'] != '模試']
     for n in ('mondai', 'kaitou'):
@@ -145,6 +149,20 @@ def main(bid):
             fail(f'{NAMES[n]}: 問題番号の欠け {sorted(set(want) - set(got))[:10]}')
         else:
             ok(f'{NAMES[n]}: 問題番号 問1〜問{len(want)} がそろっている')
+    mock = [p for p in bk.problems if p['set'] == '模試']
+    if mock:
+        labels = [p['label'] for p in mock]
+        for n, where in (('mondai', '問題冊子'), ('kaitou', '解答解説')):
+            t = re.sub(r'\s', '', texts[n])
+            lost = [l for l in labels if re.sub(r'\s', '', l) not in t]
+            if lost: fail(f'模擬試験の番号が{where}にない: {lost}')
+        # 解答用紙：同じ番号が同じ順で並ぶか
+        sheet = (out / 'mondai.html').read_text()
+        got = re.findall(r'<td class="sl">(第\d問 \(\d+\))</td>', sheet)
+        if got != labels: fail(f'解答用紙の番号が問題と違う: {got[:5]} / {labels[:5]}')
+        else: ok(f'模擬試験 {len(labels)} 問：問題冊子・解答用紙・解答解説の番号が一致')
+        tot = sum(p.get('pts', 0) for p in mock)
+        if tot != 100: fail(f'模擬試験の配点合計が {tot}')
     a_m = lay['mondai']['anchors']; a_k = lay['kaitou']['anchors']
     if [k for k in a_m if k.startswith('q')] and set(k for k in a_m if re.fullmatch(r'q\d+', k)) != set(k for k in a_k if re.fullmatch(r'q\d+', k)):
         fail('問題集と解答解説で問題の集合が違う')
@@ -230,7 +248,7 @@ def main(bid):
     ok('書体はすべて埋め込み・Type 3 なし')
 
     # 9. データ検査（形式・参照・整序の語・AI多用語）
-    r = subprocess.run([sys.executable, str(ROOT / 'tools' / 'validate.py'), str(ROOT / 'src' / f'{bid}.yaml')] + [str(p) for p in sorted((ROOT / 'src' / 'parts').glob('c*.yaml'))], capture_output=True, text=True)
+    r = subprocess.run([sys.executable, str(ROOT / 'tools' / 'validate.py'), str(ROOT / 'src' / f'{bid}.yaml')] + [str(p) for p in sorted((ROOT / 'src' / 'parts').glob('*.yaml'))], capture_output=True, text=True)
     if r.returncode: fail('データ検査: ' + ' / '.join(l for l in r.stdout.splitlines() if l.startswith('ERROR'))[:800])
     else: ok('データ検査: ' + r.stdout.strip().splitlines()[-1])
 

@@ -80,12 +80,35 @@ window.__paginate = function () {
     let h = measure(b, meas);
     // 見出しは次のブロックと一緒に送る
     let need = h;
-    if (b.classList.contains('keepnext') && blocks[i + 1]) need += Math.min(measure(blocks[i + 1].cloneNode(true), meas), 30 * MM);
+    if (b.classList.contains('keepnext')) {
+      // 見出し・指示文は、後ろに続く keepnext の列と、その次の本体のかたまりと一緒に送る
+      let j = i + 1;
+      while (blocks[j]) {
+        const c = blocks[j].cloneNode(true); c.querySelectorAll('.sn').forEach(n => n.remove());
+        const hj = measure(c, meas);
+        if (need + hj <= H) need += hj; else break;
+        if (!blocks[j].classList.contains('keepnext')) break;
+        j++;
+      }
+    }
     let nh = notes.reduce((s, n) => s + measure(n, smeas), 0);
     const startY = y; // 上端の余白は先頭では詰める
     if (y + need > H + 0.5 || Math.max(sideY, y) + nh > H + 0.5) {
       if (y === 0 && !page.classList.contains('used')) { errors.push(`p${pageNo}: ブロックが1ページに収まらない: ${b.textContent.slice(0, 40)}`); }
-      else { finishPage(); newPage(); }
+      else {
+        // ページの最後に残る見出し・指示文（keepnext）は、送るかたまりと一緒に次のページへ移す
+        const carry = [];
+        let last = mainEl.lastElementChild;
+        while (last && last.classList.contains('keepnext')) { carry.unshift(last); last.remove(); last = mainEl.lastElementChild; }
+        finishPage(); newPage();
+        for (const c of carry) {
+          if (y === 0) c.classList.add('first'); else c.classList.remove('first');
+          c.style.top = (y / MM) + 'mm'; mainEl.appendChild(c);
+          y += outerH(c);
+          if (!page.dataset.ch) { page.dataset.ch = curChapter; page.dataset.sec = c.dataset.section || curSection; }
+        }
+        if (carry.length) page.classList.add('used');
+      }
     }
     if (y === 0) b.classList.add('first'); else b.classList.remove('first');
     h = measure(b, meas);
@@ -108,6 +131,12 @@ window.__paginate = function () {
     pg.querySelectorAll('[data-anchor]').forEach(a => { for (const k of a.dataset.anchor.split(' ')) if (!(k in anchors)) anchors[k] = +pg.dataset.no; });
   });
   window.__anchorsLocal = anchors;
+  // ページの最後に見出し・指示文だけが残っていないか
+  document.querySelectorAll('#pages .page').forEach(pg => {
+    const bl = pg.querySelectorAll('.maincol > .blk');
+    const last = bl[bl.length - 1];
+    if (last && last.classList.contains('keepnext')) errors.push(`p${pg.dataset.no}: ページの最後に見出し・指示文だけが残っている: ${last.textContent.slice(0, 30)}`);
+  });
   const placed = document.querySelectorAll('#pages .blk').length;
   if (placed !== C.nblocks) errors.push(`配置されたブロック数 ${placed} が生成数 ${C.nblocks} と違う`);
   window.__layout = { pages: pageNo, anchors, errors };

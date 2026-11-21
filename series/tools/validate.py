@@ -61,6 +61,7 @@ def main(paths):
                     if n.get('kind') not in NOTE_KINDS: err.append(f'{s["id"]}: 側注の種類が不正: {n}')
                     if n.get('kind') == '用語':
                         if not n.get('yomi') or not re.fullmatch(r'[ぁ-んー]+', n['yomi']): err.append(f'{s["id"]}: 用語 {n.get("term")} の yomi（ひらがな）がない')
+                        if n.get('term') in terms: err.append(f'{s["id"]}: 用語の二重定義: {n.get("term")}')
                         terms.add(n.get('term'))
                 if 'ex' in b: used_ex |= set(b['ex'])
                 if 'p' in b: ja_texts.append((s['id'], b['p']))
@@ -82,6 +83,9 @@ def main(paths):
     full_ex = {e['id'] for c in full['chapters'] for s in c['sections'] for e in s.get('examples', []) or []} | set(ex_ids)
     for m in re.finditer(r'@(e\d+)', alltext):
         if m.group(1) not in full_ex: err.append(f'存在しない例文への参照: @{m.group(1)}')
+    if not any(Path(p).resolve() == (ROOT / 'src' / 'eg01.yaml').resolve() for p in paths):
+        base_terms = {n['term'] for c in full['chapters'] for s in c['sections'] for b in s.get('body', []) or [] for n in (b.get('notes') or []) if n.get('kind') == '用語'}
+        for t in base_terms & terms: err.append(f'用語の二重定義（本体と部分ファイル）: {t}')
     full_terms = {n['term'] for c in full['chapters'] for s in c['sections'] for b in s.get('body', []) or [] for n in (b.get('notes') or []) if n.get('kind') == '用語'} | terms
     for m in re.finditer(r'<<(.+?)>>', alltext):
         if m.group(1) not in full_terms: err.append(f'用語の定義（側注「用語」）がない: <<{m.group(1)}>>')
@@ -135,6 +139,12 @@ def main(paths):
             if not str(alt).strip(): err.append(f'{pid}: 空の別解')
         en_texts.append((pid, p.get('q', '')))
         ja_texts.append((pid, (p.get('why', '') or '') + (p.get('trap', '') or '')))
+    mock = [p for p in problems if p.get('set') == '模試']
+    if mock:
+        for p in mock:
+            if p.get('part') not in (1, 2, 3, 4, 5): err.append(f'{p.get("id")}: 模試の part が不正')
+            if not p.get('pts'): err.append(f'{p.get("id")}: 模試の pts がない')
+        if sum(p.get('pts', 0) or 0 for p in mock) != 100: err.append(f'模試の配点合計が {sum(p.get("pts", 0) or 0 for p in mock)}（100 でない）')
     # 禁止語
     wl = wordlists()
     for key in ('英語・強（単語。活用形を含む）', '英語・強（句）'):

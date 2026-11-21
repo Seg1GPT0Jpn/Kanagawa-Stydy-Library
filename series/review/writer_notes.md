@@ -45,3 +45,20 @@
 
 ## 全体（編集側で対応）
 - 執筆者全員が、節末6問×節＋章末8問を作った（指示書どおり）。
+
+## 第1章（s02〜s06）
+- 言い切りの強さ：with who を「標準的な英語では誤り」／句動詞の the dog after which my brother looks を「不自然で入試では誤り」／物の whose を「やや硬い」／there is の後の主格の省略を「くだけた話し言葉、書き言葉では誤り」。
+- s03：補語の that（e114、q1012）と I think がはさまる場合（@s17）を省略の例外とした。s17 との整合を確認。
+- s05 側注「4択で that と which が並び最上級などがあれば that が安全」は受験の目安で、根拠資料なし。
+- q1008：the photos in Kyoto I took の並びも考えられるが alt なし。q1018：about を前に出す形を alt に。q1035：whose 以外に the roof of which、which/that has a red roof を alt に。q1029 は stay two nights。
+- 記法：前置詞が前に出た形（in which …）には ＿ を付けない。whose は「whose＋名詞」の元の位置に ＿。シリーズの記法として要判断。
+- 「不完全な文」の二重定義 → 編集側で s02 の定義を外し、s01 の定義に一本化した。
+
+## 模擬試験（q9001〜q9028）
+- c1（s02〜s06）が書き途中の段階で作成。q9009（all の後の that）、q9011（belong to → to which）、q9017（節の中に残った it）、q9022（目的格の省略）が本文の扱いとずれていないか要確認。
+- q9022（整序）：yesterday が lent と left のどちらにかかるか曖昧。alt なし。
+- q9015：whom I believed was … を誤りとした（実際の英文には見られる）。
+- q9006：選択肢の言いかえ（places … stopped at）の自然さ。
+- q9028：外置の和訳。模範解答と別解の両方を満点とする想定。
+- q9020：and two of them I sent も誤りの解消になる（why に記載、fix にはない）。
+- s01・s08 を主な sec にした問題がない。

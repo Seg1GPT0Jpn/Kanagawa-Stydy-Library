@@ -33,8 +33,11 @@ class Book:
             for s in ch['sections']:
                 n_sec += 1; s['no'] = n_sec
                 self.sec_no[s['id']] = n_sec; self.sec_title[s['id']] = s['title']; self.ch_of[s['id']] = ch
-                for e in s.get('examples', []):
-                    n_ex += 1; self.ex_no[e['id']] = n_ex
+                # 例文番号は本文に出る順に振る（データの並びではなく）
+                for blkd in s.get('body', []):
+                    for eid in blkd.get('ex', []) or []:
+                        if eid not in self.ex_no:
+                            n_ex += 1; self.ex_no[eid] = n_ex
                 for b in s.get('body', []):
                     for nt in b.get('notes', []) or []:
                         if nt['kind'] == '用語':
@@ -44,17 +47,21 @@ class Book:
         for p in self.problems:
             if p['set'] != '模試':
                 n += 1; p['no'] = n
-        m = 0
+        m = 0; k = {}
         for p in self.problems:
             if p['set'] == '模試':
                 m += 1; p['no'] = m
+                k[p['part']] = k.get(p['part'], 0) + 1
+                p['label'] = f'第{p["part"]}問 ({k[p["part"]]})'
+            else:
+                p['label'] = f'問{p["no"]}'
         self.pages = {}      # 参照ページ表（完全解説book）: anchor -> page
 
     def merge_parts(self):
         """src/parts/*.yaml（章ごとの執筆ファイル）を節 ID で本体に差し込む。
         配布する本の唯一の情報源は、結合後に書き出す build/<id>/merged.yaml。"""
         chs = {c['id']: c for c in self.data['chapters']}
-        for p in sorted((ROOT / 'src' / 'parts').glob('c*.yaml')):
+        for p in sorted((ROOT / 'src' / 'parts').glob('*.yaml')):
             part = yaml.safe_load(p.read_text())
             for pc in part.get('chapters', []):
                 ch = chs[pc['id']]
@@ -63,15 +70,21 @@ class Book:
                 for ps in pc['sections']:
                     ch['sections'][idx[ps['id']]] = ps
             self.data.setdefault('problems', []).extend(part.get('problems', []) or [])
+        # 指示文の引き継ぎ：inst を省いた問題は、同じ節・同じ区分の直前の問題の指示を使う（並べ替えの前に確定する）
+        last = {}
+        for p in self.data.get('problems', []):
+            k = (p['sec'] if p['set'] == '節末' else 'ch', p['set'], p.get('part'))
+            if p.get('inst'): last[k] = p['inst']
+            p['inst_eff'] = p.get('inst') or last.get(k)
         order = {s['id']: i for i, s in enumerate(s for c in self.data['chapters'] for s in c['sections'])}
         setord = {'節末': 0, '章末': 1, '模試': 2}
         # 並び：模試は最後。章末は章の最後。節末は節の順
         def key(p):
             ch = next(c for c in self.data['chapters'] if any(s['id'] == p['sec'] for s in c['sections']))
             ci = self.data['chapters'].index(ch)
-            if p['set'] == '模試': return (99, 0, 0)
-            if p['set'] == '章末': return (ci, 1, 0)
-            return (ci, 0, order[p['sec']])
+            if p['set'] == '模試': return (99, 0, 0, 0)
+            if p['set'] == '章末': return (ci, 1, 0, 0)
+            return (ci, 0, order[p['sec']], p['lv'])  # 節末は難易度の順（◆基本→標準→発展）
         self.data['problems'] = sorted(self.data.get('problems', []), key=key)  # 安定ソート
 
     # ---------- 文中記法 ----------
