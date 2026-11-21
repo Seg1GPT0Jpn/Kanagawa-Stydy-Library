@@ -1,0 +1,164 @@
+chapters:
+- id: c5
+  sections:
+  - id: s15
+    worked:
+    - q: "(＿) gets the highest score on today's quiz will get a notebook from Ms. Abe."
+      choices: [Whoever, Whatever, Who, Anyone]
+      steps:
+      - (＿) の前に先行詞があるかを見る。文の先頭なので、説明される名詞はない。先行詞を自分の中にふくむ語が入る。
+      - 後ろで欠けているものを探す。(＿) gets the highest score では、gets の主語がない。点を取るのは人なので、主語の働きをする人の語が要る。
+      - 節を外してみる。will get a notebook from Ms. Abe しか残らず、主語がない。(＿) から quiz までが文の主語になる名詞節なので、「〜する人は誰でも」の Whoever を選ぶ。
+      ans: "1"
+      point: 動詞が gets と will get の2つあるので、2つ目の動詞の前で節が終わる。Anyone は先行詞をふくまないので、使うなら Anyone who gets … と who が要る。
+    - q: "(＿) Ren cooks for dinner is always too spicy for his little sister."
+      choices: [No matter what, Whatever, However, Whenever]
+      steps:
+      - (＿) の前に先行詞があるかを見る。文の先頭なので先行詞はない。
+      - 後ろで欠けているものを探す。cooks の後ろに「何を」料理するかがない（for dinner は目的語ではない）。目的語が欠けた不完全な文なので、However と Whenever は入らない。
+      - 節を外してみる。is always too spicy for his little sister しか残らず、is の主語がない。(＿) から dinner までは文の主語になる名詞節である。
+      - 名詞節は no matter what で言い換えられない。「レンが夕食に作るものは何でも」の Whatever を選ぶ。
+      ans: "2"
+      point: 「レンが何を作っても」と訳せそうでも、節を外して主語がなくなるなら名詞節。No matter what は外しても文が残る譲歩の副詞節にしか使えない。
+  - id: s16
+    worked:
+    - q: "(＿) Ren feels nervous before a test, he drinks a glass of warm milk."
+      choices: [Whatever, Whenever, Whoever, Which]
+      steps:
+      - (＿) の前に先行詞があるかを見る。文の先頭なので先行詞はない。
+      - 後ろで欠けているものを探す。Ren feels nervous は、主語 Ren・動詞 feels・補語 nervous がそろった完全な文。欠けた語がないので、主語や目的語の代わりをする Whatever・Whoever・Which は入らない。
+      - 主節との関係を見る。テストの前に緊張する「たびに」温かい牛乳を飲む、という関係なので、「〜するときはいつでも」の Whenever を選ぶ。
+      ans: "2"
+      point: whenever・wherever の後ろは完全な文になる。先に「後ろで何が欠けているか」を確かめれば、関係代名詞や whatever の仲間を外せる。
+    - q: "(＿), Chloe finished her science report before midnight."
+      choices:
+      - However sleepy she was
+      - However she was sleepy
+      - However sleepy was she
+      - However was she sleepy
+      steps:
+      - however の直後の語を見る。「どんなに〜でも」の however は、程度を表す形容詞・副詞を直後に引き連れる。sleepy が however の直後にない②と④を外す。
+      - 残りの語順を見る。節の中は主語＋動詞の普通の語順で、疑問文のような倒置はしない。was she と倒置している③を外す。
+      - 元の文 She was sleepy. の sleepy だけが前に出た①を選ぶ。節を外すと Chloe finished her science report before midnight. が残るので、譲歩の副詞節で「どんなに眠くても」の意味になる。
+      ans: "1"
+      point: however は「however＋形容詞・副詞」を1つのまとまりとして節の先頭に置き、その後ろは she was の普通の語順にする。
+problems:
+- id: q5201
+  sec: s15
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: "At the club camp, Mr. Mori said we could use (＿) we found in the kitchen."
+  choices: [whatever, whenever, however, wherever]
+  ans: "1"
+  why: 空所から kitchen までが use の目的語になる名詞節で、節の中では found の目的語が欠けている。物を表し、先行詞をふくむ whatever（＝anything that）が入る。
+  trap: ④wherever を選ぶ誤り。wherever の後ろは完全な文になるが、we found in the kitchen は found の目的語が欠けた不完全な文である。
+- id: q5202
+  sec: s15
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 2つの文がほぼ同じ意味になるように、（　）に適切な語を1語ずつ入れなさい。
+  q: "Whoever calls tonight, tell them I'm at the gym until nine.<br>＝ (＿) (＿) (＿) calls tonight, tell them I'm at the gym until nine."
+  ans: No matter who
+  why: Whoever calls tonight を外しても tell them … の命令文が残るので、譲歩の副詞節（誰が電話してきても）。譲歩の whoever は no matter who で言い換えられる。
+  trap: 空所の数に合わせて Anyone who calls と書く誤り。anyone who の節は名詞のまとまりなので、外して文が残る譲歩の位置には置けない。
+- id: q5203
+  sec: s15
+  set: 節末
+  lv: 1
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: "ユウトは、お母さんが作ってくれるものなら何でも食べる。<br>Yuto eats ( cooks / for / him / his / mother / whatever )."
+  words: [cooks, for, him, his, mother, whatever]
+  ans: Yuto eats whatever his mother cooks for him.
+  why: eats の目的語に whatever his mother cooks for him（お母さんが作ってくれるものは何でも）を置く。節の中で cooks の目的語が欠けていて、whatever がその代わりをする。
+  trap: Yuto eats his mother whatever … と、日本語の「お母さんが」の順に引かれて his mother を先に置く誤り。whatever は節の先頭に来る。
+- id: q5204
+  sec: s15
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部のうち、誤りをふくむものを1つ選びなさい。
+  q: "__On__① Sunday afternoon, Ren will let __anyone whoever__② __wants__③ to try his new video game __come__④ to his house."
+  ans: "2"
+  why: whoever は先行詞をふくむので、前に anyone を置かない。anyone who か whoever のどちらかにする。③wants は単数の anyone（whoever）に合い、④は let＋人＋動詞の原形の形で正しい。
+  trap: 「誰でも」を強めるつもりで anyone whoever を正しいと思う誤り。whoever だけで anyone who の意味になるので、先行詞が二重になる。
+- id: q5205
+  sec: s15
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: "(＿) Ivy paints in art class is full of bright colors."
+  choices: [No matter what, Whenever, Whatever, Wherever]
+  ans: "3"
+  why: 空所から class までを外すと is full of bright colors しか残らず、is の主語がない。この節は文の主語になる名詞節で、節の中では paints の目的語が欠けているので Whatever（アイビーが描くものは何でも）。
+  trap: 「何を描いても」と訳して①No matter what を選ぶ誤り。no matter what の節は譲歩の副詞節で、文の主語にはなれない。
+- id: q5206
+  sec: s16
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: "Ivy's cat follows her (＿) she goes in the house."
+  choices: [wherever, whatever, whoever, which]
+  ans: "1"
+  why: she goes in the house は主語と動詞のそろった完全な文で、欠けた語がない。場所を表し、後ろに完全な文が続く wherever（〜するところならどこでも）が入る。
+  trap: ②whatever を選ぶ誤り。whatever は節の中で主語や目的語の代わりをするので後ろが不完全な文になる。go は目的語をとらないので、欠けた語はない。
+- id: q5207
+  sec: s16
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 2つの文がほぼ同じ意味になるように、（　）に適切な語を1語ずつ入れなさい。
+  q: "However expensive the ticket is, Jack wants to see the concert.<br>＝ (＿) (＿) (＿) expensive the ticket is, Jack wants to see the concert."
+  ans: No matter how
+  why: However＋形容詞＋S＋V の譲歩の節は、no matter how＋形容詞＋S＋V で言い換えられる。expensive the ticket is の語順はそのまま使う。
+  trap: No matter however と書く誤り。no matter の後ろには疑問詞の how を置き、-ever の付いた語は置かない。
+- id: q5208
+  sec: s16
+  set: 節末
+  lv: 1
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: "どんなに遅く起きても、ユウトは必ず朝ごはんを食べる。<br>( gets / however / late / up / Yuto ), he always eats breakfast."
+  words: [gets, however, late, up, Yuto]
+  ans: However late Yuto gets up, he always eats breakfast.
+  why: 元の文 Yuto gets up late. の副詞 late を however の直後に出し、残りを Yuto gets up の普通の語順で続ける。
+  trap: However Yuto gets up late と、late を文の後ろに残す誤り。however は程度を表す語を引き連れて節の先頭に出る。
+- id: q5209
+  sec: s16
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部のうち、誤りをふくむものを1つ選びなさい。
+  q: "__However much__① friends Ivy __invites__② to her birthday party, her mother __always cooks__③ __enough food__④ for everyone."
+  ans: "1"
+  why: friends は数えられる名詞の複数形なので、However many friends とする。much を使うのは homework や money のような数えられない名詞のとき。②の invites は譲歩の節なので現在形でよい。
+  trap: 「どんなに〜でも」の however much をまとまりで覚えていて、①を正しいと思う誤り。however の直後の much／many は、後ろの名詞が数えられるかどうかで決まる。
+- id: q5210
+  sec: s16
+  set: 節末
+  lv: 2
+  kind: 和訳
+  min: 3
+  inst: 下線部①②を日本語に訳しなさい。
+  q: "Ms. Abe loves the ramen at the small shop near the station. __However long the line is__①, she waits for her turn. __However__②, on rainy days she goes to the café next door instead."
+  ans: ① 列がどんなに長くても　② しかし
+  alt:
+  - ① 行列がどれほど長くても
+  - ① たとえ列がどんなに長くても
+  - ② けれども
+  why: ①は However の直後に形容詞 long があり、the line is が続く譲歩の節で「どんなに長くても」。②は直後にコンマがあってすぐ文が続くので、前の文と逆の内容をつなぐ「しかし」。
+  trap: ②も①と同じく「どんなに〜でも」と訳そうとする誤り。②の However は直後に形容詞・副詞がなくコンマが来ているので、節をつくらない副詞である。

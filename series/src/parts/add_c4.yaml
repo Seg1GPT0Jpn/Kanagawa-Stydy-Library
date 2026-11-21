@@ -1,0 +1,156 @@
+chapters:
+- id: c4
+  sections:
+  - id: s13
+    worked:
+    - q: "Our school library, (＿) opened in 1985, has more than 20,000 books."
+      choices: [that, which, what, where]
+      steps:
+      - 先行詞を確かめる。(＿) の直前の Our school library は人以外。
+      - 後ろの文で欠けているものを探す。(＿) opened in 1985 では、opened の主語がない。主語が欠けた不完全な文なので、関係副詞の where は入らない。
+      - コンマを確かめる。library の直後にコンマがあるので非制限用法。that は使えないので、which を選ぶ。
+      ans: "2"
+      point: 1つ目と2つ目の問いだけなら that も which も入る。3つ目の問い（コンマがあるか）で that を外す。what は先行詞をふくむ語なので、名詞の後ろには置かない。
+    - q: "During the summer vacation, Rei went to Hakone, (＿) her uncle had recommended to her."
+      choices: [where, which, that, when]
+      steps:
+      - 先行詞を確かめる。(＿) の直前の Hakone は地名で、人以外。
+      - 後ろの文で欠けているものを探す。recommend は「〜を勧める」で目的語が要る。her uncle had recommended ＿ to her では recommended の目的語がない。不完全な文なので where は使えない。
+      - コンマを確かめる。Hakone の直後にコンマがあるので非制限用法。that は使えず、which が残る。
+      ans: "2"
+      point: 地名の後ろだから where、と決めない。where を使うのは、コンマの後ろが her uncle runs a hotel のような完全な文のときだけで、目的語が欠けていれば which になる。
+  - id: s14
+    worked:
+    - q: "Max left his lunch at home this morning, (＿) made him very hungry by the afternoon."
+      choices: [who, which, that, what]
+      steps:
+      - (＿) の後ろを見る。(＿) made him very hungry では、made の主語がない。
+      - 主語に何を入れれば意味が通るかを考える。Max や his lunch を入れると「マックスが彼を空腹にした」「昼食が彼を空腹にした」となり、意味が通らない。おなかをすかせたのは「昼食を家に忘れたこと」である。
+      - 前の内容全体を受けられるのは、コンマの付いた which。that と what にはこの使い方がない。
+      ans: "2"
+      point: which が何を指すかは、候補を節の中に戻して意味が通るかで決める。コンマの前が出来事、which の節がその結果なので、「〜して、そのせいで…」と前から訳す。
+    - q: "Rei's tennis club has 24 members, half of (＿) started playing in junior high school."
+      choices: [them, who, whom, which]
+      steps:
+      - 先行詞を確かめる。half of (＿) が指しているのは 24 members で、人。
+      - (＿) の直前を見る。前置詞 of の直後なので、主格の who ではなく目的格の whom を使う。
+      - コンマの前後の文を数える。Rei's tennis club has 24 members と half of ＿ started playing … の2つの文がある。them を入れると2つの文がコンマだけでつながるので、つなぐ働きをする関係代名詞が要る。
+      ans: "3"
+      point: 「そのうち半分は」を them で表したくなるが、them を使うなら and half of them … と and が要る。先行詞が物なら half of which になる。
+problems:
+- id: q4201
+  sec: s13
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: "Max started learning Japanese in 2019, (＿) he was ten years old."
+  choices: [which, where, when, who]
+  ans: "3"
+  why: 先行詞は時を表す 2019。コンマの後ろの he was ten years old は主語も補語もそろった完全な文なので、時を受ける when が入る。「2019年に日本語を学び始め、そのとき10歳だった」。
+  trap: 先行詞が年の数字（人以外）なので①which を選ぶ誤り。which の後ろは主語や目的語が欠けた不完全な文になるが、he was ten years old には欠けたものがない。
+- id: q4202
+  sec: s13
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 空所に入る最も適切な1語を書きなさい。
+  q: "Mr. Nagai, (＿) coaches our volleyball team, played volleyball for a company team for 15 years."
+  ans: who
+  why: 先行詞 Mr. Nagai は人で、節の中で coaches の主語が欠けている。コンマのある非制限用法なので that は使えず、who を入れる。
+  trap: 人・主語が欠けているので that と書く誤り。第1節の表では that も入るが、コンマの後ろでは that は使えない。
+- id: q4203
+  sec: s13
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りを含むものを1つ選びなさい。
+  q: "On the way to Kyoto, we stopped at Lake Biwa, __that__① is __the largest__② lake in Japan, and __had__③ lunch __by__④ the water."
+  ans: "1"
+  why: Lake Biwa は固有名詞で1つに決まるので、関係詞節はコンマの付いた非制限用法になる。非制限用法では that を使わない。is の主語が欠けていて先行詞は人以外なので、①を which にする。
+  trap: 節の中に最上級 the largest があるので「最上級には that が好まれる」（@s05）と考え、①を正しいと見る誤り。that が好まれるのは先行詞に最上級が付いた制限用法のときで、ここでは先行詞は Lake Biwa、最上級が付いているのは節の中の lake である。
+- id: q4204
+  sec: s13
+  set: 節末
+  lv: 1
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 兄は東京の大学の学生だが、毎週末家に帰ってくる。<br>My brother, ( a / at / is / student / who ) a university in Tokyo, comes home every weekend.
+  words: [a, at, is, student, who]
+  ans: My brother, who is a student at a university in Tokyo, comes home every weekend.
+  why: 先行詞 My brother は1人に決まる人なので、コンマの直後に who を置いて非制限用法にする。節の中は who is a student at a university in Tokyo で、is の主語が欠けている。節の後ろのコンマの次に、文全体の動詞 comes が続く。
+  trap: My brother の直後に is を置き、who を後ろに回そうとする誤り。who は節の先頭、つまり最初のコンマの直後に置く。
+- id: q4205
+  sec: s13
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: "Last summer Rei spent a week in Hokkaido, (＿) she had wanted to visit since she was a child."
+  choices: [where, which, that, when]
+  ans: "2"
+  why: visit は「〜を訪れる」で目的語が要る。she had wanted to visit ＿ では visit の目的語が欠けているので、不完全な文。先行詞 Hokkaido は人以外で、コンマのある非制限用法なので which。
+  trap: 地名の Hokkaido を見て①where を選ぶ誤り。where の後ろは完全な文になる。visit の後ろに目的語がないことを確かめる。
+- id: q4206
+  sec: s14
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: "Sota got a perfect score on the math test, (＿) made his teacher very happy."
+  choices: [who, what, which, whose]
+  ans: "3"
+  why: 先生を喜ばせたのは「ソウタが数学のテストで満点を取ったこと」という前の内容全体。前の内容を受けられるのは、コンマの付いた which。
+  trap: 文の主語の Sota を先行詞と考えて①who を選ぶ誤り。関係代名詞は先行詞の直後に置く語で、(＿) の直前は the math test。人の Sota を受ける who はここには入らない。
+- id: q4207
+  sec: s14
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 2つの文がほぼ同じ意味になるように、空所に1語を入れなさい。
+  q: "The shop sells about 30 kinds of bread, and most of them are baked in the morning.<br>= The shop sells about 30 kinds of bread, most of (＿) are baked in the morning."
+  ans: which
+  why: and most of them を関係代名詞で言いかえる。先行詞 30 kinds of bread は人以外で、前置詞 of の後ろなので which。
+  trap: 上の文のまま them と書く誤り。and を消したので、them では2つの文がコンマだけでつながる。つなぐ働きのある which が要る。
+- id: q4208
+  sec: s14
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りを含むものを1つ選びなさい。
+  q: "Ayaka __bought__① two T-shirts at the shop near the station, __both of whom__② __were__③ on sale __for__④ 1,000 yen each."
+  ans: "2"
+  why: both of ＿ が指す two T-shirts は人以外なので、②を both of which にする。of の後ろの whom は、先行詞が人のときに使う。
+  trap: ③were を was に直したくなる誤り。指しているのは2枚のシャツなので、both of which の後ろの動詞は複数の were で正しい。
+- id: q4209
+  sec: s14
+  set: 節末
+  lv: 1
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: パーティーには約20人が来て、そのうち5人はほかの国から来た人だった。<br>About 20 people came to the party, five ( from / of / other / were / whom ) countries.
+  words: [from, of, other, were, whom]
+  ans: About 20 people came to the party, five of whom were from other countries.
+  why: 先行詞 20 people は人なので、「そのうち5人は」は five of whom。of の直後なので目的格の whom を使う。five of whom のかたまりが、節の中で were の主語になる。
+  trap: five の直後に were を続け、whom の置き場がなくなる誤り。数の表現＋of＋whom を1つのかたまりとして節の先頭に置く。
+- id: q4210
+  sec: s14
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: "I asked three classmates to help me carry the desks, (＿) of whom could come because they all had club practice."
+  choices: [all, both, none, most]
+  ans: "3"
+  why: because they all had club practice（全員に部活の練習があった）から、来られた人はいない。three classmates は人なので、none of whom で「そのうち誰も〜ない」となる。
+  trap: ②both を選ぶ誤り。both は2人・2つのときに使う語で、3人の classmates には使えない。①all と④most は、全員に練習があったという理由と意味が合わない。
