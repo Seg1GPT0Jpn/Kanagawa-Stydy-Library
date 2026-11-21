@@ -98,6 +98,9 @@ def main(paths):
     for m in re.finditer(r'@(s\d+)', alltext):
         if m.group(1) not in sec_ids: err.append(f'存在しない節への参照: @{m.group(1)}')
     full_ex = {e['id'] for c in full['chapters'] for s in c['sections'] for e in s.get('examples', []) or []} | set(ex_ids)
+    allq = {p.get('id') for p in problems} | {p.get('id') for p in (full.get('problems') or [])}
+    for m in re.finditer(r'@(q\d+)', alltext):
+        if m.group(1) not in allq: err.append(f'存在しない問題への参照: @{m.group(1)}')
     for m in re.finditer(r'@(e\d+)', alltext):
         if m.group(1) not in full_ex: err.append(f'存在しない例文への参照: @{m.group(1)}')
     if not any(Path(p).resolve() == (ROOT / 'src' / 'eg01.yaml').resolve() for p in paths):
@@ -184,6 +187,8 @@ def main(paths):
     for w in wl.get('日本語・注意（密度で判定）', []):
         n = [i for i, t in ja_texts if w in str(t)]
         if len(n) >= 3: warn.append(f'日本語の注意表現「{w}」が {len(n)} か所: {n[:6]}')
+    for i, t in ja_texts + en_texts:
+        if re.search(r'(?<![@\w])[qe]\d{3,4}\b', str(t)): err.append(f'{i}: 内部の ID が本文に残っている: {re.findall(r"(?<![@\w])[qe]\d{3,4}", str(t))}')
     for i, t in ja_texts:
         if re.search(r'[！!]', str(t)) and not re.search(r'[A-Za-z]!', str(t)): warn.append(f'{i}: 解説文に「！」')
         if '—' in str(t) or '――' in str(t): err.append(f'{i}: 長いダッシュ')

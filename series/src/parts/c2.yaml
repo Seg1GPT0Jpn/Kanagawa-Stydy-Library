@@ -358,7 +358,7 @@ problems:
   choices: [which, where, what, that]
   ans: "2"
   why: live は目的語をとらない動詞なので、節 Sofia lived for three years は完全な文。「その町に」という場所の副詞の代わりをする where が入る。
-  trap: q2013 と同じく「場所の名詞の後ろは where か which か」で迷い、①which を選ぶ誤り。which にするなら the town which Sofia lived in のように前置詞が必要になる。
+  trap: 前の問題（@q2013）と同じく「場所の名詞の後ろは where か which か」で迷い、①which を選ぶ誤り。which にするなら the town which Sofia lived in のように前置詞が必要になる。
 - id: q2015
   sec: s09
   set: 節末

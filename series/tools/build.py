@@ -124,6 +124,11 @@ class Book:
             p = (self.pages or pages or {}).get(k)
             return f'<span class="pref" data-ref="{k}">→&nbsp;p.{p if p else "00"}</span>'
         s = re.sub(r'@(s\d+)', secref, s)
+        def qref(m):
+            p = next((p for p in self.data.get('problems', []) if p['id'] == m.group(1)), None)
+            if not p or 'label' not in p: raise SystemExit(f'問題 ID がない: {m.group(1)}')
+            return p['label']
+        s = re.sub(r'@(q\d+)', qref, s)
         s = s.replace('[＿]', '[<span class="blank"></span>]').replace('(＿)', '(<span class="blank"></span>)')
         s = s.replace('＿', '<span class="gap"></span>')
         s = s.replace('［ ］', '［&nbsp;］')
