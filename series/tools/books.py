@@ -286,7 +286,7 @@ PROB_CSS = '''
 .blk.qr { display: grid; grid-template-columns: 130mm 44mm; column-gap: 6mm; border-bottom: .35pt solid #000; padding: 2mm 0; }
 .qh { font: 8.5pt/1.4 "Goth"; display: flex; gap: 3mm; align-items: center; margin-bottom: .5mm; }
 .qh .no { font: 700 10pt "Goth"; min-width: 10mm; }
-.box3 { display: inline-flex; gap: 1mm; } .box3 i { width: 3.2mm; height: 3.2mm; border: .5pt solid #000; display: inline-block; }
+.box3 { display: inline-block; vertical-align: -.4mm; }
 .qt { font-family: "Ser", "Min"; font-size: 10.5pt; line-height: 1.7; }
 .qt .ja { font-family: "Min"; font-size: 10pt; }
 .psg { font-family: "Ser"; font-size: 10pt; line-height: 1.65; text-align: justify; margin: 1mm 0 2mm; padding: 2mm 3mm; border: .5pt solid #000; }
@@ -342,7 +342,7 @@ def prob_header(bk, title, probs, ref_html=''):
 
 def q_body(bk, p, pages):
     pts = f'<span>（{p["pts"]}点）</span>' if p.get('pts') else ''
-    s = f'<div class="qh"><span class="no">{p["label"]}</span><span>{STAR[p["lv"]]}</span><span class="box3"><i></i><i></i><i></i></span>{pts}</div>'
+    s = f'<div class="qh"><span class="no">{p["label"]}</span><span>{STAR[p["lv"]]}</span><svg class="box3" viewBox="0 0 39 11" width="11.7mm" height="3.3mm"><rect x="0.5" y="0.5" width="10" height="10" fill="none" stroke="#000" stroke-width="0.9"/><rect x="14.5" y="0.5" width="10" height="10" fill="none" stroke="#000" stroke-width="0.9"/><rect x="28.5" y="0.5" width="10" height="10" fill="none" stroke="#000" stroke-width="0.9"/></svg>{pts}</div>'
     q = p['q']
     if p['kind'] == '読解' and p.get('passage'):
         s += f'<div class="psg">{bk.md(p["passage"], pages)}</div>'
