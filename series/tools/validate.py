@@ -96,6 +96,24 @@ def main(paths):
         cnt = Counter(sei)
         for k in '1234':
             if cnt[k] / len(sei) < 0.12: warn.append(f'正誤の正解の位置が偏っている：{k} が {cnt[k]}/{len(sei)}')
+    # 問題文が完全解説の例文・確認問題とほぼ同じでないか（答えを本で見たことになる）
+    import difflib
+    def simp(t):
+        t = re.sub(r'<[^>]+>|\{\{|\}\}|[*_\[\]＿()（）]|@\w+', ' ', str(t)).lower()
+        return ' '.join(re.findall(r"[a-z']+", t))
+    refs = [(e['id'], simp(e['en'])) for c in chapters for s in c['sections'] for e in s.get('examples', []) or []]
+    refs += [(s['id'] + ' 確認', simp(q['q'])) for c in chapters for s in c['sections'] for b in s.get('body', []) or [] for q in (b.get('check') or [])]
+    refs = [(i, t) for i, t in refs if len(t.split()) >= 6]
+    for p in problems:
+        sents = re.split(r'(?<=[.?!])\s+', re.sub(r'<br>.*', '', str(p.get('q', '')))) if p.get('kind') != '読解' else []
+        for sent in sents:
+            st = simp(sent)
+            if len(st.split()) < 6: continue
+            for i, t in refs:
+                r = difflib.SequenceMatcher(None, st, t).ratio()
+                if r >= 0.8:
+                    warn.append(f'{p.get("id")}: 問題文が {i} とほぼ同じ（一致度 {r:.0%}）')
+                    break
     # YAML の真偽値化け（on/off/yes/no などを引用符なしで書くと true/false になる）
     def walk(x, path):
         if isinstance(x, bool): err.append(f'{path}: 真偽値 {x}（on/off/yes/no を引用符で囲んでいない可能性）')
