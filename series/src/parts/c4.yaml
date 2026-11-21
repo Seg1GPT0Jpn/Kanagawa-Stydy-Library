@@ -44,7 +44,7 @@ chapters:
         - [目的格の省略, できる（@s03）, "{{できない}}"]
         - [訳し方, 後ろから「〜する…」, "{{前から}}「…で、それは〜」"]
     - h: ", where と , when"
-    - p: 関係副詞の where と when にも非制限用法があります（@e407、@e408）。which との使い分けは @s07 と同じで、コンマの後ろの形で決まります。欠けたところのない完全な文なら where / when、目的語などが欠けた不完全な文なら which です。
+    - p: 関係副詞の where と when にも非制限用法があります（@e407、@e408）。which との使い分けは @s09 と同じで、コンマの後ろの形で決まります。欠けたところのない完全な文なら where / when、目的語などが欠けた不完全な文なら which です。
       notes:
       - kind: 注意
         text: "関係副詞のうち why と how には非制限用法がない。コンマの後ろに続けられる関係副詞は where と when だけである。"
@@ -53,7 +53,7 @@ chapters:
     - check:
       - {q: "My grandfather, [＿] lives alone in Akita, sends us rice every fall.", a: who}
       - {q: "This bag, [＿] I bought in Kobe, is already broken.", a: which（省略できない）}
-      - {q: "We went to the zoo on Sunday, [＿] it was very crowded.", a: where}
+      - {q: "We went to Ueno Zoo, [＿] we saw two baby pandas.", a: where}
     examples:
     - id: e401
       en: My aunt has two daughters [*who* ＿ work at a hospital].
@@ -83,7 +83,7 @@ chapters:
     summary:
     - コンマのない関係詞節は先行詞を{{絞りこみ}}（制限用法）、コンマのある関係詞節は決まっている先行詞に情報を{{付け足す}}（非制限用法）。
     - My aunt has two daughters, who … は、娘が{{2人だけ}}いることを表す。コンマがなければ、ほかにも娘がいる可能性が残る。
-    - 固有名詞や my father のように1つに決まる先行詞には、{{非制限用法}}で関係詞節を付ける。
+    - 固有名詞や my father のように1つに決まる先行詞には、{{非制限用法}}で関係詞節を付ける（原則）。
     - 非制限用法では{{that}}を使わず、目的格の関係代名詞も{{省略できない}}。
     - コンマの後ろが完全な文なら{{, where／, when}}、不完全な文なら{{, which}}を使う。
   - id: s14
@@ -93,7 +93,7 @@ chapters:
     - h: ", which が前の内容全体を受ける"
     - p: 非制限用法の which の先行詞は、名詞とは限りません。@e409 の which が受けているのは、直前の his report ではなく、「トムがレポートを書き終えたと言った」という前の部分全体です。レポートそのものが「本当ではない」というのはおかしいので、意味から考えても、先行詞は名詞ではないと分かります。
     - ex: [e409, e410]
-    - p: 前の内容をひとまとまりの「こと」として受けるので、which の後ろの動詞は単数の形になります（@e409 の was、@e410 の meant）。@e409 は Tom said he had finished his report, but that was not true. と言いかえられ、「それは」「そのため」と前から訳します。この使い方ができるのはコンマの付いた which だけで、that や what にはありません。
+    - p: 前の内容をひとまとまりの「こと」として受けるので、which の後ろの動詞は単数の形になります（@e409 の was、@e410 の meant）。@e409 は Tom said he had finished his report, but that was not true. と言いかえられ、「それは」「そのため」と前から訳します。関係代名詞のうち、この使い方ができるのはコンマの付いた which で、that や what にはこの使い方がありません。
       notes:
       - kind: 参照
         text: "前の文の内容を受ける語には、as もある（@s18）。"
@@ -137,13 +137,13 @@ chapters:
       en: Ayaka lent me her dictionary, [*which* ＿ was very kind of her].
       ja: アヤカは私に辞書を貸してくれたが、それはとても親切なことだった。
     - id: e413
-      en: I have three cousins, [two of *whom* live in Canada].
+      en: I have three cousins, [two of *whom* ＿ live in Canada].
       ja: 私にはいとこが3人いて、そのうち2人はカナダに住んでいる。
     - id: e414
-      en: There are 32 students in our class, [most of *whom* come to school by bike].
+      en: There are 32 students in our class, [most of *whom* ＿ come to school by bike].
       ja: 私たちのクラスには生徒が32人いて、そのほとんどが自転車で通学している。
     - id: e415
-      en: Kaito bought two used guitars last year, [both of *which* need new strings now].
+      en: Kaito bought two used guitars last year, [both of *which* ＿ need new strings now].
       ja: カイトは去年中古のギターを2本買ったが、今はどちらも新しい弦に替える必要がある。
       gloss: [[used, 中古の], [string, 弦]]
     - id: e416
@@ -179,7 +179,7 @@ problems:
   choices: [which, where, when, that]
   ans: "2"
   why: コンマの後ろの she learned to dive は主語も目的語もそろった完全な文。場所の Okinawa を受けて「そしてそこで」とつなぐ where が入る。
-  trap: 先行詞が地名なので①which を選ぶ誤り。which は節の中で主語か目的語が欠けているときにしか使えない（@e403 と比べる）。
+  trap: 先行詞が地名なので①which を選ぶ誤り。which は節の中で主語や目的語などが欠けた不完全な文のときにしか使えない（@e403 と比べる）。
 - id: q4003
   sec: s13
   set: 節末
@@ -202,7 +202,7 @@ problems:
   words: [bought, for, me, mother, my, which]
   ans: I left my umbrella, which my mother bought for me last month, on the train.
   why: 先行詞 my umbrella の後ろにコンマがあるので、非制限用法の which で節を始める。節の中は my mother bought ＿ for me で、bought の目的語が欠けている。
-  trap: 制限用法と同じつもりで which を省き、my mother bought for me … と並べようとする誤り。非制限用法では目的格の関係代名詞も省略できないので、which が余る形にはならない。
+  trap: 制限用法と同じつもりで which を省き、語群の which を使わずに余らせてしまう誤り。非制限用法では目的格の関係代名詞も省略できないので、which は my umbrella, の直後に置く。
 - id: q4005
   sec: s13
   set: 節末
@@ -224,13 +224,13 @@ problems:
   inst: 次の英文を読み、内容に合うものを1つ選びなさい。
   q: "Hi Mom,<br>I arrived in Matsumoto on Friday. My host family, the Itos, live near the station. Mr. Ito, who works at a bank, drives me to school every morning. The Itos have two daughters, who both study in Tokyo, so their rooms are empty during the week. Yesterday we went to the castle, where I took a lot of pictures. In the evening we had dinner at a soba restaurant, which Mrs. Ito's brother runs. I'll write again soon.<br>Love,<br>Lucy"
   choices:
-  - The Itos have three or more daughters.
-  - All of the Itos' daughters study in Tokyo.
+  - The Itos have another daughter who lives with them in Matsumoto.
+  - Neither of the Itos' daughters lives at home during the week.
   - Mr. Ito took Lucy to a bank on Friday.
   - Mrs. Ito runs a soba restaurant.
   ans: "2"
-  why: The Itos have two daughters, who both study in Tokyo はコンマのある非制限用法なので、娘は2人だけで、その2人とも東京で学んでいる。だから「娘は全員東京で学んでいる」が正しい。
-  trap: コンマを読み落として「東京で学ぶ娘が2人いる（ほかにもいるかもしれない）」と考え、①を選ぶ。④は which Mrs. Ito's brother runs の主語を取り違えている。
+  why: The Itos have two daughters, who both study in Tokyo はコンマのある非制限用法なので、娘は2人だけで、その2人とも東京で学んでいる。続く so their rooms are empty during the week から、平日はどちらの娘も家にいないと分かる。
+  trap: コンマを読み落として「東京で学ぶ娘が2人いる（ほかにもいるかもしれない）」と考え、①を選ぶ。コンマがあるので娘は2人だけである。④は which Mrs. Ito's brother runs の主語を取り違えている（店を営むのは伊藤夫人の兄弟）。
 # s14 節末
 - id: q4007
   sec: s14
@@ -243,7 +243,7 @@ problems:
   choices: [that, what, which, who]
   ans: "3"
   why: チームのみんなを驚かせたのは「アヤカが昨日練習に来なかったこと」という前の内容全体。前の内容を受けられるのはコンマの付いた which。
-  trap: 直前の yesterday や Ayaka を先行詞と考え、④who を選ぶ誤り。驚かせたのは人ではなく、来なかったという出来事である。
+  trap: 文の主語の Ayaka を先行詞と考え、④who を選ぶ誤り。驚かせたのは人ではなく、来なかったという出来事である。
 - id: q4008
   sec: s14
   set: 節末
@@ -340,7 +340,7 @@ problems:
   q: Lucy's family __moved__① to Nagano, __which__② they __opened__③ a small café __near__④ the lake.
   ans: "2"
   why: コンマの後ろの they opened a small café は主語も目的語もそろった完全な文。which ではなく、場所を受ける where にする。
-  trap: 先行詞 Nagano が地名なので which も使えると考える誤り。which を使うのは、節の中で主語や目的語が欠けているときだけである。
+  trap: 先行詞 Nagano が地名なので which も使えると考える誤り。which を使うのは、節の中で主語や目的語などが欠けた不完全な文のときだけである。
 - id: q4016
   sec: s14
   set: 章末
@@ -369,7 +369,8 @@ problems:
   lv: 3
   kind: 整序
   min: 2
-  q: ガルシア先生には息子が2人いて、2人とも医者になったが、先生はそのことをとても誇りに思っている。<br>Ms. Garcia has two sons, ( became / both / doctors / her / made / of / proud / very / which / whom ).
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。ただし、必要なコンマを1つ補うこと。
+  q: ガルシア先生には息子が2人いて、2人とも医者になり、先生はそのことをとても誇りに思った。<br>Ms. Garcia has two sons, ( became / both / doctors / her / made / of / proud / very / which / whom ).
   words: [became, both, doctors, her, made, of, proud, very, which, whom]
   ans: Ms. Garcia has two sons, both of whom became doctors, which made her very proud.
   why: 息子2人については both of whom became doctors、それを誇りに思ったことは「2人とも医者になったこと」全体を受ける , which made her very proud で表す。人を受ける whom と、内容を受ける which を使い分ける。
@@ -380,8 +381,8 @@ problems:
   lv: 2
   kind: 読解
   min: 4
-  inst: 次の英文を読み、質問の答えとして最も適切なものを1つ選びなさい。
-  q: "Tom joined the cooking club in April. The club has twelve members, most of whom had never cooked before. Their teacher, who runs a restaurant in town, visits every Friday. Last month the club made curry at a care home near the school, where about 40 older people live. Some of the members cut their fingers while they were cutting vegetables, which made the teacher a little worried. However, everyone enjoyed the curry, and the club plans to cook there again in December.<br>Question: What made the teacher a little worried?"
+  inst: 次の英文を読み、問いの答えとして最も適切なものを1つ選びなさい。
+  q: "Tom joined the cooking club in April. The club has twelve members, most of whom had never cooked before. Their teacher, who runs a restaurant in town, visits every Friday. Last month the club made curry at a care home near the school, where about 40 older people live. Some of the members cut their fingers while they were cutting vegetables, which made the teacher a little worried. However, everyone enjoyed the curry, and the club plans to cook there again in December.<br>問　What made the teacher a little worried?"
   choices:
   - The club cooked for about 40 people.
   - Some members cut their fingers while cooking.
