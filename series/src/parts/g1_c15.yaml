@@ -157,7 +157,7 @@ chapters:
       - 数は1つなので、動詞は単数で受ける。③are は tourists に合わせた形で誤り。is increasing とする。
       - ほかも確かめる。②visiting は tourists を後ろから説明する現在分詞、④every year は時を表す M で、どちらも正しい。
       ans: ③（are → is）
-      point: the number of ～ は「〜の数」で動詞は単数。a number of ～ は「多くの〜」で動詞は複数。
+      point: the number of ～ は「〜の数」で動詞は単数。a number of ～ は「いくつもの〜」で動詞は複数。
     summary:
     - "数えられる名詞には {{many}}・few・a few、数えられない名詞には {{much}}・little・a little を使う。"
     - "a few・a little は「少し{{ある}}」、few・little は「ほとんど{{ない}}」。quite a few は「{{かなり多くの}}」。"
@@ -172,7 +172,7 @@ chapters:
     - ex: [e1513, e1514]
     - p: possible（可能な）・impossible（不可能な）・necessary（必要な）も、「人が〜できる」「人が〜する必要がある」の意味では人を主語にしません。この意味は、形式主語の it（@s061）を使って、It is possible for 人 to do・It is necessary for 人 to do の形で表します（@e1515）。人を主語にしたいときは、can・be able to や need to を使います（I can come.／You need to bring a pen.）。
     - ex: [e1515]
-    - p: 主語に置けるのは物事です。This plan is possible.（この計画は実現できる）や Water is necessary for plants.（水は植物に必要だ）は正しい文です。また、He is impossible.（彼は手に負えない）のように impossible が人を主語にとることもありますが、「〜できない」という意味ではありません。これらを除けば、この3語と convenient は「人が〜できる・人に都合がよい」の意味で人を主語にとりません。
+    - p: 主語に置けるのは物事です。This plan is possible.（この計画は実現できる）や Water is necessary for plants.（水は植物に必要だ）は正しい文です。impossible だけは、He is impossible.（彼は手に負えない）のように人を主語にとることがありますが、「〜できない」という意味ではありません。これらを除けば、この3語と convenient は「人が〜できる・人に都合がよい」の意味で人を主語にとりません。
     - table:
         head: [言いたいこと, 誤り, 正しい形]
         rows:
@@ -260,7 +260,7 @@ chapters:
         - [be 動詞, "be 動詞の{{後ろ}}", He is always busy.]
         - ["助動詞（完了形の have もふくむ）", "助動詞の{{後ろ}}", I will never forget it.・I have often seen him.]
     - ex: [e1518, e1519, e1520]
-    - p: 例外もあります。sometimes・usually・often は、文の頭や終わりに置くこともできます（Sometimes I walk to school.）。また、Never give up. のような命令文では、never・always を文の頭に置きます。この2つを除けば、頻度の副詞は表の位置に置き、always・never を文の頭に置いた文は誤りになります。
+    - p: 例外もあります。sometimes・usually・often は、文の頭や終わりに置くこともできます（Sometimes I walk to school.）。Never give up. のような命令文では、never・always を文の頭に置きます。単元18で学ぶ倒置の文（Never have I seen such a big fish.）でも、never が文の頭に来ます。これらを除けば、頻度の副詞は表の位置に置き、always・never を文の頭に置いた文は誤りになります。
     - h: 形のまぎらわしい副詞
     - p: hard は、形容詞（かたい・難しい）と同じ形のままで「一生懸命に・激しく」という副詞にもなります（@e1521）。-ly を付けた hardly は「ほとんど〜ない」という別の意味の副詞です（@e1522）。hardly は否定の意味をふくむので、not といっしょに使いません。hardly ever は「めったに〜ない」という意味です。late（遅く）と lately（最近）、near（近くに）と nearly（ほとんど・もう少しで）も同じように、-ly が付くと意味が変わります。
     - table:
@@ -522,7 +522,7 @@ problems:
   inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
   q: __A number of__① students __was__② late this morning __because__③ the trains __stopped__④ for an hour.
   ans: "2"
-  why: a number of＋複数名詞は「多くの〜」で、中心は students なので動詞は複数で受ける。was ではなく were とする。①A number of、③because、④stopped は正しい。
+  why: a number of＋複数名詞は「いくつもの〜」で、中心は students なので動詞は複数で受ける。was ではなく were とする。①A number of、③because、④stopped は正しい。
   trap: the number of と混ぜて、単数の was を正しいと思う誤り。「〜の数」の the number of なら単数だが、a number of は複数で受ける。
 - id: q15017
   sec: s152
@@ -674,10 +674,10 @@ problems:
   kind: 正誤
   min: 1
   inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
-  q: The music __next door__① was __so__② loud __that__③ I __couldn't hardly__④ sleep.
+  q: __These days__① I am __very__② busy __with__③ club activities, so I __can't hardly__④ visit my grandmother.
   ans: "4"
-  why: hardly は「ほとんど〜ない」と否定の意味をふくむので、not といっしょに使わない。couldn't hardly ではなく could hardly とする。②③so ～ that は「とても〜なので」で正しい。
-  trap: 「ほとんど眠れなかった」の「なかった」につられて not を付ける誤り。否定は hardly だけで表す。
+  why: hardly は「ほとんど〜ない」と否定の意味をふくむので、not といっしょに使わない。can't hardly ではなく can hardly とする。①These days は時を表す M、②very は busy を強める副詞、③be busy with ～ は「〜で忙しい」で、どれも正しい。
+  trap: 「ほとんど会いに行けない」の「ない」につられて not を付ける誤り。否定は hardly だけで表す。
 - id: q15030
   sec: s154
   set: 節末

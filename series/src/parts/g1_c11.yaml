@@ -1,0 +1,926 @@
+# 単元11「比較」（s111〜s115）。例文 e1101〜、問題 q11001〜。
+chapters:
+- id: c11
+  title: 比較
+  lead: この単元では、2つ以上のものを比べる言い方を学びます。as ～ as・比較級・最上級の形と意味を確かめたうえで、「何と何を比べているのか」をそろえる見方を身につけ、最上級の言いかえ、the＋比較級, the＋比較級、no longer・no more than などの決まった言い方まで、4択・正誤・整序で正しい形を選べるようになります。
+  intro: 中学では、tall－taller－tallest のように形容詞・副詞の形を変えて比べることと、as tall as（同じくらい背が高い）を学びました。長い語は more・most を前に置き、good－better－best のように形が大きく変わる語もあります。比較の文では、形容詞が C になるのか、副詞が M になるのか（@s011）を見分け、than・as の後ろには節が続くもとの形を考えます。この単元を始める前に、上巻の単元1（文型）と単元9（接続詞）を見直しておくと読みやすくなります。
+  sections:
+  - id: s111
+    title: "原級の比較と倍数"
+    aim: as ～ as・not as ～ as・倍数・as ～ as possible の形と意味を区別し、as と as の間に入る形を判断できるようになる。
+    body:
+    - h: as ～ as は「同じくらい」
+    - p: 2つのものが同じ程度であることを言うときは、as＋形容詞・副詞の<<原級>>＋as の形を使います。原級とは、-er や -est を付けていない、辞書に載っている元の形のことです。@e1101 では、「ピーターの背の高さ」と「父親の背の高さ」が同じくらいだと言っています。as と as の間には、tall のような形容詞か、fast のような副詞の原級を置き、taller のような形は置きません。
+      notes:
+      - kind: 用語
+        term: 原級
+        yomi: げんきゅう
+        text: 形容詞・副詞の、-er・-est を付けたり more・most を前に置いたりしていない元の形（tall・fast・useful など）。as ～ as の間に置く。
+    - p: 後ろの as は接続詞と同じ働きをし、もとは後ろに S＋V のある節が続きます。@e1102 では［as it looks］（見た目）が節になっています。前と同じ部分は省くのがふつうで、@e1101 の as his father は as his father is (tall) を短くした形です。
+      notes:
+      - kind: 注意
+        text: "比べる相手が代名詞のとき、文法どおりの形は as I am（または as I）。話し言葉では as me もよく使う。as I do・as I can のように、前の動詞に合わせた形を残すこともある。"
+    - h: not as ～ as は「〜ほど…ない」
+    - p: as ～ as を否定すると、「同じくらいではない」ではなく、「B ほど〜ない」と、A のほうが程度が低いという意味になります（@e1102）。This bag is not as heavy as it looks. は「見た目ほど重くない」、つまり見た目より軽いということです。否定文では、前の as の代わりに so を使って not so ～ as とすることもあります。
+    - ex: [e1101, e1102]
+    - h: 倍数は X times as ～ as
+    - p: 「B の3倍〜」と言うときは、as ～ as の前に three times を置きます（@e1103）。2倍は twice、半分は half を使います。名詞の量や数を比べるときは、名詞を as と as の間に入れて、as much＋数えられない名詞＋as、as many＋数えられる名詞の複数形＋as の形にします（@e1104）。
+      notes:
+      - kind: 注意
+        text: "2倍は twice as ～ as がふつう。two times as ～ as も使われるが、twice times とはしない。倍数の語は as の前に置き、as three times large as のように as の間には入れない。"
+    - table:
+        head: [言い方, 形, 意味]
+        rows:
+        - [同じくらい, as＋原級＋as B, "B と{{同じくらい}}〜"]
+        - [〜ほどではない, not as（so）＋原級＋as B, "B {{ほど}}〜ない"]
+        - [倍数, X times as＋原級＋as B, B の X 倍〜]
+        - [2倍・半分, "{{twice}}／half as＋原級＋as B", B の2倍・半分〜]
+        - [できるだけ, as＋原級＋as possible, "{{できるだけ}}〜"]
+    - ex: [e1103, e1104]
+    - h: as ～ as possible と as ～ as S can
+    - p: 「できるだけ〜」は as＋原級＋as possible で表します（@e1105）。possible の代わりに S can を使うこともでき、そのときは主語と時制を文に合わせます。@e1106 は過去の話なので、can ではなく could になります。
+    - ex: [e1105, e1106]
+    - check:
+      - q: "This box is (＿) heavy as that box.（同じくらい重い）"
+        a: as
+      - q: "My uncle is (＿) as old as my cousin.（2倍の年齢）"
+        a: twice
+      - q: "Please come back as early as (＿).（できるだけ早く）"
+        a: possible（you can も可）
+    examples:
+    - id: e1101
+      en: "Peter is *as* tall *as* his father."
+      ja: ピーターは父親と同じくらいの背の高さだ。
+    - id: e1102
+      en: "This bag is *not as* heavy [*as* it looks]."
+      ja: このかばんは見た目ほど重くない。
+    - id: e1103
+      en: "Our new gym is *three times as* large *as* the old gym."
+      ja: 新しい体育館は、古い体育館の3倍の広さだ。
+    - id: e1104
+      en: "My brother eats *twice as* much rice [*as* I do]."
+      ja: 兄は私の2倍の量のご飯を食べる。
+    - id: e1105
+      en: "Please send me the photos *as* soon *as possible*."
+      ja: できるだけ早く写真を送ってください。
+    - id: e1106
+      en: "Kazu ran *as* fast [*as* he could] to catch the 7:40 bus."
+      ja: カズは7時40分のバスに間に合うように、できるだけ速く走った。
+    worked:
+    - q: 日本語の意味になるように（　）内の語を並べかえなさい。<br>この湖は、あの池の5倍の広さがある。<br>This lake is ( as / as / five / large / times ) that pond.
+      steps:
+      - 「〜の5倍の広さ」は倍数なので、X times as＋原級＋as の形を使う。
+      - 倍数の five times を先に置き、その後ろに as large as を続ける。as と as の間には原級の large を置く。
+      - 比べている2つは This lake と that pond で、どちらも広さを比べる場所としてそろっている。This lake is five times as large as that pond. となる。
+      ans: This lake is five times as large as that pond.
+      point: 倍数は as ～ as の前に置く。as five times large as のように as の間に入れない。
+    - q: "（　）に入る最も適切なものを1つ選びなさい。<br>Yuna has read as (＿) books as her sister this year."
+      choices: [much, many, more, most]
+      steps:
+      - 空所は as と as の間。as ～ as の間には原級を置くので、more と most は入らない。
+      - 空所の後ろに名詞 books がある。名詞の数や量を比べるときは、as many／much＋名詞＋as の形にする。
+      - books は数えられる名詞の複数形なので many を選ぶ。much は money・water のような数えられない名詞に使う。
+      ans: "2"
+      point: as ～ as の間には原級。名詞が入るときは、数えられる名詞の複数形なら many、数えられない名詞なら much を名詞の前に置く。
+    summary:
+    - 「B と同じくらい〜」は as＋{{原級}}＋as B。
+    - not as（so）～ as B は「B {{ほど}}〜ない」。
+    - 倍数は X times を as ～ as の{{前}}に置く。2倍は {{twice}}、半分は half。
+    - 「できるだけ〜」は as ～ as {{possible}}、または as ～ as S {{can}}（過去なら could）。
+  - id: s112
+    title: "比較級・最上級と、比べる2つをそろえる"
+    aim: 比較級・最上級を正しく作って強め方を選び、比べる2つが同じ種類にそろっているかを確かめて that of／those of を使えるようになる。
+    body:
+    - h: 比較級と最上級の作り方
+    - p: 2つを比べて「B より〜」と言うときは<<比較級>>＋than を、3つ以上の中で「いちばん〜」と言うときは the＋<<最上級>>を使います。短い語は -er・-est を付け（@e1107）、長い語は more・most を前に置きます（@e1108）。
+      notes:
+      - kind: 用語
+        term: 比較級
+        yomi: ひかくきゅう
+        text: 形容詞・副詞に -er を付けるか、more を前に置いた形（taller・more useful など）。2つを比べて「より〜」を表し、than と組み合わせる。
+      - kind: 用語
+        term: 最上級
+        yomi: さいじょうきゅう
+        text: 形容詞・副詞に -est を付けるか、most を前に置いた形（tallest・most useful など）。3つ以上の中で「いちばん〜」を表し、ふつう the を付ける。
+    - table:
+        head: [語の形, 作り方, 例]
+        rows:
+        - [1音節の語, -er／-est, tall－taller－tallest]
+        - [-e で終わる語, -r／-st, large－larger－largest]
+        - [短い母音＋子音字1つで終わる語, 子音字を重ねて -er／-est, "big－{{bigger}}－biggest"]
+        - [子音字＋y で終わる語, y を i にかえて -er／-est, "easy－{{easier}}－easiest"]
+        - [2音節の多くの語・3音節以上の語・-ly の副詞, more／most, "useful－{{more useful}}－most useful"]
+        - [形が変わる語, 不規則, "good／well－{{better}}－best　bad－{{worse}}－worst　many／much－more－most　little－less－least"]
+    - p: この表には例外もあります。2音節でも、happy・early のように子音字＋y で終わる語は happier・earlier とします（early は -ly で終わる副詞でもありますが、more early とはしません）。1音節でも、tired・bored のように過去分詞からできた形容詞は more tired のように more を使います。quiet・simple のように、どちらの形も使う2音節の語もあります。
+    - ex: [e1107, e1108]
+    - h: than の後ろと、最上級の in・of
+    - p: than も as と同じく、後ろに節が来る形がもとです。@e1107 の than her mother は than her mother does（gets up）を短くした形です。最上級では、「どの中でいちばんか」を in か of で示します。in の後ろには場所や集団を表す語（in my class・in Japan）、of の後ろには比べる仲間を表す複数の語句（of the four children・of all）を置きます（@e1109）。
+      notes:
+      - kind: 注意
+        text: "the hottest day of the year のように、ある期間の中でいちばんと言うときは、単数の名詞でも of を使う。副詞の最上級（Kenta runs fastest.）や、同じものの中で比べるとき（The lake is deepest here.）は、the を付けないこともある。"
+    - ex: [e1109]
+    - h: 比較級・最上級を強める語
+    - p: 比較級を「ずっと〜」と強めるときは、much・far・even・a lot を前に置きます（@e1110）。very は原級を強める語なので、very lighter とは言いません。ただし、very much lighter のように much をさらに強める very は使えます。最上級を強めるときは、by far the best のように by far を the の前に置くか、the very best のように very を the の後ろに置きます。
+      notes:
+      - kind: 注意
+        text: "数えられる名詞の複数形が続く more は、many more books のように many で強める。much more books とはしない。"
+    - ex: [e1110]
+    - h: 比べる2つをそろえる
+    - p: 比較の文では、比べる2つが同じ種類のものでなければなりません。@e1111 で比べているのは「この町の人口」と「私の故郷の人口」です。than my hometown とすると、人口と町を比べることになってしまいます。そこで、くり返しになる the population を that で受けて than that of my hometown とします。比べるものが複数なら those を使います（@e1112）。
+    - p: 前置詞もそろえます。@e1113 は「京都では」と「札幌では」を比べているので、than の後ろにも in を残して than in Sapporo とします。比較の問題は、次の手順で考えます。
+    - label: 比較の手順
+      steps:
+      - 比べている2つは何かを確かめる。同じ種類のもの（人口と人口、耳と耳）にそろっているか。
+      - as ～ as・than・the＋in／of のどれがあるかを見て、原級・比較級・最上級のどれを使うかを決める。
+      - 強める語（much か very か）や名詞の数（that か those か）など、ほかの手がかりを確かめる。
+    - ex: [e1111, e1112, e1113]
+    - check:
+      - q: "This question is (＿) more difficult than the first question.（very／much）"
+        a: much
+      - q: "The climate of Nagano is cooler than (＿) of Tokyo."
+        a: that
+      - q: "This is the tallest building (＿) our city.（in／of）"
+        a: in
+    examples:
+    - id: e1107
+      en: "Yuna gets up *earlier than* her mother on weekdays."
+      ja: ユナは平日、母親より早く起きる。
+    - id: e1108
+      en: "This dictionary is *more useful than* my old dictionary."
+      ja: この辞書は、私の古い辞書より役に立つ。
+    - id: e1109
+      en: "Amy is *the youngest of* the four children in her family."
+      ja: エイミーは、家の4人の子どもの中でいちばん年下だ。
+    - id: e1110
+      en: "The new tablet is *much lighter than* my old tablet."
+      ja: 新しいタブレットは、私の古いタブレットよりずっと軽い。
+    - id: e1111
+      en: "The population of this town is larger than *that* of my hometown."
+      ja: この町の人口は、私の故郷の人口より多い。
+      gloss:
+      - [population, 人口]
+    - id: e1112
+      en: "The ears of a rabbit are longer than *those* of a cat."
+      ja: ウサギの耳はネコの耳より長い。
+    - id: e1113
+      en: "In summer it is hotter *in* Kyoto than *in* Sapporo."
+      ja: 夏は、札幌より京都のほうが暑い。
+    worked:
+    - q: "（　）に入る最も適切なものを1つ選びなさい。<br>This new bike is (＿) lighter than my old bike."
+      choices: [very, much, more, so]
+      steps:
+      - 比較の手順①：比べている2つは This new bike と my old bike で、自転車どうしでそろっている。
+      - 手順②：空所の後ろに lighter と than があるので比較級の文。空所には比較級を強める語が入る。
+      - 手順③：very と so は原級を強める語で、比較級の前には置かない。more は、lighter がすでに比較級なので重ねられない。much を選ぶ。
+      ans: "2"
+      point: 比較級を強めるのは much・far・even・a lot。very lighter・more lighter はどちらも誤り。
+    - q: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。<br>The price __of__① this jacket is __much__② __higher__③ than __the jacket__④ at the station shop.
+      steps:
+      - 比較の手順①：比べている2つを確かめる。前は The price of this jacket（値段）、than の後ろは the jacket（ジャケット）で、値段と物を比べていてそろっていない。
+      - くり返しになる the price を that で受けて、than that of the jacket とする。④が誤り。
+      - ①price of、②比較級を強める much は正しい。③は、price（値段）の高い・安いは high・low で表すので higher で正しい。
+      ans: "4"
+      point: than の前後で比べるものをそろえる。単数や数えられない名詞のくり返しは that of、複数なら those of で受ける。
+    summary:
+    - 短い語は -er／-est、長い語は {{more}}／{{most}} で比較級・最上級をつくる。
+    - 最上級の範囲は、場所・集団なら {{in}}、複数の仲間なら {{of}} で示す。
+    - 比較級を強めるのは {{much}}・far・even。{{very}} は使わない。
+    - 比べる2つをそろえるため、くり返しの名詞を単数なら {{that}}、複数なら {{those}} で受ける。
+  - id: s113
+    title: "最上級の意味を原級・比較級で表す"
+    aim: 最上級の内容を No other ～・any other ～・Nothing ～ の形で言いかえ、other の後ろの名詞の数と、other が要るかどうかを判断できるようになる。
+    body:
+    - h: 「いちばん」を4つの形で言う
+    - p: 「琵琶湖は日本でいちばん大きな湖だ」は、最上級だけでなく原級や比較級でも表せます。@e1114 の最上級の文を、「日本のほかのどの湖も琵琶湖ほど大きくない」（@e1115）、「日本のほかのどの湖も琵琶湖より大きくない」（@e1116）、「琵琶湖は日本のほかのどの湖よりも大きい」（@e1117）と言いかえても、伝える事実は同じです。
+    - ex: [e1114, e1115, e1116, e1117]
+    - table:
+        head: [形, 意味]
+        rows:
+        - [A is the＋最上級＋in／of ～, A は〜の中でいちばん…]
+        - ["{{No other}}＋単数名詞＋is as＋原級＋as A", ほかのどの〜も A ほど…ない]
+        - [No other＋単数名詞＋is＋比較級＋than A, ほかのどの〜も A より…ない]
+        - ["A is＋比較級＋than {{any other}}＋単数名詞", A はほかのどの〜よりも…]
+    - h: other の後ろは単数名詞
+    - p: No other と any other の後ろには、lake のように数えられる名詞の単数形を置きます。any other lake は「ほかのどの1つの湖と比べても」という意味だからです。No other で始まる文では、主語が単数なので動詞も is になります。ただし、all the other lakes（ほかのすべての湖）のように all the other を使うときは複数形にします。
+      notes:
+      - kind: 注意
+        text: "No other lakes are … のように複数形で言うこともあるが、最上級の言いかえでは「No other＋単数名詞＋is」の形を使う。"
+    - p: other を付けるのは、主語がその仲間に入っているからです。琵琶湖は「日本の湖」の1つなので、any lake in Japan とすると、琵琶湖が琵琶湖自身とも比べられることになってしまいます。主語が仲間に入っていないときは other を付けません。富士山は韓国の山ではないので、「富士山は韓国のどの山よりも高い」は Mt. Fuji is higher than any mountain in Korea. となります。
+    - h: Nothing・anyone else を使う形
+    - p: 人や物を特定せずに「〜ほど…なものはない」と言うときは、Nothing・No one を主語にして、as ～ as か比較級＋than を続けます（@e1118）。比較級＋than anyone else・anything else は「ほかのだれ（何）よりも」という意味で、else の後ろには名詞を置きません（@e1119）。
+    - ex: [e1118, e1119]
+    - check:
+      - q: "My father is the oldest member of the team. ＝ No other (＿) of the team is as old as my father."
+        a: member
+      - q: "Nothing makes my little sister (＿) than ice cream.（happy）"
+        a: happier
+    examples:
+    - id: e1114
+      en: "Lake Biwa is *the largest* lake in Japan."
+      ja: 琵琶湖は日本でいちばん大きな湖だ。
+    - id: e1115
+      en: "*No other* lake in Japan is *as* large *as* Lake Biwa."
+      ja: 日本のほかのどの湖も、琵琶湖ほど大きくない。
+    - id: e1116
+      en: "*No other* lake in Japan is *larger than* Lake Biwa."
+      ja: 日本のほかのどの湖も、琵琶湖より大きくない。
+    - id: e1117
+      en: "Lake Biwa is *larger than any other* lake in Japan."
+      ja: 琵琶湖は、日本のほかのどの湖よりも大きい。
+    - id: e1118
+      en: "*Nothing* is *more* important to my grandfather *than* his garden."
+      ja: 祖父にとって、庭ほど大切なものはない。
+    - id: e1119
+      en: "Kazu sings *better than anyone else* in our club."
+      ja: カズは部の中で、ほかのだれよりも歌がうまい。
+    worked:
+    - q: 2つの文がほぼ同じ意味になるように、（　）に適切な語を1語ずつ入れなさい。<br>This is the oldest temple in our city.<br>＝ (＿) (＿) temple in our city is as old as this temple.
+      steps:
+      - 上の文は最上級で「この寺は市でいちばん古い」。下の文は as old as this temple と原級の形なので、「ほかのどの寺もこの寺ほど古くない」と言いかえる。
+      - 「ほかのどの〜も…ない」は No other＋単数名詞。空所の後ろの temple は単数形なので、No other temple となる。
+      - 文の頭なので No は大文字で書き始める。動詞が is であることも、単数名詞の主語と合っている。
+      ans: No other
+      point: 最上級は「No other＋単数名詞＋is as 原級 as」で言いかえられる。No と other を組で覚える。
+    - q: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。<br>Mr. Shimizu __has taught__① __at__② this school __longer__③ than __any other teachers__④.
+      steps:
+      - 比較の手順①：清水先生と比べているのは、この学校のほかの先生。清水先生も先生の仲間に入っているので other が要る。
+      - 手順②：longer than があるので比較級の文。比較級＋than any other で「ほかのどの先生よりも長く」を表している。
+      - 手順③：any other の後ろは単数名詞なので、④を any other teacher にする。①has taught（今までずっと教えている）、②teach at、③比較級 longer は正しい。
+      ans: "4"
+      point: 比較級＋than any other の後ろは単数名詞。「ほかの先生たち」と考えて複数形にしやすい。
+    summary:
+    - 最上級は「{{No other}}＋単数名詞＋as 原級 as」「No other＋単数名詞＋比較級 than」で言いかえられる。
+    - 「比較級＋than {{any other}}＋{{単数}}名詞」で「ほかのどの〜よりも」。
+    - 主語がその仲間に入っていないときは、any の後ろに {{other}} を付けない。
+    - 「〜ほど…なものはない」は {{Nothing}} is 比較級 than ～。
+  - id: s114
+    title: "the＋比較級, the＋比較級 など"
+    aim: the＋比較級, the＋比較級 の語順、比較級 and 比較級、the＋比較級 of the two を、意味と形の両方から使い分けられるようになる。
+    body:
+    - h: 「〜すればするほど…」
+    - p: 「〜すればするほど、ますます…」は、The＋比較級＋S V, the＋比較級＋S V. の形で表します（@e1120）。もとの文は We climbed high. と It became cold. で、それぞれの比較級を the と一緒に節の頭に出しています。前半が「〜すれば」と条件を表し、後半が主節にあたります。
+      notes:
+      - kind: 注意
+        text: "前半は条件の副詞節（@s023）に近いので、未来のことでもふつう現在形で表す。The sooner you leave, the earlier you will arrive. のように、will は後半に置く。"
+    - p: 比較級の後ろに名詞があるときは、名詞も一緒に前に出します（@e1121）。もとの文は You read many books. なので、The more books you read となり、The more you read books とは言いません。the＋比較級の後ろには、比較級と結びついた名詞まで置いてから S V を続けます。
+    - ex: [e1120, e1121]
+    - h: 比較級 and 比較級
+    - p: 「ますます〜、だんだん〜」と変化が続くことは、比較級 and 比較級で表します（@e1122）。get・become などの「〜になる」の動詞や、進行形と一緒によく使います。more を使う長い語は、more and more popular のように、more and more の後ろに原級を1つだけ置きます（@e1123）。more popular and more popular とはしません。
+    - ex: [e1122, e1123]
+    - h: the＋比較級 of the two
+    - p: 比較級にはふつう the を付けませんが、「2つ（2人）のうちで、より〜なほう」とどちらかを指すときは、the＋比較級 of the two とします（@e1124）。2つの中で1つに決まるので the が付きます。3つ以上の中から選ぶなら最上級を使います。
+      notes:
+      - kind: 注意
+        text: "話し言葉では the tallest of the two と最上級を使うこともあるが、入試では the＋比較級 を選ぶ。"
+    - table:
+        head: [形, 意味]
+        rows:
+        - ["The＋比較級＋S V, the＋比較級＋S V", "〜すればする{{ほど}}…"]
+        - [比較級 and 比較級, "{{ますます}}〜、だんだん〜"]
+        - [more and more＋原級, ますます〜（長い語）]
+        - [the＋比較級＋of the two, "2つのうちの{{〜なほう}}"]
+    - ex: [e1124]
+    - check:
+      - q: "The (＿) you start, the earlier you'll finish.（soon）"
+        a: sooner
+      - q: "It is getting (＿) and (＿).（dark）"
+        a: darker／darker
+      - q: "Of the two bags, this bag is the (＿).（cheap）"
+        a: cheaper
+    examples:
+    - id: e1120
+      en: "*The higher* we climbed, *the colder* it became."
+      ja: 高く登れば登るほど、寒くなった。
+    - id: e1121
+      en: "*The more* books you read, *the more* words you will learn."
+      ja: 本を多く読めば読むほど、覚える単語も多くなる。
+    - id: e1122
+      en: "It is getting *warmer and warmer* day by day."
+      ja: 日ごとにだんだん暖かくなっている。
+    - id: e1123
+      en: "Cycling is becoming *more and more* popular among older people in this town."
+      ja: この町では、自転車に乗ることが年配の人の間でますます人気になっている。
+    - id: e1124
+      en: "Of the two sisters, Yuna is *the taller*."
+      ja: 2人の姉妹のうち、ユナのほうが背が高い。
+    worked:
+    - q: 日本語の意味になるように（　）内の語を並べかえなさい。文頭に来る語も小文字で示してある。<br>早く家を出れば出るほど、早く学校に着く。<br>( leave / sooner / the / you / home ), the earlier you will get to school.
+      steps:
+      - 「〜すればするほど…」なので、The＋比較級＋S V, the＋比較級＋S V の形を使う。後半は the earlier you will get to school とすでにできている。
+      - 前半のもとの文は You leave home soon.。比較級 sooner を the と一緒に節の頭に出す。
+      - 残りの you leave home を S V O の順で続け、The sooner you leave home とする。前半は条件を表すので、will を置かない形で合っている。
+      ans: The sooner you leave home, the earlier you will get to school.
+      point: the＋比較級を節の頭に出したら、残りはふつうの S V の語順で続ける。
+    - q: "（　）に入る最も適切なものを1つ選びなさい。<br>I looked at two bags in the shop and bought (＿) of the two."
+      choices: [cheaper, the cheaper, the cheapest, cheapest]
+      steps:
+      - 比較の手順①：比べているのは、店で見た2つのかばん。
+      - 手順②：of the two（2つのうちで）があり、比べるのは2つだけなので最上級は使わない。the cheapest と cheapest は外れる。
+      - 手順③：空所は bought の O で、「2つのうちの安いほう」と1つに決まるので the を付ける。the cheaper を選ぶ。
+      ans: "2"
+      point: 2つのうちの「〜なほう」は the＋比較級 of the two。比較級に the を付ける数少ない形。
+    summary:
+    - 「〜すればするほど…」は {{The}}＋比較級＋S V, the＋比較級＋S V。
+    - 比較級と結びついた名詞は一緒に前に出す（The more {{books}} you read）。
+    - 「ますます〜」は比較級 {{and}} 比較級。長い語は {{more and more}}＋原級。
+    - 2つのうちの「〜なほう」は {{the}}＋比較級 of the two。
+  - id: s115
+    title: "比較の決まった言い方"
+    aim: than の代わりに to を使う比較、no longer、not so much A as B、no more than・no less than、A is no more B than C is D の意味と形が分かるようになる。
+    body:
+    - h: than ではなく to を使う比較
+    - p: superior（すぐれた）・inferior（劣った）・senior（年上の、立場が上の）・junior（年下の）は、それ自体が「より〜」という比較の意味をもつ語で、比べる相手を than ではなく to で示します（@e1125）。prefer A to B（B より A を好む）も to を使います（@e1126）。prefer の A と B には、名詞か動名詞を置きます。
+      notes:
+      - kind: 注意
+        text: "superior・inferior はすでに比較の意味をふくむので、more superior とはしない。「はるかにすぐれている」は far superior to のように far・much で強める。"
+    - ex: [e1125, e1126]
+    - h: no longer と not so much A as B
+    - p: no longer は「もはや〜ない」という意味で、以前はそうだったが今は違うことを表します（@e1127）。一般動詞の前、be 動詞や助動詞の後ろに置きます。not ～ any longer でも同じ意味を表せます。not so much A as B は「A というよりむしろ B」で、A よりも B のほうが当たっていることを言います（@e1128）。B rather than A と言いかえられます。
+    - ex: [e1127, e1128]
+    - h: no more than と no less than
+    - p: no は「差がゼロ」であることを表します。no more than 800 yen は「800円より多いことは少しもない」、つまり「たった800円」で、少ないという気持ちを表し、only と同じ意味になります（@e1129）。no less than two hours は「2時間より少ないことは少しもない」、つまり「2時間も」で、多いという気持ちを表し、as many as・as much as と同じ意味になります（@e1130）。
+    - table:
+        head: [言い方, 意味, 言いかえ]
+        rows:
+        - [no more than ～, "{{たった}}〜（少ないという気持ち）", only]
+        - [no less than ～, "〜{{も}}（多いという気持ち）", as many／much as]
+        - [not more than ～, 多くても〜, at most]
+        - [not less than ～, 少なくとも〜, at least]
+      notes:
+      - kind: 注意
+        text: "not more than・not less than は、話し手の気持ちをふくまず、上限・下限を言うだけ。no と not の違いで意味が変わる。"
+    - ex: [e1129, e1130]
+    - h: A is no more B than C is D（クジラの文）
+    - p: A is no more B than C is D は、「A が B でないのは、C が D でないのと同じだ」という意味です（@e1131）。than の後ろには、だれが見てもありえないこと（ネズミが鳥だ）を置き、「それと同じくらい、A が B だというのもありえない」と強く打ち消します。D が B と同じときは省略するので、@e1131 の than a mouse is は than a mouse is a bird を短くした形です。クジラを例にして説明されることが多いので、クジラの文とも呼ばれます。
+    - p: 訳すときは、「C が D でないのと同様に、A は B ではない」と、than の後ろから訳すと意味をとりやすくなります。A is not B any more than C is D も同じ意味です。no more を「もう〜ない」と読まないように、後ろの than を見つけてから意味を決めます。
+    - ex: [e1131]
+    - check:
+      - q: "My grandmother (＿) (＿) drives a car.（もう運転しない）"
+        a: no longer
+      - q: "I prefer summer (＿) winter."
+        a: to
+      - q: "There were no (＿) than ten people at the meeting.（たった10人）"
+        a: more
+    examples:
+    - id: e1125
+      en: "This new printer is *superior to* the old printer in speed."
+      ja: この新しいプリンターは、速さの点で古いプリンターよりすぐれている。
+      gloss:
+      - [superior, すぐれた]
+    - id: e1126
+      en: "Peter *prefers* walking *to* taking the bus."
+      ja: ピーターはバスに乗るより歩くほうが好きだ。
+    - id: e1127
+      en: "Mr. Shimizu *no longer* works at this school."
+      ja: 清水先生は、もうこの学校では働いていない。
+    - id: e1128
+      en: "Ms. Lewis is *not so much* a teacher *as* a friend to us."
+      ja: ルイス先生は、私たちにとって先生というよりむしろ友達だ。
+    - id: e1129
+      en: "The concert ticket cost *no more than* 800 yen."
+      ja: そのコンサートのチケットはたった800円だった。
+    - id: e1130
+      en: "We waited in line for *no less than* two hours."
+      ja: 私たちは2時間も列に並んで待った。
+    - id: e1131
+      en: "A bat is *no more* a bird *than* a mouse is."
+      ja: コウモリが鳥でないのは、ネズミが鳥でないのと同じだ。
+      gloss:
+      - [bat, コウモリ]
+    worked:
+    - q: "（　）に入る最も適切なものを1つ選びなさい。<br>This new camera is superior (＿) the camera I bought three years ago."
+      choices: [than, to, for, as]
+      steps:
+      - 比較の手順①：比べているのは This new camera と the camera I bought three years ago で、カメラどうしでそろっている。
+      - 手順②：superior は「よりすぐれた」という比較の意味をもつ語だが、-er の付いた比較級ではない。
+      - superior は比べる相手を than ではなく to で示す。to を選ぶ。
+      ans: "2"
+      point: superior・inferior・senior・junior と prefer A to B は、than ではなく to。「すぐれた」の意味から than を選びやすい。
+    - q: "（　）に入る最も適切なものを1つ選びなさい。<br>My uncle is not so much a cook (＿) an artist."
+      choices: [than, but, as, to]
+      steps:
+      - 空所の前に not so much a cook がある。not so much A as B（A というよりむしろ B）の形が考えられる。
+      - not so much と組むのは as。than は比較級と、but は not A but B の形で使い、so much と一緒には使わない。
+      - 「おじは料理人というよりむしろ芸術家だ」となり、意味も通る。as を選ぶ。
+      ans: "3"
+      point: not so much A as B は「A というよりむしろ B」で、B のほうに重点がある。not A but B と混ぜて but を選びやすい。
+    summary:
+    - superior・inferior・prefer A to B は、than ではなく {{to}} で比べる相手を示す。
+    - no longer は「{{もはや}}〜ない」、not so much A as B は「A というよりむしろ {{B}}」。
+    - no more than は「たった」（＝{{only}}）、no less than は「〜も」（＝as many／much as）。
+    - A is no more B than C is D は「A が B でないのは、C が D {{でない}}のと同じ」。
+problems:
+# ---- 前提チェック ----
+- id: q11001
+  sec: s111
+  set: 前提
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: This box is (＿) than that box.
+  choices: [heavy, heavier, heaviest, more heavy]
+  ans: "2"
+  why: than があるので比較級を選ぶ。heavy は子音字＋y で終わるので、y を i にかえて heavier とする。
+  trap: ④more heavy を選ぶ誤り。heavy のような短い語は -er を付けて比較級にする。
+- id: q11002
+  sec: s111
+  set: 前提
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: （　）内の語を適切な形にして1語で入れなさい。
+  q: This is the (＿) park in our city. (big)
+  ans: biggest
+  why: the と in our city（市の中で）があるので最上級。big は短い母音＋子音字1つで終わるので、g を重ねて biggest とする。
+  trap: bigest と書く誤り。hot－hottest と同じく、子音字を重ねてから -est を付ける。
+- id: q11003
+  sec: s111
+  set: 前提
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Amy can swim as (＿) as her sister.
+  choices: [fast, faster, fastest, more fast]
+  ans: "1"
+  why: as ～ as（同じくらい）の間には原級を置く。fast を選ぶ。
+  trap: ②faster を選ぶ誤り。比べる文なので比較級にしたくなるが、as と as の間は -er を付けない元の形。
+# ---- s111 節末 ----
+- id: q11004
+  sec: s111
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: This test was not (＿) difficult as the last test, so I finished it early.
+  choices: [as, more, very, than]
+  ans: "1"
+  why: 後ろに difficult as the last test があるので、not as ～ as（〜ほど…ない）の形。「前のテストほど難しくなかったので早く終わった」と意味も通る。
+  trap: ④than を選ぶ誤り。than は比較級（more difficult）と組むので、原級 difficult の前には置けない。
+- id: q11005
+  sec: s111
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 日本語の意味になるように、（　）に適切な1語を入れなさい。
+  q: この橋はあの橋の2倍の長さだ。<br>This bridge is (＿) as long as that bridge.
+  ans: twice
+  why: 「2倍」は twice を as ～ as の前に置く。空所は1つなので、2語の two times は入らない。
+  trap: double を入れる誤り。倍数を as ～ as の前に置く形では、2倍は twice を使う。
+- id: q11006
+  sec: s111
+  set: 節末
+  lv: 1
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: ユナはできるだけていねいに自分の名前を書いた。<br>Yuna wrote her name ( as / as / carefully / could / she ).
+  words: [as, as, carefully, could, she]
+  ans: Yuna wrote her name as carefully as she could.
+  why: 「できるだけ〜」は as＋原級＋as S can。過去の文なので can が could になり、as carefully as she could となる。
+  trap: as carefully she could as のように、as の位置を崩す誤り。as と as の間に原級を置き、後ろの as の後ろに she could を続ける。
+- id: q11007
+  sec: s111
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: I don't have as (＿) free time as my sister does.
+  choices: [many, much, more, most]
+  ans: "2"
+  why: as と as の間には原級を置くので、more・most は入らない。time（時間）は数えられない名詞なので、as much time as の形にする。
+  trap: ①many を選ぶ誤り。名詞を as ～ as の間に入れることには気づいても、time が数えられない名詞であることを見落とす。
+- id: q11008
+  sec: s111
+  set: 節末
+  lv: 2
+  kind: 和訳
+  min: 3
+  inst: 次の英文を日本語に訳しなさい。
+  q: This year's summer was not as hot as last year's.
+  ans: 今年の夏は、去年の夏ほど暑くなかった。
+  alt:
+  - 今年の夏は去年ほど暑くなかった。
+  why: not as ～ as は「〜ほど…ない」。last year's は last year's summer の summer を省いた形で、夏と夏を比べている。「〜ほど暑くなかった」と訳せていれば可。
+  trap: 「今年の夏は去年の夏と同じくらい暑くはなかった」と訳す誤り。日本語として意味があいまいになる。not as ～ as は「同じではない」ではなく「〜ほど…ない」で、今年のほうが暑くなかったことを言う。
+- id: q11009
+  sec: s111
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: Our new classroom __is__① about __three times__② as __larger__③ as __the old room__④.
+  ans: "3"
+  why: as ～ as の間には原級を置くので、③larger を large にする。②three times は as の前に置いた倍数で正しく、④も教室と教室を比べていてそろっている。
+  trap: ②three times を選び、three times larger than にすべきだと考える誤り。three times は as ～ as の前に置ける。誤りは as の間の比較級。
+# ---- s112 節末 ----
+- id: q11010
+  sec: s112
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: This is the (＿) pizza I have ever eaten.
+  choices: [good, better, best, well]
+  ans: "3"
+  why: the と I have ever eaten（今までに食べた中で）があるので最上級。good の最上級は best。
+  trap: ②better を選ぶ誤り。better は比較級なので than と組む。前に the があり、than がないので最上級。
+- id: q11011
+  sec: s112
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: （　）内の語を適切な形にして1語で入れなさい。
+  q: My cold is (＿) today than it was yesterday. (bad)
+  ans: worse
+  why: than があるので比較級。bad は形が変わる語で、bad－worse－worst となる。
+  trap: badder や more bad と書く誤り。bad の比較級は worse で、-er も more も使わない。
+- id: q11012
+  sec: s112
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Peter is the tallest (＿) the three brothers.
+  choices: [in, of, at, than]
+  ans: "2"
+  why: 最上級の範囲を示す語。the three brothers は比べる仲間を表す複数の語句なので of を使う。
+  trap: ①in を選ぶ誤り。in は in his family のように場所や集団を表す語に使う。複数の仲間を数えるときは of。
+- id: q11013
+  sec: s112
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: This year's English test was __very__① easier than __last year's__②, so __most of__③ the students __got__④ good scores.
+  ans: "1"
+  why: very は比較級を強められない。①を much（または far・even・a lot）にする。②last year's は last year's test のことで、テストとテストを比べていてそろっている。
+  trap: ②last year's を選び、that of last year にすべきだと考える誤り。所有格の last year's だけで「去年のテスト」を表せるので、比べる2つはそろっている。
+- id: q11014
+  sec: s112
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: The streets in this city are cleaner than (＿) in my hometown.
+  choices: [it, that, those, them]
+  ans: "3"
+  why: 比べているのは「この市の通り」と「故郷の通り」。くり返しになる the streets は複数なので those で受ける。
+  trap: ②that を選ぶ誤り。that of・that in の形を覚えていても、受ける名詞が複数の streets であることを見落とす。
+- id: q11015
+  sec: s112
+  set: 節末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 東京の夏は、私の町の夏よりずっと暑い。<br>The summer in Tokyo is ( hotter / in / much / than / that ) my town.
+  words: [hotter, in, much, than, that]
+  ans: The summer in Tokyo is much hotter than that in my town.
+  why: 比較級 hotter を much で強めて much hotter than とする。比べるのは夏と夏なので、the summer を that で受け、前の in Tokyo に合わせて that in my town とする。
+  trap: much hotter than in that my town のように、that を落としたり位置を崩したりする誤り。that は比べる名詞（夏）の代わりで、than のすぐ後ろに置く。
+# ---- s113 節末 ----
+- id: q11016
+  sec: s113
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 2つの文がほぼ同じ意味になるように、（　）に適切な語を1語ずつ入れなさい。
+  q: The Shinano River is the longest river in Japan.<br>＝ The Shinano River is longer than (＿) (＿) river in Japan.
+  ans: any other
+  why: 「比較級＋than any other＋単数名詞」で「ほかのどの〜よりも」となり、最上級と同じ内容を表す。信濃川も日本の川の1つなので other が要る。
+  trap: all other と入れる誤り。all を使うなら all the other rivers と複数形にする必要があり、空所の後ろの river（単数）と合わない。
+- id: q11017
+  sec: s113
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: No other student in my class gets up (＿) than Kazu.
+  choices: [early, earlier, earliest, as early]
+  ans: "2"
+  why: 後ろに than があるので比較級。No other＋単数名詞＋比較級 than で「ほかのどの生徒もカズより早く起きない」と最上級の内容を表す。
+  trap: ④as early を選ぶ誤り。No other ～ as early as の形もあるが、後ろが than なので as とは組まない。
+- id: q11018
+  sec: s113
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: This tower is taller than any other (＿) in the city.
+  choices: [building, buildings, towers, the building]
+  ans: "1"
+  why: 比較級＋than any other の後ろは数えられる名詞の単数形。building を選ぶ。
+  trap: ②buildings を選ぶ誤り。「ほかの建物」を複数と考えやすいが、any other は「ほかのどの1つと比べても」という意味なので単数。
+- id: q11019
+  sec: s113
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: No other __shop__① on this street __sells__② __as__③ __much__④ kinds of bread as this bakery.
+  ans: "4"
+  why: kinds は数えられる名詞の複数形なので、as many kinds of bread as とする。①No other の後ろの単数名詞 shop と、②それに合わせた sells は正しい。
+  trap: bread が数えられない名詞であることから④much を正しいと判断する誤り。as と as の間の名詞の中心は kinds（複数）なので many。
+- id: q11020
+  sec: s113
+  set: 節末
+  lv: 2
+  kind: 英作
+  min: 3
+  inst: 次の日本語を、any other を使って英語にしなさい。
+  q: この映画は、私が今年見たほかのどの映画よりもおもしろかった。
+  ans: This movie was more interesting than any other movie I saw this year.
+  alt:
+  - This movie was more interesting than any other movie I have seen this year.
+  - This film was more interesting than any other film I saw this year.
+  why: interesting は長い語なので比較級は more interesting。any other の後ろは単数名詞の movie にする。「私が今年見た」は movie の後ろに I saw this year を置いて説明する。この3点ができていれば可。
+  trap: than any other movies と複数形にする誤り。any other の後ろは単数名詞。
+- id: q11021
+  sec: s113
+  set: 節末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。文頭に来る語も小文字で示してある。
+  q: 祖母にとって、家族と過ごす時間ほど大切なものはない。<br>( important / is / more / nothing / to ) my grandmother than time with her family.
+  words: [important, is, more, nothing, to]
+  ans: Nothing is more important to my grandmother than time with her family.
+  why: 「〜ほど大切なものはない」は Nothing is 比較級 than ～。more important の後ろに to my grandmother（祖母にとって）を置き、than 以下で比べる相手を示す。
+  trap: Nothing is important more to … のように、more と important を離す誤り。more は形容詞の直前に置いて比較級をつくる。
+# ---- s114 節末 ----
+- id: q11022
+  sec: s114
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: The more you laugh, the (＿) you feel.
+  choices: [good, better, best, well]
+  ans: "2"
+  why: The＋比較級, the＋比較級 の形なので、後半も比較級にする。feel good（気分がよい）の good の比較級 better を選ぶ。
+  trap: ①good を選ぶ誤り。前半の The more を見落とすと原級でよいと考えてしまう。the の後ろも比較級にそろえる。
+- id: q11023
+  sec: s114
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 日本語の意味になるように、（　）に適切な1語を入れなさい。
+  q: ピーターの英語はますます上手になっている。<br>Peter's English is getting (＿) and better.
+  ans: better
+  why: 「ますます〜」は比較級 and 比較級。後ろの better に合わせて better and better とする。
+  trap: more を入れる誤り。more and more は長い語の原級と組む形で、good の比較級は better。
+- id: q11024
+  sec: s114
+  set: 節末
+  lv: 1
+  kind: 和訳
+  min: 3
+  inst: 次の英文を日本語に訳しなさい。
+  q: The days are getting longer and longer.
+  ans: 日がだんだん長くなってきている。
+  alt:
+  - 日がますます長くなっている。
+  - 昼がだんだん長くなっている。
+  why: 比較級 and 比較級は「だんだん〜、ますます〜」。are getting は進行形で、変化が続いていることを表す。この2点が訳せていれば可。
+  trap: 「日々はより長く、より長くなっている」と、比較級を1つずつ訳す誤り。日本語として不自然になる。2つで「だんだん」と訳す。
+- id: q11025
+  sec: s114
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Of the two plans, I think Yuna's plan is (＿).
+  choices: [better, the better, the best, best]
+  ans: "2"
+  why: Of the two plans（2つの案のうちで）と2つの中から1つを選んでいるので、the＋比較級を使う。
+  trap: ③the best を選ぶ誤り。「いちばんよい」と考えて最上級にしやすいが、比べるのが2つなら the＋比較級。
+- id: q11026
+  sec: s114
+  set: 節末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。文頭に来る語も小文字で示してある。
+  q: お金を使えば使うほど、残りは少なくなる。<br>( money / more / spend / the / you ), the less you will have.
+  words: [money, more, spend, the, you]
+  ans: The more money you spend, the less you will have.
+  why: もとの文は You spend much money.。比較級 more と名詞 money を一緒に節の頭に出し、The more money you spend とする。
+  trap: The more you spend money と、名詞を後ろに残す誤り。比較級と結びついた名詞は、比較級と一緒に前に出す。
+- id: q11027
+  sec: s114
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: The __more__① you practice, __better__② you will __become__③ __at__④ the guitar.
+  ans: "2"
+  why: The＋比較級, the＋比較級 の形なので、後半にも the が要る。②を the better にする。③become better at（〜が上手になる）、④at は正しい。
+  trap: ①more を選ぶ誤り。前半の The more you practice は「練習すればするほど」で正しい。後半の the の抜けを見落としやすい。
+# ---- s115 節末 ----
+- id: q11028
+  sec: s115
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: I prefer rice (＿) bread for breakfast.
+  choices: [than, to, for, from]
+  ans: "2"
+  why: prefer A to B で「B より A を好む」。比べる相手は to で示す。
+  trap: ①than を選ぶ誤り。「〜より」から than を考えやすいが、prefer は比較級ではないので than とは組まない。
+- id: q11029
+  sec: s115
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 日本語の意味になるように、（　）に適切な1語を入れなさい。
+  q: この店はもう日曜日には開いていない。<br>This shop is no (＿) open on Sundays.
+  ans: longer
+  why: 「もはや〜ない、もう〜ない」は no longer。be 動詞の後ろに置く。
+  trap: more を入れる誤り。no more も「もう〜ない」と訳すことがあるが、以前と違って今はそうでないことを言う形は no longer。
+- id: q11030
+  sec: s115
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: This cheap bag is inferior (＿) the expensive bag in quality.
+  choices: [than, to, of, as]
+  ans: "2"
+  why: inferior（劣った）は比較の意味をもつ語で、比べる相手を to で示す。
+  trap: ①than を選ぶ誤り。inferior は -er で終わって比較級に見えるが、than ではなく to と組む。
+- id: q11031
+  sec: s115
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: It took (＿) three minutes to walk to the station. It was very close.
+  choices: [no more than, no less than, not less than, as many as]
+  ans: "1"
+  why: 後ろの It was very close（とても近かった）から、「たった3分」と少ない気持ちを表す no more than（＝only）を選ぶ。
+  trap: ②no less than を選ぶ誤り。no less than は「3分も」と多いという気持ちを表すので、「とても近かった」と合わない。
+- id: q11032
+  sec: s115
+  set: 節末
+  lv: 2
+  kind: 和訳
+  min: 3
+  inst: 次の英文を日本語に訳しなさい。
+  q: A spider is no more an insect than a cat is.
+  ans: クモが昆虫でないのは、ネコが昆虫でないのと同じだ。
+  alt:
+  - ネコが昆虫でないのと同様に、クモも昆虫ではない。
+  why: A is no more B than C is D は「A が B でないのは、C が D でないのと同じ」。than a cat is の後ろには an insect が省略されている。「クモは昆虫ではない」と打ち消す意味が出ていれば可。
+  trap: 「クモはネコ以上に昆虫だというわけではない」と、no more を「〜以上ではない」と訳す誤り。than の後ろの明らかにありえないこと（ネコが昆虫）と同じくらいありえない、と読む。
+- id: q11033
+  sec: s115
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: Many people __say__① that this new tablet __is__② far __superior than__③ the old model __in__④ speed.
+  ans: "3"
+  why: superior は比べる相手を to で示す。③を superior to にする。far は比較の意味をもつ superior を強めていて正しい。
+  trap: far を見て「very にすべきだ」と考え、②のあたりを疑う誤り。superior は far・much で強めてよい。誤りは than。
+# ---- 確認テスト ----
+- id: q11034
+  sec: s111
+  set: 確認テスト
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Our school has 300 students, and my brother's school has 600. Our school has (＿) as many students as his school.
+  choices: [half, twice, two, more]
+  ans: "1"
+  why: 300人は600人の半分なので、half as many ～ as を使う。
+  trap: ②twice を選ぶ誤り。数字の大きい600のほうを主語のように読むと逆になる。主語は Our school（300人）。
+- id: q11035
+  sec: s112
+  set: 確認テスト
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: （　）内の語を適切な形にして1語で入れなさい。
+  q: Kazu plays tennis (＿) than his father. (well)
+  ans: better
+  why: than があるので比較級。副詞 well の比較級は better。
+  trap: more well と書く誤り。well は good と同じく形が変わる語で、well－better－best。
+- id: q11036
+  sec: s113
+  set: 確認テスト
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: No other girl in the class runs as (＿) as Amy.
+  choices: [fast, faster, fastest, more fast]
+  ans: "1"
+  why: as ～ as の間には原級を置く。No other＋単数名詞＋as 原級 as で、エイミーがクラスでいちばん速いことを表す。
+  trap: ②faster を選ぶ誤り。文全体が「いちばん速い」という意味なので比較級にしたくなるが、as と as の間は原級。
+- id: q11037
+  sec: s114
+  set: 確認テスト
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。文頭に来る語も小文字で示してある。
+  q: 部屋が暖かければ暖かいほど、私は眠くなる。<br>( is / room / the / the / warmer ), the sleepier I get.
+  words: [is, room, the, the, warmer]
+  ans: The warmer the room is, the sleepier I get.
+  why: もとの文は The room is warm.。比較級 warmer を the と一緒に節の頭に出し、残りを the room is の語順で続ける。
+  trap: The warmer is the room と、疑問文のように is を前に出す誤り。the＋比較級の後ろはふつうの S V の語順。
+- id: q11038
+  sec: s115
+  set: 確認テスト
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: My uncle (＿) lives in Osaka. He moved to Nagoya last year.
+  choices: [no longer, no more than, not so much, no less than]
+  ans: "1"
+  why: 2つ目の文から、おじは以前は大阪に住んでいたが今は住んでいない。「もはや〜ない」の no longer を選ぶ。
+  trap: ②no more than を選ぶ誤り。no more than は「たった〜」で数や量の前に置く。動詞の前で「もう〜ない」を表すのは no longer。
+- id: q11039
+  sec: s112
+  set: 確認テスト
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: The rooms __in__① this hotel are __much__② bigger __than__③ __that__④ in the hotel near the station.
+  ans: "4"
+  why: 比べているのは「このホテルの部屋」と「駅の近くのホテルの部屋」。くり返しになる the rooms は複数なので、④を those にする。
+  trap: ②much を選び、very にすべきだと考える誤り。比較級 bigger を強めるのは much で正しい。
+- id: q11040
+  sec: s111
+  set: 確認テスト
+  lv: 1
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: できるだけ静かに部屋に入ってください。<br>Please come into the room ( as / as / possible / quietly ).
+  words: [as, as, possible, quietly]
+  ans: Please come into the room as quietly as possible.
+  why: 「できるだけ〜」は as＋原級＋as possible。副詞 quietly を as と as の間に置く。
+  trap: as possible as quietly のように、possible を間に入れる誤り。as と as の間には、様子を表す原級（quietly）を置く。
+- id: q11041
+  sec: s115
+  set: 確認テスト
+  lv: 2
+  kind: 補充
+  min: 1
+  inst: 2つの文がほぼ同じ意味になるように、（　）に適切な語を1語ずつ入れなさい。
+  q: I have only 300 yen with me now.<br>＝ I have no (＿) (＿) 300 yen with me now.
+  ans: more than
+  why: only（たった）は、少ないという気持ちを表す no more than で言いかえられる。
+  trap: less than を入れる誤り。no less than は「300円も」と多いという気持ちになり、only と逆になる。
+- id: q11042
+  sec: s101
+  set: 確認テスト
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: The woman (＿) is talking with Mr. Shimizu is my aunt.
+  choices: [who, which, whose, what]
+  ans: "1"
+  why: 先行詞 The woman は人で、節の中では is talking の主語が欠けている。人・主語が欠けるときは who。文全体の動詞は後ろの is。
+  trap: ③whose を選ぶ誤り。whose の後ろには名詞が要るが、空所の直後は is talking で名詞がない。
+- id: q11043
+  sec: s074
+  set: 確認テスト
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: We __are__① all looking forward to __meet__② you __at__③ the party __next__④ Saturday.
+  ans: "2"
+  why: look forward to の to は前置詞なので、後ろは動名詞にする。②を meeting にする。
+  trap: to の後ろだから原形でよいと考えて、②を正しいと判断する誤り。look forward to の to は不定詞の to ではない。

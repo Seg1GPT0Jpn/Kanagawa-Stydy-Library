@@ -10,7 +10,7 @@ chapters:
     aim: 起こりうることを述べる文と、事実と反対のことを仮に述べる文を区別し、今のことは仮定法過去、過去のことは仮定法過去完了で表せるようになる。
     body:
     - h: 同じ if でも、2種類の文がある
-    - p: 次の2つの文を比べます。@e1201 では、明日雨が降るかどうかはまだ分からず、降ることも十分ありえます。このように、事実や起こりうることをそのまま述べる動詞の形を<<直説法>>といいます。一方、@e1202 の話し手は、実際には車を持っていません。「持っていない」という事実と反対のことを、仮に考えて話しています。事実と反対のことや、ほとんどありえないことを仮に述べる動詞の形を<<仮定法>>といいます。
+    - p: 次の2つの文を比べます。@e1201 では、明日雨が降るかどうかはまだ分からず、降ることも十分ありえます。事実や起こりうることをそのまま述べる動詞の形を<<直説法>>といいます。一方、@e1202 の話し手は、実際には車を持っていません。「持っていない」という事実と反対のことを、仮に考えて話しています。事実と反対のことや、ほとんどありえないことを仮に述べる動詞の形を<<仮定法>>といいます。
       notes:
       - kind: 用語
         term: 直説法
@@ -128,9 +128,9 @@ chapters:
         - [If S should do, '{{万一}}〜なら', 'will・命令文・would など']
         - [If S were to do, '{{仮に}}〜するとしたら', 'would・could など＋原形']
     - h: if を省くと、語順が変わる
-    - p: 書き言葉のかたい文では、if 節の if を省くことがあります。そのときは、if 節の were・had・should を主語の前に出し、疑問文と同じ語順にします（@e1211〜@e1213）。if がなくなっても、この語順が「もし〜なら」のしるしになります。このように語順を入れかえることを倒置といい、ほかの倒置は単元18で学びます。
+    - p: 書き言葉のかたい文では、if 節の if を省くことがあります。そのときは、if 節の were・had・should を主語の前に出し、疑問文と同じ語順にします（@e1211〜@e1213）。if がなくなっても、この語順が「もし〜なら」のしるしになります。主語と動詞（助動詞）の語順を入れかえることを倒置といい、ほかの倒置は単元18で学びます。
     - ex: [e1211, e1212, e1213]
-    - p: 入試で問われるのは、Were・Had・Should で始まるこの3つの形です。knew や went のような一般動詞の過去形は前に出せないので、If I knew ～ を Knew I ～ とはできません。また、if を省いたら if は書きません。If had I known のように if を残すのは誤りです。否定のときは Had I not known のように not を主語の後ろに置き、Hadn't I known とは言いません。
+    - p: 入試で問われるのは、Were・Had・Should で始まるこの3つの形です。knew や went のような一般動詞の過去形は前に出せないので、If I knew ～ を Knew I ～ とはできません。if を省いたら、if は書きません。If had I known のように if を残すのは誤りです。否定のときは Had I not known のように not を主語の後ろに置き、Hadn't I known とは言いません。
     - check:
       - q: If I were rich, I would travel around the world.<br>→ (＿) (＿) rich, I would travel around the world.
         a: Were I
@@ -696,7 +696,7 @@ problems:
   q: Our teacher __suggested__① that Luke __takes__② a short rest __before__③ the next __match__④.
   ans: '2'
   why: suggest（提案する）の後ろの that 節は、主語や時に関係なく原形（または should＋原形）。takes を take にする。①③④は正しい。
-  trap: 主語の Luke が3人称単数なので takes を正しいと思う誤り。また、主節の suggested に合わせて took にするのも誤り。
+  trap: 主語の Luke が3人称単数なので takes を正しいと思う誤り。主節の suggested に合わせて took にするのも誤り。
 - id: q12030
   sec: s124
   set: 節末
@@ -717,7 +717,7 @@ problems:
   min: 2
   inst: 日本語の意味になるように（　）内の語を並べかえなさい。
   q: 本当の友達なら、そんなうそはつかないだろう。<br>A ( a / friend / lie / not / such / tell / true / would ).
-  words: [a, friend, lie, not, such, tell, true, would]
+  words: [a, friend, lie, not, such, tell, 'true', would]
   ans: A true friend would not tell such a lie.
   why: 主語の A true friend が「本当の友達なら」という仮定をふくむ。主節は would not＋原形。such a lie の語順にする。
   trap: a such lie と並べる誤り。such は a の前に置き、such a ＋名詞 の順にする。

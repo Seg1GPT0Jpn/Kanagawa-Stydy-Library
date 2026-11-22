@@ -118,7 +118,9 @@ class Book:
             if p['kind'] == '整序' and starts_with_paren and p['inst_eff'] and '小文字' not in p['inst_eff']:
                 p['inst_eff'] = p['inst_eff'].rstrip() + '文頭に来る語も小文字で示してある。'
             if p['kind'] == '正誤':
-                p['inst_eff'] = DEFAULT['正誤'] if '直しなさい' not in (p['inst_eff'] or '') else '下線部①〜④のうち、誤りをふくむものを1つ選び、正しい形に直しなさい。語を取り除くときは「削除」と書きなさい。'
+                ie = p['inst_eff'] or ''
+                pre = ie[:ie.index('下線部')] if '下線部' in ie else ''   # 「文の意味から考えて、」などの前置きは残す
+                p['inst_eff'] = pre + (DEFAULT['正誤'] if '直しなさい' not in ie else '下線部①〜④のうち、誤りをふくむものを1つ選び、正しい形に直しなさい。語を取り除くときは「削除」と書きなさい。')
         order = {s['id']: i for i, s in enumerate(s for c in self.data['chapters'] for s in c['sections'])}
         # 問題の属する単元（home）：ふつうは sec の章。確認テスト・前提は ID の単元番号（q02001 → c02）で決める
         #（確認テストには前の単元の節を問う問題が入るため）
