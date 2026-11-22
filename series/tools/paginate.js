@@ -11,6 +11,7 @@ window.__paginate = function () {
   let page = null, mainEl = null, sideEl = null, y = 0, sideY = 0;
   const H = (C.ph - C.top - C.bottom) * MM;
   let curChapter = '', curSection = '';
+  const pendingNotes = [];  // 側注欄に入りきらず次のページへ送る側注
 
   function newPage(kind) {
     pageNo++;
@@ -32,6 +33,11 @@ window.__paginate = function () {
     page.appendChild(body);
     out.appendChild(page);
     y = 0; sideY = 0;
+    // 前のページから送られた側注を、このページの側注欄の頭に置く
+    while (pendingNotes.length && C.sideW) {
+      const n = pendingNotes.shift(); const nh1 = measure(n, smeas);
+      n.style.position = 'absolute'; n.style.top = (sideY / MM) + 'mm'; n.style.left = 0; n.style.right = 0; sideEl.appendChild(n); sideY += nh1;
+    }
     return page;
   }
   function finishPage() {
@@ -97,7 +103,8 @@ window.__paginate = function () {
     }
     let nh = notes.reduce((s, n) => s + measure(n, smeas), 0);
     const startY = y; // 上端の余白は先頭では詰める
-    if (y + need > H + 0.5 || Math.max(sideY, y) + nh > H + 0.5) {
+    // 側注が入りきらないときは本文ごと送る。ただし側注がページの6割を超えるほど多いときは送らず、側注を次のページへ続ける
+    if (y + need > H + 0.5 || (nh <= H * 0.6 && Math.max(sideY, y) + nh > H + 0.5)) {
       if (y === 0 && !page.classList.contains('used')) { errors.push(`p${pageNo}: ブロックが1ページに収まらない: ${b.textContent.slice(0, 40)}`); }
       else {
         // ページの最後に残る見出し・指示文（keepnext）は、送るかたまりと一緒に次のページへ移す
@@ -127,13 +134,19 @@ window.__paginate = function () {
     if (!page.dataset.ch) { page.dataset.ch = curChapter; page.dataset.sec = curSection; }
     page.classList.add('used');
     let sy = Math.max(sideY, y);
-    for (const n of notes) { const nh1 = measure(n, smeas); n.style.position = 'absolute'; n.style.top = (sy / MM) + 'mm'; n.style.left = 0; n.style.right = 0; sideEl.appendChild(n); sy += nh1; }
+    for (const n of notes) {
+      const nh1 = measure(n, smeas);
+      if (sy + nh1 > H + 0.5 && sy > 0) { pendingNotes.push(n); continue; }   // 下端に届いたら次のページの側注欄へ送る
+      n.style.position = 'absolute'; n.style.top = (sy / MM) + 'mm'; n.style.left = 0; n.style.right = 0; sideEl.appendChild(n); sy += nh1;
+    }
     sideY = sy;
+    if (sy > H + 0.5) errors.push(`p${pageNo}: 側注が下端を越えた ${((sy - H) / MM).toFixed(1)}mm: ${b.textContent.slice(0, 30)}`);
     y += h;
     if (isWide) sideY = Math.max(sideY, y);
     if (y > H + 0.5) errors.push(`p${pageNo}: はみ出し ${(y / MM - H / MM).toFixed(1)}mm: ${b.textContent.slice(0, 40)}`);
   }
   finishPage();
+  if (pendingNotes.length) errors.push(`最後のページで置けなかった側注が ${pendingNotes.length} 個ある`);
   meas.remove(); smeas.remove(); wmeas.remove();
 
   // 参照先のページ

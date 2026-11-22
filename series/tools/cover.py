@@ -65,3 +65,36 @@ def relclause_svg(tokens, gap_after, antecedent, clause, labels, size=24, width=
 
 EG01 = dict(tokens=['the', 'book', '[that', 'I', 'read', '_', 'yesterday]'], gap_after=4, antecedent=(0, 1), clause=(2, 6),
             labels={'ante': '先行詞', 'clause': '関係詞節', 'gap': '欠けた目的語'})
+
+
+def pattern_svg(chunks, size=24, width=170):
+    """文型の図：語のかたまりの下に、要素の記号（S・V・O・C）と下線を引く。chunks = [(語のかたまり, 記号), ...]"""
+    sp = adv('  ', size_pt=size)
+    xs, ws = [], []
+    x = 0
+    for t, _ in chunks:
+        w = adv(t, 'Regular', size)
+        xs.append(x); ws.append(w); x += w + sp
+    total = x - sp
+    ox = (width - total) / 2
+    base = 30; h = 52
+    fs = size * 25.4 / 72
+    parts = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {h}" width="{width}mm" height="{h}mm">']
+    for i, (t, lab) in enumerate(chunks):
+        x0 = ox + xs[i]
+        parts.append(f'<text x="{x0:.2f}" y="{base}" font-family="Ser" font-size="{fs:.2f}">{t}</text>')
+        parts.append(f'<line x1="{x0:.2f}" y1="{base + 3}" x2="{x0 + ws[i]:.2f}" y2="{base + 3}" stroke="#000" stroke-width="{1 if lab in ("S", "V") else .5}"/>')
+        parts.append(f'<text x="{x0 + ws[i] / 2:.2f}" y="{base + 10}" font-family="Ser" font-size="5" font-weight="600" text-anchor="middle">{lab}</text>')
+    # O＝C の関係を示す弧
+    labs = [l for _, l in chunks]
+    if 'O' in labs and 'C' in labs:
+        i, j = labs.index('O'), labs.index('C')
+        a = ox + xs[i] + ws[i] / 2; b2 = ox + xs[j] + ws[j] / 2; top = base - fs - 3
+        parts.append(f'<path d="M{a:.2f},{top + 4} C{a:.2f},{top - 6} {b2:.2f},{top - 6} {b2:.2f},{top + 4}" fill="none" stroke="#000" stroke-width=".5"/>')
+        parts.append(f'<text x="{(a + b2) / 2:.2f}" y="{top - 4}" font-family="Goth" font-size="3.2" text-anchor="middle">O ＝ C</text>')
+    parts.append('</svg>')
+    return '\n'.join(parts)
+
+
+# 英文法編の表紙の図（単元1 の SVOC の例。例文は本書のための自作）
+G1 = dict(chunks=[('My sister', 'S'), ('named', 'V'), ('the kitten', 'O'), ('Mochi', 'C')])

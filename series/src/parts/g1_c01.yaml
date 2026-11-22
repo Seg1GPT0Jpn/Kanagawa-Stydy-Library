@@ -18,7 +18,7 @@ chapters:
       - kind: 用語
         term: 名詞
         yomi: めいし
-        text: 人・物・ことの名前を表す語（Kenji・book・music など）。文の S・O・C になり、前置詞の後ろにも置く。代名詞（I・it など）も名詞の仲間として扱う。
+        text: 人・物・ことの名前を表す語（Kenji・book・music など）。文の中では S・O・C や前置詞の後ろの語になることが多いが、every morning・last week・this year のような時を表す名詞のかたまりは、前置詞がなくても M（修飾語）になる。代名詞（I・it など）も名詞の仲間として扱う。
       - kind: 用語
         term: 動詞
         yomi: どうし
@@ -30,7 +30,7 @@ chapters:
       - kind: 用語
         term: 副詞
         yomi: ふくし
-        text: 名詞以外（動詞・形容詞・ほかの副詞・文全体）を説明する語（fast・very・often など）。文の M になり、S・O・C にはならない。
+        text: 主に動詞・形容詞・ほかの副詞・文全体を説明する語（fast・very・often など）。only・even は名詞の前に置いて名詞を説明することもある（only Ken）。文の中ではふつう M になり、S・O にはならない。C にもふつうならないが、The game is over.（試合は終わった）の over のように be 動詞の後ろに置く決まった言い方もある。
       - kind: 用語
         term: 前置詞
         yomi: ぜんちし
@@ -61,8 +61,8 @@ chapters:
       - kind: 用語
         term: 修飾語
         yomi: しゅうしょくご
-        text: 記号 M。S・V・O・C 以外の、時・場所・様子・理由などを付け足す語句。副詞と「前置詞＋名詞」が多い。文型を決めるときには数えない。
-    - p: V は文の中心になる動詞で、can や will などの助動詞があるときは「助動詞＋動詞」をまとめて V とします。V を最初に見つけると、その前が S、後ろが O か C と、順に決まっていきます。どの要素にどの品詞が入るかは、次の表のとおりです。例文では、V を太字＋下線で、M を（ ）で示します（@e0101、@e0102）。
+        text: 記号 M。S・V・O・C 以外の、時・場所・様子・理由などを付け足す語句。副詞と「前置詞＋名詞」が多く、every morning・last week のような時を表す名詞のかたまりも M になる。文型を決めるときには数えない。
+    - p: V は文の中心になる動詞で、can や will などの助動詞があるときは「助動詞＋動詞」をまとめて V とします。V を最初に見つけると、その前が S、後ろが O か C と、順に決まっていきます。どの要素にどの品詞が入るかは、次の表のとおりです。この単元の例文では、V を太字＋下線で、M を（ ）で示します（@e0101、@e0102）。単元2からは、M の（ ）は省きます。
     - table:
         head: [要素, 日本語では, 入る品詞]
         rows:
@@ -70,11 +70,18 @@ chapters:
         - [V（動詞）, 〜する・〜である, "{{動詞}}（助動詞＋動詞）"]
         - [O（目的語）, 〜を・〜に, "{{名詞}}"]
         - [C（補語）, S や O がどんなものか・どんな状態か, "{{名詞}}・{{形容詞}}"]
-        - [M（修飾語）, いつ・どこで・どのように など, "{{副詞}}・前置詞＋名詞"]
+        - [M（修飾語）, いつ・どこで・どのように など, "{{副詞}}・前置詞＋名詞・時を表す名詞のかたまり（every morning など）"]
     - ex: [e0101, e0102]
-    - p: M は文型を決めるときには数えません。He lives in Osaka. の in Osaka のように、意味の上では欠かせない M もありますが、それでも「前置詞＋名詞」は M として扱い、文型には数えません。
-    - h: 形容詞は C になれるが、副詞はなれない
-    - p: 表のとおり、C になれるのは名詞と形容詞で、副詞は C になりません。@e0103 の happy は、「アスカがうれしい状態だった」と S の状態を説明する C なので形容詞です。@e0104 の happily は、sang（歌った）の様子を説明する M なので副詞です。空所に形容詞と副詞のどちらを入れるかは、その空所が C か M かで決まります。
+    - p: S と O には、名詞のほか I・he・she などの代名詞も入ります。代名詞は、どの位置に置くかで形が変わります。S の位置では I・he・she、O の位置と前置詞の後ろでは me・him・her を使います（I like her. ／ This picture was painted by him.）。V の形は S に合わせます。現在の文では、be 動詞は I am・he is・they are と変わり、S が3人称単数（he・she・it や、1人・1つを表す名詞）なら一般動詞に -s を付けます（My sister plays tennis.）。
+    - table:
+        head: [位置, 私, あなた, 彼, 彼女, それ, 私たち, 彼ら]
+        rows:
+        - [S（〜は）, I, you, he, she, it, we, they]
+        - [名詞の前（〜の）, my, your, his, her, its, our, their]
+        - [O・前置詞の後ろ（〜を・〜に）, "{{me}}", you, "{{him}}", "{{her}}", it, "{{us}}", "{{them}}"]
+    - p: M は文型を決めるときには数えません。He lives in Osaka. の in Osaka のように、意味の上では欠かせない M もありますが、それでも「前置詞＋名詞」は M として扱い、文型には数えません。@e0102 の every morning のように、時を表す名詞のかたまり（every day・last week・this year など）は、前置詞が付いていなくても M です。V の後ろにあっても O ではないので注意します。
+    - h: 形容詞は C になれるが、副詞はふつう C にならない
+    - p: 表のとおり、C になるのは名詞と形容詞で、副詞はふつう C になりません（The game is over. の over のような、be 動詞の後ろに置く決まった言い方は別に覚えます）。@e0103 の happy は、「アスカがうれしい状態だった」と S の状態を説明する C なので形容詞です。@e0104 の happily は、sang（歌った）の様子を説明する M なので副詞です。空所に形容詞と副詞のどちらを入れるかは、その空所が C か M かで決まります。
       notes:
       - kind: 注意
         text: 形容詞に -ly を付けると副詞になる語が多い（happy → happily）。ただし friendly（親しみやすい）や lovely（すてきな）は -ly で終わる形容詞。
@@ -119,23 +126,23 @@ chapters:
       steps:
       - 動詞を探して V を決める。made（作った）が V。
       - V の前の名詞のかたまりが S。My sister が S。
-      - V の後ろの名詞が、S と同じものか別のものかを確かめる。a cake は「ケーキを」にあたり、My sister＝a cake ではないので O。
+      - V の後ろの名詞が、S と同じものか別のものかを確かめる。a cake は「ケーキを」にあたり、My sister＝a cake ではないので O。ただし、last Friday のような時を表す名詞のかたまりは、V の後ろにあっても O ではなく M。
       - 残った for the party（前置詞＋名詞）と yesterday（副詞）は、目的と時を付け足す M。
       ans: My sister（S）made（V）a cake（O）for the party（M）yesterday（M）
       point: V を最初に決めると、前が S、後ろが O か C と順に決まる。「前置詞＋名詞」と副詞は M として扱い、文型には数えない。
-    - q: My brother was (＿) when he heard the news.
+    - q: （　）に入る最も適切なものを1つ選びなさい。<br>My brother was (＿) when he heard the news.
       choices: [sadly, sad, sadness, sadden]
       steps:
       - 空所は文のどの要素かを考える。was（be 動詞）の後ろなので、C か M のどちらか。
       - 「兄がどんな状態だったか」を表す位置なので C。My brother was sad. で S＝C の関係になる。
-      - C になれるのは名詞か形容詞。副詞の sadly は C にならない。名詞の sadness は My brother＝sadness にならないので不可。sadden は動詞。形容詞の sad を選ぶ。
+      - C になるのは名詞か形容詞。副詞の sadly はここでは C にならない。名詞の sadness は My brother＝sadness にならないので不可。sadden は動詞。形容詞の sad を選ぶ。
       ans: "2"
       point: 空所が C なら形容詞、M なら副詞。名詞も C になれるが、S とイコールになる名詞でなければならない。
     summary:
     - "文の要素：S＝{{主語}}、V＝{{動詞}}、O＝{{目的語}}、C＝{{補語}}、M＝{{修飾語}}。文型を決めるときは M を{{数えない}}。"
-    - "S と O になるのは{{名詞}}。C になるのは{{名詞}}と{{形容詞}}で、{{副詞}}は C にならない。"
+    - "S と O になるのは{{名詞}}。C になるのは{{名詞}}と{{形容詞}}で、{{副詞}}はふつう C にならない。"
     - "S＋V を含まないかたまりは{{句}}、S＋V を含むかたまりは{{節}}。"
-    - "本書の記号：節の範囲は{{［ ］}}、M の語句は{{（ ）}}で示す。"
+    - "本書の記号：節の範囲は{{［ ］}}。この単元の例文では、M の語句を{{（ ）}}で示す。"
   - id: s012
     title: "SV・SVC・SVO"
     aim: 動詞の後ろの形から SV・SVC・SVO を見分け、自動詞と他動詞の使い方の誤りを見つけられるようになる。
@@ -151,7 +158,7 @@ chapters:
         text: SV から SVOC までを、順に第1文型〜第5文型と呼ぶ本もある。
     - ex: [e0106, e0107, e0108, e0109]
     - p: SVC か SVO かは、V を be 動詞に置きかえて確かめます。@e0107 は Mr. Yoshida was a teacher. としても意味が通るので、a teacher は C です。@e0109 を We were the school festival. にすると意味が通らないので、the school festival は O です。
-    - p: SVC の V には、be 動詞のほか、become・get（〜になる）、look（〜に見える）、seem（〜のようだ）、keep・stay（〜のままでいる）、sound（〜に聞こえる）、feel・taste・smell（〜な感じ・味・においがする）などがあります。C には形容詞か名詞を置き、副詞は置きません。look happily や taste well は誤りで、look happy、taste good とします。
+    - p: SVC の V には、be 動詞のほか、become・get（〜になる）、look（〜に見える）、seem（〜のようだ）、keep・stay（〜のままでいる）、sound（〜に聞こえる）、feel・taste・smell（〜な感じ・味・においがする）などがあります。C には形容詞か名詞を置きます。「〜に見える」の意味で look happily としたり、「〜な味がする」の意味で taste well としたりするのは誤りで、look happy、taste good とします（She looked happily at the photo.〈うれしそうに写真を見た〉のように、look at の look は SV で副詞と使える）。
     - h: 自動詞と他動詞
     - p: 後ろに O をとる動詞の使い方を<<他動詞>>、O をとらない使い方を<<自動詞>>といいます。自動詞の後ろに名詞を続けるときは、arrive at the station のように前置詞をはさみます。反対に、他動詞は後ろに直接 O を置くので、前置詞は要りません。日本語の「〜について」「〜に」につられて他動詞に前置詞を付けてしまう誤りが、入試でよく問われます。
       notes:
@@ -173,7 +180,10 @@ chapters:
         - [〜に入る, enter 〜, "go {{into}} 〜"]
         - [〜と結婚する, marry 〜, "get married {{to}} 〜"]
         - [〜に答える, answer 〜, "reply {{to}} 〜"]
+        - [〜に似ている, resemble 〜, "look {{like}} 〜"]
       notes:
+      - kind: 注意
+        text: resemble は他動詞なので、resemble to 〜 とはしない。He resembles his father. のように O を直接置く。
       - kind: 注意
         text: enter into a discussion（話し合いを始める）のような決まった言い方もあるが、部屋や建物に入るときは enter だけを使う。
     - h: There is ～ の文
@@ -204,7 +214,7 @@ chapters:
       ja: 私の家の近くにはコンビニが2軒ある。
       gloss: [[convenience store, コンビニエンスストア]]
     worked:
-    - q: This bread looks (＿). Can I have a piece?
+    - q: （　）に入る最も適切なものを1つ選びなさい。<br>This bread looks (＿). Can I have a piece?
       choices: [delicious, deliciously, deliciousness, more deliciously]
       steps:
       - 空所は文のどの要素かを考える。looks の後ろで、O か C か M のどれか。
@@ -212,17 +222,17 @@ chapters:
       - C には形容詞か名詞を置く。副詞の deliciously・more deliciously は C にならない。名詞の deliciousness は This bread＝deliciousness にならない。形容詞の delicious を選ぶ。
       ans: "1"
       point: look は「〜に見える」の意味で SVC をつくる。日本語の「おいしそうに」の「に」につられて副詞を選ばない。
-    - q: We __discussed__① __about__② the new rules __for__③ the club __last Friday__④.
+    - q: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。<br>__We__① __discussed about__② the new rules __for__③ the club __last Friday__④.
       steps:
       - 動詞を確かめる。discuss は他動詞で、後ろに O を直接置く。
-      - discussed の後ろに about があると、discuss と O の間に前置詞が入ってしまう。②が誤りで、We discussed the new rules … とする。
-      - ほかも確かめる。③for the club は rules を説明する「前置詞＋名詞」、④last Friday は時を表す M で、どちらも正しい。
-      ans: "2"
+      - ②discussed about では、discuss と O の間に前置詞 about が入ってしまう。②が誤りで、We discussed the new rules … とする（talked about としても正しい文になるが、どちらも②の中の直し方）。
+      - ほかも確かめる。①We は S で正しい。③for は for the club のかたまりで rules を説明する前置詞、④last Friday は時を表す名詞のかたまりで M。どちらも正しい。
+      ans: ②（discussed about → discussed）
       point: discuss・reach・enter・marry は他動詞で、前置詞を付けない。「〜について」と訳しても about は要らない。
     summary:
     - "後ろに O をとる動詞の使い方を{{他動詞}}、とらない使い方を{{自動詞}}という。"
     - "discuss・reach・enter・marry は{{他動詞}}なので、後ろに{{前置詞}}を付けない。"
-    - "SVC は S＝C の関係。look・seem・become・get・keep の後ろの C には{{形容詞}}を置き、{{副詞}}は置かない。"
+    - "SVC は S＝C の関係。look・seem・become・get・keep の後ろの C には{{形容詞}}（か名詞）を置き、{{副詞}}は置かない。"
     - "There is／are の文では、be 動詞の後ろの名詞が{{S}}で、動詞の数はその名詞に合わせる。"
   - id: s013
     title: "SVOO と SVO＋to／for"
@@ -236,7 +246,7 @@ chapters:
     - ex: [e0111]
     - h: SVO＋to／for への書きかえ
     - p: SVOO の文は、O₂（物）を先に出し、人を前置詞の後ろに回して「S＋V＋O₂＋to／for＋人」の形に書きかえられます（@e0112、@e0113）。書きかえた文は SVO で、「to／for＋人」は M です。前置詞を to にするか for にするかは、動詞で決まります。
-    - p: 見分け方は「相手がいなくても、その動作ができるか」です。give（あげる）や send（送る）は、受け取る相手がいなければ成り立たないので to を使います。buy（買う）や cook（料理する）は、相手がいなくても自分だけでできる動作で、それを相手のためにするので for を使います。
+    - p: 見分ける目安は「相手がいなくても、その動作ができるか」です。give（あげる）や send（送る）は、受け取る相手がいなければ成り立たないので to を使います。buy（買う）や cook（料理する）は、相手がいなくても自分だけでできる動作で、それを相手のためにするので for を使います。
     - table:
         head: [前置詞, おもな動詞, 動作の性質]
         rows:
@@ -245,6 +255,8 @@ chapters:
       notes:
       - kind: 注意
         text: ask は ask a question of him のように of を使う（かたい言い方）。ふつうは ask him a question の SVOO で使う。
+      - kind: 注意
+        text: この見分け方は目安で、当てはまらない動詞もある。read・bring は to を使うことが多い（read a story to me）。表にない動詞は辞書で確かめる。
     - ex: [e0112, e0113]
     - h: O₂ が代名詞のとき
     - p: O₂ が it・them などの代名詞のときは、SVOO ではなく「S＋V＋O₂＋to／for＋人」の形にするのがふつうです（@e0114）。Can you lend me it? よりも Can you lend it to me? が自然な英語です。整序問題で it や them が出てきたら、to／for の形を考えます。
@@ -270,19 +282,19 @@ chapters:
       en: Can you *lend* it (to me) (for a week)?
       ja: それを1週間、私に貸してくれない？
     worked:
-    - q: Lily sent her grandmother a letter.<br>＝ Lily sent a letter (＿) her grandmother.
+    - q: 2つの文がほぼ同じ意味になるように、（　）に適切な語を1語入れなさい。<br>Lily sent her grandmother a letter.<br>＝ Lily sent a letter (＿) her grandmother.
       steps:
       - 元の文の形を確かめる。sent の後ろに her grandmother と a letter の2つの名詞があり、her grandmother≠a letter なので SVOO。O₁＝her grandmother、O₂＝a letter。
       - 書きかえた文では O₂ の a letter が先に出ているので、人の前に前置詞を置く。
       - send は、受け取る相手がいなければ成り立たない動作なので to を入れる。
       ans: to
       point: give 型（相手に届く動作）は to、buy 型（相手のために自分でする動作）は for。動詞を見て決める。
-    - q: Ms. Clark found a good dictionary (＿) me.
+    - q: （　）に入る最も適切なものを1つ選びなさい。<br>Ms. Clark found a good dictionary (＿) me.
       choices: [to, for, of, with]
       steps:
       - 空所は文のどの要素かを考える。found a good dictionary（SVO）の後ろで、人の前に置く前置詞。M をつくる語が入る。
       - find は、相手がいなくても自分で見つけることができる動作。相手のために見つけてあげるので for を使う。
-      - to は give・send のように相手に届く動作で使う。of・with は SVOO の書きかえには使わない。for を選ぶ。
+      - to は give・send のように相手に届く動作で使う。with は SVOO の書きかえには使わない。of を使うのは ask など一部の動詞だけで（ask a question of him）、find には使わない。for を選ぶ。
       ans: "2"
       point: find・buy・make・cook・choose は for。「〜に」という日本語だけで to を選ばない。
     summary:
@@ -295,7 +307,7 @@ chapters:
     aim: SVOC の文で O＝C の関係を見抜き、make・keep・leave・find・call の文を正しく訳し、組み立てられるようになる。
     body:
     - h: O＝C になる SVOC
-    - p: SVOC は、O の後ろに、O がどんなものか・どんな状態かを説明する C が来る文型です。O と C の間には「O＝C」の関係があり、O を主語にして「O is C」という文を作ると意味が通ります。@e0115 では us と happy の間に We were happy. が成り立ちます。S が O に働きかけた結果、O が C の状態になる、と考えると意味がとれます。
+    - p: SVOC は、O の後ろに、O がどんなものか・どんな状態かを説明する C が来る文型です。O と C の間には「O＝C」の関係があり、O を主語にして「O is C」という文を作ると意味が通ります。@e0115 では us と happy の間に We were happy. が成り立ちます。make・keep・leave の文では、S が O に働きかけた結果、O が C の状態になる、と考えると意味がとれます。find（O が C だとわかる）や call（O を C と呼ぶ）は、下の表の意味で覚えます。
     - ex: [e0115, e0116]
     - p: SVOO との違いは、O の後ろの名詞が O とイコールかどうかです。@e0116 の our cat と Mochi は同じ猫なので SVOC、@e0111 の me と a birthday card は別のものなので SVOO です。
     - h: SVOC をつくるおもな動詞
@@ -338,7 +350,7 @@ chapters:
       - make O C は「O を C にする」。S が物なので、「長い散歩が、アスカを空腹にした」を自然な日本語に直す。
       ans: 長い距離を歩いたので、アスカはおなかがすいた。
       point: 物が S の SVOC は「S によって O が C になる」と訳すと自然になる。「長い散歩はアスカを空腹にした」も意味としては正しい。
-    - q: 私はその数学の問題が難しいとわかった。<br>I ( difficult / found / math / question / the ).
+    - q: 日本語の意味になるように（　）内の語を並べかえなさい。<br>私はその数学の問題が難しいとわかった。<br>I ( difficult / found / math / question / the ).
       steps:
       - 日本語から文型を考える。「その問題が難しい」は「問題＝難しい」の関係なので、O＝C の SVOC にする。
       - V は found、O は the math question、C は difficult。find O C の順に並べる。
@@ -363,22 +375,23 @@ chapters:
         - [get, SVO：get a ticket, "〜を{{手に入れる}}"]
         - [get, SVC：get angry, "{{〜になる}}"]
         - [get, SVOO：get me a ticket, O₁ に O₂ を手に入れてやる]
+        - [get, SVOC：get everything ready, "O を C（の状態）に{{する}}"]
         - [make, SVOO：make me a cake, O₁ に O₂ を作ってやる]
         - [make, SVOC：make me happy, "O を C に{{する}}"]
         - [find, SVO：find the key, "〜を{{見つける}}"]
         - [find, SVOC：find the book useful, "O が C だと{{わかる}}"]
     - p: find the book useful では、O の the book の後ろに形容詞 useful があり、「本＝役に立つ」の関係なので SVOC です。O の後ろに C があるかどうかで文型が変わり、訳も「見つける」から「わかる」に変わります。
     - h: 完全な文と不完全な文
-    - p: 動詞が決まると、その文に要る要素も決まります。buy は他動詞なので O が要り、become は C が要ります。その動詞の文型に必要な S・O・C（と、前置詞の後ろの名詞）がすべてそろった文を<<完全な文>>、そのうち1つが欠けた文を<<不完全な文>>といいます。M があるかないかは関係しません。本書では、欠けている位置を ＿ で示します。
+    - p: 動詞が決まると、その文に要る要素も決まります。buy は他動詞なので O が要り、become は C が要ります。S・O・C と前置詞の後ろの名詞のうち、その文に要るものがどれも欠けていない文を<<完全な文>>、どれかが欠けている文を<<不完全な文>>といいます。「前置詞＋名詞」は M で文型には数えませんが、前置詞だけが残って後ろの名詞がないときは、不完全な文になります。M（修飾語）そのものがあるかないかは関係しません。本書では、欠けている位置を ＿ で示します。
       notes:
       - kind: 用語
         term: 完全な文
         yomi: かんぜんなぶん
-        text: その動詞の文型に必要な S・O・C（と、前置詞の後ろの名詞）がすべてそろっている文。M の有無は関係しない。
+        text: S・O・C と前置詞の後ろの名詞のうち、その文に要るものがどれも欠けていない文。M（修飾語）があるかないかは関係しない。
       - kind: 用語
         term: 不完全な文
         yomi: ふかんぜんなぶん
-        text: その動詞の文型に必要な S・O・C（と、前置詞の後ろの名詞）のうち、1つが欠けている文。本書では欠けた位置を ＿ で示す。
+        text: S・O・C のどれか、または前置詞の後ろの名詞が欠けている文。疑問詞などが、欠けた語の代わりをしていることが多い。本書では欠けた位置を ＿ で示す。
     - p: 不完全な文は、疑問詞の後ろで見ることができます。@e0121 の What を外すと you buy ＿ at the station が残り、buy の O が欠けています。What がこの欠けた O の代わりをしているのです。一方、@e0122 の When を外した you buy the ticket は、O までそろった完全な文です。When は時を表す M なので、後ろの文から何も欠けていません。
     - ex: [e0121, e0122]
     - p: 前置詞の後ろの名詞が欠けることもあります。@e0123 では with の後ろに名詞がないので、you go to the concert with ＿ は不完全な文です。疑問詞 Who が、with の後ろの名詞の代わりをしています。この「完全な文か不完全な文か」の見分けは、接続詞（単元9）や関係詞（単元10）でも使います。
@@ -390,7 +403,7 @@ chapters:
       - 空所は文のどの要素か（S・V・O・C・M のどれか）。
       - 空所の後ろが、完全な文か不完全な文か。
       - 時・数・意味の手がかりになる語はどれか。
-    - p: たとえば (＿) did you see at the zoo? では、①空所は文の頭にあり、②後ろの you see ＿ at the zoo は see の O が欠けた不完全な文です。欠けた O の代わりになる What が入り、M にしかならない When や Why は入りません。③の時や数の手がかりは、時制（単元2）や名詞の数（単元13）の問題で使います。
+    - p: たとえば (＿) did you see at the zoo? では、①空所は文の頭にあり、②後ろの you see ＿ at the zoo は see の O が欠けた不完全な文です。欠けた O の代わりになる What や Who が入り、M にしかならない When や Why は入りません。③の時や数の手がかりは、時制（単元2）や名詞の数（単元13）の問題で使います。
     - check:
       - q: My sister got a letter from her friend. の got の意味は？
         a: 手に入れた（受け取った）。後ろが名詞で SVO。
@@ -400,7 +413,7 @@ chapters:
         a: 完全な文（Where は場所を表す M）
     examples:
     - id: e0119
-      en: Lily *got* a ticket (for the concert).
+      en: Lily *got* a ticket for the concert.
       ja: リリーはそのコンサートのチケットを手に入れた。
     - id: e0120
       en: It *got* dark (around six).
@@ -432,7 +445,7 @@ chapters:
       point: 疑問詞は、後ろの不完全な文で欠けている要素の代わりをする。M（for dinner・last night・in English）は欠けていても数えない。
     summary:
     - "同じ動詞でも文型で意味が変わる。get＋名詞は「〜を{{手に入れる}}」、get＋形容詞は「{{〜になる}}」、find O C は「O が C だと{{わかる}}」。"
-    - "その動詞の文型に必要な S・O・C（と前置詞の後ろの名詞）がそろった文を{{完全な文}}、1つ欠けた文を{{不完全な文}}という。M は関係{{しない}}。"
+    - "S・O・C と前置詞の後ろの名詞のうち、要るものがどれも欠けていない文を{{完全な文}}、どれかが欠けている文を{{不完全な文}}という。M の有無は関係{{しない}}。"
     - "4択の共通手順：①空所は文の{{どの要素}}か　②空所の後ろが{{完全な文}}か不完全な文か　③時・数・意味の{{手がかり}}の語はどれか"
 problems:
 # ---- 前提チェック ----
@@ -534,9 +547,9 @@ problems:
   kind: 正誤
   min: 1
   inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
-  q: Many students __study__① in the new library __after school__② because it __is__③ very __quietly__④.
+  q: Many students __study__① in the new library __after school__② __because__③ it is very __quietly__④.
   ans: "4"
-  why: because の後ろの it is ～ では、is の後ろは「図書館がどんな状態か」を表す C。C には形容詞を置くので、quietly ではなく quiet にする。
+  why: because の後ろの it is ～ では、is の後ろは「図書館がどんな状態か」を表す C。C には形容詞を置くので、quietly ではなく quiet にする。①study は習慣を表す現在形、②after school は時を表す M、③because は理由を表す接続詞で、どれも正しい。
   trap: 「静かに」という日本語から quietly を正しいと思う誤り。be 動詞の後ろで S の状態を表すのは形容詞である。
 # ---- s012 ----
 - id: q01010
@@ -648,9 +661,9 @@ problems:
   kind: 正誤
   min: 1
   inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
-  q: __With__① his own money, Tom __bought__② a nice bag __to__③ his __mother__④.
+  q: __With__① his own money, Tom bought a __nice__② bag __to__③ his mother __on__④ her birthday.
   ans: "3"
-  why: buy は相手のために自分でする動作なので、bought a nice bag for his mother とする。①With his own money は「自分のお金で」を表す M で正しい。
+  why: buy は相手のために自分でする動作なので、bought a nice bag for his mother とする。①With his own money は「自分のお金で」を表す M、②nice は bag を説明する形容詞、④on her birthday は日を表す M で、どれも正しい。
   trap: 「母に買った」の「に」から to を正しいと思う誤り。buy の書きかえは for である。
 - id: q01020
   sec: s013
@@ -777,11 +790,11 @@ problems:
   lv: 1
   kind: 英作
   min: 2
-  inst: 日本語の意味になるように、下線部に英語を入れて文を完成させなさい。
-  q: 空は急に暗くなった。<br>The sky suddenly ＿＿＿＿.
+  inst: 日本語の意味になるように、（　）に英語を入れて文を完成させなさい（語数は自由）。
+  q: 空は急に暗くなった。<br>The sky suddenly (＿).
   ans: The sky suddenly got dark.
-  alt: [The sky suddenly became dark., The sky suddenly grew dark., The sky suddenly went dark.]
-  why: 「〜になる」は SVC の get・become で表し、C に形容詞 dark を置く。採点の目安：get／became／grew／went のどれかと形容詞 dark を使い、過去形にしていれば正解。darkly、got darkness は不可。
+  alt: [The sky suddenly became dark., The sky suddenly grew dark., The sky suddenly went dark., The sky suddenly turned dark.]
+  why: 「〜になる」は SVC の get・become で表し、C に形容詞 dark を置く。採点の目安：got／became／grew／went／turned（過去形）のどれかの後ろに形容詞 dark を置いていれば正解。darkly、got darkness は不可。
   trap: got darkly と副詞を置く誤り。「暗く」と訳しても、空の状態を表す C なので形容詞を使う。
 - id: q01031
   sec: s015
@@ -863,7 +876,8 @@ problems:
   inst: 日本語の意味になるように、（　）に適切な語を1語入れなさい。
   q: その歌手は若い人たちの間で有名になった。<br>The singer (＿) famous among young people.
   ans: became
-  alt: [got]
+  alt: [got, grew]
+  ref: s012
   why: 後ろに形容詞 famous があり、The singer＝famous の関係なので SVC。「〜になる」を表す become を過去形 became にして入れる。
   trap: was を入れる誤り。was famous は「有名だった」で状態を表し、「有名になった」という変化を表さない。
 - id: q01038
@@ -885,9 +899,9 @@ problems:
   kind: 正誤
   min: 1
   inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
-  q: My grandmother __is__① still __healthily__② and __walks__③ __for an hour__④ every day.
+  q: My grandmother is __still__① __healthily__② and __walks__③ for an hour __every day__④.
   ans: "2"
-  why: is の後ろは「祖母がどんな状態か」を表す C。C には形容詞を置くので、healthily ではなく healthy にする。
+  why: is の後ろは「祖母がどんな状態か」を表す C。C には形容詞を置くので、healthily ではなく healthy にする。①still（今でも）は副詞、③walks は習慣を表す現在形、④every day は時を表す M で、どれも正しい。
   trap: still の後ろだから副詞と考えて healthily を正しいと思う誤り。still を外すと、is の後ろの C の位置である。
 - id: q01040
   sec: s013
@@ -908,9 +922,9 @@ problems:
   kind: 正誤
   min: 1
   inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
-  q: The train __reached__① __at__② Kyoto Station __about__③ ten minutes __late__④.
-  ans: "2"
-  why: reach は他動詞なので、後ろに O の Kyoto Station を直接置く。at を取り、reached Kyoto Station とする。④late は「遅れて」の意味の副詞で正しい。
+  q: The train __reached at__① Kyoto Station __about__② ten minutes __late__③ __because of__④ the heavy snow.
+  ans: "1"
+  why: reach は他動詞なので、後ろに O の Kyoto Station を直接置く。①reached at を reached Kyoto Station（または arrived at Kyoto Station）とする。③late は「遅れて」の意味の副詞、④because of は「〜のために」で、どちらも正しい。
   trap: arrive at と混ぜて reach at を正しいと思う誤り。同じ「〜に着く」でも、reach は前置詞をとらない。
 - id: q01042
   sec: s014

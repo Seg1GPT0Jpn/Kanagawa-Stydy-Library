@@ -217,12 +217,15 @@ def gojuon_row(yomi):
 # 表紙・凡例・奥付（仮。表紙は試作で決める）
 # ====================================================================
 def cover_html(bk, part):
-    from cover import relclause_svg, EG01
+    from cover import relclause_svg, EG01, pattern_svg, G1
     b = bk.data['book']
+    fig = pattern_svg(**G1) if b['id'] == 'g1' else relclause_svg(**EG01)
+    note = ('英文は、文の要素 S・V・O・C の並びで意味が決まる。<br>中学の文法から、大学入学共通テスト・GMARCH 個別試験の水準まで。' if b['id'] == 'g1'
+            else '関係詞節は、欠けた語の代わりに先行詞を後ろから説明する。<br>大学入学共通テスト・GMARCH 個別試験の水準まで。')
     return f'''<div class="cv"><div class="cv-series"><span>{E(b["series"])}</span><span>{E(b["vol"])}</span></div>
 <div class="cv-title"><span class="cv-vol">{E(b["vol"])}</span>【{E(b["title"])}】</div><div class="cv-sub">{E(part)}</div>
-<div class="cv-fig">{relclause_svg(**EG01)}</div>
-<div class="cv-note">関係詞節は、欠けた語の代わりに先行詞を後ろから説明する。<br>大学入学共通テスト・GMARCH 個別試験の水準まで。</div>
+<div class="cv-fig">{fig}</div>
+<div class="cv-note">{note}</div>
 <div class="cv-pub">{E(b["publisher"])}</div></div>'''
 
 
@@ -743,7 +746,8 @@ def honbun_blocks(bk, pages, part, cover, colophon, legend):
             out.extend(problem_blocks(bk, pages, probs, wide=True))
         probs = [p for p in bk.problems if p['set'] == '確認テスト' and p['home'] == ch['id']]
         if probs:
-            out.append(blk(prob_header(bk, f'{CHL(ch)}　確認テスト', probs, '前の単元の問題も混ざる　答え → 別冊（診断表つき）'), 'sech keepnext newpage wide', anchor='test' + ch['id'], section=f'{CHL(ch)}　確認テスト'))
+            mixed = any(bk.ch_of[p['sec']]['id'] != ch['id'] for p in probs)
+            out.append(blk(prob_header(bk, f'{CHL(ch)}　確認テスト', probs, ('前の単元の問題も混ざる' if mixed else '節を混ぜて出題') + '　答え → 別冊（診断表つき）'), 'sech keepnext newpage wide', anchor='test' + ch['id'], section=f'{CHL(ch)}　確認テスト'))
             out.extend(problem_blocks(bk, pages, probs, wide=True))
     out.extend(mock_blocks(bk, pages, wide=True))
     out.extend(sougou_blocks(bk, pages))

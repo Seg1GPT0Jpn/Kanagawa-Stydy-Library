@@ -21,13 +21,13 @@ chapters:
     - p: '@e0203 の lives は今の住まい（状態）、walks は毎日くり返すこと（習慣）です。日本語では「住んでいて」「通っている」と「〜ている」の形になりますが、英語は現在形です。主語が3人称単数（he・she・it や、my cousin のように1人・1つを表す名詞）のとき、現在形の動詞には -s か -es が付きます。'
       notes:
       - kind: 参照
-        text: 動詞は文の要素の V にあたる（@s011）。英語では V の形で「いつの話か」を表す。
+        text: 動詞は文の要素の V にあたる（@s011 の (2)「文の要素 S・V・O・C・M」）。英語では V の形で「いつの話か」を表す。
     - h: 過去形は「もう終わった出来事」
     - p: 過去形は、過去のある時に起きて、もう終わった出来事を表します（@e0204）。this morning（今朝）は「今日」の一部ですが、話している時点で終わっていれば過去形を使います。過去形は1回の出来事だけでなく、@e0205 のように過去にくり返していた習慣も表せます。
     - ex:
       - e0204
       - e0205
-    - p: 現在形か過去形かを決めるとき、最初に探すのは時を表す語句です。every morning・usually・on Sundays は現在形、yesterday・last week・two years ago・in 2020 は過去形の手がかりになります。こうした語句は文の要素では M（修飾語）にあたり、文型には数えませんが、時制を決める手がかりになります。@e0205 の［When I was ten］のように、S＋V をふくむ節が時を表すこともあります。
+    - p: 現在形か過去形かを決めるとき、最初に探すのは時を表す語句です。yesterday・last week・two years ago・in 2020 は過去形の手がかりです。every morning・usually・on Sundays は、過去の時を表す語句がなければ現在形の手がかりになります（@e0205 のように、過去の話の中なら every summer があっても過去形です）。こうした語句は文の要素では M（修飾語）にあたり、文型には数えませんが、時制を決める手がかりになります。@e0205 の［When I was ten］のように、S＋V をふくむ節が時を表すこともあります。
     - h: 動詞の形の作り方
     - p: 3人称単数現在の -s と過去形の -ed には、つづりの規則があります。不規則動詞は1つずつ覚えますが、入試に出るのは go・buy・catch・take などの基本の動詞がほとんどです。下の表で、赤字を隠して言えるか確かめます。
     - table:
@@ -53,7 +53,7 @@ chapters:
           - -s
           - -d だけ
           - live → {{lives}}／{{lived}}
-        - - 短い母音＋子音字1つ（stop・plan・drop）
+        - - 短い母音＋子音字1つで終わる1音節の語（stop・plan・drop）
           - -s
           - 子音字を重ねて -ed
           - stop → {{stops}}／{{stopped}}
@@ -61,6 +61,9 @@ chapters:
           - -s・-es（have → has、go → goes）
           - 形が変わる
           - buy → {{bought}}、catch → {{caught}}、go → {{went}}
+      notes:
+      - kind: 注意
+        text: 子音字を重ねるのは、1音節の語と、2音節以上で最後の音節を強く読む語（prefer → preferred）だけ。visit → visited、open → opened、listen → listened は重ねない。w・x・y で終わる語（snow・fix・play）も重ねない。
     - check:
       - q: My sister (＿) the dishes every evening.（wash）
         a: washes
@@ -89,14 +92,14 @@ chapters:
       en: '[When I was ten], I *swam* in the river near my grandparents'' house every summer.'
       ja: 10歳のころ、私は毎年夏に祖父母の家の近くの川で泳いだ。
     worked:
-    - q: 次の英文の（ ）内の動詞を適切な形にしなさい。<br>My brother (study) math in the library every Saturday.
+    - q: 次の英文の（　）内の動詞を適切な形にしなさい。<br>My brother (study) math in the library every Saturday.
       steps:
       - 空所は文の V（動詞）にあたる。まず時を表す語句を探すと、文の終わりに every Saturday（毎週土曜日に）がある。
       - every Saturday は毎週くり返すこと、つまり習慣を表すので、現在形を使う。
       - 主語 My brother は3人称単数なので -s を付ける。study は「子音字＋y」で終わるので、y を i に変えて -es を付ける。
       ans: studies
       point: 時を表す語句 → 現在か過去か → 主語の人称と数、の順に確かめる。studys と書く誤りが多い。
-    - q: The bakery near our station (＿) at seven every morning, so I often buy bread there on my way to school.
+    - q: （　）に入る最も適切なものを1つ選びなさい。<br>The bakery near our station (＿) at seven every morning, so I often buy bread there on my way to school.
       choices:
       - opens
       - is opening
@@ -111,7 +114,7 @@ chapters:
     summary:
     - 現在形は、今の{{習慣}}や、いつも変わらない{{事実}}・状態を表す。「今まさに〜している」は{{進行形}}で表す。
     - 過去形は、過去のある時に起きて{{終わった}}出来事や、過去の習慣を表す。
-    - every morning・usually は{{現在形}}、yesterday・last week・～ ago は{{過去形}}の手がかり。
+    - yesterday・last week・～ ago は{{過去形}}の手がかり。every morning・usually は、過去の時を表す語句がなければ{{現在形}}の手がかり。
     - study → {{studies}}／{{studied}}　stop → {{stopped}}　buy → {{bought}}
   - id: s022
     title: 進行形と状態動詞
@@ -168,7 +171,7 @@ chapters:
       - q: Look. My dog (＿) under the table.（sleep）
         a: is sleeping
     - h: 現在進行形で、決まっている予定を表す
-    - p: 現在進行形に next weekend や tomorrow のような未来の時を表す語句を付けると、「〜することになっている」という予定を表します（@e0212）。切符を買った、約束をした、のように準備が進んでいる予定に使います。未来の表し方は、次の節（@s023）で will・be going to と比べます。
+    - p: 現在進行形に next weekend や tomorrow のような未来の時を表す語句を付けると、「〜することになっている」という予定を表します（@e0212）。切符を買った、約束をした、のように準備や約束ができている予定に使います。未来の表し方は、次の節（@s023）で will・be going to と比べます。
     - ex:
       - e0212
     examples:
@@ -200,7 +203,7 @@ chapters:
       en: We *are visiting* our grandparents in Akita next weekend.
       ja: 私たちは来週末、秋田の祖父母を訪ねることになっている。
     worked:
-    - q: I (＿) your sister well. We are in the same tennis club.
+    - q: （　）に入る最も適切なものを1つ選びなさい。<br>I (＿) your sister well. We are in the same tennis club.
       choices:
       - know
       - am knowing
@@ -217,13 +220,13 @@ chapters:
       - 下線部を1つずつ確かめる。①are は主語 My sister and I（2人なので複数）に合っている。
       - ②の resemble は「似ている」という状態を表す状態動詞なので、進行形にしない。主語は I なので resemble とする。
       - ③looks like（〜のように見える）は今の様子を表す現在形で正しい。④our は「私」と姉（妹）の2人の母を指すので正しい。
-      ans: '2'
-      point: 日本語の「似ている」につられて進行形にしない。resemble は他動詞なので、resemble to としないことにも気をつける（@s012）。
+      ans: ②（am resembling → resemble）
+      point: 日本語の「似ている」につられて進行形にしない。resemble は他動詞なので、resemble to としないことにも気をつける（@s012 の (2) の表）。
     summary:
     - 進行形「be 動詞＋-ing 形」は、ある時に動作が{{途中}}であることを表す。
     - know・belong to・resemble などの{{状態動詞}}は、ふつう進行形に{{しない}}。
     - have は「持っている」なら状態動詞、「{{食べる}}」の意味なら進行形にできる。
-    - 現在進行形＋未来の時を表す語句で、決まっている{{予定}}を表す。
+    - 現在進行形＋未来の時を表す語句で、準備や約束ができている{{予定}}を表す。
   - id: s023
     title: 未来の表し方と、時・条件の副詞節
     aim: will・be going to・現在進行形を使い分け、when・if の節が副詞節か名詞節かで中の時制を決められるようになる。
@@ -234,7 +237,7 @@ chapters:
       - e0213
       - e0214
       - e0215
-    - p: 前の節で見た現在進行形は、日時まで決まっている予定を表します（@e0212）。3つの形は意味が重なる部分も大きく、予想を表すときは will と be going to のどちらも使える場面がよくあります。入試の4択では、will と be going to の細かい違いより、次に見る「節の中の時制」がよく問われます。
+    - p: 前の節で見た現在進行形は、準備や約束ができている予定を表します（@e0212）。3つの形は意味が重なる部分も大きく、予想を表すときは will と be going to のどちらも使える場面がよくあります。入試の4択では、will と be going to の細かい違いより、次に見る「節の中の時制」がよく問われます。
       notes:
       - kind: 注意
         text: will の後ろも be going to の to の後ろも、動詞は原形。will going to や is going to snows は誤り。
@@ -251,10 +254,10 @@ chapters:
           - '{{前から決めていた}}こと、今の様子からの予想'
           - It is going to rain soon.
         - - 現在進行形
-          - 日時の決まった{{予定}}
+          - 準備や約束ができている{{予定}}
           - We are visiting them next weekend.
     - h: 時・条件を表す副詞節の中は現在形
-    - p: '@e0216 は、［When Ryan arrives］と we will start the meeting の2つの部分からできています。文の骨組み（S・V）をつくる we will start the meeting を<<主節>>、when や if などで始まり、主節にくっつく［ ］の部分を<<従属節>>といいます。［When Ryan arrives］は「いつ始めるか」を表し、文の中で M（修飾語）の働きをしています。副詞の働きをするこうした節を<<副詞節>>といいます。'
+    - p: '@e0216 は、［When Ryan arrives］と we will start the meeting の2つの部分からできています。［ ］を外してみると、We will start the meeting.（会議を始めます）が1つの文として残ります。文の骨組み（S・V）をつくる方を<<主節>>、when や if などで始まり、主節にくっつく［ ］の部分を<<従属節>>といいます。'
       notes:
       - kind: 用語
         term: 主節
@@ -264,26 +267,29 @@ chapters:
         term: 従属節
         yomi: じゅうぞくせつ
         text: when・if・because などで始まり、主節にくっついて文の一部になる節。本書では［ ］で示す。
+    - p: '［When Ryan arrives］は「いつ始めるか」を付け足していて、文の中で M（修飾語）の働きをしています。外しても主節が文として残るのは、M だからです。副詞の働き（M）をする従属節を<<副詞節>>といいます。'
+      notes:
       - kind: 用語
         term: 副詞節
         yomi: ふくしせつ
         text: 文の中で副詞の働き（M）をする節。時・条件・理由などを表す。外しても文の骨組みが残る。
-    - p: 時（when・after・before・until・as soon as）や条件（if・unless）を表す副詞節の中では、未来のことでも will を使わず、現在形で表します（@e0216、@e0217）。未来の話であることは主節の will で分かるので、副詞節の中は現在形にする、と覚えておきます。
+    - p: 時（when・after・before・until・as soon as）や条件（if・unless）を表す副詞節の中では、未来のことでも will を使わず、現在形で表します（@e0216、@e0217）。未来の話であることは主節（will や、Please wait here until ～. のような命令文）で分かるので、副詞節の中は現在形にする、と覚えておきます。
       notes:
       - kind: 注意
         text: if 節の中でも、If you will help me（手伝ってくださるなら）のように will が相手の「意志」を表すときは will を使う。この形は入試演習編で扱う。
     - ex:
       - e0216
       - e0217
-    - h: 名詞節の if・when の中は will を使う
-    - p: 同じ if・when でも、文の中で O（目的語）などになるときは別です。@e0218 の［when Sam will come back］は know の目的語で、「サムがいつ戻ってくるか」という意味です。名詞と同じ働き（S・O・C）をする節を<<名詞節>>といいます。名詞節の中では、未来のことは will を使って表します（@e0219）。
+    - h: 名詞節の if・when の中は will を使える
+    - p: 同じ if・when でも、文の中で O（目的語）などになるときは別です。@e0218 の［ ］を外すと I don't know. だけが残り、「何を知らないのか」が分からなくなります。［when Sam will come back］は know の O で、「サムがいつ戻ってくるか」という意味です。名詞と同じ働き（S・O・C）をする従属節を<<名詞節>>といいます。名詞節の when・if の後ろは、疑問文の語順にせず S＋V の語順にします。
+    - p: 名詞節の中には、副詞節のような「未来のことでも現在形にする」というきまりはありません。「〜だろう」という予想は、will を使って表します（@e0218、@e0219）。ただし、名詞節ならいつも will になるわけではありません。時刻表のように決まった予定は、名詞節でも現在形で言うことがよくあります（Do you know what time the concert starts?）。また I hope (that) it doesn't rain tomorrow. のように、hope の後ろの節でも現在形がふつうです。入試の問題では、「名詞節では未来の予想に will を使ってよい」ことを知っているかがよく問われます。
       notes:
       - kind: 用語
         term: 名詞節
         yomi: めいしせつ
         text: 文の中で名詞の働き（S・O・C）をする節。if（〜かどうか）・when（いつ〜か）・that などで始まる。
       - kind: 参照
-        text: 名詞節・副詞節と、名詞を後ろから説明する節は、単元9でまとめて表にする（@s092）。
+        text: 名詞節・副詞節と、名詞を後ろから説明する節は、単元9でまとめて表にする。
     - ex:
       - e0218
       - e0219
@@ -304,13 +310,13 @@ chapters:
           - '{{〜するとき}}'
           - '{{いつ〜か}}'
         - - 未来のことの形
-          - '{{現在形}}'
-          - '{{will＋原形}}'
+          - '{{現在形}}（will を使わない）'
+          - 予想なら{{will＋原形}}（現在形にするきまりはない。決まった予定は現在形も使う）
     - label: 時制の手順
       steps:
       - 時を表す語句（tomorrow・next week・yesterday など）を探す。
       - いつの話か（今か、過去か、未来か）を決める。単元3では、これを「基準の時」と呼んで考える（@s031）。
-      - 空所のある節が副詞節か名詞節かを確かめる。副詞節なら未来のことでも現在形、名詞節なら will を使う。
+      - 空所のある節が副詞節か名詞節かを確かめる。時・条件の副詞節なら未来のことでも現在形。名詞節には現在形にするきまりはなく、予想は will で表す。
     - check:
       - q: We will go out after the rain (＿).（stop）
         a: stops
@@ -342,7 +348,7 @@ chapters:
       - - New Year's Day
         - 元日
     worked:
-    - q: We will start dinner when Dad (＿) home.
+    - q: （　）に入る最も適切なものを1つ選びなさい。<br>We will start dinner when Dad (＿) home.
       choices:
       - comes
       - will come
@@ -354,22 +360,22 @@ chapters:
       - when Dad ＿ home は「父が帰ってきたら」という時を表す副詞節で、主節に対して M の働きをしている。副詞節の中は未来のことでも現在形なので、comes を選ぶ。
       ans: '1'
       point: 未来の話だからと will come を選ぶ誤りが多い。時・条件の副詞節の中は現在形で、未来であることは主節の will が表す。
-    - q: I don't know if Mr. Kondo (＿) us to the museum next Friday.
+    - q: （　）に入る最も適切なものを1つ選びなさい。<br>I don't know if it (＿) tomorrow, so I'll take an umbrella just in case.
       choices:
-      - takes
-      - will take
-      - took
-      - taking
+      - rains
+      - will rain
+      - rained
+      - raining
       steps:
-      - 空所は if の後ろの節の V。時を表す語句は next Friday で、未来の話。
+      - 空所は if の後ろの節の V。時を表す語句は tomorrow で、未来の話。
       - if の節が文の中で何をしているかを確かめる。I don't know の後ろで「何を知らないのか」にあたり、know の目的語（O）になっている。つまり名詞節で、if は「〜かどうか」の意味。
-      - 名詞節の中では未来のことを will で表すので、will take を選ぶ。took は過去で next Friday に合わず、taking だけでは V にならない。
+      - 名詞節には「現在形にする」というきまりはない。明日の天気は決まった予定ではなく予想なので、will rain を選ぶ。rained は過去で tomorrow に合わず、raining だけでは V にならない。
       ans: '2'
-      point: if を見たらすぐ現在形を選ぶのではなく、副詞節（もし〜なら）か名詞節（〜かどうか）かを先に確かめる。
+      point: if を見たらすぐ現在形を選ぶのではなく、副詞節（もし〜なら）か名詞節（〜かどうか）かを先に確かめる。名詞節で未来の予想を言うなら will。
     summary:
     - will は予想や{{その場で決めた}}こと、be going to は{{前から決めていた}}ことや今の様子からの予想を表す。
     - 時・条件を表す{{副詞節}}の中では、未来のことでも{{現在形}}を使う。
-    - know・wonder などの目的語になる if・when の節は{{名詞節}}で、未来のことは{{will}}で表す。
+    - know・wonder などの目的語になる if・when の節は{{名詞節}}で、副詞節のきまりは当てはまらない。未来の予想は{{will}}で表す。
     - if の意味：副詞節は「{{もし〜なら}}」、名詞節は「{{〜かどうか}}」
 problems:
 - id: q02001
@@ -413,6 +419,7 @@ problems:
   - are swimming
   - is swimming
   ans: '3'
+  ref: s022
   why: Look.（見て）から、今まさに起きていることだと分かる。現在進行形「be 動詞＋-ing 形」で、主語 Two boys は複数なので are swimming。
   trap: is swimming を選ぶ誤り。主語が複数なら be 動詞は are にする。
 - id: q02004
@@ -451,7 +458,7 @@ problems:
   inst: （　）内の動詞を適切な形に変えなさい（2語以上になる場合もある）。
   q: We (＿) a surprise party for our coach last month.（plan）
   ans: planned
-  why: last month（先月）は過去の時を表すので過去形。plan は「短い母音＋子音字1つ」で終わるので、n を重ねて -ed を付ける。
+  why: last month（先月）は過去の時を表すので過去形。plan は「短い母音＋子音字1つ」で終わる1音節の語なので、n を重ねて -ed を付ける。
   trap: planed と子音字を重ねずに書く誤り。stop → stopped、drop → dropped と同じ規則。
 - id: q02007
   sec: s021
@@ -704,8 +711,8 @@ problems:
   - arrived
   - arriving
   ans: '2'
-  why: if の節は wonder（〜だろうかと思う）の目的語になる名詞節で、「〜かどうか」の意味。名詞節の中では未来のことを will で表すので will arrive。
-  trap: if を見て現在形 arrives を選ぶ誤り。現在形にするのは「もし〜なら」の副詞節のとき。
+  why: if の節は wonder（〜だろうかと思う）の目的語になる名詞節で、「〜かどうか」の意味。名詞節には現在形にするきまりがなく、道路の雪で時間どおりに着くか分からないという予想なので will arrive。
+  trap: if を見て現在形 arrives を選ぶ誤り。「未来のことでも現在形」にするのは「もし〜なら」の副詞節のとき。
 - id: q02025
   sec: s023
   set: 節末
@@ -713,9 +720,9 @@ problems:
   kind: 正誤
   min: 1
   inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
-  q: Let's __wait__① here __until__② the rain __will stop__③. It __is__④ raining very hard now.
-  ans: '3'
-  why: until the rain ＿ は時を表す副詞節なので、未来のことでも現在形。will stop を stops にする。④is は今の様子を表す現在進行形の一部で正しい。
+  q: Let's __wait__① here until the rain __will stop__②. It __is__③ raining very hard __now__④.
+  ans: '2'
+  why: until the rain ＿ は時を表す副詞節なので、未来のことでも現在形。will stop を stops にする。③is は今の様子を表す現在進行形の一部、④now も今を表す語で正しい。
   trap: 雨がやむのはこれから先なので will stop を正しいと思う誤り。
 - id: q02026
   sec: s023
@@ -724,17 +731,16 @@ problems:
   kind: 整序
   min: 2
   inst: 日本語の意味になるように（　）内の語を並べかえなさい。
-  q: 次の電車がいつ来るか教えてください。<br>Please tell me ( come / next / the / train / when / will ).
+  q: 雪がいつやむのか、だれにも分からない。<br>Nobody knows ( snow / stop / the / when / will ).
   words:
-  - come
-  - next
+  - snow
+  - stop
   - the
-  - train
   - when
   - will
-  ans: Please tell me when the next train will come.
-  why: when the next train will come は tell me の O になる名詞節で、「いつ〜か」の意味。名詞節なので未来のことに will を使い、when の後ろは S＋V の語順にする。
-  trap: when will the next train come と疑問文の語順にする誤り。文の中に入った疑問の節は S＋V の語順になる（@s171）。
+  ans: Nobody knows when the snow will stop.
+  why: when the snow will stop は knows の O になる名詞節で、「いつ〜か」の意味。雪がやむ時は決まった予定ではなく予想なので will を使い、when の後ろは S＋V の語順にする。
+  trap: when will the snow stop と疑問文の語順にする誤り。文の中に入った疑問の節は S＋V の語順になる（@s171）。
 - id: q02027
   sec: s023
   set: 節末
@@ -811,8 +817,8 @@ problems:
   inst: （　）内の動詞を適切な形に変えなさい（2語以上になる場合もある）。
   q: My brother (＿) his phone on the way home yesterday.（drop）
   ans: dropped
-  why: yesterday は過去の時を表すので過去形。drop は「短い母音＋子音字1つ」で終わるので、p を重ねて -ed を付ける。
-  trap: droped と子音字を重ねずに書く誤り。
+  why: yesterday は過去の時を表すので過去形。drop は「短い母音＋子音字1つ」で終わる1音節の語なので、p を重ねて -ed を付ける。
+  trap: droped と子音字を重ねずに書く誤り。visit → visited のように2音節で最後を強く読まない語は重ねないが、drop は1音節なので重ねる。
 - id: q02033
   sec: s023
   set: 確認テスト
@@ -820,17 +826,17 @@ problems:
   kind: 整序
   min: 2
   inst: 日本語の意味になるように（　）内の語を並べかえなさい。
-  q: コンサートが何時に始まるか知っていますか。<br>Do you know ( concert / start / the / time / what / will )?
+  q: 明日の天気がどうなるか知っていますか。<br>Do you know ( be / like / the / weather / what / will ) tomorrow?
   words:
-  - concert
-  - start
+  - be
+  - like
   - the
-  - time
+  - weather
   - what
   - will
-  ans: Do you know what time the concert will start?
-  why: what time the concert will start は know の O になる名詞節。what time をひとかたまりにして節の頭に置き、その後ろは S＋V の語順。名詞節なので未来のことに will を使う。
-  trap: Do you know what time will the concert start? と疑問文の語順にする誤り。
+  ans: Do you know what the weather will be like tomorrow?
+  why: what the weather will be like tomorrow は know の O になる名詞節で、「天気がどんなふうになるか」の意味。明日の天気は予想なので will を使い、what の後ろは S＋V の語順にする。
+  trap: Do you know what will the weather be like tomorrow? と疑問文の語順にする誤り。
 - id: q02034
   sec: s022
   set: 確認テスト
@@ -865,15 +871,15 @@ problems:
   kind: 4択
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
-  q: Your plan sounds (＿). Can you tell me more about it?
+  q: The weather became (＿) in the afternoon, so I put on my coat.
   choices:
-  - interested
-  - interestingly
-  - interest
-  - interesting
-  ans: '4'
-  why: sound は SVC の文型をとり、「〜に聞こえる・思える」の意味。C には形容詞を置き、「計画がおもしろい」の関係なので interesting。
-  trap: 動詞の後ろだから副詞と考えて interestingly を選ぶ誤り。C（補語）になれるのは名詞か形容詞で、副詞は C にならない。
+  - coldly
+  - cold
+  - coldness
+  - colds
+  ans: '2'
+  why: become は「〜になる」の意味で SVC の文型をとる。The weather was cold. が成り立つので空所は C で、形容詞の cold を置く。
+  trap: 動詞の後ろだから副詞と考えて coldly を選ぶ誤り。C（補語）になるのは名詞か形容詞。名詞の coldness は The weather＝coldness にならない。
 - id: q02037
   sec: s014
   set: 確認テスト

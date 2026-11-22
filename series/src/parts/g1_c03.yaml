@@ -2,7 +2,7 @@ chapters:
 - id: c03
   title: 完了形
   lead: この単元では、have＋過去分詞の形をもつ「完了形」を学びます。過去の出来事を「今」「過去のある時」「未来のある時」につなげて述べる形です。時を表す語句を手がかりに、過去形・現在完了・過去完了・未来完了を選べるようになります。
-  intro: 中学3年で、have（has）＋過去分詞の現在完了を習いました。I have finished my homework.（宿題を終えたところだ）や I have visited Nara twice.（奈良に2回行ったことがある）のような文です。疑問文は Have you ～? で始め、答えは Yes, I have.／No, I haven't. になります。否定文は have not（haven't）＋過去分詞です。過去分詞には played のように過去形と同じ形のものと、eaten・seen・gone のように別の形のものがあるので、動詞の変化形を単元2（@s021）で確かめてから進んでください。
+  intro: 中学3年で、have（has）＋過去分詞の現在完了を習いました。I have finished my homework.（宿題を終えたところだ）や I have visited Nara twice.（奈良に2回行ったことがある）のような文です。疑問文は Have you ～? で始め、答えは Yes, I have.／No, I haven't. になります。否定文は have not（haven't）＋過去分詞です。過去分詞には played のように過去形と同じ形のものと、eaten・seen・gone のように別の形のものがあります。この単元と単元4・5で使う過去分詞は、3-1 の表（@s031）で確かめてから進んでください。
   sections:
   - id: s031
     title: "現在完了の3つの意味"
@@ -18,7 +18,13 @@ chapters:
       - kind: 用語
         term: 基準の時
         yomi: きじゅんのとき
-        text: "完了形で「その時までに」「その時まで」の「その時」にあたる時点。現在完了では今、過去完了では過去のある時、未来完了では未来のある時。完了不定詞・完了動名詞・完了分詞では主節の時が基準の時になり、それより前のことを表す。"
+        text: "完了形で「その時までに」「その時まで」の「その時」にあたる時点。現在完了では今、過去完了では過去のある時、未来完了では未来のある時。"
+    - p: 疑問文は Have／Has を主語の前に出し（Have you ever been to Nara?）、答えは Yes, I have.／No, I haven't. です。否定文は have not（haven't）＋過去分詞です。過去分詞は、規則動詞なら過去形と同じ -ed の形（played・stopped。つづりは @s021 の表）ですが、不規則動詞は1つずつ覚えます。この単元と単元4・5で使うものを表にします。
+    - table:
+        head: [変化の型, 原形－過去形－過去分詞]
+        rows:
+        - [3つとも違う形, "go－went－{{gone}}、eat－ate－{{eaten}}、see－saw－{{seen}}、take－took－{{taken}}、give－gave－{{given}}、write－wrote－{{written}}、ride－rode－{{ridden}}、forget－forgot－{{forgotten}}、speak－spoke－{{spoken}}、break－broke－{{broken}}、steal－stole－{{stolen}}、know－knew－{{known}}、show－showed－{{shown}}、sing－sang－{{sung}}、be－was／were－{{been}}"]
+        - [過去形と過去分詞が同じ, "buy－bought－{{bought}}、make－made－{{made}}、have－had－{{had}}、leave－left－{{left}}、lose－lost－{{lost}}、send－sent－{{sent}}、build－built－{{built}}、find－found－{{found}}"]
     - h: 3つの意味は、いっしょに使う語で見分ける
     - p: 現在完了には「〜したところだ・〜してしまった」（完了・結果）、「〜したことがある」（経験）、「ずっと〜している」（継続）の3つの意味があります。形は同じなので、どの意味かは、いっしょに使われている語で決めます。@e0301 は just があるので完了、@e0302 は three times があるので経験、@e0303 は since があるので継続です。継続の意味になるのは、know や be のように状態を表す動詞や、live・work のように長く続くことを表す動詞のときです。play や run のような動作を表す動詞で「ずっと〜している」と言うときは、次の節の形を使います（@s032）。
     - ex: [e0301, e0302, e0303]
@@ -34,7 +40,7 @@ chapters:
       - kind: 注意
         text: "アメリカ英語では、already・just・yet を過去形といっしょに使うこともある（I already ate lunch.）。ただし yesterday・～ ago のような過去の時を表す語と現在完了を組み合わせることはない。"
     - ex: [e0304, e0305]
-    - p: 「〜に行ったことがある」は have been to ～ で表します（@e0302）。have gone to ～ は「行ってしまって、今ここにいない」という完了・結果の意味になります。He has gone to Osaka. は「彼は大阪へ行ってしまった（今ここにはいない）」です。話し手の「私」は今ここにいるので、have gone to の主語はふつう3人称です。
+    - p: 「〜に行ったことがある」は have been to ～ で表します（@e0302）。have gone to ～ は「行ってしまって、今ここにいない」という完了・結果の意味になります。He has gone to Osaka. は「彼は大阪へ行ってしまった（今ここにはいない）」です。話し手の「私」も話し相手の「あなた」も今ここにいるので、have gone to の主語はふつう I・you 以外（3人称）です。
       notes:
       - kind: 注意
         text: "アメリカ英語の話し言葉では、have gone to を「行ったことがある」の意味で使うこともある。入試では have been to＝経験、have gone to＝行ってしまって今いない、と区別して答える。"
@@ -63,14 +69,14 @@ chapters:
       en: I *lost* my train pass last Friday, but I found it the next day.
       ja: 先週の金曜日に定期券をなくしたが、次の日に見つかった。
     worked:
-    - q: My grandmother has climbed Mt. Fuji twice.
+    - q: 次の英文を日本語に訳しなさい。<br>My grandmother has climbed Mt. Fuji twice.
       steps:
       - 動詞の形を見る。has climbed は has＋過去分詞なので現在完了。基準の時は今。
       - いっしょに使われている語を探す。twice（2回）は回数を表す語。
       - 回数を言っているので経験の意味。「〜したことがある」と訳す。
       ans: 祖母は富士山に2回登ったことがある。
       point: 「祖母は富士山に2回登った」だけでは、いつの話か分からない。経験の現在完了は「〜したことがある」と訳し、今までをふり返った文であることを示す。
-    - q: "__We__① __have visited__② the science museum __with__③ our class last Saturday, and the planetarium show __was__④ great."
+    - q: "下線部①〜④のうち、誤りをふくむものを1つ選びなさい。<br>__We__① __have visited__② the science museum __with__③ our class last Saturday, and the planetarium show __was__④ great."
       steps:
       - 時を表す語句を探す。last Saturday（この前の土曜日）は、はっきり過去の時を表す。
       - 基準の時を考える。この前の土曜日の出来事は今と切り離された過去のことなので、過去形で述べる。
@@ -89,6 +95,8 @@ chapters:
     - h: 動作の継続は have been doing
     - p: 「2時間ずっとギターを練習している」のように、動作が過去から今まで続いていることを言うときは、<<現在完了進行形>>（have／has been＋-ing 形）を使います（@e0306、@e0307）。基準の時は現在完了と同じく今です。その動作が今も続いていることや、ついさっきまで続いていたことを表します。@e0307 の「指が痛い」は、さっきまで練習していた結果です。
       notes:
+      - kind: 注意
+        text: 本書では、動詞の形を do（原形）・doing（-ing 形）・done（過去分詞）の記号で示すことがある。have been doing は「have been＋-ing 形」、have done は「have＋過去分詞」のこと。
       - kind: 用語
         term: 現在完了進行形
         yomi: げんざいかんりょうしんこうけい
@@ -119,7 +127,7 @@ chapters:
       ja: 今朝早くからずっと雨が降っている。
     - id: e0307
       en: Sho *has been practicing* the guitar for two hours, so his fingers hurt.
-      ja: ショウは2時間ずっとギターを練習しているので、指が痛い。
+      ja: ショウは2時間ずっとギターを練習していたので、指が痛い。
     - id: e0308
       en: We *have lived* in this town [since I was five].
       ja: 私たちは、私が5歳のときからこの町に住んでいる。
@@ -127,15 +135,15 @@ chapters:
       en: I *have known* Rin for six years, but I have never seen her angry.
       ja: リンとは6年来の知り合いだが、彼女が怒ったところは一度も見たことがない。
     worked:
-    - q: Maya has been studying in the library (＿) two hours.
+    - q: （　）に入る最も適切なものを1つ選びなさい。<br>Maya has been studying in the library (＿) two hours.
       choices: [since, for, during, from]
       steps:
-      - 空所は文のどの要素かを考える（@s015）。has been studying で文の骨組みはそろっているので、空所から後ろは時を表す修飾語（M）。
+      - 空所は文のどの要素かを考える（4択の共通手順 @s015 の (3)）。has been studying で文の骨組みはそろっているので、空所から後ろは時を表す修飾語（M）。
       - 空所の後ろを見る。two hours（2時間）は期間の長さ。
       - 期間の長さの前に置くのは for。since の後ろは始まりの時点になる。
       ans: "2"
       point: during は during the summer vacation のように特定の期間の名前をとり、two hours のような長さだけの語句とはふつう組まない。from は from nine to eleven のように終わりの時点と組む。
-    - q: I (＿) (＿) Mr. Okada since I entered this school.（know）
+    - q: （　）内の動詞を適切な形にして、空所に1語ずつ入れなさい。<br>I (＿) (＿) Mr. Okada since I entered this school.（know）
       steps:
       - 時を表す語句を探す。since I entered this school（この学校に入学してから）は始まりの時点。
       - 基準の時は今。入学したときから今まで続いていることなので、継続の形にする。
@@ -167,7 +175,7 @@ chapters:
         text: "過去のある時（基準の時）より前に起きたことを、過去完了で表したもの。"
     - ex: [e0312]
     - h: 基準の時を未来に置くと未来完了
-    - p: <<未来完了>>（will have＋過去分詞）は、未来のある時を基準の時にして、「その時までに〜してしまっているだろう」（完了）や「その時で〜していることになる」（継続）を表します。基準の時は、by ～（〜までに）や by the time ～（〜する時までに）で示されることが多いです（@e0313、@e0314）。by the time の節は時を表す副詞節なので、未来のことでも中は現在形にし、will を入れません（@s023）。
+    - p: <<未来完了>>（will have＋過去分詞）は、未来のある時を基準の時にして、「その時までに〜してしまっているだろう」（完了）や「その時で〜していることになる」（継続）を表します。基準の時は、by ～（〜までに）や by the time ～（〜する時までに）で示されることが多いです（@e0313、@e0314）。by the time の節は時を表す副詞節なので、未来のことでも中は現在形にし、will を入れません（@s023 の (2)）。
       notes:
       - kind: 用語
         term: 未来完了
@@ -206,7 +214,7 @@ chapters:
       ja: 君が駅に着くころには、終電は出てしまっているだろう。
       gloss: [[the last train, 終電]]
     worked:
-    - q: When I called Sho at nine, he (＿) already gone to bed.
+    - q: （　）に入る最も適切なものを1つ選びなさい。<br>When I called Sho at nine, he (＿) already gone to bed.
       choices: [has, had, have, will have]
       steps:
       - 時を表す語句を探す。When I called Sho at nine（9時にショウに電話したとき）は過去のこと。
@@ -214,11 +222,11 @@ chapters:
       - 過去の基準の時までの完了なので、過去完了の had gone にする。
       ans: "2"
       point: 主語が he なので has を選びたくなるが、has gone は基準の時が今の形。when 節の called が、基準の時が過去であることを示している。
-    - q: By the time you come back from your trip, I (＿) this jigsaw puzzle.
+    - q: （　）に入る最も適切なものを1つ選びなさい。<br>By the time you come back from your trip, I (＿) this jigsaw puzzle.
       choices: [finished, have finished, will have finished, had finished]
       steps:
       - 時を表す語句を探す。By the time you come back（君が戻ってくる時までに）。come は現在形だが、旅行から戻るのはこれからのこと。
-      - 基準の時は未来。by the time の節は時を表す副詞節なので、未来のことでも現在形になっている（@s023）。
+      - 基準の時は未来。by the time の節は時を表す副詞節なので、未来のことでも現在形になっている（@s023 の (2)）。
       - 未来の基準の時までに完了していることなので、未来完了の will have finished を選ぶ。
       ans: "3"
       point: 節の中の come が現在形なので、主節も現在完了の have finished にしてしまいやすい。基準の時を決めるのは、節の動詞の形ではなく「これから戻る」という内容。
@@ -232,7 +240,7 @@ chapters:
     aim: 時を表す語句から基準の時を決め、過去形・現在完了・過去完了・未来完了を選べるようになる。
     body:
     - h: 時を表す語句が形を決める
-    - p: 完了形の問題の多くは、文の中の時を表す語句を見つけると解けます。単元2の時制の手順（@s023）を完了形まで広げて、次の順に問いを立てます。問い2で基準の時を決めれば、過去形・現在完了・過去完了・未来完了のどれを使うかが決まります。
+    - p: 完了形の問題の多くは、文の中の時を表す語句を見つけると解けます。単元2の時制の手順（@s023 の (3) の最後）を完了形まで広げて、次の順に問いを立てます。問い2で基準の時を決めれば、過去形・現在完了・過去完了・未来完了のどれを使うかが決まります。
     - label: 問い
       steps:
       - 時を表す語句を探す（yesterday、for、since、by the time など）。
@@ -246,17 +254,20 @@ chapters:
         - ["過去の基準の時＋～ before（その時より〜前に）、by the time＋過去形", "{{過去完了}}"]
         - ["by＋未来の時点、by the time＋現在形", "{{未来完了}}"]
     - h: When ～? と just now は過去形
-    - p: When は「いつ」と1つの時点をたずねる語なので、答えは last week のような過去の時になります。そのため、When で始まる疑問文には現在完了を使わず、過去形にします（@e0315）。期間をたずねるときは How long have you ～? を使います。just now（たった今）も、just とちがって過去の1点を表すので、過去形と使います（I finished it just now.）。
+    - p: When は「いつ」と1つの時点をたずねる語です。過去の出来事を When ～? でたずねるとき、答えは last week のような過去の1点になります。現在完了は「今までに」をふり返る形なので、1つの時点をたずねる When とは使わず、過去形にします（@e0315）。期間をたずねるときは How long have you ～? を使います。just now（たった今）も、just とちがって過去の1点を表すので、過去形と使います（I finished it just now.）。
       notes:
       - kind: 注意
         text: "When have you ever been late?（いつ遅刻したことがあるというのか＝一度もないだろう）のように、相手の言葉に言い返す言い方では When と現在完了を使うことがある。入試の基本問題では、When ～? には過去形を使う。"
     - ex: [e0315]
     - h: ago と before、for と過去形
-    - p: ago は「今から〜前」で、数え始める時はいつも今です。そのため過去形と使い、現在完了や過去完了とは使いません（@e0316）。「2か月前」のように before を使うときは、過去の基準の時から数えて「その時より〜前」を表し、過去完了と組みます（@e0317）。before が単独で「以前に」の意味なら、現在完了の経験と使えます（I have seen this movie before.）。
+    - p: ago は「今から〜前」で、数え始める時はいつも今です。そのため過去形と使い、現在完了とは使いません。過去完了とも、入試ではふつう組み合わせません（@e0316）。「2か月前」のように before を使うときは、過去の基準の時から数えて「その時より〜前」を表し、過去完了と組みます（@e0317）。before が単独で「以前に」の意味なら、現在完了の経験と使えます（I have seen this movie before.）。
+      notes:
+      - kind: 注意
+        text: 物語文などでは、過去完了と ago を組み合わせた文も実際には見られる。ただし入試では、過去の基準の時から数える「〜前」は ～ before で答える。
     - ex: [e0316, e0317]
     - p: for があっても、いつも現在完了になるとは限りません。My grandfather lived in Osaka for ten years. は、今はもう大阪に住んでいない、終わった過去の10年間の話なので過去形です。for は期間の長さを言うだけです。その期間が今まで続いているかどうかは、when he was young のような語句や文脈で決まります。
     - h: It has been ～ since …
-    - p: 「〜してから…になる」は、It has been ～ since S＋過去形. で表します（@e0318）。同じ内容は、ago を使った過去形の文（@e0319）や、for を使った現在完了の文（My family has lived in Fukuoka for four years.）でも言えます。It is ～ since … の形も使われます。
+    - p: 「〜してから…になる」は、It has been ～ since S＋過去形. で表します（@e0318）。同じ内容は、ago を使った過去形の文（@e0319）や、for を使った現在完了の文（My family has lived in Fukuoka for four years.）でも言えます。It is ～ since … の形も使われますが、入試では It has been ～ since … の形で答えます。
     - ex: [e0318, e0319]
     - check:
       - q: "(When have／When did) you come back from Hawaii?"
@@ -282,7 +293,7 @@ chapters:
       en: My family *moved* to Fukuoka four years *ago*.
       ja: 私の家族は4年前に福岡に引っ越した。
     worked:
-    - q: My brother left for Canada a week (＿).
+    - q: （　）に入る最も適切なものを1つ選びなさい。<br>My brother left for Canada a week (＿).
       choices: [ago, before, since, already]
       steps:
       - 時を表す語句を探す。a week（1週間）と空所で「〜前」を表すと考える。
@@ -290,12 +301,12 @@ chapters:
       - 今から数えた「〜前」は ago。
       ans: "1"
       point: before を「〜前」の意味で使うのは、過去の基準の時から数えるとき（過去完了の文）。since や already を a week の後ろに置いても「1週間前に」の意味にはならない。
-    - q: "A: __When__① __have you visited__② the new aquarium?<br>B: I went there __last Sunday__③ __with__④ my cousin."
+    - q: "下線部①〜④のうち、誤りをふくむものを1つ選びなさい。<br>A: When __have you visited__① the new __aquarium__②?<br>B: I __went__③ there last Sunday __with__④ my cousin."
       steps:
       - 時を表す語句を探す。A は When（いつ）とたずね、B は last Sunday と答えている。
       - 基準の時を考える。たずねているのは過去の1点（この前の日曜日）なので、今までをふり返る現在完了は合わない。
-      - When ～? には過去形を使うので、②を did you visit に直す。①When は B の答え last Sunday と合っているので正しい。
-      ans: ②（have you visited → did you visit）
+      - When ～? には過去形を使うので、①を did you visit に直す。③went は last Sunday の出来事なので過去形で正しい。②④も正しい。
+      ans: ①（have you visited → did you visit）
       point: 現在完了は「今までに」をふり返る形なので、「いつ」という1点をたずねられない。期間をたずねるなら How long have you ～? になる。
     summary:
     - yesterday・～ ago・just now・When ～? は {{過去形}} と使う。
@@ -498,8 +509,8 @@ problems:
   lv: 2
   kind: 英作
   min: 3
-  inst: 日本語の意味になるように、下線部に入る英語を書きなさい。
-  q: 姉は今朝からずっと自分の部屋で数学を勉強している。<br>My sister ＿＿＿＿ in her room since this morning.
+  inst: 日本語の意味になるように、（　）に入る英語を書きなさい（語数は自由）。
+  q: 姉は今朝からずっと自分の部屋で数学を勉強している。<br>My sister (＿) in her room since this morning.
   ans: has been studying math
   alt: [has been studying mathematics]
   why: 今朝から今まで勉強する動作が続いているので現在完了進行形。主語 My sister は3人称単数なので has been studying。math（数学）を目的語に置けていれば正解。
@@ -571,9 +582,9 @@ problems:
   kind: 正誤
   min: 1
   inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
-  q: __By the time__① you __will come__② back, I __will have washed__③ all the dishes __in__④ the sink.
+  q: By the time __you__① __will come__② back, I __will have washed__③ all the dishes __in__④ the sink.
   ans: "2"
-  why: by the time の節は時を表す副詞節なので、未来のことでも現在形にする（@s023）。will come を come に直す。③は未来の基準の時までの完了で正しい。
+  why: by the time の節は時を表す副詞節なので、未来のことでも現在形にする（@s023 の (2)）。will come を come に直す。③は未来の基準の時までの完了で正しい。①you は節の主語、④in the sink は場所を表す M で、どちらも正しい。
   trap: 主節の will have washed を誤りと考える誤り。主節は未来完了で正しく、will を入れてはいけないのは節の中である。
 - id: q03024
   sec: s033
@@ -642,10 +653,10 @@ problems:
   kind: 正誤
   min: 1
   inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
-  q: When I __visited__① my old school __last month__②, the music teacher __had retired__③ two years __ago__④.
+  q: When I __visited__① my __old__② school last month, the music teacher had retired __two years__③ __ago__④.
   ans: "4"
-  why: 先月訪ねた時（過去の基準の時）から数えて「2年前」なので before を使う。ago は今から数えるので、過去完了とは使わない。
-  trap: ③had retired を誤りと考える誤り。退職したのは訪ねた時より前なので、過去完了で正しい。
+  why: 先月訪ねた時（過去の基準の時）から数えて「2年前」なので、ago ではなく before を使う。ago は今から数えるので、入試では過去完了と組み合わせない。退職は訪ねた時より前なので、had retired の過去完了は正しい。
+  trap: ③two years を誤りと考える誤り。期間の長さはそのままでよく、問題は「何から数えて〜前か」を表す ago の方である。
 - id: q03030
   sec: s034
   set: 節末
@@ -747,11 +758,11 @@ problems:
   kind: 整序
   min: 2
   inst: 日本語の意味になるように（　）内の語を並べかえなさい。
-  q: 来週の金曜日までには、この本を読み終えているだろう。<br>I ( book / by / finished / have / reading / this / will ) next Friday.
-  words: [book, by, finished, have, reading, this, will]
-  ans: I will have finished reading this book by next Friday.
-  why: 未来の基準の時（来週の金曜日）までの完了なので、未来完了 will have finished。finish の後ろは reading this book、最後に by next Friday を置く。
-  trap: I will finished have … のように have の位置をまちがえる誤り。未来完了は will＋have＋過去分詞の順で、will の後ろの have は原形のまま。
+  q: 来週の金曜日までには、この本を読み終えているだろう。<br>I ( book / by / have / read / this / will ) next Friday.
+  words: [book, by, have, read, this, will]
+  ans: I will have read this book by next Friday.
+  why: 未来の基準の時（来週の金曜日）までの完了なので、未来完了 will have read（read の過去分詞は read）。O の this book を後ろに置き、最後に by next Friday を置く。
+  trap: I will read have … のように have の位置をまちがえる誤り。未来完了は will＋have＋過去分詞の順で、will の後ろの have は原形のまま。
 - id: q03039
   sec: s034
   set: 確認テスト
