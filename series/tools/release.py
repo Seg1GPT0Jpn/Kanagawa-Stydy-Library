@@ -61,6 +61,8 @@ def main(bid):
         if key == 'honsatsu' and 'vol2' in anchors:
             n = len(PdfReader(pdf).pages); v2 = anchors['vol2']
             split(pdf, 1, v2 - 1, src / f'{key}_上巻.pdf'); split(pdf, v2, n, src / f'{key}_下巻.pdf')
+            shutil.copy(pdf, dst / f'{bid}_{name}_上下巻まとめ_p1-{n}_A4.pdf')   # 画面で読む人・まとめて印刷する人のための1冊
+            print(f'{name}_上下巻まとめ: {n} ページ（A4。面付けなし）')
             emit(src / f'{key}_上巻.pdf', dst, bid, f'{name}_上巻_p1-{v2 - 1}', src)
             emit(src / f'{key}_下巻.pdf', dst, bid, f'{name}_下巻_p{v2}-{n}', src)
         else:
