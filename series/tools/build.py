@@ -162,7 +162,7 @@ class Book:
             if k not in self.sec_no:
                 if k in getattr(self, 'all_secs', {}):
                     c = self.all_secs[k]   # まだ組んでいない単元の節：章の番号で示す（執筆途中のときだけ起きる）
-                    return f'<span class="pref" data-ref="later">→&nbsp;第{int(c["id"][1:])}章</span>'
+                    return f'<span class="pref" data-ref="later">→&nbsp;単元{int(c["id"][1:])}</span>'
                 raise SystemExit(f'節 ID がない: {k}')
             # 節への参照は常に完全解説book のページを指す（完全解説book を組むときは自分のページ）
             p = (self.pages or pages or {}).get(k)

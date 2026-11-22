@@ -17,7 +17,7 @@ def canon(s):
 
 def main(d):
     d = Path(d)
-    bk = Book('eg01')
+    bk = Book(sys.argv[2] if len(sys.argv) > 2 else 'eg01')
     by_label = {p['label']: p for p in bk.problems}
     out = ['# 模擬生徒の答えと正答の突き合わせ', '', '| 番号 | 形式 | ★ | 生徒の答え | 正答（別解） | 判定 |', '|---|---|---|---|---|---|']
     n = ok = 0; wrong = []

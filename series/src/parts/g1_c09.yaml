@@ -1,0 +1,860 @@
+# 単元9「接続詞」（s091〜s094）。例文 e0901〜、問題 q09001〜。
+chapters:
+- id: c09
+  title: 接続詞
+  lead: この単元では、語と語・文と文をつなぐ接続詞を、つなぎ方の違いで整理します。対等に並べる and・but のなかまと、文の一部になる節をつくる that・whether・when・because などを区別し、接続詞の後ろには完全な文が続くことを手がかりに、名詞節・副詞節を読み分け、接続詞と前置詞を選び分けられるようになります。
+  intro: 中学では、and・but・or・so で語や文をつなぎ、when・if・because で「〜するとき」「もし〜なら」「〜なので」の文をつくることを学びました。I think that ～ の that は「〜ということ」を表し、よく省略されます。単元2では、when・if で始まる節には、文の M になる副詞節と、O などになる名詞節があり、副詞節の中では未来のことも現在形で表すことを学びました（@s023）。この単元では、この2種類の節を体系として整理し、使える接続詞を広げます。
+  sections:
+  - id: s091
+    title: 等位接続詞と相関接続詞
+    aim: and・but・or・so と both A and B などの組み合わせを使い分け、命令文＋and／or の意味と、主語になったときの動詞の数を判断できるようになる。
+    body:
+    - h: 対等なものを並べる and・but・or・so
+    - p: 接続詞（@s011）には、つなぎ方の違う2つのグループがあります。1つ目は、and・but・or・so のように、文法上同じ種類のもの（語と語、句と句、文と文）を対等に並べる<<等位接続詞>>です。@e0901 の but は、「2回電話した」と「出なかった」という2つの文を、どちらが主ということなく並べています。
+      notes:
+      - kind: 用語
+        term: 等位接続詞
+        yomi: とういせつぞくし
+        text: and・but・or・so のように、文法上同じ種類のもの（語と語、句と句、文と文）を対等に並べてつなぐ接続詞。
+    - ex: [e0901, e0902]
+    - p: 等位接続詞は、前後の形をそろえて使います。@e0902 の and は stayed と watched という2つの過去形の動詞を並べています。so は「だから」と結果を表し、文と文をつなぐときだけに使います。2つ目のグループは、when・if・because・that のように、主節にくっつく節（従属節）をつくる接続詞で、@s092 から順に学びます。
+      notes:
+      - kind: 注意
+        text: "and の前後の形がそろっていない文は、正誤問題でよくねらわれる。I like reading and to swim. ではなく、I like reading and swimming. のように -ing 形どうしをそろえる。"
+    - h: 命令文のあとの and と or
+    - p: 命令文の後ろにコンマと and を置くと「〜しなさい、そうすれば…」、or を置くと「〜しなさい、さもないと…」という意味になります（@e0903、@e0904）。and の後ろには、言われたとおりにしたときのよい結果、or の後ろには、しなかったときの困った結果が来ます。If you leave now, you'll catch the 8:15 train. のように、if を使って言いかえることもできます。
+    - ex: [e0903, e0904]
+    - h: 2つで1組の相関接続詞
+    - p: both A and B（A も B も両方）のように、離れた2つの語が組になって A と B をつなぐものを<<相関接続詞>>といいます。下の表の形を、意味と一緒に覚えます。A と B には、名詞と名詞、形容詞と形容詞のように、同じ種類のものを置きます。
+      notes:
+      - kind: 用語
+        term: 相関接続詞
+        yomi: そうかんせつぞくし
+        text: both A and B・either A or B・not only A but also B のように、離れた2つの語が組になって A と B をつなぐ接続詞。
+    - table:
+        head: [形, 意味, 主語になったときの動詞]
+        rows:
+        - [both A and B, A も B も両方, "{{複数}}で受ける"]
+        - [either A or B, A か B のどちらか, "{{B}}に合わせる"]
+        - [neither A nor B, A も B も〜ない, B に合わせる]
+        - [not only A but also B, A だけでなく B も, "{{B}}に合わせる"]
+        - [B as well as A, A だけでなく B も, "{{B}}（前の語）に合わせる"]
+        - [not A but B, A ではなく B, B に合わせる]
+    - p: 相関接続詞が主語になるときは、動詞の数に気をつけます。both A and B は2つのものを合わせて言うので複数です（@e0905）。それ以外は、話の中心になっている B に動詞を合わせます。@e0906 では、動詞の直前にある their teacher（1人）に合わせて was、@e0907 では Eric に合わせて has になります。B as well as A だけは B が前に来るので、文の頭の B に合わせます。
+      notes:
+      - kind: 注意
+        text: "話し言葉では、neither A nor B が主語のとき、B が単数でも動詞を複数にすることがある。入試の文法問題では B に合わせた形を選ぶ。"
+    - ex: [e0905, e0906, e0907]
+    - check:
+      - q: "Be careful, (＿) you will drop the glasses."
+        a: or
+      - q: "Not only my brother but also my parents (＿) tall.（be）"
+        a: are
+    examples:
+    - id: e0901
+      en: I called Kate twice, *but* she didn't answer the phone.
+      ja: 私はケイトに2回電話したが、彼女は出なかった。
+    - id: e0902
+      en: It was raining hard, *so* we stayed home *and* watched a movie.
+      ja: 雨が激しく降っていたので、私たちは家にいて映画を見た。
+    - id: e0903
+      en: Leave now, *and* you'll catch the 8:15 train.
+      ja: 今出発しなさい、そうすれば8時15分の電車に間に合う。
+    - id: e0904
+      en: Put on your coat, *or* you'll catch a cold.
+      ja: コートを着なさい、さもないとかぜをひくよ。
+    - id: e0905
+      en: "*Both* Ryo *and* his sister are on the swimming team."
+      ja: リョウも妹も、どちらも水泳部に入っている。
+    - id: e0906
+      en: "*Not only* the students *but also* their teacher was surprised at the news."
+      ja: 生徒たちだけでなく、先生もその知らせに驚いた。
+    - id: e0907
+      en: "*Either* you *or* Eric has to clean the room today."
+      ja: あなたかエリックのどちらかが、今日その部屋をそうじしなければならない。
+    worked:
+    - q: Hurry up, (＿) you will miss the last bus.
+      choices: [and, or, but, so]
+      steps:
+      - 空所の前は Hurry up（急ぎなさい）という命令文で、後ろは you will miss the last bus という完全な文。空所には文と文をつなぐ等位接続詞が入る。
+      - 後ろの文の意味を確かめる。「最終バスに乗り遅れる」は困った結果なので、「急がないと」の流れになる。
+      - 命令文＋コンマ＋or で「〜しなさい、さもないと…」。and は「そうすれば」なので、「急げば乗り遅れる」となって意味が合わない。
+      ans: "2"
+      point: 命令文の後ろの and と or は、後ろの文がよい結果か困った結果かで選ぶ。If you don't hurry up, ～ と言いかえられれば or。
+    - q: 次の英文の下線部①〜④のうち、誤りをふくむものを1つ選びなさい。<br>Not only my parents but also my brother __are__① planning __to visit__② Kyoto __during__③ the holidays, so I __will__④ stay home alone.
+      steps:
+      - 主語は Not only my parents but also my brother。not only A but also B の形なので、動詞は B に合わせる。
+      - B は my brother（1人）なので、動詞は is planning になる。①are は A の my parents に合わせた形で誤り。
+      - ②plan to do、③during＋名詞（休みの間）、④will stay（未来のこと）は正しい。
+      ans: "1"
+      point: not only A but also B は、動詞の直前の B に数を合わせる。my parents が先に目に入るので are を選んでしまいやすい。
+    summary:
+    - and・but・or・so は、同じ種類のものを対等に並べる{{等位接続詞}}。
+    - 命令文, and ～ は「〜しなさい、{{そうすれば}}」、命令文, or ～ は「〜しなさい、{{さもないと}}」。
+    - both A and B が主語なら動詞は{{複数}}。either A or B・not only A but also B は {{B}} に合わせる。
+    - B as well as A が主語なら、動詞は前にある {{B}} に合わせる。
+  - id: s092
+    title: 名詞節をつくる that・whether・if
+    aim: that・whether・if で始まる節が文の中で S・O・C になることを見抜き、that と whether／if を意味で選び分け、同格の that の後ろが完全な文であることを判断できるようになる。
+    body:
+    - h: 接続詞の後ろは完全な文
+    - p: when・if・because・that のように節をつくる接続詞は、それ自体は節の中で S や O になりません。そのため、接続詞を外すと、後ろには S・O・C のそろった完全な文（@s015）が残ります。@e0908 の that を外すと Kate likes cats が残り、likes の O まで欠けずにそろっています。この「接続詞の後ろは完全な文」が、この節と次の単元の関係詞を見分ける土台になります。
+    - ex: [e0908]
+    - h: 名詞節の that「〜ということ」
+    - p: that の節は、文の中で名詞と同じ働きをして、S・O・C になります（名詞節、@s023）。@e0908 では knows の O、@e0909 では is の後ろの C です。that の節が S になるときは、文の頭に長い that 節を置くのを避け、文の頭に it を置いて that 節を後ろに回すのがふつうです（@e0910）。この it は形式主語といい、単元6で詳しく学びます（@s061）。
+      notes:
+      - kind: 注意
+        text: "O になる that はよく省略される（I think Mai is right.）。C になる that は話し言葉で省略されることがあり、S になる that 節や It is ～ that の that は省略しないのがふつう。"
+    - ex: [e0909, e0910]
+    - h: whether・if「〜かどうか」
+    - p: 内容が決まっていないこと、分からないことを言うときは、whether か if を使い、「〜かどうか」という名詞節にします（@e0911）。O の位置では whether と if のどちらも使えますが、S の位置（@e0912）、前置詞の後ろ、すぐ後ろに or not が続くときは whether だけを使います。名詞節の中では、未来のことは will で表します（@s023）。
+    - ex: [e0911, e0912]
+    - table:
+        head: [位置, whether, if]
+        rows:
+        - [O（know・ask・wonder の後ろ）, ○, ○]
+        - [S（文の頭）, ○, "{{×}}"]
+        - [前置詞の後ろ, ○, "{{×}}"]
+        - [直後の or not（whether or not）, ○, ×]
+    - p: that と whether のどちらを使うかは、意味で決めます。「〜ということ」と内容が確かなら that、「〜かどうか」と答えが決まっていないなら whether／if です。I'm not sure・I wonder・ask の後ろは、答えが分からないことを言うので whether／if がよく続きます。
+    - h: 同格の that
+    - p: fact・news・idea・hope・rumor などの名詞の後ろに that 節を置いて、その名詞の中身を説明する形があります。@e0913 の［that our team won the final］は、the news の中身（どんな知らせか）を言っています。この that を<<同格の that>>といいます。同格の that の後ろも完全な文です。
+      notes:
+      - kind: 用語
+        term: 同格の that
+        yomi: どうかくのざっと
+        text: the fact・the news・the idea などの名詞の後ろに置き、その名詞の中身を「〜という」と説明する節をつくる that。接続詞なので、後ろは完全な文になる。
+    - ex: [e0913, e0914]
+    - p: '@e0914 も the news の後ろに that がありますが、that を外すと surprised me の前の S が欠けています。後ろが不完全な文になる that は、単元10で学ぶ関係代名詞です（@s104）。名詞の後ろの that は、後ろが完全な文か不完全な文かで、次の手順で見分けます。'
+    - label: that の見分け
+      steps:
+      - that の前に名詞（fact・news・book など）があるかを見る。なければ、that 節は S・O・C になる名詞節。
+      - that の後ろが完全な文か不完全な文かを確かめる。完全な文なら接続詞（名詞の後ろなら同格の that）、不完全な文なら関係代名詞。
+      - It is ～ that の形なら、形式主語の it（@s061）か、単元18で学ぶ強調構文（@s181）かを確かめる。
+    - h: 節の3つの働き
+    - p: ここまでで、節には文の中の働きによって3つの種類があることになります。S・O・C になる名詞節と、M になる副詞節は単元2で学びました（@s023）。もう1つは、@e0914 の［that surprised me］のように、名詞を後ろから説明する節です。名詞を説明するのは形容詞の働きなので、この節を<<形容詞節>>といいます。
+      notes:
+      - kind: 用語
+        term: 形容詞節
+        yomi: けいようしせつ
+        text: 名詞を後ろから説明する節。文の中で形容詞の働きをする。関係詞で始まる節（関係詞節）がこれにあたり、単元10で学ぶ。
+    - table:
+        head: [節の種類, 文の中の働き, 始まる語の例, 学ぶ場所]
+        rows:
+        - ["{{名詞節}}", S・O・C（名詞の働き）, that・whether・if（かどうか）・疑問詞, 単元2・この節]
+        - ["{{形容詞節}}", 名詞を後ろから説明（形容詞の働き）, who・which・that（関係詞）, 単元10]
+        - ["{{副詞節}}", M（副詞の働き）, when・if（もし）・because・though, 単元2・次の2つの節]
+    - check:
+      - q: "I'm not sure (＿) this answer is right."
+        a: whether／if
+      - q: "We heard the news (＿) the school festival will be held in October."
+        a: that（同格の that）
+      - q: "(＿) we can finish the work by Friday is the question."
+        a: Whether
+    examples:
+    - id: e0908
+      en: Everyone in my class knows [*that* Kate likes cats].
+      ja: クラスのみんなは、ケイトがネコを好きだということを知っている。
+    - id: e0909
+      en: The problem is [*that* we don't have enough chairs for the guests].
+      ja: 問題は、お客さんのためのいすが足りないということだ。
+    - id: e0910
+      en: It is true [*that* the shop on the corner will close next month].
+      ja: 角の店が来月閉店するというのは本当だ。
+    - id: e0911
+      en: I'll ask Mr. Fujii [*whether* the library is open on Sundays].
+      ja: 図書館が日曜日に開いているかどうか、藤井先生にたずねてみよう。
+    - id: e0912
+      en: "[*Whether* we win or lose] is not important."
+      ja: 勝つか負けるかは大事ではない。
+    - id: e0913
+      en: The news [*that* our team won the final] made us very happy.
+      ja: 私たちのチームが決勝で勝ったという知らせは、私たちをとても喜ばせた。
+    - id: e0914
+      en: Kate told me some news [*that* ＿ surprised me].
+      ja: ケイトは、私が驚くような知らせを教えてくれた。
+    worked:
+    - q: Mai asked me (＿) I could lend her my dictionary.
+      choices: [that, whether, what, which]
+      steps:
+      - 空所は asked me の後ろで、ask O₁ O₂ の O₂ にあたる。空所から後ろは名詞節になる。
+      - 空所の後ろ I could lend her my dictionary は、lend O₁ O₂ がそろった完全な文。後ろが不完全な文になる what・which は入らない。
+      - 意味を考える。マイがたずねたのは「辞書を貸せるかどうか」で、答えはまだ決まっていない。ask の後ろで「〜かどうか」を表す whether を選ぶ。
+      ans: "2"
+      point: 後ろが完全な文なら接続詞。そのうえで、内容が確かなら that、「〜かどうか」なら whether／if を選ぶ。ask・wonder・I'm not sure の後ろは whether／if が多い。
+    - q: 次の英文の（ ）に適切な1語を入れなさい。<br>The idea (＿) students should clean the classrooms themselves came from Ms. Scott.
+      steps:
+      - 空所の前に名詞 The idea がある。that の見分けの手順①から、同格の that か関係代名詞かを考える。
+      - 空所の後ろ students should clean the classrooms themselves は、S・V・O がそろった完全な文。関係代名詞なら後ろが不完全な文になるので、関係代名詞ではない。
+      - 空所から themselves までが「生徒が自分で教室をそうじするべきだという」と、The idea の中身を説明している。同格の that を入れる。
+      ans: that
+      point: 名詞の後ろの that 節は、後ろが完全な文なら同格の that。came from の S は The idea で、that 節は S の名詞の中身を説明している。
+    summary:
+    - 接続詞を外すと、後ろには{{完全な文}}が残る。
+    - that の名詞節は「〜{{ということ}}」、whether／if の名詞節は「〜{{かどうか}}」。
+    - S の位置・前置詞の後ろ・直後の or not では、if ではなく {{whether}} を使う。
+    - 名詞の後ろの that は、後ろが完全な文なら{{同格の that}}、不完全な文なら{{関係代名詞}}。
+  - id: s093
+    title: 副詞節①　時・条件・理由
+    aim: 時・条件・理由を表す接続詞の意味を区別し、until と by the time、if と unless などを文の流れから選べるようになる。
+    body:
+    - h: 副詞節は文の M
+    - p: 副詞節（@s023）は、時・条件・理由などを表して、文の中で M の働きをします。外しても主節だけで文が成り立ち、主節の前にも後ろにも置けます。前に置くときは、節の終わりにコンマを付けるのがふつうです。この節では、副詞節をつくる接続詞を意味ごとに広げます。時・条件の副詞節の中では、未来のことも現在形で表すことを、ここでも思い出しておきます（@e0917）。
+    - h: 時を表す接続詞
+    - table:
+        head: [接続詞, 意味]
+        rows:
+        - [when, 〜するとき]
+        - [while, 〜する間]
+        - [before／after, 〜する前に／〜した後で]
+        - [until（till）, "〜するまで{{ずっと}}"]
+        - [by the time, "〜するまでには（{{期限}}）"]
+        - [as soon as, "〜すると{{すぐに}}"]
+        - [once, いったん〜すると]
+        - [since, 〜して以来]
+    - p: until と by the time は、どちらも「〜まで」と訳せるので取り違えやすい組です。until は、その時まで同じ状態や動作が「ずっと続く」ことを表し、wait・stay・keep のような続く動詞と使います（@e0915）。by the time は、その時「までには」終わっている、という期限を表し、finish・arrive・leave のような1回で終わる動詞と使います（@e0916）。
+      notes:
+      - kind: 注意
+        text: "前置詞でも同じ区別がある。until five（5時までずっと）と by five（5時までには）。Please wait until five. と Please finish it by five. のように使い分ける。"
+    - ex: [e0915, e0916, e0917]
+    - h: 条件を表す if・unless・as long as
+    - p: unless は「〜しない限り、〜でなければ」という意味で、if … not に近い意味を1語で表します。unless の中にはすでに否定の意味が入っているので、unless の節に not を重ねません（@e0918）。as long as は「〜する限りは、〜しさえすれば」と、条件を満たしている間のことを言います（@e0919）。どちらも条件の副詞節なので、未来のことも現在形で表します。
+      notes:
+      - kind: 注意
+        text: "unless は「〜という場合を除けば」という意味なので、if … not のすべてを言いかえられるわけではない。I'll be sad if you don't come. のように、「〜しないこと」そのものが原因になる文では unless を使わない。"
+    - ex: [e0918, e0919]
+    - h: 理由を表す because・since・as
+    - p: because は、相手がまだ知らない理由をはっきり示すときに使い、Why ～? の答えにもなります（@e0920）。since と as は、相手も知っている理由や、見れば分かる理由を軽く示すときに使い、文の頭に置くことが多い接続詞です（@e0921）。since には「〜して以来」という時の意味もあるので、主節が現在完了なら時、そうでなければ理由と考えると見分けやすくなります。
+      notes:
+      - kind: 注意
+        text: "Because I was tired. のように、because の節だけで1つの文にするのは、会話の答え以外では誤り。書き言葉では必ず主節と組み合わせる。"
+    - ex: [e0920, e0921]
+    - check:
+      - q: "My little brother kept crying (＿) our mother came home."
+        a: until
+      - q: "You can't use this room (＿) you get permission from a teacher."
+        a: unless
+    examples:
+    - id: e0915
+      en: I'll wait here [*until* Mr. Fujii comes back].
+      ja: 藤井先生が戻ってくるまで、私はここで待っています。
+    - id: e0916
+      en: "[*By the time* we got to the stadium], the game had already started."
+      ja: 私たちがスタジアムに着いたときには、試合はもう始まっていた。
+    - id: e0917
+      en: Please call me [*as soon as* you arrive at the airport].
+      ja: 空港に着いたらすぐに電話してください。
+    - id: e0918
+      en: "[*Unless* it rains], the game will start at ten."
+      ja: 雨が降らない限り、試合は10時に始まる。
+    - id: e0919
+      en: You can use my bike [*as long as* you bring it back by six].
+      ja: 6時までに返してくれるなら、私の自転車を使っていいよ。
+    - id: e0920
+      en: Ryo was late for school [*because* his bus broke down].
+      ja: バスが故障したので、リョウは学校に遅刻した。
+      gloss:
+      - [break down, 故障する]
+    - id: e0921
+      en: "[*Since* today is a holiday], the bank is closed."
+      ja: 今日は祝日なので、銀行は閉まっている。
+    worked:
+    - q: Please finish your report (＿) the meeting starts on Friday.
+      choices: [until, by the time, while, since]
+      steps:
+      - 空所の後ろ the meeting starts on Friday は完全な文なので、接続詞が入る。どれも接続詞として使えるので、意味で選ぶ。
+      - 主節の動詞は finish（終える）。1回で終わる動作なので、「〜までずっと」の until とは組み合わない。
+      - 「会議が始まるまでには報告書を終えて」という期限なので、by the time を選ぶ。while（〜する間）や since（〜して以来・〜なので）は意味が合わない。
+      ans: "2"
+      point: until は「ずっと続く」、by the time は「までには（期限）」。主節の動詞が続く動作か、1回で終わる動作かで選ぶ。
+    - q: We will play tennis tomorrow unless it (＿).
+      choices: [rains, doesn't rain, will rain, won't rain]
+      steps:
+      - 空所は unless の節の V。unless の節は条件を表す副詞節で、主節の M になっている。
+      - unless は「〜しない限り」と、すでに否定の意味をふくむ。not を重ねた doesn't rain・won't rain では「雨が降らない限りテニスをしない」の逆の意味になってしまう。
+      - tomorrow で未来の話だが、条件の副詞節の中は現在形で表す（@s023）。主語は it なので rains を選ぶ。
+      ans: "1"
+      point: unless の節には not を重ねない。そのうえで、条件の副詞節なので will も使わない。2つの規則を順に当てはめる。
+    summary:
+    - until は「〜するまで{{ずっと}}」、by the time は「〜するまでには」と{{期限}}を表す。
+    - unless は「〜しない限り」で、節の中に {{not}} を重ねない。
+    - 時・条件の副詞節の中では、未来のことも{{現在形}}で表す。
+    - because は相手の知らない理由、{{since}}・as は相手も知っている理由を示す。
+  - id: s094
+    title: 副詞節②　譲歩・目的・結果と、前置詞との区別
+    aim: though・even if・so that・so ～ that・such ～ that・in case の意味と形を区別し、後ろが名詞か S＋V かで接続詞と前置詞を選び分けられるようになる。
+    body:
+    - h: 譲歩の though・even if
+    - p: 「〜だけれども」と、主節とは逆向きの内容をいったん認めてから主節を述べる言い方を<<譲歩>>といいます。though と although は事実について「〜だけれども」（@e0922）、even if は事実かどうか分からないことや仮のことについて「たとえ〜しても」を表します（@e0923）。even though は「実際に〜なのに」と、事実であることを強めます。
+      notes:
+      - kind: 用語
+        term: 譲歩
+        yomi: じょうほ
+        text: 「〜だけれども」「たとえ〜しても」と、主節とは逆向きの内容をいったん認めてから主節を述べる言い方。though・although・even if などで表す。
+      - kind: 注意
+        text: "even if の節は条件の副詞節と同じく、未来のことも現在形で表す。Even if it rains tomorrow, ～ とし、will rain にしない。"
+    - ex: [e0922, e0923]
+    - h: 目的の so that と、備えの in case
+    - p: so that S can／will ～ は「S が〜できるように、〜するために」と目的を表します（@e0924）。主節が過去なら could・would を使います。in case は「〜するといけないから、〜する場合に備えて」という意味で、まだ起きていないことに前もって備えるときに使います（@e0925）。
+      notes:
+      - kind: 注意
+        text: "in case はアメリカ英語で if（もし〜なら）と同じ意味に使うこともあるが、入試ではまず「〜する場合に備えて」の意味で問われる。"
+    - ex: [e0924, e0925]
+    - h: 結果の so ～ that と such ～ that
+    - p: so＋形容詞（副詞）＋that ～ は「とても…なので〜」と、程度とその結果を表します（@e0926）。such を使うときは、such のすぐ後ろに名詞のかたまりを置き、such＋a＋形容詞＋名詞＋that の語順になります（@e0927）。so の後ろは形容詞・副詞だけ、such の後ろは名詞をふくむかたまり、と覚えます。so a nice day とは言いません。
+      notes:
+      - kind: 注意
+        text: "目的の so that と、結果の so ～ that は、so と that の間に形容詞・副詞があるかで見分ける。名詞が数えられない名詞や複数なら、such kind people のように a を付けない。"
+    - ex: [e0926, e0927]
+    - h: 接続詞か前置詞か
+    - p: 「〜だけれども」「〜の間」「〜なので」は、接続詞でも前置詞でも表せます。違うのは後ろの形です。接続詞の後ろには S＋V のある文が、前置詞の後ろには名詞（句）が来ます。@e0928 の despite と @e0929 の during は前置詞なので、後ろは the heavy rain、our stay in Kyoto という名詞のかたまりです。
+    - table:
+        head: [意味, 接続詞（＋S V）, 前置詞（＋名詞）]
+        rows:
+        - [〜だけれども, though／although, "{{despite}}／in spite of"]
+        - [〜の間, while, "{{during}}"]
+        - [〜なので, because, "{{because of}}"]
+        - [〜まで, until, until]
+        - [〜の前に／後で, before／after, before／after]
+    - ex: [e0928, e0929]
+    - label: 接続詞か前置詞か
+      steps:
+      - 空所の後ろを見て、S＋V のある文か、名詞（句）だけかを確かめる。
+      - S＋V があれば接続詞、名詞（句）だけなら前置詞を選ぶ。
+      - 残った候補から、譲歩・時・理由など意味が合うものを選ぶ。
+    - check:
+      - q: We stayed inside (＿) the storm.（while／during）
+        a: during
+      - q: It was (＿) a cold morning that the lake was frozen.（so／such）
+        a: such
+    examples:
+    - id: e0922
+      en: "[*Although* Eric is only fifteen], he is taller than his father."
+      ja: エリックはまだ15歳だが、父親より背が高い。
+    - id: e0923
+      en: "[*Even if* it rains tomorrow], the festival will be held."
+      ja: たとえ明日雨が降っても、祭りは行われる。
+    - id: e0924
+      en: Ms. Scott spoke slowly [*so that* everyone could understand her].
+      ja: スコット先生は、みんなが分かるようにゆっくり話した。
+    - id: e0925
+      en: Take an umbrella with you [*in case* it rains this afternoon].
+      ja: 午後に雨が降るといけないから、傘を持っていきなさい。
+    - id: e0926
+      en: The soup was *so* hot [*that* I couldn't eat it right away].
+      ja: スープがとても熱かったので、私はすぐには飲めなかった。
+    - id: e0927
+      en: It was *such* a nice day [*that* we had lunch in the park].
+      ja: とても天気のよい日だったので、私たちは公園で昼食をとった。
+    - id: e0928
+      en: The game continued *despite* the heavy rain.
+      ja: 激しい雨にもかかわらず、試合は続いた。
+      gloss:
+      - [despite, 〜にもかかわらず]
+    - id: e0929
+      en: We visited five temples *during* our stay in Kyoto.
+      ja: 私たちは京都に滞在している間に、寺を5つ訪れた。
+    worked:
+    - q: 日本語の意味になるように（　）内の語を並べかえなさい。<br>その箱はとても重かったので、私は1人では運べなかった。<br>The box was ( so / that / I / heavy / couldn't / carry ) it by myself.
+      steps:
+      - 「とても重かったので〜できなかった」は、程度とその結果を表すので so ～ that の形を使う。
+      - so の後ろには形容詞を置く。The box was so heavy で「箱はとても重かった」。
+      - that の後ろには結果を表す完全な文を置く。I couldn't carry it by myself で、that 以下も S・V・O がそろう。
+      ans: The box was so heavy that I couldn't carry it by myself.
+      point: so＋形容詞＋that＋S V の順。that の後ろは完全な文になることも確かめる。
+    - q: (＿) the heavy snow, the train arrived on time.
+      choices: [Though, Despite, Because of, While]
+      steps:
+      - 空所の後ろは the heavy snow で、S＋V のない名詞のかたまり。接続詞の Though・While は入らない。
+      - 残りは前置詞の Despite と Because of。意味を比べる。
+      - 「大雪なのに、電車は時間どおりに着いた」と、逆向きの内容なので譲歩の Despite を選ぶ。Because of では「大雪のせいで時間どおりに着いた」となって意味が合わない。
+      ans: "2"
+      point: 「〜だけれども」の意味だけで Though を選ばない。後ろが名詞なら前置詞の despite、S＋V なら接続詞の though。
+    summary:
+    - though・although は「〜だけれども」、even if は「{{たとえ}}〜しても」を表す。
+    - so that S can ～ は{{目的}}（〜できるように）、in case は「〜する場合に{{備えて}}」。
+    - so＋{{形容詞}}＋that、such＋a＋形容詞＋{{名詞}}＋that の語順。
+    - 後ろが S＋V なら{{接続詞}}、名詞（句）なら{{前置詞}}。though と {{despite}}、while と {{during}}。
+problems:
+# ---- 前提チェック ----
+- id: q09001
+  sec: s091
+  set: 前提
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: I didn't go to school yesterday (＿) I had a fever.
+  choices: [because, but, or, so]
+  ans: "1"
+  why: 後ろの I had a fever（熱があった）は、学校に行かなかった理由。理由を表す because を選ぶ。
+  trap: ④so を選ぶ誤り。so は「だから」と結果を表すので、「学校に行かなかった。だから熱があった」と、原因と結果が逆になる。
+- id: q09002
+  sec: s091
+  set: 前提
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: （　）に適切な1語を入れなさい。
+  q: I think (＿) Ms. Scott is a good teacher.
+  ans: that
+  why: think の O になる「〜ということ」の節は that で始める。この that は省略することもできる。
+  trap: what を入れる誤り。後ろの Ms. Scott is a good teacher は完全な文なので、「〜ということ」の that が入る。
+- id: q09003
+  sec: s091
+  set: 前提
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: (＿) I got home, my mother was cooking dinner.
+  choices: [Because, If, When, And]
+  ans: "3"
+  why: 「私が家に着いたとき、母は夕食を作っていた」と、時を表す When を選ぶ。
+  trap: ①Because を選ぶ誤り。「家に着いたので、母が料理をしていた」となり、理由として意味がつながらない。
+# ---- s091 節末 ----
+- id: q09004
+  sec: s091
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Turn left at the bank, (＿) you will see the post office on your right.
+  choices: [or, but, and, so]
+  ans: "3"
+  why: 命令文＋コンマ＋and で「〜しなさい、そうすれば…」。銀行で左に曲がれば郵便局が見える、というよい結果が続くので and。
+  trap: ①or を選ぶ誤り。or は「さもないと」なので、「曲がらないと郵便局が見える」となって意味が合わない。
+- id: q09005
+  sec: s091
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: （　）に適切な1語を入れなさい。
+  q: Both Mai (＿) her brother like spicy food.
+  ans: and
+  why: both A and B で「A も B も両方」。動詞が like（複数の形）になっているのも、2人を合わせた主語だから。
+  trap: or を入れる誤り。both と組むのは and だけで、or は either と組む（either A or B）。
+- id: q09006
+  sec: s091
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  q: My bike was broken, (＿) I walked to school this morning.
+  choices: [but, or, so, nor]
+  ans: "3"
+  why: 「自転車が壊れていた」が原因で、「歩いて学校へ行った」が結果。結果を表す so でつなぐ。
+  trap: ①but を選ぶ誤り。but は逆の内容をつなぐので、「壊れていたのに歩いた」となり、流れが合わない。
+- id: q09007
+  sec: s091
+  set: 節末
+  lv: 1
+  kind: 和訳
+  min: 3
+  inst: 次の英文を日本語に訳しなさい。
+  q: Get up a little earlier, and you will have time for breakfast.
+  ans: もう少し早く起きなさい、そうすれば朝食をとる時間ができるよ。
+  alt: [もう少し早く起きれば、朝ごはんを食べる時間がある。]
+  why: 命令文＋コンマ＋and は「〜しなさい、そうすれば…」。「もう少し早く起きれば〜」と if の文のように訳してもよい。a little earlier（もう少し早く）が訳せていること。
+  trap: and を「そして」と訳し、「もう少し早く起きなさい。そして朝食の時間がある」とする誤り。命令文の後の and は条件と結果をつなぐ。
+- id: q09008
+  sec: s091
+  set: 節末
+  lv: 2
+  kind: 補充
+  min: 1
+  inst: （　）内の語を適切な形に変えなさい。
+  q: Either my father or my sisters (＿) going to pick you up at the station.（be）
+  ans: are
+  why: either A or B が主語のときは、動詞を B に合わせる。B は my sisters（複数）なので are。
+  trap: 先に出てくる my father に合わせて is とする誤り。either A or B は、動詞に近い B が基準になる。
+- id: q09009
+  sec: s091
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: The players as well as their coach (＿) excited after the game.
+  choices: [was, were, is, being]
+  ans: "2"
+  why: B as well as A（A だけでなく B も）が主語のときは、前にある B に動詞を合わせる。B は The players（複数）で、after the game は過去の話なので were。
+  trap: ①was を選ぶ誤り。動詞の直前の their coach（1人）に合わせてしまう。as well as の形では、話の中心は前の The players。
+- id: q09010
+  sec: s091
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: Neither Eric __nor__① his parents __knows__② the way __to__③ the new stadium, so they __need__④ a map.
+  ans: "2"
+  why: neither A nor B が主語のときは B に動詞を合わせる。B は his parents（複数）なので knows を know にする。
+  trap: Eric が単数なので knows で正しいと考える誤り。neither A nor B は、動詞の直前の B が基準になる。
+# ---- s092 節末 ----
+- id: q09011
+  sec: s092
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: I hope (＿) you will enjoy your stay in Japan.
+  choices: [what, which, that, whether]
+  ans: "3"
+  why: 後ろの you will enjoy your stay in Japan は完全な文で、hope の O になる「〜ということ」の名詞節。that を選ぶ。
+  trap: ④whether を選ぶ誤り。hope（望む）の後ろには「〜かどうか」は続かない。望んでいるのは「楽しんでくれること」という内容。
+- id: q09012
+  sec: s092
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: （　）に適切な1語を入れなさい。
+  q: Please tell me (＿) or not you can come to the meeting.
+  ans: whether
+  why: 「会議に来られるかどうか」を表す名詞節。すぐ後ろに or not が続くので、if ではなく whether を使う。
+  trap: if を入れる誤り。if も「〜かどうか」を表すが、if or not の形は使わない。
+- id: q09013
+  sec: s092
+  set: 節末
+  lv: 1
+  kind: 和訳
+  min: 3
+  inst: 次の英文を日本語に訳しなさい。
+  q: The trouble is that we have only two days.
+  ans: 困ったことに、私たちには2日しかない。
+  alt: [問題は、私たちに2日しかないということだ。]
+  why: that 以下は is の後ろの C になる名詞節で、「〜ということ」。The trouble is that ～ は「困ったことに〜」と訳してもよい。only two days（2日しか）が訳せていること。
+  trap: that を「あれ」と訳す誤り。is の後ろで後ろに完全な文が続く that は、「〜ということ」の接続詞。
+- id: q09014
+  sec: s092
+  set: 節末
+  lv: 1
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 母は私に、宿題を終えたかどうかたずねた。<br>My mother ( asked / finished / had / I / if / me ) my homework.
+  words: [asked, finished, had, I, if, me]
+  ans: My mother asked me if I had finished my homework.
+  why: ask O₁ O₂ の形で、O₂ に「〜かどうか」の if の名詞節を置く。if の後ろは I had finished my homework と完全な文にする。
+  trap: asked if me I had とする誤り。ask の後ろには先に人（me）を置き、その後ろに if 節を続ける。
+- id: q09015
+  sec: s092
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: We talked about (＿) we should take a taxi or walk to the hotel.
+  choices: [that, if, whether, what]
+  ans: "3"
+  why: 「タクシーに乗るか歩くか」と答えが決まっていない内容なので「〜かどうか」の名詞節。前置詞 about の後ろなので、if ではなく whether を使う。
+  trap: ②if を選ぶ誤り。O の位置なら if も使えるが、前置詞の後ろでは whether だけを使う。後ろは完全な文なので what も入らない。
+- id: q09016
+  sec: s092
+  set: 節末
+  lv: 2
+  kind: 補充
+  min: 1
+  inst: （　）に適切な1語を入れなさい。
+  q: We were happy to hear the news (＿) our team had won the final.
+  ans: that
+  why: 空所の前に名詞 the news があり、後ろの our team had won the final は完全な文。the news の中身を説明する同格の that を入れる。
+  trap: which を入れる誤り。名詞の後ろだから関係代名詞と考えてしまう。関係代名詞なら後ろが不完全な文になるが、ここは完全な文。
+- id: q09017
+  sec: s092
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: __It__① is __clear__② __what__③ we need more volunteers __for__④ the festival.
+  ans: "3"
+  why: It は後ろの節を指す形式主語。後ろの we need more volunteers for the festival は O まである完全な文なので、what ではなく接続詞の that にする。
+  trap: ①It を誤りと考える誤り。It is ～ that の形では、It が後ろの that 節を受ける。what は後ろが不完全な文のときに使う。
+# ---- s093 節末 ----
+- id: q09018
+  sec: s093
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: I stayed at the library (＿) it closed at eight.
+  choices: [by the time, until, as soon as, unless]
+  ans: "2"
+  why: 「図書館が8時に閉まるまでずっといた」と、stay（とどまる）が続いたことを表すので until。
+  trap: ①by the time を選ぶ誤り。by the time は「〜するまでには」と期限を表し、ずっと続く stay とは組み合わない。
+- id: q09019
+  sec: s093
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: （　）内の動詞を適切な形に変えなさい（2語以上になる場合もある）。
+  q: I'll tell my brother the news when he (＿) home tonight.（come）
+  ans: comes
+  why: when he ＿ home tonight は「今夜帰ってきたら」という時の副詞節。未来のことでも現在形で表し、主語 he に合わせて comes。
+  trap: tonight があるので will come とする誤り。時の副詞節の中は現在形で、未来であることは主節の I'll が表す。
+- id: q09020
+  sec: s093
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: (＿) it was very hot, we went swimming in the river.
+  choices: [Unless, Because, Until, Whether]
+  ans: "2"
+  why: 「とても暑かったので、川へ泳ぎに行った」と、理由を表す Because。
+  trap: ④Whether を選ぶ誤り。Whether は「〜かどうか」の名詞節や「〜であろうとなかろうと」を表し、理由は表さない。
+- id: q09021
+  sec: s093
+  set: 節末
+  lv: 1
+  kind: 和訳
+  min: 3
+  inst: 次の英文を日本語に訳しなさい。
+  q: You can stay here as long as you are quiet.
+  ans: 静かにしている限り、ここにいてもよい。
+  alt: [静かにしているなら、ここにいていいですよ。]
+  why: as long as は「〜する限り、〜しさえすれば」と条件を表す。can は許可の「〜してもよい」。
+  trap: as long as を「〜と同じくらい長く」と訳す誤り。as long as S V は条件を表す接続詞のかたまり。
+- id: q09022
+  sec: s093
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Ryo had already gone home (＿) I got to the gym.
+  choices: [until, while, by the time, unless]
+  ans: "3"
+  why: 「私が体育館に着いたときには、リョウはもう帰っていた」。着いた時までにすでに終わっていたことなので、期限を表す by the time。
+  trap: ①until を選ぶ誤り。until は「〜するまでずっと」と続く状態を表すので、had already gone home（もう帰ってしまった）とは合わない。
+- id: q09023
+  sec: s093
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: __As soon as__① I __will get__② the results, I __will__③ send them __to__④ you.
+  ans: "2"
+  why: as soon as の節は時の副詞節なので、未来のことでも現在形で表す。will get を get にする。③の will は主節なので正しい。
+  trap: ③will を誤りと考える誤り。現在形にするのは副詞節の中だけで、主節は未来のことを will で表す。
+- id: q09024
+  sec: s093
+  set: 節末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 明日雨が降らなければ、私たちはその山に登るつもりだ。<br>We ( going / unless / climb / are / the / it / mountain / to / rains ) tomorrow.
+  words: [going, unless, climb, are, the, it, mountain, to, rains]
+  ans: We are going to climb the mountain unless it rains tomorrow.
+  why: 主節は be going to＋原形で「〜するつもりだ」。「雨が降らなければ」は unless it rains で、条件の副詞節なので未来のことでも現在形の rains にする。
+  trap: 「降らなければ」から not が要ると考える誤り。unless は「〜しない限り」と否定の意味をふくむので、与えられた語に not がなくてよい。
+# ---- s094 節末 ----
+- id: q09025
+  sec: s094
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Kate went to school (＿) she had a slight fever.
+  choices: [because, although, unless, so that]
+  ans: "2"
+  why: 「少し熱があったけれども、学校へ行った」と、逆向きの内容をつなぐので譲歩の although。
+  trap: ①because を選ぶ誤り。「熱があったので学校へ行った」となり、理由として意味が通らない。
+- id: q09026
+  sec: s094
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: （　）に適切な1語を入れなさい。
+  q: It was (＿) an exciting game that nobody left early.
+  ans: such
+  why: 空所の後ろは an exciting game という「a＋形容詞＋名詞」のかたまり。such＋a＋形容詞＋名詞＋that で「とても…なので〜」。
+  trap: so を入れる誤り。so の後ろには形容詞・副詞だけを置き、so an exciting game とは言わない。
+- id: q09027
+  sec: s094
+  set: 節末
+  lv: 1
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 忘れるといけないので、あなたの電話番号を書き留めておきます。<br>I'll write down your phone number ( case / forget / I / in / it ).
+  words: [case, forget, I, in, it]
+  ans: I'll write down your phone number in case I forget it.
+  why: 「〜するといけないので、〜する場合に備えて」は in case＋S V。後ろは I forget it と完全な文にし、未来のことでも現在形の forget を使う。
+  trap: in case を前置詞のように考え、in case it I forget とする誤り。in case は接続詞のかたまりなので、後ろに S＋V を続ける。
+- id: q09028
+  sec: s094
+  set: 節末
+  lv: 1
+  kind: 和訳
+  min: 3
+  inst: 次の英文を日本語に訳しなさい。
+  q: Mr. Fujii got up early so that he could catch the first train.
+  ans: 藤井さんは始発電車に乗れるように早起きした。
+  alt: [藤井さんは始発の電車に間に合うように、早く起きた。]
+  why: so that S could ～ は「S が〜できるように」と目的を表す。the first train（始発電車）が訳せていること。
+  trap: 「早起きしたので始発に乗れた」と結果で訳す誤り。so と that の間に形容詞・副詞がない so that は、目的を表す。
+- id: q09029
+  sec: s094
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: I fell asleep (＿) the movie, so I don't know how it ended.
+  choices: [while, during, when, as]
+  ans: "2"
+  why: 空所の後ろは the movie という名詞だけで S＋V がないので、前置詞が入る。「映画の間に」を表す前置詞 during。
+  trap: ①while を選ぶ誤り。意味は同じ「〜の間」だが、while は接続詞なので後ろに S＋V が要る（while I was watching the movie）。
+- id: q09030
+  sec: s094
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: It was __so__① a beautiful day __that__② we __decided__③ to walk __along__④ the river.
+  ans: "1"
+  why: 後ろが a beautiful day という「a＋形容詞＋名詞」のかたまりなので、so ではなく such を使う。such a beautiful day that ～ が正しい。
+  trap: ②that を誤りと考える誤り。結果を表す that は such ～ that でも so ～ that でも使う。直すのは so の部分。
+- id: q09031
+  sec: s094
+  set: 節末
+  lv: 2
+  kind: 英作
+  min: 3
+  inst: 日本語の意味になるように、下線部に入る英語を書きなさい。
+  q: たとえ明日雨が降っても、私たちは駅まで歩いて行く。<br>＿＿＿＿, we will walk to the station.
+  ans: Even if it rains tomorrow
+  alt: [Even if it is rainy tomorrow]
+  why: 「たとえ〜しても」は even if。even if の節も条件の副詞節と同じく、未来のことを現在形で表すので it rains とする。Even if と現在形の rains が書けていれば正解。
+  trap: Even if it will rain とする誤り。また、even though は「実際に〜なのに」と事実について使うので、まだ分からない明日の天気には even if を使う。
+# ---- 確認テスト ----
+- id: q09032
+  sec: s091
+  set: 確認テスト
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Wear a helmet, (＿) you might get hurt.
+  choices: [and, so, or, but]
+  ans: "3"
+  why: 命令文＋コンマ＋or で「〜しなさい、さもないと…」。後ろの「けがをするかもしれない」は困った結果なので or。
+  trap: ①and を選ぶ誤り。and は「そうすれば」なので、「ヘルメットをかぶればけがをする」となり、意味が逆になる。
+- id: q09033
+  sec: s091
+  set: 確認テスト
+  lv: 2
+  kind: 補充
+  min: 1
+  inst: （　）内の語を適切な形に変えなさい。
+  q: Neither my sister nor I (＿) good at cooking.（be）
+  ans: am
+  why: neither A nor B が主語のときは、動詞を B に合わせる。B は I なので am。
+  trap: 2人の話だから are とする誤り。neither A nor B は、動詞の直前の B に数と人称を合わせる。
+- id: q09034
+  sec: s092
+  set: 確認テスト
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: The fact (＿) Mai practiced every day surprised her coach.
+  choices: [which, what, that, whether]
+  ans: "3"
+  why: 空所の前に名詞 The fact があり、後ろの Mai practiced every day は完全な文。The fact の中身を説明する同格の that を選ぶ。文の V は surprised。
+  trap: ①which を選ぶ誤り。名詞の後ろなので関係代名詞と考えてしまう。後ろが完全な文なら、関係代名詞ではなく同格の that。
+- id: q09035
+  sec: s092
+  set: 確認テスト
+  lv: 1
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: エリックが来るかどうか、私には分からない。<br>I ( come / don't / Eric / know / whether / will ).
+  words: [come, don't, Eric, know, whether, will]
+  ans: I don't know whether Eric will come.
+  why: know の O に「〜かどうか」の whether の名詞節を置く。名詞節の中なので、未来のことは will come で表す。
+  trap: I don't know whether will Eric come と、疑問文の語順にする誤り。whether の後ろは S＋V のふつうの語順にする。
+- id: q09036
+  sec: s093
+  set: 確認テスト
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Please stay in your seat (＿) the bus stops completely.
+  choices: [by the time, so that, until, though]
+  ans: "3"
+  why: 「バスが完全に止まるまで、ずっと座席にいてください」。stay（とどまる）が続くことを表すので until。
+  trap: ①by the time を選ぶ誤り。by the time は「〜するまでには」と期限を表すので、続く動作の stay とは組み合わない。
+- id: q09037
+  sec: s093
+  set: 確認テスト
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: Please __return__① these books __until__② next Friday __because__③ other students __want__④ to read them.
+  ans: "2"
+  why: return（返す）は1回で終わる動作で、「来週の金曜日までに」という期限を表すので、until ではなく by にする。
+  trap: 「〜まで」の訳だけで until を正しいと考える誤り。until は「ずっと続く」、by は「までには（期限）」。
+- id: q09038
+  sec: s094
+  set: 確認テスト
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: We couldn't play tennis (＿) the strong wind.
+  choices: [because, because of, though, while]
+  ans: "2"
+  why: 空所の後ろは the strong wind という名詞だけで S＋V がないので、前置詞が入る。「強い風のせいで」と理由を表す because of。
+  trap: ①because を選ぶ誤り。意味は合うが、because は接続詞なので後ろに S＋V が要る（because the wind was strong）。
+- id: q09039
+  sec: s094
+  set: 確認テスト
+  lv: 1
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: とても親切な人たちだったので、私たちはすぐに友だちになった。<br>They were ( kind / people / such / that / we ) became friends quickly.
+  words: [kind, people, such, that, we]
+  ans: They were such kind people that we became friends quickly.
+  why: such＋形容詞＋名詞＋that で「とても…な〜なので」。people は複数なので a を付けず、such kind people とする。
+  trap: They were kind such people とする誤り。such は形容詞の前、名詞のかたまりの頭に置く。
+- id: q09040
+  sec: s051
+  set: 確認テスト
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: （　）内の動詞を適切な形に変えて、2語で答えなさい。
+  q: The bridge near our school (＿) (＿) in 1970.（build）
+  ans: was built
+  why: 橋は「建てられる」側なので受動態 be＋過去分詞。in 1970 は過去なので was built。
+  trap: built だけを入れて能動態の過去形にする誤り。橋が自分で建てたのではないので、be 動詞が要る。
+- id: q09041
+  sec: s022
+  set: 確認テスト
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: Ms. Scott __is knowing__① a lot __about__② birds, __so__③ she often __takes__④ us to the park.
+  ans: "1"
+  why: know（知っている）は状態動詞なので、ふつう進行形にしない。is knowing を knows にする。③so は「だから」と結果をつなぐ等位接続詞で正しい。
+  trap: 日本語の「知っている」につられて進行形を正しいと思う誤り。「知っているところだ」とは言えないので、know は現在形で表す。
