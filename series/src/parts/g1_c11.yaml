@@ -179,12 +179,12 @@ chapters:
       - 比較の手順①：比べている2つを確かめる。前は The price of this jacket（値段）、than の後ろは the jacket（ジャケット）で、値段と物を比べていてそろっていない。
       - くり返しになる the price を that で受けて、than that of the jacket とする。④が誤り。
       - ①price of、②比較級を強める much は正しい。③は、price（値段）の高い・安いは high・low で表すので higher で正しい。
-      ans: "4"
+      ans: ④（the jacket → that of the jacket）
       point: than の前後で比べるものをそろえる。単数や数えられない名詞のくり返しは that of、複数なら those of で受ける。
     summary:
     - 短い語は -er／-est、長い語は {{more}}／{{most}} で比較級・最上級をつくる。
     - 最上級の範囲は、場所・集団なら {{in}}、複数の仲間なら {{of}} で示す。
-    - 比較級を強めるのは {{much}}・far・even。{{very}} は使わない。
+    - 比較級を強めるのは {{much}}・far・even・a lot。比較級の直前に {{very}} は置かない。
     - 比べる2つをそろえるため、くり返しの名詞を単数なら {{that}}、複数なら {{those}} で受ける。
   - id: s113
     title: "最上級の意味を原級・比較級で表す"
@@ -197,14 +197,14 @@ chapters:
         head: [形, 意味]
         rows:
         - [A is the＋最上級＋in／of ～, A は〜の中でいちばん…]
-        - ["{{No other}}＋単数名詞＋is as＋原級＋as A", ほかのどの〜も A ほど…ない]
-        - [No other＋単数名詞＋is＋比較級＋than A, ほかのどの〜も A より…ない]
+        - ["{{No other}}＋単数名詞＋V＋as＋原級＋as A", ほかのどの〜も A ほど…ない]
+        - [No other＋単数名詞＋V＋比較級＋than A, ほかのどの〜も A より…ない]
         - ["A is＋比較級＋than {{any other}}＋単数名詞", A はほかのどの〜よりも…]
     - h: other の後ろは単数名詞
-    - p: No other と any other の後ろには、lake のように数えられる名詞の単数形を置きます。any other lake は「ほかのどの1つの湖と比べても」という意味だからです。No other で始まる文では、主語が単数なので動詞も is になります。ただし、all the other lakes（ほかのすべての湖）のように all the other を使うときは複数形にします。
+    - p: No other と any other の後ろには、lake のように数えられる名詞の単数形を置きます。any other lake は「ほかのどの1つの湖と比べても」という意味だからです。No other で始まる文では、主語が単数なので、動詞も is・runs のように単数の主語に合わせた形にします。ただし、all the other lakes（ほかのすべての湖）のように all the other を使うときは複数形にします。
       notes:
       - kind: 注意
-        text: "No other lakes are … のように複数形で言うこともあるが、最上級の言いかえでは「No other＋単数名詞＋is」の形を使う。"
+        text: "No other lakes are … のように複数形で言うこともあるが、最上級の言いかえでは「No other＋単数名詞＋単数の動詞（is・runs など）」の形を使う。"
     - p: other を付けるのは、主語がその仲間に入っているからです。琵琶湖は「日本の湖」の1つなので、any lake in Japan とすると、琵琶湖が琵琶湖自身とも比べられることになってしまいます。主語が仲間に入っていないときは other を付けません。富士山は韓国の山ではないので、「富士山は韓国のどの山よりも高い」は Mt. Fuji is higher than any mountain in Korea. となります。
     - h: Nothing・anyone else を使う形
     - p: 人や物を特定せずに「〜ほど…なものはない」と言うときは、Nothing・No one を主語にして、as ～ as か比較級＋than を続けます（@e1118）。比較級＋than anyone else・anything else は「ほかのだれ（何）よりも」という意味で、else の後ろには名詞を置きません（@e1119）。
@@ -240,16 +240,16 @@ chapters:
       - 「ほかのどの〜も…ない」は No other＋単数名詞。空所の後ろの temple は単数形なので、No other temple となる。
       - 文の頭なので No は大文字で書き始める。動詞が is であることも、単数名詞の主語と合っている。
       ans: No other
-      point: 最上級は「No other＋単数名詞＋is as 原級 as」で言いかえられる。No と other を組で覚える。
+      point: 最上級は「No other＋単数名詞＋V＋as 原級 as」で言いかえられる（V は is・runs など、単数の主語に合わせる）。No と other を組で覚える。
     - q: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。<br>Mr. Shimizu __has taught__① __at__② this school __longer__③ than __any other teachers__④.
       steps:
       - 比較の手順①：清水先生と比べているのは、この学校のほかの先生。清水先生も先生の仲間に入っているので other が要る。
       - 手順②：longer than があるので比較級の文。比較級＋than any other で「ほかのどの先生よりも長く」を表している。
       - 手順③：any other の後ろは単数名詞なので、④を any other teacher にする。①has taught（今までずっと教えている）、②teach at、③比較級 longer は正しい。
-      ans: "4"
+      ans: ④（any other teachers → any other teacher）
       point: 比較級＋than any other の後ろは単数名詞。「ほかの先生たち」と考えて複数形にしやすい。
     summary:
-    - 最上級は「{{No other}}＋単数名詞＋as 原級 as」「No other＋単数名詞＋比較級 than」で言いかえられる。
+    - 最上級は「{{No other}}＋単数名詞＋V＋as 原級 as」「No other＋単数名詞＋V＋比較級 than」で言いかえられる（V は is・runs など）。
     - 「比較級＋than {{any other}}＋{{単数}}名詞」で「ほかのどの〜よりも」。
     - 主語がその仲間に入っていないときは、any の後ろに {{other}} を付けない。
     - 「〜ほど…なものはない」は {{Nothing}} is 比較級 than ～。
@@ -262,7 +262,7 @@ chapters:
       notes:
       - kind: 注意
         text: "前半は条件の副詞節（@s023）に近いので、未来のことでもふつう現在形で表す。The sooner you leave, the earlier you will arrive. のように、will は後半に置く。"
-    - p: 比較級の後ろに名詞があるときは、名詞も一緒に前に出します（@e1121）。もとの文は You read many books. なので、The more books you read となり、The more you read books とは言いません。the＋比較級の後ろには、比較級と結びついた名詞まで置いてから S V を続けます。
+    - p: 比較級の後ろに名詞があるときは、名詞も一緒に前に出します（@e1121）。もとの文は You read many books. なので、The more books you read となり、The more you read books とは言いません。the＋比較級の後ろには、比較級と結びついた名詞まで置いてから S V を続けます。little の比較級 less も同じ形で使い、The less you sleep, the more tired you feel.（睡眠が少ないほど疲れを感じる）のように言います。
     - ex: [e1120, e1121]
     - h: 比較級 and 比較級
     - p: 「ますます〜、だんだん〜」と変化が続くことは、比較級 and 比較級で表します（@e1122）。get・become などの「〜になる」の動詞や、進行形と一緒によく使います。more を使う長い語は、more and more popular のように、more and more の後ろに原級を1つだけ置きます（@e1123）。more popular and more popular とはしません。
@@ -271,7 +271,7 @@ chapters:
     - p: 比較級にはふつう the を付けませんが、「2つ（2人）のうちで、より〜なほう」とどちらかを指すときは、the＋比較級 of the two とします（@e1124）。2つの中で1つに決まるので the が付きます。3つ以上の中から選ぶなら最上級を使います。
       notes:
       - kind: 注意
-        text: "話し言葉では the tallest of the two と最上級を使うこともあるが、入試では the＋比較級 を選ぶ。"
+        text: "話し言葉では the tallest of the two と最上級を使うこともあるが、入試では the＋比較級 を選ぶ。また、is の後ろの C の位置では、Yuna is taller.（the のない比較級）もふつうに使う。the が欠かせないのは、the taller one・bought the cheaper のように名詞の位置に置くとき。"
     - table:
         head: [形, 意味]
         rows:
@@ -308,7 +308,7 @@ chapters:
       steps:
       - 「〜すればするほど…」なので、The＋比較級＋S V, the＋比較級＋S V の形を使う。後半は the earlier you will get to school とすでにできている。
       - 前半のもとの文は You leave home soon.。比較級 sooner を the と一緒に節の頭に出す。
-      - 残りの you leave home を S V O の順で続け、The sooner you leave home とする。前半は条件を表すので、will を置かない形で合っている。
+      - 残りの you leave home をふつうの S V の語順で続け、The sooner you leave home とする。前半は条件を表すので、will を置かない形で合っている。
       ans: The sooner you leave home, the earlier you will get to school.
       point: the＋比較級を節の頭に出したら、残りはふつうの S V の語順で続ける。
     - q: "（　）に入る最も適切なものを1つ選びなさい。<br>I looked at two bags in the shop and bought (＿) of the two."
@@ -423,6 +423,7 @@ problems:
   ans: "2"
   why: than があるので比較級を選ぶ。heavy は子音字＋y で終わるので、y を i にかえて heavier とする。
   trap: ④more heavy を選ぶ誤り。heavy のような短い語は -er を付けて比較級にする。
+  ref: s112
 - id: q11002
   sec: s111
   set: 前提
@@ -434,6 +435,7 @@ problems:
   ans: biggest
   why: the と in our city（市の中で）があるので最上級。big は短い母音＋子音字1つで終わるので、g を重ねて biggest とする。
   trap: bigest と書く誤り。hot－hottest と同じく、子音字を重ねてから -est を付ける。
+  ref: s112
 - id: q11003
   sec: s111
   set: 前提
@@ -501,11 +503,11 @@ problems:
   kind: 和訳
   min: 3
   inst: 次の英文を日本語に訳しなさい。
-  q: This year's summer was not as hot as last year's.
+  q: This summer was not as hot as last summer.
   ans: 今年の夏は、去年の夏ほど暑くなかった。
   alt:
   - 今年の夏は去年ほど暑くなかった。
-  why: not as ～ as は「〜ほど…ない」。last year's は last year's summer の summer を省いた形で、夏と夏を比べている。「〜ほど暑くなかった」と訳せていれば可。
+  why: not as ～ as は「〜ほど…ない」。This summer（今年の夏）と last summer（去年の夏）で、夏と夏を比べている。「〜ほど暑くなかった」と訳せていれば可。
   trap: 「今年の夏は去年の夏と同じくらい暑くはなかった」と訳す誤り。日本語として意味があいまいになる。not as ～ as は「同じではない」ではなく「〜ほど…ない」で、今年のほうが暑くなかったことを言う。
 - id: q11009
   sec: s111
@@ -634,7 +636,7 @@ problems:
   inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
   q: No other __shop__① on this street __sells__② __as__③ __much__④ kinds of bread as this bakery.
   ans: "4"
-  why: kinds は数えられる名詞の複数形なので、as many kinds of bread as とする。①No other の後ろの単数名詞 shop と、②それに合わせた sells は正しい。
+  why: kinds は数えられる名詞の複数形なので、as many kinds of bread as とする。①No other の後ろの単数名詞 shop、②それに合わせた sells、③as ～ as の前の as は正しい。③を more にしても、後ろが as this bakery のままなので文は直らない。
   trap: bread が数えられない名詞であることから④much を正しいと判断する誤り。as と as の間の名詞の中心は kinds（複数）なので many。
 - id: q11020
   sec: s113
@@ -648,7 +650,7 @@ problems:
   alt:
   - This movie was more interesting than any other movie I have seen this year.
   - This film was more interesting than any other film I saw this year.
-  why: interesting は長い語なので比較級は more interesting。any other の後ろは単数名詞の movie にする。「私が今年見た」は movie の後ろに I saw this year を置いて説明する。この3点ができていれば可。
+  why: interesting は長い語なので比較級は more interesting。any other の後ろは単数名詞の movie にする。「私が今年見た」は movie の後ろに I saw this year を置いて説明する。今年はまだ続いているので、I have seen this year としてもよい。この3点ができていれば可。
   trap: than any other movies と複数形にする誤り。any other の後ろは単数名詞。
 - id: q11021
   sec: s113
@@ -707,10 +709,10 @@ problems:
   kind: 4択
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
-  q: Of the two plans, I think Yuna's plan is (＿).
+  q: Of the two plans, I think Yuna's plan is (＿) one.
   choices: [better, the better, the best, best]
   ans: "2"
-  why: Of the two plans（2つの案のうちで）と2つの中から1つを選んでいるので、the＋比較級を使う。
+  why: Of the two plans（2つの案のうちで）と2つの中から1つを選んでいるので、the＋比較級を使う。空所の後ろに数えられる名詞の単数形 one があるので、the を付けて the better one（よいほうの案）とする。①④は one の前に the がなく、数えられる名詞の単数形をそのまま置くことになるので誤り。
   trap: ③the best を選ぶ誤り。「いちばんよい」と考えて最上級にしやすいが、比べるのが2つなら the＋比較級。
 - id: q11026
   sec: s114

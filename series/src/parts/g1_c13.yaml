@@ -38,7 +38,7 @@ chapters:
     - h: 数えられない名詞の数え方と、many・much
     - p: 数えられない名詞を「1つ、2つ」と言いたいときは、a piece of のような入れ物や単位の言葉を前に置き、その言葉のほうを複数形にします。two pieces of furniture（@e1304）では、-s が付くのは pieces で、furniture は変わりません。水やコーヒーなら a glass of・a cup of、パンなら a slice of、紙なら a sheet of を使います（@e1305）。
     - ex: [e1302, e1303, e1304, e1305]
-    - p: 数や量の多さを言うときは、名詞に合わせて many と much を使い分けます。many は数えられる名詞の複数形の前、much は数えられない名詞の前に置きます（@e1303）。a lot of はどちらの前にも置けます。much は否定文と疑問文でよく使い、肯定文では a lot of を使うのがふつうです。ただし too much・so much・how much のように、much の前に語が付く形は肯定文でもよく使います。4択の共通手順（@s015）の③「数の手がかり」は、名詞の問題では「その名詞は数えられるか」と言いかえられます。
+    - p: 数や量の多さを言うときは、名詞に合わせて many と much を使い分けます。many は数えられる名詞の複数形の前、much は数えられない名詞の前に置きます（@e1303）。a lot of はどちらの前にも置けます。much は否定文と疑問文でよく使い、肯定文では a lot of を使うのがふつうです。ただし too much・so much・how much のように、much の前に語が付く形は肯定文でもよく使います。4択の共通手順（@s015 の (3)「4択を解く共通の手順」）の③（時・数・意味の手がかり）のうち「数」は、名詞の問題では「その名詞は数えられるか」と言いかえられます。
       notes:
       - kind: 参照
         text: few・little（ほとんどない）と a few・a little（少しある）の使い分けは単元15（@s152）で学ぶ。数えられる名詞には few、数えられない名詞には little を使う点は many と much と同じ。
@@ -80,7 +80,7 @@ chapters:
     - q: （　）に入る最も適切なものを1つ選びなさい。<br>We couldn't get (＿) about the bus schedule at the station.
       choices: [many information, much information, an information, many informations]
       steps:
-      - 4択の共通手順（@s015）で考える。空所は get の O で、名詞のかたまりが入る。4つとも information を使った形なので、意味ではなく数で決まる。
+      - 4択の共通手順（@s015 の (3)）で考える。空所は get の O で、名詞のかたまりが入る。4つとも information を使った形なので、意味ではなく数で決まる。
       - 数の手がかりとして、information が数えられる名詞かを確かめる。information は目に見えない内容を表す、数えられない名詞。
       - 数えられない名詞には a も -s も付かないので、③④は誤り。many は数えられる名詞の複数形の前に置くので、①も誤り。量を表す much の②を選ぶ。
       ans: "2"
@@ -109,7 +109,7 @@ chapters:
         yomi: しゅうごうめいし
         text: family・class・team・audience（聴衆）のように、人や物の集まりを1つの名前で呼ぶ名詞。ふつうは数えられる名詞として扱う。police・people のように、いつも複数扱いのものもある。
       - kind: 注意
-        text: イギリス英語では、家族の一人一人を思い浮かべるとき My family are all early risers.（家族はみんな早起きだ）のように複数の動詞を使うこともある。アメリカ英語ではこの場合も単数の動詞がふつう。入試で迷ったら、まとまりの大きさや数を言う文は単数と考える。
+        text: イギリス英語では、家族の一人一人を思い浮かべるとき My family are all early risers.（家族はみんな早起きだ）のように複数の動詞を使うこともある。アメリカ英語ではこの場合も単数の動詞がふつう。all（全員）などで一人一人を言うこの形は、日本の入試でも正しい文として出ることがある。一方、まとまりの大きさや数を言う文（My family is large.）は単数にする。
     - ex: [e1308]
     - h: いつも複数扱いの police と people
     - p: police（警察）は、-s が付いていないのに、いつも複数扱いです。動詞は are・were のような複数の形にし、a police とは言いません（@e1309）。ふつう the police の形で使います。警察官1人を言うときは a police officer です。people（人々）も -s のない複数形で、動詞は複数の形にします（@e1310）。1人なら a person です。
@@ -174,7 +174,7 @@ chapters:
     - q: （　）に入る最も適切なものを1つ選びなさい。<br>Look! The police (＿) stopping cars in front of the bank.
       choices: [is, are, was, has]
       steps:
-      - 4択の共通手順（@s015）で考える。空所は V の一部で、後ろに stopping があるので進行形の be 動詞が入る。④has は後ろに -ing 形を置けない。
+      - 4択の共通手順（@s015 の (3)）で考える。空所は V の一部で、後ろに stopping があるので進行形の be 動詞が入る。④has は後ろに -ing 形を置けない。
       - 数の手がかりとして、主語 The police が単数か複数かを確かめる。police は -s がなくても、いつも複数扱い。
       - 複数の主語に合う be 動詞は are。①is と③was は単数の主語に使う形なので合わない。
       ans: "2"
@@ -231,7 +231,7 @@ chapters:
         - [食事, have lunch・at breakfast, 形容詞が付く：have a big lunch]
         - [スポーツ, play tennis, "楽器は the：play {{the}} piano"]
     - h: the＋体の部分
-    - p: 「彼の腕をつかんだ」を英語では caught him by the arm と言います。まず「誰に」動作をしたかを him と O で言い、それから「体のどこに」を前置詞＋the＋体の部分で付け足すのです（@e1322）。him で誰の腕かはもう分かっているので、his ではなく the を使います。前置詞は動詞で決まり、つかむ・引く（catch・take・hold・pull）なら by、軽くたたく（pat・tap）なら on、見る（look）なら in を使います（look him in the eye＝彼の目をまっすぐ見る）。
+    - p: 「彼の腕をつかんだ」を英語では caught him by the arm と言います。まず「誰に」動作をしたかを him と O で言い、それから「体のどこに」を前置詞＋the＋体の部分で付け足すのです（@e1322）。him で誰の腕かはもう分かっているので、his ではなく the を使います。前置詞はおもに動詞で決まり、つかむ・引く（catch・take・hold・pull）なら by、軽くたたく（pat・tap）なら on、見る（look）なら in を使います（look him in the eye＝彼の目をまっすぐ見る）。ただし、体の部分によっても変わります。たたく・打つ動作でも、顔やおなかには in を使い、hit him on the head（頭を）に対して hit him in the face（顔を）と言います。
       notes:
       - kind: 注意
         text: 体の部分そのものが O になる文では所有格を使う。He hurt his arm.（彼は腕をけがした）を He hurt the arm. とはしない。
@@ -276,7 +276,7 @@ chapters:
     - q: （　）に入る最も適切なものを1つ選びなさい。<br>It's raining hard, so I'll go to the station (＿) today.
       choices: [by bus, by a bus, by the bus, on bus]
       steps:
-      - 4択の共通手順（@s015）で考える。I'll go to the station で文の骨組みはそろっているので、空所は「どうやって行くか」を表す M。
+      - 4択の共通手順（@s015 の (3)）で考える。I'll go to the station で文の骨組みはそろっているので、空所は「どうやって行くか」を表す M。
       - 4つとも bus を使っているので、冠詞の有無で決まる。by は「〜という手段で」の意味で、後ろの bus は1台のバスではなく交通の手段を表す。
       - 手段を表す by の後ろの名詞には a も the も付けないので、①by bus を選ぶ。④の on を使うなら on the bus のように冠詞が要る。
       ans: "1"
@@ -288,7 +288,7 @@ chapters:
       - catch 人 by the＋体の部分 の形を思い出す。誰の腕かは her son で分かっているので、腕には the を付ける。①は冠詞がなく、arm は数えられる名詞の単数形なので誤り。③は「どれか1本の腕」になり、誰の腕かが分かっている文に合わない。
       - ④her は文の主語 Ms. Price を指し、自分の腕で息子をつかんだ意味になってしまう。the を使った②を選ぶ。
       ans: "2"
-      point: 動作を受ける人を O にして、体の部分は前置詞＋the で付け足す。つかむは by、たたくは on、見るは in。
+      point: 動作を受ける人を O にして、体の部分は前置詞＋the で付け足す。つかむ・引くは by、軽くたたくは on、見るは in（たたく・打つでも顔やおなかには in）。
     summary:
     - "初めて出てきて聞き手にどれか分からない物には{{a}}、2回目に出てきた物や1つしかない物には{{the}}を付ける。"
     - "種類全体を言う総称は、何も付けない{{複数形}}がいちばんふつう（I like {{dogs}}.）。"
@@ -607,10 +607,11 @@ problems:
   kind: 補充
   min: 1
   inst: 日本語の意味になるように、（　）に適切な語を1語入れなさい。
-  q: 「この薬を1日に3回飲みなさい。」<br>Take this medicine three times (＿) day.
+  q: 「私たちは週に3回、部活の練習がある。」<br>We have club practice three times (＿) week.
   ans: a
-  why: a には「〜につき」の意味があり、three times a day で「1日に3回」。
-  trap: in や the を入れる誤り。「1日につき」は a day で、前置詞は要らない。
+  alt: [per]
+  why: a には「〜につき」の意味があり、three times a week で「週に3回」。per も「〜につき」の意味で使えるので、three times per week も正解。
+  trap: in や the を入れる誤り。three times in week では week に冠詞がなく、three times the week とも言わない。「1週につき」は a week の a で表す。
 # ---- 確認テスト ----
 - id: q13028
   sec: s131

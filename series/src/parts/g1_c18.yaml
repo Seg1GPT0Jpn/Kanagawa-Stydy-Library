@@ -123,7 +123,7 @@ chapters:
         - [I have never seen such a big fish., "Never {{have I}} seen such a big fish."]
         - [My father seldom cooks dinner., "Seldom {{does my father}} cook dinner."]
         - [I didn't notice it until I got home., "Not until I got home {{did I}} notice it."]
-    - p: Not until ～ の文（@e1809）では、倒置するのは後ろの主節で、until の後ろの節（I got home）はふつうの語順のままです。単元17で学ぶ not A until B（B して初めて A、@s174）の not until B を文の頭に出した形で、「B して初めて A した」と訳します。同じ内容は、強調構文（@s181）で It was not until I got home that I noticed it. とも言えます。この形では倒置しません。
+    - p: Not until ～ の文（@e1809）では、倒置するのは後ろの主節で、until の後ろの節（I got home）はふつうの語順のままです。単元17で学んだ not A until B（B して初めて A、@s174）の not until B を文の頭に出した形で、「B して初めて A した」と訳します。同じ内容は、強調構文（@s181）で It was not until I got home that I noticed it. とも言えます。この形では倒置しません。
       notes:
       - kind: 参照
         text: Only＋時の語句が文の頭に出たときも、同じ倒置が起こる（Only then did I understand.＝その時になって初めて分かった）。Hardly had I sat down when the phone rang.（座るとすぐに電話が鳴った）も、hardly を前に出した倒置の文。
@@ -744,7 +744,7 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: (＿) in Paris, I visited a lot of museums.
-  choices: [While, During, When I, Since]
+  choices: [While, During, When I, Because]
   ans: "1"
   why: While I was in Paris の、主節と同じ S（I）と be 動詞（was）を省いた形。
   trap: ②During を選ぶ誤り。during は前置詞で、後ろに名詞を置く（during my stay in Paris）。前置詞＋名詞の in Paris の前には置けない。

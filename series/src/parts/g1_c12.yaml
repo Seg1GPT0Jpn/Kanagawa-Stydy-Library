@@ -170,7 +170,7 @@ chapters:
     - q: （　）に入る最も適切なものを1つ選びなさい。<br>Sora forgot to bring her umbrella this morning. If she had brought it, she (＿) wet now.
       choices: [won't be, wouldn't be, wouldn't have been, hadn't been]
       steps:
-      - 仮定法の手順（@s121）で考える。ソラは今朝傘を持ってこなかったので、if 節は事実と反対の話。if 節は had brought で、過去の事実と反対の形になっている。
+      - 仮定法の手順（@s121 の (4)）で考える。ソラは今朝傘を持ってこなかったので、if 節は事実と反対の話。if 節は had brought で、過去の事実と反対の形になっている。
       - 主節の時は if 節とは別に確かめる。主節に now があるので、主節は「今ぬれている」という今の事実と反対の話。
       - 今の事実と反対の主節は would＋原形なので、wouldn't be を選ぶ。③wouldn't have been は過去のことを言う形で now と合わない。①は直説法、④は主節に置けない形。
       ans: '2'
@@ -179,7 +179,7 @@ chapters:
       steps:
       - 下線部を1つずつ確かめる。①は had が主語 I の前に出ているので、if を省いた語順のはず。ところが If が残っている。
       - if を省くなら Had I known、if を残すなら If I had known。If had I known はどちらの形でもないので、①が誤り。
-      - ②③④も確かめる。②would have visited は過去の事実と反対の主節の形で、last weekend と合う。③with my family も正しい。
+      - ②③④も確かめる。②would have visited は過去の事実と反対の主節の形で、last weekend と合う。③with my family も正しい。④last weekend も過去の時を表していて正しい。
       ans: ①（If had I known → Had I known または If I had known）
       point: had・were・should を主語の前に出すのは、if を省いたときだけ。if と、主語の前に出した had は同時に使わない。
     summary:
@@ -192,7 +192,7 @@ chapters:
     aim: I wish・If only・as if・It is time の後ろで仮定法の形を使い、今のことか過去のことかで過去形と had done を選び分けられるようになる。
     body:
     - h: I wish は「〜ならいいのに」
-    - p: I wish の後ろに S＋V を続けると、「〜ならいいのに」という、実現しない願いを表します。実現しないことなので、節の動詞は仮定法にします。今の事実と反対の願いは過去形（@e1214）、過去の事実と反対の願い（〜だったらよかったのに）は had done です（@e1215）。どちらの時かは、if 節と同じ手順（@s121）で決めます。
+    - p: I wish の後ろに S＋V を続けると、「〜ならいいのに」という、実現しない願いを表します。実現しないことなので、節の動詞は仮定法にします。今の事実と反対の願いは過去形（@e1214）、過去の事実と反対の願い（〜だったらよかったのに）は had done です（@e1215）。どちらの時かは、if 節と同じ仮定法の手順（@s121 の (4)）で決めます。
       notes:
       - kind: 注意
         text: I wish の後ろの be 動詞も、正式には主語が I でも were（I wish I were taller.）。話し言葉では was もよく使われる。
@@ -213,7 +213,7 @@ chapters:
         - [If only S ～, 〜でさえあればなあ, 過去形／had done]
         - [as if S ～, まるで〜のように, '過去形／had done']
     - h: It is time は「もう〜する時間だ」
-    - p: It is time の後ろに S＋V を続けるときは、動詞を過去形にします（@e1220）。「もう〜していてもよいころなのに、まだしていない」という気持ちがあるので、仮定法を使うのです。It is high time とすると「とっくに〜する時間だ」と意味が強まります。過去形を使わずに、It is time to do／It is time for 人 to do と不定詞で言うこともできます（@e1221）。
+    - p: It is time の後ろに S＋V を続けるときは、動詞を過去形にします（@e1220）。「もう〜していてもよいころなのに、まだしていない」という気持ちがあるので、仮定法を使うのです。It is high time とすると「とっくに〜する時間だ」と意味が強まります。話し言葉では It's time we go. のように現在形を使う人もいますが、過去形が基本の形で、入試では過去形を選びます（書きます）。過去形を使わずに、It is time to do／It is time for 人 to do と不定詞で言うこともできます（@e1221）。
     - ex: [e1220, e1221]
     - check:
       - q: 「ピアノが弾けたらいいのに。」I wish I (＿) play the piano.
@@ -257,11 +257,11 @@ chapters:
       ans: '3'
       point: I wish の後ろに現在形や will は置かない。今のことは過去形、過去のことは had done。
     - q: （　）に入る最も適切なものを1つ選びなさい。<br>You've been playing video games for three hours. It's time you (＿) your homework.
-      choices: [do, will do, did, have done]
+      choices: [doing, will do, did, have done]
       steps:
-      - 空所は It's time の後ろの節の V で、後ろに O の your homework がある。4つとも O をとれる形なので、形だけでは決まらない。
+      - 空所は It's time の後ろの節の V で、後ろに O の your homework がある。①doing は -ing 形だけで、be 動詞がないので節の V にならない。残りの3つは V になれる形なので、形だけでは決まらない。
       - 意味の手がかりは前の文。3時間ゲームをしていて、宿題はまだしていない。「もう宿題をする時間だ」と言っている。
-      - It is time の後ろの S＋V は、「まだしていない」という気持ちから過去形にする。did を選ぶ。①は原形、②は直説法、④は「もうしてしまった」という完了の意味になり、前の文と合わない。
+      - It is time の後ろの S＋V は、「まだしていない」という気持ちから過去形にする。did を選ぶ。②will do は直説法の未来の形、④は「もうしてしまった」という完了の意味になり、前の文と合わない。
       ans: '3'
       point: It is time の後ろは過去形。不定詞を使うなら It's time for you to do your homework. と言える。
     summary:
@@ -298,7 +298,7 @@ chapters:
         yomi: かていほうげんざい
         text: suggest・insist・demand などの後ろの that 節で、主語や時に関係なく動詞を原形にする形。まだ実現していないことを「そうすべきだ」と述べる。should＋原形で表すこともある。
     - ex: [e1227, e1228]
-    - p: 主節が過去形（suggested）でも、主語が3人称単数（Sora）でも、that 節の動詞は原形のままです。過去形の joined や、-s の付いた joins にはしません。否定は not を原形の前に置き、that he not go の形にします。It is necessary that ～・It is important that ～ の that 節でも、同じように原形（または should＋原形）を使います。
+    - p: 主節が過去形（suggested）でも、主語が3人称単数（Sora）でも、that 節の動詞は原形のままです。イギリス英語のくだけた文では suggested that Sora joined のように直説法の過去形を使うこともありますが、入試では原形（または should＋原形）を選びます。-s の付いた joins にはしません。否定は not を原形の前に置き、that he not go の形にします。It is necessary that ～・It is important that ～ の that 節でも、同じように原形（または should＋原形）を使います。
       notes:
       - kind: 注意
         text: insist が「（事実だと）言い張る」、suggest が「（それとなく）示す」という意味のときは、that 節は直説法になる。He insisted that he had locked the door.（彼はドアに鍵をかけたと言い張った）。
@@ -314,7 +314,7 @@ chapters:
       en: '*Without* this map, we *would get* lost in the old town.'
       ja: この地図がなければ、私たちは旧市街で道に迷うだろう。
       gloss:
-      - [get lost, 道に迷う]
+      - [get lost, 道に迷う（get－got－got／gotten）]
     - id: e1223
       en: '*Without* Nanami''s advice, I *would have bought* shoes in the wrong size.'
       ja: ナナミの助言がなかったら、私はサイズの合わない靴を買っていただろう。
@@ -389,11 +389,11 @@ problems:
   kind: 4択
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
-  q: I don't have much money now. If I (＿) more money, I would buy that guitar.
-  choices: [have, had, will have, having]
+  q: You look very tired. If I (＿) you, I would go to bed early tonight.
+  choices: [am, were, be, will be]
   ans: '2'
-  why: 今お金がないという事実と反対のことを「もし〜なら、…するのに」と言う文。中学で学んだ仮定法の形で、if 節は過去形の had。
-  trap: now につられて①have を選ぶ誤り。主節の would buy が、事実と反対の話だというしるしになる。
+  why: 中学で学んだ If I were you（私があなたなら）の形。話し手は実際には相手ではないので、事実と反対の話になり、主語が I でも be 動詞は were を使う。主節の would go も同じ形のしるし。
+  trap: 主語が I なので①am を選ぶ誤り。am は事実をそのまま述べる形で、「私があなたなら」という仮の話には使わない。
 - id: q12004
   sec: s121
   set: 節末
@@ -415,7 +415,8 @@ problems:
   inst: （　）内の語を適切な形にして、空所に入れなさい。
   q: If my house (＿) bigger, I could invite all my classmates.（be）
   ans: were
-  why: 家が実際には大きくないので、今の事実と反対の仮定法過去。if 節の be 動詞は were が正式な形。話し言葉では was も使われるが、入試では were を書く。
+  alt: [was]
+  why: 家が実際には大きくないので、今の事実と反対の仮定法過去。if 節の be 動詞は were が正式な形。話し言葉では was も使うので、was も正解とする。ただし入試の記述では were と書くのが安全。
   trap: 直説法の is を書く誤り。主節の could invite が仮定法のしるしなので、if 節も過去の形にそろえる。
 - id: q12006
   sec: s121
@@ -470,11 +471,11 @@ problems:
   lv: 2
   kind: 整序
   min: 2
-  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。コンマが必要なところには補うこと。
   q: あの時あなたが止めてくれなかったら、私は違うバスに乗っていただろう。<br>If you ( had / have / I / me / not / stopped / would ) taken the wrong bus.
   words: [had, have, I, me, not, stopped, would]
   ans: If you had not stopped me, I would have taken the wrong bus.
-  why: 過去の事実と反対なので、if 節は had not stopped me、主節は I would have taken。否定の not は had の後ろに置く。
+  why: 過去の事実と反対なので、if 節は had not stopped me、主節は I would have taken。否定の not は had の後ろに置く。if 節が先に来るので、me の後ろにコンマを入れる。
   trap: have を if 節に使い、If you have not stopped me とする誤り。if 節は had done、主節は would have done と、have と had の置き場所を分ける。
 - id: q12011
   sec: s122
@@ -491,7 +492,7 @@ problems:
 - id: q12012
   sec: s122
   set: 節末
-  lv: 1
+  lv: 2
   kind: 補充
   min: 1
   inst: if を使わずに、ほぼ同じ意味の文に書きかえなさい。（　）に1語ずつ入れること。
@@ -530,10 +531,10 @@ problems:
   kind: 正誤
   min: 1
   inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
-  q: __If__① Mark __had not missed__② the bus this morning, he __would have been__③ here with us now. We __need__④ him for the meeting.
+  q: __If__① Mark __had not lost__② his wallet yesterday, he __would not have been__③ so worried now. He __is__④ still looking for it.
   ans: '3'
-  why: if 節は今朝の事実と反対（had not missed）だが、主節には now があり、今ここにいないことの話。今の事実と反対の主節は would＋原形なので would be にする。①②④は正しい。
-  trap: if 節の had not missed に合わせて、主節も would have done でよいと考える誤り。主節の時は now で決める。
+  why: if 節は昨日の事実と反対（had not lost）だが、主節には now があり、今心配している気持ちの話。今の事実と反対の主節は would＋原形なので would not be にする。①②④は正しい。②を lost にすると今の事実と反対の形になり、yesterday と合わない。
+  trap: if 節の had not lost に合わせて、主節も would have done でよいと考える誤り。主節の時は now で決める。
 - id: q12016
   sec: s122
   set: 節末
@@ -592,7 +593,7 @@ problems:
   choices: [as if, even if, unless, because]
   ans: '1'
   why: グリーン先生は日本人ではないが、日本人のように日本語を話す。「まるで〜のように」は as if で、後ろは仮定法過去の were。
-  trap: ②even if を選ぶ誤り。「たとえ日本人だとしても日本語を話す」では意味が通らない。were を見たら、as if・I wish・if のどれと組むかを考える。
+  trap: ②even if を選ぶ誤り。単元9で学んだ even if は仮のことにも使い、even if she were ～ のように仮定法の形を続けることもできるので、形だけでは外れない。しかし「たとえ日本人だとしても日本語を話す」では意味が通らない。were を見たら、as if・I wish・if のどれと組むかを意味で考える。
 - id: q12021
   sec: s123
   set: 節末
@@ -602,8 +603,8 @@ problems:
   inst: （　）内の語を適切な形にして、空所に入れなさい。
   q: It's already eleven. It's time we (＿) home.（go）
   ans: went
-  why: It is time の後ろの S＋V は、「もう〜してよいころなのに、まだしていない」という気持ちから過去形にする。
-  trap: 原形の go を入れる誤り。It's time to go home. なら原形だが、ここは we の後ろなので過去形。
+  why: It is time の後ろの S＋V は、「もう〜してよいころなのに、まだしていない」という気持ちから過去形にする。話し言葉では It's time we go home. と現在形を使う人もいるが、過去形が基本の形で、入試では went を書く。
+  trap: go のまま書く誤り。It's time to go home. の go は不定詞（to＋原形）だが、ここは主語 we の後ろの V なので、形を変えて過去形にする。
 - id: q12022
   sec: s123
   set: 節末
@@ -704,10 +705,10 @@ problems:
   kind: 英作
   min: 3
   inst: 日本語の意味になるように、（　）に英語を入れて文を完成させなさい（語数は自由）。
-  q: あなたの地図がなかったら、私たちは道に迷っていただろう。<br>Without your map, (＿).
+  q: あなたの地図がなかったら、私たちは道に迷っていただろう。（get lost 道に迷う：get－got－got／gotten）<br>Without your map, (＿).
   ans: we would have gotten lost
-  alt: [we would have got lost, we would have lost our way, we might have gotten lost]
-  why: 「〜がなかったら…していただろう」は過去の仮定なので、主節は would have done。採点の目安：would have＋過去分詞の形で「道に迷う」（get lost・lose our way）が書けていれば正解。might have も可。
+  alt: [we would have got lost, we would have been lost, we would have lost our way, we might have gotten lost, we might have got lost, we could have gotten lost, we could have got lost]
+  why: 「〜がなかったら…していただろう」は過去の仮定なので、主節は would have done。get の過去分詞は got（アメリカ英語では gotten）。be lost（迷っている状態）を使った we would have been lost も正しい。採点の目安：would（might・could）have＋過去分詞の形で「道に迷う」（get lost・be lost・lose our way）が表せていれば正解。
   trap: we would get lost と書く誤り。これは今の仮定（地図がなければ迷うだろう）になり、「迷っていただろう」の意味にならない。
 - id: q12031
   sec: s124
@@ -716,11 +717,11 @@ problems:
   kind: 整序
   min: 2
   inst: 日本語の意味になるように（　）内の語を並べかえなさい。
-  q: 本当の友達なら、そんなうそはつかないだろう。<br>A ( a / friend / lie / not / such / tell / true / would ).
-  words: [a, friend, lie, not, such, tell, 'true', would]
-  ans: A true friend would not tell such a lie.
-  why: 主語の A true friend が「本当の友達なら」という仮定をふくむ。主節は would not＋原形。such a lie の語順にする。
-  trap: a such lie と並べる誤り。such は a の前に置き、such a ＋名詞 の順にする。
+  q: 本当の友達なら、あなたにうそはつかないだろう。<br>A ( a / friend / lie / not / tell / true / would / you ).
+  words: [a, friend, lie, not, tell, 'true', would, you]
+  ans: A true friend would not tell you a lie.
+  why: 主語の A true friend が「本当の友達なら」という仮定をふくみ、if 節の代わりをしている。主節は would not＋原形。tell 人 物（人に物を言う）の順で tell you a lie とする。
+  trap: A friend would not tell you a true lie のように、true を lie の前に置く誤り。「本当の友達なら」なので true は friend の前に置き、A true friend を S にする。
 - id: q12032
   sec: s121
   set: 確認テスト
@@ -759,7 +760,7 @@ problems:
 - id: q12035
   sec: s122
   set: 確認テスト
-  lv: 1
+  lv: 2
   kind: 補充
   min: 1
   inst: if を使わずに、ほぼ同じ意味の文に書きかえなさい。（　）に1語ずつ入れること。
@@ -786,10 +787,10 @@ problems:
   kind: 整序
   min: 2
   inst: 日本語の意味になるように（　）内の語を並べかえなさい。
-  q: とっくに新しい靴を買っていてもいいころだよ。<br>It's ( a / bought / high / pair / time / you ) of new shoes.
-  words: [a, bought, high, pair, time, you]
-  ans: It's high time you bought a pair of new shoes.
-  why: It is high time は「とっくに〜する時間だ」。後ろの S＋V は過去形にするので you bought。a pair of new shoes で「新しい靴1足」。
+  q: とっくに新しい靴を買っていてもいいころだよ。<br>It's ( bought / high / new / time / you ) shoes.
+  words: [bought, high, new, time, you]
+  ans: It's high time you bought new shoes.
+  why: It is high time は「とっくに〜する時間だ」。後ろの S＋V は過去形にするので you bought。O は new shoes。
   trap: It's time high … と high の位置を間違える誤り。high は time の前に置き、high time のかたまりにする。
 - id: q12038
   sec: s124
