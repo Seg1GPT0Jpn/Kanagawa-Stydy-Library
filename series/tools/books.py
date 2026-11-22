@@ -678,6 +678,34 @@ def sougou_blocks(bk, pages, parts=None):
     return out
 
 
+def index_blocks(bk, pages, chapters, anchor):
+    """索引。chapters を指定すると、その章で定義した用語だけ（上巻の索引）"""
+    terms = sorted(((t, y) for t, y in bk.terms.items() if chapters is None or bk.term_ch.get(t) in chapters), key=lambda kv: kv[1])
+    rows = []; cur = None
+    for t, yomi in terms:
+        g = gojuon_row(yomi)
+        if g != cur:
+            rows.append(f'<div class="k">{g}</div>'); cur = g
+        rows.append(f'<div class="row">{E(t)}<span class="dots"></span><span class="pg">{pages.get("term:" + t.replace(" ", "\u00a0"), "00")}</span></div>')
+    # 1ページに入る行数ごとに分ける（各ページは2段組。見出しの行は高いので少なめに数える）
+    PER = 64
+    chunks, curc, n = [], [], 0
+    for r in rows:
+        w = 1.6 if r.startswith('<div class="k">') else 1
+        if n + w > PER and curc:
+            if curc[-1].startswith('<div class="k">'): last = [curc.pop()]   # 五十音の見出しをページ末に残さない
+            else: last = []
+            chunks.append(curc); curc, n = last, len(last) * 1.6
+        curc.append(r); n += w
+    if curc: chunks.append(curc)
+    title = ('索引（上巻・下巻）' if bk.data['book'].get('volumes') else '索引') if chapters is None else '索引（上巻）'
+    out = []
+    for k, c in enumerate(chunks):
+        head = f'<div class="fm-title">{title}</div>' if k == 0 else ''
+        out.append(blk(head + '<div class="idx toc">' + ''.join(c) + '</div>', 'newpage', anchor=anchor if k == 0 else None, chapter=title, section=title))
+    return out
+
+
 def honbun_blocks(bk, pages, part, cover, colophon, legend):
     d = bk.data
     out = [fullpage(cover, 'nohead pk-cover', anchor='cover'), fullpage('', 'nohead pk-blank')]
@@ -698,13 +726,14 @@ def honbun_blocks(bk, pages, part, cover, colophon, legend):
         if ch['id'] == vol1_last:
             for pt in sougou_parts[:1]:
                 rows.append(f'<div class="tc">総合演習　第{pt}回<span class="dots"></span><span class="pg">{pages.get(f"sougou{pt}", "00")}</span></div>')
+            rows.append(f'<div class="tc">索引（上巻）<span class="dots"></span><span class="pg">{pages.get("index1", "00")}</span></div>')
         tocb.append(''.join(rows))
     tail = []
     for pt in (sougou_parts[1:] if vol1_last else sougou_parts):
         tail.append(f'<div class="tc">総合演習　第{pt}回<span class="dots"></span><span class="pg">{pages.get(f"sougou{pt}", "00")}</span></div>')
     if any(p['set'] == '模試' for p in bk.problems):
         tail.append(f'<div class="tc">模擬試験・解答用紙<span class="dots"></span><span class="pg">{pages.get("mock", "00")}</span></div>')
-    tail.append(f'<div class="tc">索引<span class="dots"></span><span class="pg">{pages.get("index", "00")}</span></div>')
+    tail.append(f'<div class="tc">{"索引（上巻・下巻）" if vol1_last else "索引"}<span class="dots"></span><span class="pg">{pages.get("index", "00")}</span></div>')
     out.append(blk('<div class="fm-title">目次</div><div class="toc">' + tocb[0] + '</div>', 'newpage', anchor='toc', chapter='目次', section='目次'))
     for t in tocb[1:]:
         out.append(blk(f'<div class="toc">{t}</div>', 'tocb'))
@@ -719,6 +748,7 @@ def honbun_blocks(bk, pages, part, cover, colophon, legend):
         if ch['id'] == vol2_first:
             # 上巻の終わり：上巻の裏表紙までで4の倍数にそろえ、下巻の表紙・目次を置く（ページ番号は通し）
             out.extend(sougou_blocks(bk, pages, sougou_parts[:1]))   # 総合演習 第1回は上巻の終わり
+            out.extend(index_blocks(bk, pages, set(vols[0]['chapters']), 'index1'))
             vpad = 0
             if 'vol1back' in pages:
                 n_before = (pages['vpad'] if 'vpad' in pages else pages['vol1back']) - 1   # 白ページを入れる前の、上巻の本文の終わり
@@ -773,28 +803,8 @@ def honbun_blocks(bk, pages, part, cover, colophon, legend):
             out.extend(problem_blocks(bk, pages, probs, wide=True))
     out.extend(mock_blocks(bk, pages, wide=True))
     out.extend(sougou_blocks(bk, pages, sougou_parts[1:] if vol2_first else None))
-    # 索引
-    terms = sorted(bk.terms.items(), key=lambda kv: kv[1])
-    rows = []; cur = None
-    for t, yomi in terms:
-        g = gojuon_row(yomi)
-        if g != cur:
-            rows.append(f'<div class="k">{g}</div>'); cur = g
-        rows.append(f'<div class="row">{E(t)}<span class="dots"></span><span class="pg">{pages.get("term:" + t.replace(" ", "\u00a0"), "00")}</span></div>')
-    # 1ページに入る行数ごとに分ける（各ページは2段組。見出しの行は高いので少なめに数える）
-    PER = 64
-    chunks, curc, n = [], [], 0
-    for r in rows:
-        w = 1.6 if r.startswith('<div class="k">') else 1
-        if n + w > PER and curc:
-            if curc[-1].startswith('<div class="k">'): last = [curc.pop()]   # 五十音の見出しをページ末に残さない
-            else: last = []
-            chunks.append(curc); curc, n = last, len(last) * 1.6
-        curc.append(r); n += w
-    if curc: chunks.append(curc)
-    for k, c in enumerate(chunks):
-        head = '<div class="fm-title">索引</div>' if k == 0 else ''
-        out.append(blk(head + '<div class="idx toc">' + ''.join(c) + '</div>', 'newpage', anchor='index' if k == 0 else None, chapter='索引', section='索引'))
+    # 索引（上下巻のある本は、下巻に上下巻のすべての用語を載せる）
+    out.extend(index_blocks(bk, pages, None, 'index'))
     pad_and_colophon(out, pages, colophon)
     return out
 

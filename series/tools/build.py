@@ -38,6 +38,7 @@ class Book:
         self.sec_title = {}
         self.ch_of = {}
         self.terms = {}      # term -> yomi
+        self.term_ch = {}    # term -> 定義している章の ID（上巻の索引を作るため）
         n_ex = 0; n_sec = 0
         for ci, ch in enumerate(self.data['chapters'], 1):
             unit = re.fullmatch(r'c(\d{2})', ch['id'])   # 英文法編：単元番号（c01 → 1）を章の番号に、節は「単元-節」
@@ -56,6 +57,7 @@ class Book:
                     for nt in b.get('notes', []) or []:
                         if nt['kind'] == '用語':
                             self.terms[nt['term']] = nt.get('yomi', nt['term'])
+                            self.term_ch.setdefault(nt['term'], ch['id'])
         self.problems = self.data.get('problems', [])
         # 例題の番号（本冊と同じく、節の順に通しで数える）
         self.wk_nos = {}
