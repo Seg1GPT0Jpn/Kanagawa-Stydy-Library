@@ -568,9 +568,9 @@ problems:
   kind: 補充
   min: 1
   inst: （　）に適切な1語を入れなさい。
-  q: We were happy to hear the news (＿) our team had won the final.
+  q: The news (＿) Ms. Scott will leave our school in March made us sad.
   ans: that
-  why: 空所の前に名詞 the news があり、後ろの our team had won the final は完全な文。the news の中身を説明する同格の that を入れる。
+  why: 空所の前に名詞 The news があり、後ろの Ms. Scott will leave our school in March は完全な文。The news の中身（スコット先生が3月に学校を去るという知らせ）を説明する同格の that を入れる。文の V は made。
   trap: which を入れる誤り。名詞の後ろだから関係代名詞と考えてしまう。関係代名詞なら後ろが不完全な文になるが、ここは完全な文。
 - id: q09017
   sec: s092

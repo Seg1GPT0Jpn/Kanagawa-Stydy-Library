@@ -624,8 +624,8 @@ problems:
   lv: 2
   kind: 整序
   min: 2
-  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
-  q: 姉はテレビを見ながらソファに横になっていた。<br>My sister ( lay / on / sofa / the / watching ) TV.<br>（注）lay：lie（横になる）の過去形
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。（注）lay：lie（横になる）の過去形
+  q: 姉はテレビを見ながらソファに横になっていた。<br>My sister ( lay / on / sofa / the / watching ) TV.
   words: [lay, "on", sofa, the, watching]
   ans: My sister lay on the sofa watching TV.
   why: 主節は My sister lay on the sofa（lie の過去形 lay）。「テレビを見ながら」は付帯状況の分詞構文 watching TV で、文の後ろに置く。
@@ -777,8 +777,8 @@ problems:
   lv: 2
   kind: 整序
   min: 2
-  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
-  q: ジョーはシャツのそでをまくり上げて皿を洗っていた。<br>Joe was washing the dishes ( his / rolled / sleeves / up / with ).<br>（注）roll up：まくり上げる
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。（注）roll up：まくり上げる
+  q: ジョーはシャツのそでをまくり上げて皿を洗っていた。<br>Joe was washing the dishes ( his / rolled / sleeves / up / with ).
   words: [his, rolled, sleeves, up, with]
   ans: Joe was washing the dishes with his sleeves rolled up.
   why: 付帯状況の with O C。そでは「まくり上げられている側」なので、C は過去分詞 rolled up。
@@ -883,8 +883,8 @@ problems:
   lv: 1
   kind: 整序
   min: 2
-  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
-  q: その犬はしっぽを振りながら私のところへ走ってきた。<br>The dog ran to me ( its / tail / wagging / with ).<br>（注）wag：（しっぽが）揺れる、（しっぽを）振る
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。（注）wag：（しっぽが）揺れる、（しっぽを）振る
+  q: その犬はしっぽを振りながら私のところへ走ってきた。<br>The dog ran to me ( its / tail / wagging / with ).
   words: [its, tail, wagging, with]
   ans: The dog ran to me with its tail wagging.
   why: 付帯状況の with O C。しっぽは自分で「揺れている側」なので現在分詞 wagging を O の後ろに置く。

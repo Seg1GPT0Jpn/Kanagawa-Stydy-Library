@@ -72,7 +72,7 @@ chapters:
         - [C（補語）, S や O がどんなものか・どんな状態か, "{{名詞}}・{{形容詞}}"]
         - [M（修飾語）, いつ・どこで・どのように など, "{{副詞}}・前置詞＋名詞・時を表す名詞のかたまり（every morning など）"]
     - ex: [e0101, e0102]
-    - p: S と O には、名詞のほか I・he・she などの代名詞も入ります。代名詞は、どの位置に置くかで形が変わります。S の位置では I・he・she、O の位置と前置詞の後ろでは me・him・her を使います（I like her. ／ This picture was painted by him.）。V の形は S に合わせます。現在の文では、be 動詞は I am・he is・they are と変わり、S が3人称単数（he・she・it や、1人・1つを表す名詞）なら一般動詞に -s を付けます（My sister plays tennis.）。
+    - p: S と O には、名詞のほか I・he・she などの代名詞も入ります。代名詞は、どの位置に置くかで形が変わります。S の位置では I・he・she、O の位置と前置詞の後ろでは me・him・her を使います（I like her. ／ I went there with him.）。V の形は S に合わせます。現在の文では、be 動詞は I am・he is・they are と変わり、S が3人称単数（he・she・it や、1人・1つを表す名詞）なら一般動詞に -s を付けます（My sister plays tennis.）。
     - table:
         head: [位置, 私, あなた, 彼, 彼女, それ, 私たち, 彼ら]
         rows:
@@ -403,7 +403,7 @@ chapters:
       - 空所は文のどの要素か（S・V・O・C・M のどれか）。
       - 空所の後ろが、完全な文か不完全な文か。
       - 時・数・意味の手がかりになる語はどれか。
-    - p: たとえば (＿) did you see at the zoo? では、①空所は文の頭にあり、②後ろの you see ＿ at the zoo は see の O が欠けた不完全な文です。欠けた O の代わりになる What や Who が入り、M にしかならない When や Why は入りません。③の時や数の手がかりは、時制（単元2）や名詞の数（単元13）の問題で使います。
+    - p: たとえば (＿) did you see at the zoo? では、①空所は文の頭にあり、②後ろの you see ＿ at the zoo は see の O が欠けた不完全な文です。欠けた O の代わりになる What や Who が入り、M にしかならない When や Why は入りません。③の時や数の手がかりは、時制（単元2）や名詞の数（下巻の単元13）の問題で使います。
     - check:
       - q: My sister got a letter from her friend. の got の意味は？
         a: 手に入れた（受け取った）。後ろが名詞で SVO。
@@ -481,7 +481,7 @@ problems:
   q: This is Ms. Clark. I like (＿) very much.
   choices: [she, her, hers, herself]
   ans: "2"
-  why: like の後ろの「彼女を」にあたる位置なので、代名詞は目的格の her。
+  why: like の後ろの「彼女を」にあたる O の位置なので、代名詞は目的格（O や前置詞の後ろに置くときの形）の her。
   trap: ①she を選ぶ誤り。she は「彼女は」と主語の位置で使う形。動詞の後ろでは her になる。
 # ---- s011 ----
 - id: q01004

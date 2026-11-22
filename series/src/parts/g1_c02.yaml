@@ -221,7 +221,7 @@ chapters:
       - ②の resemble は「似ている」という状態を表す状態動詞なので、進行形にしない。主語は I なので resemble とする。
       - ③looks like（〜のように見える）は今の様子を表す現在形で正しい。④our は「私」と姉（妹）の2人の母を指すので正しい。
       ans: ②（am resembling → resemble）
-      point: 日本語の「似ている」につられて進行形にしない。resemble は他動詞なので、resemble to としないことにも気をつける（@s012 の (2) の表）。
+      point: 日本語の「似ている」につられて進行形にしない。resemble は他動詞なので、resemble to としないことにも気をつける（@s012 の (2)「自動詞と他動詞」の表）。
     summary:
     - 進行形「be 動詞＋-ing 形」は、ある時に動作が{{途中}}であることを表す。
     - know・belong to・resemble などの{{状態動詞}}は、ふつう進行形に{{しない}}。
@@ -740,7 +740,7 @@ problems:
   - will
   ans: Nobody knows when the snow will stop.
   why: when the snow will stop は knows の O になる名詞節で、「いつ〜か」の意味。雪がやむ時は決まった予定ではなく予想なので will を使い、when の後ろは S＋V の語順にする。
-  trap: when will the snow stop と疑問文の語順にする誤り。文の中に入った疑問の節は S＋V の語順になる（@s171）。
+  trap: when will the snow stop と疑問文の語順にする誤り。文の中に入った疑問の節は S＋V の語順になる（下巻 @s171）。
 - id: q02027
   sec: s023
   set: 節末

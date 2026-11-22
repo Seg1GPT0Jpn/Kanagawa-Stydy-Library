@@ -79,7 +79,7 @@ chapters:
     worked:
     - q: （　）に入る最も適切なものを1つ選びなさい。<br>It's Sunday tomorrow, so you (＿) get up early.
       choices: [must, must not, don't have to, can't]
-      steps: [4択の共通手順（@s015 の (3)）で考える。空所は V の一部（助動詞の位置）で、後ろの get は原形。4つとも後ろに原形をとれるので、形では決まらない。, '意味の手がかりを探す。前半の It''s Sunday tomorrow, so（明日は日曜日だから）から、早起きは「しなくてよい」と分かる。', 禁止の must not と不要の don't have to を比べ、不要の don't have to を選ぶ。]
+      steps: [4択の共通手順（@s015 の (3)「4択を解く共通の手順」）で考える。空所は V の一部（助動詞の位置）で、後ろの get は原形。4つとも後ろに原形をとれるので、形では決まらない。, '意味の手がかりを探す。前半の It''s Sunday tomorrow, so（明日は日曜日だから）から、早起きは「しなくてよい」と分かる。', 禁止の must not と不要の don't have to を比べ、不要の don't have to を選ぶ。]
       ans: '3'
       point: must not は「〜してはいけない」。日曜日に早起きを禁じる理由は文にない。否定の形を選ぶときは、日本語に訳してから空所に入れて確かめる。
     - q: 日本語の意味になるように、（　）に適切な語を1語ずつ入れなさい。<br>来年の春には、新しい体育館が使えるようになるだろう。<br>We (＿) (＿) (＿) (＿) use the new gym next spring.
