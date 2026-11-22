@@ -48,11 +48,11 @@ chapters:
     - p: rise と raise も、後ろに O があるかどうかで選びます。太陽や値段が「上がる」なら自動詞の rise（@e2005）、手や値段を「上げる」なら他動詞の raise です（@e2006）。raise には「（子どもを）育てる」という意味もあります。
     - ex: [e2003, e2004, e2005, e2006]
     - check:
-      - q: The cat is (lying／laying) on the bed.
+      - q: The cat is (＿) on the bed.（lying／laying）
         a: lying（後ろに O がない）
-      - q: Please (lie／lay) the books on the desk.
+      - q: Please (＿) the books on the desk.（lie／lay）
         a: lay（the books が O）
-      - q: We (reached／reached to) the hotel at nine.
+      - q: We (＿) the hotel at nine.（reached／reached to）
         a: reached
     examples:
     - id: e2001
@@ -86,7 +86,7 @@ chapters:
       steps:
       - 動詞を確かめる。reach は「〜に着く」の意味では他動詞で、後ろに O を直接置く。
       - ②reached to では、reach と O の間に to が入っている。reached the top とする（arrived at the top や got to the top としても正しいが、どれも②の中の直し方）。
-      - ほかを確かめる。①After walking は前置詞＋動名詞（@s071）、③just before sunset は「日没の直前に」で、どれも正しい。
+      - ほかを確かめる。①After walking は前置詞＋動名詞（@s071）、③just は before sunset を強める副詞（「ちょうど」）、④before sunset は「日没前に」で、どれも正しい。
       ans: ②（reached to → reached）
       point: reach・discuss・marry・approach・mention は他動詞。日本語の「〜に」「〜と」「〜について」につられて前置詞を付けない。
     summary:
@@ -175,7 +175,7 @@ chapters:
       steps:
       - 動詞の後ろの型を確かめる。②は suggest O to do の形になっている。
       - suggest は O to do の形をとらない。suggested that I (should) walk、または suggested walking とする。②が誤り。
-      - ほかを確かめる。①Last month は過去形と合い、③every day は「毎日」、④to stay healthy は「健康でいるために」という目的の不定詞（@s061）で、どれも正しい。
+      - ほかを確かめる。①Last month は過去形と合い、③every day は「毎日」、④to stay healthy は「健康でいるために」という目的の不定詞（@s061、@e0606）で、どれも正しい。
       ans: ②（suggested me to walk → suggested that I (should) walk）
       point: 「人に〜するよう提案する」でも、suggest は that 節（動詞は原形か should＋原形）か doing を続ける。
     summary:
@@ -193,7 +193,7 @@ chapters:
         head: [動詞, 後ろの形, 例]
         rows:
         - ["say", "言葉・that 節（人は {{say to}} 人）", "She said (to me) that she was tired."]
-        - ["tell", "{{人}}＋物／that 節／to do", "He told me the news."]
+        - ["tell", "tell {{人}} 物／tell 人 that ～／tell 人 to do", "He told me the news."]
         - ["speak", "言語、speak to／with 人", "speak English、speak to the teacher"]
         - ["talk", "talk to／with 人 about 〜", "talk with Mai about the trip"]
       notes:
@@ -223,11 +223,11 @@ chapters:
         - ["spend", "{{人}}", "spend 時間・お金 on 名詞／(in) doing"]
     - ex: [e2016, e2017, e2018]
     - check:
-      - q: Can you (say／tell) me your phone number?
+      - q: Can you (＿) me your phone number?（say／tell）
         a: tell
-      - q: These jeans don't (fit／suit) me. They're too long.
+      - q: These jeans don't (＿) me. They're too long.（fit／suit）
         a: fit（サイズの話）
-      - q: I (spent／took) 2,000 yen on this book.
+      - q: I (＿) 2,000 yen on this book.（spent／took）
         a: spent
     examples:
     - id: e2013
@@ -304,11 +304,11 @@ chapters:
         text: the key to の to は前置詞なので、後ろに動詞を置くときは doing にする（the key to learning）。look forward to doing と同じ考え方（@s074）。
     - ex: [e2023, e2024]
     - check:
-      - q: How much is the train (fare／fee) to Nagoya?
+      - q: How much is the train (＿) to Nagoya?（fare／fee）
         a: fare
-      - q: The hotel has rooms for 200 (guests／customers).
+      - q: The hotel has rooms for 200 (＿).（guests／customers）
         a: guests
-      - q: What is the reason (for／of) the delay?
+      - q: What is the reason (＿) the delay?（for／of）
         a: for
     examples:
     - id: e2019
@@ -376,9 +376,9 @@ chapters:
         - ["be capable {{of}} doing", "〜する能力がある", "be able {{to}} do と形が違う"]
     - ex: [e2029, e2030]
     - check:
-      - q: This song is familiar (to／with) young people.
+      - q: This song is familiar (＿) young people.（to／with）
         a: to（物が主語）
-      - q: He is capable (of／to) running a marathon.
+      - q: He is capable (＿) running a marathon.（of／to）
         a: of
       - q: She is sure to win. で、確信しているのはだれか。
         a: 話し手
@@ -438,6 +438,7 @@ problems:
   ans: "2"
   why: yesterday があるので過去の文。write の過去形は wrote。
   trap: ③written を選ぶ誤り。written は過去分詞で、have や be と一緒に使う。
+  ref: s021
 - id: q20002
   sec: s201
   set: 前提
@@ -460,6 +461,7 @@ problems:
   ans: "3"
   why: gave の後ろに「人に」と「物を」を並べる形。人の位置は O なので、目的格の me を使う。
   trap: ①I を選ぶ誤り。I は S の位置で使う形で、動詞の後ろの O には me を置く。
+  ref: s013
 # ---- s201 節末 ----
 - id: q20004
   sec: s201
@@ -541,7 +543,7 @@ problems:
   choices: [makes, lets, enables, has]
   ans: "3"
   why: 後ろが us to talk と O to do の形。この形をとるのは enable（O が〜できるようにする）。
-  trap: ②lets を選ぶ誤り。let は使役動詞で let O do の形をとり、to は付けない（@s063）。makes・has も O の後ろは原形。
+  trap: ②lets を選ぶ誤り。let は使役動詞で let O do の形をとり、to は付けない（@s063、@e0618）。makes・has も O の後ろは原形。
 - id: q20011
   sec: s202
   set: 節末

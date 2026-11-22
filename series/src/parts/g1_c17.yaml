@@ -9,7 +9,7 @@ chapters:
     aim: 疑問文を文の中に組みこむときに「疑問詞＋S＋V」の語順に直し、Do you know ～? と 疑問詞＋do you think ～? の語順を正しく使い分けられるようになる。
     body:
     - h: 疑問文が文の一部になると、語順がもどる
-    - p: 「ベイカー先生はどこに住んでいますか」は Where does Ms. Baker live? という疑問文です。この疑問文を「私は〜を知らない」の「〜」に入れると、@e1701 のように where Ms. Baker lives という形に変わります。疑問詞で始まるかたまりが、know の O になる名詞節（@s023）になったのです。疑問文を文の中に組みこんで名詞節にしたものを<<間接疑問>>といいます。
+    - p: 「ベイカー先生はどこに住んでいますか」は Where does Ms. Baker live? という疑問文です。この疑問文を「私は〜を知らない」の「〜」に入れると、@e1701 のように where Ms. Baker lives という形に変わります。疑問詞で始まるかたまりが、know の O になる名詞節（@s092）になったのです。疑問文を文の中に組みこんで名詞節にしたものを<<間接疑問>>といいます。
       notes:
       - kind: 用語
         term: 間接疑問
@@ -27,7 +27,7 @@ chapters:
     - ex: [e1701, e1702, e1703]
     - p: 間接疑問は名詞節なので、未来のことは I don't know when he will come. のように will で表します（@s023）。主節の動詞が asked・wondered など過去のときは、節の中の動詞もふつう過去にずらします。このずらし方は単元19で学びます（@s191）。
     - h: Yes／No でたずねる疑問文は if・whether で組みこむ
-    - p: Is the museum open today? のように疑問詞のない疑問文を文の中に組みこむときは、節の頭に if か whether（〜かどうか）を置き、後ろを S＋V にします（@e1704）。ask・wonder・I'm not sure の後ろによく使います。if と whether の使い分けは単元9で学びました（@s092）。
+    - p: Is the museum open today? のように疑問詞のない疑問文を文の中に組みこむときは、節の頭に if か whether（〜かどうか）を置き、後ろを S＋V にします（@e1704）。ask・wonder・I'm not sure の後ろによく使います。if と whether の使い分けは単元9で学びました（@s092）。節を文の頭に置いて S にするときは、if ではなく whether を使います（Whether he comes or not doesn't matter.）。
     - ex: [e1704]
     - h: Do you know ～? と 疑問詞＋do you think ～?
     - p: 「リョウがどこへ行ったか知っている？」は Do you know where …? です（@e1705）。この質問には「うん、知っている」「ううん」と Yes／No で答えられます。一方、「リョウはどこへ行ったと思う？」と相手の考えをたずねると、答えは「図書館だと思う」のように場所になり、Yes／No では答えられません。このときは疑問詞を文の頭に出して、Where do you think Ryo went? の語順にします（@e1706）。Do you think where …? とは言いません。
@@ -40,13 +40,13 @@ chapters:
       - kind: 注意
         text: think のほか、believe・suppose・guess・imagine・say を使ってたずねるときも、疑問詞を文の頭に出す（Who do you believe broke it?）。
     - ex: [e1705, e1706]
-    - p: 疑問詞が節の S になるときは、What do you think is in this box? のように、do you think のすぐ後ろに V が続きます。do you think を外すと What is in this box? というふつうの疑問文が残るので、そこで語順を確かめられます。
+    - p: 疑問詞が節の S になるときは、What do you think is in this box? のように、do you think のすぐ後ろに V が続きます。このとき that は入れません（Who do you think that broke the window? とはしない）。do you think を外すと What is in this box? というふつうの疑問文が残るので、そこで語順を確かめられます。
     - check:
-      - q: "Do you know where (does Mio live／Mio lives)?"
+      - q: "Do you know where (＿)?（does Mio live／Mio lives）"
         a: Mio lives
-      - q: "(Do you think who／Who do you think) will win the game?"
+      - q: "(＿) will win the game?（Do you think who／Who do you think）"
         a: Who do you think
-      - q: "I'm not sure (if／what) the shop is open today."
+      - q: "I'm not sure (＿) the shop is open today.（if／what）"
         a: if（「〜かどうか」）
     examples:
     - id: e1701
@@ -106,7 +106,7 @@ chapters:
         - [助動詞, 同じ助動詞, "You can't swim, {{can you}}?"]
         - [完了形の have, have・has・had, "The bus has left, {{hasn't it}}?"]
     - ex: [e1707, e1708]
-    - p: 付加疑問を下げ調子で言うと「〜ですよね」と確かめる言い方、上げ調子で言うと「〜でしたよね？」と本当にたずねる言い方になります。書いた文では区別できないので、どちらの意味でも同じ形を書きます。
+    - p: 付加疑問を下げ調子で言うと「〜ですよね」と確かめる言い方、上げ調子で言うと「〜ですよね？（違うの？）」と、答えが分からずに本当にたずねる言い方になります。書いた文では区別できないので、どちらの意味でも同じ形を書きます。
     - p: 形の決まった付加疑問もあります。Let's ～ の文には shall we? を付けます（@e1709）。命令文には will you? を付けることが多く（Open the window, will you?）、I am ～ の文には aren't I? を付けます。There is ～ の文では there を使い、isn't there? とします。never・hardly・seldom のように否定の意味をふくむ語がある文は否定の文として扱い、肯定の付加疑問を付けます（He never cooks, does he?）。否定の意味をふくむ語は次の節で学びます（@s173）。
       notes:
       - kind: 注意
@@ -124,11 +124,11 @@ chapters:
     - p: How come ～? は why と同じく「どうして〜」と理由をたずねる言い方ですが、後ろはふつうの文の語順（S＋V）です（@e1711）。How come did you ～? とはしません。主に話し言葉で使います。What ～ for? は「何のために〜」と目的をたずねる言い方で、for を文の終わりに置きます（@e1712）。答えるときは To do ～ や For ～ で目的を言います。返事として What for?（何のために？）とだけ言うこともあります。
     - ex: [e1711, e1712]
     - check:
-      - q: "Your father works at a bank, (isn't he／doesn't he)?"
+      - q: "Your father works at a bank, (＿)?（isn't he／doesn't he）"
         a: doesn't he
-      - q: 「疲れていないの？」「いや、疲れているよ」。Aren't you tired? ― (Yes／No), I am.
+      - q: 「疲れていないの？」「いや、疲れているよ」。Aren't you tired? ― (＿), I am.（Yes／No）
         a: "Yes"
-      - q: "How come (you are／are you) so late?"
+      - q: "How come (＿) so late?（you are／are you）"
         a: you are
     examples:
     - id: e1707
@@ -181,10 +181,10 @@ chapters:
         term: 部分否定
         yomi: ぶぶんひてい
         text: not と all・every・both・always・necessarily などをいっしょに使い、「全部（両方・いつも）〜というわけではない」と一部だけを否定する言い方。〜しないものもあるが、〜するものもある、という意味になる。
-    - p: '@e1714 の not always は「いつも〜とは限らない」、not necessarily は「必ずしも〜ではない」です。both を not で打ち消すと「両方とも〜というわけではない」となり、@e1715 では、姉妹のうち1人にしか会っていないことを表します。'
+    - p: '@e1714 の not always は「いつも〜とは限らない」、not necessarily は「必ずしも〜ではない」です。both を not で打ち消すと「両方とも〜というわけではない」となります。@e1715 では、2つ目の文から、姉妹のうち年上の1人にだけ会ったことが分かります。'
     - ex: [e1713, e1714, e1715]
     - h: 全体否定「どれも〜ない」
-    - p: 「1つも（だれも・一度も）〜ない」と全部を否定するときは、no・none・never・nobody・nothing や not ～ any を使います（@e1716）。これを<<全体否定>>といいます。2つについて「どちらも〜ない」と言うときは neither か not ～ either を使います（@s144）。部分否定と全体否定は、次の表のように組にして覚えます。
+    - p: 「1つも（だれも・一度も）〜ない」と全部を否定するときは、no・none・never・nobody・nothing や not ～ any を使います（@e1716）。これを<<全体否定>>といいます。2つについて「どちらも〜ない」と言うときは neither か not ～ either を使います（@s144）。neither・none・never・nobody・nothing は、それだけで否定の意味を持つので、not と重ねません（Neither of them didn't come. は誤りで、Neither of them came. とする）。部分否定と全体否定は、次の表のように組にして覚えます。
       notes:
       - kind: 用語
         term: 全体否定
@@ -213,9 +213,9 @@ chapters:
     - check:
       - q: Not all the boys like soccer. の意味は？（男子はだれもサッカーが好きではない／男子全員がサッカーを好きなわけではない）
         a: 男子全員がサッカーを好きなわけではない
-      - q: 「2つのケーキのどちらも食べなかった」。I didn't eat (both／either) of the two cakes.
+      - q: 「2つのケーキのどちらも食べなかった」。I didn't eat (＿) of the two cakes.（both／either）
         a: either（not ～ either で全体否定）
-      - q: "My father (seldom drives／doesn't seldom drive)."
+      - q: "My father (＿).（seldom drives／doesn't seldom drive）"
         a: seldom drives
     examples:
     - id: e1713
@@ -251,7 +251,7 @@ chapters:
       point: seldom・rarely は「めったに〜ない」。否定の意味をふくむので not を付けない。
     summary:
     - "not＋all・every・both・always は{{部分否定}}。「全部（いつも）〜とは{{限らない}}」と訳す。"
-    - "「どれも〜ない」は none・no・never（全体否定）。2つなら {{neither}}・not ～ {{either}} を使う。"
+    - "「どれも〜ない」は none・no・never（全体否定）。2つなら {{neither}}・not ～ {{either}} を使う。neither・none・never は {{not}} と重ねない。"
     - "hardly・seldom・few・little は{{準否定}}。否定の意味をふくむので {{not}} を重ねない。"
   - id: s174
     title: "否定を使う決まった言い方"
@@ -261,7 +261,7 @@ chapters:
     - p: '@e1718 を前から順に訳すと「先生が指摘するまで、私はその間違いに気づかなかった」です。これは、先生が指摘した時になって、やっと気づいたということです。not A until B は、B の時まで A が起きず、B の時になって A が起きたことを表し、「B して初めて A する」と訳すと自然な日本語になります。until の後ろには、名詞（until ten o''clock）も S＋V（until the rain stopped）も置けます。'
       notes:
       - kind: 参照
-        text: 同じ意味を It was not until B that A. や Not until B did A … の形で表すこともある。単元18で学ぶ（@s181・@s182）。
+        text: 同じ意味を、強調構文の It was not until B that A.（@s181）や、倒置の Not until B did A ….（@s182）の形で表すこともある。どちらも単元18で学ぶ。
     - ex: [e1718]
     - h: never A without B「A すると必ず B する」
     - p: '@e1719 を直訳すると「泣くことなしに悲しい映画を見ることは決してない」で、言いかえれば「悲しい映画を見ると必ず泣く」です。否定が2つ重なって、強い肯定の意味になっています。前置詞 without の後ろなので、動詞は動名詞（-ing 形）にします（@s071）。cannot A without B-ing も同じように「A すると必ず B する」という意味を表します。'
@@ -286,11 +286,11 @@ chapters:
         - [the last ～ to do, "最も〜{{しそうにない}}", the last person to lie]
     - ex: [e1723]
     - check:
-      - q: "He didn't come home (until／since) nine."
+      - q: "He didn't come home (＿) nine.（until／since）"
         a: until
-      - q: "This question is (anything／nothing) but easy. Few students got it right."
+      - q: "This question is (＿) but easy. Few students got it right.（anything／nothing）"
         a: anything
-      - q: "We never meet without (talk／talking) about soccer."
+      - q: "We never meet without (＿) about soccer.（talk／talking）"
         a: talking
     examples:
     - id: e1718
@@ -357,6 +357,7 @@ problems:
   ans: "2"
   why: like は一般動詞で、主語の my sister は3人称単数。一般動詞の否定文なので、動詞の前に doesn't を置く。
   trap: ①isn't を選ぶ誤り。like は一般動詞なので、be 動詞の否定 isn't は使わない。
+  ref: s172
 - id: q17003
   sec: s171
   set: 前提
@@ -368,6 +369,7 @@ problems:
   ans: "1"
   why: Did you ～? とたずねられたので、did を使って答える。No の後ろは否定の形で、No, I didn't. となる。
   trap: ②don't を選ぶ誤り。質問は過去（last night）なので、答えも did の否定の didn't にする。
+  ref: s172
 # ---- s171 節末 ----
 - id: q17004
   sec: s171
@@ -496,7 +498,7 @@ problems:
   choices: ["Yes, I am.", "No, I'm not.", "Yes, I'm not.", "No, I am."]
   ans: "2"
   why: もうおなかがいっぱいなので、答えは「ケーキを食べない」という否定の内容。内容が否定なので No を使い、後ろも否定の I'm not にする。
-  trap: ①Yes, I am. を選ぶ誤り。日本語の「はい、食べません」につられて Yes を選んでいる。英語では答えの内容で Yes／No を決める。
+  trap: ③Yes, I'm not. を選ぶ誤り。日本語の「はい、食べません」をそのまま英語にしている。英語では答えの内容で Yes／No を決め、Yes の後ろに否定の形は続かない。
 - id: q17015
   sec: s172
   set: 節末
@@ -567,7 +569,7 @@ problems:
   ans: seldom
   alt: [rarely]
   why: 「めったに〜ない」は seldom（rarely）。否定の意味をふくむので not は付けず、一般動詞 gets の前に置く。hardly ever も同じ意味だが2語になる。
-  trap: never と書く誤り。never は「一度も〜ない」で、「めったに〜ない」より強い。
+  trap: never と書く誤り。never は「一度も〜ない」で、「めったに〜ない」より強い。hardly も「ほとんど〜ない」と訳せるが、本書では程度を表す語として学んだ（@s173）。回数の「めったに〜ない」は seldom・rarely で書く（hardly を使うなら hardly ever の2語になる）。
 - id: q17021
   sec: s173
   set: 節末
@@ -746,7 +748,7 @@ problems:
   choices: ["Yes, I do.", "No, I don't.", "Yes, I don't.", "No, I do."]
   ans: "1"
   why: B はネコを飼っているので、答えの内容は「ペットを飼っている」という肯定。肯定なので Yes, I do. を使う。
-  trap: ②No, I don't. を選ぶ誤り。日本語の「いいえ、飼っています」につられて No を選んでいる。英語では答えの内容が肯定なら Yes。
+  trap: ④No, I do. を選ぶ誤り。日本語の「いいえ、飼っています」をそのまま英語にしている。答えの内容が肯定なら Yes を使い、No の後ろに肯定の形は続かない。
 - id: q17036
   sec: s173
   set: 確認テスト
@@ -756,7 +758,7 @@ problems:
   inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
   q: I __called__① my two cousins __last night__②, but neither of them __didn't answer__③ __the phone__④.
   ans: "3"
-  why: neither は「どちらも〜ない」と否定の意味をふくむので、didn't と重ねない。neither of them answered the phone とする。
+  why: neither は「どちらも〜ない」と否定の意味をふくむので、didn't と重ねない（@s173）。neither of them answered the phone とする。①called・②last night は過去の文で合い、④the phone は answered の O で正しい。
   trap: 「どちらも出なかった」の「なかった」につられて didn't を付ける誤り。neither だけで全体否定になる。
 - id: q17037
   sec: s173

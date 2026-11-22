@@ -736,7 +736,7 @@ def honbun_blocks(bk, pages, part, cover, colophon, legend):
             out.append(blk(f'<div class="ih">中学の復習</div><div>{bk.md(ch["intro"], pages)}</div>', 'intro'))
         pre = [p for p in bk.problems if p['set'] == '前提' and p['home'] == ch['id']]
         if pre:
-            out.append(blk(f'前提チェック　<span class="meta">{len(pre)}問　この単元に入る前に、中学の内容を確かめる　答え → 別冊</span>', 'phase keepnext wide', anchor='pre' + ch['id']))
+            out.append(blk(f'前提チェック　<span class="meta">{len(pre)}問　この単元に入る前に、中学とこれまでの単元の内容を確かめる　答え → 別冊</span>', 'phase keepnext wide', anchor='pre' + ch['id']))
             out.extend(problem_blocks(bk, pages, pre, wide=True))
         for s in ch['sections']:
             out.extend(body_blocks[s['id']])

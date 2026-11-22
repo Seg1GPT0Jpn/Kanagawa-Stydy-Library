@@ -3,7 +3,7 @@ chapters:
 - id: c18
   title: 強調・倒置・省略・挿入
   lead: この単元では、ふつうの語順や形から外れた文を扱います。語句を強める強調構文と do、語順を入れかえる倒置、語句を省く省略、文の途中に語句をはさむ挿入と同格を学び、形の変わった文から元の骨組み（S・V・O・C）を取り出して読み、正しい語順で書けるようになります。単元6の形式主語（@s061）、単元9の that 節（@s092）、単元12の if の省略（@s122）、単元17の否定の語（@s173）を使います。
-  intro: 中学では、英語の文はふつう S＋V の順に並べ、疑問文では be 動詞や do・does・did・can などを S の前に出すことを学びました。会話では、「私も」を Me, too. と言ったり、誘いに I'd like to. と to で文を終えて答えたりする言い方も出てきました。単元6では It is ～ to do の形式主語の it（@s061）を、単元9では It is ～ that の形と、that の後ろが完全な文か不完全な文かによる見分け方（@s092）を学びました。この単元では、語順を変えたり語句を省いたりする文を、決まった規則として整理します。
+  intro: 中学では、英語の文はふつう S＋V の順に並べ、疑問文では be 動詞や do・does・did・can などを S の前に出すことを学びました。会話では、「私も」を Me, too. と言ったり、誘いに I'd like to. と to で文を終えて答えたりする言い方も出てきました。単元6では It is ～ to do の形式主語の it（@s061、@e0603）を、単元9では It is ～ that の形式主語の文と、名詞の後ろの that を、後ろが完全な文か不完全な文かで見分ける方法（@s092）を学びました。この単元では、語順を変えたり語句を省いたりする文を、決まった規則として整理します。
   sections:
   - id: s181
     title: "強調構文と do の強調"
@@ -19,20 +19,22 @@ chapters:
       - kind: 注意
         text: 元の文が過去のことなら It was、今のことなら It is にするのがふつう。
     - ex: [e1801, e1802]
-    - p: 強められるのは、S（@e1801）、O（@e1802）、時や場所などを表す M（@e1803）です。S や O を強めると、that の後ろはその語が欠けた不完全な文になります（＿の位置）。M を強めると、that の後ろは完全な文のままです。強める語句が人のときは、that の代わりに who も使えます。
+    - p: 強められるのは、S（@e1801）、O（@e1802）、時や場所などを表す M（@e1803）です。S や O を強めると、that の後ろはその語が欠けた不完全な文になります（＿の位置）。M を強めると、that の後ろは完全な文のままです。強める語句が人のときは、that の代わりに who も使えます。強める M は、in this library のような語句のほか、when I was ten のような副詞節でもかまいません（It was when I was ten that I started swimming.＝私が水泳を始めたのは10歳のときだった）。
       notes:
       - kind: 注意
         text: 動詞は It is と that の間に入れて強めることができない。動詞を強めるときは、この節の (3) の do を使う。
       - kind: 注意
         text: 時や場所を強めるときも that を使う。話し言葉では It was in the gym where ～ のように where・when を使う例もあるが、入試では that を書く。
+      - kind: 注意
+        text: 単元17の not A until B（@s174）も、not until B を強めて It was not until B that A. の形にできる（It was not until I got home that I noticed it.＝家に帰って初めて気づいた）。that の後ろは noticed と肯定の形になる。
     - ex: [e1803]
     - h: 強調構文か、形式主語か
-    - p: It is ～ that の形は、形式主語の it（@s061）が後ろの that 節を受ける文（@s092）にもあります。@e1804 は that 節が本当の主語で、「誰も電話に出なかったのは不思議だ」という意味です。日本語ではどちらも「…のは〜だ」と訳せるので、訳からは見分けられません。見分けるには、It is と that を外し、間の語句を that の後ろの文に戻してみます。強調構文なら元の文に戻りますが、@e1804 では Nobody answered the phone strange. となり、文になりません。
+    - p: It is ～ that の形は、形式主語の it（@s061、@e0603）が後ろの that 節を受ける文（@s092）にもあります。@e1804 は that 節が本当の主語で、「誰も電話に出なかったのは不思議だ」という意味です。日本語ではどちらも「…のは〜だ」と訳せるので、訳からは見分けられません。見分けるには、It is と that を外し、間の語句を that の後ろの文に戻してみます。強調構文なら元の文に戻りますが、@e1804 では Nobody answered the phone strange. となり、文になりません。
     - ex: [e1804]
     - table:
         head: ["", 強調構文, 形式主語]
         rows:
-        - [It is と that の間, 名詞・代名詞、時・場所などを表す語句, 形容詞（true・strange など）や a pity など]
+        - [It is と that の間, 名詞・代名詞、時・場所などを表す語句, 形容詞（true・strange など）が多い。a pity などの名詞のこともある]
         - [It is と that を外すと, "{{元の文}}に戻る", 文にならない]
         - [that の後ろ, "S・O を強めたら{{不完全な文}}、M を強めたら完全な文", "いつも{{完全な文}}"]
     - label: 強調構文か形式主語か
@@ -54,7 +56,7 @@ chapters:
         a: It was this bag that Kenta bought in Sendai.
       - q: It is important that we start early. は強調構文か、形式主語の文か。
         a: 形式主語の文（間が形容詞の important。It is と that を外すと文にならない）
-      - q: My grandmother (do／does／did) remember my birthday every year.
+      - q: My grandmother (＿) remember my birthday every year.（do／does／did）
         a: does
     examples:
     - id: e1801
@@ -105,14 +107,14 @@ chapters:
     aim: 否定の語が文の頭に出た文、So do I・Neither do I、場所の語句が文の頭に出た文を、正しい語順で読み書きできるようになる。
     body:
     - h: 倒置とは
-    - p: 英語の文は、ふつう S＋V の順に並びます。この順を入れかえて、助動詞・be 動詞や動詞を S の前に出すことを<<倒置>>といいます。単元12では、if を省いた仮定法で Were I ～・Had S done の語順になることを学びました（@s122）。これも倒置の1つです。倒置には、疑問文と同じ語順になる型と、動詞そのものが S の前に出る型があります。
+    - p: 英語の文は、ふつう S＋V の順に並びます。この順を入れかえて、助動詞・be 動詞や動詞を S の前に出すことを<<倒置>>といいます。単元12では、if を省いた仮定法で Were I ～・Had S done・Should S do の語順になることを学びました（@s122、@e1211〜@e1213）。これも倒置の1つです。倒置には、疑問文と同じ語順になる型と、動詞そのものが S の前に出る型があります。
       notes:
       - kind: 用語
         term: 倒置
         yomi: とうち
         text: ふつうの S＋V の語順を入れかえ、助動詞・be 動詞（ときには動詞そのもの）を S の前に出すこと。否定の語が文の頭に出たとき、if を省いた仮定法（@s122）、So do I などで起こる。
     - h: 否定の語が文の頭に出ると、疑問文の語順になる
-    - p: never・seldom（めったに〜ない）などの否定の語（@s173）を、意味を強めるために文の頭に出すと、その後ろは疑問文と同じ語順になります。単元15で見た Never have I seen such a big fish. では、完了形の have が I の前に出ています（@e1807 も同じ形）。一般動詞だけの文では、疑問文と同じく do・does・did を S の前に置き、動詞は原形にします（@e1808）。Little did I know ～（〜とは少しも知らなかった）も同じ形です。
+    - p: never・seldom（めったに〜ない）などの否定の語（@s173）を、意味を強めるために文の頭に出すと、その後ろは疑問文と同じ語順になります。単元15で、倒置の文では never を文の頭に置くことがあると予告しました（@s154）。Never have I seen such a big fish. では、完了形の have が I の前に出ています（@e1807 も同じ形）。一般動詞だけの文では、疑問文と同じく do・does・did を S の前に置き、動詞は原形にします（@e1808）。Little did I know ～（〜とは少しも知らなかった）も同じ形です。
       notes:
       - kind: 注意
         text: 否定の語を文の頭に出す倒置は、書き言葉やあらたまった言い方。ふつうの会話では I have never seen ～ の語順を使う。
@@ -126,7 +128,7 @@ chapters:
     - p: Not until ～ の文（@e1809）では、倒置するのは後ろの主節で、until の後ろの節（I got home）はふつうの語順のままです。単元17で学んだ not A until B（B して初めて A、@s174）の not until B を文の頭に出した形で、「B して初めて A した」と訳します。同じ内容は、強調構文（@s181）で It was not until I got home that I noticed it. とも言えます。この形では倒置しません。
       notes:
       - kind: 参照
-        text: Only＋時の語句が文の頭に出たときも、同じ倒置が起こる（Only then did I understand.＝その時になって初めて分かった）。Hardly had I sat down when the phone rang.（座るとすぐに電話が鳴った）も、hardly を前に出した倒置の文。
+        text: Only＋時の語句が文の頭に出たときも、同じ倒置が起こる（Only then did I understand.＝その時になって初めて分かった）。発展：Hardly had S done when S＋過去形 は「〜するとすぐに…した」（Hardly had I sat down when the phone rang.＝座るとすぐに電話が鳴った）。座ったのが電話の鳴る前なので、hardly の側を過去完了にする。
     - ex: [e1809]
     - h: So do I と Neither do I
     - p: 相手の言ったことに「私もそうだ」と答えるときは、So＋助動詞（be 動詞）＋S の語順にします（@e1810）。So の後ろには、相手の文に合わせた語を置きます。相手の文が一般動詞の現在形なら do・does、過去形なら did、be 動詞の文なら am・is・was など、can・will や完了形の have の文ならその語です。否定の文に「私も〜ない」と答えるときは、Neither＋助動詞＋S にします（@e1811）。Nor do I. も同じ意味です。
@@ -134,7 +136,7 @@ chapters:
       - kind: 注意
         text: 話し言葉では、So do I. の代わりに Me, too.、Neither do I. の代わりに Me neither. もよく使う。Neither do I. は I don't, either. と同じ意味。
     - ex: [e1810, e1811]
-    - p: So I do のように S＋V の順にすると、「確かにそうだ」と、相手の言ったことを本人が認める意味になります。「教室に傘を忘れてたよ」と言われて Oh, so I did. と答えれば「あ、本当だ」です。So did I.（私もそうした）は別の人が同じことをしたと言う形、so I did は同じ人について「その通りだ」と言う形です。
+    - p: So I do のように S＋V の順にすると、「確かにそうだ」と、相手の言ったことが正しいと認める意味になります。「教室に傘を忘れてたよ」と言われて Oh, so I did. と答えれば「あ、本当だ」です。自分以外の人について認めるときも同じ形で、"Tom was late." "So he was."（確かにそうだった）と言います。So did I.（私もそうした）は別の人が同じことをしたと言う形、so I did は相手が話題にした人について「その通りだ」と言う形です。
     - h: 場所の語句が文の頭に出ると、V＋S になる
     - p: 場所や方向を表す語句を文の頭に出すと、動詞そのものが S の前に来ることがあります（@e1812）。このときは do・does・did を使わず、be 動詞や stand・lie・come などの自動詞をそのまま前に出します。動詞の形は後ろの S に合わせます。@e1812 の S は an old church なので stands です。Here comes the bus.（ほら、バスが来た）も同じ形です。ただし S が代名詞のときは倒置せず、Here it comes. とします。
     - ex: [e1812]
@@ -178,7 +180,7 @@ chapters:
       - 文の頭に否定の語 Never が出ているので、後ろは疑問文の語順になるはず。
       - 完了形の文なので、have を S の前に出して have I seen とする。②I have はふつうの語順のままなので誤り。
       - ①in my life は Never を強める語句、③seen は have の後ろの過去分詞、④at the station は場所を表し、どれも正しい。
-      ans: "2"
+      ans: ②（I have → have I）
       point: 否定の語が文の頭に出たら、後ろは疑問文の語順。I have ではなく have I にする。
     summary:
     - "語順を入れかえて、助動詞・be 動詞や動詞を S の{{前}}に出すことを{{倒置}}という。"
@@ -195,6 +197,8 @@ chapters:
     - h: 副詞節の中の S＋be の省略
     - p: when・while・if・though などで始まる副詞節（@s023）では、副詞節の S が主節の S と同じで、動詞が be 動詞のとき、その S と be 動詞をまとめて省くことがあります。@e1815 は Though they were tired から they were を省いた形です。省いた後には、形容詞・-ing 形・過去分詞・前置詞＋名詞などが残ります（while staying in London、when in trouble）。
       notes:
+      - kind: 注意
+        text: because の節では、S と be 動詞を省かない。Because I was tired, ～ を Because tired, ～ とはしない。
       - kind: 注意
         text: 副詞節の S と主節の S が違うときは省けない。When I was young, my grandmother lived in Hokkaido. を When young, my grandmother ～ とすると、若かったのが祖母のことになってしまう。
     - p: if necessary（必要なら）・if possible（できれば）は、主節の S と関係なく使える決まった言い方です（@e1816）。省かれているのは it is で、「それが必要なら」「それが可能なら」という意味です。
@@ -289,11 +293,11 @@ chapters:
       - kind: 用語
         term: 同格
         yomi: どうかく
-        text: 2つの名詞（のかたまり）を並べ、後ろのもので前の名詞を言いかえたり中身を説明したりする関係。名詞＋コンマ＋名詞の形のほか、単元9で学んだ同格の that（@s092）も、名詞の中身を節で説明する同格である。
+        text: 2つの名詞（のかたまり）を並べ、後ろのもので前の名詞を言いかえたり中身を説明したりする関係。名詞＋コンマ＋名詞の形のほか、単元9で学んだ同格の that（@s092、@e0913）も、名詞の中身を節で説明する同格である。
       - kind: 注意
         text: コンマのない同格もある。my friend Kota（友だちのコウタ）、we students（私たち生徒）。the city of Nara（奈良という市）の of も同格を表す。
     - ex: [e1821]
-    - p: 名詞の中身を S＋V のある節で説明するときは、単元9で学んだ同格の that を使います（@s092）。@e1822 の［that the station will get an elevator］は the news の中身です。同格の that の後ろは完全な文で、後ろが不完全な文になる関係代名詞の that とは、that の見分け（@s092）の手順で区別します。
+    - p: 名詞の中身を S＋V のある節で説明するときは、単元9で学んだ同格の that を使います（@s092、@e0913）。@e1822 の［that the station will get an elevator］は the news の中身です。同格の that の後ろは完全な文で、後ろが不完全な文になる関係代名詞の that とは、that の見分け（@s092）の手順で区別します。
     - ex: [e1822]
     - check:
       - q: The movie, I hear, is very popular in Korea.<br>挿入を外すと？
@@ -362,6 +366,7 @@ problems:
   ans: "2"
   why: play は一般動詞で、S の your brother は3人称単数。一般動詞の現在の疑問文は Does＋S＋原形 の語順にする。この「助動詞を S の前に出す語順」は、倒置（@s182）でもそのまま使う。
   trap: ①Is を選ぶ誤り。be 動詞と一般動詞の play を重ねることになる。
+  ref: s182
 - id: q18003
   sec: s181
   set: 前提
@@ -651,7 +656,7 @@ problems:
   min: 3
   inst: 次の英文を日本語に訳しなさい。
   q: This dictionary, I'm sure, will help you a lot.
-  ans: この辞書はきっとあなたの大いに役に立つ。
+  ans: この辞書はきっと大いにあなたの役に立つ。
   alt: [この辞書はきっとあなたにとても役立つだろう。, きっと、この辞書はあなたの大きな助けになる。]
   why: コンマではさまれた I'm sure を外すと This dictionary will help you a lot.（この辞書はあなたを大いに助ける）。I'm sure は「きっと」と加える。
   trap: I'm sure の I を文全体の S と読み、will help の S を見失う誤り。will help の S は This dictionary。
@@ -746,7 +751,7 @@ problems:
   q: (＿) in Paris, I visited a lot of museums.
   choices: [While, During, When I, Because]
   ans: "1"
-  why: While I was in Paris の、主節と同じ S（I）と be 動詞（was）を省いた形。
+  why: While I was in Paris の、主節と同じ S（I）と be 動詞（was）を省いた形。④Because は、because の節では S＋be を省かないので入らない（Because I was in Paris なら言える）。③When I は I の後ろに V がなく、節にならない。
   trap: ②During を選ぶ誤り。during は前置詞で、後ろに名詞を置く（during my stay in Paris）。前置詞＋名詞の in Paris の前には置けない。
 - id: q18036
   sec: s184
@@ -777,6 +782,7 @@ problems:
   lv: 1
   kind: 整序
   min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。ただし、文の頭に来る語も小文字にしてある。
   q: 「私はその映画を見ていない」「私も見ていない」<br>"I haven't seen that movie." "( have / I / neither )."
   words: [have, I, neither]
   ans: '"I haven''t seen that movie." "Neither have I."'

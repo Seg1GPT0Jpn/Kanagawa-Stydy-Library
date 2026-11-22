@@ -350,6 +350,7 @@ problems:
   ans: "3"
   why: 前置詞 with の後ろなので、代名詞は目的格の us を使う。
   trap: ①we を選ぶ誤り。日本語の「私たちと」につられやすいが、we は S の位置で使う形で、前置詞の後ろには置かない。
+  ref: s141
 - id: q16002
   sec: s161
   set: 前提
@@ -362,6 +363,7 @@ problems:
   ans: "2"
   why: 前置詞 for の後ろに動詞を置くときは、動名詞にする。Thank you for helping me で「手伝ってくれてありがとう」。
   trap: ③to help を選ぶ誤り。for の後ろは前置詞の後ろなので、不定詞ではなく動名詞を置く。
+  ref: s071
 - id: q16003
   sec: s161
   set: 前提
@@ -421,7 +423,7 @@ problems:
   words: [a, book, return, this, week, within]
   ans: Please return this book within a week.
   why: Please の後ろに動詞の原形 return、O の this book を続け、最後に「1週間以内に」を表す within a week を置く。
-  trap: within を in と同じ「〜後に」の意味と考え、意味を取り違える誤り。within a week は「1週間以内に」、in a week は「1週間後に」。
+  trap: Please within a week return this book. と、within a week を please の直後に置く誤り。日本語の「1週間以内に」が先に来る語順につられやすいが、時を表す M の within a week は、動詞と O（return this book）の後ろに置く。
 - id: q16008
   sec: s161
   set: 節末
@@ -587,7 +589,7 @@ problems:
   words: [a, cup, made, me, of, tea]
   ans: My grandmother made me a cup of tea.
   why: make O₁ O₂ で「O₁ に O₂ を作る」。O₂ の「1杯の紅茶」は分量を表す of を使って a cup of tea とする。
-  trap: made me tea of a cup のように、of の前後を逆にする誤り。「1杯の紅茶」は a cup of tea の順で、分量を先に言う。
+  trap: made a cup of tea me と、O₁ と O₂ の順を逆にする誤り。make O₁ O₂ では、「人（me）」を先に、「物（a cup of tea）」を後に置く。
 - id: q16022
   sec: s163
   set: 節末
@@ -734,7 +736,7 @@ problems:
   q: このレポートは金曜日までに出してください。<br>Please hand in this report (＿) Friday.
   ans: by
   why: 「出す」は1回で終わる動作で、「金曜日までには」と期限を表すので by。
-  trap: until を書く誤り。until は「〜までずっと」で、続く動作に使う。提出のような1回の動作の期限には by を使う。
+  trap: until を書く誤り。until は「〜までずっと」で、続く動作に使う。提出のような1回の動作の期限には by を使う。before を書くのも誤り。before Friday は「金曜日より前に」で、金曜日をふくまないので「金曜日までに」とは意味がずれる。
 - id: q16034
   sec: s162
   set: 確認テスト
