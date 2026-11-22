@@ -1,0 +1,922 @@
+chapters:
+- id: c20
+  title: 語法（動詞・名詞・形容詞）
+  lead: 入試の4択や正誤では、意味は合っているのに「後ろの形」が違う選択肢がよく並びます。この単元では、動詞・名詞・形容詞ごとに、後ろに O を直接置くか、どの前置詞を続けるか、to do と that 節のどちらをとるかを確かめる見方で、単元1・6・7・16 で学んだことをまとめ直します。語の意味だけでなく、後ろの形まで含めて選べるようになることが目標です。
+  intro: 中学では、I like music. のように動詞の後ろに直接「〜を」の語を置く文と、I listen to music. のように前置詞をはさむ文を学びました。また、want to go（行きたい）、enjoy playing（することを楽しむ）のように、動詞によって後ろに to do が来るか doing が来るかが決まっていることも学びました。give me a book のように、「人に」と「物を」の2つを並べる動詞もありました。この単元では、こうした「動詞ごとに後ろの形が決まっている」という考え方を、入試でよく問われる動詞・名詞・形容詞に広げます。
+  sections:
+  - id: s201
+    title: "自動詞と他動詞のまとめ"
+    aim: 前置詞を付けない他動詞を見抜き、lie／lay と rise／raise を、後ろに O があるかどうかと活用形から選べるようになる。
+    body:
+    - h: 語ごとに決まっている使い方
+    - p: 単元1（@s012）で、後ろに O を直接置く使い方を他動詞、O をとらない使い方を自動詞と呼びました。どちらの使い方をするか、後ろにどの前置詞や形を続けるかは、語ごとに決まっています。この語ごとの使い方の決まりを<<語法>>といいます。語法の問題は、意味だけで選ぶと間違えやすく、後ろの形を確かめると答えが決まります。
+      notes:
+      - kind: 用語
+        term: 語法
+        yomi: ごほう
+        text: ある語が、後ろに O を直接置くか、どの前置詞・to do・doing・that 節を続けるかといった、語ごとに決まっている使い方。
+    - h: 前置詞を付けない他動詞
+    - p: 日本語で「〜に着く」「〜と結婚する」「〜に近づく」と言うので前置詞を付けたくなりますが、次の動詞は他動詞で、後ろに O を直接置きます（@e2001、@e2002）。同じ意味を自動詞で言うときは、前置詞が要ります。
+    - table:
+        head: [意味, 他動詞（前置詞なし）, 誤り, 自動詞＋前置詞で言うと]
+        rows:
+        - ["〜に着く", "reach 〜", "× reach to 〜", "arrive {{at}}／{{in}} 〜、get {{to}} 〜"]
+        - ["〜について話し合う", "discuss 〜", "× discuss about 〜", "talk {{about}} 〜"]
+        - ["〜と結婚する", "marry 〜", "× marry with 〜", "get married {{to}} 〜"]
+        - ["〜に近づく", "approach 〜", "× approach to 〜", "come close {{to}} 〜"]
+        - ["〜について述べる", "mention 〜", "× mention about 〜", "talk {{about}} 〜"]
+        - ["〜に連絡する", "contact 〜", "× contact to 〜", "get in touch {{with}} 〜"]
+      notes:
+      - kind: 注意
+        text: reach for 〜 は「〜を取ろうと手を伸ばす」という別の意味の言い方。「〜に着く」の意味では reach の後ろに前置詞を置かない。
+      - kind: 注意
+        text: 名詞にすると前置詞が付く語がある。discuss the plan と a discussion about the plan、approach the station と an approach to the problem（@s204）。
+    - ex: [e2001, e2002]
+    - h: lie と lay、rise と raise
+    - p: 形の似た自動詞と他動詞の組は、活用形と一緒に覚えます。lie（横になる・ある）は自動詞、lay（〜を置く・横たえる）は他動詞です。紛らわしいのは、lie の過去形が lay であることです。@e2003 の lay は後ろに O がないので、lie の過去形です。@e2004 の laid は the map を O にとる、lay の過去形です。
+    - table:
+        head: [動詞, 意味, 原形－過去形－過去分詞－-ing 形]
+        rows:
+        - ["lie（自）", "横になる・（物が）ある", "lie－{{lay}}－{{lain}}－lying"]
+        - ["lay（他）", "〜を置く・横たえる", "lay－{{laid}}－{{laid}}－laying"]
+        - ["lie（自）", "うそをつく", "lie－lied－lied－lying"]
+        - ["rise（自）", "上がる・昇る", "rise－{{rose}}－{{risen}}－rising"]
+        - ["raise（他）", "〜を上げる・育てる", "raise－raised－raised－raising"]
+      notes:
+      - kind: 注意
+        text: 話し言葉では lay を「横になる」の意味で使う人もいる（I'm going to lay down.）。入試では誤りとされるので、O がなければ lie の形を書く。
+    - p: rise と raise も、後ろに O があるかどうかで選びます。太陽や値段が「上がる」なら自動詞の rise（@e2005）、手や値段を「上げる」なら他動詞の raise です（@e2006）。raise には「（子どもを）育てる」という意味もあります。
+    - ex: [e2003, e2004, e2005, e2006]
+    - check:
+      - q: The cat is (lying／laying) on the bed.
+        a: lying（後ろに O がない）
+      - q: Please (lie／lay) the books on the desk.
+        a: lay（the books が O）
+      - q: We (reached／reached to) the hotel at nine.
+        a: reached
+    examples:
+    - id: e2001
+      en: We *reached* the top of the mountain at noon.
+      ja: 私たちは正午に山頂に着いた。
+    - id: e2002
+      en: A big dog *approached* us in the park.
+      ja: 公園で大きな犬が私たちに近づいてきた。
+    - id: e2003
+      en: I *lay* on the grass and looked at the clouds.
+      ja: 私は芝生に寝転んで雲を見た。
+    - id: e2004
+      en: Shota *laid* the map on the table.
+      ja: ショウタは地図をテーブルの上に置いた。
+    - id: e2005
+      en: The price of vegetables *rose* last month.
+      ja: 先月、野菜の値段が上がった。
+    - id: e2006
+      en: Please *raise* your hand if you have a question.
+      ja: 質問があれば手を挙げてください。
+    worked:
+    - q: （　）に入る最も適切なものを1つ選びなさい。<br>My dog was (＿) under the table when I came home.
+      choices: [lying, laying, lain, lied]
+      steps:
+      - 空所は was の後ろで、進行形の -ing 形か、受動態の過去分詞が入る位置。
+      - 空所の後ろに O がない（under the table は場所を表す M）。「犬がテーブルの下で横になっていた」という意味なので、自動詞の lie を使う。
+      - lie の -ing 形は lying。laying は他動詞 lay の -ing 形で、後ろに O が要る。lain は過去分詞で、was lain という形はない。lied は「うそをつく」の過去形。
+      ans: "1"
+      point: 後ろに O がなければ自動詞の lie（lay－lain－lying）、O があれば他動詞の lay（laid－laid－laying）。
+    - q: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。<br>__After__① walking for five hours, we __reached to__② the top of the mountain __just__③ __before__④ sunset.
+      steps:
+      - 動詞を確かめる。reach は「〜に着く」の意味では他動詞で、後ろに O を直接置く。
+      - ②reached to では、reach と O の間に to が入っている。reached the top とする（arrived at the top や got to the top としても正しいが、どれも②の中の直し方）。
+      - ほかを確かめる。①After walking は前置詞＋動名詞（@s071）、③just before sunset は「日没の直前に」で、どれも正しい。
+      ans: ②（reached to → reached）
+      point: reach・discuss・marry・approach・mention は他動詞。日本語の「〜に」「〜と」「〜について」につられて前置詞を付けない。
+    summary:
+    - "reach・discuss・marry・approach・mention は{{他動詞}}なので、後ろに{{前置詞}}を付けない。"
+    - "lie（横になる）は自動詞で lie－{{lay}}－{{lain}}、lay（置く）は他動詞で lay－{{laid}}－{{laid}}。"
+    - "rise（上がる）は{{自動詞}}、raise（上げる・育てる）は{{他動詞}}。後ろに O があるかで選ぶ。"
+  - id: s202
+    title: "動詞の型で選ぶ"
+    aim: allow・prevent・provide・rob・suggest などの動詞を、後ろの型（O to do／O from doing／A with B／A of B／that 節）から選び、型の誤りを直せるようになる。
+    body:
+    - h: 語法の手順：動詞の後ろの型を見る
+    - p: 意味の似た動詞が選択肢に並んでいたら、空所の後ろの形を先に見ます。後ろが O to do なのか、O from doing なのか、A with B なのかで、入る動詞が決まります。単元6（@s063）と単元7（@s073）で学んだ型の見方を、次の手順でまとめます。
+    - steps:
+      - 空所の動詞の後ろの形を確かめる（O だけ／O to do／that 節／O from doing／A with B／A of B）。
+      - 選択肢の動詞のうち、その形をとれるものを選ぶ。
+      - 残ったものが2つ以上あれば、意味で決める。
+    - h: V O to do と、O to do をとらない suggest
+    - p: allow（〜することを許す）・enable（〜できるようにする）・force（無理に〜させる）は、want・tell・ask（@s063）と同じ V O to do の形をとり、O と to do の間に「O が〜する」の関係があります（@e2007）。force は受動態の be forced to do（〜せざるをえない）の形でもよく使います。
+    - p: 一方、suggest（提案する）は「人に〜するよう提案する」の意味でも O to do の形をとりません。that 節を続けて動詞を原形（または should＋原形）にするか（@s124）、doing を続けます（@e2008）。「人に」を言いたいときは suggest to 人 that 〜 とします。
+      notes:
+      - kind: 注意
+        text: demand・insist も O to do の形をとらず、that 節を続ける。suggest が「（それとなく）示す」の意味のときは、that 節の動詞を原形にしない（@s124）。
+    - ex: [e2007, e2008]
+    - h: V O from doing
+    - p: prevent O from doing は「O が〜するのを妨げる」、つまり「（主語のせいで）O が〜できない」という意味です（@e2009）。from は「〜から離す」という感じで、O を動作から引き離すと考えます。stop・keep も同じ形をとります。
+      notes:
+      - kind: 注意
+        text: イギリス英語では prevent O doing・stop O doing と from を省くこともある。入試では from を書く。
+      - kind: 注意
+        text: keep O from doing（O に〜させない）と keep O doing（O に〜させ続ける）は意味が反対になる。
+    - ex: [e2009]
+    - h: V A with B と V A of B
+    - p: provide A with B は「A に B を与える」で、与える物 B の前に with を置きます（@e2010）。物を先に言うときは provide B for A とします。supply A with B も同じ形です。
+      notes:
+      - kind: 注意
+        text: provide B to A の形も、特にアメリカ英語で使われる。provide A B と2つの O を並べる形は誤り。
+    - p: rob A of B は「A（人や店）から B を奪う」です（@e2011）。同じ「奪う」でも、steal は steal B from A と物を O にします。of をとる動詞にはもう1つのグループがあり、remind A of B（A に B を思い出させる）・inform A of B（A に B を知らせる）は、A の頭に情報を入れる意味です（@e2012）。
+      notes:
+      - kind: 注意
+        text: remind は remind A to do（A に〜するのを忘れないよう言う）、remind A that 〜 の形もとる。予定などを忘れないよう言うときは remind A about B も使う。
+    - table:
+        head: [型, 動詞, 意味]
+        rows:
+        - ["V O {{to do}}", "allow・enable・force（want・tell・ask）", "O が〜するのを許す・可能にする・強いる"]
+        - ["V {{that}} 節／V doing", "suggest", "〜しようと提案する"]
+        - ["V O {{from}} doing", "prevent・stop・keep", "O が〜するのを妨げる"]
+        - ["V A {{with}} B", "provide・supply", "A に B を与える"]
+        - ["V A {{of}} B", "rob・deprive／remind・inform", "A から B を奪う／A に B を思い出させる・知らせる"]
+    - ex: [e2010, e2011, e2012]
+    - check:
+      - q: The rain stopped us (＿) playing tennis.
+        a: from
+      - q: Our teacher suggested (＿) a short break. (take)
+        a: taking
+      - q: This hotel provides guests (＿) free tea.
+        a: with
+    examples:
+    - id: e2007
+      en: Online lessons *enable* students 〈to study at home〉.
+      ja: オンライン授業のおかげで、生徒は家で勉強できる。
+    - id: e2008
+      en: Felix *suggested* [that we *take* a taxi].
+      ja: フェリックスはタクシーに乗ろうと提案した。
+    - id: e2009
+      en: The rain *prevented* us 〈from finishing the game〉.
+      ja: 雨のせいで、私たちは試合を最後までできなかった。
+    - id: e2010
+      en: The club *provides* new members *with* a T-shirt.
+      ja: そのクラブは新しい会員にTシャツを1枚くれる。
+    - id: e2011
+      en: Someone *robbed* my uncle *of* his camera.
+      ja: おじはだれかにカメラを奪われた。
+    - id: e2012
+      en: This photo *reminds* me *of* our trip to Okinawa.
+      ja: この写真を見ると、沖縄への旅行を思い出す。
+    worked:
+    - q: （　）に入る最も適切なものを1つ選びなさい。<br>A bad cold (＿) Ayaka from going to school yesterday.
+      choices: [made, prevented, forced, allowed]
+      steps:
+      - 空所の動詞の後ろの形を見る。Ayaka from going で、V O from doing の形。
+      - この形をとるのは prevent（stop・keep も同じ）。made は make O do、forced・allowed は V O to do の形をとり、from doing は続かない。
+      - 「ひどいかぜが、アヤカが学校に行くのを妨げた」で意味も通る。prevented を選ぶ。
+      ans: "2"
+      point: 後ろが O from doing なら prevent・stop・keep。意味より先に、後ろの型で選択肢をしぼる。
+    - q: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。<br>__Last month__① my doctor __suggested me to walk__② for thirty minutes __every__③ day __to stay__④ healthy.
+      steps:
+      - 動詞の後ろの型を確かめる。②は suggest O to do の形になっている。
+      - suggest は O to do の形をとらない。suggested that I (should) walk、または suggested walking とする。②が誤り。
+      - ほかを確かめる。①Last month は過去形と合い、③every day は「毎日」、④to stay healthy は「健康でいるために」という目的の不定詞（@s061）で、どれも正しい。
+      ans: ②（suggested me to walk → suggested that I (should) walk）
+      point: 「人に〜するよう提案する」でも、suggest は that 節（動詞は原形か should＋原形）か doing を続ける。
+    summary:
+    - "allow・enable・force は V O {{to do}}。suggest は O to do をとらず、{{that}} 節か doing を続ける。"
+    - "prevent・stop・keep O {{from}} doing は「O が〜するのを妨げる」。"
+    - "provide A {{with}} B は「A に B を与える」。物を先に言うなら provide B {{for}} A。"
+    - "rob A {{of}} B は「A から B を奪う」。steal は steal B {{from}} A。remind A {{of}} B は「A に B を思い出させる」。"
+  - id: s203
+    title: "意味の紛らわしい動詞"
+    aim: say／tell／speak／talk、borrow／lend／rent、fit／suit／match、cost／take／spend を、意味と後ろの形の両方から選び分けられるようになる。
+    body:
+    - h: say・tell・speak・talk
+    - p: 4つとも「言う・話す」ですが、後ろに置ける形が違います。say は言葉の中身を O にし、人を続けるときは say to 人 とします。tell は「人に伝える」で、tell 人 物、tell 人 that 〜、tell 人 to do と、人を直接 O にします（@e2013）。単元19（@s192）で、say to を tell にして話法を変えたのも、この違いによるものです。
+    - table:
+        head: [動詞, 後ろの形, 例]
+        rows:
+        - ["say", "言葉・that 節（人は {{say to}} 人）", "She said (to me) that she was tired."]
+        - ["tell", "{{人}}＋物／that 節／to do", "He told me the news."]
+        - ["speak", "言語、speak to／with 人", "speak English、speak to the teacher"]
+        - ["talk", "talk to／with 人 about 〜", "talk with Mai about the trip"]
+      notes:
+      - kind: 注意
+        text: speak と talk はふつう人を O にしない（× speak him）。speak が O にとるのは言語などの限られた語。tell は tell a lie（うそをつく）・tell a story・tell the truth の決まった言い方もある。
+    - h: borrow・lend・rent
+    - p: borrow は「（ふつう無料で）借りる」、lend は「貸す」です。同じことを、借りる側から言うか貸す側から言うかで使い分けます（@e2014）。lend は lend 人 物、lend 物 to 人 の形をとり（@s013）、borrow は borrow 物 from 人 とします。rent はお金を払って家や車などを「借りる」ときに使い、「（お金をとって）貸す」の意味にもなります。
+      notes:
+      - kind: 注意
+        text: トイレや電話のように、その場で使ってすぐ返す物を「借りる」ときは use を使うのが自然（Can I use your bathroom?）。
+    - ex: [e2013, e2014]
+    - h: fit・suit・match
+    - p: fit は「サイズや形が合う」、suit は「（服・色・髪型などが）人に似合う」、match は「物と物の色や柄が合う」です（@e2015）。match と同じ意味で go with もよく使います。
+    - ex: [e2015]
+    - h: cost・take・spend
+    - p: どれも「かかる・使う」ですが、主語と O が違います。cost は物事が主語で O はお金（@e2016）、take は It takes (人) 時間 to do の形で時間を O にします（@e2017）。spend は人が主語で、spend 時間・お金 on 名詞、spend 時間 (in) doing とします（@e2018）。cost の過去形・過去分詞は cost のままです。
+      notes:
+      - kind: 注意
+        text: cost が時間を O にとるのは「（失敗などが）時間を失わせる」という意味のときだけ（The mistake cost us an hour.）。「〜するのに時間がかかる」は take で表す。
+      - kind: 注意
+        text: It takes 時間 for 人 to do の形もある。spend 時間 to do は誤り。
+    - table:
+        head: [動詞, 主語, 形]
+        rows:
+        - ["cost", "{{物事}}（It）", "It costs (人) お金 to do"]
+        - ["take", "It（物事）", "It takes (人) {{時間}} to do"]
+        - ["spend", "{{人}}", "spend 時間・お金 on 名詞／(in) doing"]
+    - ex: [e2016, e2017, e2018]
+    - check:
+      - q: Can you (say／tell) me your phone number?
+        a: tell
+      - q: These jeans don't (fit／suit) me. They're too long.
+        a: fit（サイズの話）
+      - q: I (spent／took) 2,000 yen on this book.
+        a: spent
+    examples:
+    - id: e2013
+      en: Shota *told* me the way to the station.
+      ja: ショウタは私に駅への道を教えてくれた。
+    - id: e2014
+      en: I *borrowed* a pen from Rin. ＝ Rin *lent* me a pen.
+      ja: 私はリンにペンを借りた。＝リンは私にペンを貸してくれた。
+    - id: e2015
+      en: These pants *fit* me, but the color doesn't *suit* me.
+      ja: このズボンはサイズは合うが、色が私に似合わない。
+    - id: e2016
+      en: "*It cost* us 12,000 yen to stay at the hotel for two nights."
+      ja: そのホテルに2泊するのに1万2千円かかった。
+    - id: e2017
+      en: "*It took* my father an hour to fix the bike."
+      ja: 父が自転車を直すのに1時間かかった。
+    - id: e2018
+      en: My sister *spent* the whole weekend painting her room.
+      ja: 姉は週末をまるごと使って、自分の部屋のペンキ塗りをした。
+    worked:
+    - q: （　）に入る最も適切なものを1つ選びなさい。<br>I left my umbrella at home. Could you (＿) me yours?
+      choices: [borrow, lend, to borrow, to lend]
+      steps:
+      - 空所は Could you の後ろなので、原形が入る。to borrow・to lend は入らない。
+      - 後ろが me yours と「人＋物」の形。「人に物を貸す」の lend は lend 人 物 の形をとる。borrow は borrow 物 from 人 で、人を直接 O にしない。
+      - 「傘を家に忘れた。あなたのを貸してくれますか」で意味も通る。lend を選ぶ。
+      ans: "2"
+      point: 借りるのは borrow（borrow 物 from 人）、貸すのは lend（lend 人 物）。「人＋物」が続けば lend。
+    - q: （　）に入る最も適切なものを1つ選びなさい。<br>It (＿) about twenty minutes to walk from my house to the station.
+      choices: [takes, costs, spends, has]
+      steps:
+      - 主語は It、O は about twenty minutes（時間）、後ろに to walk が続く。
+      - 「〜するのに時間がかかる」は It takes 時間 to do。cost は O がお金のときに使う。spend は人が主語になる。
+      - takes を選ぶ。
+      ans: "1"
+      point: 時間なら It takes (人) 時間 to do、お金なら It costs (人) お金 to do、人が主語なら spend。
+    summary:
+    - "人を直接 O にして「人に伝える」のは{{tell}}。say は人を続けるとき {{say to}} 人 とする。"
+    - "borrow は「{{借りる}}」（borrow 物 from 人）、lend は「{{貸す}}」（lend 人 物）。"
+    - "fit は{{サイズ}}が合う、suit は人に{{似合う}}、match は物と物が合う。"
+    - "時間は It {{takes}} (人) 時間 to do、お金は It {{costs}} (人) お金 to do、人が主語なら {{spend}}。"
+  - id: s204
+    title: "名詞の語法"
+    aim: 料金と客を表す名詞を場面で選び分け、influence on・the key to などの名詞と結びつく前置詞を書けるようになる。
+    body:
+    - h: 料金を表す名詞
+    - p: 日本語ではどれも「料金」ですが、英語では何に払うお金かで名詞が変わります。乗り物に乗るときの運賃は fare（@e2019）、入場・入会や、医者・弁護士などの専門家に払うお金は fee（@e2020）、サービスに対する料金や手数料は charge です（@e2021）。
+    - table:
+        head: [名詞, 何に払うお金か, 例]
+        rows:
+        - ["{{fare}}", "乗り物の運賃", "bus fare、taxi fare"]
+        - ["{{fee}}", "入場・入会・授業、専門家への謝礼", "entrance fee、a doctor's fee"]
+        - ["{{charge}}", "サービスの料金・手数料", "delivery charge、free of charge（無料で）"]
+        - ["price", "品物の値段", "the price of this bag"]
+        - ["rent", "家賃・部屋代", "pay the rent"]
+    - ex: [e2019, e2020, e2021]
+    - h: 客を表す名詞
+    - p: 「客」も、どこの客かで語が決まります。店の客は customer、招待した客やホテルの宿泊客は guest（@e2022）、乗り物の乗客は passenger、見物や訪問に来た人は visitor、弁護士などの依頼人は client です。コンサートや講演の聴衆は audience で、これは集合名詞（@s132）です。
+    - h: 名詞と結びつく前置詞
+    - p: 名詞の後ろに置く前置詞も、名詞ごとに決まっています。注意したいのは、動詞では他動詞なのに、名詞になると前置詞が要る語です。answer the question（動詞）は the answer to the question（名詞）、influence people（動詞）は have an influence on people（名詞）になります（@e2023、@e2024）。
+    - table:
+        head: [名詞＋前置詞, 意味]
+        rows:
+        - ["influence／effect {{on}} 〜", "〜への影響"]
+        - ["the key {{to}} 〜", "〜の鍵・秘訣"]
+        - ["the answer／a solution {{to}} 〜", "〜の答え・解決策"]
+        - ["the reason {{for}} 〜", "〜の理由"]
+        - ["interest {{in}} 〜", "〜への興味"]
+        - ["an approach {{to}} 〜", "〜への取り組み方"]
+      notes:
+      - kind: 注意
+        text: the key to の to は前置詞なので、後ろに動詞を置くときは doing にする（the key to learning）。look forward to doing と同じ考え方（@s074）。
+    - check:
+      - q: How much is the train (fare／fee) to Nagoya?
+        a: fare
+      - q: The hotel has rooms for 200 (guests／customers).
+        a: guests
+      - q: What is the reason (for／of) the delay?
+        a: for
+    examples:
+    - id: e2019
+      en: The bus *fare* to the city hall is 230 yen.
+      ja: 市役所までのバスの運賃は230円だ。
+    - id: e2020
+      en: There is no entrance *fee* for children.
+      ja: 子どもは入場料がかからない。
+    - id: e2021
+      en: Delivery is free of *charge* for orders over 5,000 yen.
+      ja: 5千円を超える注文は配達料が無料だ。
+    - id: e2022
+      en: "*Guests* at this hotel can have breakfast from 6:30."
+      ja: このホテルの宿泊客は6時半から朝食をとれる。
+    - id: e2023
+      en: Asking questions is the *key to* learning a language quickly.
+      ja: 質問することが、言葉を早く身につける秘訣だ。
+    - id: e2024
+      en: TV has a strong *influence on* the way children speak.
+      ja: テレビは子どもの話し方に強い影響を与えている。
+    worked:
+    - q: （　）に入る最も適切なものを1つ選びなさい。<br>How much is the bus (＿) from here to Kyoto Station?
+      choices: [fare, fee, price, charge]
+      steps:
+      - 空所の前の bus と、後ろの from here to Kyoto Station から、バスに乗る運賃をたずねていると分かる。
+      - 乗り物の運賃は fare。fee は入場料や専門家への謝礼、charge はサービスの料金、price は品物の値段。
+      - fare を選ぶ。
+      ans: "1"
+      point: 料金の名詞は「何に払うお金か」で選ぶ。乗り物なら fare、入場・入会なら fee、サービスなら charge。
+    - q: 日本語の意味になるように、（　）に適切な語を1語入れなさい。<br>毎日続けることが、英語が上達する秘訣だ。<br>Practicing every day is the key (＿) improving your English.
+      steps:
+      - 「〜の秘訣」は the key to 〜。名詞 key と結びつく前置詞は to。
+      - 後ろの improving は動名詞。the key to の to は前置詞なので、doing が続いても形は合う。
+      - to を入れる。
+      ans: to
+      point: the key to・the answer to・influence on・the reason for は、名詞と前置詞の組で覚える。to が前置詞なら後ろは名詞か doing。
+    summary:
+    - "乗り物の運賃は{{fare}}、入場・入会や専門家への料金は{{fee}}、サービスの料金は{{charge}}。"
+    - "店の客は{{customer}}、招待客・宿泊客は{{guest}}、乗客は{{passenger}}。"
+    - "influence {{on}}、the key {{to}}、the answer {{to}}、the reason {{for}}、interest {{in}}。"
+  - id: s205
+    title: "形容詞＋前置詞・to do"
+    aim: familiar・anxious・sure の後ろの前置詞や形による意味の違いを読み分け、be likely to do と be capable of doing を正しい形で使えるようになる。
+    body:
+    - h: 前置詞で意味が変わる形容詞
+    - p: be familiar は、主語が人か物かで前置詞が変わります。人が主語で「物をよく知っている」なら be familiar with 物（@e2025）、物が主語で「人によく知られている」なら be familiar to 人 です（@e2026）。主語と前置詞の後ろの語が入れかわるので、主語が人か物かを先に確かめます。
+    - p: be anxious about 〜 は「〜を心配している」（@e2027）、be anxious to do は「〜したがっている」です。be anxious for 〜 は「〜を強く望んでいる」の意味で使いますが、anxious for his safety（彼の無事を心配して）のように「心配して」の意味になることもあるので、文の意味で判断します。
+    - ex: [e2025, e2026, e2027]
+    - h: be sure of と be sure to do
+    - p: be sure of 〜 と be sure that 〜 は、主語が「〜を確信している」という意味です。be sure to do は「きっと〜する」で、確信しているのは主語ではなく話し手です（@e2028）。be certain も同じ使い分けをします。
+      notes:
+      - kind: 注意
+        text: 命令文の Be sure to do は「必ず〜しなさい」（Be sure to lock the door.）。
+    - ex: [e2028]
+    - h: be likely to do と be capable of doing
+    - p: be likely to do は「〜しそうだ」で、人も物事も主語にでき、It is likely that S V に書きかえられます（@e2029）。単元15（@s153）で学んだ possible は、「人が〜できる」の意味で人を主語にしませんが、likely は He is likely to come. のように人を主語にできます。
+    - p: 「〜する能力がある」は、be able to do か be capable of doing で表します（@e2030）。able は to do、capable は of doing と、後ろの形が違います。否定はそれぞれ be unable to do、be incapable of doing です。
+    - table:
+        head: [形, 意味, 注意]
+        rows:
+        - ["人 is familiar {{with}} 物", "人が物をよく知っている", "物 is familiar {{to}} 人 と入れかわる"]
+        - ["be anxious {{about}} 〜", "〜を心配している", "be anxious to do は「〜したがっている」"]
+        - ["S is sure {{to}} do", "きっと〜する（話し手の確信）", "S is sure of／that は主語の確信"]
+        - ["S is likely {{to}} do", "〜しそうだ", "＝It is likely that S V"]
+        - ["be capable {{of}} doing", "〜する能力がある", "be able {{to}} do と形が違う"]
+    - ex: [e2029, e2030]
+    - check:
+      - q: This song is familiar (to／with) young people.
+        a: to（物が主語）
+      - q: He is capable (of／to) running a marathon.
+        a: of
+      - q: She is sure to win. で、確信しているのはだれか。
+        a: 話し手
+    examples:
+    - id: e2025
+      en: My grandfather *is familiar with* old Japanese songs.
+      ja: 祖父は昔の日本の歌をよく知っている。
+    - id: e2026
+      en: His face *is familiar to* me, but I can't remember his name.
+      ja: 彼の顔には見覚えがあるが、名前が思い出せない。
+    - id: e2027
+      en: My mother *is anxious about* my exam results.
+      ja: 母は私の試験の結果を心配している。
+    - id: e2028
+      en: Nina *is sure of* winning. ／ Nina *is sure to* win.
+      ja: ニーナは自分が勝つと確信している。／ニーナはきっと勝つ（と私は思う）。
+    - id: e2029
+      en: Owen *is likely to* win the speech contest.
+      ja: オーウェンはスピーチコンテストで優勝しそうだ。
+    - id: e2030
+      en: This robot *is capable of* lifting 50 kilograms.
+      ja: このロボットは50キロの物を持ち上げることができる。
+    worked:
+    - q: （　）に入る最も適切なものを1つ選びなさい。<br>Look at those dark clouds. It is (＿) to rain soon.
+      choices: [likely, probably, possibly, possible]
+      steps:
+      - 空所は is の後ろで C の位置。形容詞が入る。副詞の probably・possibly は C にならない。
+      - 後ろに to rain が続く。It is (＿) to do の形で「〜しそうだ」を表すのは likely。
+      - possible は「人が〜できる」の意味で It is possible for 人 to do の形をとり（@s153）、天気の it で「雨が降りそうだ」は表せない。likely を選ぶ。
+      ans: "1"
+      point: be likely to do は「〜しそうだ」。人も物事も、天気の it も主語にできる。
+    - q: （　）に入る最も適切なものを1つ選びなさい。<br>Keita has lived in Kobe for ten years, so he is familiar (＿) its streets.
+      choices: [to, with, of, for]
+      steps:
+      - 主語は人（Keita）、前置詞の後ろは物（its streets）。
+      - 人が主語で「物をよく知っている」は be familiar with 物。物が主語なら be familiar to 人 になる。
+      - with を選ぶ。
+      ans: "2"
+      point: familiar は主語が人なら with、物なら to。主語と前置詞の後ろの語が入れかわる。
+    summary:
+    - "人 is familiar {{with}} 物（よく知っている）、物 is familiar {{to}} 人（よく知られている）。"
+    - "be anxious {{about}} は「〜を心配している」、be anxious {{to}} do は「〜したがっている」。"
+    - "S is sure to do は「きっと〜する」で、確信しているのは{{話し手}}。be sure of は{{主語}}の確信。"
+    - "be likely {{to}} do は「〜しそうだ」。「〜する能力がある」は be able {{to}} do か be capable {{of}} doing。"
+
+problems:
+# ---- 前提チェック ----
+- id: q20001
+  sec: s201
+  set: 前提
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: I (＿) a letter to my grandmother yesterday.
+  choices: [write, wrote, written, writing]
+  ans: "2"
+  why: yesterday があるので過去の文。write の過去形は wrote。
+  trap: ③written を選ぶ誤り。written は過去分詞で、have や be と一緒に使う。
+- id: q20002
+  sec: s201
+  set: 前提
+  lv: 1
+  kind: 4択
+  min: 1
+  q: Please listen (＿) me carefully.
+  choices: [to, at, for, with]
+  ans: "1"
+  why: listen は後ろに O を直接置かない自動詞で、「〜を聞く」は listen to 〜 とする。
+  trap: ②at を選ぶ誤り。look at（〜を見る）と混ざりやすいが、listen の後ろは to。
+- id: q20003
+  sec: s201
+  set: 前提
+  lv: 1
+  kind: 4択
+  min: 1
+  q: My aunt gave (＿) a watch for my birthday.
+  choices: [I, my, me, mine]
+  ans: "3"
+  why: gave の後ろに「人に」と「物を」を並べる形。人の位置は O なので、目的格の me を使う。
+  trap: ①I を選ぶ誤り。I は S の位置で使う形で、動詞の後ろの O には me を置く。
+# ---- s201 節末 ----
+- id: q20004
+  sec: s201
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: The sun (＿) at about six this morning.
+  choices: [rose, raised, risen, rised]
+  ans: "1"
+  why: 後ろに O がなく、「太陽が昇った」という意味なので自動詞 rise の過去形 rose。
+  trap: ②raised を選ぶ誤り。raise は「〜を上げる」という他動詞で、後ろに O が要る。rised という形はない。
+- id: q20005
+  sec: s201
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  q: Mei (＿) her bag on the desk and opened the window.
+  choices: [lay, laid, lain, lied]
+  ans: "2"
+  why: 後ろに her bag という O があるので、他動詞 lay（〜を置く）を使う。opened と同じ過去形の laid。
+  trap: ①lay を選ぶ誤り。lay は自動詞 lie（横になる）の過去形なので、後ろに O を置けない。
+- id: q20006
+  sec: s201
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 日本語の意味になるように、（　）に r で始まる適切な語を1語入れなさい。
+  q: その電車は10時に東京駅に着いた。<br>The train (＿) Tokyo Station at ten.
+  ans: reached
+  why: 空所の後ろに前置詞がなく、Tokyo Station を直接 O にとる。「〜に着く」の他動詞 reach の過去形 reached。
+  trap: arrived を考える誤り。arrive は自動詞なので arrived at Tokyo Station と at が要り、1語では入らない（r で始まらない）。
+- id: q20007
+  sec: s201
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: My uncle __married with__① a woman __from__② Canada __when__③ he was __thirty__④.
+  ans: "1"
+  why: marry（〜と結婚する）は他動詞で、後ろに O を直接置く。married a woman とする（got married to a woman としてもよい）。②from Canada は出身、③when は時の接続詞、④thirty は年齢で、どれも正しい。
+  trap: 日本語の「〜と結婚する」の「と」につられて with を正しいと思う誤り。
+- id: q20008
+  sec: s201
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: As we (＿) the station, it began to rain.
+  choices: [approached to, approached, arrived, got]
+  ans: "2"
+  why: 空所の後ろに the station が直接続く。approach（〜に近づく）は他動詞なので approached the station が正しい。
+  trap: ③arrived を選ぶ誤り。arrive は自動詞で、arrived at the station と前置詞が要る。got も got to が要る。①は他動詞に to を付けている。
+- id: q20009
+  sec: s201
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  q: The letter had (＿) on the table for a week before anyone noticed it.
+  choices: [laid, lay, lain, lied]
+  ans: "3"
+  why: 後ろに O がなく「手紙がテーブルの上にあった」という意味なので、自動詞 lie を使う。had の後ろは過去分詞なので lain。
+  trap: ①laid を選ぶ誤り。laid は他動詞 lay の過去分詞で、後ろに O が要る。話し言葉では laid をこの意味で使う人もいるが、入試では lain が正しい。
+# ---- s202 節末 ----
+- id: q20010
+  sec: s202
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: This app (＿) us to talk with friends abroad for free.
+  choices: [makes, lets, enables, has]
+  ans: "3"
+  why: 後ろが us to talk と O to do の形。この形をとるのは enable（O が〜できるようにする）。
+  trap: ②lets を選ぶ誤り。let は使役動詞で let O do の形をとり、to は付けない（@s063）。makes・has も O の後ろは原形。
+- id: q20011
+  sec: s202
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 日本語の意味になるように、（　）に適切な語を1語入れなさい。
+  q: この歌を聞くたびに、私は高校時代を思い出す。<br>Whenever I hear this song, it reminds me (＿) my high school days.
+  ans: of
+  why: remind A of B で「A に B を思い出させる」。B の前に of を置く。
+  trap: from を入れる誤り。「〜から思い出す」と考えやすいが、remind は A of B の形をとる。
+- id: q20012
+  sec: s202
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Our school provides every student (＿) a tablet.
+  choices: [for, with, of, to]
+  ans: "2"
+  why: provide A with B で「A に B を与える」。A が every student、B が a tablet なので with。
+  trap: ①for を選ぶ誤り。for を使うのは物を先に言う provide B for A の形（provides a tablet for every student）。
+- id: q20013
+  sec: s202
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: __Yesterday__① the __strong__② wind prevented the boats __to leave__③ the port __until__④ evening.
+  ans: "3"
+  why: prevent は prevent O from doing の形をとる。to leave を from leaving にする。①Yesterday は過去形と合い、②strong は wind を説明する形容詞、④until evening は「夕方まで」で、どれも正しい。
+  trap: allow O to do と同じ形だと思い、to leave を正しいとする誤り。prevent の後ろは O from doing。
+- id: q20014
+  sec: s202
+  set: 節末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: その男は年配の女性からかばんを奪った。<br>The man ( an / bag / her / of / old / robbed / woman ).
+  words: [an, bag, her, of, old, robbed, woman]
+  ans: The man robbed an old woman of her bag.
+  why: rob A of B で「A から B を奪う」。A に人の an old woman、of の後ろに奪った物の her bag を置く。
+  trap: robbed her bag of an old woman と物を O にする誤り。物を O にするのは steal（steal B from A）で、rob は人や店を O にする。
+- id: q20015
+  sec: s202
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: My sister suggested (＿) to the new café near the station.
+  choices: [to go, me to go, going, for going]
+  ans: "3"
+  why: suggest は後ろに doing か that 節をとる。suggested going で「行こうと提案した」。
+  trap: ②me to go を選ぶ誤り。suggest は O to do の形をとらない。①to go も suggest の後ろには置かない。
+# ---- s203 節末 ----
+- id: q20016
+  sec: s203
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Our teacher (＿) us an interesting story about her trip to Spain.
+  choices: [said, told, spoke, talked]
+  ans: "2"
+  why: 後ろが us（人）＋an interesting story（物）の形。人を直接 O にして「人に話を伝える」のは tell。
+  trap: ①said を選ぶ誤り。say は人を直接 O にせず、say to 人 とする。spoke・talked も人を O にしない。
+- id: q20017
+  sec: s203
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  q: This T-shirt (＿) me 2,000 yen.
+  choices: [took, spent, cost, paid]
+  ans: "3"
+  why: 物（This T-shirt）が主語で、O がお金。物事が主語で「（人に）お金がかかる」は cost。
+  trap: ②spent を選ぶ誤り。spend は人が主語になり、I spent 2,000 yen on this T-shirt. のように使う。
+- id: q20018
+  sec: s203
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 日本語の意味になるように、（　）に b で始まる適切な語を1語入れなさい。
+  q: 私は図書館で本を3冊借りた。<br>I (＿) three books from the library.
+  ans: borrowed
+  why: 「借りる」は borrow。borrow 物 from 人・場所 の形で、過去の文なので borrowed。
+  trap: lent を考える誤り。lend は「貸す」で、借りる側を主語にするときは borrow を使う。
+- id: q20019
+  sec: s203
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: These shoes don't (＿) me. They are too small.
+  choices: [suit, match, fit, go]
+  ans: "3"
+  why: They are too small から、サイズの話と分かる。サイズや形が合うのは fit。
+  trap: ①suit を選ぶ誤り。suit は色やデザインが人に「似合う」という意味で、サイズが合うかどうかには使わない。
+- id: q20020
+  sec: s203
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  q: My brother (＿) three hours playing video games yesterday.
+  choices: [cost, made, gave, spent]
+  ans: "4"
+  why: 人（My brother）が主語で、O が時間、後ろに playing と doing が続く。spend 時間 (in) doing で「〜して時間を過ごす」。
+  trap: ①cost を選ぶ誤り。cost は物事が主語で、ふつう O はお金になる。
+- id: q20021
+  sec: s203
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: Mr. Hirano __said us__① __that__② the bus __would__③ be late __because of__④ the snow.
+  ans: "1"
+  why: say は人を直接 O にしない。told us that 〜（または said to us that 〜）とする。③would は主節の過去形に合わせた形（@s191）、④because of は名詞の前に置く群前置詞で、どれも正しい。
+  trap: 「私たちに言った」を said us と書いてよいと思う誤り。人を直接 O にするのは tell。
+# ---- s204 節末 ----
+- id: q20022
+  sec: s204
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: There were about forty (＿) on the bus.
+  choices: [guests, customers, passengers, audiences]
+  ans: "3"
+  why: バスに乗っている客なので、乗り物の乗客を表す passenger。
+  trap: ②customers を選ぶ誤り。customer は店で買い物をする客で、乗り物の客には passenger を使う。
+- id: q20023
+  sec: s204
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  q: The entrance (＿) for this museum is 500 yen.
+  choices: [fare, price, salary, fee]
+  ans: "4"
+  why: 博物館に入るための料金なので、入場料の fee。entrance fee で「入場料」。
+  trap: ①fare を選ぶ誤り。fare は乗り物の運賃で、入場料には使わない。
+- id: q20024
+  sec: s204
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  q: Do you know the answer (＿) this question?
+  choices: [of, at, to, with]
+  ans: "3"
+  why: 名詞 answer は the answer to 〜（〜の答え）と to を続ける。
+  trap: ①of を選ぶ誤り。日本語の「〜の答え」の「の」につられやすい。動詞の answer は他動詞だが、名詞になると to が要る。
+- id: q20025
+  sec: s204
+  set: 節末
+  lv: 2
+  kind: 補充
+  min: 1
+  inst: 日本語の意味になるように、（　）に適切な語を1語入れなさい。
+  q: その映画は若者に大きな影響を与えた。<br>The movie had a great influence (＿) young people.
+  ans: "on"
+  alt: [upon]
+  why: have an influence on 〜 で「〜に影響を与える」。名詞 influence は on と結びつく（upon はかたい言い方）。
+  trap: to を入れる誤り。「〜に」につられやすいが、influence・effect の後ろは on。
+- id: q20026
+  sec: s204
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: We invited thirty (＿) to our wedding party.
+  choices: [customers, guests, passengers, clients]
+  ans: "2"
+  why: パーティーに招待した客なので guest。
+  trap: ①customers を選ぶ誤り。customer は店の客で、招待した客には使わない。client は弁護士などの依頼人。
+- id: q20027
+  sec: s204
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: His teacher __asked__① him __about__② the reason __of__③ his absence __yesterday__④.
+  ans: "3"
+  why: 「〜の理由」は the reason for 〜。of を for にする。①asked him about 〜 は「〜について彼にたずねた」、④yesterday は過去形と合い、正しい。
+  trap: 日本語の「〜の」につられて of を正しいと思う誤り。reason は for と結びつく。
+# ---- s205 節末 ----
+- id: q20028
+  sec: s205
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: I'm not (＿) with this area. Is there a post office near here?
+  choices: [famous, similar, familiar, likely]
+  ans: "3"
+  why: 人（I）が主語で「この辺りをよく知らない」という意味。人 is familiar with 物。
+  trap: ②similar を選ぶ誤り。similar は「似ている」で、前置詞は to をとる（similar to 〜）。
+- id: q20029
+  sec: s205
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  q: Owen is (＿) of running 100 meters in 12 seconds.
+  choices: [able, capable, possible, can]
+  ans: "2"
+  why: 後ろが of running と of doing の形。「〜する能力がある」で of doing をとるのは capable。
+  trap: ①able を選ぶ誤り。able は be able to do の形で、of doing をとらない。
+- id: q20030
+  sec: s205
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 日本語の意味になるように、（　）に l で始まる適切な語を1語入れなさい。
+  q: 雪のため、電車は遅れそうだ。<br>The train is (＿) to be late because of the snow.
+  ans: likely
+  why: 「〜しそうだ」は be likely to do。物事（The train）も主語にできる。
+  trap: like を書く誤り。like は「好きだ」「〜のような」で、「〜しそうだ」は形容詞の likely。
+- id: q20031
+  sec: s205
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: This song is familiar (＿) many people in Japan.
+  choices: [with, of, to, at]
+  ans: "3"
+  why: 物（This song）が主語で「多くの人によく知られている」という意味。物 is familiar to 人。
+  trap: ①with を選ぶ誤り。with を使うのは人が主語で「物をよく知っている」ときで、主語と前置詞の後ろが入れかわる。
+- id: q20032
+  sec: s205
+  set: 節末
+  lv: 2
+  kind: 和訳
+  min: 3
+  inst: 次の英文を日本語に訳しなさい。
+  q: Our team is sure to win the next game.
+  ans: 私たちのチームはきっと次の試合に勝つ。
+  alt: [私たちのチームは必ず次の試合に勝つだろう。, 私たちのチームが次の試合に勝つのは確実だ。]
+  why: be sure to do は「きっと〜する」で、確信しているのは話し手。「きっと」「必ず」「確実だ」のように話し手の確信が出ていれば正解。
+  trap: 「私たちのチームは次の試合に勝つと確信している」と訳す誤り。主語が確信しているのは be sure of 〜／be sure that 〜 の場合。
+- id: q20033
+  sec: s205
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: __Since__① my brother caught a cold, my grandmother __has been__② __very__③ anxious __with__④ his health.
+  ans: "4"
+  why: 「〜を心配している」は be anxious about 〜。with を about にする。①Since は「〜してから」、②has been は since とともに今までの継続を表し、③very は anxious を強めていて、どれも正しい。
+  trap: worried about と anxious about の about を思い出せず、with を正しいと思う誤り。anxious の後ろに with は置かない。
+# ---- 確認テスト ----
+- id: q20034
+  sec: s204
+  set: 確認テスト
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Reading every day had a big effect (＿) my English.
+  choices: [on, to, at, from]
+  ans: "1"
+  why: 名詞 effect は influence と同じく on と結びつき、have an effect on 〜 で「〜に影響を与える」。
+  trap: ②to を選ぶ誤り。日本語の「〜に」につられやすいが、effect・influence の後ろは on。
+- id: q20035
+  sec: s202
+  set: 確認テスト
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 日本語の意味になるように、（　）に e で始まる適切な語を1語入れなさい。
+  q: その橋のおかげで、人々は簡単に川を渡れる。<br>The bridge (＿) people to cross the river easily.
+  ans: enables
+  why: 後ろが people to cross と O to do の形。「O が〜できるようにする」は enable O to do。主語が3人称単数の現在なので enables。
+  trap: enable と -s を付け忘れる誤り。主語 The bridge は3人称単数。
+- id: q20036
+  sec: s203
+  set: 確認テスト
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: How long does it (＿) to get to the airport by bus?
+  choices: [cost, take, spend, pass]
+  ans: "2"
+  why: How long で時間をたずねている。「〜するのに時間がかかる」は It takes 時間 to do。
+  trap: ①cost を選ぶ誤り。cost はお金がかかるときに使い、時間には take を使う。
+- id: q20037
+  sec: s073
+  set: 確認テスト
+  lv: 1
+  kind: 4択
+  min: 1
+  q: Please remember (＿) the window before you go out.
+  choices: [closing, to close, close, closed]
+  ans: "2"
+  why: 出かける前に、これから窓を閉めることを忘れないように言っている。remember to do で「忘れずに〜する」。
+  trap: ①closing を選ぶ誤り。remember doing は「（前に）〜したことを覚えている」で、これからすることには使わない。
+- id: q20038
+  sec: s205
+  set: 確認テスト
+  lv: 2
+  kind: 4択
+  min: 1
+  q: The new player is (＿) to join our team next month.
+  choices: [possible, likely, probable, capable]
+  ans: "2"
+  why: 人（The new player）が主語で後ろに to join が続く。「〜しそうだ」は be likely to do で、人を主語にできる。
+  trap: ①possible を選ぶ誤り。possible は「人が〜できる」の意味で人を主語にしない（@s153）。probable も人を主語にして to do を続けない。capable は of doing をとる。
+- id: q20039
+  sec: s202
+  set: 確認テスト
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: __While__① I was __waiting__② for the bus, a man __stole me of__③ my bag and __ran__④ away.
+  ans: "3"
+  why: 人を O にして「人から物を奪う」は rob 人 of 物。robbed me of my bag とする（stole my bag from me としてもよい）。①While は「〜している間に」、②was waiting は過去進行形、④ran away は「走り去った」で、どれも正しい。
+  trap: steal も rob も「奪う・盗む」なので、steal を rob と同じ形で使う誤り。steal は物を O にする。
+- id: q20040
+  sec: s201
+  set: 確認テスト
+  lv: 2
+  kind: 正誤
+  q: My father came home __late__①, __laid__② down on the sofa, and fell asleep __without__③ __eating__④ dinner.
+  min: 1
+  ans: "2"
+  why: 後ろに O がなく「ソファに横になった」という意味なので、自動詞 lie の過去形 lay にする。laid は他動詞 lay（〜を置く）の過去形。③without の後ろは動名詞の④eating で、正しい。
+  trap: 「横になる」を lay と覚え、その過去形 laid を正しいと思う誤り。lie－lay－lain と lay－laid－laid を区別する。
+- id: q20041
+  sec: s203
+  set: 確認テスト
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 部屋を掃除するのに3時間かかった。<br>It ( clean / hours / me / three / to / took ) my room.
+  words: [clean, hours, me, three, to, took]
+  ans: It took me three hours to clean my room.
+  why: It takes 人 時間 to do の形。took の後ろに人の me、時間の three hours、最後に to clean を置く。
+  trap: It took three hours me to clean と、人を時間の後ろに置く誤り。人は took の直後に置く。
+- id: q20042
+  sec: s205
+  set: 確認テスト
+  lv: 2
+  kind: 整序
+  min: 2
+  q: 私はこの町の歴史をよく知らない。<br>I ( am / familiar / history / not / the / with ) of this town.
+  words: [am, familiar, history, "not", the, with]
+  ans: I am not familiar with the history of this town.
+  why: 人（I）が主語で「物をよく知っている」は be familiar with 物。否定の not は am の後ろに置く。
+  trap: I am familiar not with the history と、not を familiar の後ろに置く誤り。be 動詞の文の否定は、be 動詞の直後に not を置く。
+- id: q20043
+  sec: s191
+  set: 確認テスト
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: （　）内の語を適切な形にして入れなさい。
+  q: "Kana said that she (＿) busy that day. (be)"
+  ans: was
+  why: 主節の動詞が過去形の said なので、that 節の動詞も過去形に合わせる（時制の一致）。she に合わせて was。
+  trap: is を書く誤り。主節が過去で、that day（その日）のことを言っているので、現在形にはしない。
