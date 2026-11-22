@@ -639,8 +639,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Ms. Moore asked us (＿) quietly in the library.
-  choices: [speak, to speak, speaking, spoke]
-  ans: "2"
+  choices: [speak, spoke, speaking, to speak]
+  ans: "4"
   why: ask 人 to do で「人に〜するように頼む」。ask は O の後ろに to do を置く動詞。
   trap: 使役動詞と同じように①speak を選ぶ誤り。原形を置くのは make・let・have と知覚動詞だけで、ask は to が要る。
 - id: q06017
@@ -768,10 +768,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: The heavy rain made (＿) impossible for us to play soccer.
-  choices: [it, that, this, them]
-  ans: "1"
+  choices: [that, this, them, it]
+  ans: "4"
   why: make O C の O が to play soccer（不定詞）なので、O の位置に形式目的語の it を置く。for us は意味上の主語。
-  trap: ②that を選ぶ誤り。後ろの to do を受けるしるしになるのは it だけで、that や this は形式目的語にならない。
+  trap: ①that を選ぶ誤り。後ろの to do を受けるしるしになるのは it だけで、that や this は形式目的語にならない。
 # ---- 節末 s065 ----
 - id: q06028
   sec: s065
@@ -852,8 +852,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: It is fun (＿) cards with my family on weekends.
-  choices: [play, to play, played, plays]
-  ans: "2"
+  choices: [play, played, plays, to play]
+  ans: "4"
   why: It は形式主語で、本当の主語は「家族とトランプをすること」。名詞の働きの不定詞 to play を後ろに置く。
   trap: ①play を選ぶ誤り。It is fun の後ろに動詞の原形をそのまま置いても主語にならない。
 - id: q06035
