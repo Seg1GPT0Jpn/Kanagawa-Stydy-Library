@@ -46,7 +46,7 @@ chapters:
       - q: "My uncle is (＿) as old as my cousin.（2倍の年齢）"
         a: twice
       - q: "Please come back as early as (＿).（できるだけ早く）"
-        a: possible（you can も可）
+        a: possible
     examples:
     - id: e1101
       en: "Peter is *as* tall *as* his father."
@@ -477,9 +477,9 @@ problems:
   kind: 整序
   min: 2
   inst: 日本語の意味になるように（　）内の語を並べかえなさい。
-  q: ユナはできるだけていねいに自分の名前を書いた。<br>Yuna wrote her name ( as / as / carefully / could / she ).
+  q: ルイス先生はできるだけていねいに自分の名前を書いた。<br>Ms. Lewis wrote her name ( as / as / carefully / could / she ).
   words: [as, as, carefully, could, she]
-  ans: Yuna wrote her name as carefully as she could.
+  ans: Ms. Lewis wrote her name as carefully as she could.
   why: 「できるだけ〜」は as＋原級＋as S can。過去の文なので can が could になり、as carefully as she could となる。
   trap: as carefully she could as のように、as の位置を崩す誤り。as と as の間に原級を置き、後ろの as の後ろに she could を続ける。
 - id: q11007
@@ -600,7 +600,7 @@ problems:
   q: The Shinano River is the longest river in Japan.<br>＝ The Shinano River is longer than (＿) (＿) river in Japan.
   ans: any other
   why: 「比較級＋than any other＋単数名詞」で「ほかのどの〜よりも」となり、最上級と同じ内容を表す。信濃川も日本の川の1つなので other が要る。
-  trap: all other と入れる誤り。all を使うなら all the other rivers と複数形にする必要があり、空所の後ろの river（単数）と合わない。
+  trap: all other と入れる誤り。all を使うと all the other rivers のように複数形になり、空所の後ろの river（単数）と合わない。
 - id: q11017
   sec: s113
   set: 節末

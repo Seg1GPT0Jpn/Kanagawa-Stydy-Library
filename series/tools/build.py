@@ -208,7 +208,10 @@ class Book:
                 print('\n'.join(lay['errors'])); raise SystemExit(f'{name}: ページ組みエラー')
             if prev is not None and lay['anchors'] == prev:
                 return lay
+            if prev is not None:
+                diff = {k: (prev.get(k), v) for k, v in lay['anchors'].items() if prev.get(k) != v}
             prev = lay['anchors']
+        print('変わり続ける参照先:', list(diff.items())[:15])
         raise SystemExit(f'{name}: ページ割りが安定しない')
 
 

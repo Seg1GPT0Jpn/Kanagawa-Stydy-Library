@@ -698,8 +698,8 @@ def honbun_blocks(bk, pages, part, cover, colophon, legend):
         if ch['id'] == vol2_first:
             # 上巻の終わり：上巻の裏表紙までで4の倍数にそろえ、下巻の表紙・目次を置く（ページ番号は通し）
             vpad = 0
-            if 'vol2' in pages:
-                n_before = (pages['vpad'] if 'vpad' in pages else pages['vol2']) - 1   # 白ページを入れる前の、上巻の本文の終わり
+            if 'vol1back' in pages:
+                n_before = (pages['vpad'] if 'vpad' in pages else pages['vol1back']) - 1   # 白ページを入れる前の、上巻の本文の終わり
                 vpad = (-(n_before + 1)) % 4
             for i in range(vpad):
                 out.append(fullpage('', 'nohead pk-blank', **({'anchor': 'vpad'} if i == 0 else {})))
@@ -759,7 +759,20 @@ def honbun_blocks(bk, pages, part, cover, colophon, legend):
         if g != cur:
             rows.append(f'<div class="k">{g}</div>'); cur = g
         rows.append(f'<div class="row">{E(t)}<span class="dots"></span><span class="pg">{pages.get("term:" + t.replace(" ", "\u00a0"), "00")}</span></div>')
-    out.append(blk('<div class="fm-title">索引</div><div class="idx toc">' + ''.join(rows) + '</div>', 'newpage', anchor='index', chapter='索引', section='索引'))
+    # 1ページに入る行数ごとに分ける（各ページは2段組。見出しの行は高いので少なめに数える）
+    PER = 64
+    chunks, curc, n = [], [], 0
+    for r in rows:
+        w = 1.6 if r.startswith('<div class="k">') else 1
+        if n + w > PER and curc:
+            if curc[-1].startswith('<div class="k">'): last = [curc.pop()]   # 五十音の見出しをページ末に残さない
+            else: last = []
+            chunks.append(curc); curc, n = last, len(last) * 1.6
+        curc.append(r); n += w
+    if curc: chunks.append(curc)
+    for k, c in enumerate(chunks):
+        head = '<div class="fm-title">索引</div>' if k == 0 else ''
+        out.append(blk(head + '<div class="idx toc">' + ''.join(c) + '</div>', 'newpage', anchor='index' if k == 0 else None, chapter='索引', section='索引'))
     pad_and_colophon(out, pages, colophon)
     return out
 

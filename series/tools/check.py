@@ -190,7 +190,9 @@ def main(bid):
     # 5. 混入：組版の残骸・未置換の記法
     pats = ['class=', '">', '</', 'undefined', 'NaN', '[object', 'p.00', '{{', '}}', '<<', '>>', '@s', '@e', '**', 'null', 'None']
     for n, name in NAMES.items():
-        hits = [p for p in pats if p in texts[n]]
+        # 英語の none（None of ～）は本文の語なので除く。Python の None はふつう単独で出る
+        t = re.sub(r'None(?=\s*(of|／|\)|）))', '', texts[n])
+        hits = [p for p in pats if p in t]
         if hits: fail(f'{name}: 混入 {hits}')
     if not any(f.startswith(tuple(NAMES.values())) and '混入' in f for f in FAIL): ok('混入なし（class= 〉 </ undefined NaN [object p.00 未置換の記法）')
 
