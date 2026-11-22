@@ -1,0 +1,759 @@
+# 単元4　助動詞（s041〜s044）。例文 e0401〜e0429、問題 q04001〜q04041
+chapters:
+- id: c04
+  title: 助動詞
+  lead: この単元では、can・must・may・should などの助動詞が、動詞に「できる」「しなければならない」「違いない」という話し手の判断を足すしくみを学びます。単元の終わりには、must not と don't have to、must have done と should have done のように形の似た表現を、4択や正誤の問題で見分けられるようになります。
+  intro: 中学では、can（〜できる）、must（〜しなければならない）、will（〜するだろう）、may（〜してもよい）、should（〜すべきだ）を学びました。これらは動詞の前に置き、後ろの動詞は主語が何であっても原形にします（He can swim. の swim に s は付けません）。否定文は助動詞の後ろに not を置き（cannot, must not）、疑問文は助動詞を主語の前に出します（Can you ～?）。have to（〜しなければならない）と be able to（〜できる）は、助動詞に近い意味を2語以上で表す言い方です。
+  sections:
+  - id: s041
+    title: can・may・must・should の基本
+    aim: can・may・must・should の基本の意味を言い分け、must not と don't have to、can と be able to を正しく使えるようになる。
+    body:
+    - h: 助動詞は、動詞に話し手の判断を足す
+    - p: 「私は500メートル泳ぐ」は事実を述べる文です。これに「泳げる」「泳がなければならない」「泳いだほうがよい」のような話し手の判断を足すのが<<助動詞>>です。英語では助動詞を動詞の前に置き、後ろの動詞は原形にします（@e0401〜@e0404）。助動詞と動詞は2語でひとまとまりの V になります。主語が3人称単数でも、助動詞にも後ろの動詞にも s は付けません。
+      notes:
+      - kind: 用語
+        term: 助動詞
+        yomi: じょどうし
+        text: 動詞の原形の前に置き、「できる」「しなければならない」「違いない」などの話し手の判断を加える語。can, may, must, should, will など。助動詞を2つ続けて置くことはできない（will can は不可）。
+    - ex: [e0401, e0402, e0403, e0404]
+    - p: 4つの助動詞の基本の意味と、同じ意味を表す言いかえを表にまとめます。言いかえの be able to と have to は、助動詞が使えない場所（ほかの助動詞の後ろ、完了形の中）で役に立ちます。
+      notes:
+      - kind: 注意
+        text: can にも「〜してよい」という許可の意味がある（You can use my pen.）。may の許可より、くだけた言い方になる。
+    - table:
+        head: [助動詞, 基本の意味, 言いかえ, 否定の形と意味]
+        rows: [[can, 〜できる（能力）, '{{be able to}}', cannot／can't（〜できない）], [may, 〜してもよい（許可）, ―, may not（〜してはいけない）], [must, 〜しなければならない（義務）, '{{have to}}', must not（〜してはいけない）], [should, 〜すべきだ・〜したほうがよい（助言）, ought to, should not（〜すべきでない）]]
+    - h: must not と don't have to
+    - p: must と have to はどちらも「〜しなければならない」ですが、否定にすると意味が分かれます。must not は「〜してはいけない」という禁止です（@e0405）。don't have to は「〜しなくてよい・〜する必要はない」という不要です（@e0406）。have to の否定は「しなければならない、ということはない」と考えると、禁止にならない理由が分かります。
+      notes:
+      - kind: 注意
+        text: must には過去形も未来の形もない。「〜しなければならなかった」は had to、「〜しなければならないだろう」は will have to で表す。
+    - ex: [e0405, e0406]
+    - h: can と be able to
+    - p: can の過去形は could です。一方、未来の「〜できるだろう」を will can とは言えません。助動詞は2つ続けて置けないからです。そこで can を be able to に言いかえ、will be able to とします（@e0407）。現在完了でも同じで、have been able to とします。過去の1回の場面で「（実際に）〜できた」と言うときは、could より was able to を使うのが普通です（@e0408）。could は「（いつでも）〜する力があった」という過去の能力に使います。否定の couldn't は、1回の場面にも使えます。
+    - ex: [e0407, e0408]
+    - check:
+      - q: 「明日は学校に来なくてよい。」You (＿) (＿) (＿) come to school tomorrow.
+        a: don't have to
+      - q: 「ここで泳いではいけない。」You (＿) (＿) swim here.
+        a: must not
+      - q: 「来週は手伝えるだろう。」I will (＿) (＿) (＿) help you next week.
+        a: be able to
+    examples:
+    - id: e0401
+      en: Mio *can* swim 500 meters without a break.
+      ja: ミオは休まずに500メートル泳げる。
+      gloss: [[without a break, 休まずに]]
+    - id: e0402
+      en: You *may* use this dictionary during the test.
+      ja: テストの間、この辞書を使ってもよい。
+    - id: e0403
+      en: Students *must* wear a helmet [when they ride a bike to school].
+      ja: 生徒は自転車で通学するとき、ヘルメットをかぶらなければならない。
+    - id: e0404
+      en: You *should* see a doctor about that cough.
+      ja: その咳のことで、医者に診てもらったほうがよい。
+      gloss: [[cough, 咳]]
+    - id: e0405
+      en: You *must not* take photos inside the museum.
+      ja: 美術館の中で写真を撮ってはいけない。
+    - id: e0406
+      en: We *don't have to* bring lunch on Friday.
+      ja: 金曜日は、私たちは昼食を持ってこなくてよい。
+    - id: e0407
+      en: My little sister *will be able to* read this book next year.
+      ja: 妹は来年には、この本が読めるようになるだろう。
+    - id: e0408
+      en: The road was icy, but the bus *was able to* reach the station on time.
+      ja: 道は凍っていたが、バスは時間どおりに駅に着くことができた。
+      gloss: [[icy, 凍った], [on time, 時間どおりに]]
+    worked:
+    - q: It's Sunday tomorrow, so you (＿) get up early.
+      choices: [must, must not, don't have to, can't]
+      steps: [4択の共通手順（@s015）で考える。空所は V の一部（助動詞の位置）で、後ろの get は原形。4つとも後ろに原形をとれるので、形では決まらない。, '意味の手がかりを探す。前半の It''s Sunday tomorrow, so（明日は日曜日だから）から、早起きは「しなくてよい」と分かる。', 禁止の must not と不要の don't have to を比べ、不要の don't have to を選ぶ。]
+      ans: '3'
+      point: must not は「〜してはいけない」。日曜日に早起きを禁じる理由は文にない。否定の形を選ぶときは、日本語に訳してから空所に入れて確かめる。
+    - q: 来年の春には、新しい体育館が使えるようになるだろう。<br>We (＿) (＿) (＿) (＿) use the new gym next spring.
+      steps: [「〜だろう」は未来のことなので、will が要る。, 「〜できる」の can を will の後ろに並べて will can とはできない。助動詞は2つ続けて置けない。, can を be able to に言いかえ、will の後ろに原形の be を置いて will be able to とする。]
+      ans: will be able to
+      point: 「できるようになるだろう」は will be able to。完了形なら have been able to。助動詞の後ろに助動詞を置きたくなったら、be able to・have to の形に言いかえる。
+    summary: ['助動詞の後ろの動詞は、主語が何でも{{原形}}にする。', 'must not は{{禁止}}（〜してはいけない）、don''t have to は{{不要}}（〜しなくてよい）。', '未来の「〜できるだろう」は will can ではなく{{will be able to}}。must の過去は{{had to}}。', '過去の1回の場面で「実際に〜できた」は、could より{{was able to}}を使う。']
+  - id: s042
+    title: 推量の強さ
+    aim: must・may・can't が表す推量の強さを比べ、義務の must と推量の must を文脈で見分けられるようになる。
+    body:
+    - h: 助動詞のもう1つの意味「推量」
+    - p: 前の節（@s041）で見た許可・義務のほかに、助動詞には「どのくらい確かか」を表す働きがあります。確かな証拠がないまま、手がかりから「〜だろう」と考えることを<<推量>>といいます。must は「〜に違いない」、may は「〜かもしれない」、can't は「〜のはずがない」を表します（@e0409〜@e0411）。どの文にも、推量の手がかりになる文が前か後ろに付いています。
+      notes:
+      - kind: 用語
+        term: 推量
+        yomi: すいりょう
+        text: 手がかりをもとに、「〜に違いない」「〜かもしれない」と確かさの程度をつけて考えること。本書では助動詞のこの使い方を「推量の must」のように呼ぶ。
+    - ex: [e0409, e0410, e0411]
+    - p: 確かさの強い順に並べると、次の表のようになります。might と could は may より弱い「ひょっとすると〜かもしれない」です。might は may の過去形ですが、推量では今のことにも使います。
+      notes:
+      - kind: 注意
+        text: may not は「〜ではないかもしれない」（推量）と「〜してはいけない」（許可の否定）の2つの意味がある。どちらかは文脈で決める。
+    - table:
+        head: [確かさ, 助動詞, 意味]
+        rows: [[強い, must, '{{〜に違いない}}'], [↓, should, （当然）〜のはずだ], [↓, may, '{{〜かもしれない}}'], [弱い, might／could, ひょっとすると〜かもしれない], [打ち消し, can't／cannot, '{{〜のはずがない}}']]
+    - p: 推量の must の反対は、can't（cannot）です。「〜のはずがない」と強く打ち消すときに使います。アメリカ英語では must not を「〜ではないに違いない」の意味で使うこともありますが、must not の基本は禁止です。入試で「must（違いない）の反対」を問われたら can't を選びます。
+    - h: 義務の must か、推量の must か
+    - p: must には「〜しなければならない」と「〜に違いない」の2つの意味があり、形は同じです。目安になるのは後ろの動詞で、be や know のような状態動詞（@s022）なら推量（@e0412）、動作動詞なら義務になることが多くなります（@e0413）。ただし You must be quiet.（静かにしなさい）のように be でも義務になる文があるので、最後は次の順で確かめます。
+    - ex: [e0412, e0413]
+    - label: 手順
+      steps: [must の後ろの動詞は、状態動詞（be・know など）か、動作動詞か。, 前後に「〜だから」にあたる根拠の文や語句があるか。, 主語が自分の意志でできることか。できることなら義務、できないことなら推量。]
+    - check:
+      - q: He has eaten nothing since morning. He (＿) be hungry.（〜に違いない）
+        a: must
+      - q: That (＿) be true. I saw her at school an hour ago.（〜のはずがない）
+        a: can't／cannot
+    examples:
+    - id: e0409
+      en: The lights are on in Mr. Hara's room. He *must* be there.
+      ja: 原先生の部屋の明かりがついている。先生はそこにいるに違いない。
+    - id: e0410
+      en: Take an umbrella. It *may* rain this afternoon.
+      ja: 傘を持っていきなさい。午後は雨が降るかもしれない。
+    - id: e0411
+      en: That *can't* be Chris. He's in Australia this week.
+      ja: あれがクリスのはずがない。彼は今週オーストラリアにいる。
+    - id: e0412
+      en: Ms. Young has lived in Kyoto for twenty years. She *must* know a lot of good restaurants.
+      ja: ヤング先生は京都に20年住んでいる。おいしい店をたくさん知っているに違いない。
+    - id: e0413
+      en: You *must* fill in this form [before you see the doctor].
+      ja: 診察を受ける前に、この用紙に記入しなければならない。
+      gloss: [[fill in, （用紙に）記入する]]
+    worked:
+    - q: Dan took a plane to Osaka an hour ago. That man by the door (＿) be him.
+      choices: [must, can't, should, has to]
+      steps: [空所は V の一部で、後ろは原形の be。4つとも置ける形なので、意味の手がかりを探す。, 前の文から、ダンは1時間前に飛行機で大阪へ向かった。ドアのそばにいるはずはない。, 「〜のはずがない」と強く打ち消す can't を選ぶ。]
+      ans: '2'
+      point: must（違いない）の反対は can't（はずがない）。has to be も「〜に違いない」の意味で使えるので、must と同じく前の文と合わない。
+    - q: (1) You must be quiet in the library.<br>(2) You must be tired after that long walk.
+      steps: [どちらも must の後ろは be なので、動詞だけでは決まらない。, (1) の「静かにする」は自分の意志でできることで、in the library は決まりのある場所。義務の must と読む。, (2) の after that long walk は「疲れている」と考える根拠。疲れることは自分の意志で決められないので、推量の must と読む。]
+      ans: (1) 図書館では静かにしなければならない。(2) あんなに長く歩いたのだから、疲れているに違いない。
+      point: must＋be は推量のことが多いが、(1) のように「〜の状態でいなさい」という義務にもなる。根拠の語句があるか、主語が自分の意志でできることかを確かめる。
+    summary: ['推量の強さ：must（{{〜に違いない}}）、may（{{〜かもしれない}}）。might・could は may より{{弱い}}。', '「〜のはずがない」と強く打ち消すのは{{can''t}}（cannot）。', '義務か推量かは、前後に{{根拠}}があるか、主語が自分の意志でできることかで決める。']
+  - id: s043
+    title: 助動詞＋have done
+    aim: must have done・may have done・can't have done で過去のことを推量し、should have done で後悔や非難を表せるようになる。
+    body:
+    - h: 過去のことを推量するには have done を使う
+    - p: 推量の must（@s042）は「今〜に違いない」です。では「昨夜〜したに違いない」と、過去のことを推量するにはどうするでしょうか。must had done とはできません。助動詞の後ろは原形だからです。そこで原形の have を使い、「must＋have＋過去分詞」の形にします（@e0414）。推量しているのは今で、推量される出来事はそれより前です。単元3の言い方では、基準の時（@s031）は「今」で、出来事は基準の時より前にあたります。
+    - ex: [e0414, e0415, e0416]
+    - p: may と can't も同じように have done と組み合わせます（@e0415・@e0416）。確かさの順は、今のことの推量（@s042）と変わりません。
+    - table:
+        head: [形, 意味]
+        rows: [[must have done, '{{〜したに違いない}}'], [may (might) have done, '{{〜したかもしれない}}'], [can't (cannot) have done, '{{〜したはずがない}}'], [should have done, '{{〜すべきだったのに}}（下の項）']]
+    - h: should have done は「すべきだったのに」
+    - p: should have done は、多くの場合「〜すべきだったのに（実際にはしなかった）」という意味になります（@e0417）。自分のことなら後悔、相手のことなら非難の気持ちが入ります。否定の shouldn't have done は「〜すべきではなかったのに（実際にはしてしまった）」です（@e0418）。ought to have done も、should have done と同じ意味で使えます。
+      notes:
+      - kind: 注意
+        text: should have done には「（もう）〜したはずだ」という推量の意味もある。The package should have arrived by now.（荷物はもう届いているはずだ）。どちらの意味かは文脈で決める。
+    - ex: [e0417, e0418]
+    - label: 手順
+      steps: ['時を表す語句（last night, yesterday など）で、今のことか過去のことかを確かめる。', 過去のことなら「助動詞＋have done」の形にする。, 推量（違いない・かもしれない・はずがない）か、後悔・非難（すべきだったのに）かを、事実がどうだったかで決める。]
+    - check:
+      - q: 「彼は電車に乗り遅れたに違いない。」He (＿) (＿) missed the train.
+        a: must have
+      - q: 「もっと早く家を出るべきだった。」I (＿) (＿) left home earlier.
+        a: should have
+      - q: 「彼女がうそをついたはずがない。」She (＿) (＿) told a lie.
+        a: can't have／cannot have
+    examples:
+    - id: e0414
+      en: Dan's eyes are red this morning. He *must have stayed* up late playing games.
+      ja: ダンは今朝、目が赤い。ゲームをして夜ふかししたに違いない。
+      gloss: [[stay up late, 夜ふかしする]]
+    - id: e0415
+      en: Mr. Hara *can't have forgotten* the meeting. He wrote it on the board himself.
+      ja: 原先生が会議を忘れたはずがない。自分で黒板に書いたのだから。
+    - id: e0416
+      en: I can't find my bike key. I *may have left* it in the classroom.
+      ja: 自転車の鍵が見つからない。教室に置いてきたかもしれない。
+    - id: e0417
+      en: I *should have charged* my phone last night. Now the battery is almost dead.
+      ja: 昨夜スマートフォンを充電しておくべきだった。今、電池がほとんど切れている。
+      gloss: [[charge, 充電する], [dead, （電池が）切れた]]
+    - id: e0418
+      en: You *shouldn't have told* Yuki about the surprise party. Now she knows everything.
+      ja: ユキにサプライズパーティーのことを話すべきではなかったのに。もう全部知ってしまっている。
+    worked:
+    - q: Mio's shoes are covered with mud. She (＿) through the park in the rain this morning.
+      choices: [must walk, must have walked, should walk, can't have walked]
+      steps: [空所は V。this morning があり、泥だらけの靴から「今朝〜した」と過去のことを推量している。, 過去のことの推量なので、「助動詞＋have done」の形を選ぶ。①③は今のことになるので合わない。, 泥だらけの靴は公園を歩いた根拠なので、「〜したに違いない」の must have walked を選ぶ。④の can't have walked は根拠と逆になる。]
+      ans: '2'
+      point: 推量しているのは今、出来事は過去。must had walked のような形はない。
+    - q: I got a bad score on the math test. I (＿) harder, but I played games every night instead.
+      choices: [must have studied, should have studied, may have studied, shouldn't have studied]
+      steps: [空所は V。選択肢はすべて「助動詞＋have done」なので、過去のことを言う文だと分かる。, 後ろの but I played games every night instead から、実際には勉強しなかったことが分かる。, 「（実際はしなかったが）〜すべきだった」という後悔は should have studied。①③は「勉強した」と推量する形で、事実と合わない。④は意味が逆になる。]
+      ans: '2'
+      point: should have done は「すべきだったのに、しなかった」。推量の must have done と形が似ているので、事実がどうだったかを先に確かめる。
+    summary: ['過去のことの推量：must have done（{{〜したに違いない}}）、may have done（{{〜したかもしれない}}）、can''t have done（{{〜したはずがない}}）。', 'should have done は{{〜すべきだったのに}}（実際はしなかった）、shouldn''t have done は{{〜すべきではなかったのに}}（してしまった）。', '助動詞の後ろは原形なので、過去のことは「助動詞＋{{have}}＋過去分詞」で表す。']
+  - id: s044
+    title: would・used to・had better など
+    aim: would・used to・had better・ought to・need と、cannot help doing・may well・might as well の意味と形を、否定の位置まで正しく使えるようになる。
+    body:
+    - h: 過去の習慣を表す would と used to
+    - p: 「昔はよく〜したものだ」と過去の習慣を言うとき、would と used to が使えます（@e0419・@e0420）。違いは2つあります。1つ目に、used to は「今はもうそうではない」ことをはっきり示します。2つ目に、used to は be・live・have（持っている）などの状態にも使えますが、would は繰り返す動作にしか使いません（@e0421）。「以前は駅前に本屋があった」を would で言うことはできません。
+      notes:
+      - kind: 注意
+        text: used to の否定は didn't use to do、疑問文は Did you use to do? の形がふつう。used not to do はかたい言い方。
+    - ex: [e0419, e0420, e0421]
+    - h: used to do と be used to doing
+    - p: be used to は used to と形が似ていますが、別の表現です。be used to の to は前置詞なので、後ろには名詞か動名詞（doing）が来て「〜に慣れている」という意味になります（@e0422）。get used to doing は「〜に慣れる」です。前置詞の to の後ろに doing を置く形は、単元7（@s074）でもう一度扱います。
+      notes:
+      - kind: 注意
+        text: be used to do は use（使う）の受動態で「〜するのに使われる」。This knife is used to cut bread.（このナイフはパンを切るのに使われる）。単元5で学ぶ形。
+    - ex: [e0422]
+    - table:
+        head: [形, to の働き, to の後ろ, 意味]
+        rows: [[used to do, 助動詞の一部, '{{原形}}', 以前は〜した（今は違う）], [be used to doing, 前置詞, '{{名詞・doing}}', 〜に慣れている], [get used to doing, 前置詞, 名詞・doing, 〜に慣れる]]
+    - h: had better・ought to・need
+    - p: had better do は「〜したほうがいい（さもないと困ったことになる）」という強い忠告です。目上の人に使うと命令のように聞こえるので、そうした相手には should を使います。had better は2語で1つの助動詞のように働くので、否定の not はかたまりの後ろに置き、had better not do とします（@e0423）。had not better とは言いません。
+      notes:
+      - kind: 注意
+        text: 話し言葉では You'd better のように had を 'd と短くすることが多い。
+    - p: ought to do は should とほぼ同じ「〜すべきだ」で、否定は ought not to do です（@e0424）。need は否定文で助動詞として使い、need not do（〜する必要はない）となります（@e0425）。この need の後ろは原形で、to は付けません。肯定文では、普通の動詞として need to do を使います。
+    - ex: [e0423, e0424, e0425]
+    - check:
+      - q: 「あの犬にさわらないほうがいい。」You (＿) (＿) (＿) touch that dog.
+        a: had better not
+      - q: I'm used to (＿) up early.（get を適切な形に）
+        a: getting
+    - h: cannot help doing・may well・might as well
+    - p: 助動詞を使った決まった言い方も、4択によく出ます。cannot help doing は「〜せずにはいられない」です（@e0426）。この help は「避ける」の意味で、「〜することを避けられない」と考えます。may well do には2つの意味があります。1つは「たぶん〜だろう」という may より強い推量（@e0427）、もう1つは「〜するのももっともだ」です（@e0428）。前に理由が書いてあれば「もっともだ」と訳すと、文の流れに合います。
+      notes:
+      - kind: 注意
+        text: cannot help but do も「〜せずにはいられない」の意味で使われる（主にアメリカ英語）。
+    - p: might as well do は「（気は進まないが）〜するほうがましだ・〜してもいい」で、ほかによい方法がないときに使います（@e0429）。may as well do も同じような意味で使われます。
+    - ex: [e0426, e0427, e0428, e0429]
+    examples:
+    - id: e0419
+      en: '[When I was in elementary school], my grandfather *would* take me fishing on Sundays.'
+      ja: 小学生のころ、祖父は日曜日によく私を釣りに連れていってくれた。
+    - id: e0420
+      en: Chris *used to* play soccer, but now he plays basketball.
+      ja: クリスは以前はサッカーをしていたが、今はバスケットボールをしている。
+    - id: e0421
+      en: There *used to* be a bookstore in front of the station.
+      ja: 以前は駅前に本屋があった。
+    - id: e0422
+      en: Ms. Young came to Japan three years ago. Now she *is used to* driving on the left.
+      ja: ヤング先生は3年前に来日した。今では左側通行の運転に慣れている。
+      gloss: [[drive on the left, 道路の左側を走る]]
+    - id: e0423
+      en: You *had better not* swim in the river today. The water is very high after the heavy rain.
+      ja: 今日は川で泳がないほうがいい。大雨のあとで水かさが増えている。
+    - id: e0424
+      en: We *ought to* leave now. The last bus goes at 9:40.
+      ja: もう出発すべきだ。最終バスは9時40分に出る。
+    - id: e0425
+      en: You *need not* pay for the drinks. They're free.
+      ja: 飲み物の代金は払わなくてよい。無料だ。
+    - id: e0426
+      en: I *couldn't help* laughing [when the cat jumped into the box].
+      ja: 猫が箱に飛びこんだとき、私は笑わずにはいられなかった。
+    - id: e0427
+      en: It *may well* snow tonight. Take a warm coat.
+      ja: 今夜はたぶん雪になるだろう。暖かいコートを持っていきなさい。
+    - id: e0428
+      en: Your sister waited for you for two hours in the cold. She *may well* be angry with you.
+      ja: お姉さんは寒い中で2時間も君を待った。君に怒るのももっともだ。
+    - id: e0429
+      en: The next train won't come for an hour. We *might as well* walk home.
+      ja: 次の電車は1時間来ない。歩いて帰るほうがましだ。
+    worked:
+    - q: There (＿) be a big tree in this park, but it was cut down last year.
+      choices: [used to, would, is used to, was used to]
+      steps: [空所は V の一部で、後ろは原形の be。but it was cut down last year から、「以前はあったが今はない」という過去の状態の話だと分かる。, 過去の習慣を表すのは used to と would だが、would は be のような状態には使わない。, 後ろが原形で、以前の状態を表す used to を選ぶ。③④の be used to は「〜に慣れている」で、to の後ろは名詞か doing になる。]
+      ans: '1'
+      point: would は過去の動作の繰り返しだけ。状態（be, live, have）なら used to を使う。
+    - q: It's __getting__① dark. You __had not better__② ride your bike __without__③ a light __on__④ this road.
+      steps: [下線部を1つずつ確かめる。①は It's getting dark（暗くなってきた）の進行形で正しい。, ②は had better の否定。not は had better のかたまりの後ろに置き、had better not ride とするので、ここが誤り。, ③④も確かめる。without a light（ライトなしで）、on this road（この道で）はどちらも正しい。]
+      ans: 2（正しくは had better not）
+      point: had better は2語で1つの助動詞のように働く。not はかたまりの後ろに置く。
+    summary: ['過去の状態（be・live など）を表せるのは{{used to}}で、would は過去の{{動作}}の繰り返しだけ。', 'be used to の to は{{前置詞}}なので、後ろは名詞か{{doing}}。', 'had better の否定は{{had better not}} do。need の否定は{{need not}} do（〜する必要はない）。', 'cannot help {{doing}}（〜せずにはいられない）、may well do（{{たぶん〜だろう}}／〜するのももっともだ）、might as well do（{{〜するほうがましだ}}）。']
+problems:
+- id: q04001
+  sec: s041
+  set: 前提
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: My brother can (＿) the guitar well.
+  choices: [plays, play, playing, played]
+  ans: '2'
+  why: can の後ろの動詞は、主語が3人称単数でも原形にする。
+  trap: 主語の My brother が3人称単数なので①plays を選ぶ誤り。s を付けるのは助動詞のない文の動詞だけ。
+- id: q04002
+  sec: s041
+  set: 前提
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: We (＿) to wait for the next train.
+  choices: [must, have, can, should]
+  ans: '2'
+  why: 空所の後ろに to wait がある。to do を後ろに置けるのは have（have to「〜しなければならない」）だけ。
+  trap: 「待たなければならない」の意味から①must を選ぶ誤り。must の後ろは原形で、to は付かない。
+- id: q04003
+  sec: s041
+  set: 前提
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 下の文を否定文に書きかえるとき、（　）に入る1語を書きなさい。
+  q: My sister can ride a horse.<br>→ My sister (＿) ride a horse.
+  ans: cannot
+  alt: [can't]
+  why: can の否定は can の後ろに not を付けた cannot（短くした形は can't）。ride は原形のまま。
+  trap: doesn't を入れて My sister doesn't can ride とする誤り。助動詞の文の否定に do・does は使わない。
+- id: q04004
+  sec: s041
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Visitors (＿) touch the paintings. Please look at them from behind the rope.
+  choices: [must not, don't have to, may, can]
+  ans: '1'
+  why: 後ろの文で「ロープの後ろから見てください」と言っているので、絵にさわることは禁止。禁止は must not。
+  trap: ②don't have to を選ぶ誤り。don't have to は「さわらなくてよい」という不要で、さわることを禁じてはいない。
+- id: q04005
+  sec: s041
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 2つの文がほぼ同じ意味になるように、（　）に適切な語を1語ずつ入れなさい。
+  q: My brother must clean his room today.<br>＝ My brother (＿) (＿) clean his room today.
+  ans: has to
+  why: must（〜しなければならない）は have to で言いかえられる。主語が3人称単数なので has to にする。
+  trap: have to のまま書く誤り。have to の have は普通の動詞と同じく、主語に合わせて has になる。
+- id: q04006
+  sec: s041
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Yuki (＿) speak three languages when she was ten.
+  choices: [can, could, is able to, must]
+  ans: '2'
+  why: when she was ten（10歳のとき）から過去の話。過去の「〜する力があった」は could。
+  trap: ①can を選ぶ誤り。時を表す when she was ten を見落とすと、現在形を選んでしまう。
+- id: q04007
+  sec: s041
+  set: 節末
+  lv: 1
+  kind: 和訳
+  min: 3
+  inst: 次の英文を日本語に訳しなさい。
+  q: You don't have to answer all the questions on this sheet.
+  ans: この用紙の質問に全部答える必要はない。
+  alt: [この用紙の質問すべてに答えなくてもよい。]
+  why: don't have to は「〜する必要はない・〜しなくてよい」。not と all が組み合わさり「全部は答えなくてよい」の意味になる。採点の目安：「答える必要はない」「答えなくてよい」が書けていれば正解。
+  trap: 「答えてはいけない」と禁止に訳す誤り。禁止は must not で、don't have to は不要を表す。
+- id: q04008
+  sec: s041
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: Last week I __must__① stay home __because__② I __had__③ a __fever__④.
+  ans: '1'
+  why: must には過去形がない。「〜しなければならなかった」は had to を使い、had to stay とする。
+  trap: must をそのまま過去の文に使えると思い込む誤り。Last week があるので過去の形が要る。
+- id: q04009
+  sec: s041
+  set: 節末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: その子はもうすぐ自分で靴ひもを結べるようになるだろう。<br>The child ( able / be / tie / to / will ) his shoelaces by himself soon.
+  words: [able, be, tie, to, will]
+  ans: The child will be able to tie his shoelaces by himself soon.
+  why: 「〜できるようになるだろう」は will be able to do。will の後ろに原形の be を置く。
+  trap: will can を使いたくなるが、can が与えられていない。助動詞を2つ並べられないので be able to を使う。
+- id: q04010
+  sec: s041
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: I haven't (＿) sleep well since I moved to this noisy street.
+  choices: [could, been able to, can, be able to]
+  ans: '2'
+  why: haven't の後ろは過去分詞。can を現在完了で使うには been able to とする（have been able to）。
+  trap: 「できない」から③can や①could を選ぶ誤り。現在完了の have の後ろに助動詞は置けない。
+- id: q04011
+  sec: s042
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Look at the dark clouds. It (＿) rain soon.
+  choices: [may, can't, must not, doesn't have to]
+  ans: '1'
+  why: 黒い雲は雨の手がかり。「雨が降るかもしれない」という推量の may が合う。
+  trap: ②can't を選ぶ誤り。can't は「降るはずがない」で、黒い雲という手がかりと逆になる。
+- id: q04012
+  sec: s042
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Yuki has been studying for ten hours. She (＿) be very tired.
+  choices: [must, can't, may not, doesn't have to]
+  ans: '1'
+  why: 10時間勉強しているのは「とても疲れている」と考える根拠。「〜に違いない」の推量の must。
+  trap: must を「〜しなければならない」とだけ覚えていると、疲れることを義務にする文に見えて外してしまう。be の前の must は推量のことが多い。
+- id: q04013
+  sec: s042
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 2つの文がほぼ同じ意味になるように、（　）に適切な語を1語ずつ入れなさい。
+  q: I'm sure that he is at home.<br>＝ He (＿) be at home.
+  ans: must
+  why: I'm sure that ～（きっと〜だ）は「〜に違いない」の推量の must で言いかえられる。
+  trap: may を入れる誤り。may は「かもしれない」で、I'm sure の強い確信には弱すぎる。
+- id: q04014
+  sec: s042
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  q: It is impossible that this story is true.<br>＝ This story (＿) be true.
+  ans: can't
+  alt: [cannot]
+  why: It is impossible that ～（〜ということはありえない）は「〜のはずがない」の can't で言いかえられる。
+  trap: must not を入れる誤り。must not の基本は禁止で、「〜のはずがない」の言いかえには can't を使う。
+- id: q04015
+  sec: s042
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: __Mio's__① father __has been__② working __since__③ six this morning, so he __can't__④ be tired.
+  ans: '4'
+  why: 朝6時から働き続けていることは「疲れているに違いない」の根拠。can't（はずがない）ではなく must にする。
+  trap: 下線部の形だけを見て、どれも文法上は正しいと判断する誤り。so の前後の意味のつながりから、推量の助動詞が逆だと分かる。
+- id: q04016
+  sec: s042
+  set: 節末
+  lv: 2
+  kind: 和訳
+  min: 3
+  inst: 次の英文を日本語に訳しなさい。
+  q: Chris may not come to the party tonight. He has a bad cold.
+  ans: クリスは今夜のパーティーに来ないかもしれない。ひどい風邪をひいているのだ。
+  alt: [クリスは今夜パーティーに来ないかもしれない。ひどい風邪をひいているから。]
+  why: may not は「〜しないかもしれない」（推量）と「〜してはいけない」（許可の否定）の2つの意味がある。後ろの文の「ひどい風邪」が来ない理由なので推量。採点の目安：「来ないかもしれない」と訳せていれば正解。
+  trap: 「来てはいけない」と許可の否定に訳す誤り。後ろの文が根拠になっていることを見て、推量と判断する。
+- id: q04017
+  sec: s042
+  set: 節末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: あの背の高い男性はダンのお兄さんに違いない。よく似ている。<br>That tall man ( be / brother / Dan's / must / older ). They look very similar.
+  words: [be, brother, Dan's, must, older]
+  ans: That tall man must be Dan's older brother. They look very similar.
+  why: 「〜に違いない」は must＋原形。must be の後ろに補語の Dan's older brother を置く。
+  trap: must を文の最後に置いたり、Dan's を brother の後ろに置いたりする誤り。助動詞は動詞の直前に置く。
+- id: q04018
+  sec: s043
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: The window is broken. Someone (＿) a ball through it.
+  choices: [must have thrown, must throw, should throw, can't throw]
+  ans: '1'
+  why: 割れた窓は「誰かがボールを投げた」と考える根拠。過去のことの推量は must have done。
+  trap: ②must throw を選ぶ誤り。窓はもう割れているので、投げたのは過去。今のことを言う形では合わない。
+- id: q04019
+  sec: s043
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 2つの文がほぼ同じ意味になるように、（　）に適切な語を1語ずつ入れなさい。
+  q: I'm sure that she forgot my birthday.<br>＝ She (＿) (＿) (＿) my birthday.
+  ans: must have forgotten
+  why: 過去のこと（forgot）についての「きっと〜した」は must have done。forget の過去分詞は forgotten。
+  trap: must have forgot と過去形を入れる誤り。have の後ろは過去分詞。
+- id: q04020
+  sec: s043
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  q: It is impossible that he wrote this letter.<br>＝ He (＿) (＿) (＿) this letter.
+  ans: can't have written
+  alt: [cannot have written]
+  why: 過去のこと（wrote）について「〜したはずがない」は can't have done。write の過去分詞は written。
+  trap: can't wrote のように助動詞の後ろに過去形を置く誤り。過去のことは have＋過去分詞で表す。
+- id: q04021
+  sec: s043
+  set: 節末
+  lv: 1
+  kind: 和訳
+  min: 3
+  inst: 次の英文を日本語に訳しなさい。
+  q: We should have bought the tickets earlier.
+  ans: 私たちはもっと早くチケットを買っておくべきだった。
+  alt: [もっと早くチケットを買っておけばよかった。]
+  why: should have done は「〜すべきだったのに（実際はしなかった）」。採点の目安：「買うべきだった」「買っておけばよかった」のように、しなかったことへの後悔が出ていれば正解。
+  trap: 「早くチケットを買ったはずだ」と推量に訳す誤り。we（自分たち）のことを推量する場面ではないので、後悔の意味になる。
+- id: q04022
+  sec: s043
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: Dan __didn't come__① to practice yesterday. He __must__② have __forgot__③ __about__④ it.
+  ans: '3'
+  why: must have の後ろは過去分詞。forgot（過去形）を forgotten にする。
+  trap: yesterday につられて過去形の forgot を正しいと思う誤り。過去のことは have＋過去分詞で表すので、過去形は使わない。
+- id: q04023
+  sec: s043
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: You (＿) so much cake last night. That's why you have a stomachache now.
+  choices: [shouldn't have eaten, shouldn't eat, can't have eaten, may eat]
+  ans: '1'
+  why: 昨夜たくさん食べた結果、今おなかが痛い。「食べるべきではなかったのに（食べてしまった）」は shouldn't have done。
+  trap: ②shouldn't eat を選ぶ誤り。last night があるので過去のこと。③can't have eaten は「食べたはずがない」で、腹痛の理由と合わない。
+- id: q04024
+  sec: s043
+  set: 節末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 彼女は電車に傘を置き忘れたのかもしれない。<br>She ( have / her / left / may / umbrella ) on the train.
+  words: [have, her, left, may, umbrella]
+  ans: She may have left her umbrella on the train.
+  why: 過去のことについて「〜したかもしれない」は may have done。left の目的語 her umbrella を後ろに置く。
+  trap: She have may left のように have を助動詞の前に置く誤り。助動詞が先、その後ろに have＋過去分詞を置く。
+- id: q04025
+  sec: s044
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: My father (＿) jog every morning when he was young.
+  choices: [would, used, is used to, was used]
+  ans: '1'
+  why: when he was young から過去の話で、jog（走る）は繰り返す動作。過去の習慣を表す would が合う。
+  trap: ②used を選ぶ誤り。過去の習慣は used to do の形で、to がなければ使えない。
+- id: q04026
+  sec: s044
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: You look tired. You (＿) go to bed early tonight.
+  choices: [had better, had better not, would, used to]
+  ans: '1'
+  why: 疲れて見える相手への忠告なので「早く寝たほうがいい」の had better。
+  trap: ②had better not を選ぶと「早く寝ないほうがいい」になり、前の文と合わない。
+- id: q04027
+  sec: s044
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: （　）内の語を適切な形にして、空所に入れなさい。
+  q: I couldn't help (＿) when I read her funny letter.（smile）
+  ans: smiling
+  why: cannot help doing（〜せずにはいられない）の help の後ろは doing の形。
+  trap: can の後ろだからと原形の smile を入れる誤り。原形になるのは help のほうで、help の後ろは doing。
+- id: q04028
+  sec: s044
+  set: 節末
+  lv: 1
+  kind: 英作
+  min: 3
+  inst: 日本語の意味になるように、下線部を英語にしなさい。
+  q: この町には以前、映画館が2つあった。<br>＿＿＿＿ in this town.
+  ans: There used to be two movie theaters in this town.
+  alt: [There used to be two cinemas in this town.]
+  why: 「以前は〜があった（今はない）」は There used to be。採点の目安：used to be を使い、two movie theaters（cinemas）が複数形になっていれば正解。would be は状態に使えないので不可。
+  trap: There would be two movie theaters とする誤り。would は過去の動作の繰り返しにしか使えない。
+- id: q04029
+  sec: s044
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Chris has lived in Sapporo for five years, so he is used to (＿) in the snow.
+  choices: [drive, driving, drove, be driven]
+  ans: '2'
+  why: be used to（〜に慣れている）の to は前置詞なので、後ろは名詞か動名詞。driving を選ぶ。
+  trap: to を不定詞の to と思い、①drive を選ぶ誤り。used to do（以前は〜した）と形が似ているので、前の be を見落とさない。
+- id: q04030
+  sec: s044
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: We __need not to bring__① our textbooks __tomorrow__② because __there__③ __will be__④ a sports day.
+  ans: '1'
+  why: 助動詞の need の後ろは原形で、to は付けない。need not bring とする（普通の動詞なら don't need to bring）。
+  trap: need to do（肯定文）の形と混ぜて need not to としてしまう誤り。助動詞の need と普通の動詞の need を区別する。
+- id: q04031
+  sec: s044
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: The last bus has already left. We (＿) as well take a taxi.
+  choices: [might, must, should, would]
+  ans: '1'
+  why: 最終バスが出てしまい、ほかによい方法がない。「〜するほうがましだ」は might as well do。
+  trap: 意味から②must や③should を選ぶ誤り。後ろの as well と組み合わせて決まった言い方を作れるのは might（may）だけ。
+- id: q04032
+  sec: s041
+  set: 確認テスト
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: It's a free concert, so you (＿) buy a ticket.
+  choices: [must not, don't have to, had better, should]
+  ans: '2'
+  why: 無料のコンサートなので、チケットは「買わなくてよい」。不要は don't have to。
+  trap: ①must not を選ぶ誤り。must not は「買ってはいけない」という禁止で、無料という理由とつながらない。
+- id: q04033
+  sec: s041
+  set: 確認テスト
+  lv: 2
+  kind: 補充
+  min: 1
+  inst: 日本語の意味になるように、（　）に適切な語を1語ずつ入れなさい。
+  q: 彼女は手をけがしてから、ずっとピアノが弾けていない。<br>She hasn't (＿) (＿) (＿) play the piano since she hurt her hand.
+  ans: been able to
+  why: 現在完了の hasn't の後ろは過去分詞。can は現在完了にできないので be able to を使い、been able to とする。
+  trap: hasn't could のように助動詞を入れようとする誤り。have の後ろに助動詞は置けない。
+- id: q04034
+  sec: s042
+  set: 確認テスト
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Mr. Hara is in the hospital. He (＿) be at school today.
+  choices: [can't, must, has to, should]
+  ans: '1'
+  why: 入院している人が学校にいることはありえない。「〜のはずがない」は can't。
+  trap: ②must を選ぶ誤り。must は「いるに違いない」で、入院という手がかりと逆になる。
+- id: q04035
+  sec: s042
+  set: 確認テスト
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: It __is__① very cold today. It __must__② __snowing__③ in the mountains __now__④.
+  ans: '3'
+  why: 助動詞の後ろは原形。進行中のことを推量するときは must be snowing とする。
+  trap: 「今降っている」から -ing 形だけを置く誤り。進行形にするには be が要り、助動詞の後ろなので原形の be を使う。
+- id: q04036
+  sec: s043
+  set: 確認テスト
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 2つの文がほぼ同じ意味になるように、（　）に適切な語を1語ずつ入れなさい。
+  q: Perhaps she took the wrong train.<br>＝ She (＿) (＿) (＿) the wrong train.
+  ans: may have taken
+  alt: [might have taken]
+  why: Perhaps（たぶん、もしかすると）＋過去形は、過去のことの「〜したかもしれない」の may have done で言いかえられる。take の過去分詞は taken。
+  trap: may have took と過去形を入れる誤り。have の後ろは過去分詞。
+- id: q04037
+  sec: s043
+  set: 確認テスト
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 彼にあんなことを言うべきではなかった。<br>I ( have / him / said / shouldn't / that / to ).
+  words: [have, him, said, shouldn't, that, to]
+  ans: I shouldn't have said that to him.
+  why: 「〜すべきではなかったのに（してしまった）」は shouldn't have done。said の目的語 that の後ろに to him を置く。
+  trap: I shouldn't said that to him のように have を落とす誤り。過去のことは助動詞の後ろに have＋過去分詞を置く。
+- id: q04038
+  sec: s044
+  set: 確認テスト
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Yuki (＿) to live in Kobe, but she moved to Tokyo last year.
+  choices: [used, would, was used, uses]
+  ans: '1'
+  why: 「以前は神戸に住んでいた（今は違う）」という過去の状態。used to do を使う。
+  trap: ②would を選ぶ誤り。would は live のような状態には使わず、後ろに to も付かない。
+- id: q04039
+  sec: s044
+  set: 確認テスト
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 曇っていて風も強い。今晩はたぶん雨になるだろう。<br>It's cloudy and windy. It ( may / rain / this / well / evening ).
+  words: [may, rain, this, well, evening]
+  ans: It's cloudy and windy. It may well rain this evening.
+  why: may well do は「たぶん〜だろう」という may より強い推量。may well の後ろに原形の rain を置く。
+  trap: It may rain well this evening と並べる誤り。well は may と組んで may well のかたまりになる。
+- id: q04040
+  sec: s034
+  set: 確認テスト
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: When (＿) your bike key?
+  choices: [have you lost, did you lose, have you been losing, had you lost]
+  ans: '2'
+  why: When（いつ）で過去の時点をたずねる疑問文は、現在完了ではなく過去形にする。
+  trap: 鍵がまだ見つからないという「今」の状況から、①have you lost を選ぶ誤り。When ～? は現在完了と一緒に使わない。
+- id: q04041
+  sec: s012
+  set: 確認テスト
+  lv: 1
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: Last night __my family__① __discussed about__② our summer trip __for__③ __two hours__④.
+  ans: '2'
+  why: discuss は後ろに O をとる他動詞で、前置詞は要らない。discussed our summer trip とする。
+  trap: 日本語の「〜について話し合う」につられて about を付ける誤り。talk about と混同しやすい。

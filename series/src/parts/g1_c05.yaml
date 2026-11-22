@@ -1,0 +1,779 @@
+chapters:
+- id: c05
+  title: 態
+  lead: この単元では、「〜される」を表す受動態を学びます。能動態の O が受動態の S になるという1つの見方で、時制や助動詞と組み合わせた形から、SVOO・SVOC・群動詞の受動態まで同じ手順で作れるようになります。あわせて、自動詞を受動態にする誤りや by 以外の前置詞をとる形など、4択と正誤でよく問われる点を見分けられるようにします。
+  intro: 中学では「be 動詞＋過去分詞」で「〜される」を表すことを学びました。だれがしたかを言うときは、by＋人を後ろに置きます。過去分詞には、played のように -ed を付ける規則動詞の形と、written・made・seen のように形が変わる不規則動詞の形があります。この単元では、この形を進行形・完了形・助動詞と組み合わせ、文型（@s013、@s014）とも結びつけて広げます。
+  sections:
+  - id: s051
+    title: "受動態の作り方"
+    aim: be＋過去分詞を時制・進行形・完了形・助動詞と組み合わせて作り、主語が「する側」か「される側」かで能動態と受動態を選べるようになる。
+    body:
+    - h: なぜ受動態を使うのか
+    - p: 「ベンが音楽室の窓を割った」と「音楽室の窓がベンに割られた」は、同じ出来事を言っています。違うのは、何を話の中心にして主語に置くかです。動作をする人や物を主語にした文を<<能動態>>、動作を受ける人や物を主語にした文を<<受動態>>といいます（@e0501、@e0502）。受動態の動詞は「be 動詞＋過去分詞」の形になります。
+      notes:
+      - kind: 用語
+        term: 能動態
+        yomi: のうどうたい
+        text: "動作をする側を主語にした文の形。Ben broke the window. のように、主語が「〜する」を表す。"
+      - kind: 用語
+        term: 受動態
+        yomi: じゅどうたい
+        text: "動作を受ける側を主語にした文の形。動詞は be 動詞＋過去分詞になり、主語が「〜される」を表す。"
+    - ex: [e0501, e0502]
+    - p: 能動態の @e0501 と受動態の @e0502 を比べると、能動態の O（the window of the music room）が、受動態では S になっています。受動態は「O を主語の位置に出す」形なので、受動態にできるのは O をとる動詞、つまり他動詞（@s012）だけです。能動態の S だった Ben は、by Ben として後ろに回ります。by ～ は文型に数えない修飾語 M です。
+    - p: by ～ は、いつも書くわけではありません。だれがしたか分からないとき、言わなくても分かるとき、「人々一般」がするときは、by ～ を書かないのがふつうです。@e0503 は、だれが創立したかより「いつ創立されたか」を伝える文なので、by ～ がありません。英語の受動態の文は、by ～ のないもののほうがずっと多いのです。
+      notes:
+      - kind: 注意
+        text: "日本語では「〜される」と言わなくても、英語では受動態になるものがある。be born（生まれる）、be injured（けがをする）など。I was born in 2009. を「私は2009年に生んだ」としないこと。"
+    - ex: [e0503]
+    - h: 時制・進行形・完了形・助動詞と組み合わせる
+    - p: 受動態の時を表すのは be 動詞です。過去分詞の部分はいつも同じで、be 動詞の部分を、過去形・進行形・完了形・助動詞の形に変えます。進行形は「be being＋過去分詞」（@e0504）、完了形は「have been＋過去分詞」（@e0505）、助動詞は「助動詞＋be＋過去分詞」（@e0506）です。否定文は be 動詞（完了形なら have、助動詞の文なら助動詞）の後ろに not を置き、疑問文はそれを主語の前に出します。Was this picture taken by you? のような形です。
+    - table:
+        head: [形, 能動態, 受動態]
+        rows:
+        - [現在, They clean the room., "The room {{is cleaned}}."]
+        - [過去, They cleaned the room., "The room {{was cleaned}}."]
+        - [未来, They will clean the room., "The room {{will be cleaned}}."]
+        - [進行形, They are cleaning the room., "The room {{is being cleaned}}."]
+        - [完了形, They have cleaned the room., "The room {{has been cleaned}}."]
+        - [助動詞, They must clean the room., "The room {{must be cleaned}}."]
+    - ex: [e0504, e0505, e0506]
+    - h: 能動か受動かを決める
+    - p: 4択で能動態と受動態が並んでいたら、主語の名詞と動詞の関係を考えます。主語がその動作を「する側」なら能動態、「される側」なら受動態です。この見方を<<能動・受動の関係>>と呼び、このあと不定詞・分詞の単元でも同じ問いを使います。次の順に確かめます。
+      notes:
+      - kind: 用語
+        term: 能動・受動の関係
+        yomi: のうどうじゅどうのかんけい
+        text: "名詞と動詞の関係が「〜する」か「〜される」か。受動態・分詞・have O done などの形を選ぶときに、同じ問いで判断する。"
+    - label: 問い
+      steps:
+      - その動詞の主語は何か。
+      - 主語はその動作を「する側」か「される側」か。される側なら be＋過去分詞にする。
+      - 時を表す語句（now、yesterday、already など）や助動詞から、be の部分の形（時制・進行形・完了形）を決める。
+    - check:
+      - q: "These rooms (＿) every morning. (clean)"
+        a: are cleaned
+      - q: "This letter (＿) by Jane last week. (write)"
+        a: was written
+      - q: "The work must (＿) by Friday. (finish)"
+        a: be finished
+    examples:
+    - id: e0501
+      en: Ben broke the window of the music room.
+      ja: ベンは音楽室の窓を割った。
+    - id: e0502
+      en: The window of the music room *was broken* by Ben.
+      ja: 音楽室の窓はベンによって割られた。
+    - id: e0503
+      en: Our school *was founded* in 1952.
+      ja: 私たちの学校は1952年に創立された。
+      gloss: [[found, 創立する]]
+    - id: e0504
+      en: A new gym *is being built* next to the station.
+      ja: 駅の隣に新しい体育館が建てられているところだ。
+    - id: e0505
+      en: All the cakes in the shop *have been sold* already.
+      ja: その店のケーキはもう全部売れてしまった。
+    - id: e0506
+      en: This bag *can be washed* at home.
+      ja: このかばんは家で洗うことができる。
+    worked:
+    - q: "The letters have already (＿) (＿) to all the students. （send を適切な形にして2語で）"
+      steps:
+      - 主語は The letters。手紙は「送る側」ではなく「送られる側」なので、受動態の be＋過去分詞にする。
+      - have already があるので完了形。完了形の受動態は have been＋過去分詞になる。
+      - send の過去分詞は sent。have の後ろに been sent を入れる。
+      ans: been sent
+      point: have sent to … とすると「手紙が送った」という意味になり、主語と動詞の関係が合わない。完了形の受動態では、been を落とさないこと。
+    - q: "The bridge near our school (＿) now, so we have to use another road."
+      choices: [is repairing, is being repaired, has repaired, was repaired]
+      steps:
+      - 空所は文の V。主語は The bridge。
+      - 橋は「修理する側」ではなく「修理される側」なので受動態。能動態の①is repairing と③has repaired は消える。
+      - 時の手がかりは now。今行われている最中なので進行形の受動態 is being repaired を選ぶ。④was repaired は過去のことで、now と合わない。
+      ans: "2"
+      point: 進行形の受動態は be being＋過去分詞。being を落とした is repaired は「（ふだん）修理される」という意味になり、「今修理中」を表せない。
+    summary:
+    - 受動態の動詞の形は {{be 動詞＋過去分詞}}。能動態の {{O}} が受動態の S になる。
+    - 受動態にできるのは O をとる {{他動詞}} だけ。だれがしたかを言うときは {{by ～}} を後ろに置く。
+    - 進行形の受動態は {{be being＋過去分詞}}、完了形の受動態は {{have been＋過去分詞}}、助動詞の受動態は {{助動詞＋be＋過去分詞}}。
+    - 能動か受動かは、主語がその動作を {{する側}} か {{される側}} かで決める。
+  - id: s052
+    title: "SVOO・SVOC の受動態"
+    aim: SVOO と SVOC の文を受動態にし、O が主語になったあと後ろに残る語の形を判断できるようになる。
+    body:
+    - h: O が2つある文（SVOO）の受動態
+    - p: 受動態は、能動態の O を主語にする形でした（@s051）。SVOO の文（@s013）には O が2つあるので、主語にできる候補も2つあります。O₁（人）を主語にすると、O₂（物）は動詞の後ろにそのまま残ります（@e0507）。O₂（物）を主語にすると、人の前に to を付けるのがふつうです（@e0508）。give は SVO＋to の形もとる動詞なので、受動態でも to が現れます。
+    - ex: [e0507, e0508]
+    - p: buy・make・cook・find のように、SVO＋for の形になる動詞（@s013）では事情が違います。これらはふつう、物を主語にした受動態だけを使い、人の前には for を置きます（@e0509）。My sister was made a birthday cake. のように人を主語にした形は、ふつう使いません。
+      notes:
+      - kind: 注意
+        text: "tell・show・teach は人を主語にした受動態がよく使われる。We were told that the train would be late. のように、that 節が O₂ の位置に残ることもある。"
+    - table:
+        head: [動詞の型, 人を主語にする, 物を主語にする]
+        rows:
+        - [give 型（give・show・tell・teach）, "My brother {{was given}} a dictionary.", "A dictionary was given {{to}} my brother."]
+        - [buy 型（buy・make・cook・find）, "{{ふつう使わない}}", "A cake was made {{for}} my sister."]
+    - ex: [e0509]
+    - h: SVOC の受動態
+    - p: SVOC の文（@s014）で受動態の主語になるのは O です。C はそのまま「be＋過去分詞」の後ろに残ります。能動態で O＝C だった関係が、受動態では S＝C の関係になります（@e0510、@e0511）。@e0510 では「公園＝さくら公園」、@e0511 では「部屋＝暖かい」という関係が受動態でも残っています。
+    - ex: [e0510, e0511]
+    - p: 後ろに残った C の形に注意します。C は名詞か形容詞で、副詞にはなりません。The room was kept warmly. とすると、warm（暖かい）という部屋の状態を表せません。また call・name の C の前に as は付けません。was called as Kuro は誤りで、was called Kuro が正しい形です。
+    - check:
+      - q: "Mr. Ito taught us English. → We (＿) (＿) English by Mr. Ito."
+        a: were taught
+      - q: "They call the cat Tama. → The cat (＿) (＿) Tama."
+        a: is called
+    examples:
+    - id: e0507
+      en: Kaho *was given* a dictionary by Ms. Wright.
+      ja: 香帆はライト先生から辞書をもらった。
+    - id: e0508
+      en: A dictionary *was given* to Kaho by Ms. Wright.
+      ja: 辞書がライト先生から香帆に与えられた。
+    - id: e0509
+      en: A birthday cake *was made* for Jane by her father.
+      ja: 誕生日のケーキが父親によってジェーンのために作られた。
+    - id: e0510
+      en: The new park *was named* Sakura Park.
+      ja: 新しい公園はさくら公園と名付けられた。
+    - id: e0511
+      en: The room *was kept* warm for the baby.
+      ja: 部屋は赤ちゃんのために暖かくしておかれた。
+    worked:
+    - q: "My uncle gave me this camera. → I (＿) (＿) this camera by my uncle."
+      steps:
+      - 能動態の文型を確かめる。gave me this camera は SVOO で、O₁ が me、O₂ が this camera。
+      - 書きかえた文の主語は I。O₁ の me を主語にした受動態なので、O₂ の this camera は後ろに残る。
+      - 主語 I は「与えられた側」で、時は過去。be 動詞は was、give の過去分詞は given。
+      ans: was given
+      point: 人を主語にした SVOO の受動態では、物（O₂）の前に to も for も付けない。物を主語にするなら This camera was given to me by my uncle. になる。
+    - q: "その子猫は、姉によってモチと名付けられた。<br>The kitten ( by / Mochi / my / named / sister / was )."
+      steps:
+      - 能動態にもどすと My sister named the kitten Mochi.（SVOC）。the kitten が O、Mochi が C。
+      - O の the kitten が主語になるので、動詞は was named。C の Mochi はそのまま named の後ろに残す。
+      - 動作をした人 my sister は by my sister として最後に置く。
+      ans: The kitten was named Mochi by my sister.
+      point: C は be＋過去分詞の直後に残る。by ～ を C より前に置いて was named by my sister Mochi としない。
+    summary:
+    - SVOO の受動態は2通り。人を主語にすると物は動詞の {{後ろに残る}}。物を主語にすると人の前に {{to}} を置く。
+    - buy・make・cook の受動態はふつう {{物}} を主語にし、人の前に {{for}} を置く。
+    - SVOC の受動態では {{O}} が主語になり、C は be＋過去分詞の後ろに残る（S＝C の関係）。
+    - 残った C は名詞か {{形容詞}}。call・name の C の前に {{as}} を付けない。
+  - id: s053
+    title: "群動詞の受動態と by 以外の前置詞"
+    aim: 群動詞を受動態にするときに前置詞を残し、be known to などの by 以外の前置詞を意味から選べるようになる。
+    body:
+    - h: 群動詞はひとかたまりで1つの他動詞
+    - p: laugh at（〜を笑う）、look after（〜の世話をする）のように、動詞と前置詞・副詞が組み合わさって1つの他動詞の働きをするものを<<群動詞>>といいます。群動詞の後ろの名詞は、かたまり全体の O です。だから受動態では、その名詞が主語になり、前置詞や副詞は動詞の後ろにそのまま残ります（@e0512、@e0513）。
+      notes:
+      - kind: 用語
+        term: 群動詞
+        yomi: ぐんどうし
+        text: "動詞＋前置詞・副詞など、2語以上のかたまりで1つの動詞の働きをするもの。laugh at、look after、take care of、put off など。"
+    - ex: [e0512, e0513]
+    - p: 受動態の @e0512 では was laughed at by と、at と by が並びます。前置詞が2つ続くのは変に見えるので、at を落として was laughed by としてしまう誤りが多く出ます。at を落とすと laugh at のかたまりがこわれるので、受動態でもかたまりの形を保ちます。put off（延期する）のように前置詞ではなく副詞を含む群動詞も、同じように was put off とします（@e0514）。
+    - table:
+        head: [群動詞, 意味, 受動態]
+        rows:
+        - [laugh at, 〜を笑う, "be {{laughed at}}"]
+        - [look after／take care of, 〜の世話をする, "be {{looked after}}／be {{taken care of}}"]
+        - [speak to, 〜に話しかける, "be {{spoken to}}"]
+        - [look up to, 〜を尊敬する, "be {{looked up to}}"]
+        - [put off, 〜を延期する, "be {{put off}}"]
+    - ex: [e0514]
+    - h: by 以外の前置詞を使う受動態
+    - p: 受動態の中には、「だれかがした動作」よりも「状態」や「気持ち」を表すものがあります。これらは by ではなく、意味に合った前置詞をとります。たとえば be known は、「だれに知られているか」なら to（@e0515）、「何で知られているか（理由）」なら for、「何として知られているか（名前・立場）」なら as を使います。be made は、見て材料が分かるなら of、原料の形が変わって見えないなら from です（@e0516）。
+      notes:
+      - kind: 注意
+        text: "be surprised は at も by も使う。be covered も with のほかに in や by を使うことがある。入試の4択では、こうした両方使える前置詞が2つとも選択肢に並ぶことはふつうない。"
+    - table:
+        head: [形, 意味]
+        rows:
+        - ["be known {{to}} 人", 〜に知られている]
+        - ["be known {{for}} 物事", 〜で知られている（理由）]
+        - ["be known {{as}} 名前・立場", 〜として知られている]
+        - ["be made {{of}} 材料", 〜でできている（材料が見て分かる）]
+        - ["be made {{from}} 原料", 〜から作られる（原料の形が変わる）]
+        - ["be covered {{with}}／be filled {{with}}", 〜でおおわれている／〜でいっぱいだ]
+        - ["be interested {{in}}", 〜に興味がある]
+    - ex: [e0515, e0516]
+    - check:
+      - q: "Our town is known (＿) its hot springs."
+        a: for
+      - q: "The bottle was filled (＿) hot tea."
+        a: with
+      - q: "I was spoken (＿) by a child on the train."
+        a: to
+    examples:
+    - id: e0512
+      en: My idea *was laughed at* by everyone in the class.
+      ja: 私の考えはクラスのみんなに笑われた。
+    - id: e0513
+      en: The children *were looked after* by their grandmother.
+      ja: 子どもたちは祖母に世話をしてもらった。
+    - id: e0514
+      en: The game *was put off* because of the rain.
+      ja: 試合は雨のために延期された。
+    - id: e0515
+      en: This song *is known* to almost everyone in Japan.
+      ja: この歌は日本のほとんどだれにでも知られている。
+    - id: e0516
+      en: This juice *is made* from five kinds of fruit.
+      ja: このジュースは5種類の果物から作られている。
+    worked:
+    - q: "This story is known (＿) every child in Japan."
+      choices: [to, for, as, with]
+      steps:
+      - 空所は前置詞。直後の every child in Japan は「人」。
+      - 主語 This story は「知られる側」で、空所の後ろは「だれに知られているか」を表している。
+      - 知られている相手を表すのは to。for は理由、as は名前・立場を表すので合わない。
+      ans: "1"
+      point: be known の後ろの前置詞は、後ろの名詞が「知っている人」か「理由」か「名前・立場」かで決める。
+    - q: "When Taro __sang__① the song in __front__② of the class, he __was laughed by__③ some of his __classmates__④."
+      steps:
+      - 下線部③は受動態。能動態にもどすと Some of his classmates laughed at him.
+      - laugh at は群動詞なので、受動態でも at を残して was laughed at by とする。
+      - ①sang は過去形で正しい。②in front of、④some of his classmates も正しい形。
+      ans: "3"
+      point: 群動詞の受動態で前置詞が2つ並ぶ（at by）のは正しい形。並んだ前置詞の片方を落とした形を疑う。
+    summary:
+    - 群動詞の受動態は {{前置詞・副詞を残す}}。laugh at → be {{laughed at}} by ～。
+    - be known {{to}} 人（〜に知られている）、be known {{for}} 理由、be known {{as}} 名前・立場。
+    - 材料が見て分かるときは be made {{of}}、原料の形が変わるときは be made {{from}}。
+    - be covered {{with}}、be filled {{with}}、be interested {{in}} は by 以外の前置詞をとる。
+  - id: s054
+    title: "注意すべき受動態"
+    aim: It is said that ～ と S is said to do を書きかえ、動作と状態の受動態を区別し、受動態にできない動詞を見分けられるようになる。
+    body:
+    - h: It is said that ～ と S is said to do
+    - p: 「〜と言われている」は、People say that ～ を受動態にして表します。say の O は that 節なので、ふつうは形式的な主語 It を前に置き、that 節を後ろに回して It is said that ～ とします（@e0517）。さらに、that 節の中の主語を文全体の主語にすると、S is said to do の形になります（@e0518）。@e0517 と @e0518 は同じ意味です。think・believe・know も It is thought that ～／S is thought to do のように使えます。
+    - ex: [e0517, e0518]
+    - p: S is said to do の to do は不定詞です（@s061）。ここでは、that 節の時と is said の時が同じ場合だけを扱います。「〜だったと言われている」のように、that 節の時が前にずれる形は単元6（@s062）で学びます。
+    - h: 動作の受動態と状態の受動態
+    - p: be＋過去分詞には、「〜される」という動作と、「〜されている」という状態の2つの意味があります。The shop is closed now. は「店は今閉まっている」という状態です。動作であることをはっきり示したいときは、be の代わりに get を使って「get＋過去分詞」とします（@e0519）。get married（結婚する）、get hurt・get injured（けがをする）、get lost（道に迷う）、get caught in a shower（にわか雨にあう）などがよく使われます。
+    - p: 逆に be married は「結婚している」という状態です。状態は続くので、for ～（期間）と一緒に完了形で使えます（@e0520）。「結婚して20年になる」を have got married for twenty years とは言いません。get married は「結婚する」という1回の出来事だからです。
+      notes:
+      - kind: 注意
+        text: "「〜と結婚する」は marry 人、または get married to 人。get married with 人 とはしない。"
+    - ex: [e0519, e0520]
+    - h: 受動態にできない動詞
+    - p: 受動態は O を主語にする形なので、O をとらない自動詞（@s012）は受動態になりません。happen・occur（起こる）、appear（現れる）、disappear（消える）、arrive（着く）がその代表です。日本語の「事故が起こった」を「起こされた」と考えて was happened とする誤りが、正誤問題でよく問われます（@e0521）。
+      notes:
+      - kind: 注意
+        text: "他動詞でも受動態にしない動詞がある。resemble（〜に似ている）、have（〜を持っている）、cost（〜がかかる）は状態を表し、ふつう受動態にしない。"
+    - ex: [e0521]
+    - check:
+      - q: "People say that the lake is very deep. → It (＿) (＿) that the lake is very deep."
+        a: is said
+      - q: "An accident (＿) on this road last week. (happen)"
+        a: happened
+    examples:
+    - id: e0517
+      en: It *is said* [that Mr. Ito speaks four languages].
+      ja: 伊藤先生は4か国語を話すと言われている。
+    - id: e0518
+      en: Mr. Ito *is said* to speak four languages.
+      ja: 伊藤先生は4か国語を話すと言われている。
+    - id: e0519
+      en: My sister *got married* last spring.
+      ja: 姉は去年の春に結婚した。
+    - id: e0520
+      en: My parents *have been married* for twenty years.
+      ja: 私の両親は結婚して20年になる。
+    - id: e0521
+      en: A big accident *happened* near the station last night.
+      ja: ゆうべ駅の近くで大きな事故が起こった。
+    worked:
+    - q: "Ben (＿) hurt while he was playing soccer yesterday."
+      choices: [got, gets, getting, has got]
+      steps:
+      - 空所は文の V。get hurt で「けがをする」という動作を表す。
+      - 時の手がかりは yesterday。過去の1回の出来事なので過去形にする。
+      - ②gets は現在形、③getting だけでは動詞にならない、④has got は現在完了で yesterday と一緒に使えない（@s034）。よって①got。
+      ans: "1"
+      point: get＋過去分詞は「〜される・〜になる」という動作を表す。was hurt でも意味は通じるが、「けがをした」という出来事をはっきり示すのが get hurt。
+    - q: "__In the next town__① a big fire __was happened__② last night, but nobody __was injured__③ __because__④ everyone ran out quickly."
+      steps:
+      - 下線部の受動態を1つずつ確かめる。②was happened と③was injured。
+      - happen は「起こる」という自動詞で O をとらないので、受動態にできない。過去形 happened が正しい。
+      - injure は他動詞で、人は「けがをさせられる側」なので③was injured は正しい。①④も正しい。
+      ans: "2"
+      point: 受動態の下線部を見たら、その動詞が O をとる他動詞かを確かめる。日本語の「起こった」に引かれて受動態にしない。
+    summary:
+    - People say that ～ → It is {{said}} that ～ → S is said {{to do}}。
+    - be＋過去分詞は「〜されている」という {{状態}} も表す。動作をはっきり示すときは {{get＋過去分詞}}（get married、get hurt）。
+    - 「結婚して10年になる」は have {{been married}} for ten years。
+    - happen・occur・appear・disappear などの {{自動詞}} は受動態にできない。
+problems:
+- id: q05001
+  sec: s051
+  set: 前提
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: （　）内の動詞を適切な形にして空所に入れなさい。
+  q: "The letter was (＿) in English. (write)"
+  ans: written
+  why: was の後ろに過去分詞を置いて受動態にする。write の過去分詞は written（不規則動詞）。
+  trap: 過去形の wrote を入れる誤り。be 動詞の後ろに来るのは過去形ではなく過去分詞。
+- id: q05002
+  sec: s051
+  set: 前提
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: These photos (＿) by my grandfather in 1985.
+  choices: [were taken, took, are taken, was taken]
+  ans: "1"
+  why: 主語 These photos は「撮られた側」なので受動態。in 1985 があるので過去形、主語が複数なので were taken。
+  trap: ④was taken を選ぶ誤り。主語は photos（複数）なので be 動詞は were になる。
+- id: q05003
+  sec: s051
+  set: 前提
+  lv: 1
+  kind: 4択
+  min: 1
+  q: This picture was painted by (＿).
+  choices: [he, his, him, himself]
+  ans: "3"
+  why: by は前置詞なので、後ろの代名詞は目的格になる。he の目的格は him。
+  trap: 「彼が描いた」という意味から主格の①he を選ぶ誤り。前置詞の後ろは意味にかかわらず目的格。
+- id: q05004
+  sec: s051
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: （　）内の動詞を適切な形にして空所に入れなさい。
+  q: "This bridge (＿) about 100 years ago. (build)"
+  ans: was built
+  why: 主語 This bridge は「建てられる側」なので受動態。about 100 years ago があるので過去形にし、was built とする。
+  trap: built だけを入れる誤り。過去分詞だけでは受動態にならず、be 動詞が必要。
+- id: q05005
+  sec: s051
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Spanish (＿) in many countries in South America.
+  choices: [is spoken, speaks, is speaking, spoke]
+  ans: "1"
+  why: 主語 Spanish（スペイン語）は「話される側」なので受動態 is spoken。by ～ がないのは、話すのが人々一般だから。
+  trap: 「スペイン語が多くの国で話す」と考えて②speaks を選ぶ誤り。言語は話す側にはなれない。
+- id: q05006
+  sec: s051
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: （　）内の動詞を適切な形にして空所に入れなさい。空所1つに1語とする。
+  q: "The results of the test will (＿) (＿) next Monday. (announce)"
+  ans: be announced
+  why: 結果は「発表される側」なので受動態。助動詞 will の後ろは原形なので、will be＋過去分詞の形になる。
+  trap: will announced とする誤り。助動詞の後ろには be が必要で、be を落とすと動詞の形にならない。
+- id: q05007
+  sec: s051
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Mt. Fuji can (＿) from the roof of our school on clear days.
+  choices: [see, seen, be seen, been seen]
+  ans: "3"
+  why: 富士山は「見られる側」なので受動態。助動詞 can の後ろは原形なので can be seen。
+  trap: ②seen を選ぶ誤り。can seen では be 動詞がなく受動態にならない。
+- id: q05008
+  sec: s051
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  q: My bike (＿) while I was in the library yesterday.
+  choices: [stole, was stolen, has been stolen, was stealing]
+  ans: "2"
+  why: 主語 My bike は「盗まれる側」なので受動態。yesterday があるので過去形の was stolen。
+  trap: 受動態であることには気づいても、③has been stolen を選ぶ誤り。yesterday のような過去を示す語は現在完了と一緒に使えない（@s034）。
+- id: q05009
+  sec: s051
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: This computer __is used__① by many students, and the keyboard __is__② very dirty __now__③ because it __is not cleaned__④ for a long time.
+  ans: "4"
+  why: for a long time（長い間）から今まで続いている状態を表すので、完了形の受動態 has not been cleaned にする。
+  trap: 受動態の形（be＋過去分詞）になっているので④を正しいと思う誤り。能動・受動だけでなく、時を表す語句から時制も確かめる。
+- id: q05010
+  sec: s051
+  set: 節末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: この写真はいつ撮られたのですか。<br>When ( picture / taken / this / was )?
+  words: [picture, taken, this, was]
+  ans: When was this picture taken?
+  why: 受動態の疑問文は be 動詞を主語の前に出す。疑問詞 When＋was＋主語 this picture＋過去分詞 taken の順。
+  trap: When this picture was taken? とする誤り。疑問文では be 動詞を主語の前に出す。
+- id: q05011
+  sec: s052
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 上の文とほぼ同じ意味になるように、空所に適切な語を入れなさい。
+  q: Our teacher showed us some old photos of the town.<br>We (＿) (＿) some old photos of the town by our teacher.
+  ans: were shown
+  why: showed us some old photos は SVOO。O₁ の us を主語 We にした受動態なので were shown とし、O₂ の some old photos は後ろに残る。
+  trap: We showed … と能動態で考えて were show とする誤り。受動態は be＋過去分詞で、show の過去分詞はふつう shown。
+- id: q05012
+  sec: s052
+  set: 節末
+  lv: 1
+  kind: 4択
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  min: 1
+  q: These cookies were baked (＿) us by Jane.
+  choices: [to, for, of, with]
+  ans: "2"
+  why: bake は buy・make と同じく SVO＋for の形をとる動詞。物を主語にした受動態でも、人の前に for を置く。
+  trap: give の受動態と同じだと考えて①to を選ぶ誤り。to をとるか for をとるかは動詞で決まる（@s013）。
+- id: q05013
+  sec: s052
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  q: Our dog is called (＿) by everyone in the family.
+  choices: [Kuro, as Kuro, to Kuro, for Kuro]
+  ans: "1"
+  why: They call our dog Kuro.（SVOC）の受動態。C の Kuro は is called の直後にそのまま残る。
+  trap: 「クロとして呼ばれる」と考えて②as Kuro を選ぶ誤り。call O C の C の前には as を付けない。
+- id: q05014
+  sec: s052
+  set: 節末
+  lv: 1
+  kind: 和訳
+  min: 2
+  inst: 次の英文を日本語に訳しなさい。
+  q: The windows were left open all night.
+  ans: 窓は一晩中開けたままにされていた。
+  alt: [窓は一晩中開いたままだった。]
+  why: leave O C（O を C のままにしておく）の受動態。open は C で、「窓＝開いている」の関係を訳に出す。
+  trap: open を動詞と考えて「窓は一晩中開けられた」と訳す誤り。were left の後ろの open は形容詞で、状態を表す C。
+- id: q05015
+  sec: s052
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: The classroom __was__① __kept__② __cleanly__③ by the students __during__④ the school festival.
+  ans: "3"
+  why: keep O C の受動態では、C が was kept の後ろに残る。C は「教室＝きれい」という状態なので、形容詞 clean にする。
+  trap: 動詞の後ろだから副詞だと考えて cleanly を正しいとする誤り。SVOC の受動態で残るのは C で、C に副詞は置けない。
+- id: q05016
+  sec: s052
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: We (＿) that the train would be thirty minutes late.
+  choices: [told, were told, were telling, have told]
+  ans: "2"
+  why: tell は「人に that 節を伝える」SVOO の動詞。We は「伝えられた側」なので受動態 were told にし、that 節が後ろに残る。
+  trap: 「私たちは〜と聞いた」という日本語から能動態の①told を選ぶ誤り。tell は「伝える側」が主語になる動詞で、tell の後ろには人（O₁）が必要。
+- id: q05017
+  sec: s052
+  set: 節末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 太郎はチームのキャプテンに選ばれた。<br>Taro ( captain / elected / of / team / the / was ).
+  words: [captain, elected, of, team, the, was]
+  ans: Taro was elected captain of the team.
+  why: They elected Taro captain of the team.（SVOC）の受動態。O の Taro が主語になり、C の captain of the team が was elected の後ろに残る。
+  trap: Taro was elected the captain of team のように the を captain に付ける誤り。1人しかいない役職が C になるときは冠詞を付けないことが多く、ここでは the は team に付く。
+- id: q05018
+  sec: s053
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: The streets were covered (＿) fallen leaves.
+  choices: [with, to, at, for]
+  ans: "1"
+  why: 「〜でおおわれている」は be covered with ～。
+  trap: 受動態の後ろはいつも by だと思い込み、by がないので迷う誤り。状態を表す受動態は意味に合った前置詞をとる。
+- id: q05019
+  sec: s053
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  q: Paper is made (＿) wood.
+  choices: [of, from, by, at]
+  ans: "2"
+  why: 紙を見ても木の形は残っていない。原料の形が変わるときは be made from。
+  trap: 「木でできている」から①of を選ぶ誤り。of は木の机のように材料が見て分かるときに使う。
+- id: q05020
+  sec: s053
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 空所に適切な1語を入れなさい。
+  q: Kaho is interested (＿) Japanese history.
+  ans: in
+  why: 「〜に興味がある」は be interested in ～。
+  trap: 受動態だから by と書く誤り。気持ちを表す受動態は by 以外の前置詞をとるものが多い。
+- id: q05021
+  sec: s053
+  set: 節末
+  lv: 1
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: その犬はジェーンに世話をされていた。<br>The dog ( by / care / of / taken / was ) Jane.
+  words: [by, care, of, taken, was]
+  ans: The dog was taken care of by Jane.
+  why: take care of は3語で1つの他動詞の働きをする群動詞。受動態では was taken care of とかたまりを保ち、その後ろに by Jane を置く。
+  trap: The dog was taken care by of Jane のように of の位置を誤る、または of を余らせる誤り。of は care の直後から動かさない。
+- id: q05022
+  sec: s053
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: This town is known (＿) a good place for fishing.
+  choices: [as, for, to, with]
+  ans: "1"
+  why: 「この町＝釣りによい場所」という関係で、町が何として知られているかを表す。名前・立場を表すのは as。
+  trap: 「〜で知られている」という日本語から②for を選ぶ誤り。for の後ろは理由（its fish など）で、主語と同じものを表す名詞なら as。
+- id: q05023
+  sec: s053
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: Yesterday __at__① the bus stop, a woman __who__② __was carrying__③ a big bag __was spoken by__④ a child.
+  ans: "4"
+  why: speak to（〜に話しかける）は群動詞。受動態でも to を残し、was spoken to by a child とする。
+  trap: 前置詞が2つ並ぶ to by を不自然だと感じ、to のない形を正しいと思う誤り。群動詞の受動態ではかたまりを保つ。
+- id: q05024
+  sec: s053
+  set: 節末
+  lv: 2
+  kind: 英作
+  min: 3
+  inst: 日本語の意味になるように、（　）内の語句を使って英文を書きなさい。
+  q: 私の祖父は町のみんなに尊敬されている。（look up to）
+  ans: My grandfather is looked up to by everyone in the town.
+  alt: [My grandfather is looked up to by everybody in the town.]
+  why: look up to（〜を尊敬する）を受動態にし、is looked up to by ～ とする。現在の状態なので is。up と to の両方を残しているかが採点の要点。
+  trap: is looked up by とする誤り。look up to は3語で1つの群動詞なので、to も落とさない。
+- id: q05025
+  sec: s054
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: It is said (＿) the castle was built about 400 years ago.
+  choices: [that, what, which, to]
+  ans: "1"
+  why: It is said that ～ で「〜と言われている」。後ろの the castle was built … は主語と動詞がそろった完全な文なので、接続詞の that。
+  trap: S is said to do の形と混ぜて④to を選ぶ誤り。to の後ろには動詞の原形が来るので、the castle のような名詞は続かない。
+- id: q05026
+  sec: s054
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  q: A strange thing (＿) in our classroom this morning.
+  choices: [happened, was happened, is happened, was happen]
+  ans: "1"
+  why: happen（起こる）は O をとらない自動詞なので、受動態にできない。this morning は過去なので happened。
+  trap: 「起こされた」と考えて②was happened を選ぶ誤り。受動態にできるのは O をとる他動詞だけ。
+- id: q05027
+  sec: s054
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 日本語の意味になるように、空所に適切な1語を入れなさい。
+  q: 私たちは帰り道でにわか雨にあった。<br>We (＿) caught in a shower on the way home.
+  ans: got
+  alt: [were]
+  why: get caught in a shower で「にわか雨にあう」。get＋過去分詞は動作を表す。were caught も正しい。
+  trap: caught を「つかまえた」と読んで、主語 We が何かをつかまえたと考える誤り。「にわか雨に捕まえられた」側なので受動の形になる。
+- id: q05028
+  sec: s054
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  q: 伊藤先生と奥さんは結婚して15年になる。<br>Mr. Ito and his wife have (＿) married for fifteen years.
+  ans: been
+  why: for fifteen years は続いている期間。「結婚している」という状態が続いているので、have been married とする。
+  trap: have got married とする誤り。get married は「結婚する」という1回の動作なので、for ～ の期間と合わない。
+- id: q05029
+  sec: s054
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: This old tree __is said__① __being__② more than 500 years old, and many people __visit__③ the park __to see__④ it.
+  ans: "2"
+  why: S is said の後ろは to do の形。「500年以上だと言われている」なので is said to be とする。
+  trap: is said の後ろの形を気にせず、② being を正しいと思う誤り。S is said に続くのは不定詞の to do だけ。
+- id: q05030
+  sec: s054
+  set: 節末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: この湖は日本でいちばん深いと言われている。<br>This lake ( be / deepest / is / said / the / to ) in Japan.
+  words: [be, deepest, is, said, the, to]
+  ans: This lake is said to be the deepest in Japan.
+  why: It is said that this lake is the deepest in Japan. の that 節の主語を文の主語にした形。S is said to do の do に be を入れる。
+  trap: This lake is to be said the deepest … のように to の位置を誤る。is said がひとまとまりで、その後ろに to be が続く。
+- id: q05031
+  sec: s054
+  set: 節末
+  lv: 2
+  kind: 和訳
+  min: 2
+  inst: 次の英文を日本語に訳しなさい。
+  q: It is thought that the fire started in the kitchen.
+  ans: 火事は台所から始まったと考えられている。
+  alt: [その火事は台所から出たと考えられている。]
+  why: It is thought that ～ は「〜と考えられている」。It は that 節を指す形式的な主語なので、「それは」と訳さない。
+  trap: It を「それは」と訳して「それは火事が台所で始まったと考えられる」とする誤り。It は that 以下を受けるだけで、意味をもたない。
+- id: q05032
+  sec: s051
+  set: 確認テスト
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: （　）内の動詞を適切な形にして空所に入れなさい。空所1つに1語とする。
+  q: "This song has (＿) (＿) by children in Japan for more than fifty years. (sing)"
+  ans: been sung
+  why: 歌は「歌われる側」なので受動態。has があり for ～ で期間を表すので、完了形の受動態 has been sung とする。
+  trap: has sang や has sung とする誤り。完了形の受動態は have been＋過去分詞で、been を落とすと「歌が歌った」になる。
+- id: q05033
+  sec: s051
+  set: 確認テスト
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: The kitchen (＿) when I got home, so I waited in the living room.
+  choices: [was painting, was being painted, had painted, painted]
+  ans: "2"
+  why: 台所は「ペンキを塗られる側」なので受動態。帰宅したときに作業が行われている最中だったので、過去進行形の受動態 was being painted。
+  trap: 「〜しているところだった」から①was painting を選ぶ誤り。進行形でも、主語が「される側」なら be being＋過去分詞にする。
+- id: q05034
+  sec: s052
+  set: 確認テスト
+  lv: 1
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 私はこの本をライト先生からもらった。<br>I ( book / given / this / was ) by Ms. Wright.
+  words: [book, given, this, was]
+  ans: I was given this book by Ms. Wright.
+  why: Ms. Wright gave me this book.（SVOO）の O₁ を主語にした受動態。was given の後ろに O₂ の this book が残る。
+  trap: I was this book given … とする誤り。be＋過去分詞をひとまとまりにし、残る O₂ はその後ろに置く。
+- id: q05035
+  sec: s052
+  set: 確認テスト
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: This letter was sent (＿) Kaho by her aunt in Canada.
+  choices: [to, for, of, at]
+  ans: "1"
+  why: send は give と同じく SVO＋to の形をとる動詞。物を主語にした受動態では、人の前に to を置く。
+  trap: 「香帆のために」と考えて②for を選ぶ誤り。for をとるのは buy・make などの動詞（@s013）。
+- id: q05036
+  sec: s053
+  set: 確認テスト
+  lv: 2
+  kind: 4択
+  min: 1
+  q: This city is known (＿) its beautiful beaches.
+  choices: [for, to, as, at]
+  ans: "1"
+  why: its beautiful beaches は、この市が知られている理由。理由を表すのは be known for。
+  trap: ②to を選ぶ誤り。to の後ろは「知っている人」で、beaches は人ではない。
+- id: q05037
+  sec: s053
+  set: 確認テスト
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 空所に適切な1語を入れなさい。
+  q: The box was filled (＿) old letters.
+  ans: with
+  why: 「〜でいっぱいだ」は be filled with ～。
+  trap: 受動態だから by と書く誤り。状態を表す受動態は意味に合った前置詞をとる。
+- id: q05038
+  sec: s054
+  set: 確認テスト
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: __After__① the rain __stopped__②, a beautiful rainbow __was appeared__③ __over__④ the lake.
+  ans: "3"
+  why: appear（現れる）は O をとらない自動詞なので、受動態にできない。過去形の appeared にする。
+  trap: 「虹が現れた」を「虹が見られた」のように受け身で考え、③を正しいと思う誤り。
+- id: q05039
+  sec: s054
+  set: 確認テスト
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: その絵は200年以上前に描かれたと信じられている。<br>It ( believed / is / picture / that / the / was ) painted more than 200 years ago.
+  words: [believed, is, picture, that, the, was]
+  ans: It is believed that the picture was painted more than 200 years ago.
+  why: People believe that ～ の受動態で、It is believed that ～ の形。that 節の中も「絵が描かれた」なので受動態 was painted。
+  trap: It is believed the picture that was … のように that の位置を誤る。that は is believed の直後に置き、その後ろに完全な文を続ける。
+- id: q05040
+  sec: s044
+  set: 確認テスト
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: You __had not better__① __go__② out __tonight__③ because it __is going to__④ snow.
+  ans: "1"
+  why: had better の否定は had better not＋原形。not は better の後ろに置く。
+  trap: ほかの助動詞と同じように had の後ろに not を置く誤り。had better はひとまとまりで、not はその後ろ。
+- id: q05041
+  sec: s012
+  set: 確認テスト
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: We discussed (＿) for an hour after school.
+  choices: [the plan, about the plan, on the plan, with the plan]
+  ans: "1"
+  why: discuss は「〜について話し合う」という意味の他動詞で、後ろに直接 O を置く。
+  trap: 日本語の「〜について」に引かれて②about the plan を選ぶ誤り。他動詞の後ろに前置詞は要らない。
