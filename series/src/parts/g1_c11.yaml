@@ -74,7 +74,7 @@ chapters:
       - 比べている2つは This lake と that pond で、どちらも広さを比べる場所としてそろっている。This lake is five times as large as that pond. となる。
       ans: This lake is five times as large as that pond.
       point: 倍数は as ～ as の前に置く。as five times large as のように as の間に入れない。
-    - q: "（　）に入る最も適切なものを1つ選びなさい。<br>Yuna has read as (＿) books as her sister this year."
+    - q: "（　）に入る最も適切なものを1つ選びなさい。<br>Amy has read as (＿) books as her sister this year."
       choices: [much, many, more, most]
       steps:
       - 空所は as と as の間。as ～ as の間には原級を置くので、more と most は入らない。
@@ -516,7 +516,7 @@ problems:
   inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
   q: This river __is__① about __four times__② as __longer__③ as __the river__④ near my house.
   ans: "3"
-  why: as ～ as の間には原級を置くので、③larger を large にする。②four times は as の前に置いた倍数で正しく、④も川と川を比べていてそろっている。
+  why: as ～ as の間には原級を置くので、③longer を long にする。②four times は as の前に置いた倍数で正しく、④も川と川を比べていてそろっている。
   trap: ②four times を選び、four times longer than にすべきだと考える誤り。four times は as ～ as の前に置ける。誤りは as の間の比較級。
 # ---- s112 節末 ----
 - id: q11010
