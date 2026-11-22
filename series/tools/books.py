@@ -234,7 +234,7 @@ def cover_html(bk, part):
 def back_html(bk, part):
     b = bk.data['book']
     return f'''<div class="cv"><div class="cv-back">{E(b["series"])}　{E(b["vol"])}【{E(b["title"])}】<br>
-本冊（解説・例題・問題・要点・章末問題・模擬試験）と別冊（解答解説）の2冊組<br><br>
+{'本冊 上巻・下巻（解説・例題・問題・要点・確認テスト・総合演習）と別冊（解答解説）の3冊組' if b.get('volumes') else '本冊（解説・例題・問題・要点・章末問題・模擬試験）と別冊（解答解説）の2冊組'}<br>{E(part)}<br><br>
 本書は無料の教材です。{E(b["license"])} のもとで、出典を表示すれば自由に複製・配布・改変できます。<br>
 人間の専門家による確認を受ける前の版です。使う前に奥付の「ご利用の前に」をお読みください。</div>
 <div class="cv-pub">{E(b["publisher"])}</div></div>'''
@@ -830,9 +830,9 @@ def build_all(bk):
     css = KAISETSU_CSS + COVER_CSS + LEGEND_CSS + PROB_CSS + WORKED_CSS
     def go(name, part, cfg, fn):
         global _back
-        _back = back_html(bk, part)
+        _back = back_html(bk, part + ('　下巻' if name == 'honsatsu' and bk.data['book'].get('volumes') else ''))
         lay = bk.render(name, f'{b["series"]} {b["vol"]}【{b["title"]}】{part}', css, json.dumps(cfg),
-                        lambda pages: fn(bk, pages, part, cover_html(bk, part), colophon_html(bk, part), legend_html(bk, part)))
+                        lambda pages: fn(bk, pages, part, cover_html(bk, part + ('　上巻' if name == 'honsatsu' and bk.data['book'].get('volumes') else '')), colophon_html(bk, part), legend_html(bk, part)))
         print(f'{part}: {lay["pages"]} ページ')
         return lay
     lay = go('honsatsu', '本冊', A4, honbun_blocks)
