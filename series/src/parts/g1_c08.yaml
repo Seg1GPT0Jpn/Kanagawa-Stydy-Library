@@ -178,7 +178,7 @@ chapters:
       - 副詞節の主語が主節の主語と同じなら、その主語を消す。
       - 副詞節の動詞を -ing 形にする。be 動詞なら being にする。
     - ex: [e0813, e0814]
-    - p: 分詞そのものには時制がありません。@e0814 の Hearing が「聞いた」という過去を表すのは、主節の started が過去だからです。分詞構文の時は主節の時に合わせて読みます。また、消した主語は主節の主語と同じなので、分詞構文の意味上の主語は主節の主語（@e0814 では my sister）になります。分詞構文は文の頭に置くことが多いですが、文の後ろや、主語の直後にコンマではさんで置くこともあります。
+    - p: 分詞そのものには時制がありません。@e0814 の Hearing が「聞いた」という過去を表すのは、主節の started が過去だからです。分詞構文の時は主節の時に合わせて読みます。消した主語は主節の主語と同じなので、分詞構文の意味上の主語は主節の主語（@e0814 では my sister）になります。分詞構文は文の頭に置くことが多いですが、文の後ろや、主語の直後にコンマではさんで置くこともあります。
       notes:
       - kind: 注意
         text: 分詞構文はおもに書き言葉で使う。話し言葉では、接続詞の節（When I heard the news, …）を使うほうがふつう。
@@ -246,10 +246,10 @@ chapters:
     - table:
         head: [変形, "不定詞（@s062）", "動名詞（@s072）", 分詞構文]
         rows:
+        - ["意味上の主語", "for／of＋人＋to do", "所有格／目的格＋doing", "{{主語＋doing}}（独立分詞構文）"]
         - ["否定", "not to do", "not doing", "{{Not doing}}"]
         - ["完了", "to have done", "having done", "{{Having done}}"]
         - ["受動", "to be done", "being done", "{{(Being) done}}"]
-        - ["意味上の主語", "for 人 to do", "所有格 doing", "{{主語＋doing}}"]
     - p: 否定の not は分詞の直前に置きます（@e0818）。主節の時より前のことは、完了の形 Having done で表します（@e0819）。@e0819 では、宿題を終えたのが出かけるより前です。受動の分詞構文は Being done ですが、Being はふつう省略され、過去分詞で文が始まります（@e0820）。@e0820 の Written は「この本が書かれている」という受動の関係で、元の文は Because it is written in easy English です。
     - ex: [e0818, e0819, e0820]
     - h: 主語が主節と違うとき
@@ -343,12 +343,12 @@ chapters:
         - ["不定詞", "I want {{to swim}}.", "a place {{to swim}}", "I went to the sea {{to swim}}."]
         - ["動名詞", "I enjoy {{swimming}}.", "なし", "なし"]
         - ["分詞", "なし", "the boy {{swimming}} in the river", "{{Swimming}} in the river, I saw a fish."]
-    - p: 4択で準動詞の形を選ぶときは、次の順に考えます。1つ目は空所の働きです。2つ目は、動詞の後ろの O なら to do と doing のどちらをとる動詞か（@s073）です。3つ目は、名詞と動詞の関係が能動か受動かです。分詞を選ぶ問題の多くは、1つ目と3つ目で決まります。
+    - p: 4択で準動詞の形を選ぶときは、単元7で学んだ準動詞の選び方（@s073）を、分詞まで広げて使います。1つ目の問いで空所が名詞の働きなら不定詞か動名詞、形容詞・副詞の働きなら不定詞か分詞にしぼれます。分詞を選ぶ問題の多くは、1つ目と3つ目の問いで決まります。
     - label: 準動詞の選び方
       steps:
-      - 空所は名詞・形容詞・副詞のどの働きか。
-      - 動詞の後ろの O なら、その動詞は to do をとるか doing をとるか（これからのことか、実際にしたことか）。
-      - 名詞と動詞の関係は能動（する）か受動（される）か。
+      - 空所は名詞・形容詞・副詞のどの働きか。名詞を説明する位置や、文に付け足す位置なら分詞を考える。
+      - 動詞の O なら、その動詞が to do をとるか doing をとるかを確かめる。
+      - 準動詞の動作を「する側」か「される側」かを確かめる。する側なら現在分詞、される側なら過去分詞にする。
     - ex: [e0826, e0827]
     - check:
       - q: "She was standing at the door with her eyes (＿). (close)"
@@ -477,7 +477,7 @@ problems:
   choices: [wears, worn, wearing, is wearing]
   ans: "3"
   why: 文の V は is。空所から over there までが The man を説明するかたまり。男性は上着を「着ている側」なので現在分詞の wearing。
-  trap: ④is wearing を選ぶ誤り。V が2つになる。また、②worn は「着られた」という受動で、男性と合わない。
+  trap: ④is wearing を選ぶ誤り。V が2つになる。②worn は「着られた」という受動で、男性と合わない。
 - id: q08008
   sec: s081
   set: 節末
@@ -616,7 +616,7 @@ problems:
   min: 2
   inst: 日本語の意味になるように（　）内の語を並べかえなさい。
   q: 姉はテレビを見ながらソファに横になっていた。<br>My sister ( lay / on / sofa / the / watching ) TV.
-  words: [lay, on, sofa, the, watching]
+  words: [lay, "on", sofa, the, watching]
   ans: My sister lay on the sofa watching TV.
   why: 主節は My sister lay on the sofa（lie の過去形 lay）。「テレビを見ながら」は付帯状況の分詞構文 watching TV で、文の後ろに置く。
   trap: lay を「横たえる」という他動詞と考えて lay the sofa とする誤り。ここの lay は自動詞 lie（横になる）の過去形。

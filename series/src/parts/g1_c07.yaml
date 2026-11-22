@@ -1,0 +1,818 @@
+chapters:
+- id: c07
+  title: 動名詞
+  lead: この単元では、動詞に -ing を付けて「〜すること」を表す動名詞を学びます。動名詞が名詞と同じ位置に入ることを出発点に、意味上の主語や完了形などの形の変え方、to do をとる動詞と doing をとる動詞の区別、前置詞の to の後ろに doing を置く決まった言い方まで、4択と正誤で問われる点を見分けられるようになります。
+  intro: 中学では、enjoy や finish の後ろに -ing 形を置いて「〜するのを楽しむ」「〜し終える」と言うことを学びました。like の後ろには、I like to play tennis. と I like playing tennis. のどちらの形も置けます。-ing 形は進行形（be＋-ing 形）でも使いますが、進行形は「〜している」という動作の途中を表すもので、この単元で学ぶ「〜すること」とは別の使い方です。この単元では、単元6で学んだ準動詞の考え方（@s061）を -ing 形に広げます。
+  sections:
+  - id: s071
+    title: "動名詞の働き"
+    aim: 動詞の -ing 形が「〜すること」として文の S・O・C や前置詞の後ろの名詞になることを見分け、主語の動名詞に合う動詞の形を選べるようになる。
+    body:
+    - h: 動名詞は「〜すること」を表す
+    - p: "「歩く」は動作を表す動詞ですが、「学校まで歩くことは〜」と言うときの「歩くこと」は、文の主語になっています。英語では、動詞に -ing を付けた形で「〜すること」を表し、名詞と同じように文の S・O・C や前置詞の後ろに置くことができます。この -ing 形を<<動名詞>>といいます。動名詞は準動詞（@s061）の1つなので、動詞の性質も残っていて、後ろに O や M を続けてかたまりを作ります（@e0701）。本書では、このかたまりを〈 〉で示します。"
+      notes:
+      - kind: 用語
+        term: 動名詞
+        yomi: どうめいし
+        text: "動詞の -ing 形のうち、「〜すること」という意味で名詞の働き（S・O・C・前置詞の後ろの名詞）をするもの。動詞の性質を残し、後ろに O や M をとる。"
+      - kind: 注意
+        text: "-ing の付け方は進行形と同じ。swim → swimming、make → making、lie → lying のように、つづりが変わる語がある。"
+    - ex: [e0701]
+    - h: 動名詞が入る4つの位置
+    - p: "動名詞が入る位置は、名詞が入る位置と同じです。主語（@e0702）、動詞の O（@e0703）、be 動詞の後ろの C（@e0704）、そして前置詞の後ろ（@e0705）の4つです。どの位置でも、動名詞のかたまりを1つの名詞と考えると、文の骨組みが見えます。たとえば @e0703 は、〈making cakes for her family〉を it に置きかえると Riko loves it. という SVO の文になります。"
+    - table:
+        head: [位置, 例, 意味]
+        rows:
+        - ["S（主語）", "〈{{Running}} every morning〉 is good for your health.", 毎朝走ることは健康によい]
+        - ["O（目的語）", "I like 〈{{taking}} pictures of trains〉.", 電車の写真を撮るのが好きだ]
+        - ["C（補語）", "My job at home is 〈{{washing}} the dishes〉.", 家での私の仕事は皿を洗うことだ]
+        - [前置詞の後ろ, "Thank you for 〈{{helping}} me〉.", 手伝ってくれてありがとう]
+      notes:
+      - kind: 注意
+        text: "be 動詞＋-ing 形は進行形と同じ形になる。My sister is washing the dishes.（洗っている）は進行形、My job is washing the dishes.（仕事＝皿を洗うこと）は動名詞。主語がその動作をしているかどうかで見分ける。"
+    - ex: [e0702, e0703, e0704]
+    - p: "前置詞の後ろには、名詞か動名詞を置きます。動詞の原形や to do は置けません。「〜するのが得意だ」は be good at doing、「〜しないで」は without doing、「〜する前に」は before doing です（@e0705）。日本語では「食べる前に」と動詞の形のまま言うので、before eat のように原形を置いてしまう誤りがよく見られます。"
+      notes:
+      - kind: 注意
+        text: "before・after は接続詞としても使うので、before I eat lunch のように S＋V を続けることもできる。前置詞として使うときは、後ろは名詞か動名詞（before eating lunch）。"
+    - ex: [e0705]
+    - h: 主語の動名詞と動詞の数
+    - p: "動名詞のかたまりが主語のとき、動詞は3人称単数の形にします。かたまりの中に複数形の名詞があっても、全体で「〜すること」という1つのことを表すからです。@e0706 の主語は〈Writing letters to my friends abroad〉で、letters も friends も複数形ですが、動詞は is になります。動詞のすぐ前にある名詞につられて are にしないように、主語のかたまりがどこから始まってどこで終わるかを確かめます。"
+    - ex: [e0706]
+    - check:
+      - q: "I'm interested in (＿) abroad. (study)"
+        a: studying
+      - q: "(＿) English songs is fun. (sing)"
+        a: Singing
+      - q: "Playing video games for hours (＿) bad for your eyes. (be)"
+        a: is
+    examples:
+    - id: e0701
+      en: "〈*Walking* to school〉 takes me twenty minutes."
+      ja: 学校まで歩いて行くと20分かかる。
+    - id: e0702
+      en: "〈*Getting* up at five〉 is not easy for me."
+      ja: 5時に起きるのは私には簡単ではない。
+    - id: e0703
+      en: "Riko loves 〈*making* cakes for her family〉."
+      ja: 理子は家族のためにケーキを作るのが大好きだ。
+    - id: e0704
+      en: "My brother's hobby is 〈*making* paper airplanes〉."
+      ja: 兄の趣味は紙飛行機を作ることだ。
+    - id: e0705
+      en: "Wash your hands before 〈*eating* lunch〉."
+      ja: 昼ご飯を食べる前に手を洗いなさい。
+    - id: e0706
+      en: "〈*Writing* letters to my friends abroad〉 is fun."
+      ja: 外国の友だちに手紙を書くのは楽しい。
+    worked:
+    - q: "Shin left the room without (＿) goodbye. （say を適切な形にして）"
+      steps:
+      - 4択の共通手順（@s015）で、空所が文のどの要素かを見る。空所の前の without は「〜なしで」という前置詞で、空所は前置詞の後ろの名詞の位置。
+      - 前置詞の後ろには名詞か動名詞を置く。動詞の say を名詞の働きにするには -ing 形にする。
+      - saying を入れると「さよならを言わずに部屋を出た」となり、意味も合う。
+      ans: saying
+      point: 前置詞の後ろに原形の say や to say は置けない。without・before・after・by・at・in の後ろに動詞を続けるときは、-ing 形にする。
+    - q: "Taking care of three dogs (＿) a lot of time every day."
+      choices: [take, takes, taking, are taking]
+      steps:
+      - 4択の共通手順（@s015）で、空所は文の V。V を決める前に、主語がどこまでかを確かめる。
+      - 主語は〈Taking care of three dogs〉という動名詞のかたまり。dogs は前置詞 of の後ろの名詞で、主語ではない。
+      - 動名詞の主語は1つのことなので3人称単数。every day から現在の習慣なので takes。③taking だけでは V にならず、①④は主語を複数と考えた形。
+      ans: "2"
+      point: 動詞の直前の複数形の名詞（dogs）につられて take を選ばない。動名詞のかたまりが主語なら、動詞は3人称単数の形。
+    summary:
+    - "動名詞は動詞の {{-ing 形}} で「{{〜すること}}」を表し、名詞の働きをする。"
+    - "動名詞は文の S・O・C と、{{前置詞}} の後ろに置ける。"
+    - "前置詞の後ろに動詞を続けるときは、原形や to do ではなく {{doing}} にする。"
+    - "動名詞のかたまりが主語のとき、動詞は {{3人称単数}} の形にする。"
+  - id: s072
+    title: "意味上の主語・否定・完了・受動"
+    aim: 動名詞に意味上の主語・not・having done・being done を加えた形を作り、だれの動作か・いつのことか・する側かされる側かを読み取れるようになる。
+    body:
+    - h: 動名詞の4つの変形
+    - p: "単元6では、不定詞の形を変えて、動作をする人・否定・時のずれ・「される」を表す4つの変形を学びました（@s062）。動名詞にも同じ4つの変形があります。表に並べると、考え方は不定詞と同じで、形だけが違うことが分かります。"
+    - table:
+        head: [変形, 不定詞（@s062）, 動名詞]
+        rows:
+        - [意味上の主語, "for／of＋人＋to do", "{{所有格／目的格}}＋doing"]
+        - [否定, not to do, "{{not doing}}"]
+        - [完了, to have done, "{{having done}}"]
+        - [受動, to be done, "{{being done}}"]
+    - h: 意味上の主語は所有格か目的格
+    - p: "動名詞の動作をするのが文の主語と同じ人なら、何も付けません。I don't mind opening the window. の opening は「私が開けること」です。動作をするのが文の主語と違う人なら、動名詞の前にその人を置きます。これが動名詞の意味上の主語（@s062）です。形は所有格（my・his・your）が基本で、話し言葉では目的格（me・him）もよく使います（@e0707）。人の名前なら、's を付けずに名前をそのまま置く形もよく使います（@e0708）。"
+      notes:
+      - kind: 注意
+        text: "Would you mind my opening the window? は「私が窓を開けてもかまいませんか」。Would you mind opening the window? は「（あなたが）窓を開けてくれませんか」。意味上の主語があるかないかで、窓を開ける人が変わる。"
+    - ex: [e0707, e0708]
+    - h: 否定は not を前に置く
+    - p: "「〜しないこと」は、動名詞の直前に not を置いて not doing とします（@e0709）。不定詞の not to do と同じく、not は打ち消したい準動詞のすぐ前に置きます。意味上の主語があるときは、my not coming のように、意味上の主語と動名詞の間に not を入れます。"
+    - ex: [e0709]
+    - h: 完了の having done は主節の時より前
+    - p: "動名詞の内容が、文の動詞の時（主節の時）より前のことだと形で示したいときは、having＋過去分詞を使います。この形を<<完了動名詞>>といいます。完了形の単元で学んだ基準の時（@s031）が主節の時にあたり、完了動名詞はそれより前のことを表します。@e0710 では、恥ずかしく思っているのは今で、うそをついたのはそれより前です。"
+      notes:
+      - kind: 用語
+        term: 完了動名詞
+        yomi: かんりょうどうめいし
+        text: "having＋過去分詞の形の動名詞。主節の動詞が表す時（基準の時）より前のことを表す。"
+    - ex: [e0710]
+    - p: "4択で doing と having done が並んでいたら、動名詞の内容が主節の時と同じか、それより前かを確かめます。主節が現在形で、動名詞のほうに last year や when he was young のような過去を表す語句があれば having done を選びます。なお、remember・regret のように意味から「前のこと」と分かる動詞の後ろでは、ふつうの doing でも前のことを表せます（@s073）。"
+    - h: 受動は being done
+    - p: "動名詞の動作を「される側」のときは、being＋過去分詞にします。能動か受動かは、態の単元と同じ問い（@s051）で決めます。@e0711 では、「赤ちゃんと呼ばれる」のは文の主語の弟なので、being called になります。主節の時より前に「された」ことは having been＋過去分詞で表しますが、本書では形を知っておけば十分です。"
+    - ex: [e0711]
+    - check:
+      - q: "私が窓を開けてもかまいませんか。<br>Do you mind (＿) opening the window?"
+        a: my／me
+      - q: "彼は約束を守らなかったことを謝った。<br>He apologized for (＿) keeping his promise."
+        a: not
+      - q: "My dog doesn't like (＿) (＿) by strangers. (touch)"
+        a: being touched
+    examples:
+    - id: e0707
+      en: "Do you mind 〈*my* using your pen for a minute〉?"
+      ja: 少しの間あなたのペンを使ってもかまいませんか。
+    - id: e0708
+      en: "Everyone was surprised at 〈*Matt* singing so well〉."
+      ja: マットがとても上手に歌ったことに、みんな驚いた。
+    - id: e0709
+      en: "Zoe is worried about 〈*not* getting enough sleep before the exam〉."
+      ja: ゾーイは試験の前に十分に眠れないことを心配している。
+    - id: e0710
+      en: "I'm ashamed of 〈*having told* a lie to my mother〉."
+      ja: 私は母にうそをついたことを恥ずかしく思っている。
+      gloss: [[be ashamed of, 〜を恥ずかしく思う]]
+    - id: e0711
+      en: "My little brother hates 〈*being called* a baby〉."
+      ja: 弟は赤ちゃんと呼ばれるのをいやがる。
+    worked:
+    - q: "暑いので、私が窓を開けてもかまいませんか。<br>It's hot in here. Would you mind (＿) the window?"
+      choices: [to open, my opening, I opened, for me to open]
+      steps:
+      - 空所は mind の O。mind は後ろに doing をとる動詞（@s073）なので、to do の①④は消える。
+      - 窓を開けるのは「私」で、文の主語 you とは違う。だから動名詞の前に意味上の主語を置く。
+      - 意味上の主語は所有格か目的格。my opening を選ぶ。③は S＋V の形で、mind の後ろに直接置けない。
+      ans: "2"
+      point: Would you mind opening ～? だけだと、開けるのは相手（you）になる。だれの動作かを日本語で確かめ、文の主語と違えば所有格（または目的格）を動名詞の前に置く。
+    - q: "Matt is proud of (＿) the captain of the soccer team last year."
+      choices: [being, having been, to be, be]
+      steps:
+      - 空所は前置詞 of の後ろなので、名詞の働きの動名詞が入る。③④は消える。
+      - 時の手がかりは last year。主節の is proud は今のことで、キャプテンだったのは去年。主節の時より前のことになる。
+      - 主節の時より前を表す完了動名詞 having been を選ぶ。①being だと「今キャプテンであること」になり、last year と合わない。
+      ans: "2"
+      point: 主節が現在形で、動名詞の中に過去を表す語句があれば having done。完了動名詞は「主節の時より前」を表す。
+    summary:
+    - "動名詞の意味上の主語は、動名詞の前に {{所有格}}（または目的格）で置く。"
+    - "動名詞の否定は、動名詞の {{直前}} に not を置く（not doing）。"
+    - "主節の時より前のことは {{having＋過去分詞}}（完了動名詞）で表す。"
+    - "「〜されること」は {{being＋過去分詞}} で表す。"
+  - id: s073
+    title: "to do をとる動詞・doing をとる動詞"
+    aim: 動詞の後ろに to do と doing のどちらを置くかを動詞ごとに判断し、remember・forget・stop・try・regret では形による意味の違いを読み分けられるようになる。
+    body:
+    - h: 動詞によって後ろの形が決まっている
+    - p: "「〜するのを楽しむ」は enjoy doing で、enjoy to do とは言いません。逆に「〜することに決める」は decide to do で、decide doing とは言いません。動詞の O に準動詞を置くとき、to do をとるか doing をとるかは動詞ごとに決まっています。覚える量を減らすために、大まかな傾向をつかんでおきます。to do は「これからすること」に向かう動詞（want・hope・decide・promise）と結びつき、doing は「実際にしていること・したこと」を楽しむ・終える・避ける動詞（enjoy・finish・avoid・give up）と結びつきやすいのです（@e0712、@e0713）。ただし傾向に合わない動詞（mind・practice など）もあるので、表の動詞は形ごと覚えます。"
+    - table:
+        head: [後ろの形, 主な動詞, 傾向]
+        rows:
+        - ["{{doing}} だけ", "enjoy・finish・mind・avoid・give up・practice・deny・put off", していること・したことを楽しむ／終える／避ける]
+        - ["{{to do}} だけ", "want・hope・wish・decide・plan・promise・expect・refuse", これから先のことに向かう]
+        - [両方（意味はほぼ同じ）, "like・love・hate・begin・start・continue", どちらでもよい]
+      notes:
+      - kind: 注意
+        text: "like は to do も doing もとるが、would like は to do だけをとる。「行きたい」は I'd like to go. で、I'd like going. とはしない。"
+    - ex: [e0712, e0713]
+    - h: 形によって意味が変わる動詞
+    - p: "remember・forget・regret は、後ろが to do か doing かで意味が変わります。ここでも「to do はこれからのこと、doing は前にしたこと」という傾向がそのまま当てはまります。remember to do は「（これから）忘れずに〜する」、remember doing は「（前に）〜したことを覚えている」です（@e0714、@e0715）。forget to do は「〜するのを忘れる」、forget doing は「〜したことを忘れる」です。regret doing は「〜したことを後悔する」、regret to do は「残念ながら〜する」で、regret to say や regret to tell のように使います。"
+      notes:
+      - kind: 注意
+        text: "forget doing は、I'll never forget seeing the sea for the first time. のように、never などの否定と一緒に使うことが多い。"
+    - ex: [e0714, e0715]
+    - p: "stop と try は、少し事情が違います。stop doing は「〜するのをやめる」で、doing は stop の O です。stop to do の to do は O ではなく、「〜するために」という副詞の働きの不定詞（@s061）で、「〜するために立ち止まる・手を止める」という意味になります（@e0716）。try to do は「〜しようと努力する」、try doing は「試しに〜してみる」です。"
+    - table:
+        head: [形, 意味]
+        rows:
+        - ["remember {{to do}}", （これから）忘れずに〜する]
+        - ["remember {{doing}}", （前に）〜したことを覚えている]
+        - [forget to do, "{{〜するのを忘れる}}"]
+        - [forget doing, "{{〜したことを忘れる}}"]
+        - [regret doing, "{{〜したことを後悔する}}"]
+        - [regret to do, 残念ながら〜する]
+        - ["stop {{doing}}", 〜するのをやめる]
+        - ["stop {{to do}}", 〜するために立ち止まる・手を止める]
+        - [try to do, "{{〜しようとする}}"]
+        - [try doing, "{{試しに〜してみる}}"]
+    - ex: [e0716]
+    - h: 準動詞の選び方
+    - p: "空所に準動詞の形を選ぶ問題は、次の順で考えます。この手順は、分詞の単元の最後（@s085）でも使います。"
+    - label: 準動詞の選び方
+      steps:
+      - 空所は名詞・形容詞・副詞のどの働きか。主語の位置や前置詞の後ろなら名詞の働きで、doing が入る。
+      - 動詞の O なら、その動詞が to do をとるか doing をとるかを確かめる。両方とる動詞なら、これからのことか（to do）、前にしたことか（doing）で決める。
+      - 準動詞の動作を「する側」か「される側」かを確かめる。される側なら being done や to be done にする。
+    - check:
+      - q: "We decided (＿) (＿) a party for Mr. Nishi. (have)"
+        a: to have
+      - q: "My father gave up (＿) coffee last year. (drink)"
+        a: drinking
+      - q: "Please remember (＿) (＿) this letter tomorrow. (send)"
+        a: to send
+    examples:
+    - id: e0712
+      en: "Shin enjoyed 〈*talking* with his old friends〉 at the party."
+      ja: 慎はパーティーで昔の友だちと話すのを楽しんだ。
+    - id: e0713
+      en: "Riko hopes 〈*to study* in Canada〉 next year."
+      ja: 理子は来年カナダで勉強したいと思っている。
+    - id: e0714
+      en: "Remember 〈*to turn* off the lights〉 when you leave the room."
+      ja: 部屋を出るときは、忘れずに電気を消しなさい。
+    - id: e0715
+      en: "I remember 〈*visiting* this temple with my grandmother〉."
+      ja: 私はこの寺を祖母と訪れたことを覚えている。
+    - id: e0716
+      en: "On the way to the station, my father stopped 〈*to look* at the map〉."
+      ja: 駅へ行く途中で、父は地図を見るために立ち止まった。
+    worked:
+    - q: "Zoe finished (＿) the dishes and went to bed."
+      choices: [wash, to wash, washing, washed]
+      steps:
+      - 準動詞の選び方の①。空所は finished の O で、名詞の働き。
+      - ②。finish は後ろに doing だけをとる動詞で、to do はとらない。
+      - washing を選ぶ。①は原形、④は過去形で、どちらも finished の後ろに直接置けない。
+      ans: "3"
+      point: enjoy・finish・mind・avoid・give up の後ろは doing。日本語の「〜し終える」につられて to do にしない。
+    - q: "I clearly remember (＿) this key on the desk, but now I can't find it."
+      choices: [to put, putting, to be put, being put]
+      steps:
+      - 準動詞の選び方の①②。空所は remember の O。remember は to do も doing もとり、形で意味が変わる動詞。
+      - but now I can't find it から、鍵を机に置いたのは前のこと。前にしたことを覚えているのは remember doing。
+      - ③。鍵を置いたのは「私」で、する側なので能動の putting。③④は受動で、「私が置かれる」ことになってしまう。
+      ans: "2"
+      point: remember・forget は、これからのことなら to do、前にしたことなら doing。文の中の時の手がかり（now・tomorrow・last week など）で決める。
+    summary:
+    - "enjoy・finish・mind・avoid・give up の後ろは {{doing}}。want・hope・decide・promise の後ろは {{to do}}。"
+    - "remember {{to do}} は「忘れずに〜する」、remember {{doing}} は「〜したことを覚えている」。"
+    - "stop doing は「〜するのをやめる」、stop {{to do}} は「〜するために立ち止まる」。"
+    - "try to do は「{{〜しようとする}}」、try doing は「{{試しに〜してみる}}」。"
+  - id: s074
+    title: "前置詞の to＋doing と動名詞の決まった言い方"
+    aim: look forward to などの to が前置詞であることを見抜いて doing を続け、It is no use doing などの決まった言い方を意味と形で使えるようになる。
+    body:
+    - h: to の後ろに doing が来る形
+    - p: "「to の後ろには動詞の原形が来る」と覚えている人は多いでしょう。ただし、それは不定詞の to の場合です。to には「〜へ」「〜に」を表す前置詞の to もあり、前置詞の後ろには名詞か動名詞を置きます（@s071）。look forward to（〜を楽しみに待つ）の to は前置詞なので、look forward to visiting のように doing を続けます（@e0717）。"
+    - p: "to が前置詞かどうかは、to の後ろに名詞を置いて意味が通るかで確かめます。look forward to the trip（旅行を楽しみに待つ）と言えるので、この to は前置詞です。be used to（〜に慣れている）も be used to the noise と言えるので前置詞で、後ろは doing になります（@e0718）。助動詞の単元で学んだ used to do（以前は〜した）とは別の表現です（@s044）。object to（〜に反対する）も同じ形です（@e0719）。"
+    - table:
+        head: [形, 意味]
+        rows:
+        - ["look forward to {{doing}}", 〜するのを楽しみに待つ]
+        - ["be used to {{doing}}／get used to doing", 〜するのに慣れている／慣れる]
+        - [object to doing, "{{〜することに反対する}}"]
+        - [when it comes to doing, 〜することになると]
+      notes:
+      - kind: 注意
+        text: "be used to do は use（使う）の受動態で「〜するのに使われる」。This box is used to keep old letters. の to は不定詞の to で、後ろは原形になる。"
+    - ex: [e0717, e0718, e0719]
+    - h: 動名詞を使う決まった言い方
+    - p: "動名詞を使った決まった言い方は、形が少しでもずれると誤りになるので、意味と形をまとめて覚えます。feel like doing は「〜したい気がする」で、この like は前置詞です（@e0720）。It is no use doing は「〜しても無駄だ」で、It は後ろの〈doing〉を指す形式主語（@s061）です（@e0721）。There is no doing は「〜することはできない」、on doing は「〜するとすぐに」を表します（@e0722）。"
+    - table:
+        head: [形, 意味]
+        rows:
+        - ["feel like {{doing}}", 〜したい気がする]
+        - ["It is no use {{doing}}", 〜しても無駄だ]
+        - ["There is no {{doing}}", 〜することはできない]
+        - ["{{on}} doing", 〜するとすぐに]
+        - ["be worth {{doing}}", 〜する価値がある]
+        - ["cannot help doing（@s044）", 〜せずにはいられない]
+      notes:
+      - kind: 注意
+        text: "There is no doing は It is impossible to do と同じ意味。There is no telling what will happen.（何が起こるか分からない）のように、telling や knowing と一緒に使うことが多い。"
+    - ex: [e0720, e0721, e0722]
+    - check:
+      - q: "I'm looking forward to (＿) you again. (see)"
+        a: seeing
+      - q: "It's no use (＿) now. The train has already left. (run)"
+        a: running
+      - q: "This museum is worth (＿). (visit)"
+        a: visiting
+    examples:
+    - id: e0717
+      en: "Zoe is looking forward to 〈*visiting* Kyoto〉 next month."
+      ja: ゾーイは来月京都を訪れるのを楽しみにしている。
+    - id: e0718
+      en: "Ms. Baker is used to 〈*eating* with chopsticks〉 now."
+      ja: ベイカー先生は今では箸で食べることに慣れている。
+    - id: e0719
+      en: "Some parents objected to 〈*changing* the school uniform〉."
+      ja: 制服を変えることに反対する親もいた。
+      gloss: [[object to, 〜に反対する]]
+    - id: e0720
+      en: "It's very hot today. I don't feel like 〈*cooking* dinner〉."
+      ja: 今日はとても暑い。夕食を作る気がしない。
+    - id: e0721
+      en: "It is no use 〈*asking* him for help〉. He is too busy this week."
+      ja: 彼に手伝いを頼んでも無駄だ。今週は忙しすぎるのだから。
+    - id: e0722
+      en: "On 〈*hearing* the news〉, Shin ran out of the room."
+      ja: その知らせを聞くとすぐに、慎は部屋から走り出た。
+    worked:
+    - q: "The students are looking forward to (＿) the new gym next month."
+      choices: [use, using, used, be used]
+      steps:
+      - 空所の前の to が、不定詞の to か前置詞の to かを確かめる。
+      - look forward to the trip のように後ろに名詞を置けるので、この to は前置詞。前置詞の後ろは名詞か動名詞。
+      - 動名詞の using を選ぶ。①use は to を不定詞と考えたときの誤り。④be used は「使われる」で、体育館を使う側の生徒と合わない。
+      ans: "2"
+      point: look forward to の後ろは doing。「to の後ろは原形」と決めつけず、to の後ろに名詞を置けるかで前置詞かどうかを確かめる。
+    - q: "Matt __came__① to Japan two years ago, so he __is used to__② __take__③ a crowded train __every__④ morning."
+      steps:
+      - 下線部②③は be used to と、その後ろの形。be used to は「〜に慣れている」で、be used to the noise と言えるので to は前置詞。
+      - 前置詞の後ろは動名詞なので、③take は taking にする。
+      - ①came は two years ago と合う過去形、④every morning も正しい。
+      ans: "3"
+      point: be used to と used to do は別の表現。be 動詞があれば「慣れている」で、後ろは doing。
+    summary:
+    - "look forward to・be used to・object to の to は {{前置詞}} なので、後ろは {{doing}}。"
+    - "to が前置詞かどうかは、後ろに {{名詞}} を置けるかで確かめる。"
+    - "feel like doing は「{{〜したい気がする}}」、It is no use doing は「{{〜しても無駄だ}}」。"
+    - "There is no doing は「{{〜することはできない}}」、on doing は「{{〜するとすぐに}}」。"
+problems:
+# ---- 前提チェック ----
+- id: q07001
+  sec: s071
+  set: 前提
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Riko finished (＿) her homework before dinner.
+  choices: [do, to do, doing, done]
+  ans: "3"
+  why: finish（〜し終える）の後ろには -ing 形を置く。中学で習った enjoy doing・finish doing の形。
+  trap: 「宿題をする」の do をそのまま入れる①の誤り。finished の後ろに動詞の原形を直接置くことはできない。
+- id: q07002
+  sec: s071
+  set: 前提
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: （　）内の動詞を適切な形にして空所に入れなさい。空所1つに1語とする。
+  q: "Look! The children (＿) (＿) in the river. (swim)"
+  ans: are swimming
+  why: Look! から今まさにしていることなので現在進行形。主語が複数なので are、swim の -ing 形は m を重ねて swimming。
+  trap: swiming とつづる誤り。swim のように「短母音＋子音字1つ」で終わる語は、子音字を重ねてから -ing を付ける。
+- id: q07003
+  sec: s071
+  set: 前提
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: I like (＿) to music in my room.
+  choices: [listen, listening, listened, listens]
+  ans: "2"
+  why: like の後ろには to do か -ing 形を置く。選択肢の中では listening だけが正しい。
+  trap: 「聞くのが好き」の「聞く」から①listen を選ぶ誤り。like の後ろに動詞の原形を直接置くことはできない。
+# ---- 7-1 ----
+- id: q07004
+  sec: s071
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: （　）内の動詞を適切な形にして空所に入れなさい。
+  q: "My sister is good at (＿) the piano. (play)"
+  ans: playing
+  why: at は前置詞なので、後ろは名詞か動名詞。play を動名詞の playing にする。
+  trap: to play とする誤り。前置詞の後ろに to do は置けない。
+- id: q07005
+  sec: s071
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: (＿) a diary every day is a good way to practice English.
+  choices: [Keep, Keeps, Keeping, Kept]
+  ans: "3"
+  why: 文の V は is。空所から every day までが主語なので、「日記をつけること」を表す動名詞 Keeping を選ぶ。
+  trap: 文の頭だから命令文と考えて①Keep を選ぶ誤り。後ろに is があるので、空所を含むかたまりは主語になる。
+- id: q07006
+  sec: s071
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  q: Ms. Baker left the classroom without (＿) the door.
+  choices: [close, to close, closing, closed]
+  ans: "3"
+  why: without は前置詞なので、後ろは動名詞。without closing で「閉めないで」。
+  trap: 「ドアを閉める」の close をそのまま入れる①の誤り。前置詞の後ろに原形は置けない。
+- id: q07007
+  sec: s071
+  set: 節末
+  lv: 1
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 寝る前にスマートフォンを使うのは目によくない。<br>( a / before / smartphone / using ) bed is bad for your eyes.
+  words: [a, before, smartphone, using]
+  ans: Using a smartphone before bed is bad for your eyes.
+  why: 主語は「寝る前にスマートフォンを使うこと」。動名詞 Using で始め、O の a smartphone、M の before bed を続ける。
+  trap: Before using a smartphone … と前置詞から始める誤り。そうすると文の主語がなくなり、is の前に S がない文になる。
+- id: q07008
+  sec: s071
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: __Watching__① old movies __with__② my grandparents __are__③ one of my favorite ways __to spend__④ Sundays.
+  ans: "3"
+  why: 主語は〈Watching old movies with my grandparents〉という動名詞のかたまり。動名詞の主語は単数扱いなので are ではなく is。
+  trap: 直前の grandparents や movies（複数形）につられて③are を正しいと思う誤り。主語のかたまりの中の名詞は動詞の数を決めない。
+- id: q07009
+  sec: s071
+  set: 節末
+  lv: 2
+  kind: 和訳
+  min: 2
+  inst: 次の英文を日本語に訳しなさい。
+  q: Her job at the zoo is feeding the animals twice a day.
+  ans: 動物園での彼女の仕事は、1日に2回動物にえさをやることだ。
+  alt: [彼女の動物園での仕事は、動物に1日2回えさをあげることだ。]
+  why: is の後ろの feeding the animals は C の動名詞で「動物にえさをやること」。採点の目安：「仕事＝えさをやること」の関係が訳に出ていれば正解。
+  trap: is feeding を進行形と読み、「仕事が動物にえさをやっている」と訳す誤り。主語の job はえさをやる動作をしないので、C の動名詞と分かる。
+- id: q07010
+  sec: s071
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Taking pictures of the animals (＿) at this zoo.
+  choices: [is not allowed, are not allowed, does not allow, do not allow]
+  ans: "1"
+  why: 主語は動名詞のかたまりなので単数扱い。写真を撮ることは「許可される側」なので受動態。is not allowed を選ぶ。
+  trap: animals につられて②are not allowed を選ぶ誤り。また③④は能動態で、「撮影が何かを許さない」という意味になってしまう。
+# ---- 7-2 ----
+- id: q07011
+  sec: s072
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  q: 父は、私が夜遅く外出するのを好まない。<br>My father doesn't like (＿) going out late at night.
+  choices: [I, my, mine, myself]
+  ans: "2"
+  why: 外出するのは「私」で、文の主語 my father とは違う。動名詞 going の前に、意味上の主語を所有格 my で置く。
+  trap: 「私が」の訳から主格の①I を選ぶ誤り。動名詞の意味上の主語は所有格か目的格で、主格は使わない。
+- id: q07012
+  sec: s072
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: （　）内の動詞を使い、空所1つに1語を入れなさい。
+  q: "Nobody likes (＿) (＿) at by others. (laugh)"
+  ans: being laughed
+  why: 「人に笑われること」なので、動名詞の受動 being＋過去分詞。laugh at は群動詞（@s053）なので at を残す。
+  trap: laughing とする誤り。主語の Nobody（人）は笑う側ではなく笑われる側。
+- id: q07013
+  sec: s072
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Shin was sad about (＿) invited to the party.
+  choices: [not being, being not, not to be, no being]
+  ans: "1"
+  why: about は前置詞なので動名詞。「招待されないこと」は否定と受動を組み合わせて not being invited。not は動名詞の直前に置く。
+  trap: ②being not とする誤り。動名詞の否定は not を being の前に置く。③は不定詞なので前置詞の後ろに置けない。
+- id: q07014
+  sec: s072
+  set: 節末
+  lv: 1
+  kind: 和訳
+  min: 2
+  inst: 次の英文を日本語に訳しなさい。
+  q: I'm sorry for not answering your email sooner.
+  ans: もっと早くメールに返事をしなかったことを申し訳なく思う。
+  alt: [メールの返事がもっと早くできなくてすまない。]
+  why: not answering は「返事をしないこと」。sooner は「もっと早く」。採点の目安：not を「〜しなかった」と否定で訳していれば正解。
+  trap: not を見落として「返事をしたことをすまなく思う」と訳す誤り。not は直後の動名詞を打ち消す。
+- id: q07015
+  sec: s072
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: My grandfather is proud of (＿) a famous baseball player when he was young.
+  choices: [being, having been, to be, to have been]
+  ans: "2"
+  why: of の後ろなので動名詞。誇りに思うのは今（is）、有名な選手だったのは若いころ（when he was young）で主節の時より前なので、完了動名詞 having been。
+  trap: ①being を選ぶ誤り。being だと「今有名な選手であること」になり、when he was young と合わない。③④は不定詞で、前置詞の後ろに置けない。
+- id: q07016
+  sec: s072
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: I'm sorry __for not to call__① you __last night__②. I __was__③ busy __helping__④ my mother.
+  ans: "1"
+  why: for は前置詞なので、後ろは動名詞。否定は not calling とする。④の be busy doing（〜するのに忙しい）は正しい形。
+  trap: 不定詞の否定 not to do をそのまま使い、①を正しいと思う誤り。前置詞の後ろでは not doing にする。
+- id: q07017
+  sec: s072
+  set: 節末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 彼は息子が医者であることを誇りに思っている。<br>He ( being / his / is / of / proud / son ) a doctor.
+  words: [being, his, is, of, proud, son]
+  ans: He is proud of his son being a doctor.
+  why: be proud of の後ろに動名詞 being a doctor を置く。医者であるのは息子なので、意味上の主語 his son を being の前に置く。
+  trap: He is proud of being his son a doctor. のように意味上の主語を動名詞の後ろに置く誤り。意味上の主語は動名詞の前。
+# ---- 7-3 ----
+- id: q07018
+  sec: s073
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  q: We should avoid (＿) out in the middle of the day in summer.
+  choices: [go, to go, going, gone]
+  ans: "3"
+  why: avoid（〜を避ける）は後ろに doing だけをとる動詞。going を選ぶ。
+  trap: 「出かけるのを避ける」の「〜するのを」から②to go を選ぶ誤り。avoid は to do をとらない。
+- id: q07019
+  sec: s073
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: （　）内の動詞を使い、空所1つに1語を入れなさい。
+  q: "My brother promised (＿) (＿) me his bike tomorrow. (lend)"
+  ans: to lend
+  why: promise（約束する）は後ろに to do をとる動詞。これから先のことを約束するので to lend。
+  trap: lending とする誤り。promise は doing をとらない。約束するのはこれから先のことなので to do と覚える。
+- id: q07020
+  sec: s073
+  set: 節末
+  lv: 1
+  kind: 和訳
+  min: 2
+  inst: 次の英文を日本語に訳しなさい。
+  q: Please remember to bring your swimsuit tomorrow.
+  ans: 明日は忘れずに水着を持ってきなさい。
+  alt: [明日、水着を持ってくるのを忘れないでください。]
+  why: remember to do は「（これから）忘れずに〜する」。tomorrow からもこれからのことだと分かる。採点の目安：「忘れずに持ってくる」の意味が出ていれば正解。
+  trap: 「水着を持ってきたことを覚えていなさい」と訳す誤り。それは remember doing の意味。
+- id: q07021
+  sec: s073
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: （　）内の動詞を適切な形にして空所に入れなさい。空所1つに1語とする。
+  q: "Please stop (＿). The baby is sleeping. (talk)"
+  ans: talking
+  why: 赤ちゃんが寝ているので、「話すのをやめて」という意味。「〜するのをやめる」は stop doing。
+  trap: 原形の talk をそのまま入れる誤り。stop の O は doing の形にする。なお stop to talk は「話すために立ち止まる」という別の意味になる。
+- id: q07022
+  sec: s073
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: I'll never forget (＿) Mt. Fuji from the airplane when I was ten.
+  choices: [seeing, to see, see, to have seen]
+  ans: "1"
+  why: when I was ten から、富士山を見たのは前のこと。前にしたことを忘れないのは forget doing。
+  trap: ②to see を選ぶ誤り。forget to do は「（これから）〜するのを忘れる」で、when I was ten と合わない。
+- id: q07023
+  sec: s073
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: Would you __mind__① __to wait__② here __until__③ the doctor __comes__④ back?
+  ans: "2"
+  why: mind（〜するのをいやがる）は後ろに doing だけをとる。to wait ではなく waiting にする。④comes は時の副詞節なので現在形で正しい（@s023）。
+  trap: ④comes を未来のことだから will come にすべきだと考える誤り。until の節は時の副詞節なので、未来のことでも現在形。
+- id: q07024
+  sec: s073
+  set: 節末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 眠れなかったので、試しに温かい牛乳を飲んでみた。<br>I couldn't sleep, so I ( drinking / milk / tried / warm ).
+  words: [drinking, milk, tried, warm]
+  ans: I couldn't sleep, so I tried drinking warm milk.
+  why: 「試しに〜してみる」は try doing。tried の後ろに動名詞 drinking と、その O の warm milk を続ける。
+  trap: 「〜しようとした」の try to do と混同する誤り。与えられた語は drinking なので、ここは try doing（試しにやってみた）の文。
+# ---- 7-4 ----
+- id: q07025
+  sec: s074
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Zoe is used to (＿) up early because she works at a bakery.
+  choices: [get, getting, got, be got]
+  ans: "2"
+  why: be used to（〜に慣れている）の to は前置詞なので、後ろは動名詞。getting を選ぶ。
+  trap: to を不定詞の to と考えて①get を選ぶ誤り。used to do（以前は〜した）と形が似ているので、前の is を見落とさない。
+- id: q07026
+  sec: s074
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: （　）内の動詞を適切な形にして空所に入れなさい。
+  q: "My little sister is looking forward to (＿) to the zoo on Sunday. (go)"
+  ans: going
+  why: look forward to の to は前置詞なので、後ろは動名詞。going を入れる。
+  trap: to の後ろだから原形の go を入れる誤り。look forward to the trip と名詞を置けるので、この to は前置詞。
+- id: q07027
+  sec: s074
+  set: 節末
+  lv: 1
+  kind: 英作
+  min: 3
+  inst: 日本語の意味になるように、（　）内の語句を使って英文を書きなさい。
+  q: 今日は何も食べたい気がしない。（feel like）
+  ans: I don't feel like eating anything today.
+  alt: [I do not feel like eating anything today., Today I don't feel like eating anything.]
+  why: feel like doing で「〜したい気がする」。like は前置詞なので eating にする。採点の目安：feel like eating の形と、否定文の anything が正しければ正解。
+  trap: I don't feel like to eat … とする誤り。この like は前置詞なので、後ろに to do は置けない。
+- id: q07028
+  sec: s074
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: （　）内の動詞を1語で適切な形にして空所に入れなさい。
+  q: "It is no use (＿) about it now. The test is over. (worry)"
+  ans: worrying
+  why: It is no use doing で「〜しても無駄だ」。no use の後ろは動名詞にする。
+  trap: worry をそのまま入れる誤り。決まった言い方は doing の形ごと覚える。
+- id: q07029
+  sec: s074
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: Many people in the town __objected__① to __build__② a new road __through__③ the forest, so the plan __was__④ stopped.
+  ans: "2"
+  why: object to（〜に反対する）の to は前置詞なので、後ろは動名詞。build ではなく building にする。
+  trap: to の後ろだから原形で正しいと考える誤り。object to the plan と名詞を置けるので、この to は前置詞。
+- id: q07030
+  sec: s074
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: (＿) arriving at the station, Ms. Baker called her husband.
+  choices: [For, "On", At, With]
+  ans: "2"
+  why: on doing で「〜するとすぐに」。駅に着くとすぐに夫に電話した、という意味になる。
+  trap: 「駅に」の at に引かれて③At を選ぶ誤り。at は station の前にすでにある。空所は arriving の前の前置詞で、「〜するとすぐに」を表すのは on。
+- id: q07031
+  sec: s074
+  set: 節末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 明日何が起こるかは分からない。<br>( is / no / there / telling ) what will happen tomorrow.
+  words: [is, "no", there, telling]
+  ans: There is no telling what will happen tomorrow.
+  why: There is no doing で「〜することはできない」。There is no telling ～ で「〜は分からない（言うことはできない）」。
+  trap: There is telling no … と no の位置を誤る。no は動名詞の前に置き、no telling で1つのかたまりにする。
+# ---- 確認テスト ----
+- id: q07032
+  sec: s071
+  set: 確認テスト
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: （　）内の動詞を適切な形にして空所に入れなさい。
+  q: "You look tired. How about (＿) a break? (take)"
+  ans: taking
+  why: How about の about は前置詞なので、後ろは動名詞。How about doing? で「〜するのはどうですか」。
+  trap: take をそのまま入れる誤り。疑問文の形でも、前置詞の後ろの動詞は -ing 形にする。
+- id: q07033
+  sec: s071
+  set: 確認テスト
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Eating too many snacks between meals (＿) bad for your teeth.
+  choices: [is, are, being, to be]
+  ans: "1"
+  why: 主語は〈Eating too many snacks between meals〉という動名詞のかたまり。単数扱いなので is。
+  trap: 直前の meals や snacks につられて②are を選ぶ誤り。動名詞の主語の中の複数形は動詞の数を決めない。
+- id: q07034
+  sec: s072
+  set: 確認テスト
+  lv: 2
+  kind: 4択
+  min: 1
+  q: Mr. Nishi is proud of his daughter (＿) the speech contest last month.
+  choices: [having won, to win, win, to have won]
+  ans: "1"
+  why: of の後ろなので動名詞。his daughter は意味上の主語。優勝したのは先月で、誇りに思う今（is）より前なので having won。
+  trap: ④to have won を選ぶ誤り。完了の形でも不定詞は前置詞の後ろに置けない。
+- id: q07035
+  sec: s072
+  set: 確認テスト
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: My mother is worried __about__① my brother __not__② __to get__③ enough sleep __these__④ days.
+  ans: "3"
+  why: about は前置詞なので後ろは動名詞。my brother は意味上の主語で、否定は not getting とする。
+  trap: not の後ろだから to get でよいと考える誤り。not to do は不定詞の否定で、前置詞の後ろでは not doing を使う。
+- id: q07036
+  sec: s073
+  set: 確認テスト
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Have you finished (＿) the book I lent you?
+  choices: [reading, to read, read, to be read]
+  ans: "1"
+  why: finish は後ろに doing だけをとる動詞。reading を選ぶ。
+  trap: 「読み終える」の「読む」から②to read を選ぶ誤り。finish は to do をとらない。
+- id: q07037
+  sec: s073
+  set: 確認テスト
+  lv: 1
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 出かける前に窓を閉めるのを忘れないで。<br>Don't ( close / forget / the / to / windows ) before you go out.
+  words: [close, forget, the, to, windows]
+  ans: Don't forget to close the windows before you go out.
+  why: 「（これから）〜するのを忘れる」は forget to do。Don't forget to do で「忘れずに〜して」。
+  trap: forget closing と考えて語順に迷う誤り。to が与えられており、これからすることなので forget to close。
+- id: q07038
+  sec: s074
+  set: 確認テスト
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: My grandmother __has__① lived alone __for__② ten years, so she __is used__③ to __cook__④ for herself.
+  ans: "4"
+  why: be used to（〜に慣れている）の to は前置詞なので、後ろは動名詞の cooking。①②は継続の現在完了と期間の for で正しい。
+  trap: to の後ろだから原形でよいと考える誤り。be used to と used to do（以前は〜した）を取り違えている。
+- id: q07039
+  sec: s074
+  set: 確認テスト
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: It's raining hard, so I don't feel like (＿) out.
+  choices: [go, going, to go, gone]
+  ans: "2"
+  why: feel like doing で「〜したい気がする」。like は前置詞なので going。
+  trap: 「行きたい」から③to go を選ぶ誤り。would like to do と混同している。feel like の後ろは doing。
+- id: q07040
+  sec: s051
+  set: 確認テスト
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: （　）内の動詞を使い、空所1つに1語を入れなさい。
+  q: "Bikes must not (＿) (＿) in front of the school gate. (leave)"
+  ans: be left
+  why: 自転車は「置かれる側」なので受動態。助動詞の受動態は助動詞＋be＋過去分詞なので、must not be left。
+  trap: must not leave とする誤り。能動態にすると「自転車が置いていく」という意味になり、主語と動詞の関係が合わない。
+- id: q07041
+  sec: s043
+  set: 確認テスト
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: もっと早く家を出るべきだった。<br>I ( have / home / left / should ) earlier.
+  words: [have, home, left, should]
+  ans: I should have left home earlier.
+  why: 「〜すべきだった（のにしなかった）」という過去の後悔は should have done。should の後ろに have left を続ける。
+  trap: I should left home … のように have を落としたり、I have should left … と順を誤ったりする。助動詞の後ろは原形の have、その後ろに過去分詞。

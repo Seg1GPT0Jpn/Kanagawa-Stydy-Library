@@ -221,7 +221,7 @@ def main(paths):
             rest = Counter(t.lower() for t in toks)
             for t in outside_toks:
                 if rest[t.lower()] > 0: rest[t.lower()] -= 1
-            want = Counter(w.lower() for w in words)
+            want = Counter(str(w).lower() for w in words)  # 真偽値に化けた語でも止まらずに（化けは別の検査で ERROR になる）
             rest = +rest
             if rest != want:
                 err.append(f'{pid}: 整序の語が答えと一致しない: 与えた {sorted(want.elements())} / 答えの残り {sorted(rest.elements())}')
