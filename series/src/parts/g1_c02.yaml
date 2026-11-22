@@ -874,10 +874,10 @@ problems:
   q: The weather became (＿) in the afternoon, so I put on my coat.
   choices:
   - coldly
-  - cold
-  - coldness
   - colds
-  ans: '2'
+  - coldness
+  - cold
+  ans: '4'
   why: become は「〜になる」の意味で SVC の文型をとる。The weather was cold. が成り立つので空所は C で、形容詞の cold を置く。
   trap: 動詞の後ろだから副詞と考えて coldly を選ぶ誤り。C（補語）になるのは名詞か形容詞。名詞の coldness は The weather＝coldness にならない。
 - id: q02037

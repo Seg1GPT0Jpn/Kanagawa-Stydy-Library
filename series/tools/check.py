@@ -137,7 +137,7 @@ def main(bid):
     else: ok(f'例文番号 1〜{len(seq)} が本文の順に連番')
 
     # 3. 番号の一致：問題集と解答解説の問題番号が、データの順と完全に一致するか
-    want = [p['no'] for p in bk.problems if p['set'] != '模試']
+    want = [p['no'] for p in bk.problems if p['set'] not in ('模試', '総合演習')]
     for n in ('honsatsu', 'bessatsu'):
         # 問題の見出しとして組んだ番号（<span class="no">問N</span>）の並び。診断表の番号は含めない
         h = (out / f'{n}.html').read_text()
@@ -149,6 +149,17 @@ def main(bid):
             fail(f'{NAMES[n]}: PDF に出ていない問題番号 {sorted(set(want) - got_txt)[:10]}')
         else:
             ok(f'{NAMES[n]}: 問題番号 問1〜問{len(want)} がデータの順にそろい、PDF にも出ている')
+    sg = [p['label'] for p in bk.problems if p['set'] == '総合演習']
+    if sg:
+        bad = False
+        for n in ('honsatsu', 'bessatsu'):
+            h = (out / f'{n}.html').read_text()
+            heads = re.findall(r'<span class="no">(総合\d+-\d+)</span>', h)
+            t = re.sub(r'\s', '', texts[n])
+            lost = [l for l in sg if l not in t]
+            if heads != sg: fail(f'{NAMES[n]}: 総合演習の番号の並びがデータと違う（数 {len(heads)}/{len(sg)}）'); bad = True
+            elif lost: fail(f'{NAMES[n]}: PDF に出ていない総合演習の番号 {lost[:5]}'); bad = True
+        if not bad: ok(f'総合演習 {len(sg)} 問：本冊と別冊の番号がデータの順にそろい、PDF にも出ている')
     mock = [p for p in bk.problems if p['set'] == '模試']
     if mock:
         labels = [p['label'] for p in mock]
@@ -192,6 +203,7 @@ def main(bid):
     for n, name in NAMES.items():
         # 英語の none（None of ～）は本文の語なので除く。Python の None はふつう単独で出る
         t = re.sub(r'None(?=\s*(of|／|\)|）))', '', texts[n])
+        t = re.sub(r'(?<=[①②③④／（(])\s*None\b', '', t)   # 選択肢・語群の英語の none
         hits = [p for p in pats if p in t]
         if hits: fail(f'{name}: 混入 {hits}')
     if not any(f.startswith(tuple(NAMES.values())) and '混入' in f for f in FAIL): ok('混入なし（class= 〉 </ undefined NaN [object p.00 未置換の記法）')

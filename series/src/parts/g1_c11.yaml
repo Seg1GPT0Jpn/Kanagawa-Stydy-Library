@@ -419,8 +419,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: This box is (＿) than that box.
-  choices: [heavy, heavier, heaviest, more heavy]
-  ans: "2"
+  choices: [heavier, heavy, heaviest, more heavy]
+  ans: "1"
   why: than があるので比較級を選ぶ。heavy は子音字＋y で終わるので、y を i にかえて heavier とする。
   trap: ④more heavy を選ぶ誤り。heavy のような短い語は -er を付けて比較級にする。
   ref: s112
@@ -444,10 +444,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Amy can swim as (＿) as her sister.
-  choices: [fast, faster, fastest, more fast]
-  ans: "1"
+  choices: [faster, fast, fastest, more fast]
+  ans: "2"
   why: as ～ as（同じくらい）の間には原級を置く。fast を選ぶ。
-  trap: ②faster を選ぶ誤り。比べる文なので比較級にしたくなるが、as と as の間は -er を付けない元の形。
+  trap: ①faster を選ぶ誤り。比べる文なので比較級にしたくなるが、as と as の間は -er を付けない元の形。
 # ---- s111 節末 ----
 - id: q11004
   sec: s111
@@ -457,8 +457,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: This test was not (＿) difficult as the last test, so I finished it early.
-  choices: [as, more, very, than]
-  ans: "1"
+  choices: [very, more, as, than]
+  ans: "3"
   why: 後ろに difficult as the last test があるので、not as ～ as（〜ほど…ない）の形。「前のテストほど難しくなかったので早く終わった」と意味も通る。
   trap: ④than を選ぶ誤り。than は比較級（more difficult）と組むので、原級 difficult の前には置けない。
 - id: q11005
@@ -492,8 +492,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: I don't have as (＿) free time as my sister does.
-  choices: [many, much, more, most]
-  ans: "2"
+  choices: [many, most, more, much]
+  ans: "4"
   why: as と as の間には原級を置くので、more・most は入らない。time（時間）は数えられない名詞なので、as much time as の形にする。
   trap: ①many を選ぶ誤り。名詞を as ～ as の間に入れることには気づいても、time が数えられない名詞であることを見落とす。
 - id: q11008
@@ -529,10 +529,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: This is the (＿) pizza I have ever eaten.
-  choices: [good, better, best, well]
-  ans: "3"
+  choices: [good, best, better, well]
+  ans: "2"
   why: the と I have ever eaten（今までに食べた中で）があるので最上級。good の最上級は best。
-  trap: ②better を選ぶ誤り。better は比較級なので than と組む。前に the があり、than がないので最上級。
+  trap: ③better を選ぶ誤り。better は比較級なので than と組む。前に the があり、than がないので最上級。
 - id: q11011
   sec: s112
   set: 節末
@@ -552,8 +552,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Peter is the tallest (＿) the three brothers.
-  choices: [in, of, at, than]
-  ans: "2"
+  choices: [in, at, of, than]
+  ans: "3"
   why: 最上級の範囲を示す語。the three brothers は比べる仲間を表す複数の語句なので of を使う。
   trap: ①in を選ぶ誤り。in は in his family のように場所や集団を表す語に使う。複数の仲間を数えるときは of。
 - id: q11013
@@ -575,8 +575,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: The streets in this city are cleaner than (＿) in my hometown.
-  choices: [it, that, those, them]
-  ans: "3"
+  choices: [it, that, them, those]
+  ans: "4"
   why: 比べているのは「この市の通り」と「故郷の通り」。くり返しになる the streets は複数なので those で受ける。
   trap: ②that を選ぶ誤り。that of・that in の形を覚えていても、受ける名詞が複数の streets であることを見落とす。
 - id: q11015
@@ -611,8 +611,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: No other student in my class gets up (＿) than Kazu.
-  choices: [early, earlier, earliest, as early]
-  ans: "2"
+  choices: [earlier, early, earliest, as early]
+  ans: "1"
   why: 後ろに than があるので比較級。No other＋単数名詞＋比較級 than で「ほかのどの生徒もカズより早く起きない」と最上級の内容を表す。
   trap: ④as early を選ぶ誤り。No other ～ as early as の形もあるが、後ろが than なので as とは組まない。
 - id: q11018
@@ -623,8 +623,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: This tower is taller than any other (＿) in the city.
-  choices: [building, buildings, towers, the building]
-  ans: "1"
+  choices: [the building, buildings, towers, building]
+  ans: "4"
   why: 比較級＋than any other の後ろは数えられる名詞の単数形。building を選ぶ。
   trap: ②buildings を選ぶ誤り。「ほかの建物」を複数と考えやすいが、any other は「ほかのどの1つと比べても」という意味なので単数。
 - id: q11019
@@ -673,10 +673,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: The more you laugh, the (＿) you feel.
-  choices: [good, better, best, well]
-  ans: "2"
+  choices: [better, good, best, well]
+  ans: "1"
   why: The＋比較級, the＋比較級 の形なので、後半も比較級にする。feel good（気分がよい）の good の比較級 better を選ぶ。
-  trap: ①good を選ぶ誤り。前半の The more を見落とすと原級でよいと考えてしまう。the の後ろも比較級にそろえる。
+  trap: ②good を選ぶ誤り。前半の The more を見落とすと原級でよいと考えてしまう。the の後ろも比較級にそろえる。
 - id: q11023
   sec: s114
   set: 節末
@@ -746,8 +746,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: I prefer rice (＿) bread for breakfast.
-  choices: [than, to, for, from]
-  ans: "2"
+  choices: [than, for, to, from]
+  ans: "3"
   why: prefer A to B で「B より A を好む」。比べる相手は to で示す。
   trap: ①than を選ぶ誤り。「〜より」から than を考えやすいが、prefer は比較級ではないので than とは組まない。
 - id: q11029
@@ -769,8 +769,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: This cheap bag is inferior (＿) the expensive bag in quality.
-  choices: [than, to, of, as]
-  ans: "2"
+  choices: [than, as, of, to]
+  ans: "4"
   why: inferior（劣った）は比較の意味をもつ語で、比べる相手を to で示す。
   trap: ①than を選ぶ誤り。inferior は -er で終わって比較級に見えるが、than ではなく to と組む。
 - id: q11031
@@ -781,10 +781,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: It took (＿) three minutes to walk to the station. It was very close.
-  choices: [no more than, no less than, not less than, as many as]
-  ans: "1"
+  choices: [no less than, no more than, not less than, as many as]
+  ans: "2"
   why: 後ろの It was very close（とても近かった）から、「たった3分」と少ない気持ちを表す no more than（＝only）を選ぶ。
-  trap: ②no less than を選ぶ誤り。no less than は「3分も」と多いという気持ちを表すので、「とても近かった」と合わない。
+  trap: ①no less than を選ぶ誤り。no less than は「3分も」と多いという気持ちを表すので、「とても近かった」と合わない。
 - id: q11032
   sec: s115
   set: 節末
@@ -841,8 +841,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: No other girl in the class runs as (＿) as Amy.
-  choices: [fast, faster, fastest, more fast]
-  ans: "1"
+  choices: [fastest, faster, fast, more fast]
+  ans: "3"
   why: as ～ as の間には原級を置く。No other＋単数名詞＋as 原級 as で、エイミーがクラスでいちばん速いことを表す。
   trap: ②faster を選ぶ誤り。文全体が「いちばん速い」という意味なので比較級にしたくなるが、as と as の間は原級。
 - id: q11037
@@ -865,10 +865,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: My uncle (＿) lives in Osaka. He moved to Nagoya last year.
-  choices: [no longer, no more than, not so much, no less than]
-  ans: "1"
+  choices: [no more than, no longer, not so much, no less than]
+  ans: "2"
   why: 2つ目の文から、おじは以前は大阪に住んでいたが今は住んでいない。「もはや〜ない」の no longer を選ぶ。
-  trap: ②no more than を選ぶ誤り。no more than は「たった〜」で数や量の前に置く。動詞の前で「もう〜ない」を表すのは no longer。
+  trap: ①no more than を選ぶ誤り。no more than は「たった〜」で数や量の前に置く。動詞の前で「もう〜ない」を表すのは no longer。
 - id: q11039
   sec: s112
   set: 確認テスト
@@ -911,10 +911,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: The woman (＿) is talking with Mr. Shimizu is my aunt.
-  choices: [who, which, whose, what]
-  ans: "1"
+  choices: [whose, which, who, what]
+  ans: "3"
   why: 先行詞 The woman は人で、節の中では is talking の主語が欠けている。人・主語が欠けるときは who。文全体の動詞は後ろの is。
-  trap: ③whose を選ぶ誤り。whose の後ろには名詞が要るが、空所の直後は is talking で名詞がない。
+  trap: ①whose を選ぶ誤り。whose の後ろには名詞が要るが、空所の直後は is talking で名詞がない。
 - id: q11043
   sec: s074
   set: 確認テスト

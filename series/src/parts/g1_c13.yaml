@@ -304,10 +304,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: There are three (＿) in the park.
-  choices: [child, childs, children, a child]
-  ans: "3"
+  choices: [child, children, childs, a child]
+  ans: "2"
   why: three の後ろなので複数形にする。child の複数形は -s を付けず children と形が変わる。
-  trap: ②childs を選ぶ誤り。たいていの名詞は -s で複数形になるが、child・man・woman などは形そのものが変わる。
+  trap: ③childs を選ぶ誤り。たいていの名詞は -s で複数形になるが、child・man・woman などは形そのものが変わる。
 - id: q13002
   sec: s131
   set: 前提
@@ -315,10 +315,10 @@ problems:
   kind: 4択
   min: 1
   q: I ate (＿) orange and a banana for breakfast.
-  choices: [a, an, two, many]
-  ans: "2"
+  choices: [a, many, two, an]
+  ans: "4"
   why: orange は母音の音で始まる数えられる名詞の単数形なので、a ではなく an を付ける。
-  trap: ①a を選ぶ誤り。後ろの a banana につられやすいが、an にするかどうかは直後の語の最初の音で決まる。③④は orange が単数形なので合わない。
+  trap: ①a を選ぶ誤り。後ろの a banana につられやすいが、an にするかどうかは直後の語の最初の音で決まる。②③は orange が単数形なので合わない。
 - id: q13003
   sec: s131
   set: 前提
@@ -350,8 +350,8 @@ problems:
   kind: 4択
   min: 1
   q: How (＿) homework do you have this weekend?
-  choices: [many, much, lot, number]
-  ans: "2"
+  choices: [many, lot, much, number]
+  ans: "3"
   why: homework（宿題）は数えられない名詞。量をたずねるときは How much ～? を使う。
   trap: 宿題を「1つ、2つ」と数える感覚から①many を選ぶ誤り。homework は -s も付けない数えられない名詞。
 - id: q13006
@@ -374,10 +374,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: There (＿) a lot of furniture in Dave's new apartment.
-  choices: [is, are, be, have]
-  ans: "1"
+  choices: [are, is, be, have]
+  ans: "2"
   why: There is／are の後ろの名詞 furniture は数えられない名詞なので、単数の is を使う。a lot of が付いても furniture は単数扱いのまま。
-  trap: a lot of（たくさんの）を見て②are を選ぶ誤り。動詞の形は a lot of ではなく、後ろの名詞が数えられるかどうかで決まる。
+  trap: a lot of（たくさんの）を見て①are を選ぶ誤り。動詞の形は a lot of ではなく、後ろの名詞が数えられるかどうかで決まる。
 - id: q13008
   sec: s131
   set: 節末
@@ -420,8 +420,8 @@ problems:
   kind: 4択
   min: 1
   q: The news about the new station (＿) a big surprise to everyone in town.
-  choices: [was, were, are, have been]
-  ans: "1"
+  choices: [are, were, was, have been]
+  ans: "3"
   why: news は -s で終わるが数えられない名詞で、単数扱い。過去の単数の形 was を選ぶ。
   trap: -s の形につられて②were を選ぶ誤り。news は複数形ではなく、1語で「知らせ」という数えられない名詞。
 # ---- s132 節末 ----
@@ -443,8 +443,8 @@ problems:
   kind: 4択
   min: 1
   q: There were a lot of (＿) in the waiting room this morning.
-  choices: [people, peoples, person, a person]
-  ans: "1"
+  choices: [a person, peoples, person, people]
+  ans: "4"
   why: people は「人々」という意味の複数形なので、そのまま a lot of の後ろに置く。were とも合う。
   trap: 複数だから -s が要ると考えて②peoples を選ぶ誤り。peoples は「民族」の意味の複数形で、待合室の人には使わない。
 - id: q13014
@@ -501,8 +501,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Our family (＿) large. There are seven of us, including my grandparents.
-  choices: [is, are, have, be]
-  ans: "1"
+  choices: [have, are, is, be]
+  ans: "3"
   why: large は家族というまとまりの大きさを言っているので、family を1つのまとまりとして単数扱いにし、is を使う。
   trap: 家族が7人いるので②are を選ぶ誤り。まとまりの大きさや数を言う文では、family は単数扱い。
 - id: q13019
@@ -526,8 +526,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Dave has a dog and two cats. (＿) dog is white, and the cats are black.
-  choices: [A, The, An, One]
-  ans: "2"
+  choices: [A, One, An, The]
+  ans: "4"
   why: dog は前の文で a dog として一度出てきており、デイブの犬は1匹だけなので、聞き手にもどれか分かる。2回目は the を付ける。
   trap: ①A を選ぶ誤り。a は聞き手にどれか分からない1つに付ける。2回目に出てきた同じ物には the を使う。
 - id: q13021
@@ -560,8 +560,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: (＿) are friendly animals, and many families keep them as pets.
-  choices: [Dog, Dogs, The dog, A dog]
-  ans: "2"
+  choices: [Dog, A dog, The dog, Dogs]
+  ans: "4"
   why: 犬という種類全体の話なので、何も付けない複数形 Dogs を使う。動詞 are と、後ろの them も複数を表している。
   trap: ③The dog を選ぶ誤り。The dog も総称に使えるが単数扱いなので、are とも them とも合わない。①Dog は数えられる名詞の単数形に何も付けていないので使えない。
 - id: q13024
@@ -632,10 +632,10 @@ problems:
   kind: 4択
   min: 1
   q: Noel made (＿) with a boy from Brazil on his first day at the new school.
-  choices: [friend, friends, a friend, the friend]
-  ans: "2"
+  choices: [friend, a friend, friends, the friend]
+  ans: "3"
   why: 後ろに with があるので「〜と友達になる」の make friends with。2人以上が関わるので friends と複数形にする。
-  trap: 相手が a boy の1人なので③a friend を選ぶ誤り。make a friend（友達を1人作る）という言い方はあるが、with の前では friends にする。
+  trap: 相手が a boy の1人なので②a friend を選ぶ誤り。make a friend（友達を1人作る）という言い方はあるが、with の前では friends にする。
 - id: q13030
   sec: s133
   set: 確認テスト
@@ -643,8 +643,8 @@ problems:
   kind: 4択
   min: 1
   q: Hikari bought a new bike last week, but (＿) bike was stolen yesterday.
-  choices: [a, the, an, any]
-  ans: "2"
+  choices: [a, an, the, any]
+  ans: "3"
   why: bike は前で a new bike として一度出てきた。2回目に出てきた同じ自転車なので、聞き手にもどれか分かり、the を付ける。
   trap: ①a を選ぶ誤り。a bike と言うと、ヒカリが買った自転車とは別の、どれか1台の自転車の話になる。
 - id: q13031

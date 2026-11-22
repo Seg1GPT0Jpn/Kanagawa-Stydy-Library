@@ -347,8 +347,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: My uncle lives in a (＿) house by the sea.
-  choices: [beauty, beautiful, beautifully, beautify]
-  ans: "2"
+  choices: [beauty, beautify, beautifully, beautiful]
+  ans: "4"
   why: a と house の間で、名詞 house を説明する位置。名詞を説明するのは形容詞の beautiful。
   trap: ③beautifully を選ぶ誤り。-ly の付いた副詞は名詞を説明しない。
 - id: q15002
@@ -358,8 +358,8 @@ problems:
   kind: 4択
   min: 1
   q: How (＿) brothers and sisters do you have?
-  choices: [much, many, long, old]
-  ans: "2"
+  choices: [much, old, long, many]
+  ans: "4"
   why: brothers and sisters は数えられる名詞の複数形。数をたずねるときは How many を使う。
   trap: ①much を選ぶ誤り。How much は量や値段をたずねる言い方で、数えられる名詞の複数形には使わない。
   ref: s152
@@ -384,10 +384,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: I eat the same food every day. I want to eat (＿) this weekend.
-  choices: [different something, something different, differently something, something differently]
-  ans: "2"
+  choices: [something different, different something, differently something, something differently]
+  ans: "1"
   why: something を説明する形容詞は後ろに置くので、something different（何か違うもの）の順になる。
-  trap: ①different something を選ぶ誤り。ふつうの名詞なら形容詞は前に置くが、-thing で終わる語では形容詞を後ろに置く。
+  trap: ②different something を選ぶ誤り。ふつうの名詞なら形容詞は前に置くが、-thing で終わる語では形容詞を後ろに置く。
 - id: q15005
   sec: s151
   set: 節末
@@ -442,8 +442,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: My grandmother gave me a box (＿) of old photos.
-  choices: [full, fully, filling, fill]
-  ans: "1"
+  choices: [fill, fully, filling, full]
+  ans: "4"
   why: full of old photos（古い写真でいっぱいの）が、box を後ろから説明する形容詞のかたまり。full of で「〜でいっぱいの」。
   trap: ②fully を選ぶ誤り。名詞 box を説明するのは形容詞で、副詞は名詞を説明しない。
 - id: q15010
@@ -513,10 +513,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: (＿) people came to the summer festival, so the park was very crowded.
-  choices: [Quite a few, Few, A little, Little]
-  ans: "1"
+  choices: [Few, Quite a few, A little, Little]
+  ans: "2"
   why: people は数えられる名詞なので、A little・Little は使えない。「公園はとても混んでいた」と続くので、「かなり多くの」の Quite a few を選ぶ。
-  trap: ②Few を選ぶ誤り。few は「ほとんど〜ない」なので、「ほとんど来なかったので混んでいた」となり、後ろとつながらない。
+  trap: ①Few を選ぶ誤り。few は「ほとんど〜ない」なので、「ほとんど来なかったので混んでいた」となり、後ろとつながらない。
 - id: q15016
   sec: s152
   set: 節末
@@ -584,8 +584,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Ms. Carter is a very (＿) person. She never spends too much money and always makes wise choices.
-  choices: [sensible, sensitive, sense, sensibly]
-  ans: "1"
+  choices: [sensibly, sensitive, sense, sensible]
+  ans: "4"
   why: 名詞 person の前なので形容詞が入る。「お金を使いすぎず、いつも賢い選択をする」から、「分別のある」の sensible を選ぶ。
   trap: ②sensitive を選ぶ誤り。sensitive は「敏感な・傷つきやすい」で、賢い選択をすることとは結びつかない。
 - id: q15022
@@ -607,10 +607,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: This small car uses very little fuel, so it is very (＿).
-  choices: [economic, economical, economy, economics]
-  ans: "2"
+  choices: [economical, economic, economy, economics]
+  ans: "1"
   why: is very の後ろは C で形容詞が入る。「燃料をほとんど使わない」から、「節約になる・安上がりな」の economical を選ぶ。
-  trap: ①economic を選ぶ誤り。economic は「経済の」で、economic news のように名詞の前で使うことが多く、「安上がりな」の意味はない。
+  trap: ②economic を選ぶ誤り。economic は「経済の」で、economic news のように名詞の前で使うことが多く、「安上がりな」の意味はない。
 - id: q15024
   sec: s153
   set: 節末
@@ -632,10 +632,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Mr. Sugimoto's team trained very (＿) for the final game.
-  choices: [hard, hardly, hardness, harden]
-  ans: "1"
+  choices: [hardly, hard, hardness, harden]
+  ans: "2"
   why: trained を説明する M なので副詞が入る。「決勝に向けてとても一生懸命練習した」となる hard を選ぶ。
-  trap: -ly が付いているから副詞だと考えて②hardly を選ぶ誤り。hardly は「ほとんど〜ない」で、意味が変わる。
+  trap: -ly が付いているから副詞だと考えて①hardly を選ぶ誤り。hardly は「ほとんど〜ない」で、意味が変わる。
 - id: q15026
   sec: s154
   set: 節末
@@ -656,8 +656,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: I haven't seen Ms. Carter (＿). Is she busy these days?
-  choices: [late, lately, later, latest]
-  ans: "2"
+  choices: [late, later, lately, latest]
+  ans: "3"
   why: 現在完了の文で、these days（このごろ）とも合う「最近」の lately を選ぶ。
   trap: ①late を選ぶ誤り。late は「遅く・遅れて」で、「最近」の意味はない。
 - id: q15028
@@ -690,8 +690,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: When I visited my old school last month, my favorite teacher was not there. She had left the school three years (＿).
-  choices: [ago, before, since, already]
-  ans: "2"
+  choices: [ago, since, before, already]
+  ans: "3"
   why: had left は過去完了で、基準の時は先月学校を訪ねた時。その時より3年前なので、過去のある時から数える before を使う。
   trap: ①ago を選ぶ誤り。ago は今から数えて「〜前」で、過去形と使う。過去完了の文では before を使う。
 - id: q15031
@@ -715,8 +715,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: I'm hungry. Is there (＿) to eat in the fridge?
-  choices: [good anything, anything good, anything well, well anything]
-  ans: "2"
+  choices: [good anything, well anything, anything well, anything good]
+  ans: "4"
   why: anything を説明する形容詞 good は後ろに置き、その後ろに to eat を続ける。「-thing＋形容詞＋to do」の順。
   trap: ①good anything を選ぶ誤り。-thing で終わる語を説明する形容詞は後ろに置く。well は副詞なので名詞の働きをする語を説明しない。
 - id: q15033
@@ -785,10 +785,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: I have too (＿) homework today, so I can't go out.
-  choices: [many, much, few, a number of]
-  ans: "2"
+  choices: [much, many, few, a number of]
+  ans: "1"
   why: homework は数えられない名詞なので、量を表す much を使う。too much で「多すぎる」。
-  trap: ①many を選ぶ誤り。日本語では「宿題がたくさん」と数えられそうに見えるが、homework は英語では数えられない名詞である。
+  trap: ②many を選ぶ誤り。日本語では「宿題がたくさん」と数えられそうに見えるが、homework は英語では数えられない名詞である。
 - id: q15039
   sec: s153
   set: 確認テスト

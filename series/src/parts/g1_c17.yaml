@@ -342,8 +342,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Where (＿) your brother work?
-  choices: [is, does, do, are]
-  ans: "2"
+  choices: [does, is, do, are]
+  ans: "1"
   why: work は一般動詞で、主語の your brother は3人称単数。一般動詞の疑問文なので、疑問詞の後ろに does を置く。
   trap: ③do を選ぶ誤り。主語が3人称単数の現在形では、do ではなく does を使う。
 - id: q17002
@@ -353,8 +353,8 @@ problems:
   kind: 4択
   min: 1
   q: My sister (＿) like coffee, so she always drinks tea.
-  choices: [isn't, doesn't, don't, not]
-  ans: "2"
+  choices: [isn't, don't, doesn't, not]
+  ans: "3"
   why: like は一般動詞で、主語の my sister は3人称単数。一般動詞の否定文なので、動詞の前に doesn't を置く。
   trap: ①isn't を選ぶ誤り。like は一般動詞なので、be 動詞の否定 isn't は使わない。
   ref: s172
@@ -365,8 +365,8 @@ problems:
   kind: 4択
   min: 1
   q: A：Did you watch the soccer game last night?<br>B：No, I (＿). I went to bed early.
-  choices: [didn't, don't, wasn't, haven't]
-  ans: "1"
+  choices: [haven't, don't, wasn't, didn't]
+  ans: "4"
   why: Did you ～? とたずねられたので、did を使って答える。No の後ろは否定の形で、No, I didn't. となる。
   trap: ②don't を選ぶ誤り。質問は過去（last night）なので、答えも did の否定の didn't にする。
   ref: s172
@@ -390,8 +390,8 @@ problems:
   kind: 4択
   min: 1
   q: Please ask Sota (＿) he can lend me his dictionary.
-  choices: [that, if, what, which]
-  ans: "2"
+  choices: [that, which, what, if]
+  ans: "4"
   why: 「辞書を貸してくれるかどうか」と、答えの決まっていないことをたずねる。疑問詞のない疑問文（Can you lend …?）を組みこむので、「〜かどうか」の if を使う。
   trap: ③what を選ぶ誤り。後ろの he can lend me his dictionary は O までそろった完全な文で、what が代わりをする要素が欠けていない。
 - id: q17006
@@ -436,10 +436,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Which team (＿) will win the final this year?
-  choices: [do you think, you think, do you think that, think you]
-  ans: "1"
+  choices: [do you think that, you think, do you think, think you]
+  ans: "3"
   why: 「どのチームが勝つと思うか」と相手の考えをたずねる文で、Yes／No では答えられない。疑問詞 which team を文の頭に出し、do you think を続け、その後ろに節の V の will win を置く。
-  trap: ③do you think that を選ぶ誤り。疑問詞が節の S のときは、do you think のすぐ後ろに V を続け、that は入れない。
+  trap: ①do you think that を選ぶ誤り。疑問詞が節の S のときは、do you think のすぐ後ろに V を続け、that は入れない。
 - id: q17010
   sec: s171
   set: 節末
@@ -484,8 +484,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Let's go to the beach this weekend, (＿)?
-  choices: [will you, shall we, don't we, won't you]
-  ans: "2"
+  choices: [will you, won't you, don't we, shall we]
+  ans: "4"
   why: Let's ～ の文には、付加疑問 shall we? を付ける。
   trap: ①will you を選ぶ誤り。will you? は命令文に付ける付加疑問。Let's ～ は「いっしょに〜しよう」なので we を使う。
 - id: q17014
@@ -495,10 +495,10 @@ problems:
   kind: 4択
   min: 1
   q: A：Aren't you going to eat that cake?<br>B：(＿) I'm already full.
-  choices: ["Yes, I am.", "No, I'm not.", "Yes, I'm not.", "No, I am."]
-  ans: "2"
+  choices: ["Yes, I am.", "Yes, I'm not.", "No, I'm not.", "No, I am."]
+  ans: "3"
   why: もうおなかがいっぱいなので、答えは「ケーキを食べない」という否定の内容。内容が否定なので No を使い、後ろも否定の I'm not にする。
-  trap: ③Yes, I'm not. を選ぶ誤り。日本語の「はい、食べません」をそのまま英語にしている。英語では答えの内容で Yes／No を決め、Yes の後ろに否定の形は続かない。
+  trap: ②Yes, I'm not. を選ぶ誤り。日本語の「はい、食べません」をそのまま英語にしている。英語では答えの内容で Yes／No を決め、Yes の後ろに否定の形は続かない。
 - id: q17015
   sec: s172
   set: 節末
@@ -530,10 +530,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: A：(＿) did you call me for?<br>B：I wanted to ask you about the homework.
-  choices: [Why, How, What, Which]
-  ans: "3"
+  choices: [What, How, Why, Which]
+  ans: "1"
   why: 文の終わりに for があり、B は電話の目的を答えている。What ～ for? で「何のために〜」と目的をたずねる。
-  trap: ①Why を選ぶ誤り。why は1語で「なぜ」を表すので、文の終わりの for と組み合わせない。
+  trap: ③Why を選ぶ誤り。why は1語で「なぜ」を表すので、文の終わりの for と組み合わせない。
 # ---- s173 節末 ----
 - id: q17018
   sec: s173
@@ -554,8 +554,8 @@ problems:
   kind: 4択
   min: 1
   q: A：Do you always walk to school?<br>B：No, (＿). When it rains, I take the bus.
-  choices: [not always, always not, never, not at all]
-  ans: "1"
+  choices: [always not, not always, never, not at all]
+  ans: "2"
   why: 雨の日はバスに乗るが、ほかの日は歩くので、「いつも歩くわけではない」という部分否定。not always を使う。
   trap: ③never を選ぶ誤り。never は「一度も〜ない」で、ふだんは歩いていることと合わない。
 - id: q17020
@@ -590,10 +590,10 @@ problems:
   min: 1
   inst: 日本語の意味になるように、（　）に入る最も適切なものを1つ選びなさい。
   q: ジャケットを2着試着したが、どちらも気に入らなかった。<br>I tried on two jackets, but I didn't like (＿) of them.
-  choices: [both, either, neither, none]
-  ans: "2"
+  choices: [either, both, neither, none]
+  ans: "1"
   why: 2つについて「どちらも〜ない」と全体否定にするので、not ～ either を使う。didn't があるので either を選ぶ。
-  trap: ①both を選ぶ誤り。not ～ both は「両方とも気に入ったわけではない（1着は気に入った）」という部分否定になり、日本語と合わない。③neither は didn't と否定が重なり、④none は3つ以上に使う。
+  trap: ②both を選ぶ誤り。not ～ both は「両方とも気に入ったわけではない（1着は気に入った）」という部分否定になり、日本語と合わない。③neither は didn't と否定が重なり、④none は3つ以上に使う。
 - id: q17023
   sec: s173
   set: 節末
@@ -650,8 +650,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Mio is very honest. She is (＿) person to tell a lie.
-  choices: [the first, the last, the best, the only]
-  ans: "2"
+  choices: [the first, the best, the last, the only]
+  ans: "3"
   why: 前の文に「とても正直だ」とあるので、「決してうそをつくような人ではない」となる the last ～ to do を選ぶ。
   trap: ①the first を選ぶ誤り。the first person to tell a lie は「最初にうそをつく人」で、正直だという前の文と合わない。
 - id: q17028
@@ -674,8 +674,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Sota's little brother eats (＿) ramen for lunch. He never tries anything else.
-  choices: [nothing but, anything but, far from, none of]
-  ans: "1"
+  choices: [none of, anything but, far from, nothing but]
+  ans: "4"
   why: 後ろの文に「ほかのものは決して食べない」とあるので、「ラーメンだけ」となる nothing but（〜だけ）を選ぶ。
   trap: ②anything but を選ぶ誤り。anything but ramen は「ラーメン以外なら何でも」で、後ろの文と反対の意味になる。
 - id: q17030
@@ -710,8 +710,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Excuse me. Do you know (＿)?
-  choices: [what time it is, what time is it, what is time it, what time does it]
-  ans: "1"
+  choices: [what time does it, what time is it, what is time it, what time it is]
+  ans: "4"
   why: what time 以下は know の O になる間接疑問なので、「疑問詞＋S＋V」の what time it is にする。
   trap: ②what time is it を選ぶ誤り。What time is it? の疑問文の語順のまま組みこんでいる。
 - id: q17033
@@ -745,8 +745,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: A：You don't have a pet, do you?<br>B：(＿) I have a cat named Momo.
-  choices: ["Yes, I do.", "No, I don't.", "Yes, I don't.", "No, I do."]
-  ans: "1"
+  choices: ["Yes, I don't.", "No, I don't.", "Yes, I do.", "No, I do."]
+  ans: "3"
   why: B はネコを飼っているので、答えの内容は「ペットを飼っている」という肯定。肯定なので Yes, I do. を使う。
   trap: ④No, I do. を選ぶ誤り。日本語の「いいえ、飼っています」をそのまま英語にしている。答えの内容が肯定なら Yes を使い、No の後ろに肯定の形は続かない。
 - id: q17036
@@ -803,10 +803,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: We have (＿) time before the train leaves, so let's buy something to drink.
-  choices: [a little, a few, few, many]
-  ans: "1"
+  choices: [a few, a little, few, many]
+  ans: "2"
   why: time は「時間」の意味では数えられない名詞なので、a little・little を使う。「飲み物を買おう」と続くので、「少しある」の a little を選ぶ。
-  trap: ②a few を選ぶ誤り。a few は数えられる名詞の複数形に使う。「時間」の time は数えられない名詞である。
+  trap: ①a few を選ぶ誤り。a few は数えられる名詞の複数形に使う。「時間」の time は数えられない名詞である。
 - id: q17041
   sec: s092
   set: 確認テスト

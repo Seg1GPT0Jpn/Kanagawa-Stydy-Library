@@ -468,8 +468,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: I want (＿) a new bike for my birthday.
-  choices: [buy, to buy, buying, bought]
-  ans: "2"
+  choices: [buy, bought, buying, to buy]
+  ans: "4"
   why: want の後ろに「〜すること」を続けるときは to＋原形の形にする。want to do で「〜したい」。
   trap: 「買いたい」の「買う」から①buy を選ぶ誤り。want の後ろに動詞の原形をそのまま並べることはできない。
 - id: q06002
@@ -503,8 +503,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: I went to the library (＿) some books about space.
-  choices: [borrow, borrowing, to borrow, borrowed]
-  ans: "3"
+  choices: [to borrow, borrowing, borrow, borrowed]
+  ans: "1"
   why: 「本を借りるために」と、図書館へ行った目的を表す。目的は副詞の働きの不定詞 to borrow で表す。
   trap: ②borrowing を選ぶ誤り。went to the library の後ろに -ing 形を置いても「借りるために」という目的は表せない。
 - id: q06005
@@ -574,8 +574,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: It is dangerous (＿) children to swim in this river.
-  choices: [for, of, to, by]
-  ans: "1"
+  choices: [to, of, for, by]
+  ans: "3"
   why: 泳ぐのは children で、不定詞の意味上の主語。dangerous は人の性質ではないので for 人 を使う。
   trap: ②of を選ぶ誤り。Children are dangerous. は元の文の意味にならない。of は kind など人の性質を表す形容詞のときだけ。
 - id: q06011
@@ -597,8 +597,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: I'm very happy (＿) invited to your party.
-  choices: [to be, to have, for, be]
-  ans: "1"
+  choices: [be, to have, for, to be]
+  ans: "4"
   why: 私はパーティーに「招待される側」なので、受動の不定詞 to be invited にする。happy の後ろで「〜して」と原因を表す。
   trap: ②to have を選ぶと to have invited（招待した）になり、私が招待した側になってしまう。
 - id: q06013
@@ -645,8 +645,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Ms. Moore asked us (＿) quietly in the library.
-  choices: [speak, spoke, speaking, to speak]
-  ans: "4"
+  choices: [speak, to speak, speaking, spoke]
+  ans: "2"
   why: ask 人 to do で「人に〜するように頼む」。ask は O の後ろに to do を置く動詞。
   trap: 使役動詞と同じように①speak を選ぶ誤り。O の後ろに原形を置くのは make・let・have と知覚動詞（help は原形も to do も可）で、ask は to が要る。
 - id: q06017
@@ -668,10 +668,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: I heard someone (＿) my name from behind.
-  choices: [to call, call, called, to calling]
-  ans: "2"
+  choices: [call, to call, called, to calling]
+  ans: "1"
   why: hear は知覚動詞で、hear O do の形をとる。「だれかが私の名前を呼ぶ」の関係なので原形の call。
-  trap: ①to call を選ぶ誤り。知覚動詞の能動態では O の後ろに to を付けない。
+  trap: ②to call を選ぶ誤り。知覚動詞の能動態では O の後ろに to を付けない。
 - id: q06019
   sec: s063
   set: 節末
@@ -716,8 +716,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: I don't know (＿) to say to her.
-  choices: [what, why, when, if]
-  ans: "1"
+  choices: [if, why, when, what]
+  ans: "4"
   why: to say to her の中では say の O が欠けている（不完全な文）。欠けた O の代わりになるのは名詞の what。
   trap: ③when を選ぶ誤り。when は M なので後ろは完全な文になるはずだが、say の O が欠けたままになる。
 - id: q06023
@@ -774,8 +774,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: The heavy rain made (＿) impossible for us to play soccer.
-  choices: [that, this, them, it]
-  ans: "4"
+  choices: [that, this, it, them]
+  ans: "3"
   why: make O C の O が to play soccer（不定詞）なので、O の位置に形式目的語の it を置く。for us は意味上の主語。
   trap: ①that を選ぶ誤り。後ろの to do を受けるしるしになるのは it だけで、that や this は形式目的語にならない。
 # ---- 節末 s065 ----
@@ -798,8 +798,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: The tea was too hot (＿) drink.
-  choices: [for me to, for me, to me, me to]
-  ans: "1"
+  choices: [me to, for me, to me, for me to]
+  ans: "4"
   why: too ～ to do の意味上の主語は to の前に for 人 で置く。for me to drink で「私が飲むには熱すぎた」。
   trap: ②for me を選ぶ誤り。for me の後ろに原形の drink を直接置くことはできず、to が要る。
 - id: q06030
@@ -822,8 +822,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: I got up early (＿) miss the first bus.
-  choices: [so as not to, not so as to, so as not, as not to]
-  ans: "1"
+  choices: [so as not, not so as to, so as not to, as not to]
+  ans: "3"
   why: 「〜しないように」という目的の否定は so as not to do。not は to の直前に置く。
   trap: ②not so as to を選ぶ誤り。準動詞の否定の not は to の直前で、so as の前には出さない。
 - id: q06032
@@ -858,10 +858,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: It is fun (＿) cards with my family on weekends.
-  choices: [play, played, plays, to play]
-  ans: "4"
+  choices: [to play, played, plays, play]
+  ans: "1"
   why: It は形式主語で、本当の主語は「家族とトランプをすること」。名詞の働きの不定詞 to play を後ろに置く。
-  trap: ①play を選ぶ誤り。It is fun の後ろに動詞の原形をそのまま置いても主語にならない。
+  trap: ④play を選ぶ誤り。It is fun の後ろに動詞の原形をそのまま置いても主語にならない。
 - id: q06035
   sec: s062
   set: 確認テスト
@@ -892,10 +892,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: We haven't decided (＿) to stay in Kyoto.
-  choices: [where, what, which, why]
-  ans: "1"
+  choices: [what, where, which, why]
+  ans: "2"
   why: to stay in Kyoto は欠けた要素のない完全な文なので、M になる疑問詞が入る。意味から「どこに泊まるか」の where。
-  trap: ②what を選ぶ誤り。what は名詞なので、後ろに欠けた O などが要るが、stay in Kyoto には欠けた要素がない。
+  trap: ①what を選ぶ誤り。what は名詞なので、後ろに欠けた O などが要るが、stay in Kyoto には欠けた要素がない。
 - id: q06038
   sec: s065
   set: 確認テスト
@@ -927,10 +927,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: The sad movie made me (＿).
-  choices: [cry, to cry, crying, cried]
-  ans: "1"
+  choices: [to cry, cry, crying, cried]
+  ans: "2"
   why: 使役の make は make O do の形。「私が泣く」の関係なので原形の cry。
-  trap: ②to cry を選ぶ誤り。make の後ろの O に続く動詞は、能動態では to を付けない原形。
+  trap: ①to cry を選ぶ誤り。make の後ろの O に続く動詞は、能動態では to を付けない原形。
 - id: q06041
   sec: s064
   set: 確認テスト
@@ -951,8 +951,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Breakfast (＿) in the hotel restaurant from seven to nine every morning.
-  choices: [serves, is served, is serving, served]
-  ans: "2"
+  choices: [serves, is serving, is served, served]
+  ans: "3"
   why: 朝食は「出される側」なので受動態。毎朝のことなので現在形の is served。
   trap: ①serves を選ぶ誤り。朝食は出す側にはなれないので、能動態は主語と動詞の関係が合わない。
 - id: q06043

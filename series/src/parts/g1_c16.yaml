@@ -346,8 +346,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Can you come to the movies with (＿) tomorrow?
-  choices: [we, our, us, ours]
-  ans: "3"
+  choices: [we, our, ours, us]
+  ans: "4"
   why: 前置詞 with の後ろなので、代名詞は目的格の us を使う。
   trap: ①we を選ぶ誤り。日本語の「私たちと」につられやすいが、we は S の位置で使う形で、前置詞の後ろには置かない。
   ref: s141
@@ -372,10 +372,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: I usually leave home (＿) seven thirty.
-  choices: [at, "on", in, for]
-  ans: "1"
+  choices: [in, "on", at, for]
+  ans: "3"
   why: seven thirty（7時30分）は時刻。時刻の前には at を置く。
-  trap: ③in を選ぶ誤り。in は in the morning・in July のように幅のある期間に使い、時刻には使わない。
+  trap: ①in を選ぶ誤り。in は in the morning・in July のように幅のある期間に使い、時刻には使わない。
 # ---- s161 節末 ----
 - id: q16004
   sec: s161
@@ -408,8 +408,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: I waited for Rina at the station (＿) six, but she didn't come.
-  choices: [by, until, in, for]
-  ans: "2"
+  choices: [by, for, in, until]
+  ans: "4"
   why: wait（待つ）は続く動作。「6時までずっと待った」を表すのは until。
   trap: ①by を選ぶ誤り。by は「〜までには」と期限を表し、finish・return のような1回で終わる動作と使う。待つことのように続く動作には until を使う。
 - id: q16007
@@ -432,8 +432,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: I was so sleepy that I fell asleep twice (＿) the long meeting yesterday.
-  choices: [for, during, while, by]
-  ans: "2"
+  choices: [during, for, while, by]
+  ans: "1"
   why: the long meeting は特定の期間を表す名詞。「会議の間に（2度）」と、その期間のある時を表すのは前置詞の during。
   trap: ③while を選ぶ誤り。while は接続詞で、後ろに S＋V を置く。後ろが名詞だけなら前置詞の during を使う。
 - id: q16009
@@ -468,10 +468,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: There is a big map of Japan (＿) the wall of our classroom.
-  choices: ["on", in, at, between]
-  ans: "1"
+  choices: ["in", "on", at, between]
+  ans: "2"
   why: 地図は壁の表面に接して付いているので on を使う。on は机の上だけでなく、壁や天井に付いているものにも使う。
-  trap: ②in を選ぶ誤り。日本語の「壁に」から位置を考えずに選ぶと迷う。in は空間の中を表し、壁の表面に付いているものには on を使う。
+  trap: ①in を選ぶ誤り。日本語の「壁に」から位置を考えずに選ぶと迷う。in は空間の中を表し、壁の表面に付いているものには on を使う。
 - id: q16012
   sec: s162
   set: 節末
@@ -515,8 +515,8 @@ problems:
   min: 1
   inst: 日本語の意味になるように、（　）に入る最も適切なものを1つ選びなさい。
   q: そのネコは塀を飛び越えて逃げていった。<br>The cat jumped (＿) the fence and ran away.
-  choices: [over, above, "on", through]
-  ans: "1"
+  choices: [through, above, "on", over]
+  ans: "4"
   why: 「飛び越えて」は、塀の上を越えて向こう側へ動くことなので over を使う。
   trap: ②above を選ぶ誤り。above は「〜より高い所に」という位置を表し、「越えて向こうへ動く」意味はない。越える動きには over を使う。
 - id: q16016
@@ -551,8 +551,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: My grandparents usually travel (＿) train.
-  choices: [by, with, in, "on"]
-  ans: "1"
+  choices: [with, by, in, "on"]
+  ans: "2"
   why: 交通の手段は by＋何も付けない名詞で表す。by train で「電車で」。
   trap: ④on を選ぶ誤り。on を使うなら on the train のように the が要る。train に何も付いていないので by を使う。
 - id: q16019
@@ -574,8 +574,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Are you (＿) or against the plan to change our school uniform?
-  choices: [for, to, of, at]
-  ans: "1"
+  choices: [of, to, for, at]
+  ans: "3"
   why: against（〜に反対して）と or で並んでいるので、反対の意味の「〜に賛成して」を表す for が入る。
   trap: ②to を選ぶ誤り。「〜に」という日本語につられやすいが、to には「賛成して」の意味はない。賛成は for で表す。
 - id: q16021
@@ -598,8 +598,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: In this area, milk from local farms is made (＿) cheese.
-  choices: [of, from, into, by]
-  ans: "3"
+  choices: [of, from, by, into]
+  ans: "4"
   why: 主語は milk（牛乳）で、原料。原料を主語にして「〜に作り変えられる」と言うときは be made into を使う。「牛乳はチーズになる」。
   trap: ②from を選ぶ誤り。「原料の形が変わるなら from」と覚えていると選びやすいが、from は Cheese is made from milk. のように作られた物を主語にするときの形。原料が主語なら into。
 - id: q16023
@@ -634,8 +634,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Our flight was delayed for two hours (＿) the thick fog.
-  choices: [because, because of, though, while]
-  ans: "2"
+  choices: [because, though, because of, while]
+  ans: "3"
   why: 空所の後ろは the thick fog（濃い霧）という名詞だけで、S＋V がない。名詞の前に置いて理由を表すのは群前置詞の because of。
   trap: ①because を選ぶ誤り。意味は合うが、because は接続詞で後ろに S＋V を置く。名詞の前には because of を使う。
 - id: q16026
@@ -657,10 +657,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Ren stayed home and read a book (＿) going out with his friends.
-  choices: [instead of, because of, according to, thanks to]
-  ans: "1"
+  choices: [because of, instead of, according to, thanks to]
+  ans: "2"
   why: 「友だちと出かける代わりに（出かけないで）、家で本を読んだ」となる instead of が合う。
-  trap: ②because of を選ぶ誤り。because of を入れると「友だちと出かけるせいで家にいた」となり、出かけていないのに出かけたことになって意味が通らない。
+  trap: ①because of を選ぶ誤り。because of を入れると「友だちと出かけるせいで家にいた」となり、出かけていないのに出かけたことになって意味が通らない。
 - id: q16028
   sec: s164
   set: 節末
@@ -681,8 +681,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: (＿) Yuna was very tired, she helped her little brother with his homework.
-  choices: [Despite, Although, Because of, During]
-  ans: "2"
+  choices: [Despite, During, Because of, Although]
+  ans: "4"
   why: 空所の後ろは Yuna was very tired で、S＋V がある。接続詞が入るので Although。「とても疲れていたけれども、弟の宿題を手伝った」と意味も合う。
   trap: ①Despite を選ぶ誤り。「〜にもかかわらず」の意味は合うが、despite は前置詞なので、後ろに S＋V は置けない。
 - id: q16030
@@ -722,8 +722,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: We have a math test (＿) Monday morning.
-  choices: [at, "on", in, for]
-  ans: "2"
+  choices: ["on", "at", in, for]
+  ans: "1"
   why: morning でも、Monday が付いて特定の日の朝になると on を使う。on Monday morning。
   trap: ③in を選ぶ誤り。in the morning につられやすいが、曜日が付いた朝は on。
 - id: q16033
@@ -745,10 +745,10 @@ problems:
   min: 1
   inst: 日本語の意味になるように、（　）に入る最も適切なものを1つ選びなさい。
   q: そのネコは2台の車の間に隠れていた。<br>The cat was hiding (＿) two cars.
-  choices: [between, among, across, along]
-  ans: "1"
+  choices: [among, between, across, along]
+  ans: "2"
   why: 2台の車の「間に」なので、2つの間を表す between。
-  trap: ②among を選ぶ誤り。among は3つ以上の集まりの中に使う。2つなら between。
+  trap: ①among を選ぶ誤り。among は3つ以上の集まりの中に使う。2つなら between。
 - id: q16035
   sec: s162
   set: 確認テスト
@@ -791,8 +791,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: (＿) the long flight, I watched three movies.
-  choices: [While, During, Because, Although]
-  ans: "2"
+  choices: [While, Because, During, Although]
+  ans: "3"
   why: 空所の後ろは the long flight という名詞だけで、S＋V がない。名詞の前に置いて「〜の間に」を表す前置詞の During が入る。
   trap: ①While を選ぶ誤り。「〜の間」の意味は合うが、while は接続詞で後ろに S＋V を置く。名詞の前には during を使う。
 - id: q16039

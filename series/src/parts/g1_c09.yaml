@@ -390,8 +390,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: I didn't go to school yesterday (＿) I had a fever.
-  choices: [because, but, or, so]
-  ans: "1"
+  choices: [or, but, because, so]
+  ans: "3"
   ref: s093
   why: 後ろの I had a fever（熱があった）は、学校に行かなかった理由。理由を表す because を選ぶ。
   trap: ④so を選ぶ誤り。so は「だから」と結果を表すので、「学校に行かなかった。だから熱があった」と、原因と結果が逆になる。
@@ -415,8 +415,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: (＿) I got home, my mother was cooking dinner.
-  choices: [Because, If, When, And]
-  ans: "3"
+  choices: [Because, If, And, When]
+  ans: "4"
   ref: s093
   why: 「私が家に着いたとき、母は夕食を作っていた」と、時を表す When を選ぶ。
   trap: ①Because を選ぶ誤り。「家に着いたので、母が料理をしていた」となり、理由として意味がつながらない。
@@ -429,10 +429,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Turn left at the bank, (＿) you will see the post office on your right.
-  choices: [or, but, and, so]
-  ans: "3"
+  choices: [and, but, or, so]
+  ans: "1"
   why: 命令文＋コンマ＋and で「〜しなさい、そうすれば…」。銀行で左に曲がれば郵便局が見える、というよい結果が続くので and。
-  trap: ①or を選ぶ誤り。or は「さもないと」なので、「曲がらないと郵便局が見える」となって意味が合わない。
+  trap: ③or を選ぶ誤り。or は「さもないと」なので、「曲がらないと郵便局が見える」となって意味が合わない。
 - id: q09005
   sec: s091
   set: 節末
@@ -451,8 +451,8 @@ problems:
   kind: 4択
   min: 1
   q: My bike was broken, (＿) I walked to school this morning.
-  choices: [but, or, so, nor]
-  ans: "3"
+  choices: [but, so, or, nor]
+  ans: "2"
   why: 「自転車が壊れていた」が原因で、「歩いて学校へ行った」が結果。結果を表す so でつなぐ。
   trap: ①but を選ぶ誤り。but は逆の内容をつなぐので、「壊れていたのに歩いた」となり、流れが合わない。
 - id: q09007
@@ -486,8 +486,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: The players as well as their coach (＿) excited after the game.
-  choices: [was, were, is, being]
-  ans: "2"
+  choices: [was, being, is, were]
+  ans: "4"
   why: B as well as A（A だけでなく B も）が主語のときは、前にある B に動詞を合わせる。B は The players（複数）で、after the game は過去の話なので were。
   trap: ①was を選ぶ誤り。動詞の直前の their coach（1人）に合わせてしまう。as well as の形では、話の中心は前の The players。
 - id: q09010
@@ -557,10 +557,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: We talked about (＿) we should take a taxi or walk to the hotel.
-  choices: [that, if, whether, what]
-  ans: "3"
+  choices: [that, whether, if, what]
+  ans: "2"
   why: 「タクシーに乗るか歩くか」と答えが決まっていない内容なので「〜かどうか」の名詞節。前置詞 about の後ろなので、if ではなく whether を使う。
-  trap: ②if を選ぶ誤り。O の位置なら if も使えるが、前置詞の後ろでは whether だけを使う。後ろは完全な文なので what も入らない。
+  trap: ③if を選ぶ誤り。O の位置なら if も使えるが、前置詞の後ろでは whether だけを使う。後ろは完全な文なので what も入らない。
 - id: q09016
   sec: s092
   set: 節末
@@ -592,8 +592,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: I stayed at the library (＿) it closed at eight.
-  choices: [by the time, until, as soon as, unless]
-  ans: "2"
+  choices: [by the time, as soon as, until, unless]
+  ans: "3"
   why: 「図書館が8時に閉まるまでずっといた」と、stay（とどまる）が続いたことを表すので until。
   trap: ①by the time を選ぶ誤り。by the time は「〜するまでには」と期限を表し、ずっと続く stay とは組み合わない。
 - id: q09019
@@ -616,10 +616,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: (＿) it was very hot, we went swimming in the river.
-  choices: [Unless, Because, Until, Whether]
-  ans: "2"
+  choices: [Unless, Whether, Until, Because]
+  ans: "4"
   why: 「とても暑かったので、川へ泳ぎに行った」と、理由を表す Because。
-  trap: ④Whether を選ぶ誤り。Whether は「〜かどうか」の名詞節や「〜であろうとなかろうと」を表し、理由は表さない。
+  trap: ②Whether を選ぶ誤り。Whether は「〜かどうか」の名詞節や「〜であろうとなかろうと」を表し、理由は表さない。
 - id: q09021
   sec: s093
   set: 節末
@@ -640,10 +640,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Ryo had already gone home (＿) I got to the gym.
-  choices: [until, while, by the time, unless]
-  ans: "3"
+  choices: [by the time, while, until, unless]
+  ans: "1"
   why: 「私が体育館に着いたときには、リョウはもう帰っていた」。着いた時までにすでに終わっていたことなので、期限を表す by the time。
-  trap: ①until を選ぶ誤り。until は「〜するまでずっと」と続く状態を表すので、had already gone home（もう帰ってしまった）とは合わない。
+  trap: ③until を選ぶ誤り。until は「〜するまでずっと」と続く状態を表すので、had already gone home（もう帰ってしまった）とは合わない。
 - id: q09023
   sec: s093
   set: 節末
@@ -677,10 +677,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Kate went to school (＿) she had a slight fever.
-  choices: [because, although, unless, so that]
-  ans: "2"
+  choices: [although, because, unless, so that]
+  ans: "1"
   why: 「少し熱があったけれども、学校へ行った」と、逆向きの内容をつなぐので譲歩の although。
-  trap: ①because を選ぶ誤り。「熱があったので学校へ行った」となり、理由として意味が通らない。
+  trap: ②because を選ぶ誤り。「熱があったので学校へ行った」となり、理由として意味が通らない。
 - id: q09026
   sec: s094
   set: 節末
@@ -783,8 +783,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: The fact (＿) Mai practiced every day surprised her coach.
-  choices: [which, what, that, whether]
-  ans: "3"
+  choices: [which, what, whether, that]
+  ans: "4"
   why: 空所の前に名詞 The fact があり、後ろの Mai practiced every day は完全な文。The fact の中身を説明する同格の that を選ぶ。文の V は surprised。
   trap: ①which を選ぶ誤り。名詞の後ろなので関係代名詞と考えてしまう。後ろが完全な文なら、関係代名詞ではなく同格の that。
 - id: q09035
@@ -807,8 +807,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Please stay in your seat (＿) the bus stops completely.
-  choices: [by the time, so that, until, though]
-  ans: "3"
+  choices: [by the time, until, so that, though]
+  ans: "2"
   why: 「バスが完全に止まるまで、ずっと座席にいてください」。stay（とどまる）が続くことを表すので until。
   trap: ①by the time を選ぶ誤り。by the time は「〜するまでには」と期限を表すので、続く動作の stay とは組み合わない。
 - id: q09037
@@ -830,10 +830,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: We couldn't play tennis (＿) the strong wind.
-  choices: [because, because of, though, while]
-  ans: "2"
+  choices: [because of, because, though, while]
+  ans: "1"
   why: 空所の後ろは the strong wind という名詞だけで S＋V がないので、前置詞が入る。「強い風のせいで」と理由を表す because of。
-  trap: ①because を選ぶ誤り。意味は合うが、because は接続詞なので後ろに S＋V が要る（because the wind was strong）。
+  trap: ②because を選ぶ誤り。意味は合うが、because は接続詞なので後ろに S＋V が要る（because the wind was strong）。
 - id: q09039
   sec: s094
   set: 確認テスト

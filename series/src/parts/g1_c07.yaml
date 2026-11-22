@@ -349,10 +349,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Riko finished (＿) her homework before dinner.
-  choices: [do, to do, doing, done]
-  ans: "3"
+  choices: [doing, to do, do, done]
+  ans: "1"
   why: finish（〜し終える）の後ろには -ing 形を置く。中学で習った enjoy doing・finish doing の形。
-  trap: 「宿題をする」の do をそのまま入れる①の誤り。finished の後ろに動詞の原形を直接置くことはできない。
+  trap: 「宿題をする」の do をそのまま入れる③の誤り。finished の後ろに動詞の原形を直接置くことはできない。
 - id: q07002
   sec: s071
   set: 前提
@@ -373,8 +373,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: I like (＿) to music in my room.
-  choices: [listen, listening, listened, listens]
-  ans: "2"
+  choices: [listen, listens, listened, listening]
+  ans: "4"
   why: like の後ろには to do か -ing 形を置く。選択肢の中では listening だけが正しい。
   trap: 「聞くのが好き」の「聞く」から①listen を選ぶ誤り。like の後ろに動詞の原形を直接置くことはできない。
 # ---- 7-1 ----
@@ -397,8 +397,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: (＿) a diary every day is a good way to practice English.
-  choices: [Keep, Keeps, Keeping, Kept]
-  ans: "3"
+  choices: [Keep, Keeps, Kept, Keeping]
+  ans: "4"
   why: 文の V は is。空所から every day までが主語なので、「日記をつけること」を表す動名詞 Keeping を選ぶ。
   trap: 文の頭だから命令文と考えて①Keep を選ぶ誤り。後ろに is があるので、空所を含むかたまりは主語になる。
 - id: q07006
@@ -408,8 +408,8 @@ problems:
   kind: 4択
   min: 1
   q: Ms. Baker left the classroom without (＿) the door.
-  choices: [close, to close, closing, closed]
-  ans: "3"
+  choices: [close, closing, to close, closed]
+  ans: "2"
   why: without は前置詞なので、後ろは動名詞。without closing で「閉めないで」。
   trap: 「ドアを閉める」の close をそのまま入れる①の誤り。前置詞の後ろに原形は置けない。
 - id: q07007
@@ -455,10 +455,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Taking pictures of the animals (＿) at this zoo.
-  choices: [is not allowed, are not allowed, does not allow, do not allow]
-  ans: "1"
+  choices: [does not allow, are not allowed, is not allowed, do not allow]
+  ans: "3"
   why: 主語は動名詞のかたまりなので単数扱い。写真を撮ることは「許可される側」なので受動態。is not allowed を選ぶ。
-  trap: animals につられて②are not allowed を選ぶ誤り。また③④は能動態で、「撮影が何かを許さない」という意味になってしまう。
+  trap: animals につられて②are not allowed を選ぶ誤り。また①④は能動態で、「撮影が何かを許さない」という意味になってしまう。
 # ---- 7-2 ----
 - id: q07011
   sec: s072
@@ -467,10 +467,10 @@ problems:
   kind: 4択
   min: 1
   q: 父は、私が夜遅く外出するのを好まない。<br>My father doesn't like (＿) going out late at night.
-  choices: [I, my, mine, myself]
-  ans: "2"
+  choices: [my, I, mine, myself]
+  ans: "1"
   why: 外出するのは「私」で、文の主語 my father とは違う。動名詞 going の前に、意味上の主語を所有格 my で置く。
-  trap: 「私が」の訳から主格の①I を選ぶ誤り。動名詞の意味上の主語は所有格か目的格で、主格は使わない。
+  trap: 「私が」の訳から主格の②I を選ぶ誤り。動名詞の意味上の主語は所有格か目的格で、主格は使わない。
 - id: q07012
   sec: s072
   set: 節末
@@ -490,8 +490,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Shin was sad about (＿) invited to the party.
-  choices: [not being, being not, not to be, no being]
-  ans: "1"
+  choices: [no being, being not, not to be, not being]
+  ans: "4"
   why: about は前置詞なので動名詞。「招待されないこと」は否定と受動を組み合わせて not being invited。not は動名詞の直前に置く。
   trap: ②being not とする誤り。動名詞の否定は not を being の前に置く。③は不定詞なので前置詞の後ろに置けない。
 - id: q07014
@@ -514,10 +514,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: My grandfather is proud of (＿) a famous baseball player when he was young.
-  choices: [being, having been, to be, to have been]
-  ans: "2"
+  choices: [having been, being, to be, to have been]
+  ans: "1"
   why: of の後ろなので動名詞。誇りに思うのは今（is）、有名な選手だったのは若いころ（when he was young）で主節の時より前なので、完了動名詞 having been。
-  trap: ①being を選ぶ誤り。when he was young があれば being でも通じることはあるが、時のずれを形で示す having been が最も適切。③④は不定詞で、前置詞の後ろに置けない。
+  trap: ②being を選ぶ誤り。when he was young があれば being でも通じることはあるが、時のずれを形で示す having been が最も適切。③④は不定詞で、前置詞の後ろに置けない。
 - id: q07016
   sec: s072
   set: 節末
@@ -549,10 +549,10 @@ problems:
   kind: 4択
   min: 1
   q: We should avoid (＿) out in the middle of the day in summer.
-  choices: [go, to go, going, gone]
-  ans: "3"
+  choices: [go, going, to go, gone]
+  ans: "2"
   why: avoid（〜を避ける）は後ろに doing だけをとる動詞。going を選ぶ。
-  trap: 「出かけるのを避ける」の「〜するのを」から②to go を選ぶ誤り。avoid は to do をとらない。
+  trap: 「出かけるのを避ける」の「〜するのを」から③to go を選ぶ誤り。avoid は to do をとらない。
 - id: q07019
   sec: s073
   set: 節末
@@ -595,8 +595,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: I'll never forget (＿) Mt. Fuji from the airplane when I was ten.
-  choices: [seeing, to see, see, to have seen]
-  ans: "1"
+  choices: [see, to see, seeing, to have seen]
+  ans: "3"
   why: when I was ten から、富士山を見たのは前のこと。前にしたことを忘れないのは forget doing。
   trap: ②to see を選ぶ誤り。forget to do は「（これから）〜するのを忘れる」で、when I was ten と合わない。
 - id: q07023
@@ -688,8 +688,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: (＿) arriving at the station, Ms. Baker called her husband.
-  choices: [For, "On", At, With]
-  ans: "2"
+  choices: [For, "With", At, "On"]
+  ans: "4"
   why: on doing で「〜するとすぐに」。駅に着くとすぐに夫に電話した、という意味になる。
   trap: 「駅に」の at に引かれて③At を選ぶ誤り。at は station の前にすでにある。空所は arriving の前の前置詞で、「〜するとすぐに」を表すのは on。
 - id: q07031
@@ -724,8 +724,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Eating too many snacks between meals (＿) bad for your teeth.
-  choices: [is, are, being, to be]
-  ans: "1"
+  choices: [being, are, is, to be]
+  ans: "3"
   why: 主語は〈Eating too many snacks between meals〉という動名詞のかたまり。単数扱いなので is。
   trap: 直前の meals や snacks につられて②are を選ぶ誤り。動名詞の主語の中の複数形は動詞の数を決めない。
 - id: q07034
@@ -793,8 +793,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: It's raining hard, so I don't feel like (＿) out.
-  choices: [go, going, to go, gone]
-  ans: "2"
+  choices: [go, gone, to go, going]
+  ans: "4"
   why: feel like doing で「〜したい気がする」。like は前置詞なので going。
   trap: 「行きたい」から③to go を選ぶ誤り。would like to do と混同している。feel like の後ろは doing。
 - id: q07040

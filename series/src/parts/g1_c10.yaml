@@ -481,8 +481,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: I need a box (＿) is big enough for these books.
-  choices: [which, who, what, whose]
-  ans: "1"
+  choices: [whose, who, what, which]
+  ans: "4"
   why: 先行詞 a box は人以外で、節の中で is の主語が欠けている。人以外・主語が欠ける場合は which（または that）。
   trap: ③what は先行詞をふくむ関係代名詞なので、a box のような先行詞があるときは使えない（@s104）。
 - id: q10002
@@ -493,10 +493,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: The teacher (＿) we met at the library yesterday was Ms. Fujita.
-  choices: [who, whose, which, what]
-  ans: "1"
+  choices: [which, whose, who, what]
+  ans: "3"
   why: 先行詞 The teacher は人で、節の中で met の目的語が欠けている。人・目的語が欠ける場合は who（that も可。書き言葉では whom も使う）。
-  trap: 節の中の the library（場所）につられて③which を選ぶ誤り。先行詞は空所の前の The teacher で、人である。
+  trap: 節の中の the library（場所）につられて①which を選ぶ誤り。先行詞は空所の前の The teacher で、人である。
 - id: q10003
   sec: s101
   set: 前提
@@ -517,8 +517,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: My father bought a car (＿) runs on electricity.
-  choices: [who, which, whose, what]
-  ans: "2"
+  choices: [who, whose, which, what]
+  ans: "3"
   why: 先行詞 a car は人以外で、節の中で runs の主語が欠けている。人以外・主語が欠ける場合は which（または that）。
   trap: 文の初めの My father（人）につられて①who を選ぶ誤り。先行詞は空所の直前の a car である。
 - id: q10005
@@ -541,8 +541,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: The doctor (＿) my mother visited last week told her to rest for three days.
-  choices: [which, whose, whom, what]
-  ans: "3"
+  choices: [which, whose, what, whom]
+  ans: "4"
   why: 先行詞 The doctor は人で、節の中で visited の目的語が欠けている。人・目的語が欠ける場合は whom（who・that も可。省略もできる）。
   trap: 空所の直後の my mother を見て②whose を選ぶ誤り。whose の後ろには冠詞や my の付かない名詞が来る。my mother は節の中の主語である。
 - id: q10007
@@ -590,10 +590,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: I know a girl (＿) father is a pilot.
-  choices: [who, whose, which, that]
-  ans: "2"
+  choices: [whose, who, which, that]
+  ans: "1"
   why: 空所の後ろは冠詞のない名詞 father で始まり、「その女の子の父親」という持ち主の関係になっている。所有格の whose を使う。
-  trap: 先行詞が人なので①who を選ぶ誤り。who father is a pilot では、father の持ち主が示されない。
+  trap: 先行詞が人なので②who を選ぶ誤り。who father is a pilot では、father の持ち主が示されない。
 - id: q10011
   sec: s102
   set: 節末
@@ -613,8 +613,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: The girl with (＿) I shared a tent at the camp is now my best friend.
-  choices: [who, whose, which, whom]
-  ans: "4"
+  choices: [who, whom, which, whose]
+  ans: "2"
   why: 先行詞 The girl は人で、前置詞 with の直後。人を受けて前置詞の直後に置けるのは whom。I shared a tent with the girl の with the girl が前に出ている。
   trap: 先行詞が人なので①who を選ぶ誤り。who は前置詞の直後には置けない。
 - id: q10013
@@ -648,8 +648,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Mr. Ogawa is a neighbor (＿) whom our family can always depend.
-  choices: ["on", to, for, with]
-  ans: "1"
+  choices: ["with", to, for, "on"]
+  ans: "4"
   why: 節の中の動詞 depend は depend on（〜を頼りにする）の形で使う。our family can always depend on him の on が whom の前に出ている。
   trap: 先行詞が人なので「人に」の to や with を選ぶ誤り。前置詞は先行詞ではなく、節の中の動詞 depend で決まる。
 - id: q10016
@@ -731,10 +731,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: (＿) Nora made for us last night was delicious.
-  choices: [That, Who, Which, What]
-  ans: "4"
+  choices: [What, Who, Which, That]
+  ans: "1"
   why: 空所の前に先行詞がなく、節の中で made の目的語が欠けている。先行詞をふくみ「〜するもの」を表す What が入る。
-  trap: ①That を選ぶ誤り。文頭の That 節は接続詞なので後ろに完全な文が必要だが、made の目的語が欠けている。
+  trap: ④That を選ぶ誤り。文頭の That 節は接続詞なので後ろに完全な文が必要だが、made の目的語が欠けている。
 - id: q10023
   sec: s104
   set: 節末
@@ -754,10 +754,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Nora was glad about the fact (＿) her little brother could now swim 25 meters.
-  choices: [which, that, what, whose]
-  ans: "2"
+  choices: [that, which, what, whose]
+  ans: "1"
   why: 後ろの her little brother could now swim 25 meters は、主語と動詞がそろい、欠けている語のない完全な文（25 meters は「どれだけ泳ぐか」を表す語句で、目的語ではない）。the fact の中身を説明する同格の that が入る。「弟が今では25メートル泳げるという事実」。
-  trap: ①which を選ぶ誤り。which は関係代名詞なので後ろが不完全な文でなければならないが、ここでは何も欠けていない。
+  trap: ②which を選ぶ誤り。which は関係代名詞なので後ろが不完全な文でなければならないが、ここでは何も欠けていない。
 - id: q10025
   sec: s104
   set: 節末
@@ -802,8 +802,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: My grandmother, (＿) is 82 years old, still swims twice a week.
-  choices: [that, which, who, whose]
-  ans: "3"
+  choices: [that, who, which, whose]
+  ans: "2"
   why: 先行詞 My grandmother は人で、節の中で is の主語が欠けている。コンマがあるので非制限用法になり、that は使えない。残るのは who。
   trap: 人・主語の欠けた関係詞節なので①that も入ると考えやすい。しかし that は非制限用法では使わない。
 - id: q10029
@@ -837,8 +837,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: (＿) wants to use the music room after school must ask Mr. Mori first.
-  choices: [Whoever, Whatever, Whomever, Anyone]
-  ans: "1"
+  choices: [Whomever, Whatever, Whoever, Anyone]
+  ans: "3"
   why: 空所から school までが must ask の主語になる名詞節で、節の中では wants の主語が欠けている。人を表し主語の働きをするのは Whoever（＝Anyone who）。
   trap: ④Anyone を選ぶ誤り。Anyone は先行詞をふくまないので、Anyone who wants … と who が要る。
 - id: q10032
@@ -860,8 +860,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: I'll give this extra concert ticket to (＿) asks me first.
-  choices: [whomever, whoever, who, whatever]
-  ans: "2"
+  choices: [whomever, whatever, who, whoever]
+  ans: "4"
   why: 節の中で asks の主語が欠けているので主格の whoever。to の目的語は whoever asks me first という節全体である。
   trap: 直前の前置詞 to を見て①whomever を選ぶ誤り。whoever／whomever は直前の語ではなく、節の中の働きで決まる。
 - id: q10034
@@ -909,8 +909,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: I have a friend (＿) father works as a vet at the city zoo.
-  choices: [whose, whom, who, which]
-  ans: "1"
+  choices: [whom, whose, who, which]
+  ans: "2"
   why: 空所の直後の father に冠詞も所有格もなく、「その友達の父親」という所有の関係になっている。所有者を表すのは whose。
   trap: 先行詞が人なので③who を選ぶ誤り。who を入れると who father works … となり、father の前に何もない形が残る。
 - id: q10038
@@ -933,10 +933,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: The temple which (＿) about 600 years ago is the oldest building in our town.
-  choices: [built, was built, has built, was building]
-  ans: "2"
+  choices: [was built, built, has built, was building]
+  ans: "1"
   why: 関係詞節の主語は which（＝the temple）。寺は「建てる側」ではなく「建てられる側」なので受動態にする。about 600 years ago があるので過去形の was built。
-  trap: ①built を選ぶ誤り。which built は能動態の過去形なので「寺が（何かを）建てた」という意味になり、主語と動詞の関係が合わない。
+  trap: ②built を選ぶ誤り。which built は能動態の過去形なので「寺が（何かを）建てた」という意味になり、主語と動詞の関係が合わない。
 - id: q10040
   sec: s104
   set: 確認テスト
@@ -968,10 +968,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: This guitar, (＿) my uncle gave me ten years ago, still sounds great.
-  choices: [which, where, that, what]
-  ans: "1"
+  choices: [that, where, which, what]
+  ans: "3"
   why: 先行詞 This guitar は人以外で、節の中では gave me の後ろの目的語が欠けている。コンマがあるので that は使えず、which が入る。
-  trap: 目的語が欠けていることには気づいても、③that を選ぶ誤り。コンマの後ろでは that は使えない。
+  trap: 目的語が欠けていることには気づいても、①that を選ぶ誤り。コンマの後ろでは that は使えない。
 - id: q10043
   sec: s104
   set: 確認テスト

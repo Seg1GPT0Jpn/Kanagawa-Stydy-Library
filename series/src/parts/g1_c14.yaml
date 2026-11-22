@@ -397,8 +397,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Sean's parents are very kind. I often play tennis with (＿) on Sundays.
-  choices: [they, their, them, theirs]
-  ans: "3"
+  choices: [they, their, theirs, them]
+  ans: "4"
   why: 前置詞 with の後ろなので目的格。Sean's parents（複数）を指すので them。
   trap: ①they を選ぶ誤り。日本語では「彼らと」と言うので主格を選びやすいが、前置詞の後ろは目的格になる。
 - id: q14002
@@ -432,8 +432,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Is this pencil case (＿)? I found it under your desk.
-  choices: [you, your, yours, yourself]
-  ans: "3"
+  choices: [you, your, yourself, yours]
+  ans: "4"
   why: is の後ろで、後ろに名詞がない。「あなたのもの」を1語で表す所有代名詞 yours を選ぶ。
   trap: ②your を選ぶ誤り。your は所有格で、後ろに名詞（your pencil case）が要る。
 - id: q14005
@@ -455,10 +455,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: My grandfather lives (＿) in a small house by the sea.
-  choices: [by him, by himself, with himself, of himself]
-  ans: "2"
+  choices: [by himself, by him, with himself, of himself]
+  ans: "1"
   why: by oneself で「ひとりで」。S の My grandfather に合わせて by himself にする。
-  trap: ①by him を選ぶ誤り。him は S とは別の男性を指すので、「彼のそばに住む」という別の意味に読めてしまう。
+  trap: ②by him を選ぶ誤り。him は S とは別の男性を指すので、「彼のそばに住む」という別の意味に読めてしまう。
 - id: q14007
   sec: s141
   set: 節末
@@ -491,8 +491,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Our coach asked my brother and (＿) to carry the boxes to the gym.
-  choices: [I, my, me, mine]
-  ans: "3"
+  choices: [I, me, my, mine]
+  ans: "2"
   why: my brother and ＿ は asked の O。and で並べても O の位置なので目的格 me。my brother を消して asked me としてみると確かめられる。
   trap: ①I を選ぶ誤り。「〜と私」と2人を並べると主格にしたくなるが、格は位置で決まる。
 - id: q14010
@@ -515,8 +515,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: I lost my pen, so I need to buy (＿) after school.
-  choices: [it, one, them, ones]
-  ans: "2"
+  choices: [it, them, one, ones]
+  ans: "3"
   why: 買うのはなくしたペンそのものではなく、ペンを1本。a pen の代わりになる one を選ぶ。
   trap: ①it を選ぶ誤り。it はなくしたペンそのものを指すので、「なくしたペンを買う」となって意味が通らない。
 - id: q14012
@@ -562,10 +562,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: The air in the mountains is cleaner than (＿) in the city.
-  choices: [it, that, those, one]
-  ans: "2"
+  choices: [it, those, that, one]
+  ans: "3"
   why: 比べているのは「山の空気」と「都会の空気」。the air のくり返しを避け、後ろに in the city が付くので that を使う。air は数えられない名詞で単数扱い。
-  trap: ③those を選ぶ誤り。those は複数の名詞の代わり。air は数えられない名詞なので that になる。
+  trap: ②those を選ぶ誤り。those は複数の名詞の代わり。air は数えられない名詞なので that になる。
 - id: q14016
   sec: s142
   set: 節末
@@ -598,8 +598,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: I have two sisters. One is a nurse, and (＿) is a college student.
-  choices: [another, other, the other, the others]
-  ans: "3"
+  choices: [another, other, the others, the other]
+  ans: "4"
   why: 姉妹は2人で、1人目（One）の残りは1人に決まる。残りの1つは the other。
   trap: ①another を選ぶ誤り。another は「別のもう1つ」で、残りがほかにもいる場合に使う。2人のうちの残りには使わない。
 - id: q14019
@@ -633,10 +633,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: There are five students in the room. Two are from Japan, and (＿) are from Korea.
-  choices: [the other, the others, another, other]
-  ans: "2"
+  choices: [the others, the other, another, other]
+  ans: "1"
   why: 全体は5人で、2人の残りの3人全部を指す。数が決まっていて残りが2人以上なので the others。動詞も are で複数。
-  trap: ①the other を選ぶ誤り。the other は残りが1つのときに使い、単数扱い。残りは3人で、動詞も are になっている。
+  trap: ②the other を選ぶ誤り。the other は残りが1つのときに使い、単数扱い。残りは3人で、動詞も are になっている。
 - id: q14022
   sec: s143
   set: 節末
@@ -681,8 +681,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: I bought (＿) apples at the market this morning.
-  choices: [any, some, much, every]
-  ans: "2"
+  choices: [any, every, much, some]
+  ans: "4"
   why: 肯定文で「いくつか」を表すのは some。後ろの apples は複数形。
   trap: ①any を選ぶ誤り。肯定文の any は「どんな〜でも」の意味になり、「りんごをいくつか買った」にはならない。
 - id: q14026
@@ -704,10 +704,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Both of my grandparents (＿) in Kagoshima.
-  choices: [lives, is living, live, has lived]
-  ans: "3"
+  choices: [live, is living, lives, has lived]
+  ans: "1"
   why: Both of ～ は「2人とも」で、いつも複数扱い。複数の S に合う現在形は live。
-  trap: ①lives を選ぶ誤り。Both を「2人で1組」と考えて単数の動詞にしたくなるが、both はいつも複数扱い。
+  trap: ③lives を選ぶ誤り。Both を「2人で1組」と考えて単数の動詞にしたくなるが、both はいつも複数扱い。
 - id: q14028
   sec: s144
   set: 節末
@@ -716,10 +716,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: There are two Italian restaurants near the station. I've been to (＿) of them, so I can't tell you which is better.
-  choices: [neither, both, any, all]
-  ans: "1"
+  choices: [both, neither, any, all]
+  ans: "2"
   why: レストランは2軒で、「どちらがよいか言えない」のは、どちらにも行ったことがないから。2つについて「どちらも〜ない」は neither。
-  trap: ②both を選ぶ誤り。2つについての語なので形は合うが、両方に行ったことがあるなら、どちらがよいか言えるはずで、so 以下と意味がつながらない。
+  trap: ①both を選ぶ誤り。2つについての語なので形は合うが、両方に行ったことがあるなら、どちらがよいか言えるはずで、so 以下と意味がつながらない。
 - id: q14029
   sec: s144
   set: 節末

@@ -350,8 +350,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: It is difficult (＿) this book in one day.
-  choices: [read, to read, reads, to reading]
-  ans: "2"
+  choices: [read, reads, to read, to reading]
+  ans: "3"
   why: It は形式主語（@s061）で、本当の主語は「この本を1日で読むこと」。名詞の働きの不定詞 to read を後ろに置く。
   trap: ①read を選ぶ誤り。動詞の原形をそのまま置いても、本当の主語にならない。
   ref: s061
@@ -362,10 +362,10 @@ problems:
   kind: 4択
   min: 1
   q: (＿) your brother play soccer every Sunday?
-  choices: [Is, Does, Do, Has]
-  ans: "2"
+  choices: [Does, Is, Do, Has]
+  ans: "1"
   why: play は一般動詞で、S の your brother は3人称単数。一般動詞の現在の疑問文は Does＋S＋原形 の語順にする。この「助動詞を S の前に出す語順」は、倒置（@s182）でもそのまま使う。
-  trap: ①Is を選ぶ誤り。be 動詞と一般動詞の play を重ねることになる。
+  trap: ②Is を選ぶ誤り。be 動詞と一般動詞の play を重ねることになる。
   ref: s182
 - id: q18003
   sec: s181
@@ -374,8 +374,8 @@ problems:
   kind: 4択
   min: 1
   q: The fact (＿) Riku was absent surprised everyone.
-  choices: [that, what, which, who]
-  ans: "1"
+  choices: [who, what, which, that]
+  ans: "4"
   why: 空所の後ろの Riku was absent は S・V・C がそろった完全な文。名詞 the fact の中身を説明する同格の that（@s092）。
   trap: ③which を選ぶ誤り。which は関係代名詞で、後ろは不完全な文になる。
   ref: s092
@@ -388,8 +388,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: It was in this park (＿) my parents first met.
-  choices: [that, what, which, who]
-  ans: "1"
+  choices: [what, that, which, who]
+  ans: "2"
   why: 場所を表す in this park を It was と that の間にはさんだ強調構文。It was と that を外すと My parents first met in this park. に戻る。
   trap: ③which を選ぶ誤り。in this park は前置詞＋名詞で、which で受ける名詞ではない。場所を強めても、強調構文では that を使う。
 - id: q18005
@@ -434,8 +434,8 @@ problems:
   kind: 4択
   min: 1
   q: It was the girl in the red coat (＿) found my wallet.
-  choices: [that, what, she, whom]
-  ans: "1"
+  choices: [she, what, that, whom]
+  ans: "3"
   why: the girl in the red coat を強めた強調構文。that の後ろは found の S が欠けた不完全な文になる。人を強めているので who も使えるが、選択肢にはない。
   trap: ④whom を選ぶ誤り。人を強めるときでも、that の後ろで欠けているのは S なので、O のときの形の whom は使えない。
 - id: q18009
@@ -470,8 +470,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: '"I was late for school this morning." "So (＿) I."'
-  choices: [was, did, am, were]
-  ans: "1"
+  choices: [were, did, am, was]
+  ans: "4"
   why: 相手の文は be 動詞の過去形 was の文。「私も」は So＋be 動詞＋S で、S が I で過去のことなので was にする。
   trap: ②did を選ぶ誤り。So の後ろの語は相手の文に合わせるので、be 動詞の文には did を使わない。
 - id: q18012
@@ -481,10 +481,10 @@ problems:
   kind: 4択
   min: 1
   q: '"I don''t like natto." "(＿) do I."'
-  choices: [So, Neither, Either, Too]
-  ans: "2"
+  choices: [Neither, So, Either, Too]
+  ans: "1"
   why: 相手の文は否定文の I don't like。「私も〜ない」は Neither＋助動詞＋S の語順にする。
-  trap: ①So を選ぶ誤り。So do I. は肯定文に「私も」と答えるときの形。否定文には Neither を使う。
+  trap: ②So を選ぶ誤り。So do I. は肯定文に「私も」と答えるときの形。否定文には Neither を使う。
 - id: q18013
   sec: s182
   set: 節末
@@ -527,10 +527,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: '"You left the window open again." "Oh, (＿). I''m sorry."'
-  choices: [so did I, so I did, neither did I, so I do]
-  ans: "2"
+  choices: [so I did, so did I, neither did I, so I do]
+  ans: "1"
   why: 窓を開けたままにしたと言われた本人が、「本当だ、その通りだ」と認める場面。同じ人について認めるのは So＋S＋V の so I did。left（過去形）に合わせて did にする。
-  trap: ①so did I を選ぶ誤り。So did I. は「私もそうした」と、別の人が同じことをしたと言う形。④so I do は今のことになり、left と時が合わない。
+  trap: ②so did I を選ぶ誤り。So did I. は「私もそうした」と、別の人が同じことをしたと言う形。④so I do は今のことになり、left と時が合わない。
 - id: q18017
   sec: s182
   set: 節末
@@ -551,8 +551,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: '"Can you help me carry these boxes?" "Sure, I''d be happy (＿)."'
-  choices: [to, to it, helping, so]
-  ans: "1"
+  choices: [to it, to, helping, so]
+  ans: "2"
   why: be happy to do（喜んで〜する）の to の後ろの help you carry these boxes を省いた代不定詞。to だけを残す。
   trap: ③helping を選ぶ誤り。be happy の後ろで「喜んで〜する」と言うときは to do を使い、省くときも to を残す。
 - id: q18019
@@ -586,8 +586,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: My brother can speak French, but I (＿).
-  choices: ["can't", "don't", am not, "haven't"]
-  ans: "1"
+  choices: ["am not", "don't", "can't", "haven't"]
+  ans: "3"
   why: 前半の can speak French に対して「私は話せない」と言う文。can の文なので can't を残し、後ろの speak French を省く。
   trap: ②don't を選ぶ誤り。残す語は、前の文の助動詞 can に合わせる。
 - id: q18022
@@ -597,8 +597,8 @@ problems:
   kind: 4択
   min: 1
   q: Mom asked me to buy some milk, but Dad told me (＿) because we still had some.
-  choices: [not to, not, "don't", no to]
-  ans: "1"
+  choices: [no to, not, "don't", not to]
+  ans: "4"
   why: 「買わないように言った」という意味で、tell O not to do の not to だけを残し、buy some milk を省いた代不定詞。否定の not は to の前に置く。
   trap: ②not を選ぶ誤り。to まで省くと不定詞にならない。代不定詞では to を残す。
 - id: q18023
@@ -633,8 +633,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: This is Leo, (＿) from Canada.
-  choices: [a new student, is a new student, he is a new student, who a new student]
-  ans: "1"
+  choices: [who a new student, is a new student, he is a new student, a new student]
+  ans: "4"
   why: Leo の後ろにコンマを置き、名詞のかたまり a new student from Canada で Leo を言いかえる同格。
   trap: ③he is a new student を選ぶ誤り。接続詞なしで2つ目の S＋V をつなぐことになる。
 - id: q18026
@@ -679,10 +679,10 @@ problems:
   kind: 4択
   min: 1
   q: The rumor (＿) Mr. Kato is leaving our school is not true.
-  choices: [that, what, which, whose]
-  ans: "1"
+  choices: [which, what, that, whose]
+  ans: "3"
   why: 空所の後ろの Mr. Kato is leaving our school は完全な文。the rumor の中身を説明する同格の that。文全体の V は2つ目の is。
-  trap: ③which を選ぶ誤り。名詞の後ろなので関係代名詞と考えやすいが、後ろが完全な文なので which は使えない。
+  trap: ①which を選ぶ誤り。名詞の後ろなので関係代名詞と考えやすいが、後ろが完全な文なので which は使えない。
 - id: q18030
   sec: s184
   set: 節末
@@ -715,8 +715,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: It was yesterday (＿) I found this old letter in my desk.
-  choices: [that, what, which, whom]
-  ans: "1"
+  choices: [what, that, which, whom]
+  ans: "2"
   why: 時を表す yesterday を It was と that の間にはさんだ強調構文。It was と that を外すと I found this old letter in my desk yesterday. に戻る。
   trap: ③which を選ぶ誤り。yesterday は副詞で、which で受ける名詞ではない。強調構文では that を使う。
 - id: q18033
@@ -760,8 +760,8 @@ problems:
   kind: 4択
   min: 1
   q: Our English teacher is, (＿), the tallest person in our school.
-  choices: [I think, think I, I thinking, "I'm think"]
-  ans: "1"
+  choices: [I thinking, think I, I think, "I'm think"]
+  ans: "3"
   why: 文の途中に I think（〜だと思う）をはさんだ挿入。外すと Our English teacher is the tallest person in our school. の完全な文になる。
   trap: ②think I を選ぶ誤り。挿入の I think も S＋V の語順のまま入れる。
 - id: q18037
@@ -818,7 +818,7 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: (＿) I in your place, I would accept the offer.
-  choices: [Were, Was, If, Am]
-  ans: "1"
+  choices: [Am, Was, If, Were]
+  ans: "4"
   why: If I were in your place の if を省いた倒置の形（@s122）。仮定法なので were を S の前に出す。
   trap: ③If を選ぶ誤り。If を使うなら If I were in your place と、S の後ろに were が要る。if を省いたときだけ Were I の語順になる。

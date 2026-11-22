@@ -434,8 +434,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: I (＿) a letter to my grandmother yesterday.
-  choices: [write, wrote, written, writing]
-  ans: "2"
+  choices: [write, writing, written, wrote]
+  ans: "4"
   why: yesterday があるので過去の文。write の過去形は wrote。
   trap: ③written を選ぶ誤り。written は過去分詞で、have や be と一緒に使う。
   ref: s021
@@ -446,10 +446,10 @@ problems:
   kind: 4択
   min: 1
   q: Please listen (＿) me carefully.
-  choices: [to, at, for, with]
-  ans: "1"
+  choices: [at, to, for, with]
+  ans: "2"
   why: listen は後ろに O を直接置かない自動詞で、「〜を聞く」は listen to 〜 とする。
-  trap: ②at を選ぶ誤り。look at（〜を見る）と混ざりやすいが、listen の後ろは to。
+  trap: ①at を選ぶ誤り。look at（〜を見る）と混ざりやすいが、listen の後ろは to。
 - id: q20003
   sec: s201
   set: 前提
@@ -457,8 +457,8 @@ problems:
   kind: 4択
   min: 1
   q: My aunt gave (＿) a watch for my birthday.
-  choices: [I, my, me, mine]
-  ans: "3"
+  choices: [I, my, mine, me]
+  ans: "4"
   why: gave の後ろに「人に」と「物を」を並べる形。人の位置は O なので、目的格の me を使う。
   trap: ①I を選ぶ誤り。I は S の位置で使う形で、動詞の後ろの O には me を置く。
   ref: s013
@@ -471,8 +471,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: The sun (＿) at about six this morning.
-  choices: [rose, raised, risen, rised]
-  ans: "1"
+  choices: [risen, raised, rose, rised]
+  ans: "3"
   why: 後ろに O がなく、「太陽が昇った」という意味なので自動詞 rise の過去形 rose。
   trap: ②raised を選ぶ誤り。raise は「〜を上げる」という他動詞で、後ろに O が要る。rised という形はない。
 - id: q20005
@@ -482,10 +482,10 @@ problems:
   kind: 4択
   min: 1
   q: Mei (＿) her bag on the desk and opened the window.
-  choices: [lay, laid, lain, lied]
-  ans: "2"
+  choices: [laid, lay, lain, lied]
+  ans: "1"
   why: 後ろに her bag という O があるので、他動詞 lay（〜を置く）を使う。opened と同じ過去形の laid。
-  trap: ①lay を選ぶ誤り。lay は自動詞 lie（横になる）の過去形なので、後ろに O を置けない。
+  trap: ②lay を選ぶ誤り。lay は自動詞 lie（横になる）の過去形なので、後ろに O を置けない。
 - id: q20006
   sec: s201
   set: 節末
@@ -516,8 +516,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: As we (＿) the station, it began to rain.
-  choices: [approached to, approached, arrived, got]
-  ans: "2"
+  choices: [approached to, got, arrived, approached]
+  ans: "4"
   why: 空所の後ろに the station が直接続く。approach（〜に近づく）は他動詞なので approached the station が正しい。
   trap: ③arrived を選ぶ誤り。arrive は自動詞で、arrived at the station と前置詞が要る。got も got to が要る。①は他動詞に to を付けている。
 - id: q20009
@@ -527,8 +527,8 @@ problems:
   kind: 4択
   min: 1
   q: The letter had (＿) on the table for a week before anyone noticed it.
-  choices: [laid, lay, lain, lied]
-  ans: "3"
+  choices: [laid, lain, lay, lied]
+  ans: "2"
   why: 後ろに O がなく「手紙がテーブルの上にあった」という意味なので、自動詞 lie を使う。had の後ろは過去分詞なので lain。
   trap: ①laid を選ぶ誤り。laid は他動詞 lay の過去分詞で、後ろに O が要る。話し言葉では laid をこの意味で使う人もいるが、入試では lain が正しい。
 # ---- s202 節末 ----
@@ -563,10 +563,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Our school provides every student (＿) a tablet.
-  choices: [for, with, of, to]
-  ans: "2"
+  choices: [with, for, of, to]
+  ans: "1"
   why: provide A with B で「A に B を与える」。A が every student、B が a tablet なので with。
-  trap: ①for を選ぶ誤り。for を使うのは物を先に言う provide B for A の形（provides a tablet for every student）。
+  trap: ②for を選ぶ誤り。for を使うのは物を先に言う provide B for A の形（provides a tablet for every student）。
 - id: q20013
   sec: s202
   set: 節末
@@ -598,8 +598,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: My sister suggested (＿) to the new café near the station.
-  choices: [to go, me to go, going, for going]
-  ans: "3"
+  choices: [to go, me to go, for going, going]
+  ans: "4"
   why: suggest は後ろに doing か that 節をとる。suggested going で「行こうと提案した」。
   trap: ②me to go を選ぶ誤り。suggest は O to do の形をとらない。①to go も suggest の後ろには置かない。
 # ---- s203 節末 ----
@@ -622,8 +622,8 @@ problems:
   kind: 4択
   min: 1
   q: This T-shirt (＿) me 2,000 yen.
-  choices: [took, spent, cost, paid]
-  ans: "3"
+  choices: [cost, spent, took, paid]
+  ans: "1"
   why: 物（This T-shirt）が主語で、O がお金。物事が主語で「（人に）お金がかかる」は cost。
   trap: ②spent を選ぶ誤り。spend は人が主語になり、I spent 2,000 yen on this T-shirt. のように使う。
 - id: q20018
@@ -680,8 +680,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: There were about forty (＿) on the bus.
-  choices: [guests, customers, passengers, audiences]
-  ans: "3"
+  choices: [passengers, customers, guests, audiences]
+  ans: "1"
   why: バスに乗っている客なので、乗り物の乗客を表す passenger。
   trap: ②customers を選ぶ誤り。customer は店で買い物をする客で、乗り物の客には passenger を使う。
 - id: q20023
@@ -691,8 +691,8 @@ problems:
   kind: 4択
   min: 1
   q: The entrance (＿) for this museum is 500 yen.
-  choices: [fare, price, salary, fee]
-  ans: "4"
+  choices: [fare, fee, salary, price]
+  ans: "2"
   why: 博物館に入るための料金なので、入場料の fee。entrance fee で「入場料」。
   trap: ①fare を選ぶ誤り。fare は乗り物の運賃で、入場料には使わない。
 - id: q20024
@@ -726,10 +726,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: We invited thirty (＿) to our wedding party.
-  choices: [customers, guests, passengers, clients]
-  ans: "2"
+  choices: [guests, customers, passengers, clients]
+  ans: "1"
   why: パーティーに招待した客なので guest。
-  trap: ①customers を選ぶ誤り。customer は店の客で、招待した客には使わない。client は弁護士などの依頼人。
+  trap: ②customers を選ぶ誤り。customer は店の客で、招待した客には使わない。client は弁護士などの依頼人。
 - id: q20027
   sec: s204
   set: 節末
@@ -750,10 +750,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: I'm not (＿) with this area. Is there a post office near here?
-  choices: [famous, similar, familiar, likely]
-  ans: "3"
+  choices: [famous, familiar, similar, likely]
+  ans: "2"
   why: 人（I）が主語で「この辺りをよく知らない」という意味。人 is familiar with 物。
-  trap: ②similar を選ぶ誤り。similar は「似ている」で、前置詞は to をとる（similar to 〜）。
+  trap: ③similar を選ぶ誤り。similar は「似ている」で、前置詞は to をとる（similar to 〜）。
 - id: q20029
   sec: s205
   set: 節末
@@ -761,8 +761,8 @@ problems:
   kind: 4択
   min: 1
   q: Owen is (＿) of running 100 meters in 12 seconds.
-  choices: [able, capable, possible, can]
-  ans: "2"
+  choices: [able, can, possible, capable]
+  ans: "4"
   why: 後ろが of running と of doing の形。「〜する能力がある」で of doing をとるのは capable。
   trap: ①able を選ぶ誤り。able は be able to do の形で、of doing をとらない。
 - id: q20030
@@ -820,8 +820,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Reading every day had a big effect (＿) my English.
-  choices: ["on", to, at, from]
-  ans: "1"
+  choices: ["from", to, at, "on"]
+  ans: "4"
   why: 名詞 effect は influence と同じく on と結びつき、have an effect on 〜 で「〜に影響を与える」。
   trap: ②to を選ぶ誤り。日本語の「〜に」につられやすいが、effect・influence の後ろは on。
 - id: q20035
@@ -843,10 +843,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: How long does it (＿) to get to the airport by bus?
-  choices: [cost, take, spend, pass]
-  ans: "2"
+  choices: [take, cost, spend, pass]
+  ans: "1"
   why: How long で時間をたずねている。「〜するのに時間がかかる」は It takes 時間 to do。
-  trap: ①cost を選ぶ誤り。cost はお金がかかるときに使い、時間には take を使う。
+  trap: ②cost を選ぶ誤り。cost はお金がかかるときに使い、時間には take を使う。
 - id: q20037
   sec: s073
   set: 確認テスト
@@ -865,8 +865,8 @@ problems:
   kind: 4択
   min: 1
   q: The new player is (＿) to join our team next month.
-  choices: [possible, likely, probable, capable]
-  ans: "2"
+  choices: [possible, probable, likely, capable]
+  ans: "3"
   why: 人（The new player）が主語で後ろに to join が続く。「〜しそうだ」は be likely to do で、人を主語にできる。
   trap: ①possible を選ぶ誤り。possible は「人が〜できる」の意味で人を主語にしない（@s153）。probable も人を主語にして to do を続けない。capable は of doing をとる。
 - id: q20039

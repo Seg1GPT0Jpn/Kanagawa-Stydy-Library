@@ -436,11 +436,11 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: These cars are (＿) in Japan.
-  choices: [make, made, making, to make]
-  ans: "2"
+  choices: [make, making, made, to make]
+  ans: "3"
   ref: s051
   why: 車は「作られる側」なので受動態。are の後ろに過去分詞 made を置く。
-  trap: are を見て進行形だと考え、③making を選ぶ誤り。「車が作っている」では意味が通らない。
+  trap: are を見て進行形だと考え、②making を選ぶ誤り。「車が作っている」では意味が通らない。
 # ---- s081 ----
 - id: q08004
   sec: s081
@@ -450,8 +450,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Who is the boy (＿) under that tree?
-  choices: [sit, sat, sitting, is sitting]
-  ans: "3"
+  choices: [sit, sitting, sat, is sitting]
+  ans: "2"
   why: 文の V は is。空所は the boy を後ろから説明する分詞で、男の子は自分で「座っている側」なので現在分詞の sitting。
   trap: 「座っている」から④is sitting を選ぶ誤り。文にはすでに V の is があるので、もう1つ V を入れることはできない。
 - id: q08005
@@ -520,8 +520,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: The movie was so (＿) that I fell asleep.
-  choices: [bored, boring, bore, to bore]
-  ans: "2"
+  choices: [bored, to bore, bore, boring]
+  ans: "4"
   why: 主語は The movie。映画は人を「退屈させる側」なので -ing 形の boring。
   trap: 「退屈な」から①bored を選ぶ誤り。bored は「退屈させられた（人）」で、映画の説明にはならない。
 - id: q08011
@@ -543,8 +543,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Please keep the windows (＿) during the test.
-  choices: [close, closing, closed, to close]
-  ans: "3"
+  choices: [closed, closing, close, to close]
+  ans: "1"
   why: keep O C の形。窓は「閉められている側」なので、C は過去分詞の closed。
   trap: ②closing を選ぶ誤り。keep the windows closing では「窓が（何かを）閉め続ける」ことになる。
 - id: q08013
@@ -566,8 +566,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: I heard my name (＿) from behind, but there was no one there.
-  choices: [call, calling, called, to call]
-  ans: "3"
+  choices: [called, calling, call, to call]
+  ans: "1"
   why: hear O C の形。O の my name は「呼ばれる側」なので、C は過去分詞の called。
   trap: ②calling を選ぶ誤り。hear O doing は O が「する側」のとき（だれかが呼んでいる）。名前は自分で呼ぶことはない。
 - id: q08015
@@ -673,10 +673,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: (＿) what to say, I just smiled.
-  choices: [Knowing not, Not knowing, Don't know, Not know]
-  ans: "2"
+  choices: [Knowing not, Don't know, Not knowing, Not know]
+  ans: "3"
   why: 否定の分詞構文は not を分詞の直前に置いて Not knowing とする。「何と言えばよいか分からなかったので」。
-  trap: 動詞の否定と同じように考えて③Don't know を選ぶ誤り。それでは主語のない命令文になり、コンマの後ろの文とつながらない。
+  trap: 動詞の否定と同じように考えて②Don't know を選ぶ誤り。それでは主語のない命令文になり、コンマの後ろの文とつながらない。
 - id: q08024
   sec: s084
   set: 節末
@@ -696,10 +696,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: (＿) no bus on Sundays, we had to walk to the station.
-  choices: [Being, There being, It being, There was]
-  ans: "2"
+  choices: [Being, There was, It being, There being]
+  ans: "4"
   why: 元の文は As there was no bus on Sundays。主語の there は主節の we と違うので残し、was を being にして There being とする。
-  trap: ①Being を選ぶ誤り。主語を消すと、主節の we が「バスがない」ことになり意味が通らない。④There was では、2つの文が接続詞なしでつながってしまう。
+  trap: ①Being を選ぶ誤り。主語を消すと、主節の we が「バスがない」ことになり意味が通らない。②There was では、2つの文が接続詞なしでつながってしまう。
 - id: q08026
   sec: s084
   set: 節末
@@ -732,8 +732,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Sara listened to the music with her eyes (＿).
-  choices: [close, closing, closed, to close]
-  ans: "3"
+  choices: [closed, closing, close, to close]
+  ans: "1"
   why: with O C の形。目は「閉じられている側」なので、C は過去分詞の closed。with one's eyes closed で「目を閉じて」。
   trap: 「目を閉じて」の「閉じる」から②closing を選ぶ誤り。O の eyes から見て、閉じられているかを考える。
 - id: q08029
@@ -755,10 +755,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: We enjoyed (＿) in the lake last summer.
-  choices: [swim, to swim, swimming, swam]
-  ans: "3"
+  choices: [swim, swimming, to swim, swam]
+  ans: "2"
   why: 空所は enjoy の O で、名詞の働き。enjoy は doing（動名詞）をとる動詞なので swimming。
-  trap: ②to swim を選ぶ誤り。enjoy の後ろに to do は置けない（@s073）。
+  trap: ③to swim を選ぶ誤り。enjoy の後ろに to do は置けない（@s073）。
   ref: [s085, s073]
 - id: q08031
   sec: s085
@@ -838,8 +838,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: (＿) very tired after the game, the players went straight home.
-  choices: [Be, Been, Being, To be]
-  ans: "3"
+  choices: [Be, Been, To be, Being]
+  ans: "4"
   why: Because they were very tired の分詞構文。主語 they は主節の the players と同じなので消し、were を being にする。
   trap: ②Been を選ぶ誤り。been は過去分詞で、受動や完了の形に使う。be 動詞の分詞構文は Being。
 - id: q08038

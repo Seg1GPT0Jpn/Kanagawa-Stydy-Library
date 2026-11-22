@@ -291,8 +291,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: I think (＿) Akari is a good singer.
-  choices: [what, who, that, which]
-  ans: "3"
+  choices: [what, that, who, which]
+  ans: "2"
   why: Akari is a good singer は欠けた語のない完全な文で、think の O になる「〜ということ」の節をつくるのは接続詞の that。
   trap: ①what を選ぶ誤り。what の後ろは何かが欠けた文になる。Akari is a good singer には欠けた語がない。
   ref: s092
@@ -305,10 +305,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Lily said that she (＿) a little tired, so she went to bed early.
-  choices: [is, was, has been, will be]
-  ans: "2"
+  choices: [was, is, has been, will be]
+  ans: "1"
   why: 主節の said は過去で、疲れているのは言った時と同じ時のこと。時制の一致で was にする。
-  trap: ①is を選ぶ誤り。日本語では「疲れていると言った」と現在のように言うが、英語では主節に合わせて過去形にする。
+  trap: ②is を選ぶ誤り。日本語では「疲れていると言った」と現在のように言うが、英語では主節に合わせて過去形にする。
 - id: q19005
   sec: s191
   set: 節末
@@ -328,10 +328,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Our science teacher told us that water (＿) at 0℃.
-  choices: [freeze, freezes, had frozen, was freezing]
-  ans: "2"
+  choices: [freeze, had frozen, freezes, was freezing]
+  ans: "3"
   why: 「水は0℃で凍る」は今も変わらない事実なので、主節が told でも現在形のままにする。主語 water は3人称単数なので freezes。
-  trap: ③had frozen を選ぶ誤り。教わった時より前のことと考えて過去完了にしやすいが、今も変わらない事実は時制の一致をさせない。
+  trap: ②had frozen を選ぶ誤り。教わった時より前のことと考えて過去完了にしやすいが、今も変わらない事実は時制の一致をさせない。
 - id: q19007
   sec: s191
   set: 節末
@@ -340,8 +340,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Halfway to school, Mei found that she (＿) her lunch box in the kitchen.
-  choices: [leave, have left, had left, would leave]
-  ans: "3"
+  choices: [leave, have left, would leave, had left]
+  ans: "4"
   why: 主節の found（気づいた）は過去。弁当箱を台所に置いてきたのは、気づいた時より前のことなので過去完了 had left にする。
   trap: ②have left を選ぶ誤り。現在完了は今を基準の時にする形で、主節が過去の文では基準の時（気づいた時）に合わない。
 - id: q19008
@@ -375,8 +375,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Hiro says that he (＿) to Hokkaido with his family last summer.
-  choices: [goes, went, had gone, has gone]
-  ans: "2"
+  choices: [went, goes, had gone, has gone]
+  ans: "1"
   why: 主節の says は現在形なので、時制の一致は起こらない。北海道へ行ったのは last summer（去年の夏）なので、ふつうの過去形 went にする。
   trap: ③had gone を選ぶ誤り。主節が過去なら過去完了になることもあるが、主節が現在形の says なので、ずらす理由がない。
 - id: q19011
@@ -411,8 +411,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: The guide (＿) that the bus would leave at two.
-  choices: [said, told, spoke, talked]
-  ans: "1"
+  choices: [spoke, told, said, talked]
+  ans: "3"
   why: 空所の後ろに相手（人）がなく、すぐ that の節が続いているので say を使う。said that ～ で「〜と言った」。
   trap: ②told を選ぶ誤り。tell はすぐ後ろに伝える相手を置いて tell 人 that ～ とする。相手のない told that ～ とは言わない。
 - id: q19014
@@ -423,8 +423,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Kenji's sister said (＿) that she would be home late.
-  choices: [me, to me, for me, with me]
-  ans: "2"
+  choices: [me, with me, for me, to me]
+  ans: "4"
   why: say は相手を O にとらないので、相手を言うときは say to 人 that ～ とする。told me that ～ と言うことの方が多いが、said を使うなら to me が要る。
   trap: ①me を選ぶ誤り。tell 人 that ～ と混同して said me that ～ とする誤りは、入試でよく問われる。
 - id: q19015
@@ -506,8 +506,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: My father said to me, "Wash your hands."<br>→ My father told me (＿) my hands.
-  choices: [wash, to wash, washing, washed]
-  ans: "2"
+  choices: [wash, washed, washing, to wash]
+  ans: "4"
   why: 命令文を伝えるときは tell 人 to do にする。told me to wash で「手を洗うように言った」。
   trap: ①wash を選ぶ誤り。元の命令文が原形で始まるので原形を残したくなるが、tell 人 の後ろは to do になる。
 - id: q19022
@@ -589,10 +589,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: I thought that the bakery (＿) open, but it was closed.
-  choices: [is, was, has been, will]
-  ans: "2"
+  choices: [was, is, has been, will]
+  ans: "1"
   why: 主節の thought は過去で、店が開いているのは思った時と同じ時のこと。時制の一致で was にする。
-  trap: ①is を選ぶ誤り。「開いていると思った」という日本語につられやすいが、主節が過去なので過去形にする。
+  trap: ②is を選ぶ誤り。「開いていると思った」という日本語につられやすいが、主節が過去なので過去形にする。
 - id: q19029
   sec: s191
   set: 確認テスト
@@ -681,8 +681,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: '"I''m really hungry." "So (＿) I. Let''s get something to eat."'
-  choices: [do, am, have, can]
-  ans: "2"
+  choices: [do, have, am, can]
+  ans: "3"
   why: 「私もそうだ」は So＋（助）動詞＋S の語順で、前の文の動詞に合わせる。前の文は I'm（I am）hungry なので So am I。
   trap: ①do を選ぶ誤り。So do I は前の文が一般動詞（I like ～ など）のときに使う。be 動詞の文には am・is・are で答える。
 - id: q19037

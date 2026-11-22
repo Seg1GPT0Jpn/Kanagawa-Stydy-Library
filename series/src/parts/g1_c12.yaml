@@ -365,8 +365,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: If it (＿) sunny tomorrow, we will go to the beach.
-  choices: [is, will be, was, be]
-  ans: '1'
+  choices: [be, will be, was, is]
+  ans: '4'
   why: If it ＿ tomorrow は条件を表す副詞節なので、未来のことでも現在形にする。主語 it に合わせて is。
   trap: tomorrow につられて②will be を選ぶ誤り。時・条件の副詞節の中では will を使わない。
   ref: s023
@@ -390,10 +390,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: You look very tired. If I (＿) you, I would go to bed early tonight.
-  choices: [am, were, be, will be]
-  ans: '2'
+  choices: [were, am, be, will be]
+  ans: '1'
   why: 中学で学んだ If I were you（私があなたなら）の形。話し手は実際には相手ではないので、事実と反対の話になり、主語が I でも be 動詞は were を使う。主節の would go も同じ形のしるし。
-  trap: 主語が I なので①am を選ぶ誤り。am は事実をそのまま述べる形で、「私があなたなら」という仮の話には使わない。
+  trap: 主語が I なので②am を選ぶ誤り。am は事実をそのまま述べる形で、「私があなたなら」という仮の話には使わない。
 - id: q12004
   sec: s121
   set: 節末
@@ -402,8 +402,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Luke lives far from the sea. If he (＿) near it, he could go surfing every weekend.
-  choices: [lives, lived, had lived, would live]
-  ans: '2'
+  choices: [lives, would live, had lived, lived]
+  ans: '4'
   why: ルークは実際には海から遠くに住んでいる。今の事実と反対なので仮定法過去で、if 節は過去形の lived。主節の could go も仮定法過去の形。
   trap: ③had lived を選ぶ誤り。had done は過去の事実と反対のときの形で、今住んでいる場所の話には合わない。
 - id: q12005
@@ -426,10 +426,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: If you had told me about the party, I (＿) a cake.
-  choices: [would bring, will bring, would have brought, had brought]
-  ans: '3'
+  choices: [would have brought, will bring, would bring, had brought]
+  ans: '1'
   why: if 節が had told で、過去の事実（教えてもらえなかった）と反対の仮定法過去完了。主節は would have done にそろえる。
-  trap: ①would bring を選ぶ誤り。would＋原形は今の事実と反対のときの主節で、if 節の had told と時が合わない。
+  trap: ③would bring を選ぶ誤り。would＋原形は今の事実と反対のときの主節で、if 節の had told と時が合わない。
 - id: q12007
   sec: s121
   set: 節末
@@ -461,8 +461,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: If Nanami (＿) the email, she would have come to the meeting.
-  choices: [checked, has checked, had checked, would check]
-  ans: '3'
+  choices: [checked, had checked, has checked, would check]
+  ans: '2'
   why: 主節が would have come なので、過去の事実（来なかった）と反対の仮定法過去完了。if 節は had checked。
   trap: ①checked を選ぶ誤り。過去形の if 節は今の事実と反対のときの形で、主節の would have come と時が合わない。④は if 節に would を入れた形。
 - id: q12010
@@ -485,10 +485,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: My brother didn't take the medicine yesterday. If he had taken it, he (＿) better today.
-  choices: [feels, would feel, would have felt, had felt]
-  ans: '2'
+  choices: [feels, would have felt, would feel, had felt]
+  ans: '3'
   why: if 節は昨日の事実と反対（had taken）だが、主節には today があり、今の体調の話。今の事実と反対の主節は would＋原形。
-  trap: if 節の had taken に合わせて③would have felt を選ぶ誤り。主節の時は today で決める。
+  trap: if 節の had taken に合わせて②would have felt を選ぶ誤り。主節の時は today で決める。
 - id: q12012
   sec: s122
   set: 節末
@@ -508,10 +508,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: If you (＿) lose your ticket, please tell the staff at the gate.
-  choices: [should, would, were, had]
-  ans: '1'
+  choices: [would, should, were, had]
+  ans: '2'
   why: 「万一〜なら」と、起こる見込みの低いことを言う If S should do。主節が命令文の please tell でもよい。
-  trap: ②would を選ぶ誤り。if 節に would は入れない。③were・④had は後ろに原形の lose を置けない。
+  trap: ①would を選ぶ誤り。if 節に would は入れない。③were・④had は後ろに原形の lose を置けない。
 - id: q12014
   sec: s122
   set: 節末
@@ -543,10 +543,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: (＿) I been at home yesterday, I could have helped my mother with the cooking.
-  choices: [If, Had, Were, Should]
-  ans: '2'
+  choices: [Had, If, Were, Should]
+  ans: '1'
   why: 主節が could have helped なので、過去の事実と反対の仮定法過去完了。If I had been at home の if を省き、had を主語の前に出した形。
-  trap: ①If を選ぶ誤り。If I been at home では had がなく、文が成り立たない。③Were は後ろに過去分詞の been を置けない。
+  trap: ②If を選ぶ誤り。If I been at home では had がなく、文が成り立たない。③Were は後ろに過去分詞の been を置けない。
 - id: q12017
   sec: s122
   set: 節末
@@ -567,8 +567,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: I wish I (＿) taller. I want to be a volleyball player.
-  choices: [am, were, will be, have been]
-  ans: '2'
+  choices: [am, will be, were, have been]
+  ans: '3'
   why: 実際には背が高くないので、今の事実と反対の願い。I wish の後ろは仮定法過去で、be 動詞は were。
   trap: ①am を選ぶ誤り。I wish の後ろに直説法の現在形は置かない。
 - id: q12019
@@ -590,8 +590,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Ms. Green speaks Japanese (＿) she were Japanese.
-  choices: [as if, even if, unless, because]
-  ans: '1'
+  choices: [because, even if, unless, as if]
+  ans: '4'
   why: グリーン先生は日本人ではないが、日本人のように日本語を話す。「まるで〜のように」は as if で、後ろは仮定法過去の were。
   trap: ②even if を選ぶ誤り。単元9で学んだ even if は仮のことにも使い、even if she were ～ のように仮定法の形を続けることもできるので、形だけでは外れない。しかし「たとえ日本人だとしても日本語を話す」では意味が通らない。were を見たら、as if・I wish・if のどれと組むかを意味で考える。
 - id: q12021
@@ -624,8 +624,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Sora talked about the movie as if she (＿) it. In fact, she has never seen it.
-  choices: [sees, saw, had seen, has seen]
-  ans: '3'
+  choices: [had seen, saw, sees, has seen]
+  ans: '1'
   why: 映画を見たのは、話した時（talked）より前のことのはず。主節より前のことを「まるで〜したかのように」と言うので、as if の後ろは had done。
   trap: ②saw を選ぶ誤り。as if＋過去形は主節と同じ時のことを表し、「話しながら見ているかのように」の意味になってしまう。
 - id: q12024
@@ -648,10 +648,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: (＿) your help, I couldn't have moved this heavy desk.
-  choices: [Without, With, Unless, If]
-  ans: '1'
+  choices: [If, With, Unless, Without]
+  ans: '4'
   why: 「あなたの助けがなかったら、動かせなかっただろう」と、過去の仮定を前置詞で表す Without。後ろは名詞の your help。
-  trap: ③Unless・④If を選ぶ誤り。どちらも接続詞なので、後ろに S＋V が要る。your help は名詞なので、前置詞の without を使う。
+  trap: ③Unless・①If を選ぶ誤り。どちらも接続詞なので、後ろに S＋V が要る。your help は名詞なので、前置詞の without を使う。
 - id: q12026
   sec: s124
   set: 節末
@@ -671,10 +671,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: The coach insisted that every player (＿) to practice by 8:30.
-  choices: [come, comes, came, will come]
-  ans: '1'
+  choices: [comes, come, came, will come]
+  ans: '2'
   why: insist（強く求める）の後ろの that 節は、主語や時に関係なく原形（または should＋原形）。every player が単数でも come。
-  trap: every player が3人称単数なので②comes を選ぶ誤り。仮定法現在の that 節では -s を付けない。
+  trap: every player が3人称単数なので①comes を選ぶ誤り。仮定法現在の that 節では -s を付けない。
 - id: q12028
   sec: s124
   set: 節末
@@ -730,10 +730,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: It's raining hard. If it (＿) sunny, we could play baseball in the park now.
-  choices: [is, were, had been, would be]
-  ans: '2'
+  choices: [is, had been, were, would be]
+  ans: '3'
   why: 今は雨が降っているので、「晴れていれば」は今の事実と反対。仮定法過去で、if 節の be 動詞は were。
-  trap: ③had been を選ぶ誤り。had been は過去の事実と反対のときの形で、now と合わない。
+  trap: ②had been を選ぶ誤り。had been は過去の事実と反対のときの形で、now と合わない。
 - id: q12033
   sec: s121
   set: 確認テスト
@@ -753,10 +753,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: (＿) I in your place, I would accept the offer.
-  choices: [Were, Had, Should, If]
-  ans: '1'
+  choices: [Should, Had, Were, If]
+  ans: '3'
   why: If I were in your place の if を省き、were を主語の前に出した形。主節の would accept も仮定法過去の形。
-  trap: ④If を選ぶ誤り。If I in your place には動詞がない。②Had・③Should も、後ろに動詞の形がないので入らない。
+  trap: ④If を選ぶ誤り。If I in your place には動詞がない。②Had・①Should も、後ろに動詞の形がないので入らない。
 - id: q12035
   sec: s122
   set: 確認テスト
@@ -776,8 +776,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: My little brother talks (＿) he were the leader of our family.
-  choices: [as if, if only, even though, so that]
-  ans: '1'
+  choices: [so that, if only, even though, as if]
+  ans: '4'
   why: 弟は実際には家族のリーダーではない。「まるで〜のように話す」は as if で、後ろは仮定法過去の were。
   trap: ②if only を選ぶ誤り。If only は「〜でさえあればなあ」という願いで、talks の後ろにつないで「どのように話すか」を表すことはできない。
 - id: q12037
