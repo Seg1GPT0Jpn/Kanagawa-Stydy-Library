@@ -95,11 +95,11 @@ problems:
   lv: 2
   kind: 4択
   min: 1
-  q: The road in front of our school (＿) now, so we have to go around it.
-  choices: [is repairing, is being repaired, has repaired, repairs]
+  q: Our school gym (＿) now, so P.E. classes are held in the classrooms this week.
+  choices: [is painting, is being painted, has painted, paints]
   ans: "2"
-  why: 道路は「修理される側」なので受動態。now から「今〜されているところ」なので、進行形の受動態 be being＋過去分詞の is being repaired。
-  trap: ①is repairing を選ぶ誤り。now につられて進行形だけを考え、道路が修理する側か、される側かを確かめていない。
+  why: 体育館は「塗られる側」なので受動態。now から「今〜されているところ」なので、進行形の受動態 be being＋過去分詞の is being painted。
+  trap: ①is painting を選ぶ誤り。now につられて進行形だけを考え、体育館が塗る側か、塗られる側かを確かめていない。
 # ---- 4択：関係代名詞・関係副詞・接続詞の that（9・10） ----
 - id: q90009
   part: 1
@@ -160,10 +160,10 @@ problems:
   kind: 正誤
   min: 1
   inst: 下線部①〜④のうち、誤りをふくむものを1つずつ選びなさい。
-  q: I __will call__① you __when__② I __will arrive__③ at the station __tomorrow__④.
+  q: Let's __start__① dinner __when__② Dad __will come__③ home __tonight__④.
   ans: "3"
-  why: when の節は時を表す副詞節なので、明日のことでも現在形にする。will arrive を arrive に直す。①は主節なので will call でよい。
-  trap: tomorrow につられて、副詞節の中にも will を入れる誤り。未来を will で表すのは主節の方だけ。
+  why: when の節は時を表す副詞節なので、今夜のことでも現在形にする。will come を comes に直す。①Let's の後ろは原形で正しい。
+  trap: tonight につられて、副詞節の中にも will を入れる誤り。時・条件の副詞節の中では、未来のことも現在形で表す。
 - id: q90014
   part: 1
   sec: s063
@@ -171,7 +171,7 @@ problems:
   lv: 2
   kind: 正誤
   min: 1
-  q: Our coach __made__① us __to practice__② the same pass __for__③ an hour __yesterday__④.
+  q: __Our__① coach made us __to practice__② the same pass __for__③ an hour __yesterday__④.
   ans: "2"
   why: 使役の make は make O 原形 の形をとる。to practice を practice に直す。③for an hour は「1時間」で正しい。
   trap: 「〜させる」の意味から、want O to do や tell O to do と同じ形にする誤り。make の後ろで to が現れるのは、受動態の be made to do のとき。
@@ -265,11 +265,11 @@ problems:
   lv: 1
   kind: 整序
   min: 2
-  q: その問題はとても難しかったので、だれも答えられなかった。<br>The question was ( difficult / nobody / so / that ) could answer it.
-  words: [difficult, nobody, so, that]
-  ans: The question was so difficult that nobody could answer it.
-  why: so＋形容詞＋that で「とても〜なので…」。so の直後に形容詞 difficult を置き、that の後ろに結果を表す文を続ける。
-  trap: The question was difficult so that nobody could answer it とする誤り。so that は「〜できるように」という目的を表し、意味が変わる。
+  q: その店はとても混んでいたので、私たちは中に入れなかった。<br>The shop was ( crowded / so / that / we ) couldn't get in.
+  words: [crowded, so, that, we]
+  ans: The shop was so crowded that we couldn't get in.
+  why: so＋形容詞＋that で「とても〜なので…」。so の直後に形容詞 crowded を置き、that の後ろに結果を表す文を続ける。
+  trap: The shop was crowded so that we couldn't get in とする誤り。so that は「〜できるように」という目的を表し、意味が変わる。
 # ---- 補充 ----
 - id: q90023
   part: 1
@@ -317,7 +317,7 @@ problems:
   kind: 読解
   min: 4
   inst: 次の英文を読み、問いの答えとして最も適切なものを1つずつ選びなさい。
-  passage: '**A（チャット）**<br>Sota: Hi, everyone. The school festival is on October 14, but we still haven''t decided what to sell at our class stand. Any ideas?<br>Megumi: How about cookies? My aunt, who runs a small bakery, says she will teach us how to make them.<br>Sota: Sounds good. But we need a room where we can bake. The cooking room is used by the cooking club after school on weekdays.<br>Megumi: I talked to Ms. Ford about it. We can use the room on Saturday if we clean it afterward.<br>Daichi: Sorry, I''m late. I must have fallen asleep on the train after practice. Cookies are fine with me. I''ll make the price list.<br>Sota: Thanks, Daichi. Don''t forget to check how much butter and flour cost before you decide the prices.<br>Daichi: OK. By the way, I found the sign we used last year in the storeroom. It''s a little dirty, but we can use it if we paint it again.<br>Megumi: Great. Let''s meet in the cooking room at nine on Saturday. Everyone, please remember to bring an apron.'
+  passage: '**A（チャット）**<br>Sota: Hi, everyone. The school festival is on October 14, but we still haven''t decided what to sell at our class stand. Any ideas?<br>Megumi: How about cookies? My aunt, who runs a small bakery, says she will teach us how to make them.<br>Sota: Sounds good. But we need a room where we can bake. The cooking room is used by the cooking club after school on weekdays.<br>Megumi: I talked to Ms. Ford about it. We can use the room on Saturday if we clean it afterward.<br>Daichi: Sorry, I''m late. I must have fallen asleep on the train after practice. Cookies are fine with me. I''ll make the price list.<br>Sota: Thanks, Daichi. Don''t forget to check how much butter and flour cost before you decide the prices.<br>Daichi: OK. By the way, I found the sign we used last year in the storeroom. It''s a little dirty, but we can use it if we paint it again.<br>Megumi: Great. Let''s meet in the cooking room at nine on Saturday. Everyone, please remember to bring an apron.<br>Sota: OK. I''ll tell the rest of our class about the plan tomorrow morning.'
   q: 問　Who is going to teach the students how to make cookies?
   choices:
   - Ms. Ford
@@ -413,11 +413,11 @@ problems:
   lv: 1
   kind: 4択
   min: 1
-  q: Mr. Lane fell asleep (＿) he was watching the news on TV.
+  q: My phone rang (＿) I was taking a bath.
   choices: [during, while, because of, despite]
   ans: "2"
-  why: 空所の後ろは he was watching という S＋V なので、接続詞が入る。「〜している間に」の while。
-  trap: ①during を選ぶ誤り。during は前置詞なので、後ろに S＋V を置けない（during the news なら使える）。
+  why: 空所の後ろは I was taking a bath という S＋V なので、接続詞が入る。「〜している間に」の while。
+  trap: ①during を選ぶ誤り。during は前置詞なので、後ろに S＋V を置けない（during my bath なら使える）。
 - id: q90033
   part: 2
   sec: s164
@@ -425,11 +425,11 @@ problems:
   lv: 2
   kind: 4択
   min: 1
-  q: (＿) taking the bus, we walked to the station because it was a nice day.
+  q: (＿) going out for lunch, we ate sandwiches in the classroom because it was raining.
   choices: [Instead of, Because of, Although, While]
   ans: "1"
-  why: 空所の後ろは taking the bus という動名詞のかたまり（名詞の働き）で、前置詞が入る。「バスに乗る代わりに歩いた」となる instead of。
-  trap: ②Because of を選ぶ誤り。前置詞なので形は合うが、「バスに乗ったので駅まで歩いた」となり、意味が合わない。
+  why: 空所の後ろは going out for lunch という動名詞のかたまり（名詞の働き）で、前置詞が入る。「昼食を食べに出かける代わりに、教室でサンドイッチを食べた」となる instead of。
+  trap: ②Because of を選ぶ誤り。前置詞なので形は合うが、「昼食に出かけたので教室で食べた」となり、意味が合わない。
 # ---- 4択：時制・仮定法（2・12） ----
 - id: q90034
   part: 2
@@ -450,11 +450,11 @@ problems:
   lv: 2
   kind: 4択
   min: 1
-  q: If I had taken the medicine last night, I (＿) better now.
-  choices: [would feel, would have felt, will feel, had felt]
+  q: If I had brought my umbrella this morning, I (＿) wet now.
+  choices: [wouldn't be, wouldn't have been, won't be, hadn't been]
   ans: "1"
-  why: if 節は last night の事実と反対（had taken）だが、主節は now の事実と反対。過去の条件＋今の結果なので、主節は would＋原形の would feel。
-  trap: ②would have felt を選ぶ誤り。if 節が had done だから主節も would have done と決めてしまう。now があるので、結果は今のこと。
+  why: if 節は this morning（過去）の事実と反対（had brought）だが、主節は now の事実と反対（今ぬれている）。過去の条件＋今の結果なので、主節は would＋原形の wouldn't be。
+  trap: ②wouldn't have been を選ぶ誤り。if 節が had done だから主節も would have done と決めてしまう。now があるので、結果は今のこと。
 - id: q90036
   part: 2
   sec: s023
@@ -474,11 +474,11 @@ problems:
   lv: 2
   kind: 4択
   min: 1
-  q: I wish I (＿) more careful yesterday. I left my umbrella on the bus.
+  q: I wish I (＿) more careful last night. I lost my house key on the way home.
   choices: [am, were, had been, would be]
   ans: "3"
-  why: yesterday の事実（注意していなかった）と反対の願い。過去のことを願う I wish の後ろは had done なので had been。
-  trap: ②were を選ぶ誤り。I wish＋過去形は今のことの願い。yesterday があるので、過去のことの had been にする。
+  why: last night の事実（注意していなかった）と反対の願い。過去のことを願う I wish の後ろは had done なので had been。
+  trap: ②were を選ぶ誤り。I wish＋過去形は今のことの願い。last night があるので、過去のことの had been にする。
 # ---- 4択：強調構文か形式主語か（6・18） ----
 - id: q90038
   part: 2
@@ -499,11 +499,11 @@ problems:
   lv: 1
   kind: 4択
   min: 1
-  q: It is important (＿) enough sleep before a big test.
-  choices: [get, to get, gets, got]
+  q: It is exciting (＿) baseball games at the stadium.
+  choices: [watch, to watch, watches, watched]
   ans: "2"
-  why: It は形式主語で、本当の主語は後ろの「十分に眠ること」。名詞の働きの不定詞 to get を置く。
-  trap: ①get を選ぶ誤り。It is important で文がすでに S＋V をそろえているので、get を V として置くことはできない。
+  why: It は形式主語で、本当の主語は後ろの「球場で野球の試合を見ること」。名詞の働きの不定詞 to watch を置く。
+  trap: ①watch を選ぶ誤り。It is exciting で文はすでに S＋V がそろっているので、watch を V として置くことはできない。
 # ---- 4択：比較・形容詞・語法（11・15・20） ----
 - id: q90040
   part: 2
@@ -537,11 +537,11 @@ problems:
   lv: 2
   kind: 4択
   min: 1
-  q: The sky is getting dark. It is (＿) to snow tonight.
-  choices: [likely, probably, possible, able]
+  q: This shop is (＿) to be crowded on Saturday, so let's go on Friday.
+  choices: [likely, probably, possible, capable]
   ans: "1"
-  why: be likely to do で「〜しそうだ」。It は天気を表す it で、「今夜は雪が降りそうだ」。
-  trap: ③possible を選ぶ誤り。It is possible to do の It は形式主語で、「〜することが可能だ」の意味になり、天気の it と to snow を結べない。②probably は副詞なので be 動詞の後ろで to do を続けられない。
+  why: be likely to do で「〜しそうだ」。「この店は土曜日は混みそうだから、金曜日に行こう」。
+  trap: ③possible を選ぶ誤り。possible は It is possible (for 人) to do の形で使い、人や物を主語にして to do を続けない。②probably は副詞なので to do を続けられず、④capable は be capable of doing の形をとる。
 # ---- 正誤 ----
 - id: q90043
   part: 2
@@ -573,9 +573,9 @@ problems:
   lv: 2
   kind: 正誤
   min: 1
-  q: __Never__① __I have__② eaten __such__③ a delicious pizza __in__④ my life.
-  ans: "2"
-  why: never が文の頭に出ると、後ろは疑問文の語順になる。have I に直して Never have I eaten … とする。
+  q: Never __I have__① eaten __such__② a delicious pizza. Thank you __for__③ __inviting__④ me.
+  ans: "1"
+  why: never が文の頭に出ると、後ろは疑問文の語順になる。have I に直して Never have I eaten … とする。④for の後ろの動詞は動名詞 inviting で正しい。
   trap: 否定の語を前に出しただけで、語順をそのままにする誤り。I have never eaten … なら倒置しない。
 - id: q90046
   part: 2
@@ -584,9 +584,9 @@ problems:
   lv: 2
   kind: 正誤
   min: 1
-  q: Kanako __said me__① that she __would__② come __to__③ the party, but she __didn't__④.
-  ans: "1"
-  why: say は人を直接 O にとらない。told me（または said to me）に直す。②would は said に合わせて will をずらした時制の一致で正しい。
+  q: __Last week__①, Kanako __said me__② that she __would__③ come to the party, but she __didn't__④.
+  ans: "2"
+  why: say は人を直接 O にとらない。told me（または said to me）に直す。③would は said に合わせて will をずらした時制の一致で正しい。
   trap: tell と同じように say の後ろに人を置く誤り。say は say to 人、tell は tell 人 の形。
 - id: q90047
   part: 2
@@ -620,11 +620,11 @@ problems:
   lv: 1
   kind: 整序
   min: 2
-  q: 私が駅で会ったのは、レイのお兄さんだった。<br>It ( brother / Rei's / that / was ) I met at the station.
-  words: [brother, Rei's, that, was]
-  ans: It was Rei's brother that I met at the station.
-  why: 強めたい語句を It was と that の間にはさむ。I met Rei's brother at the station. の O を強めたので、that の後ろは met の O が欠けた不完全な文になる。
-  trap: It was that Rei's brother とする誤り。強める語句は It was と that の間に置く。
+  q: 私たちがその歌を初めて聞いたのは、この店でだった。<br>It ( in / shop / that / this / was ) we first heard the song.
+  words: [in, shop, that, this, was]
+  ans: It was in this shop that we first heard the song.
+  why: 強めたい語句を It was と that の間にはさむ。We first heard the song in this shop. の M（in this shop）を強めたので、that の後ろは完全な文のまま。
+  trap: It was this shop that … として in を最後に回せず、in が余る誤り。M を強めるときは前置詞ごと It was と that の間に置く。
 - id: q90050
   part: 2
   sec: s202
@@ -670,9 +670,9 @@ problems:
   kind: 補充
   min: 1
   inst: 日本語の意味になるように、（　）に適切な語を1語入れなさい。
-  q: 金曜日までにこの用紙を出してください。<br>Please hand in this form (＿) Friday.
+  q: 水曜日までにこの本を図書館に返してください。<br>Please return this book to the library (＿) Wednesday.
   ans: by
-  why: 「〜までに」と期限を表すのは by。用紙を出すのは1回で終わる動作。
+  why: 「〜までに」と期限を表すのは by。本を返すのは1回で終わる動作。
   trap: until を入れる誤り。until は「〜までずっと」で、同じ状態や動作が続くときに使う。
 - id: q90054
   part: 2
@@ -707,7 +707,7 @@ problems:
   kind: 読解
   min: 4
   inst: 次の英文は、高校生のタクミが英語の授業で書いたエッセイの下書きである。英文を読み、問いの答えとして最も適切なものを1つずつ選びなさい。
-  passage: '**A（推敲）**<br>My Summer Volunteer Work<br>Last summer, I __have joined__① a volunteer group at a children''s center near my house. Every Tuesday, I helped first and second graders with their homework. At first, I was nervous because I had never taught anyone before. However, the children were friendly, and soon I enjoyed __to read__② picture books with them.<br>One day, a boy named Kota showed me a drawing of a big ship. He said that he wanted to be a captain like his grandfather, who had worked on ships for forty years. I could see how much he loved his grandfather.<br>Through this work, I learned that teaching is __more harder__③ than it looks. I also learned that children notice small changes in our faces. Smiling at them made them feel safe, so I tried to smile even when I was tired.<br>Next summer, I want to join the group again and become a better helper.'
+  passage: '**A（推敲）**<br>My Summer Volunteer Work<br>Last summer, I __have joined__① a volunteer group at a children''s center near my house. Every Tuesday, I helped first and second graders with their homework. At first, I was nervous because I had never taught anyone before. However, the children were friendly, and soon I enjoyed __to read__② picture books with them.<br>One day, a boy named Kota showed me a drawing of a big ship. He said that he wanted to be a captain like his grandfather, who had worked on ships for forty years. I could see how much he loved his grandfather. The next week, he brought another drawing and asked me to write the names of the ship''s parts in English.<br>Through this work, I learned that teaching is __more harder__③ than it looks. I also learned that children notice small changes in our faces. Smiling at them made them feel safe, so I tried to smile even when I was tired.<br>Next summer, I want to join the group again and become a better helper. I hope the children will still remember me.'
   q: 問　Which is the best way to revise ①?
   choices:
   - joined
@@ -830,11 +830,11 @@ problems:
   lv: 1
   kind: 4択
   min: 1
-  q: (＿) surprised me most was the size of the stadium.
+  q: (＿) Kouki found under his bed was an old letter from his grandfather.
   choices: [That, What, Which, It]
   ans: "2"
-  why: 文の V は was で、空所から most までが文の S。S になる名詞節で、節の中では surprised の S が欠けている。先行詞をふくむ what が入る。
-  trap: ①That を選ぶ誤り。接続詞の that の後ろは完全な文になるが、ここでは surprised の S が欠けている。
+  why: 文の V は was で、空所から bed までが文の S。S になる名詞節で、節の中では found の O が欠けている（Kouki found ＿ under his bed）。先行詞をふくむ what が入る。
+  trap: ①That を選ぶ誤り。接続詞の that の後ろは完全な文になるが、ここでは found の O が欠けている。
 - id: q90065
   part: 3
   sec: s105
@@ -906,11 +906,11 @@ problems:
   lv: 2
   kind: 4択
   min: 1
-  q: (＿) from the top of the hill, the town looks very small.
-  choices: [Seeing, Seen, To see, Having seen]
+  q: (＿) in a hurry, this letter has a lot of mistakes.
+  choices: [Writing, Written, To write, Having written]
   ans: "2"
-  why: 分詞構文の意味上の主語は主節の S の the town。町は丘の上から「見られる」側なので、受動の分詞構文。Being を省いて過去分詞 Seen で始める。
-  trap: ①Seeing を選ぶ誤り。日本語の「丘の上から見ると」につられて、町が見る側になってしまう。
+  why: 分詞構文の意味上の主語は主節の S の this letter。手紙は急いで「書かれた」側なので、受動の分詞構文。Being を省いて過去分詞 Written で始める。「急いで書かれたので、この手紙には間違いが多い」。
+  trap: ①Writing を選ぶ誤り。だれかが急いで書いたという場面から -ing 形にしてしまう。分詞構文の主語は主節の S（手紙）で、手紙は書く側ではない。
 # ---- 4択：形式主語か強調構文か（6・18） ----
 - id: q90071
   part: 3
@@ -919,23 +919,23 @@ problems:
   lv: 2
   kind: 4択
   min: 1
-  q: It was careless (＿) you to leave the door open.
+  q: It was wise (＿) you to take the earlier train.
   choices: [of, for, to, with]
   ans: "1"
-  why: It は形式主語で、本当の主語は to leave the door open。careless は人の性質を表す形容詞なので、意味上の主語は of＋人。
-  trap: ②for を選ぶ誤り。It is difficult for 人 to do と同じ形にしてしまう。kind・careless など人の性質を言う形容詞のときは of。
+  why: It は形式主語で、本当の主語は to take the earlier train。wise（賢い）は人の性質を表す形容詞なので、意味上の主語は of＋人。
+  trap: ②for を選ぶ誤り。It is difficult for 人 to do と同じ形にしてしまう。kind・careless・wise など人の性質を言う形容詞のときは of。
 - id: q90072
   part: 3
   sec: s181
   set: 総合演習
-  lv: 2
+  lv: 1
   kind: 4択
   min: 1
-  q: It was in the library (＿) Kouki found my wallet.
+  q: It was in the gym (＿) the students held the welcome party.
   choices: [that, which, what, it]
   ans: "1"
-  why: It was と空所を外すと Kouki found my wallet in the library. と元の文に戻るので、強調構文。M の in the library を強めているので、that の後ろは完全な文。
-  trap: ②which を選ぶ誤り。library の後ろだから関係代名詞と考えてしまう。後ろは何も欠けていない完全な文。
+  why: It was と空所を外すと The students held the welcome party in the gym. と元の文に戻るので、強調構文。M の in the gym を強めているので、that の後ろは完全な文。
+  trap: ②which を選ぶ誤り。gym の後ろだから関係代名詞と考えてしまう。後ろは何も欠けていない完全な文。
 # ---- 正誤 ----
 - id: q90073
   part: 3
@@ -956,7 +956,7 @@ problems:
   lv: 1
   kind: 正誤
   min: 1
-  q: __Every__① student in __our__② school __have to__③ wear a uniform __on__④ weekdays.
+  q: __Every__① player on __our__② team __have to__③ run five kilometers __before__④ practice.
   ans: "3"
   why: every＋単数名詞が S のとき、動詞は単数で受ける。have to を has to に直す。
   trap: 「全員」という意味から複数と考えて have to を正しいと思う誤り。every の後ろの名詞は単数形で、動詞も単数。
@@ -1088,10 +1088,10 @@ problems:
   kind: 補充
   min: 1
   inst: 日本語の意味になるように、（　）に適切な語を1語入れなさい。
-  q: 今日は宿題がどれくらいありますか。<br>How (＿) homework do you have today?
+  q: このケーキには牛乳がどれくらい必要ですか。<br>How (＿) milk do we need for this cake?
   ans: much
-  why: homework は数えられない名詞なので、量をたずねるときは How much。
-  trap: many を入れる誤り。「宿題がいくつ」と数えるように考えてしまう。homework には -s も付けない。
+  why: milk は数えられない名詞なので、量をたずねるときは How much。
+  trap: many を入れる誤り。many は数えられる名詞の複数形の前に置く。milk には -s も付けない。
 # ---- 読解 ----
 - id: q90086
   part: 3
@@ -1101,13 +1101,13 @@ problems:
   kind: 読解
   min: 4
   inst: 次の英文を読み、問いの答えとして最も適切なものを1つずつ選びなさい。
-  passage: '**A（案内）**<br>Aoba City Pool: Summer Information<br>The city pool, which was closed last summer for repairs, will open again on July 19. It will be open every day except Mondays until August 31.<br>Hours: 9:00 a.m. to 5:00 p.m. All swimmers must get out of the water by 4:45 p.m. You can stay in the building until 5:00 p.m. to change your clothes.<br>Tickets: Tickets for children under 15 are 150 yen. Adult tickets cost three times as much.<br>Rules:<br>・Children under 10 cannot use the pool unless an adult comes with them.<br>・You must not run or eat near the pool.<br>・You don''t have to bring a swimming cap. You can borrow one at the front desk for free.<br>・If it starts to thunder, everyone must leave the water at once.<br>Anything left in the lockers after 5:00 p.m. will be kept at the front desk for one week. If you have any questions, please ask the staff at the front desk.'
+  passage: '**A（案内）**<br>Aoba City Pool: Summer Information<br>The city pool, which was closed last summer for repairs, will open again on July 19. It will be open every day except Mondays until August 31.<br>Hours: 9:00 a.m. to 5:00 p.m. All swimmers must get out of the water by 4:45 p.m. You can stay in the building until 5:00 p.m. to change your clothes.<br>Tickets: Tickets for children under 15 are 150 yen. Adult tickets cost three times as much.<br>Rules:<br>・Children under 10 cannot use the pool unless an adult comes with them.<br>・You must not run or eat near the pool.<br>・You don''t have to bring a swimming cap. You can borrow one at the front desk for free.<br>・If it starts to thunder, everyone must leave the water at once.<br>Anything left in the lockers after 5:00 p.m. will be kept at the front desk for one week. Swimming lessons for children are held every Saturday morning. If you want to join, please sign up at the front desk. If you have any other questions, please ask the staff there.'
   q: 問　A seven-year-old boy wants to swim at the pool. What does he need?
   choices:
   - He must bring his own swimming cap.
   - An adult must come with him.
   - He must come before 9:00 a.m.
-  - Nothing. He can't use the pool at all.
+  - He can't use the pool at all.
   ans: "2"
   why: Children under 10 cannot use the pool unless an adult comes with them. の unless は「〜しない限り」。「大人が一緒に来ない限り使えない」＝大人と一緒なら使える。
   trap: ④を選ぶ誤り。unless 以下を読み落として、「10歳未満は使えない」とだけ読んでしまう。
@@ -1200,7 +1200,7 @@ problems:
   q: It is dangerous (＿) in this river after heavy rain.
   choices: [swim, to swim, swims, swam]
   ans: "2"
-  why: It は形式主語で、本当の主語は「この川で泳ぐこと」。名詞の働きの不定詞 to swim を置く。It と空所を外すと文が成り立たないので、強調構文ではない。
+  why: It は形式主語で、本当の主語は「この川で泳ぐこと」。名詞の働きの不定詞 to swim を置く。It is ～ that の強調構文ではなく、It が後ろの to swim … を指す形式主語の文。
   trap: ①swim を選ぶ誤り。It is dangerous で S＋V がそろっているので、もう1つ V を置くことはできない。
 # ---- 4択：前置詞か接続詞か（9・16） ----
 - id: q90093
@@ -1211,10 +1211,10 @@ problems:
   lv: 1
   kind: 4択
   min: 1
-  q: We have to finish this report (＿) Friday.
+  q: Please send me your answer (＿) the end of this month.
   choices: [by, until, by the time, during]
   ans: "1"
-  why: 空所の後ろは Friday という名詞なので前置詞。レポートを終えるのは1回で終わる動作で、「金曜日までに」と期限を表す by。
+  why: 空所の後ろは the end of this month という名詞なので前置詞。答えを送るのは1回で終わる動作で、「今月末までに」と期限を表す by。
   trap: ②until を選ぶ誤り。until は「〜までずっと」で、続く動作に使う。③by the time は接続詞なので、後ろに S＋V が要る。
 - id: q90094
   part: 4
@@ -1335,9 +1335,9 @@ problems:
   kind: 正誤
   min: 1
   inst: 下線部①〜④のうち、誤りをふくむものを1つずつ選びなさい。
-  q: Leo __has lived__① in Hokkaido __for__② ten years, so he is used to __walk__③ on snowy roads __in__④ winter.
+  q: Leo __works__① at a bakery, __so__② he is used to __get__③ up __at__④ four in the morning.
   ans: "3"
-  why: be used to の to は前置詞なので、後ろの動詞は doing にする。walking に直す。①has lived は10年間続いている状態を表す現在完了で正しい。
+  why: be used to の to は前置詞なので、後ろの動詞は doing にする。getting に直す。is があるので「〜に慣れている」の be used to で、①works は今の仕事を表す現在形で正しい。
   trap: used to do（以前は〜したものだ）と混同して、原形を正しいと思う誤り。be 動詞があれば「〜に慣れている」で、to の後ろは doing。
 - id: q90104
   part: 4
@@ -1368,10 +1368,10 @@ problems:
   lv: 2
   kind: 正誤
   min: 1
-  q: Mr. Hirano sat on the bench __with__① his legs __crossing__②, __reading__③ a newspaper __quietly__④.
+  q: Haruka was running in the park __with__① her hair __tying__② back, __listening__③ to music __on__④ her phone.
   ans: "2"
-  why: 付帯状況の with O doing／done。脚は「組まれる」側なので過去分詞にして crossed に直す。③reading は「新聞を読みながら」という付帯状況の分詞構文で、平野さんが「読む側」なので正しい。
-  trap: 後ろの reading と同じように -ing 形を正しいと思う誤り。with の後ろの名詞（his legs）がする側か、される側かで決める。
+  why: 付帯状況の with O doing／done。髪は「結ばれる」側なので、過去分詞にして with her hair tied back（髪を後ろで結んで）に直す。③listening は「音楽を聞きながら」という付帯状況の分詞構文で、ハルカが「聞く側」なので正しい。
+  trap: 後ろの listening と同じように -ing 形を正しいと思う誤り。with の後ろの名詞（her hair）がする側か、される側かで決める。
 - id: q90107
   part: 4
   sec: s201
@@ -1379,9 +1379,9 @@ problems:
   lv: 2
   kind: 正誤
   min: 1
-  q: __After__① dinner, I was __so__② tired __that__③ I __laid__④ down on the sofa.
+  q: __After__① the long walk, our dog was __so__② tired __that__③ it __laid__④ under the tree for an hour.
   ans: "4"
-  why: 後ろに O がないので、自動詞 lie（横になる）を使う。lie の過去形は lay なので、lay down に直す。laid は他動詞 lay（〜を置く）の過去形。
+  why: 後ろに O がないので、自動詞 lie（横になる）を使う。lie の過去形は lay なので、lay under the tree に直す。laid は他動詞 lay（〜を置く）の過去形。
   trap: 「横になった」を laid と書く誤り。話し言葉では laid をこの意味で使う人もいるが、入試では O がなければ lie の活用（lie－lay－lain）を使う。
 # ---- 整序 ----
 - id: q90108
@@ -1428,11 +1428,11 @@ problems:
   lv: 1
   kind: 整序
   min: 2
-  q: 母が私に新しいかばんを買ってくれた。<br>My mother ( a / bag / bought / for / me / new ).
-  words: [a, bag, bought, for, me, new]
-  ans: My mother bought a new bag for me.
-  why: buy は「相手のために自分でする」動作なので、SVO＋for 人 の形にする。bought a new bag for me。
-  trap: bought a new bag to me とする混同（この問題では to は与えられていない）。give・send は to、buy・make は for。
+  q: 昨日の夜、姉が私に夕食を作ってくれた。<br>My sister ( dinner / for / made / me ) last night.
+  words: [dinner, for, made, me]
+  ans: My sister made dinner for me last night.
+  why: make（作る）は「相手のために自分でする」動作なので、SVO＋for 人 の形にする。made dinner for me。
+  trap: made me for dinner とする誤り。for 人 は O（dinner）の後ろに置く。for を使わないなら made me dinner（SVOO）になる。
 - id: q90112
   part: 4
   sec: s043
@@ -1492,7 +1492,7 @@ problems:
   kind: 読解
   min: 4
   inst: 次の英文を読み、問いの答えとして最も適切なものを1つずつ選びなさい。
-  passage: '**A（メール）**<br>Subject: Thank you<br>Dear Ms. Abe,<br>I got home to Vancouver safely last night. The flight was long, and I was too tired to unpack my bag, so I went straight to bed.<br>Thank you again for the two weeks I spent at your school. Before I came to Japan, I was worried that I would not make any friends because I couldn''t speak Japanese. But your students talked to me every day, and some of them even taught me how to write my name in kanji. It was not until I said goodbye at the airport that I realized how much I would miss them.<br>I''m sending you some photos I took during my stay. The one showing the students wearing yukata is my favorite. I wish I had stayed longer.<br>My mother says that if you ever come to Canada, you should stay with us. Our house is near a lake where you can go fishing in summer.<br>Please say hello to everyone in Class 2-B.<br>Best wishes,<br>Nora'
+  passage: '**A（メール）**<br>Subject: Thank you<br>Dear Ms. Abe,<br>I got home to Vancouver safely last night. The flight was long, and I was too tired to unpack my bag, so I went straight to bed.<br>Thank you again for the two weeks I spent at your school. Before I came to Japan, I was worried that I would not make any friends because I couldn''t speak Japanese. But your students talked to me every day, and some of them even taught me how to write my name in kanji. It was not until I said goodbye at the airport that I realized how much I would miss them.<br>I''m sending you some photos I took during my stay. The one showing the students wearing yukata is my favorite. My little brother has already put it on the wall of his room. I wish I had stayed longer.<br>My mother says that if you ever come to Canada, you should stay with us. Our house is near a lake where you can go fishing in summer.<br>Please say hello to everyone in Class 2-B.<br>Best wishes,<br>Nora'
   q: 問　Why did Nora go straight to bed last night?
   choices:
   - Because she had already unpacked her bag.
