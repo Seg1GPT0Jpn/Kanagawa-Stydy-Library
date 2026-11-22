@@ -1,0 +1,962 @@
+chapters:
+- id: c06
+  title: 不定詞
+  lead: この単元では、to＋原形の形をした不定詞を学びます。不定詞が文の中で名詞・形容詞・副詞のどの働きをしているかを見分け、「だれがするのか」「いつのことか」「される側か」といった情報を不定詞に足す形を身につけます。さらに、使役動詞・知覚動詞の後ろの原形や形式目的語の it など、4択と正誤でよく問われる形を正しく選べるようにします。ここで決める準動詞の用語と表は、動名詞（単元7）と分詞（単元8）でもそのまま使います。
+  intro: 中学では、want to go（行きたい）のように「to＋動詞の原形」を使う形を学びました。この形は「〜すること」（I like to read.）、「〜するために」（I went to the park to play tennis.）、「〜するための・〜すべき」（something to drink）の3つの意味で使います。It is easy for me to swim.（私にとって泳ぐのは簡単だ）、how to use（使い方）、want 人 to do（人に〜してほしい）も中学で出てきた形です。この単元では、これらを名詞・形容詞・副詞の働き（@s011）という見方で整理し、文型（@s014）や受動態（@s051）と結びつけて広げます。
+  sections:
+  - id: s061
+    title: "不定詞の3つの働き"
+    aim: 不定詞が名詞・形容詞・副詞のどの働きをしているかを位置から見分け、それに合った訳し方ができるようになる。
+    body:
+    - h: 準動詞とは何か
+    - p: 文の V になれるのは動詞だけです（@s011）。ところが、「テニス部に入ること」「月曜日までに終わらせる宿題」「おばに会うために」のように、動詞の意味を名詞・形容詞・副詞として使いたいことがあります。そのとき英語では、動詞の原形の前に to を置いて「to＋原形」の形にします。この形を<<不定詞>>といいます。不定詞のように、動詞の性質を残したまま名詞・形容詞・副詞の働きをする形をまとめて<<準動詞>>と呼びます。準動詞には、不定詞のほかに動名詞（単元7）と分詞（単元8）があります。
+      notes:
+      - kind: 用語
+        term: 不定詞
+        yomi: ふていし
+        text: "to＋動詞の原形の形。文の中で名詞・形容詞・副詞の働きをする。to を付けない原形不定詞もある。"
+      - kind: 用語
+        term: 準動詞
+        yomi: じゅんどうし
+        text: "動詞の性質（後ろに O・C・M をとる）を残したまま、名詞・形容詞・副詞の働きをする形。不定詞・動名詞・分詞の3つ。文の V にはならない。"
+    - p: 「動詞の性質を残す」とは、動詞と同じように後ろに O や C、M を続けられるということです。@e0601 の to open a bakery in this town では、open の後ろに O の a bakery、M の in this town が続いています。本書では、不定詞・動名詞・分詞が後ろの語句とつくるかたまりを〈 〉で示します。一方で、不定詞は文の V にはなりません。主語が3人称単数でも、過去の話でも、to の後ろはいつも原形です。
+    - h: 名詞の働き「〜すること」
+    - p: 名詞の働きをする不定詞は、名詞と同じく文の S・O・C になり、「〜すること」と訳します。@e0601 は C（My dream＝to open a bakery）、@e0602 は decided の O です。want to do、hope to do、decide to do の to do は、どれもこの名詞の働きです。
+    - ex: [e0601, e0602]
+    - p: S になる不定詞を文の頭に置くと、主語が長くなって文の骨組みが見えにくくなります。そこで英語では、主語の位置に it を置き、不定詞のかたまりを文の後ろに回すのがふつうです（@e0603）。この it を<<形式主語>>といい、「それは」とは訳しません。It is ～ to do の文では、to 以下を主語として「…することは～だ」と訳します。
+      notes:
+      - kind: 用語
+        term: 形式主語
+        yomi: けいしきしゅご
+        text: "本当の主語（不定詞や that 節）が長いとき、主語の位置に置く it。本当の主語は文の後ろに回す。It is ～ to do の it で、「それは」と訳さない。"
+    - ex: [e0603]
+    - h: 形容詞の働き「〜する（ための）・〜すべき」
+    - p: 形容詞の働きをする不定詞は、名詞のすぐ後ろに置いて、その名詞を後ろから説明します。@e0604 の homework to finish by Monday は「月曜日までに終わらせる宿題」です。to finish の後ろを見ると、finish の O がありません。不定詞の中は O が1つ欠けた不完全な文（@s015）で、前の名詞 homework がその欠けた O にあたります。欠けた位置は ＿ で示します。
+    - ex: [e0604]
+    - p: 欠けるのが前置詞の後ろの名詞のこともあります。「家に住む」は live a house とは言えず、live in a house と言うので、@e0605 では to live in の in が残ります。in を落とした a house to live は誤りです。前の名詞を不定詞の中の欠けた位置に戻して、live in a house のように文が成り立つかを確かめると、前置詞が要るかどうかが分かります。
+      notes:
+      - kind: 注意
+        text: "something to drink（何か飲むもの）のように、-thing の語の後ろにもよく付く。形容詞も付けるときは something cold to drink の順になる。"
+    - ex: [e0605]
+    - h: 副詞の働き「〜するために」「〜して」
+    - p: 副詞の働きをする不定詞は、動詞や形容詞を説明する M です。動詞の後ろでは「〜するために」と目的を表すことが多く（@e0606）、glad・happy・sad・surprised など気持ちを表す形容詞の後ろでは「〜して」とその気持ちの原因を表します（@e0607）。どちらも M なので、外しても文の骨組みは残ります。
+      notes:
+      - kind: 注意
+        text: "このほか、「〜するとは」（判断の根拠。He must be rich to buy such a car.）や、「その結果〜する」（He grew up to be a doctor.）を表す副詞の働きもある。"
+    - ex: [e0606, e0607]
+    - table:
+        head: [働き, 置く場所, 訳し方, 例]
+        rows:
+        - [名詞の働き, "S・O・C の位置（S なら形式主語 it を使う）", "{{〜すること}}", decided to join the club]
+        - [形容詞の働き, "名詞の{{すぐ後ろ}}", "{{〜する（ための）}}・〜すべき", homework to finish]
+        - [副詞の働き, "動詞・形容詞の後ろ（M）", "{{〜するために}}・〜して", went there to meet her]
+    - check:
+      - q: I want to be a nurse. の to be a nurse の働きは？
+        a: 名詞の働き（want の O）
+      - q: "a book (＿) (＿) on the train（電車で読む本）"
+        a: to read
+      - q: "We need a room to stay (＿).（泊まる部屋）"
+        a: in
+    examples:
+    - id: e0601
+      en: My dream is 〈*to open* a bakery in this town〉.
+      ja: 私の夢は、この町でパン屋を開くことだ。
+    - id: e0602
+      en: Hina decided 〈*to join* the tennis club〉.
+      ja: ヒナはテニス部に入ることに決めた。
+    - id: e0603
+      en: It is not easy 〈*to get up* at five every morning〉.
+      ja: 毎朝5時に起きるのは簡単ではない。
+    - id: e0604
+      en: I have a lot of homework 〈*to finish* ＿ by Monday〉.
+      ja: 私には月曜日までに終わらせなければならない宿題がたくさんある。
+    - id: e0605
+      en: We are looking for a house 〈*to live* in ＿〉.
+      ja: 私たちは住む家を探している。
+    - id: e0606
+      en: Kei went to the station 〈*to meet* his aunt〉.
+      ja: ケイはおばを迎えに駅へ行った。
+    - id: e0607
+      en: We were surprised 〈*to see* snow in April〉.
+      ja: 私たちは4月に雪を見て驚いた。
+    worked:
+    - q: 次の英文を日本語に訳しなさい。<br>Do you have anything to read on the train?
+      steps:
+      - to read の直前の anything は名詞（代名詞）。名詞のすぐ後ろの不定詞なので、形容詞の働きで anything を後ろから説明している。
+      - to read on the train の中を見ると、read の O が欠けている。anything がその O にあたり、「電車で読む何か」となる。
+      - 疑問文の anything は「何か」。全体を「電車で読むものを何か持っていますか」と訳す。
+      ans: 電車で読むものを何か持っていますか。
+      point: 名詞の後ろの to do は、まず形容詞の働きを疑う。「〜するための」と訳して不自然なときは、「〜する（もの）」と訳すと自然になる。
+    - q: 日本語の意味になるように、空所に適切な1語を入れなさい。<br>ケイには放課後いっしょに遊ぶ相手がいない。<br>Kei has no one to play (＿) after school.
+      steps:
+      - to play の前は no one（名詞）。形容詞の働きの不定詞なので、no one が不定詞の中のどこかで欠けている。
+      - 欠けた位置に戻して文を作る。「人と遊ぶ」は play with 人 なので、元の形は play with no one。
+      - with が不定詞の後ろに残るので、空所には with が入る。
+      ans: with
+      point: 形容詞の働きの不定詞では、動詞が自動詞なら前置詞が残る。前の名詞を欠けた位置に戻して、play with ～ のように言えるかで確かめる。
+    summary:
+    - "to＋原形を{{不定詞}}という。不定詞・動名詞・分詞をまとめて{{準動詞}}と呼び、動詞の性質を残して名詞・形容詞・副詞の働きをする。"
+    - "名詞の働きは「{{〜すること}}」。S になるときは{{形式主語}}の it を主語の位置に置き、不定詞を後ろに回す。"
+    - "形容詞の働きは名詞の{{すぐ後ろ}}に置く。不定詞の中は{{不完全な文}}で、前の名詞が欠けた位置に入る（a house to live {{in}}）。"
+    - "副詞の働きは「{{〜するために}}」（目的）や、気持ちを表す形容詞の後ろで「{{〜して}}」（原因）。"
+  - id: s062
+    title: "意味上の主語・否定・完了・受動"
+    aim: 不定詞に「だれがするか」「しない」「主節の時より前」「される」の情報を足す4つの形を作り分けられるようになる。
+    body:
+    - h: 準動詞の4つの変形
+    - p: 不定詞は文の V ではないので、それだけでは「だれがするのか」「いつのことか」を表せません。そこで、to do の形に少し手を加えて情報を足します。足し方は4つあり、本書ではこれを<<準動詞の4つの変形>>と呼びます。「だれがするか」を示す意味上の主語、「しない」を示す否定、「主節の時より前」を示す完了、「される」を示す受動です。動名詞（単元7）と分詞（単元8）にも同じ4つがあるので、次の表と同じ順で学びます。
+      notes:
+      - kind: 用語
+        term: 準動詞の4つの変形
+        yomi: じゅんどうしのよっつのへんけい
+        text: "準動詞（不定詞・動名詞・分詞）に情報を足す4つの形。意味上の主語・否定・完了・受動の順。不定詞では for 人 to do、not to do、to have done、to be done。"
+    - table:
+        head: [変形, 足す情報, 不定詞の形, 例]
+        rows:
+        - [意味上の主語, だれがするか, "{{for 人}} to do（人の性質なら of 人）", for children to swim]
+        - [否定, しない, "{{not}} to do", not to be late]
+        - [完了, 主節の時より前, "to {{have done}}", to have been sick]
+        - [受動, される, "to {{be done}}", to be laughed at]
+    - h: 意味上の主語 for 人・of 人
+    - p: @e0608 の to sit still for an hour で、じっと座るのはだれでしょうか。それを示すのが直前の for small children です。不定詞の動作をする人を<<意味上の主語>>といい、ふつうは to do の直前に「for＋人」の形で置きます。for 人 がないときは、文の主語と同じ人か、「人一般」がする動作です（@e0603 は人一般）。
+      notes:
+      - kind: 用語
+        term: 意味上の主語
+        yomi: いみじょうのしゅご
+        text: "準動詞の動作をする人や物。文の主語と違うときに示す。不定詞では to do の直前に for 人（人の性質を表す形容詞の文では of 人）を置く。"
+    - ex: [e0608]
+    - p: kind（親切な）・careless（不注意な）・clever（賢い）・foolish（愚かな）・rude（失礼な）のように、人の性質を表す形容詞の文では、for ではなく of を使います（@e0609）。見分けるには、「人＝形容詞」の関係が元の文と同じ意味で成り立つかを確かめます。You were kind.（あなたは親切だった）は @e0609 と同じことを言っているので of です。@e0608 の difficult が説明しているのは「1時間じっと座ること」で、子どもではありません。だから for です。
+      notes:
+      - kind: 注意
+        text: "nice は「親切な」の意味なら of（It's nice of you to come.）、「楽しい・よい」の意味なら for（It's nice for children to play outside.）を使う。"
+    - ex: [e0609]
+    - h: 否定 not to do
+    - p: 不定詞を打ち消すときは、not（または never）を to の直前に置きます（@e0610）。not の位置で意味が変わります。promised not to be late は「遅れないと約束した」ですが、didn't promise to be late は「遅れると約束はしなかった」で、打ち消しているものが違います。
+    - ex: [e0610]
+    - h: 完了 to have done と受動 to be done
+    - p: seem to do（〜のようだ）の文で比べます。@e0611 は It seems that she is busy today. と同じで、「ようだ」と「忙しい」はどちらも今のことです。@e0612 では、「ようだ」は今ですが、病気だったのは先週です。不定詞の表すことが主節の時より前のときは、to have done の形にします。これを<<完了不定詞>>といいます。完了形と同じく、主節の時を基準の時（@s031）とし、それより前のことを表すと考えます。
+      notes:
+      - kind: 用語
+        term: 完了不定詞
+        yomi: かんりょうふていし
+        text: "to have＋過去分詞の形。主節の動詞が表す時を基準の時とし、それより前のことを表す。seem to have done、be said to have done など。"
+    - ex: [e0611, e0612]
+    - p: 単元5で学んだ S is said to do（@s054）も同じです。「約800年前に建てられた」は「言われている」今より前のことなので完了にし、寺は「建てられる側」なので受動にもします（@e0613）。受動の to be done は、不定詞の意味上の主語が「される側」のときに使います。@e0614 で笑われるのは主語の Nobody（だれも）なので、to be laughed at です。能動か受動かは、受動態と同じ問い（@s051）で決めます。
+    - ex: [e0613, e0614]
+    - check:
+      - q: "It is necessary (＿) you to see a doctor."
+        a: for
+      - q: "It was clever (＿) her to find the answer so quickly."
+        a: of
+      - q: "It seems that he was rich. → He seems (＿) (＿) (＿) rich."
+        a: to have been
+    examples:
+    - id: e0608
+      en: It is difficult *for small children* 〈to sit still for an hour〉.
+      ja: 小さな子どもが1時間じっと座っているのは難しい。
+    - id: e0609
+      en: It was kind *of you* 〈to carry my bag〉.
+      ja: 私のかばんを運んでくれて、あなたは親切だった。
+    - id: e0610
+      en: Josh promised 〈*not* to be late again〉.
+      ja: ジョシュは二度と遅刻しないと約束した。
+    - id: e0611
+      en: Anna seems 〈to be busy today〉.
+      ja: アンナは今日は忙しいようだ。
+    - id: e0612
+      en: Anna seems 〈*to have been* sick last week〉.
+      ja: アンナは先週、具合が悪かったようだ。
+    - id: e0613
+      en: This temple is said 〈*to have been built* about 800 years ago〉.
+      ja: この寺は約800年前に建てられたと言われている。
+    - id: e0614
+      en: Nobody likes 〈*to be laughed at*〉 in front of others.
+      ja: 人前で笑われるのが好きな人はいない。
+    worked:
+    - q: It was careless (＿) you to leave your umbrella on the train.
+      choices: [for, of, to, with]
+      steps:
+      - 4択の共通手順（@s015）で考える。空所は to leave の直前で、不定詞の意味上の主語を示す前置詞が入る。
+      - 形容詞 careless（不注意な）は人の性質を表す。You were careless. が元の文と同じ意味で成り立つ。
+      - 人の性質を表す形容詞の文では、意味上の主語を of 人 で示す。
+      ans: "2"
+      point: It is 形容詞 for／of 人 to do は、形容詞が人の性質を表すかどうかで決める。difficult・easy・dangerous なら for、kind・careless・clever なら of。
+    - q: The road is wet. It seems (＿) last night.
+      choices: [to rain, to have rained, raining, to be rained]
+      steps:
+      - 空所は seems の後ろで、to do の形が入る。③raining は seem の後ろに置けない。
+      - 時の手がかりは last night。「ようだ」は今（seems）で、雨が降ったのは昨夜なので、主節の時より前のこと。
+      - 主節の時より前は完了不定詞 to have done で表す。rain は「降る」側なので受動の④は合わない。
+      ans: "2"
+      point: It seems that it rained last night. と書きかえられる。seem・be said の後ろで、不定詞の時が主節より前なら to have done にする。
+    summary:
+    - "準動詞の4つの変形：意味上の主語は {{for 人}} to do、否定は {{not}} to do、完了は to {{have done}}、受動は to {{be done}}。"
+    - "kind・careless・clever など人の{{性質}}を表す形容詞の文では、意味上の主語に {{of}} 人 を使う。"
+    - "主節の時より{{前}}のことは完了不定詞で表す。He seems to have been sick.＝It seems that he {{was}} sick."
+    - "不定詞の意味上の主語が「{{される側}}」なら to be done にする。"
+  - id: s063
+    title: "SVO＋to do と原形不定詞"
+    aim: 動詞の後ろの O に続く形を、to do にするか原形にするかを動詞の種類で判断でき、受動態での to も正しく書けるようになる。
+    body:
+    - h: V O to do「O に〜してほしい・〜するように言う」
+    - p: I want to go. の want の後ろに人を入れて want 人 to do とすると、「人に〜してほしい」という意味になります（@e0615）。この形では、O が to do の意味上の主語（@s062）です。@e0615 で帰ってくるのは母ではなく私（me）で、O と to do の間には「O が〜する」という関係があります。
+    - ex: [e0615]
+    - p: この形をとる代表的な動詞は、want・would like（〜してほしい）、tell（〜するように言う）、ask（〜するように頼む）、allow（〜することを許す）、advise（〜するように忠告する）、expect（〜すると思う・期待する）です（@e0616）。「〜しないように」なら to の前に not を置き、tell 人 not to do とします。
+      notes:
+      - kind: 注意
+        text: "want は that 節を O にしない。I want that you come. は誤りで、I want you to come. とする。逆に hope は O to do の形をとらず、I hope that you will come. とする。"
+    - ex: [e0616]
+    - h: 使役動詞 make・let・have＋O＋原形
+    - p: make・let・have は、O の後ろに to のない原形を置きます。この to のない不定詞を<<原形不定詞>>といい、「O に〜させる・してもらう」という意味の make・let・have を<<使役動詞>>といいます。O と原形の間には、V O to do と同じく「O が〜する」の関係があります。3つの違いは意味です。make は相手が嫌でも「させる」強制（@e0617）、let は相手がしたいことを「させてやる」許可（@e0618）、have は頼んだり仕事として「してもらう」ことを表します（@e0619）。
+      notes:
+      - kind: 用語
+        term: 原形不定詞
+        yomi: げんけいふていし
+        text: "to を付けない不定詞。使役動詞（make・let・have）や知覚動詞（see・hear など）の O の後ろに置く。"
+      - kind: 用語
+        term: 使役動詞
+        yomi: しえきどうし
+        text: "「O に〜させる・〜してもらう」という意味で、make・let・have O do の形をとる動詞。"
+    - ex: [e0617, e0618, e0619]
+    - p: 似た意味でも、get と help は形が違います。get は get O to do（O に〜してもらう）と to を付けます。help は help O do と help O to do のどちらも使います（@e0620）。
+    - ex: [e0620]
+    - h: 知覚動詞＋O＋原形
+    - p: see・watch・hear・feel・notice のように、見る・聞く・感じることを表す動詞を<<知覚動詞>>といいます。知覚動詞も O の後ろに原形を置き、「O が〜するのを見る・聞く」を表します（@e0621）。原形を置くと、動作を始めから終わりまで見聞きしたことを表します。動作の途中を見聞きしたときは -ing 形を置きますが、これは単元8（@s082）で扱います。
+      notes:
+      - kind: 用語
+        term: 知覚動詞
+        yomi: ちかくどうし
+        text: "see・watch・hear・feel・notice など、見る・聞く・感じることを表す動詞。O の後ろに原形（または -ing 形）を置く。"
+    - ex: [e0621]
+    - h: 受動態にすると to が現れる
+    - p: 使役の make と知覚動詞の文を受動態（@s051）にすると、原形の前に to が現れます。The coach made us run ten laps. の us を主語にすると、@e0622 のように We were made to run ten laps. となります。同じように、We saw him leave. は He was seen to leave. です。let と have は、この形の受動態をふつう作りません。「〜させてもらった」と受動態で言いたいときは、let の代わりに be allowed to do を使います。
+    - ex: [e0622]
+    - table:
+        head: [動詞, 能動態の形, 意味, 受動態]
+        rows:
+        - ["want・tell・ask・allow", "V O {{to do}}", O に〜してほしい・言う・頼む・許す, be told to do など]
+        - [make, "make O {{do}}", O に（無理に）〜させる, "be made {{to do}}"]
+        - [let, "let O {{do}}", O に（望みどおり）〜させる, （be allowed to do で言う）]
+        - [have, "have O {{do}}", O に〜してもらう, ふつう作らない]
+        - ["see・hear など", "V O {{do}}", O が〜するのを見る・聞く, "be seen {{to do}}"]
+        - [help, "help O do／help O to do", O が〜するのを手伝う, be helped to do]
+    - check:
+      - q: "The teacher told us (＿) (＿) run in the hall.（走らないように）"
+        a: not to
+      - q: "My mother made me (＿) the dishes. (wash)"
+        a: wash
+      - q: "I was made (＿) wait for an hour."
+        a: to
+    examples:
+    - id: e0615
+      en: My mother wants me 〈*to come* home by seven〉.
+      ja: 母は私に7時までに帰ってきてほしいと思っている。
+    - id: e0616
+      en: Mr. Sakai told us 〈*to bring* a dictionary〉 for the next class.
+      ja: 坂井先生は私たちに、次の授業に辞書を持ってくるように言った。
+    - id: e0617
+      en: The coach made us 〈*run* ten laps〉 after practice.
+      ja: コーチは練習の後、私たちにグラウンドを10周走らせた。
+      gloss: [[lap, （トラックの）1周]]
+    - id: e0618
+      en: My father let me 〈*use* his camera〉 on the trip.
+      ja: 父は旅行中、私に自分のカメラを使わせてくれた。
+    - id: e0619
+      en: I had the man at the bike shop 〈*fix* my tire〉.
+      ja: 私は自転車店の人にタイヤを直してもらった。
+    - id: e0620
+      en: Josh helped his sister 〈*clean* her room〉.
+      ja: ジョシュは妹が部屋を片づけるのを手伝った。
+    - id: e0621
+      en: We heard someone 〈*knock* on the door〉 at midnight.
+      ja: 真夜中に、だれかがドアをノックするのが聞こえた。
+    - id: e0622
+      en: We were made 〈*to run* ten laps〉 by the coach.
+      ja: 私たちはコーチにグラウンドを10周走らされた。
+    worked:
+    - q: My mother let me (＿) a cake for my friend's birthday.
+      choices: [to bake, bake, baking, baked]
+      steps:
+      - 空所は let me の後ろ。let O の後ろに続く形を選ぶ問題。
+      - let は使役動詞で、O の後ろには原形不定詞を置く。「私がケーキを焼く」という「O が〜する」の関係もある。
+      - to の付いた①to bake、-ing 形の③、過去分詞の④は let O の後ろに置けない。原形の bake を選ぶ。
+      ans: "2"
+      point: allow O to do と同じ「許可」の意味でも、let は to を付けない。動詞ごとに後ろの形を覚える。
+    - q: The teacher __made__① us __to write__② a report __about__③ the trip __during__④ the summer vacation.
+      steps:
+      - 下線部を1つずつ見る。①made は使役動詞として使われている。
+      - 使役の make は make O do の形で、O の後ろは原形。②to write は write にする。
+      - ③about（〜について）、④during（〜の間）は正しい前置詞。
+      ans: "2"
+      point: 「〜させる」の日本語に引かれて to を入れない。to が現れるのは受動態の be made to do のときだけ。
+    summary:
+    - "want・tell・ask・allow は V O {{to do}}。O と to do の間に「O が{{〜する}}」の関係がある。"
+    - "使役動詞 make・let・have と知覚動詞 see・hear は V O {{原形}}。make は強制、let は{{許可}}、have は「〜してもらう」。"
+    - "get は get O {{to do}}、help は help O do と help O to do の両方を使う。"
+    - "使役の make と知覚動詞の受動態では to が現れる。be made {{to do}}、be seen {{to do}}。"
+  - id: s064
+    title: "形式目的語 it・疑問詞＋to do・be to do"
+    aim: 疑問詞＋to do と find it ～ to do の形を正しく組み立て、be to do の予定・義務の意味を読み取れるようになる。
+    body:
+    - h: 疑問詞＋to do
+    - p: how to swim（泳ぎ方）のように、疑問詞の後ろに to do を置くと、「どう〜すればよいか」「何を〜すればよいか」という名詞のかたまりになります（@e0623）。文の中では、know・tell・decide・learn などの O になります。中身は「疑問詞＋S＋should do」とほぼ同じで、@e0623 は how he should use this machine と言いかえられます。
+    - ex: [e0623]
+    - p: what to do と how to do の区別は、不定詞の中が完全な文か不完全な文か（@s015）で決まります。what は名詞なので、不定詞の中で欠けた O などの代わりをします（what to buy ＿）。how・where・when は M なので、後ろは完全な文です（how to get there）。which と what は、@e0624 の which bus to take のように後ろに名詞を続けることもできます。
+      notes:
+      - kind: 注意
+        text: "why to do の形はふつう使わない。「なぜ〜すべきか」は why S should do のように節で言う。"
+    - ex: [e0624]
+    - table:
+        head: [形, 意味, 不定詞の中]
+        rows:
+        - [what to do, "{{何を}}〜すればよいか", "{{不完全な文}}（O などが欠ける）"]
+        - [how to do, "{{どう}}〜すればよいか・〜のしかた", 完全な文]
+        - [where to do, "{{どこで}}（どこへ）〜すればよいか", 完全な文]
+        - [when to do, "{{いつ}}〜すればよいか", 完全な文]
+        - [which＋名詞＋to do, "どの〜を…すればよいか", 不完全な文]
+    - h: 形式目的語 it
+    - p: SVOC の find O C（O が C だと分かる、@s014）で、O に不定詞を置こうとすると、found to answer the last question difficult のように O が長くなり、C がどこにあるか分かりにくくなります。そこで O の位置に it を置き、不定詞を C の後ろに回します（@e0625）。この it を<<形式目的語>>といいます。形式主語（@s061）と同じく、it は後ろの不定詞を指すしるしで、「それを」とは訳しません。
+      notes:
+      - kind: 用語
+        term: 形式目的語
+        yomi: けいしきもくてきご
+        text: "SVOC の O が不定詞（や that 節）のとき、O の位置に置く it。本当の O は C の後ろに回す。find it difficult to do の it。"
+    - ex: [e0625]
+    - p: この形をとる動詞は、find・think・make・consider などです。意味上の主語を示すときは、C の後ろに for 人 を置きます（make it possible for 人 to do）。@e0626 の直訳は「新しい橋が、車で島へ行くことを可能にした」です。決まった言い方の make it a rule to do（〜することにしている）もこの形です。形式目的語の it は省けません。found difficult to answer のように it を落とした形は、正誤問題でよく問われます。
+    - ex: [e0626]
+    - h: be to do（予定・義務）
+    - p: be 動詞の後ろに to do を置くと、決まっている予定や、守るべき義務を表します。@e0627 は「〜することになっている」という予定、@e0628 は「〜しなければならない」という義務です。どちらの意味かは文脈で決めます。日時の決まった行事なら予定、主語が you で指示や規則を伝える文なら義務のことが多いです。be to do はかたい言い方で、掲示・ニュース・規則の文によく出ます。
+      notes:
+      - kind: 注意
+        text: "if 節の中の be to do は「〜するつもりなら」という意図を表す。If you are to pass the test, you must study harder.（試験に受かるつもりなら、もっと勉強しなければならない）"
+    - ex: [e0627, e0628]
+    - check:
+      - q: "I don't know (＿) to go next.（次にどこへ行けばいいか）"
+        a: where
+      - q: "I think (＿) dangerous to swim here."
+        a: it
+      - q: The meeting is to start at three. の意味は？
+        a: 会議は3時に始まることになっている（予定）。
+    examples:
+    - id: e0623
+      en: Kei doesn't know 〈*how to use* this copy machine〉.
+      ja: ケイはこのコピー機の使い方を知らない。
+    - id: e0624
+      en: Could you tell me 〈*which bus to take*〉 to the museum?
+      ja: 博物館へ行くにはどのバスに乗ればいいか教えてもらえますか。
+    - id: e0625
+      en: I found *it* difficult 〈to answer the last question〉.
+      ja: 最後の問題に答えるのは難しかった。
+    - id: e0626
+      en: The new bridge made *it* possible 〈to get to the island by car〉.
+      ja: 新しい橋のおかげで、車でその島へ行けるようになった。
+    - id: e0627
+      en: Our class *is* 〈*to visit* the science museum〉 on May 10.
+      ja: 私たちのクラスは5月10日に科学博物館を訪れることになっている。
+    - id: e0628
+      en: You *are* 〈*to finish* this report by noon〉.
+      ja: あなたはこの報告書を正午までに仕上げなければならない。
+    worked:
+    - q: 日本語の意味になるように（　）内の語を並べかえなさい。<br>次に何をすればいいか教えてください。<br>Please tell me ( do / next / to / what ).
+      steps:
+      - 「何をすればよいか」は what to do で表し、tell me の後ろに O₂ として置く。
+      - to do の中は do の O が欠けた不完全な文で、what がその O の代わりをしている。
+      - next（次に）は M なので、what to do の後ろに置く。
+      ans: Please tell me what to do next.
+      point: 「何を〜すればよいか」は what to do。how to do は「どう〜すればよいか」で、do の後ろに O が残るときに使う。
+    - q: 日本語の意味になるように（　）内の語を並べかえなさい。<br>私はその町で友達を作るのが難しいと分かった。<br>I ( difficult / found / friends / it / make / to ) in the town.
+      steps:
+      - 「〜が難しいと分かった」は find O C。O は「その町で友達を作ること」、C は difficult。
+      - O の不定詞が長いので、O の位置に形式目的語の it を置き、found it difficult とする。
+      - 本当の O の to make friends を C の後ろに回し、in the town を続ける。
+      ans: I found it difficult to make friends in the town.
+      point: find・think・make の後ろに「形容詞＋to do」が続くときは、間に it が要る。found difficult to make としない。
+    summary:
+    - "疑問詞＋to do は名詞のかたまり。what to do は「{{何を}}〜すればよいか」、how to do は「{{どう}}〜すればよいか」。"
+    - "what to do の中は{{不完全な文}}、how・where・when to do の中は{{完全な文}}。"
+    - "find {{it}} difficult to do の it を{{形式目的語}}という。it は省けない。"
+    - "be to do は{{予定}}（〜することになっている）や{{義務}}（〜しなければならない）を表す。"
+  - id: s065
+    title: "不定詞を使う決まった言い方"
+    aim: too ～ to do と ～ enough to do を so ～ that の文と書きかえ、目的の否定や独立不定詞を正しく使えるようになる。
+    body:
+    - h: too ～ to do と ～ enough to do
+    - p: too は「〜すぎる」という意味の副詞で、too ～ to do は「あまりに～なので…できない」「…するには～すぎる」を表します（@e0629）。意味上の主語は to の前に for 人 で置きます。@e0629 の carry の後ろには O がありません。運べないのは主語の This box で、それが carry の欠けた O にあたるからです。so ～ that の文で言いかえると This box is so heavy that I can't carry it. となり、こちらでは it が要ります。
+      notes:
+      - kind: 注意
+        text: "too ～ to do の後ろに、主語と同じものを指す代名詞（it など）をもう一度置かない。正誤問題では、too heavy for me to carry it の it が誤りとして問われる。"
+    - ex: [e0629]
+    - p: ～ enough to do は「…するのに十分～」「十分～なので…できる」です（@e0630）。enough は形容詞・副詞の後ろに置き、old enough、fast enough の順になります。名詞に付けるときは前に置いて、enough money to buy ～ とします。enough old とする誤りは正誤問題でよく出ます。
+    - ex: [e0630]
+    - h: in order to do と so as to do
+    - p: 副詞の働きの不定詞は、「〜するために」という目的を表しました（@s061）。目的であることをはっきり示したいときは、in order to do や so as to do を使います（@e0631）。「〜しないために」と否定にするときは、to の直前に not を置いて in order not to do、so as not to do とします（@e0632）。準動詞の否定は to の前、という決まり（@s062）と同じです。目的の否定は、not to do だけで言うより、この2つの形で言うのがふつうです。
+    - ex: [e0631, e0632]
+    - h: 独立不定詞
+    - p: to tell the truth（実を言うと）のように、文の頭などに置いて、文全体に話し手の前置きを付け足す不定詞があります（@e0633）。これを<<独立不定詞>>といいます。文の骨組みには入らない決まった言い方なので、次の表のものをそのまま覚えます。
+      notes:
+      - kind: 用語
+        term: 独立不定詞
+        yomi: どくりつふていし
+        text: "文の頭などに置き、文全体に話し手の前置きを付ける決まった不定詞の言い方。to tell the truth、to be honest、needless to say など。"
+    - table:
+        head: [言い方, 意味]
+        rows:
+        - [to tell the truth, "{{実を言うと}}"]
+        - [to be honest, "{{正直なところ}}"]
+        - [to begin with, "{{まず第一に}}"]
+        - [needless to say, "{{言うまでもなく}}"]
+        - [so to speak, "{{いわば}}"]
+        - [strange to say, 不思議なことに]
+        - [to make matters worse, "{{さらに悪いことに}}"]
+    - ex: [e0633]
+    - check:
+      - q: "She was too tired to walk. → She was (＿) tired (＿) she couldn't walk."
+        a: so／that
+      - q: "He is rich (＿) to buy the house."
+        a: enough
+      - q: "I took a taxi so as (＿) (＿) be late.（遅れないように）"
+        a: not to
+    examples:
+    - id: e0629
+      en: This box is *too* heavy 〈for me to carry ＿〉.
+      ja: この箱は重すぎて私には運べない。
+    - id: e0630
+      en: My brother is old *enough* 〈to drive a car〉.
+      ja: 兄は車を運転できる年齢になっている。
+    - id: e0631
+      en: Hina left home early 〈*in order to* catch the first train〉.
+      ja: ヒナは始発電車に乗るために早く家を出た。
+    - id: e0632
+      en: I spoke quietly 〈*so as not to* wake the baby〉.
+      ja: 私は赤ちゃんを起こさないように小声で話した。
+    - id: e0633
+      en: 〈*To tell the truth*〉, I haven't read the book yet.
+      ja: 実を言うと、私はまだその本を読んでいない。
+    worked:
+    - q: 上の文とほぼ同じ意味になるように、空所に適切な語を入れなさい。<br>The question was so difficult that I couldn't answer it.<br>The question was (＿) difficult (＿) me (＿) answer.
+      steps:
+      - so ～ that S can't … は「あまりに～なので…できない」で、too ～ to do に言いかえられる。
+      - 答えられない人 I は、意味上の主語として to の前に for me で置く。
+      - answer の O は主語の The question と同じなので、to answer の後ろに it を置かない。
+      ans: too／for／to
+      point: so ～ that の文にあった it は、too ～ to do では消える。主語が to do の欠けた O にあたるからである。
+    - q: Ms. Moore was __enough kind__① __to show__② me __the way__③ __to__④ the station.
+      steps:
+      - 下線部を1つずつ見る。①は enough と形容詞 kind の並び順を確かめる。
+      - enough は形容詞の後ろに置くので、kind enough が正しい。
+      - ②to show は enough to do の to do、③the way（道）、④to the station（駅への）は正しい。
+      ans: "1"
+      point: enough は形容詞・副詞の後ろ、名詞の前。kind enough to do、enough time to do と覚える。
+    summary:
+    - "too ～ to do は「あまりに～なので…{{できない}}」＝so ～ that S {{can't}} …。to do の後ろに主語を指す it を置かない。"
+    - "～ enough to do の enough は形容詞の{{後ろ}}（kind enough）、名詞の{{前}}（enough money）。"
+    - "目的の否定は in order {{not}} to do、so as {{not}} to do。"
+    - "独立不定詞：to tell the truth（{{実を言うと}}）、needless to say（{{言うまでもなく}}）。"
+problems:
+# ---- 前提チェック ----
+- id: q06001
+  sec: s061
+  set: 前提
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: I want (＿) a new bike for my birthday.
+  choices: [buy, to buy, buying, bought]
+  ans: "2"
+  why: want の後ろに「〜すること」を続けるときは to＋原形の形にする。want to do で「〜したい」。
+  trap: 「買いたい」の「買う」から①buy を選ぶ誤り。want の後ろに動詞の原形をそのまま並べることはできない。
+- id: q06002
+  sec: s061
+  set: 前提
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 空所に適切な1語を入れなさい。
+  q: My brother went to the park (＿) play baseball.
+  ans: to
+  why: 「野球をするために」と目的を表すので、to＋原形の to play にする。
+  trap: and を入れる誤り。went（過去形）と and でつなぐなら played にする必要があり、原形の play とは合わない。
+- id: q06003
+  sec: s061
+  set: 前提
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: （　）内の動詞を適切な形にして空所に入れなさい。
+  q: "My sister likes to (＿) pictures of animals. (draw)"
+  ans: draw
+  why: to の後ろの動詞は、主語や時制にかかわらずいつも原形。
+  trap: 主語 My sister が3人称単数なので draws とする誤り。-s が付くのは likes のほうで、to の後ろは原形のまま。
+# ---- 節末 s061 ----
+- id: q06004
+  sec: s061
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: I went to the library (＿) some books about space.
+  choices: [borrow, borrowing, to borrow, borrowed]
+  ans: "3"
+  why: 「本を借りるために」と、図書館へ行った目的を表す。目的は副詞の働きの不定詞 to borrow で表す。
+  trap: ②borrowing を選ぶ誤り。went to the library の後ろに -ing 形を置いても「借りるために」という目的は表せない。
+- id: q06005
+  sec: s061
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: （　）内の語を使って、空所に適切な語を1語ずつ入れなさい。
+  q: "It is important (＿) (＿) enough sleep before a test. (get)"
+  ans: to get
+  why: It は形式主語で、本当の主語は「十分な睡眠をとること」。名詞の働きの不定詞 to get を後ろに置く。
+  trap: getting と1語だけ入れて空所を1つ余らせる誤り。It is ～ の後ろで本当の主語を示すのは to do の形。
+- id: q06006
+  sec: s061
+  set: 節末
+  lv: 1
+  kind: 和訳
+  min: 2
+  inst: 次の英文を日本語に訳しなさい。
+  q: My plan for this summer is to read ten English books.
+  ans: この夏の私の計画は、英語の本を10冊読むことだ。
+  alt: [今年の夏の私の計画は、英語の本を10冊読むことだ。]
+  why: to read ten English books は is の後ろの C で、名詞の働き。「〜すること」と訳しているかが採点の要点。
+  trap: 「10冊の英語の本を読むために」と目的で訳す誤り。is の後ろの C なので「My plan＝読むこと」の関係になる。
+- id: q06007
+  sec: s061
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Can I borrow a pen to write (＿)?
+  choices: [with, on, about, to]
+  ans: "1"
+  why: a pen to write ＿ は形容詞の働きの不定詞。pen を欠けた位置に戻すと write with a pen（ペンで書く）になるので with が残る。
+  trap: 何も要らないと考えて答えに迷ったり、②on を選んだりする誤り。write on は紙など「書く面」に使い、ペンには使わない。
+- id: q06008
+  sec: s061
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: My grandmother __was__① very __glad__② __to__③ __received__④ a letter from me.
+  ans: "4"
+  why: glad の後ろで気持ちの原因を表す不定詞。to の後ろは原形なので received を receive にする。
+  trap: 過去の話なので過去形でよいと考える誤り。時制は was が表していて、to の後ろはいつも原形。
+- id: q06009
+  sec: s061
+  set: 節末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 私には今日しなければならないことがたくさんある。<br>I have ( a / do / lot / of / things / to ) today.
+  words: [a, do, lot, of, things, to]
+  ans: I have a lot of things to do today.
+  why: 「しなければならないこと」は things を後ろから説明する形容詞の働きの不定詞 to do。名詞 a lot of things のすぐ後ろに置く。
+  trap: I have to do a lot of things today. と have to を作る誤り。語は足りるが、日本語の「〜ことがたくさんある」は名詞＋to do で表す並べかえになっている。
+# ---- 節末 s062 ----
+- id: q06010
+  sec: s062
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: It is dangerous (＿) children to swim in this river.
+  choices: [for, of, to, by]
+  ans: "1"
+  why: 泳ぐのは children で、不定詞の意味上の主語。dangerous は人の性質ではないので for 人 を使う。
+  trap: ②of を選ぶ誤り。Children are dangerous. は元の文の意味にならない。of は kind など人の性質を表す形容詞のときだけ。
+- id: q06011
+  sec: s062
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 日本語の意味になるように、空所に適切な語を1語ずつ入れなさい。
+  q: ヒナはその秘密をだれにも話さないと約束した。<br>Hina promised (＿) (＿) tell the secret to anyone.
+  ans: not to
+  why: 不定詞の否定は to の直前に not を置き、not to do とする。
+  trap: to not と順を逆にする誤り。準動詞の否定は not を準動詞の前に置く。
+- id: q06012
+  sec: s062
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: I'm very happy (＿) invited to your party.
+  choices: [to be, to have, for, be]
+  ans: "1"
+  why: 私はパーティーに「招待される側」なので、受動の不定詞 to be invited にする。happy の後ろで「〜して」と原因を表す。
+  trap: ②to have を選ぶと to have invited（招待した）になり、私が招待した側になってしまう。
+- id: q06013
+  sec: s062
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: __It__① was __kind__② __for__③ you to __help__④ the old man with his bags.
+  ans: "3"
+  why: kind（親切な）は人の性質を表す形容詞。You were kind. が成り立つので、意味上の主語は of you にする。
+  trap: It is ～ for 人 to do の形を覚えていて、for を正しいとする誤り。人の性質を表す形容詞では of を使う。
+- id: q06014
+  sec: s062
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Mr. Sakai is said (＿) a good soccer player when he was in high school.
+  choices: [to be, to have been, being, having been]
+  ans: "2"
+  why: 「言われている」のは今（is said）で、上手な選手だったのは高校時代（when he was in high school）。主節の時より前なので完了不定詞にする。
+  trap: ①to be を選ぶ誤り。to be だと今も上手な選手だと言われていることになり、when he was in high school と合わない。
+- id: q06015
+  sec: s062
+  set: 節末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 彼女は昨日その本を読み終えたようだ。<br>She ( book / finished / have / seems / the / to ) yesterday.
+  words: [book, finished, have, seems, the, to]
+  ans: She seems to have finished the book yesterday.
+  why: 「ようだ」は今（seems）、読み終えたのは昨日なので、seem の後ろを完了不定詞 to have finished にする。
+  trap: She seems to finished … のように have を落とす語順を考える誤り。to の後ろは原形なので、have＋過去分詞の have を to の直後に置く。
+# ---- 節末 s063 ----
+- id: q06016
+  sec: s063
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Ms. Moore asked us (＿) quietly in the library.
+  choices: [speak, to speak, speaking, spoke]
+  ans: "2"
+  why: ask 人 to do で「人に〜するように頼む」。ask は O の後ろに to do を置く動詞。
+  trap: 使役動詞と同じように①speak を選ぶ誤り。原形を置くのは make・let・have と知覚動詞だけで、ask は to が要る。
+- id: q06017
+  sec: s063
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 日本語の意味になるように、空所に適切な1語を入れなさい。
+  q: 兄は私に自分の自転車を使わせてくれた。<br>My brother (＿) me use his bike.
+  ans: let
+  why: 空所の後ろが me use（O＋原形）なので使役動詞。「使わせてくれた」は相手の望みを許す意味なので let。過去形も let。
+  trap: allowed を入れる誤り。allow は allow O to do の形なので、後ろが原形の use だと合わない。
+- id: q06018
+  sec: s063
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: I heard someone (＿) my name from behind.
+  choices: [to call, call, called, to calling]
+  ans: "2"
+  why: hear は知覚動詞で、hear O do の形をとる。「だれかが私の名前を呼ぶ」の関係なので原形の call。
+  trap: ①to call を選ぶ誤り。知覚動詞の能動態では O の後ろに to を付けない。
+- id: q06019
+  sec: s063
+  set: 節末
+  lv: 2
+  kind: 英作
+  min: 3
+  inst: 日本語の意味になるように、（　）内の指示にしたがって英文を書きなさい。
+  q: 私は母に部屋を掃除させられた。（I で始め、made を使って）
+  ans: I was made to clean my room by my mother.
+  alt: [I was made to clean my room by my mom.]
+  why: My mother made me clean my room. の受動態。使役の make を受動態にすると to が現れ、was made to clean となる。to を入れているかが採点の要点。
+  trap: I was made clean my room とする誤り。能動態では原形でも、受動態では be made to do になる。
+- id: q06020
+  sec: s063
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: My parents __let__① me __to go__② camping __with__③ my friends __last__④ weekend.
+  ans: "2"
+  why: let は使役動詞で let O do の形。to go を go にする。
+  trap: 「行かせてくれた」を allow O to do と同じ形で考え、to go を正しいとする誤り。let の後ろは原形。
+- id: q06021
+  sec: s063
+  set: 節末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 母は私に夕食前に宿題を終えてほしいと思っている。<br>My mother ( before / finish / homework / me / my / to / wants ) dinner.
+  words: [before, finish, homework, me, my, to, wants]
+  ans: My mother wants me to finish my homework before dinner.
+  why: 「人に〜してほしい」は want 人 to do。wants の後ろに O の me、その後ろに to finish my homework を置く。
+  trap: My mother wants to finish me … のように me を to do の後ろに回す誤り。宿題を終えるのは me なので、意味上の主語の me を to の前に置く。
+# ---- 節末 s064 ----
+- id: q06022
+  sec: s064
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: I don't know (＿) to say to her.
+  choices: [what, why, when, if]
+  ans: "1"
+  why: to say to her の中では say の O が欠けている（不完全な文）。欠けた O の代わりになるのは名詞の what。
+  trap: ③when を選ぶ誤り。when は M なので後ろは完全な文になるはずだが、say の O が欠けたままになる。
+- id: q06023
+  sec: s064
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 日本語の意味になるように、空所に適切な1語を入れなさい。
+  q: 駅への行き方を教えてくれますか。<br>Can you show me (＿) to get to the station?
+  ans: how
+  why: 「行き方」は「どう行けばよいか」なので how to get。to get to the station は完全な文で、M の how が合う。
+  trap: what を入れる誤り。get to the station には欠けた要素がないので、名詞の what は入らない。
+- id: q06024
+  sec: s064
+  set: 節末
+  lv: 1
+  kind: 和訳
+  min: 2
+  inst: 次の英文を日本語に訳しなさい。
+  q: We are to meet in front of the school at eight tomorrow.
+  ans: 私たちは明日8時に学校の前で会うことになっている。
+  alt: [私たちは明日の8時に学校の前で会う予定だ。]
+  why: are to meet は be to do。tomorrow と時刻があり、決まった予定を表す。「〜することになっている」「〜する予定だ」と訳しているかが採点の要点。
+  trap: 「会うために学校の前にいる」のように to meet を目的で訳す誤り。be 動詞のすぐ後ろの to do は be to do として読む。
+- id: q06025
+  sec: s064
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: I __found difficult__① to __finish__② the report __by__③ Friday __because__④ I was sick.
+  ans: "1"
+  why: find O C の O が不定詞 to finish the report なので、O の位置に形式目的語の it を置き、found it difficult とする。
+  trap: 「〜が難しいと分かった」を found difficult とそのまま並べる誤り。形式目的語の it は省けない。
+- id: q06026
+  sec: s064
+  set: 節末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 坂井先生は毎朝ジョギングすることにしている。<br>Mr. Sakai ( a / it / makes / rule / to ) jog every morning.
+  words: [a, it, makes, rule, to]
+  ans: Mr. Sakai makes it a rule to jog every morning.
+  why: make it a rule to do（〜することにしている）。make O C の O の位置に形式目的語の it を置き、C の a rule の後ろに to jog を回す。
+  trap: makes a rule it to jog のように it の位置を誤る。形式目的語の it は O の位置、つまり makes の直後に置く。
+- id: q06027
+  sec: s064
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: The heavy rain made (＿) impossible for us to play soccer.
+  choices: [it, that, this, them]
+  ans: "1"
+  why: make O C の O が to play soccer（不定詞）なので、O の位置に形式目的語の it を置く。for us は意味上の主語。
+  trap: ②that を選ぶ誤り。後ろの to do を受けるしるしになるのは it だけで、that や this は形式目的語にならない。
+# ---- 節末 s065 ----
+- id: q06028
+  sec: s065
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 上の文とほぼ同じ意味になるように、空所に適切な語を1語ずつ入れなさい。
+  q: He is so tall that he can touch the ceiling.<br>He is tall (＿) (＿) touch the ceiling.
+  ans: enough to
+  why: so ～ that S can … は「十分〜なので…できる」で、～ enough to do に書きかえられる。enough は形容詞 tall の後ろに置く。
+  trap: too to と書く誤り。too ～ to do は「〜すぎて…できない」で、天井に「さわれる」という意味と逆になる。
+- id: q06029
+  sec: s065
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: The tea was too hot (＿) drink.
+  choices: [for me to, for me, to me, me to]
+  ans: "1"
+  why: too ～ to do の意味上の主語は to の前に for 人 で置く。for me to drink で「私が飲むには熱すぎた」。
+  trap: ②for me を選ぶ誤り。for me の後ろに原形の drink を直接置くことはできず、to が要る。
+- id: q06030
+  sec: s065
+  set: 節末
+  lv: 1
+  kind: 和訳
+  min: 2
+  inst: 次の英文を日本語に訳しなさい。
+  q: To be honest, I don't like this song very much.
+  ans: 正直なところ、私はこの歌があまり好きではない。
+  alt: [正直に言えば、私はこの歌があまり好きではない。]
+  why: To be honest は独立不定詞で「正直なところ」。not ～ very much は「あまり〜ない」。この2つを訳に出しているかが採点の要点。
+  trap: To be honest を「正直であるために」と目的で訳す誤り。文の頭でコンマで区切られた決まった言い方は、独立不定詞として訳す。
+- id: q06031
+  sec: s065
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: I got up early (＿) miss the first bus.
+  choices: [so as not to, not so as to, so as not, as not to]
+  ans: "1"
+  why: 「〜しないように」という目的の否定は so as not to do。not は to の直前に置く。
+  trap: ②not so as to を選ぶ誤り。準動詞の否定の not は to の直前で、so as の前には出さない。
+- id: q06032
+  sec: s065
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: This suitcase is __too__① heavy __for__② me __to carry__③ __it__④ by myself.
+  ans: "4"
+  why: to carry の O は主語の This suitcase と同じなので、too ～ to do の後ろに it を置かない。
+  trap: so heavy that I can't carry it の形と混ぜて、it を正しいと思う誤り。it が要るのは so ～ that の文のほう。
+- id: q06033
+  sec: s065
+  set: 節末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: この川は冷たすぎて泳げない。<br>This river is ( cold / in / swim / to / too ).
+  words: [cold, in, swim, to, too]
+  ans: This river is too cold to swim in.
+  why: too ～ to do の形。「川で泳ぐ」は swim in the river なので、主語の This river が in の後ろの欠けた名詞にあたり、in が最後に残る。
+  trap: in を余らせたり、This river is too cold in to swim. のように in の位置を誤ったりする誤り。主語を欠けた位置に戻して swim in this river と確かめる。
+# ---- 確認テスト ----
+- id: q06034
+  sec: s061
+  set: 確認テスト
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: It is fun (＿) cards with my family on weekends.
+  choices: [play, to play, played, plays]
+  ans: "2"
+  why: It は形式主語で、本当の主語は「家族とトランプをすること」。名詞の働きの不定詞 to play を後ろに置く。
+  trap: ①play を選ぶ誤り。It is fun の後ろに動詞の原形をそのまま置いても主語にならない。
+- id: q06035
+  sec: s062
+  set: 確認テスト
+  lv: 2
+  kind: 補充
+  min: 1
+  inst: 上の文とほぼ同じ意味になるように、空所に適切な語を1語ずつ入れなさい。
+  q: It seems that he lost his wallet yesterday.<br>He seems (＿) (＿) (＿) his wallet yesterday.
+  ans: to have lost
+  why: seems は今、財布をなくしたのは昨日。主節の時より前なので完了不定詞 to have lost にする。
+  trap: to lose とする誤り。to lose だと今のことになり、yesterday と合わない。
+- id: q06036
+  sec: s063
+  set: 確認テスト
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: __Yesterday__① I __saw__② Anna __to enter__③ the library __with__④ her friend.
+  ans: "3"
+  why: see は知覚動詞で、能動態では see O do の形。to enter を enter にする。
+  trap: be seen to do（受動態）の形と混ぜて、能動態にも to を入れる誤り。to が現れるのは受動態のときだけ。
+- id: q06037
+  sec: s064
+  set: 確認テスト
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: We haven't decided (＿) to stay in Kyoto.
+  choices: [where, what, which, why]
+  ans: "1"
+  why: to stay in Kyoto は欠けた要素のない完全な文なので、M になる疑問詞が入る。意味から「どこに泊まるか」の where。
+  trap: ②what を選ぶ誤り。what は名詞なので、後ろに欠けた O などが要るが、stay in Kyoto には欠けた要素がない。
+- id: q06038
+  sec: s065
+  set: 確認テスト
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 日本語の意味になるように、空所に適切な語を1語ずつ入れなさい。
+  q: 私は最終バスに乗るためにバス停まで走った。<br>I ran to the bus stop in (＿) (＿) catch the last bus.
+  ans: order to
+  why: 目的をはっきり示す in order to do（〜するために）。
+  trap: in order for と書く誤り。後ろが原形の catch なので to が要る。
+- id: q06039
+  sec: s061
+  set: 確認テスト
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 何か温かい飲み物がほしい。<br>I'd like ( drink / hot / something / to ).
+  words: [drink, hot, something, to]
+  ans: I'd like something hot to drink.
+  why: -thing の語は形容詞を後ろに置き、さらにその後ろに形容詞の働きの不定詞を置く。something hot to drink の順。
+  trap: hot something to drink のように形容詞を前に置く誤り。something・anything に付く形容詞は後ろに置く。
+- id: q06040
+  sec: s063
+  set: 確認テスト
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: The sad movie made me (＿).
+  choices: [cry, to cry, crying, cried]
+  ans: "1"
+  why: 使役の make は make O do の形。「私が泣く」の関係なので原形の cry。
+  trap: ②to cry を選ぶ誤り。make の後ろの O に続く動詞は、能動態では to を付けない原形。
+- id: q06041
+  sec: s064
+  set: 確認テスト
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: インターネットのおかげで、私たちが海外の人と話すのが簡単になった。<br>The Internet has ( easy / for / it / made / to / us ) talk with people abroad.
+  words: [easy, for, it, made, to, us]
+  ans: The Internet has made it easy for us to talk with people abroad.
+  why: make it 形容詞 for 人 to do の形。O の位置に形式目的語の it、C の easy、意味上の主語 for us、本当の O の to talk の順。
+  trap: has made us easy to talk のように us を O にする誤り。簡単なのは「話すこと」で、私たちではない。
+- id: q06042
+  sec: s051
+  set: 確認テスト
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Breakfast (＿) in the hotel restaurant from seven to nine every morning.
+  choices: [serves, is served, is serving, served]
+  ans: "2"
+  why: 朝食は「出される側」なので受動態。毎朝のことなので現在形の is served。
+  trap: ①serves を選ぶ誤り。朝食は出す側にはなれないので、能動態は主語と動詞の関係が合わない。
+- id: q06043
+  sec: s033
+  set: 確認テスト
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: By the time I __got__① home, my brother __has eaten__② all the cookies that our mother __had bought__③ __for__④ us.
+  ans: "2"
+  why: 基準の時は「家に着いた」過去の時。その時までに食べてしまっていたので、過去完了 had eaten にする。
+  trap: 「全部食べてしまった」の完了の意味から現在完了を正しいと思う誤り。基準の時が過去なら過去完了にする。
