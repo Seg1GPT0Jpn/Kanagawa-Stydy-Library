@@ -118,7 +118,7 @@ chapters:
         - [完了, 主節の時より前, "to {{have done}}", to have been sick]
         - [受動, される, "to {{be done}}", to be laughed at]
     - h: 意味上の主語 for 人・of 人
-    - p: @e0608 の to sit still for an hour で、じっと座るのはだれでしょうか。それを示すのが直前の for small children です。不定詞の動作をする人を<<意味上の主語>>といい、ふつうは to do の直前に「for＋人」の形で置きます。for 人 がないときは、文の主語と同じ人か、「人一般」がする動作です（@e0603 は人一般）。
+    - p: 次の @e0608 の to sit still for an hour で、じっと座るのはだれでしょうか。それを示すのが直前の for small children です。不定詞の動作をする人を<<意味上の主語>>といい、ふつうは to do の直前に「for＋人」の形で置きます。for 人 がないときは、文の主語と同じ人か、「人一般」がする動作です（@e0603 は人一般）。
       notes:
       - kind: 用語
         term: 意味上の主語
@@ -532,10 +532,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Can I borrow a pen to write (＿)?
-  choices: [with, on, about, to]
+  choices: [with, "on", about, to]
   ans: "1"
   why: a pen to write ＿ は形容詞の働きの不定詞。pen を欠けた位置に戻すと write with a pen（ペンで書く）になるので with が残る。
-  trap: 何も要らないと考えて答えに迷ったり、②on を選んだりする誤り。write on は紙など「書く面」に使い、ペンには使わない。
+  trap: ②on を選ぶ誤り。on は write on paper のように「書く面」に使う。ペンは書く道具なので with。
 - id: q06008
   sec: s061
   set: 節末
@@ -554,11 +554,11 @@ problems:
   kind: 整序
   min: 2
   inst: 日本語の意味になるように（　）内の語を並べかえなさい。
-  q: 私には今日しなければならないことがたくさんある。<br>I have ( a / do / lot / of / things / to ) today.
-  words: [a, do, lot, of, things, to]
-  ans: I have a lot of things to do today.
-  why: 「しなければならないこと」は things を後ろから説明する形容詞の働きの不定詞 to do。名詞 a lot of things のすぐ後ろに置く。
-  trap: I have to do a lot of things today. と have to を作る誤り。語は足りるが、日本語の「〜ことがたくさんある」は名詞＋to do で表す並べかえになっている。
+  q: この町には訪れるべき場所がたくさんある。<br>There are ( a / lot / of / places / to / visit ) in this town.
+  words: [a, lot, of, places, to, visit]
+  ans: There are a lot of places to visit in this town.
+  why: 「訪れるべき場所」は places を後ろから説明する形容詞の働きの不定詞 to visit。名詞 a lot of places のすぐ後ろに置く。
+  trap: There are to visit a lot of places … のように不定詞を名詞の前に置く誤り。形容詞の働きの不定詞は、説明する名詞のすぐ後ろに置く。
 # ---- 節末 s062 ----
 - id: q06010
   sec: s062
