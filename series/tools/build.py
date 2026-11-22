@@ -145,7 +145,7 @@ class Book:
             t = m.group(1)
             if t not in self.terms:
                 raise SystemExit(f'用語の定義（側注「用語」）がない: {t}')
-            return f'<b class="term" data-anchor="term:{html.escape(t)}">{t}</b>'
+            return f'<b class="term" data-anchor="term:{html.escape(t).replace(" ", "\u00a0")}">{t}</b>'  # ページ表の区切りは半角スペースなので、用語の中の空白は詰めない空白に
         s = re.sub(r'&lt;&lt;(.+?)&gt;&gt;', term, s)
         s = re.sub(r'\{\{(.+?)\}\}', r'<span class="ans">\1</span>', s)
         s = re.sub(r'\*\*(.+?)\*\*', r'<b>\1</b>', s)

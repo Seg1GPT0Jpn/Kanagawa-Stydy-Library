@@ -181,6 +181,12 @@ def main(bid):
     if bad: fail(f'参照ページの誤り {len(bad)} 件: {bad[:6]}')
     else: ok(f'参照ページ {n_ref} か所がすべて正しいページを指す')
 
+    # 目次・索引のページ欄に、ページが見つからなかった「00」が残っていないか
+    for n, name in NAMES.items():
+        h = (out / f'{n}.html').read_text()
+        z = re.findall(r'<span class="pg">00</span>', h)
+        if z: fail(f'{name}: 目次・索引でページが見つからない項目が {len(z)} 件（00 のまま）')
+
     # 5. 混入：組版の残骸・未置換の記法
     pats = ['class=', '">', '</', 'undefined', 'NaN', '[object', 'p.00', '{{', '}}', '<<', '>>', '@s', '@e', '**', 'null', 'None']
     for n, name in NAMES.items():

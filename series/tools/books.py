@@ -187,7 +187,7 @@ def kaisetsu_blocks(bk, pages, cover_html, colophon_html, legend_html):
         g = gojuon_row(yomi)
         if g != cur:
             rows.append(f'<div class="k">{g}</div>'); cur = g
-        rows.append(f'<div class="row">{E(t)}<span class="dots"></span><span class="pg">{pages.get("term:" + t, "00")}</span></div>')
+        rows.append(f'<div class="row">{E(t)}<span class="dots"></span><span class="pg">{pages.get("term:" + t.replace(" ", "\u00a0"), "00")}</span></div>')
     out.append(blk('<div class="fm-title">索引</div><div class="idx toc">' + ''.join(rows) + '</div>', 'newpage', anchor='index', chapter='索引', section='索引'))
     # 4の倍数にそろえる白ページ（奥付・裏表紙の前）
     pad = 0
@@ -758,7 +758,7 @@ def honbun_blocks(bk, pages, part, cover, colophon, legend):
         g = gojuon_row(yomi)
         if g != cur:
             rows.append(f'<div class="k">{g}</div>'); cur = g
-        rows.append(f'<div class="row">{E(t)}<span class="dots"></span><span class="pg">{pages.get("term:" + t, "00")}</span></div>')
+        rows.append(f'<div class="row">{E(t)}<span class="dots"></span><span class="pg">{pages.get("term:" + t.replace(" ", "\u00a0"), "00")}</span></div>')
     out.append(blk('<div class="fm-title">索引</div><div class="idx toc">' + ''.join(rows) + '</div>', 'newpage', anchor='index', chapter='索引', section='索引'))
     pad_and_colophon(out, pages, colophon)
     return out
