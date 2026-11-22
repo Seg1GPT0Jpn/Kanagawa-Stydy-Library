@@ -177,7 +177,9 @@ def kaisetsu_blocks(bk, pages, cover_html, colophon_html, legend_html):
                 elif 'check' in b:
                     anylong = any(len(str(c["a"])) > 12 for c in b['check'])  # 囲みの中で答えの位置をそろえる
                     rows = ''.join(f'<div class="r{" long" if anylong else ""}"><span>({i})</span><span class="q">{bk.md(c["q"], pages)}</span><span class="a ans">{bk.md(c["a"], pages)}</span></div>' for i, c in enumerate(b['check'], 1))
-                    out.append(blk(f'<div class="t">確認　{E(b.get("inst", "［　］に入る語を答えなさい。答えは赤シートで隠して確かめる。"))}</div>{rows}', 'check', notes))
+                    qs = ' '.join(str(c['q']) for c in b['check'])
+                    blank = '（　）' if re.search(r'[(（]\s*＿', qs) and '［' not in qs else '［　］'   # 問いの空所の形に合わせる
+                    out.append(blk(f'<div class="t">確認　{E(b.get("inst", blank + "に入る語を答えなさい。答えは赤シートで隠して確かめる。"))}</div>{rows}', 'check', notes))
                 else:
                     raise SystemExit(f'未知の本文ブロック: {b}')
     # 索引
