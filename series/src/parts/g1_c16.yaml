@@ -201,7 +201,7 @@ chapters:
         - [部分, one of my friends, "友だち{{の1人}}"]
         - [分量, a cup of tea, "{{1杯}}の紅茶"]
         - [「〜という」, the city of Kyoto, "京都{{という}}市（京都市）"]
-        - [原因, die of a disease, 病気{{で}}死ぬ]
+        - [原因, die of a disease, "病気{{で}}死ぬ"]
         - [of＋抽象名詞＝形容詞, This book is of great use., "この本はとても{{役に立つ}}。"]
       notes:
       - kind: 注意
@@ -504,7 +504,7 @@ problems:
   words: [among, stands, tall, the, trees]
   ans: The old house stands among the tall trees.
   why: S の The old house の後ろに V の stands を置き、「高い木々の中に」を表す among the tall trees を続ける。たくさんの木の集まりの中なので among。
-  trap: The old house among the tall trees stands のように、among のかたまりを house の後ろに置いて V を最後にする誤り。この順でも house を説明する形は作れるが、日本語は「建っている」場所を言う文なので、V の後ろに置く。
+  trap: 日本語の語順につられて stands を文の最後に置く誤り。英語では V の stands を S のすぐ後ろに置き、場所を表す among the tall trees はその後ろに続ける。
 - id: q16015
   sec: s162
   set: 節末
@@ -619,7 +619,7 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: You can save a lot of money (＿) cooking your own meals.
-  choices: [by, with, for, of]
+  choices: [by, with, to, of]
   ans: "1"
   why: 空所の後ろは cooking your own meals（自分で食事を作ること）という動名詞のかたまり。「〜することによって」と方法を表すのは by＋動名詞。
   trap: ②with を選ぶ誤り。日本語の「〜で節約できる」の「で」から道具の with を考えやすいが、with は手に持つ道具に使う。することによる方法は by doing。
@@ -822,4 +822,4 @@ problems:
   words: [by, care, of, taken, was]
   ans: The puppy was taken care of by the neighbors.
   why: take care of（〜の世話をする）は群動詞なので、受動態でも was taken care of とかたまりを保ち、その後ろに by the neighbors を置く。
-  trap: was taken care by of … のように of を落としたり離したりする誤り。群動詞の受動態では、前置詞の of を動詞の後ろに残し、by が後ろに続いて of by と並ぶ。
+  trap: of を落として was taken care by the neighbors とする誤り（of が余る）。群動詞の受動態では、take care of のかたまりを崩さないので、of と by が並ぶ。
