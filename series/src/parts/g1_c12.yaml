@@ -533,7 +533,7 @@ problems:
   inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
   q: __If__① Mark __had not lost__② his wallet yesterday, he __would not have been__③ so worried now. He __is__④ still looking for it.
   ans: '3'
-  why: if 節は昨日の事実と反対（had not lost）だが、主節には now があり、今心配している気持ちの話。今の事実と反対の主節は would＋原形なので would not be にする。①②④は正しい。②を lost にすると今の事実と反対の形になり、yesterday と合わない。
+  why: if 節は昨日の事実と反対（had not lost）だが、主節には now があり、今心配している気持ちの話。今の事実と反対の主節は would＋原形なので would not be にする。①②④は正しい。②を did not lose にすると今の事実と反対の仮定法過去の形になり、yesterday と合わない。
   trap: if 節の had not lost に合わせて、主節も would have done でよいと考える誤り。主節の時は now で決める。
 - id: q12016
   sec: s122

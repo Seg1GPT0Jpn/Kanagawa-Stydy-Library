@@ -28,6 +28,8 @@ chapters:
         text: a で始まる形容詞がすべてこの仲間なのではない。able（有能な）・active（活発な）・awful（ひどい）は名詞の前にも置ける（an active member）。
       - kind: 注意
         text: C だけで使う形容詞も、名詞の後ろには置けることがある（the only person awake＝起きていたただ1人の人）。名詞の前に置けないだけである。
+      - kind: 注意
+        text: asleep（眠っている）と sleepy（眠い）は別の語。sleepy はふつうの形容詞で、a sleepy child（眠そうな子ども）のように名詞の前にも置ける。
       - kind: 語注
         items: [[live, 生きている（発音はライヴ）]]
     - ex: [e1503, e1504]
@@ -38,12 +40,12 @@ chapters:
     - p: 形容詞の後ろに語句が続いてかたまりが長くなったときも、名詞の後ろに置きます。@e1506 の full of apples（リンゴでいっぱいの）は、basket を後ろから説明しています。full だけなら a full basket と前に置けますが、of apples が付くと前には置けません。分詞のかたまりが名詞を後ろから説明する形（@s081）と同じ考え方です。
     - ex: [e1506]
     - check:
-      - q: "The fish is still (alive／live)."
+      - q: "The fish is still (＿).（alive／live）"
         a: alive（C の位置）
-      - q: "Don't wake the (asleep／sleeping) dog."
+      - q: "I saw a (＿) baby on the train.（asleep／sleeping）"
         a: sleeping（名詞の前）
-      - q: 「何か温かい食べ物」を英語で言うと？
-        a: something hot to eat
+      - q: 「何か温かい食べ物」(＿) (＿) to eat（hot・something を並べる）
+        a: something hot
     examples:
     - id: e1501
       en: My grandfather lives in an *old* house.
@@ -71,12 +73,12 @@ chapters:
       - 「飲むための」は不定詞 to drink で表し、形容詞の後ろに続ける。「-thing＋形容詞＋to do」の順になる。
       ans: I want something cold to drink.
       point: -thing・-one・-body で終わる語を説明する形容詞は後ろに置く。不定詞はさらにその後ろ。
-    - q: （　）に入る最も適切なものを1つ選びなさい。<br>Please be quiet. Don't wake the (＿) baby.
+    - q: （　）に入る最も適切なものを1つ選びなさい。<br>There was a (＿) dog under the table, so we talked quietly.
       choices: [asleep, sleeping, slept, sleeps]
       steps:
-      - 空所は文のどの要素かを考える。the と baby の間なので、名詞 baby を前から説明する語が入る。
+      - 空所は文のどの要素かを考える。a と dog の間なので、名詞 dog を前から説明する語が入る。
       - asleep も「眠っている」という意味の形容詞だが、C だけで使う形容詞なので、名詞の前には置けない。
-      - slept は過去分詞で「眠られた」となり意味が通らず、sleeps は動詞。名詞の前で「眠っている」を表すのは現在分詞の sleeping。
+      - slept（過去分詞）は名詞の前に置いても「眠っている」の意味にならず、sleeps は動詞。名詞の前で「眠っている」を表すのは現在分詞の sleeping。
       ans: "2"
       point: asleep・alive・afraid は C だけで使う。名詞の前では sleeping・living・frightened を使う。
     summary:
@@ -101,7 +103,7 @@ chapters:
       - kind: 注意
         text: much は否定文・疑問文で使うことが多い。肯定文で「たくさんの水」と言うときは a lot of water がふつう。ただし too much・so much・very much のように前に語が付けば、肯定文でも much を使う。
       - kind: 注意
-        text: information・advice・homework・furniture は、英語では数えられない名詞。many information・a few advice は誤りで、much information・a little advice とする。
+        text: information・advice・homework・furniture や help（手助け）は、英語では数えられない名詞。many information・a few advice は誤りで、much information・a little advice・a little help とする。
     - ex: [e1507]
     - h: a few と few、a little と little
     - p: a が付くかどうかで、意味が変わります。a few・a little は「少しある」と、あることに目を向けた言い方です。few・little は「ほとんどない」と、ないことに目を向けた言い方で、否定の意味をふくみます。@e1508 と @e1509 は、どちらも友だちの数は多くありませんが、@e1508 は「何人かいる（だからさびしくない）」、@e1509 は「ほとんどいない（だからさびしい）」という意味になります。
@@ -117,11 +119,11 @@ chapters:
         text: 人口をたずねるときは What is the population of 〜? と言う。How many は使わない。値段（price）の高い・安いは high／low で表す。
     - ex: [e1512]
     - check:
-      - q: "I don't have (many／much) homework today."
+      - q: "I don't have (＿) homework today.（many／much）"
         a: much（homework は数えられない名詞）
-      - q: "(A／The) number of cars in this town is increasing."
+      - q: "(＿) number of cars in this town is increasing.（A／The）"
         a: The（動詞が is）
-      - q: "This city has a (large／many) population."
+      - q: "This city has a (＿) population.（large／many）"
         a: large
     examples:
     - id: e1507
@@ -151,11 +153,11 @@ chapters:
       - 手がかりの語を探す。so she often feels lonely（だからよくさびしく思う）とあるので、友だちは「ほとんどいない」。few を選ぶ。a few は「少しいる」で、さびしい理由にならない。
       ans: "2"
       point: a few は「少しある」、few は「ほとんどない」。a の有無は、後ろに続く文の流れで決める。
-    - q: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。<br>__The number of__① tourists __visiting__② this town __are__③ increasing __every year__④.
+    - q: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。<br>The number of __foreign__① tourists __visiting__② this town __are__③ increasing __every year__④.
       steps:
-      - S の中心の語を探す。The number of tourists visiting this town は「この町を訪れる旅行者の数」で、中心は number（数）。
+      - S の中心の語を探す。The number of foreign tourists visiting this town は「この町を訪れる外国人旅行者の数」で、中心は number（数）。
       - 数は1つなので、動詞は単数で受ける。③are は tourists に合わせた形で誤り。is increasing とする。
-      - ほかも確かめる。②visiting は tourists を後ろから説明する現在分詞、④every year は時を表す M で、どちらも正しい。
+      - ほかも確かめる。①foreign は tourists を前から説明する形容詞、②visiting は tourists を後ろから説明する現在分詞、④every year は時を表す M で、どれも正しい。
       ans: ③（are → is）
       point: the number of ～ は「〜の数」で動詞は単数。a number of ～ は「いくつもの〜」で動詞は複数。
     summary:
@@ -195,11 +197,11 @@ chapters:
         text: 覚え方の目安として、sensitive・imaginative の -ive は「〜する力が強い」（感じる力が強い・想像する力がある）と結びつけるとよい。どの語にも当てはまる規則ではない。
     - ex: [e1516, e1517]
     - check:
-      - q: "Please call me when (you are／it is) convenient."
+      - q: "Please call me when (＿) convenient.（you are／it is）"
         a: it is（主語は人にしない）
-      - q: 「想像上の動物」は an (imaginary／imaginative) animal？
+      - q: 「想像上の動物」an (＿) animal（imaginary／imaginative）
         a: imaginary
-      - q: 「経済のニュース」は (economic／economical) news？
+      - q: 「経済のニュース」(＿) news（economic／economical）
         a: economic
     examples:
     - id: e1513
@@ -260,7 +262,7 @@ chapters:
         - [be 動詞, "be 動詞の{{後ろ}}", He is always busy.]
         - ["助動詞（完了形の have もふくむ）", "助動詞の{{後ろ}}", I will never forget it.・I have often seen him.]
     - ex: [e1518, e1519, e1520]
-    - p: 例外もあります。sometimes・usually・often は、文の頭や終わりに置くこともできます（Sometimes I walk to school.）。Never give up. のような命令文では、never・always を文の頭に置きます。単元18で学ぶ倒置の文（Never have I seen such a big fish.）でも、never が文の頭に来ます。これらを除けば、頻度の副詞は表の位置に置き、always・never を文の頭に置いた文は誤りになります。
+    - p: 例外もあります。sometimes・usually・often は、文の頭や終わりに置くこともできます（Sometimes I walk to school.）。Never give up. のような命令文では、never・always を文の頭に置きます。単元18で学ぶ倒置の文でも、never を文の頭に置くことがあります。I never will forget it. のように、強めて言うときに頻度の副詞を助動詞の前に置くこともありますが、ふつうは I will never forget it. と助動詞の後ろに置きます。これらを除けば、頻度の副詞は表の位置に置き、always・never を文の頭に置いた文は誤りになります。
     - h: 形のまぎらわしい副詞
     - p: hard は、形容詞（かたい・難しい）と同じ形のままで「一生懸命に・激しく」という副詞にもなります（@e1521）。-ly を付けた hardly は「ほとんど〜ない」という別の意味の副詞です（@e1522）。hardly は否定の意味をふくむので、not といっしょに使いません。hardly ever は「めったに〜ない」という意味です。late（遅く）と lately（最近）、near（近くに）と nearly（ほとんど・もう少しで）も同じように、-ly が付くと意味が変わります。
     - table:
@@ -285,11 +287,11 @@ chapters:
     - h: ago と before
     - p: ago と before の区別は単元3で学びました（@s034）。ago は今から数えて「〜前」で、過去形と使います（three years ago）。before は過去のある時から数えて「その時より〜前」で、過去完了と使います（three years before）。before を単独で使うと「以前に」の意味になり、現在完了の経験とも使えます（I have seen this movie before.）。
     - check:
-      - q: "My mother (is always／always is) busy in the morning."
-        a: is always（be 動詞の後ろ）
-      - q: "I could (hard／hardly) believe the news."
+      - q: "My mother (＿) up at six.（gets always／always gets）"
+        a: always gets（一般動詞の前）
+      - q: "I could (＿) believe the news.（hard／hardly）"
         a: hardly
-      - q: "The bus hasn't come (still／yet)."
+      - q: "The bus hasn't come (＿).（still／yet）"
         a: yet（否定文の終わり）
     examples:
     - id: e1518
@@ -360,6 +362,7 @@ problems:
   ans: "2"
   why: brothers and sisters は数えられる名詞の複数形。数をたずねるときは How many を使う。
   trap: ①much を選ぶ誤り。How much は量や値段をたずねる言い方で、数えられる名詞の複数形には使わない。
+  ref: s152
 - id: q15003
   sec: s151
   set: 前提
@@ -371,6 +374,7 @@ problems:
   ans: "2"
   why: usually（たいてい）は一般動詞の前に置く。usually goes の順になる。
   trap: ①goes usually を選ぶ誤り。日本語の「行く、たいてい」の順につられやすいが、usually は一般動詞の前に置く。
+  ref: s154
 # ---- s151 節末 ----
 - id: q15004
   sec: s151
@@ -488,7 +492,7 @@ problems:
   inst: （　）に a few か a little のどちらかを入れなさい。答えは (1)(2) の番号を付けて書くこと。
   q: (1) I'll be back in (＿) minutes.<br>(2) Could you give me (＿) help with this box?
   ans: (1) a few　(2) a little
-  why: (1) minutes は数えられる名詞の複数形なので a few。(2) help（手助け）は数えられない名詞なので a little。
+  why: (1) minutes は数えられる名詞の複数形なので a few。(2) help（手助け）は数えられない名詞（本文の注意を参照）なので a little。
   trap: 日本語の「少し」につられて、両方に同じ語を入れる誤り。後ろの名詞が数えられるかどうかで決める。
 - id: q15014
   sec: s152
@@ -520,9 +524,9 @@ problems:
   kind: 正誤
   min: 1
   inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
-  q: __A number of__① students __was__② late this morning __because__③ the trains __stopped__④ for an hour.
-  ans: "2"
-  why: a number of＋複数名詞は「いくつもの〜」で、中心は students なので動詞は複数で受ける。was ではなく were とする。①A number of、③because、④stopped は正しい。
+  q: A number of students __was__① late __this morning__② __because__③ the trains __stopped__④ for an hour.
+  ans: "1"
+  why: a number of＋複数名詞は「いくつもの〜」で、中心は students なので動詞は複数で受ける。was ではなく were とする。②this morning、③because、④stopped は正しい。
   trap: the number of と混ぜて、単数の was を正しいと思う誤り。「〜の数」の the number of なら単数だが、a number of は複数で受ける。
 - id: q15017
   sec: s152
@@ -534,7 +538,7 @@ problems:
   q: この町にはレストランがほとんどない。
   ans: There are few restaurants in this town.
   alt: [This town has few restaurants., There are very few restaurants in this town., This town has very few restaurants., There are hardly any restaurants in this town.]
-  why: restaurants は数えられる名詞の複数形なので、「ほとんどない」は few で表す。採点の目安：few（very few）＋restaurants を使っていれば正解。a few、little は不可。
+  why: restaurants は数えられる名詞の複数形なので、「ほとんどない」は few で表す。hardly any restaurants でも表せる。採点の目安：few（very few）または hardly any を使い、「ほとんどない」を表していれば正解。a few、little は不可。
   trap: There are a few restaurants と a を付ける誤り。a few は「少しある」で、「ほとんどない」にならない。
 # ---- s153 節末 ----
 - id: q15018
@@ -639,11 +643,11 @@ problems:
   kind: 整序
   min: 2
   inst: 日本語の意味になるように（　）内の語を並べかえなさい。
-  q: 私は彼の親切を決して忘れないだろう。<br>I ( forget / his / kindness / never / will ).
-  words: [forget, his, kindness, never, will]
+  q: 私は彼の親切を決して忘れないだろう。<br>I will ( forget / his / kindness / never ).
+  words: [forget, his, kindness, never]
   ans: I will never forget his kindness.
-  why: never は頻度の副詞で、助動詞 will の後ろ、動詞 forget の前に置く。
-  trap: I never will forget … と助動詞の前に置く誤り。頻度の副詞は助動詞の後ろに置くのが基本。
+  why: never は頻度の副詞で、助動詞 will の後ろ、動詞 forget の前に置く。強めて言うときは I never will forget … と助動詞の前に置くこともあるが、ふつうは助動詞の後ろ。
+  trap: I will forget never his kindness. のように、日本語の「忘れない」の語順につられて never を動詞の後ろに置く誤り。頻度の副詞は一般動詞の前に置く。
 - id: q15027
   sec: s154
   set: 節末
@@ -792,9 +796,9 @@ problems:
   kind: 正誤
   min: 1
   inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
-  q: Ms. Carter's daughter __has__① very __sensible__② skin, so she __always__③ uses a special soap __in__④ winter.
+  q: My little brother __has__① very __sensible__② skin, so it __always__③ turns red __in__④ the sun.
   ans: "2"
-  why: 「肌が敏感で特別なせっけんを使う」という内容なので、「敏感な」の sensitive にする。sensible は「分別のある」。③always は一般動詞 uses の前で正しい位置。
+  why: 「肌が日に当たるといつも赤くなる」という内容なので、「敏感な」の sensitive にする。sensible は「分別のある」。③always は一般動詞 turns の前で正しい位置。④in the sun は「日なたで・日に当たると」。
   trap: 形が似ているので sensible を正しいと思う誤り。sensible は「分別のある」、sensitive は「敏感な」と組で覚える。
 - id: q15040
   sec: s154
