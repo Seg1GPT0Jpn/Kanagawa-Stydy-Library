@@ -51,6 +51,28 @@ def impose(src, dst, binding='left'):
     return n
 
 
+def impose_signatures(src, dst, sig=16, binding='left'):
+    """厚い本用：sig ページずつの折丁に分けて面付けする。折丁ごとに用紙を重ねて二つ折りにし、
+    折丁を順に重ねて綴じる（平綴じ・糸かがり・製本テープなど）。最後の折丁は残りのページ数（4の倍数）。
+    返り値：(総ページ数, 各折丁の (最初のページ, 最後のページ))"""
+    r = PdfReader(src)
+    n = len(r.pages)
+    assert n % 4 == 0, f'ページ数 {n} が4の倍数でない'
+    w = float(r.pages[0].mediabox.width); h = float(r.pages[0].mediabox.height)
+    out = PdfWriter(); groups = []
+    for start in range(0, n, sig):
+        m = min(sig, n - start)
+        groups.append((start + 1, start + m))
+        for left, right in order(m, binding):
+            sheet = PageObject.create_blank_page(width=2 * w, height=h)
+            sheet.merge_transformed_page(r.pages[start + left - 1], Transformation().translate(0, 0))
+            sheet.merge_transformed_page(r.pages[start + right - 1], Transformation().translate(w, 0))
+            out.add_page(sheet)
+    with open(dst, 'wb') as f:
+        out.write(f)
+    return n, groups
+
+
 def dummy(n, w_mm, h_mm, path):
     """ページ番号だけのダミー PDF"""
     from reportlab.pdfgen import canvas

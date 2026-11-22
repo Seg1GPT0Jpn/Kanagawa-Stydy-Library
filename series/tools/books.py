@@ -666,11 +666,12 @@ def worked_html(bk, s, k, w, pages, style):
             + (f'<div class="wp"><b>ポイント</b>{bk.md(w["point"], pages)}</div>' if w.get('point') else ''))
 
 
-def sougou_blocks(bk, pages):
-    """本の最後の総合演習（単元を混ぜた問題。part ごとに1回分）"""
+def sougou_blocks(bk, pages, parts=None):
+    """総合演習（単元を混ぜた問題。part ごとに1回分）。parts を指定すると、その回だけ（第1回は上巻の終わりに置く）"""
     out = []
     ps_all = [p for p in bk.problems if p['set'] == '総合演習']
     for pt in sorted({p['part'] for p in ps_all}):
+        if parts is not None and pt not in parts: continue
         ps = [p for p in ps_all if p['part'] == pt]
         out.append(blk(prob_header(bk, f'総合演習　第{pt}回', ps, 'いくつもの単元を混ぜて出題　答え → 別冊'), 'sech keepnext newpage wide', anchor=f'sougou{pt}', chapter='総合演習', section=f'総合演習　第{pt}回'))
         out.extend(problem_blocks(bk, pages, ps, wide=True))
@@ -683,6 +684,9 @@ def honbun_blocks(bk, pages, part, cover, colophon, legend):
     out.extend(legend_blocks(legend))
     # 目次は章ごとのかたまりに分ける（ページをまたげるように）
     tocb = []
+    vols = bk.data['book'].get('volumes') or []
+    vol1_last = vols[0]['chapters'][-1] if len(vols) > 1 else None
+    sougou_parts = sorted({p['part'] for p in bk.problems if p['set'] == '総合演習'})
     for k, ch in enumerate(d['chapters']):
         rows = [f'<div class="tc">{CHL(ch)}　{E(ch["title"])}<span class="dots"></span><span class="pg">{pages.get(ch["id"], "00")}</span></div>']
         for s in ch['sections']:
@@ -691,8 +695,13 @@ def honbun_blocks(bk, pages, part, cover, colophon, legend):
             rows.append(f'<div class="ts">章末問題<span class="dots"></span><span class="pg">{pages.get("end" + ch["id"], "00")}</span></div>')
         if any(p['set'] == '確認テスト' and p['home'] == ch['id'] for p in bk.problems):
             rows.append(f'<div class="ts">確認テスト<span class="dots"></span><span class="pg">{pages.get("test" + ch["id"], "00")}</span></div>')
+        if ch['id'] == vol1_last:
+            for pt in sougou_parts[:1]:
+                rows.append(f'<div class="tc">総合演習　第{pt}回<span class="dots"></span><span class="pg">{pages.get(f"sougou{pt}", "00")}</span></div>')
         tocb.append(''.join(rows))
     tail = []
+    for pt in (sougou_parts[1:] if vol1_last else sougou_parts):
+        tail.append(f'<div class="tc">総合演習　第{pt}回<span class="dots"></span><span class="pg">{pages.get(f"sougou{pt}", "00")}</span></div>')
     if any(p['set'] == '模試' for p in bk.problems):
         tail.append(f'<div class="tc">模擬試験・解答用紙<span class="dots"></span><span class="pg">{pages.get("mock", "00")}</span></div>')
     tail.append(f'<div class="tc">索引<span class="dots"></span><span class="pg">{pages.get("index", "00")}</span></div>')
@@ -709,6 +718,7 @@ def honbun_blocks(bk, pages, part, cover, colophon, legend):
     for ch in d['chapters']:
         if ch['id'] == vol2_first:
             # 上巻の終わり：上巻の裏表紙までで4の倍数にそろえ、下巻の表紙・目次を置く（ページ番号は通し）
+            out.extend(sougou_blocks(bk, pages, sougou_parts[:1]))   # 総合演習 第1回は上巻の終わり
             vpad = 0
             if 'vol1back' in pages:
                 n_before = (pages['vpad'] if 'vpad' in pages else pages['vol1back']) - 1   # 白ページを入れる前の、上巻の本文の終わり
@@ -762,7 +772,7 @@ def honbun_blocks(bk, pages, part, cover, colophon, legend):
             out.append(blk(prob_header(bk, f'{CHL(ch)}　確認テスト', probs, ('前の単元の問題も混ざる' if mixed else '節を混ぜて出題') + '　答え → 別冊（診断表つき）'), 'sech keepnext newpage wide', anchor='test' + ch['id'], section=f'{CHL(ch)}　確認テスト'))
             out.extend(problem_blocks(bk, pages, probs, wide=True))
     out.extend(mock_blocks(bk, pages, wide=True))
-    out.extend(sougou_blocks(bk, pages))
+    out.extend(sougou_blocks(bk, pages, sougou_parts[1:] if vol2_first else None))
     # 索引
     terms = sorted(bk.terms.items(), key=lambda kv: kv[1])
     rows = []; cur = None
