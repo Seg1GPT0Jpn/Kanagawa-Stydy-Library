@@ -254,6 +254,18 @@ COVER_CSS = '''
 
 
 
+SYM_EG01 = """<tr><th>［　］</th><td>関係詞節の範囲</td></tr>
+<tr><th><span class="rp">who</span></th><td>関係詞（太字と下線）</td></tr>
+<tr><th><span class="gap"></span></th><td>関係詞節の中で欠けている位置</td></tr>"""
+SYM_G1 = """<tr><th>S V O C M</th><td>文の要素（主語・動詞・目的語・補語・修飾語）。2つの O は O<span class="subn">1</span>（人）・O<span class="subn">2</span>（物）</td></tr>
+<tr><th>［　］</th><td>節（S＋V をふくむかたまり）の範囲。名詞節・形容詞節・副詞節のすべてに使う</td></tr>
+<tr><th>（　）</th><td>修飾語句 M（前置詞句・副詞）</td></tr>
+<tr><th>〈　〉</th><td>準動詞のかたまり（不定詞・動名詞・分詞の句）</td></tr>
+<tr><th><span class="gap"></span></th><td>欠けている位置（不完全な文）</td></tr>
+<tr><th><span class="rp">that</span></th><td>その単元で注目する語（太字と下線）</td></tr>
+<tr><th>do／to do／doing／done</th><td>原形・不定詞・-ing 形・過去分詞。have done は完了形。語法は allow O to do の形で書く</td></tr>"""
+
+
 def legend_html(bk, part):
     g1 = bk.data['book']['id'] == 'g1'
     return f'''<div class="fm-title">本書の使い方</div>
@@ -265,9 +277,7 @@ def legend_html(bk, part):
 </tbody></table>
 <!--split--><div class="lgh">記号</div>
 <table class="t lgt"><tbody>
-<tr><th>［　］</th><td>関係詞節の範囲</td></tr>
-<tr><th><span class="rp">who</span></th><td>関係詞（太字と下線）</td></tr>
-<tr><th><span class="gap"></span></th><td>関係詞節の中で欠けている位置</td></tr>
+{SYM_G1 if g1 else SYM_EG01}
 <tr><th>→ p.16</th><td>本書の16ページを参照</td></tr>
 <tr><th><span class="ans">赤字</span></th><td>赤シートで隠して答える部分。赤はこの用途にだけ使う</td></tr>
 <tr><th>①②③④（下線）</th><td>正誤問題の下線部の番号。下線部のすぐ後ろに付け、文の前から順に①②③④とする</td></tr>

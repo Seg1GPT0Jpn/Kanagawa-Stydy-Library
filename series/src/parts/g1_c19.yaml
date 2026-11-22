@@ -1,0 +1,696 @@
+# 単元19「話法と時制の一致」（s191〜s193）。例文 e1901〜、問題 q19001〜。
+chapters:
+- id: c19
+  title: 話法と時制の一致
+  lead: この単元では、人が言ったことや思ったことを、過去の話として伝える文の作り方を学びます。主節が過去のときに従属節の動詞をずらす「時制の一致」とその例外を判断し、平叙文・疑問文・命令文・依頼・Let's ～ の文を、say・tell・ask・suggest を使って伝えられるようになります。
+  intro: 中学では、I think (that) ～ や I know (that) ～ のように、that の節を動詞の O にする文を学びました。この that は省略できます。He said, "I'm hungry." のように、人のことばを引用符（" "）でそのまま示す文や、My mother told me that ～（母は私に〜と言った）の形も習いました。助動詞の過去形は、will → would、can → could、may → might です。この単元では、これらを組み合わせて、過去に言われたことを伝えます。
+  sections:
+  - id: s191
+    title: "時制の一致とその例外"
+    aim: 主節が過去のとき、that の節の動詞を過去形・過去完了・would などにずらし、ずらさない例外（変わらない事実・今も続くこと・歴史上の事実）を見分けられるようになる。
+    body:
+    - h: 主節が過去なら、従属節の動詞も過去へ
+    - p: 日本語では「ミオは正しいと思う」を過去の話にすると「ミオは正しいと思った」になり、変わるのは「思う」だけです。英語では、I think that Mio is right. を過去の話にすると、think が thought になるだけでなく、that の節の is も was にずらします（@e1901）。このように、主節の動詞が過去形のとき、従属節の動詞もそれに合わせてずらすことを<<時制の一致>>といいます。
+      notes:
+      - kind: 用語
+        term: 時制の一致
+        yomi: じせいのいっち
+        text: 主節の動詞が過去形のとき、従属節（主に that の節などの名詞節）の動詞もそれに合わせて、過去形・過去完了・would などにずらすこと。主節が現在形ならずらさない。
+    - ex: [e1901]
+    - p: '@e1901 の was は、思った時と同じ時の「正しい」という状態を表しています。訳すときは「正しかったと思った」ではなく「正しいと思った」とします。英語では主節に合わせて形をずらしますが、日本語では元の形のまま訳す、と覚えておきます。主節が says・thinks のように現在形なら、従属節はずらしません（Mio says that she is busy.）。'
+    - h: 主節より前のことは過去完了、後のことは would
+    - p: 従属節のことが主節の時と同じ時なら過去形、主節の時より前に起きたことなら過去完了にします（@e1902）。過去完了は、単元3で学んだ「基準の時より前」を表す形で、ここでは主節の時（言った時・思った時）が基準の時です（@s033）。主節の時より後のことは、will を would にして表します（@e1903）。
+      notes:
+      - kind: 注意
+        text: 主節の時より前のことでも、時を表す語句で前後がはっきりしているときは、過去完了にせず過去形のままにすることもよくある（He said that he was born in 2008.）。
+    - ex: [e1902, e1903]
+    - table:
+        head: [元の形, 主節が過去のとき, 例]
+        rows:
+        - [現在形（is・likes）, "{{過去形}}（was・liked）", "I thought that Mio *was* right."]
+        - [過去形・現在完了, "{{過去完了}}（had＋過去分詞）", "Ren said that he *had lost* his key."]
+        - [will・can・may, "{{would}}・could・might", "I thought that it *would* rain."]
+        - [would・could・might・should, そのまま（これ以上ずらさない）, "She said that she *could* come."]
+      notes:
+      - kind: 注意
+        text: 仮定法（@s121）の過去形・過去完了も、主節が過去になってもそのまま使う。She said that she wished she could fly.（空を飛べたらいいのにと言った）の could はずらしていない。
+    - label: 時制の一致の手順
+      steps:
+      - 時を表す語句と主節の動詞を見て、主節が過去の話かどうかを確かめる。
+      - 基準の時は主節の時（言った時・思った時）。従属節のことは、それと同じ時か、前か、後かを決める。
+      - 同じ時なら過去形、前なら過去完了、後なら would にする。次の3つの例外に当たらないかも確かめる。
+    - h: ずらさない3つの場合
+    - p: 主節が過去でも、時制の一致をさせない場合があります。1つ目は、今も変わらない事実（光の速さ、水の沸点など）です。話した時だけでなく今も正しいので、現在形のままにします（@e1904）。2つ目は、今も続いている習慣や状態です。@e1905 のソラは今も毎週土曜日にジムに通っているので、goes のままにできます。
+      notes:
+      - kind: 注意
+        text: 実際の英語では、変わらない事実や今も続くことでも、時制の一致をさせて過去形にすることがある（She said that she went to the gym every Saturday.）。入試の4択では、現在形が正解になるように作られていることが多い。
+    - ex: [e1904, e1905]
+    - p: 3つ目は、歴史上の事実です。年号などで過去のいつかが決まっている出来事は、主節の時より前のことでも過去完了にせず、過去形のままにします（@e1906）。1964 年に起きたことは、話した時との前後に関係なく「1964 年の出来事」として過去形で述べます。実際の英語では過去完了を使った例を見かけることもありますが、入試では過去完了を誤りとし、過去形を選びます。
+    - ex: [e1906]
+    - check:
+      - q: "Rina said that she (is／was) busy."
+        a: was
+      - q: "Our teacher told us that the earth (goes／had gone) around the sun."
+        a: goes（今も変わらない事実）
+      - q: "The guide said that the old bridge (was／had been) built in 1820."
+        a: was（歴史上の事実）
+    examples:
+    - id: e1901
+      en: I *thought* [that Mio *was* right].
+      ja: 私はミオが正しいと思った。
+    - id: e1902
+      en: Ren *said* [that he *had lost* his bike key on the way to school].
+      ja: レンは、学校に来る途中で自転車の鍵をなくしたと言った。
+    - id: e1903
+      en: I *thought* [that it *would* rain in the afternoon], so I took an umbrella.
+      ja: 午後は雨が降るだろうと思ったので、かさを持って行った。
+    - id: e1904
+      en: Our science teacher *told* us [that light *travels* much faster than sound].
+      ja: 理科の先生は、光は音よりずっと速く進むと教えてくれた。
+    - id: e1905
+      en: Sora *said* [that he *goes* to the gym every Saturday].
+      ja: ソラは、毎週土曜日にジムに通っていると言った。
+    - id: e1906
+      en: Our teacher *told* us [that the first Shinkansen *started* running in 1964].
+      ja: 先生は、最初の新幹線は 1964 年に走り始めたと教えてくれた。
+    worked:
+    - q: （　）に入る最も適切なものを1つ選びなさい。<br>This morning I thought that I (＿) late for school, but I still had twenty minutes.
+      choices: [am, was, have been, will be]
+      steps:
+      - 空所は that の節の V。時を表す語句 This morning と主節の動詞 thought から、主節は過去の話だと分かる。
+      - 基準の時は「思った時」。遅刻しているという状態は、思ったのと同じ時のこと。
+      - that の節は thought の O になる名詞節。主節が過去で同じ時のことなので、時制の一致で過去形 was にする。am は今のこと、have been は今を基準にした形で、どちらも主節と合わない。will be も主節の過去に合わせていない（would be ならよい）。
+      ans: "2"
+      point: 「遅刻すると思った」の日本語につられて am や will be を選ばない。主節が thought なら、that の節も過去にずらす。
+    - q: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。<br>Our teacher __told__① us that World War II __had ended__② in 1945, and then she __showed__③ us some old photos __taken__④ in Tokyo.
+      steps:
+      - 主節の動詞は told で過去。that の節は時制の一致を考える場所になる。
+      - that の節の内容は「第二次世界大戦が 1945 年に終わった」という歴史上の事実。年号で時が決まっているので、話した時より前のことでも過去完了にせず、過去形 ended にする。
+      - ほかを確かめる。①told は tell 人 that ～ の過去形、③showed は and で told と並ぶ過去形、④taken は「撮られた」写真を後ろから説明する過去分詞で、どれも正しい。
+      ans: "2"
+      point: 主節より前のことは過去完了、という規則だけで判断しない。年号のついた歴史上の事実は過去形のまま。
+    summary:
+    - 主節の動詞が過去形のとき、従属節の動詞もずらすことを{{時制の一致}}という。訳すときは元の形のように「〜だ」と訳す。
+    - 主節と同じ時は{{過去形}}、主節より前は{{過去完了}}、主節より後は will を{{would}}にする。
+    - 今も変わらない事実と今も続く習慣は、主節が過去でも{{現在形}}のままでよい。
+    - 歴史上の事実は、過去完了にせず{{過去形}}のまま。
+  - id: s192
+    title: "平叙文を伝える"
+    aim: 人のことばをそのまま示す文を、that の節を使う文に書きかえ、say と tell、代名詞・時・場所の語を正しく選べるようになる。
+    body:
+    - h: そのまま伝えるか、自分のことばで伝えるか
+    - p: 人が言ったことを伝える方法は2つあります。1つは、言ったことばを引用符（" "）の中にそのまま入れる<<直接話法>>です。もう1つは、伝える人の立場からことばを直し、that の節にして伝える<<間接話法>>です。@e1907 の上の文が直接話法、→ の後ろが間接話法です。
+      notes:
+      - kind: 用語
+        term: 直接話法
+        yomi: ちょくせつわほう
+        text: 人が言ったことばを、引用符（" "）の中にそのままの形で入れて伝える言い方。Nana said, "I am tired." の形。
+      - kind: 用語
+        term: 間接話法
+        yomi: かんせつわほう
+        text: 人が言ったことを、伝える人の立場から代名詞・時制・時や場所の語を直し、that の節などにして伝える言い方。Nana said that she was tired. の形。
+    - ex: [e1907]
+    - p: 間接話法にするときは、3か所を直します。(1) コンマと引用符をとって that でつなぐ（that は省略できる）。(2) 代名詞を伝える人から見た形にする。ナナ自身の「私（I）」は、伝える人から見ると「彼女（she）」です。(3) 主節が said なので、時制の一致（@s191）で am を was にします。
+    - h: say to 人 は tell 人 にする
+    - p: 直接話法で said to me（私に言った）となっているときは、間接話法では told me にするのがふつうです（@e1908）。tell は、すぐ後ろに伝える相手を置き、tell 人 that ～ の形をとります。say は相手を O にとらないので、said me that ～ とは言いません。相手を言うなら said to me that ～ と to が要りますが、この形はあまり使いません。相手を言わないときは、@e1907 のように said that ～ にします。
+      notes:
+      - kind: 注意
+        text: tell は「人」を言わずに told that ～ とはしない。ただし tell a lie（うそをつく）・tell the truth・tell a story のように、伝える物だけを O にする言い方はある。
+    - ex: [e1908]
+    - table:
+        head: [動詞, 形, 例]
+        rows:
+        - [say, "say {{(that) ～}}／say to 人 (that) ～", "He said (that) he was busy."]
+        - [tell, "tell {{人}} (that) ～", "He told me (that) he was busy."]
+        - [誤り, "say 人 that ～／tell that ～", "He {{said me}} that ～（×）"]
+    - h: 時や場所を表す語も、伝える時・場所に合わせる
+    - p: 言われたのと別の日や別の場所で伝えるときは、時や場所を表す語も直します。@e1909 のミカの「明日」は、伝える時にはもう「明日」ではないので、「その次の日」と言いかえます。@e1910 の here も、伝える人がその場所にいなければ there にします。you は伝える相手によって変わり、自分が言われたなら I・me、ほかの人たちなら they・them にします。
+      notes:
+      - kind: 注意
+        text: 時や場所の語を直すのは、言われた時・場所と伝える時・場所が違うときだけ。昼に言われたことを同じ日の夕方に伝えるなら、today や tomorrow はそのまま使う（She said that she would call me tomorrow.）。
+    - ex: [e1909, e1910]
+    - table:
+        head: [直接話法, 間接話法（別の日・場所で伝えるとき）]
+        rows:
+        - [now, "{{then}}"]
+        - [today, "{{that day}}"]
+        - [yesterday, "{{the day before}}（the previous day）"]
+        - [tomorrow, "{{the next day}}（the following day）"]
+        - [～ ago, "～ {{before}}"]
+        - [here, "{{there}}"]
+        - [this, that]
+    - check:
+      - q: "She (said／told) that she was hungry."
+        a: said（相手がない）
+      - q: "He (said／told) me that he was busy."
+        a: told（すぐ後ろに相手の me）
+      - q: 別の日に伝えるとき、直接話法の yesterday は間接話法で何になるか。
+        a: the day before（the previous day）
+    examples:
+    - id: e1907
+      en: 'Nana said, "I am tired."　→　Nana *said* [that *she was* tired].'
+      ja: ナナは疲れていると言った。
+    - id: e1908
+      en: 'Oscar said to me, "I like your bag."　→　Oscar *told me* [that he *liked my* bag].'
+      ja: オスカーは私に、私のかばんがいいねと言った。
+    - id: e1909
+      en: 'Mika said to me, "I will call you tomorrow."　→　Mika told me [that she *would* call *me the next day*].'
+      ja: ミカは私に、次の日に電話すると言った。
+    - id: e1910
+      en: 'The guide said to us, "You can take pictures here."　→　The guide told us [that *we could* take pictures *there*].'
+      ja: ガイドは私たちに、そこで写真をとってよいと言った。
+    worked:
+    - q: 直接話法の文を間接話法に書きかえるとき、（　）に入る語を1語ずつ書きなさい。伝えるのは別の日とする。<br>Haruka said, "I am going to the library now."<br>→ Haruka said that (＿) (＿) going to the library (＿).
+      steps:
+      - 主節の動詞を見る。said は過去で、相手を言っていないので said that ～ のままでよい。
+      - 代名詞を伝える人から見た形にする。ハルカの I は she。
+      - 時制の一致で am を was にする。now は、伝える時には「今」ではないので then にする。
+      ans: she was then
+      point: 直すのは、代名詞・動詞の時制・時や場所の語の3つ。1つずつ順に確かめると見落としがない。
+    - q: （　）に入る最も適切なものを1つ選びなさい。<br>My brother (＿) me that he had found a part-time job.
+      choices: [said, told, spoke, talked]
+      steps:
+      - 空所は文の V。後ろに me（相手）と that の節が続いている。
+      - 相手を O にとり、tell 人 that ～ の形になるのは tell。said なら said to me that ～ と to が要る。
+      - speak と talk は that の節を後ろに続けない（speak to 人・talk to 人 about ～ の形で使う）。told を選ぶ。
+      ans: "2"
+      point: すぐ後ろに相手（人）がいれば tell、いなければ say。said me that ～ とは言わない。
+    summary:
+    - ことばをそのまま引用符に入れるのが{{直接話法}}、伝える人の立場から直して that の節にするのが{{間接話法}}。
+    - 直接話法の said to 人 は、間接話法では{{told}} 人 にする。say 人 that ～・tell that ～ とは言わない。
+    - 間接話法では、{{代名詞}}・動詞の時制・時や場所の語を直す。
+    - 別の日に伝えるとき、now → {{then}}、tomorrow → {{the next day}}、here → {{there}}。
+  - id: s193
+    title: "疑問文・命令文・依頼を伝える"
+    aim: 疑問文を ask if・疑問詞で、命令文と依頼を tell／ask 人 to do で、Let's ～ を suggest that で伝えられるようになる。
+    body:
+    - h: 疑問文は ask と if・疑問詞で伝える
+    - p: 疑問文を伝えるときは、伝える動詞を ask（たずねる）にします。Yes か No で答える疑問文は、ask 人 if（whether）～「〜かどうか」の形にします（@e1911）。疑問詞で始まる疑問文は、その疑問詞を使って ask 人 疑問詞 ～ の形にします（@e1912）。どちらも、ask の O になる名詞節です。
+    - ex: [e1911, e1912]
+    - p: 節の中は、疑問文の語順ではなく S＋V の語順にします。Are you hungry? の are は I was に、Where do you live? の do は消えて I lived になります。これは単元17で学んだ間接疑問の語順と同じです（@s171）。疑問符（?）も付けません。答えの決まっていない「〜かどうか」をたずねているので、that は使いません。asked me that I was hungry は誤りです。
+      notes:
+      - kind: 参照
+        text: if と whether の使い分け（S の位置や前置詞の後ろでは whether）は @s092 で学んだ。
+    - h: 命令文は tell 人 to do、依頼は ask 人 to do
+    - p: 命令文を伝えるときは tell 人 to do（人に〜するように言う）にします（@e1913）。「〜するな」という否定の命令文は、to の前に not を置いて tell 人 not to do にします（@e1914）。Please ～ や Will you ～? などの依頼は、ask 人 to do（人に〜するように頼む）で伝えます（@e1915）。どれも、単元6で学んだ V O to do の形です（@s063）。
+      notes:
+      - kind: 注意
+        text: 同じ ask でも、ask 人 if ～ は「〜かどうかたずねる」、ask 人 to do は「〜するように頼む」。後ろの形で意味が変わる。
+    - ex: [e1913, e1914, e1915]
+    - h: Let's ～ は suggest that で伝える
+    - p: Let's ～（〜しよう）という誘いや提案は、suggest（提案する）を使って伝えます。suggest の後ろの that の節は、単元12で学んだ仮定法現在で、動詞を原形（または should＋原形）にします（@e1916、@s124）。相手を言うときは suggested to us that ～ と to を付けます。suggest は O の後ろに to do を置かないので、suggested us to take ～ とは言いません。
+      notes:
+      - kind: 注意
+        text: 動名詞を使って Riku suggested taking a break. と言うこともできる。suggest の後ろに置ける形は、単元20でまとめて整理する。
+    - ex: [e1916]
+    - table:
+        head: [元の文, 伝える動詞と形]
+        rows:
+        - [平叙文, "say (that) ～／tell 人 (that) ～"]
+        - [Yes・No の疑問文, "ask (人) {{if}}（whether）S＋V"]
+        - [疑問詞の疑問文, "ask (人) {{疑問詞}}＋S＋V"]
+        - [命令文, "tell 人 {{to do}}（否定は not to do）"]
+        - [依頼（Please ～・Will you ～?）, "{{ask}} 人 to do"]
+        - ["Let's ～", "{{suggest}} (to 人) that S (should) 原形"]
+    - check:
+      - q: '"Are you busy?" をたずねられたことを伝える：He asked me (that／if) I was busy.'
+        a: if
+      - q: '"Don''t run." と言われたことを伝える：She told me (not to run／to not run).'
+        a: not to run
+    examples:
+    - id: e1911
+      en: 'Mr. Kato said to me, "Are you hungry?"　→　Mr. Kato *asked* me [*if* I *was* hungry].'
+      ja: カトウ先生は私に、おなかがすいているかとたずねた。
+    - id: e1912
+      en: 'Mina said to me, "Where do you live?"　→　Mina *asked* me [*where* I *lived*].'
+      ja: ミナは私に、どこに住んでいるのかとたずねた。
+    - id: e1913
+      en: 'My mother said to me, "Clean your room."　→　My mother *told* me *to clean* my room.'
+      ja: 母は私に、部屋をそうじするように言った。
+    - id: e1914
+      en: 'The coach said to us, "Don''t be late."　→　The coach *told* us *not to be* late.'
+      ja: コーチは私たちに、遅れないように言った。
+    - id: e1915
+      en: 'Emma said to me, "Please help me with my homework."　→　Emma *asked* me *to help* her with her homework.'
+      ja: エマは私に、宿題を手伝ってくれるように頼んだ。
+    - id: e1916
+      en: 'Riku said to us, "Let''s take a break."　→　Riku *suggested* to us [that we *take* a break].'
+      ja: リクは私たちに、ひと休みしようと提案した。
+    worked:
+    - q: 直接話法の文を間接話法に書きかえるとき、（　）に入る語を1語ずつ書きなさい。<br>Mr. Hill said to me, "Do you have a pet?"<br>→ Mr. Hill asked me (＿) I (＿) a pet.
+      steps:
+      - 元の文は Do you ～? で、Yes か No で答える疑問文。伝える動詞は asked で、「〜かどうか」の if（whether）を使う。
+      - 節の中は S＋V の語順にし、疑問文の do は消す。you は、たずねられた私から見ると I。
+      - 主節が asked で過去なので、時制の一致で have を had にする。
+      ans: if had
+      point: Yes・No の疑問文は ask 人 if ～ で伝え、that は使わない。if の後ろは S＋V の語順で、動詞は時制の一致でずらす。whether had も正解。
+    - q: 日本語の意味になるように（　）内の語を並べかえなさい。<br>医者は父に、塩分の多い食べ物を食べすぎないように言った。<br>The doctor ( eat / father / my / not / to / told / too ) much salty food.
+      steps:
+      - 「父に〜しないように言った」は否定の命令を伝える形なので、tell 人 not to do を使う。
+      - V の told の後ろに、相手の my father を置く。
+      - 否定の not は to の前に置き、not to eat とする。too much salty food（塩分の多い食べ物を食べすぎる）を eat の O として続ける。
+      ans: The doctor told my father not to eat too much salty food.
+      point: 「〜しないように言う」は tell 人 not to do。not の位置は to の前で、told not my father や to not eat にはしない。
+    summary:
+    - Yes・No の疑問文は ask 人 {{if}}（whether）S＋V で伝える。{{that}} は使わない。
+    - 疑問詞の疑問文は ask 人 疑問詞＋{{S＋V}} の語順で伝える。
+    - 命令文は tell 人 {{to do}}、否定の命令文は tell 人 {{not to do}}、依頼は {{ask}} 人 to do で伝える。
+    - Let's ～ は {{suggest}} (to 人) that S＋（should）原形 で伝える。
+problems:
+# ---- 前提チェック ----
+- id: q19001
+  sec: s191
+  set: 前提
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Yesterday Ms. Kim (＿) us a funny story about her cat.
+  choices: [tells, told, has told, will tell]
+  ans: "2"
+  why: Yesterday（昨日）は過去の時を表すので、tell の過去形 told を使う。tell は不規則動詞で、tell－told－told と変わる。
+  trap: ③has told を選ぶ誤り。現在完了は yesterday のような過去の一点を表す語句といっしょに使わない。
+- id: q19002
+  sec: s191
+  set: 前提
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: （　）内の語を過去形に変えなさい。
+  q: When I was five, I (＿) already swim.（can）
+  ans: could
+  why: When I was five（5歳のとき）は過去の話なので、can を過去形の could にする。
+  trap: canned と -ed を付ける誤り。助動詞 can の過去形は could、will は would、may は might。
+- id: q19003
+  sec: s191
+  set: 前提
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: I think (＿) Akari is a good singer.
+  choices: [what, who, that, which]
+  ans: "3"
+  why: Akari is a good singer は欠けた語のない完全な文で、think の O になる「〜ということ」の節をつくるのは接続詞の that。
+  trap: ①what を選ぶ誤り。what の後ろは何かが欠けた文になる。Akari is a good singer には欠けた語がない。
+# ---- s191 節末 ----
+- id: q19004
+  sec: s191
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Lily said that she (＿) a little tired, so she went to bed early.
+  choices: [is, was, has been, will be]
+  ans: "2"
+  why: 主節の said は過去で、疲れているのは言った時と同じ時のこと。時制の一致で was にする。
+  trap: ①is を選ぶ誤り。日本語では「疲れていると言った」と現在のように言うが、英語では主節に合わせて過去形にする。
+- id: q19005
+  sec: s191
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: （　）内の語を、時制の一致に注意して適切な形に変えなさい。
+  q: Daniel said that he (＿) join us for lunch, but he didn't come.（will）
+  ans: would
+  why: 主節の said は過去。昼食に加わるのは言った時より後のことなので、will を would にずらす。
+  trap: will のまま書く誤り。主節が過去のときは、後のことを表す will も would にする。
+- id: q19006
+  sec: s191
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Our science teacher told us that water (＿) at 0℃.
+  choices: [freeze, freezes, had frozen, was freezing]
+  ans: "2"
+  why: 「水は0℃で凍る」は今も変わらない事実なので、主節が told でも現在形のままにする。主語 water は3人称単数なので freezes。
+  trap: ③had frozen を選ぶ誤り。教わった時より前のことと考えて過去完了にしやすいが、今も変わらない事実は時制の一致をさせない。
+- id: q19007
+  sec: s191
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Halfway to school, Mei found that she (＿) her lunch box in the kitchen.
+  choices: [leave, have left, had left, would leave]
+  ans: "3"
+  why: 主節の found（気づいた）は過去。弁当箱を台所に置いてきたのは、気づいた時より前のことなので過去完了 had left にする。
+  trap: ②have left を選ぶ誤り。現在完了は今を基準の時にする形で、主節が過去の文では基準の時（気づいた時）に合わない。
+- id: q19008
+  sec: s191
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: My grandfather __told__① me that the Olympic Games __had been held__② in Tokyo for the first time in 1964, when he __was__③ a high school student. He still __remembers__④ the opening day.
+  ans: "2"
+  why: 東京で初めてオリンピックが開かれたのは 1964 年という歴史上の事実なので、過去完了にせず過去形 were held にする。①は tell 人 that ～ の過去形、③は 1964 年当時のことで過去形、④は今も覚えているので現在形で、どれも正しい。
+  trap: ④remembers を誤りと考える誤り。2文目は祖父の今のことを述べている独立した文で、時制の一致の対象ではない。
+- id: q19009
+  sec: s191
+  set: 節末
+  lv: 1
+  kind: 和訳
+  min: 3
+  inst: 次の英文を日本語に訳しなさい。
+  q: Eri said that she wanted a new bike.
+  ans: エリは新しい自転車がほしいと言った。
+  alt: [エリは新しい自転車をほしがっていると言った。]
+  why: wanted は主節の said に合わせて時制の一致をした形で、言った時の気持ちを表す。「ほしい」と現在のように訳していれば正解。
+  trap: 「新しい自転車がほしかったと言った」と訳す誤り。時制の一致による過去形は、日本語では元の形（〜だ）で訳す。
+- id: q19010
+  sec: s191
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Hiro says that he (＿) to Hokkaido with his family last summer.
+  choices: [goes, went, had gone, has gone]
+  ans: "2"
+  why: 主節の says は現在形なので、時制の一致は起こらない。北海道へ行ったのは last summer（去年の夏）なので、ふつうの過去形 went にする。
+  trap: ③had gone を選ぶ誤り。主節が過去なら過去完了になることもあるが、主節が現在形の says なので、ずらす理由がない。
+- id: q19011
+  sec: s191
+  set: 節末
+  lv: 1
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: ユウタは、自分は泳ぎが得意ではないと言った。<br>Yuta ( a / good / he / not / said / swimmer / that / was ).
+  words: [a, good, he, not, said, swimmer, that, was]
+  ans: Yuta said that he was not a good swimmer.
+  why: Yuta said の後ろに that の節を置く。主節が said なので、節の中の be 動詞は過去形 was になり、not はその後ろに置く。「得意ではない」は not a good swimmer で表す。
+  trap: 日本語の「ではない」につられて was を is にしたくなるが、与えられた語は was で、主節 said に合わせた時制の一致の形である。
+# ---- s192 節末 ----
+- id: q19012
+  sec: s192
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 直接話法の文を間接話法に書きかえるとき、（　）に入る語を1語ずつ書きなさい。
+  q: Aoi said, "I am very hungry."<br>→ Aoi said that (＿) (＿) very hungry.
+  ans: she was
+  why: アオイの I は、伝える人から見ると she。主節の said が過去なので、時制の一致で am を was にする。
+  trap: I am をそのまま残す誤り。間接話法では、代名詞を伝える人から見た形にし、動詞を時制の一致でずらす。
+- id: q19013
+  sec: s192
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: The guide (＿) that the bus would leave at two.
+  choices: [said, told, spoke, talked]
+  ans: "1"
+  why: 空所の後ろに相手（人）がなく、すぐ that の節が続いているので say を使う。said that ～ で「〜と言った」。
+  trap: ②told を選ぶ誤り。tell はすぐ後ろに伝える相手を置いて tell 人 that ～ とする。相手のない told that ～ とは言わない。
+- id: q19014
+  sec: s192
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Kenji's sister said (＿) that she would be home late.
+  choices: [me, to me, for me, with me]
+  ans: "2"
+  why: say は相手を O にとらないので、相手を言うときは say to 人 that ～ とする。told me that ～ と言うことの方が多いが、said を使うなら to me が要る。
+  trap: ①me を選ぶ誤り。tell 人 that ～ と混同して said me that ～ とする誤りは、入試でよく問われる。
+- id: q19015
+  sec: s192
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 直接話法の文を間接話法に書きかえるとき、（　）に入る語を1語ずつ書きなさい。
+  q: Yuki said to me, "I will call you."<br>→ Yuki (＿) me that she (＿) call me.
+  ans: told／would
+  why: said to me は、間接話法では told me にする。主節が過去なので、will を would にずらす。you は、言われた私から見ると me になっている。
+  trap: 1つ目に said を書く誤り。後ろに相手の me があるので、said なら to が要る。ここでは told を使う。
+- id: q19016
+  sec: s192
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: Last month, my aunt __said__① me that she __would__② move to Sendai and __asked__③ me to visit her __there__④.
+  ans: "1"
+  why: すぐ後ろに相手の me があるので、said ではなく told にする（told me that ～）。②は主節が過去なので will を would にした形、③は ask 人 to do、④は仙台を指す there で、どれも正しい。
+  trap: ②would を誤りと考える誤り。引っ越すのは言った時より後のことで、主節が過去なので would が正しい。
+- id: q19017
+  sec: s192
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Taku said, "My sister lives in Nagoya."<br>→ Taku said that (＿) sister lived in Nagoya.
+  choices: [my, his, your, her]
+  ans: "2"
+  why: タクの my は、伝える人から見ると「彼の」なので his にする。
+  trap: ④her を選ぶ誤り。sister が女性なので her を選びたくなるが、所有格は持ち主（タク）に合わせる。
+- id: q19018
+  sec: s192
+  set: 節末
+  lv: 2
+  kind: 英作
+  min: 3
+  inst: 日本語の意味になるように、（　）に適切な英語を入れなさい。
+  q: ミナは私に、その映画はもう見たと言った。<br>Mina (＿).
+  ans: told me that she had already seen the movie
+  alt: [told me she had already seen the movie, said to me that she had already seen the movie, told me that she had seen the movie already, told me that she had already seen the film]
+  why: 「私に言った」は told me（said to me も可）。映画を見たのは言った時より前のことなので、that の節は過去完了 had seen にする。already は had と過去分詞の間（または文の終わり）に置く。採点の目安：told me か said to me、過去完了の had seen が書けていれば正解。
+  trap: told me that she has already seen the movie と現在完了を残す誤り。主節が過去なので、現在完了は過去完了にずらす。
+- id: q19019
+  sec: s192
+  set: 節末
+  lv: 2
+  kind: 補充
+  min: 2
+  inst: 直接話法の文を間接話法に書きかえるとき、（　）に入る語を1語ずつ書きなさい。伝えるのは別の日とする。
+  q: Rui said, "I bought this bag yesterday."<br>→ Rui said that he had bought (＿) bag (＿) (＿) (＿).
+  ans: that／the day before
+  alt: [that／the previous day]
+  why: 間接話法では、this を that に、yesterday を「その前の日」の the day before（the previous day）にする。買ったのは言った時より前なので、動詞は had bought になっている。
+  trap: yesterday をそのまま残す誤り。別の日に伝えるときは、言った日を基準に「その前の日」と言いかえる。
+# ---- s193 節末 ----
+- id: q19020
+  sec: s193
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 直接話法の文を間接話法に書きかえるとき、（　）に入る語を1語ずつ書きなさい。
+  q: Mr. Wood said to me, "Are you ready?"<br>→ Mr. Wood asked me (＿) I (＿) ready.
+  ans: if／was
+  alt: [whether／was]
+  why: Yes か No で答える疑問文なので、ask 人 if（whether）～ で伝える。節の中は S＋V の語順で、主節が過去なので are を was にする。
+  trap: 1つ目に that を入れる誤り。「〜かどうか」をたずねる文なので、that ではなく if か whether を使う。
+- id: q19021
+  sec: s193
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: My father said to me, "Wash your hands."<br>→ My father told me (＿) my hands.
+  choices: [wash, to wash, washing, washed]
+  ans: "2"
+  why: 命令文を伝えるときは tell 人 to do にする。told me to wash で「手を洗うように言った」。
+  trap: ①wash を選ぶ誤り。元の命令文が原形で始まるので原形を残したくなるが、tell 人 の後ろは to do になる。
+- id: q19022
+  sec: s193
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: At the store, the clerk asked me (＿) I wanted a plastic bag.
+  choices: [that, if, what, which]
+  ans: "2"
+  why: 店員は「袋が要りますか」と Yes・No の疑問文でたずねている。ask 人 if ～ で「〜かどうかたずねる」。I wanted a plastic bag は欠けた語のない完全な文なので、what・which は入らない。
+  trap: ①that を選ぶ誤り。told me that ～ と同じ形だと考えやすいが、疑問文を伝えるときは that を使わない。
+- id: q19023
+  sec: s193
+  set: 節末
+  lv: 1
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: ナナは私に、そのTシャツをどこで買ったのかとたずねた。<br>Nana asked me ( bought / had / I / the / T-shirt / where ).
+  words: [bought, had, I, the, T-shirt, where]
+  ans: Nana asked me where I had bought the T-shirt.
+  why: 疑問詞の疑問文を伝える形で、asked me の後ろに where を置き、その後ろは S＋V の語順（I had bought）にする。買ったのはたずねた時より前なので過去完了になっている。
+  trap: where had I bought と疑問文の語順にする誤り。asked の後ろの疑問詞の節は、S＋V の語順にする。
+- id: q19024
+  sec: s193
+  set: 節末
+  lv: 2
+  kind: 補充
+  min: 1
+  inst: 直接話法の文を間接話法に書きかえるとき、（　）に入る語を1語ずつ書きなさい。
+  q: Hina said, "Let's go to the beach."<br>→ Hina (＿) that we (＿) to the beach.
+  ans: suggested／go
+  why: Let's ～ は suggest that ～ で伝える。suggest の後ろの that の節は仮定法現在で、主節が過去でも動詞は原形の go にする（1語なので should go は入らない）。
+  trap: 2つ目に went を入れる誤り。時制の一致でずらしたくなるが、suggest の後ろの that の節は原形（または should＋原形）にする。
+- id: q19025
+  sec: s193
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: Before the test, Ms. Fox __told__① us __not to__② use our phones and __asked__③ us __that__④ we had any questions.
+  ans: "4"
+  why: 質問があるかどうかをたずねているので、that ではなく if（whether）にする。①②は tell 人 not to do、③は ask 人 で、どれも正しい。
+  trap: ②not to を誤りと考える誤り。否定の命令を伝える形は tell 人 not to do で、not は to の前に置く。
+- id: q19026
+  sec: s193
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Jun said to his sister, "Please don't tell Mom."<br>→ Jun asked his sister (＿) Mom.
+  choices: [don't tell, not tell, not to tell, not telling]
+  ans: "3"
+  why: Please ～ の依頼は ask 人 to do で伝え、否定なので not を to の前に置いて not to tell にする。
+  trap: ①don't tell を選ぶ誤り。元の文の don't をそのまま残したくなるが、ask 人 の後ろは to do で、否定は not to do になる。
+- id: q19027
+  sec: s193
+  set: 節末
+  lv: 1
+  kind: 和訳
+  min: 3
+  inst: 次の英文を日本語に訳しなさい。
+  q: The woman asked me where the nearest station was.
+  ans: その女性は私に、いちばん近い駅はどこかとたずねた。
+  alt: [その女性は私に、最寄りの駅はどこかとたずねた。, その女性は私に、いちばん近い駅がどこにあるかを聞いた。]
+  why: asked me の後ろの where the nearest station was は「いちばん近い駅がどこか」という名詞節。was は時制の一致による過去形なので、「どこか」と現在のように訳す。
+  trap: 「どこだったか」と過去のように訳す誤り。たずねた時に駅がある場所を聞いているので、日本語では元の形で訳す。
+# ---- 確認テスト ----
+- id: q19028
+  sec: s191
+  set: 確認テスト
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: I thought that the bakery (＿) open, but it was closed.
+  choices: [is, was, has been, will]
+  ans: "2"
+  why: 主節の thought は過去で、店が開いているのは思った時と同じ時のこと。時制の一致で was にする。
+  trap: ①is を選ぶ誤り。「開いていると思った」という日本語につられやすいが、主節が過去なので過去形にする。
+- id: q19029
+  sec: s191
+  set: 確認テスト
+  lv: 2
+  kind: 4択
+  min: 1
+  q: In class, we learned that the Second World War (＿) in 1945.
+  choices: [ends, ended, had ended, has ended]
+  ans: "2"
+  why: 1945 年に戦争が終わったことは歴史上の事実なので、主節が過去でも過去完了にせず、過去形 ended にする。
+  trap: ③had ended を選ぶ誤り。学んだ時より前のことだから過去完了と考えやすいが、歴史上の事実は過去形のまま。
+- id: q19030
+  sec: s192
+  set: 確認テスト
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 直接話法の文を間接話法に書きかえるとき、（　）に入る語を1語ずつ書きなさい。
+  q: Kana said to me, "I like your shoes."<br>→ Kana (＿) me that she (＿) my shoes.
+  ans: told／liked
+  why: said to me は told me にする。主節が過去なので、時制の一致で like を liked にする。
+  trap: 2つ目に like と原形を書く誤り。主節が told なので、that の節の動詞も過去形にずらす。
+- id: q19031
+  sec: s193
+  set: 確認テスト
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Mr. Ono asked me (＿) I was from.
+  choices: [where, that, if, what]
+  ans: "1"
+  why: 「どこの出身か」をたずねる文。be from ～ の「～」が欠けているので、場所をたずねる where を使う。
+  trap: ③if を選ぶ誤り。if の後ろは欠けた語のない文になる。I was from で終わると from の後ろが欠けている。
+- id: q19032
+  sec: s192
+  set: 確認テスト
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: Yesterday Ryo __told__① that he __had__② never __been__③ to Okinawa and __wanted__④ to go there someday.
+  ans: "1"
+  why: told の後ろに相手（人）がないので、said にする（said that ～）。②③は今までの経験を言った時に合わせた過去完了、④は時制の一致による過去形で、どれも正しい。
+  trap: ②had を誤りと考える誤り。元のことばは I have never been to Okinawa で、主節が過去なので had been にずらすのが正しい。
+- id: q19033
+  sec: s193
+  set: 確認テスト
+  lv: 1
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: コーチは私たちに、水をたくさん飲むように言った。<br>The coach ( drink / lots / of / told / to / us ) water.
+  words: [drink, lots, of, told, to, us]
+  ans: The coach told us to drink lots of water.
+  why: 「人に〜するように言う」は tell 人 to do。told us の後ろに to drink を置き、lots of water を drink の O にする。
+  trap: The coach told to drink us … と to do を相手の前に置く誤り。tell の後ろは「人」が先で、to do はその後ろ。
+- id: q19034
+  sec: s193
+  set: 確認テスト
+  lv: 2
+  kind: 補充
+  min: 1
+  inst: 直接話法の文を間接話法に書きかえるとき、（　）に入る語を1語ずつ書きなさい。
+  q: Ms. Ueda said to me, "What time did you get up?"<br>→ Ms. Ueda asked me what time I (＿) (＿) up.
+  ans: had got
+  alt: [had gotten]
+  why: 疑問詞の疑問文なので、what time の後ろは S＋V の語順にし、did は消す。起きたのはたずねた時より前のことなので、過去完了 had got（had gotten）にする。
+  trap: did get と疑問文の did を残す誤り。間接疑問の語順では do・does・did を使わず、動詞を時制の一致でずらす。
+- id: q19035
+  sec: s193
+  set: 確認テスト
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: Lucas __suggested us to take__① a taxi because it __was raining__② hard and the station __was__③ far __from__④ the hotel.
+  ans: "1"
+  why: suggest は O の後ろに to do を置かない。suggested that we take a taxi（または suggested taking a taxi）とする。②③は過去の様子を表す過去形、④は far from ～（〜から遠い）で、どれも正しい。
+  trap: ①を正しいと考える誤り。tell 人 to do・ask 人 to do と同じ形にしたくなるが、Let's ～ を伝える suggest は that の節を使う。
+- id: q19036
+  sec: s182
+  set: 確認テスト
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: '"I''m really hungry." "So (＿) I. Let''s get something to eat."'
+  choices: [do, am, have, can]
+  ans: "2"
+  why: 「私もそうだ」は So＋（助）動詞＋S の語順で、前の文の動詞に合わせる。前の文は I'm（I am）hungry なので So am I。
+  trap: ①do を選ぶ誤り。So do I は前の文が一般動詞（I like ～ など）のときに使う。be 動詞の文には am・is・are で答える。
+- id: q19037
+  sec: s121
+  set: 確認テスト
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: もっと時間があれば、あなたを手伝えるのに。<br>If I ( could / had / help / I / more / time ) you.
+  words: [could, had, help, I, more, time]
+  ans: If I had more time, I could help you.
+  why: 今の事実（時間がない）と反対の仮定なので仮定法過去。if 節は過去形の had、主節は could＋原形の could help にする。
+  trap: If I could have more time … と could を if 節に入れる誤り。仮定法過去では if 節に過去形、主節に would・could＋原形を置く。
