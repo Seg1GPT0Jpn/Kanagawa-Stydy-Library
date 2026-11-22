@@ -1,0 +1,825 @@
+chapters:
+- id: c16
+  title: 前置詞
+  lead: この単元では、前置詞を「前置詞＋名詞のかたまりが、文の中で形容詞か副詞の働きをする」という見方で整理し、時・場所・手段・材料などを表す前置詞を、意味の違いから選び分けます。by と until、between と among、with と by のように入試で並べて出される組や、because of・instead of のように2語以上で1つの前置詞になるものを、4択と正誤で選べるようになります。単元9の接続詞（@s094）と、単元15の形容詞・副詞の働き（@s151）を使います。
+  intro: 中学では、at seven（7時に）、on Sunday（日曜日に）、in the box（箱の中に）のように、名詞の前に前置詞を置いて時や場所を表すことを学びました。前置詞の後ろに代名詞を置くときは、with him・for us のように目的格（@s141）にします。前置詞の後ろに動詞を置くときは、before going のように動名詞（@s071）にすることも単元7で学びました。この単元では、意味の似た前置詞を、どこが違うかに目を向けて区別します。
+  sections:
+  - id: s161
+    title: "前置詞の働きと時の前置詞"
+    aim: 「前置詞＋名詞」が形容詞か副詞の働きをすることを理解し、時を表す at／on／in、by／until、for／during、in／within を使い分けられるようになる。
+    body:
+    - h: 「前置詞＋名詞」は形容詞か副詞の働きをする
+    - p: 前置詞（@s011）は名詞の前に置く語で、「前置詞＋名詞」でひとかたまりになります。このかたまりは、文の中で形容詞か副詞のどちらかの働きをします。@e1601 の with a red bag は、すぐ前の名詞 girl を説明して「赤いかばんを持った女の子」を表すので、形容詞の働きです。at the gate は動詞 waited に場所を付け足すので副詞の働きで、文の要素では M になります。本書では、M になるかたまりを（ ）で示します。
+      notes:
+      - kind: 注意
+        text: 形容詞の働きをする「前置詞＋名詞」は、1語の形容詞と違って名詞の後ろに置く。S に付いたときは、動詞の形を中心の名詞に合わせる。The keys in the box are mine. の中心は keys なので are になる。
+    - ex: [e1601]
+    - h: 時の at・on・in
+    - p: 時を表す at・on・in は、時の幅で使い分けます。時刻のような1つの「点」には at、曜日・日付のような「1日」には on、月・季節・年のような「長い期間」には in を使います（@e1602）。朝・午後・夕方は in the morning のように in を使いますが、曜日や日付が付いて特定の日の朝になると、on Sunday morning・on the morning of May 5 のように on に変わります。夜は at night と言います。
+    - table:
+        head: [前置詞, 使うもの, 例]
+        rows:
+        - [at, 時刻・1つの点, "{{at}} seven・at noon・at night"]
+        - [on, 曜日・日付・特定の日, "{{on}} Monday・on May 5・on my birthday"]
+        - [in, 月・季節・年・朝や午後, "{{in}} July・in winter・in 2025・in the morning"]
+      notes:
+      - kind: 注意
+        text: next・last・this・every が付いた時の語句には、前置詞を付けない（next Sunday・last year・this morning・every day）。入試では on next Sunday・in last year を誤りとする。
+    - ex: [e1602]
+    - h: by と until
+    - p: by と until は、どちらも「〜まで」と訳せますが、意味が違います。until は「その時までずっと」と、状態や動作が続くことを表し、wait・stay・be open のような続く動詞といっしょに使います（@e1604）。by は「その時までには」と期限を表し、finish・return・come back のような1回で終わる動詞といっしょに使います（@e1603）。単元9で学んだ接続詞の until と by the time（@s093）と同じ区別です。
+      notes:
+      - kind: 注意
+        text: till も until と同じ「〜までずっと」を表す。by と取り違えないこと。
+    - ex: [e1603, e1604]
+    - h: for と during、in と within
+    - p: for と during は、どちらも「〜の間」と訳せますが、後ろの名詞が違います。for の後ろには three days・two hours のように数で表す長さを置き、「どれだけの間」を表します。during の後ろには the summer vacation・the meeting のように特定の期間を表す名詞を置き、「いつの間に」を表します（@e1605）。during は「その間ずっと」のほかに、I woke up twice during the night.（夜の間に2度目が覚めた）のように「その間のある時に」も表します。
+    - p: in＋時間の長さは、今から見て「〜後に・〜たったら」を表します。in ten minutes は「10分後に」です。「〜以内に」と言うときは within を使います（@e1606）。過去の文で He finished the puzzle in three days. と言うと、「3日で（3日かかって）仕上げた」という意味になります。
+      notes:
+      - kind: 注意
+        text: 話し言葉では I'll be back in ten minutes.（10分ほどで戻る）のように、in をだいたいの時間の意味で使うこともある。入試では「〜後に」は in、「〜以内に」は within で選ぶ。今から見た「〜後に」に after は使わない。after ten minutes は、過去の話で「（それから）10分後に」と言うときに使う。
+    - ex: [e1605, e1606]
+    - check:
+      - q: "I was born (＿) 2009.（at／on／in）"
+        a: in（年）
+      - q: "Please stay here (＿) five o'clock.（by／until）"
+        a: until（ずっといる）
+      - q: 「1週間以内に」を英語で言うと？
+        a: within a week
+    examples:
+    - id: e1601
+      en: The girl *with* a red bag waited (*at* the gate).
+      ja: 赤いかばんを持った女の子が、門のところで待っていた。
+    - id: e1602
+      en: Our school festival is *in* October. This year it starts *at* nine *on* Saturday, October 18.
+      ja: 私たちの学校の文化祭は10月にある。今年は10月18日の土曜日の9時に始まる。
+    - id: e1603
+      en: Please come back home *by* six.
+      ja: 6時までには家に帰ってきなさい。
+    - id: e1604
+      en: This supermarket is open *until* ten at night.
+      ja: このスーパーは夜10時まで開いている。
+    - id: e1605
+      en: I stayed at my aunt's house *for* five days *during* the winter vacation.
+      ja: 私は冬休みの間に、おばの家に5日間泊まった。
+    - id: e1606
+      en: The next bus will come *in* ten minutes, so we'll get to the stadium *within* an hour.
+      ja: 次のバスは10分後に来るので、1時間以内に競技場に着くだろう。
+    worked:
+    - q: （　）に入る最も適切なものを1つ選びなさい。<br>The concert will be held (＿) Saturday, May 24.
+      choices: [at, in, on, for]
+      steps:
+      - 空所は文のどの要素かを考える。前置詞＋名詞のかたまりで、will be held に「いつ」を付け足す M になる。
+      - 手がかりの語を探す。後ろは Saturday, May 24 で、曜日と日付。
+      - 曜日・日付のような「1日」には on を使う。at は時刻、in は月・季節・年に使い、for は時間の長さに使う。
+      ans: "3"
+      point: 時刻は at、曜日・日付は on、月・季節・年は in。狭いほうから at → on → in の順。
+    - q: （　）に入る最も適切なものを1つ選びなさい。<br>I have to finish this report (＿) Friday. My teacher will read it over the weekend.
+      choices: [until, by, since, in]
+      steps:
+      - 空所の前の動詞を見る。finish（終える）は1回で終わる動作で、ずっと続ける動作ではない。
+      - 「金曜日までには終える」と期限を表すので by を選ぶ。until は「金曜日までずっと終え続ける」となって意味が通らない。
+      - since は「〜以来」で現在完了といっしょに使い、in は曜日の前には置かない。
+      ans: "2"
+      point: until は「〜までずっと」（続く動詞）、by は「〜までには」（期限）。動詞が続く動作か1回の動作かで決める。
+    summary:
+    - "「前置詞＋名詞」は、名詞を説明する{{形容詞}}の働きか、動詞などを説明する{{副詞}}の働きをする。"
+    - "時刻は {{at}}、曜日・日付は {{on}}、月・季節・年は {{in}}。next・last・every の前には前置詞を付けない。"
+    - "until は「〜まで{{ずっと}}」、by は「〜までには」と{{期限}}を表す。"
+    - "for＋数で表す長さ、{{during}}＋特定の期間。in ten minutes は「10分{{後に}}」、「〜以内に」は {{within}}。"
+  - id: s162
+    title: "場所と方向の前置詞"
+    aim: 場所を表す at／in／on、between／among、across／through／along、above／over／on を、位置や動き方の違いで選び分けられるようになる。
+    body:
+    - h: 場所の at・in・on
+    - p: 場所の at・in・on も、その場所をどう見るかで使い分けます。at は場所を地図の上の1つの「点」として見るときに使い、at the station・at the door のように言います。in は広がりのある空間や地域の「中」を表し、in the room・in Japan のように言います。on は「表面に接している」ことを表し、机の上だけでなく、壁や天井に付いているものにも使います（@e1607、@e1608）。
+      notes:
+      - kind: 注意
+        text: 同じ駅でも、待ち合わせの地点として言うなら at the station、駅の建物の中にいることを言うなら in the station になる。話し手がその場所を点として見るか、空間として見るかで決まる。
+    - ex: [e1607, e1608]
+    - h: between と among
+    - p: between は「2つ（2人）の間に」を表し、between A and B の形でよく使います（@e1609）。among は「3つ（3人）以上の集まりの中に」を表します（@e1610）。数だけでなく、1つ1つを分けて見ているか、ひとまとまりの集まりとして見ているかの違いです。
+      notes:
+      - kind: 注意
+        text: 3つ以上でも、1つ1つを分けて挙げるときは between を使うことがある（You can choose between tea, coffee, and juice.）。入試の4択では、「2つの間なら between、集まりの中なら among」で選べる問題が出る。
+    - ex: [e1609, e1610]
+    - h: across・through・along
+    - p: across は道路や川のような平らな所を「横切って、向こう側へ」、through はトンネルや森のように周りを囲まれた所を「通り抜けて」、along は道や川のような細長いものに「沿って」を表します（@e1611、@e1612）。across は、The bank is across the street.（銀行は通りの向こう側にある）のように「〜の向こう側に」という位置も表します。
+    - h: above・over・on
+    - p: on は表面に接していることを表します。above と over は、どちらも「上に」ですが、接していません。above は「〜より高い所に」を表し、真上でなくても使えます。over は「真上に、上をおおって」や「上を越えて」を表します（@e1613）。下を表す below と under も同じ関係で、under は「真下に、下におおわれて」を表します。
+      notes:
+      - kind: 注意
+        text: 真上に離れてあるときは、above と over のどちらも使えることが多い（a lamp above／over the table）。違いがはっきり出るのは、over が「おおう」「越えて動く」を表すとき（jump over the fence）と、above が「真上ではない高い所」を表すときである。
+    - table:
+        head: [前置詞, 表すこと, 例]
+        rows:
+        - [across, 平らな所を横切って・向こう側へ, "walk {{across}} the street"]
+        - [through, 囲まれた所を通り抜けて, "go {{through}} a tunnel"]
+        - [along, 細長いものに沿って, "walk {{along}} the river"]
+        - [over, 真上に・おおって・越えて, "jump {{over}} the fence"]
+        - [above, 接していない高い所に, "fly {{above}} the clouds"]
+    - ex: [e1611, e1612, e1613]
+    - check:
+      - q: "The bank is (＿) the post office and the hospital.（between／among）"
+        a: between（2つの間）
+      - q: "We drove (＿) a long tunnel.（across／through）"
+        a: through
+      - q: 「川に沿って歩く」は walk (＿) the river？
+        a: along
+    examples:
+    - id: e1607
+      en: Let's meet *at* the station at three.
+      ja: 3時に駅で会おう。
+    - id: e1608
+      en: There is a calendar *on* the wall *in* the kitchen.
+      ja: 台所の壁にカレンダーがかかっている。
+    - id: e1609
+      en: Mei sat *between* her father and her mother.
+      ja: メイは父と母の間に座った。
+    - id: e1610
+      en: I found an old letter *among* my father's books.
+      ja: 私は父の本の中に古い手紙を見つけた。
+    - id: e1611
+      en: We walked *along* the river and went *across* the bridge.
+      ja: 私たちは川に沿って歩き、橋を渡った。
+    - id: e1612
+      en: I walked *through* the park to the library.
+      ja: 私は公園を通り抜けて図書館まで歩いた。
+    - id: e1613
+      en: The bird flew *over* the wall and sat on a branch *above* my head.
+      ja: その鳥は塀を飛び越えて、私の頭より高い所にある枝にとまった。
+    worked:
+    - q: （　）に入る最も適切なものを1つ選びなさい。<br>This song is popular (＿) high school students in Japan.
+      choices: [between, among, across, through]
+      steps:
+      - 空所の後ろの名詞を見る。high school students は、たくさんの高校生の集まり。
+      - 3人以上の集まりの「中で」を表すのは among。between は2つ（2人）の間に使う。
+      - across・through は動きや場所の通り方を表す語で、「人気がある」と意味がつながらない。
+      ans: "2"
+      point: 2つの間は between、3つ以上の集まりの中は among。後ろの名詞の数と、まとまりとして見ているかで決める。
+    - q: 日本語の意味になるように、（　）に入る最も適切なものを1つ選びなさい。<br>その男の子は泳いで川を渡った。<br>The boy swam (＿) the river.
+      choices: [through, along, across, above]
+      steps:
+      - 日本語から動き方を確かめる。「川を渡った」は、川のこちら側から向こう側へ横切る動き。
+      - 川の水面のような平らな所を横切るのは across。
+      - through はトンネルや森のように囲まれた所を通り抜けるとき、along は川に沿って進むときに使い、どちらも「渡る」にはならない。above は「〜より高い所に」で、泳ぐ動きと合わない。
+      ans: "3"
+      point: 横切るなら across、通り抜けるなら through、沿うなら along。動き方を思い浮かべて選ぶ。
+    summary:
+    - "場所の at は{{点}}、in は空間や地域の{{中}}、on は表面に{{接している}}ことを表す。"
+    - "2つの間は {{between}}、3つ以上の集まりの中は {{among}}。"
+    - "平らな所を横切るのは {{across}}、囲まれた所を通り抜けるのは {{through}}、細長いものに沿うのは {{along}}。"
+    - "above は接していない「より高い所」、over は「真上に・{{おおって}}・越えて」。"
+  - id: s163
+    title: "手段・材料・原因などの前置詞"
+    aim: 手段を表す by／with／in、材料を表す be made of／from／into、賛成・反対の for／against、of のいろいろな意味を区別して使えるようになる。
+    body:
+    - h: 手段の by・with・in
+    - p: 「〜で」と手段を表す前置詞は、後ろの名詞で選びます。by の後ろには、bus・train・email のような交通や通信の手段を、a も the も付けずに置きます（@s133、@e1614）。with は「〜を使って」と、手に持って使う道具を表し、a knife・this pen のように a・the・my などを付けた名詞を置きます（@e1615）。in は、in English（英語で）・in pencil（鉛筆で）・in cash（現金で）のように、言語や書く物、支払いの形を表します。
+      notes:
+      - kind: 注意
+        text: 乗り物に my・a・the が付くと by は使えない。by car とは言えるが by my car とはせず、in my car・on the 7:30 bus とする（@s133）。
+      - kind: 注意
+        text: 鉛筆で書くことは、write in pencil とも write with a pencil とも言う。in のときは a を付けない。
+    - ex: [e1614, e1615]
+    - p: by の後ろに動名詞を置くと、「〜することによって」と方法を表します（@e1616）。前置詞の後ろなので、動詞は -ing 形にします。
+    - ex: [e1616]
+    - h: be made of・from・into
+    - p: 単元5で学んだように（@s053）、「〜でできている」は、材料を見て分かるかどうかで of と from を使い分けます。箸や机のように見て材料が分かるときは be made of（@e1617）、豆腐やチーズのように原料の形が変わって見ても分からないときは be made from を使います（@e1618）。反対に、原料を主語にして「〜に作り変えられる」と言うときは、be made into を使い、Milk is made into butter.（牛乳はバターになる）のように言います。
+      notes:
+      - kind: 注意
+        text: 実際の英語では of と from の区別がゆるく、made from wood と言うこともある。入試では「見て材料が分かれば of、分からなければ from」で選ぶ。made in Japan の in は材料ではなく、作られた場所を表す。
+    - ex: [e1617, e1618]
+    - h: 賛成の for、反対の against
+    - p: for には「〜に賛成して」、against には「〜に反対して」という意味があります。be 動詞の後ろに置いて、Are you for or against the plan?（その案に賛成ですか、反対ですか）のように使います（@e1619）。
+    - ex: [e1619]
+    - h: of のいろいろな意味
+    - p: of は「〜の」と訳すことが多い前置詞ですが、表す関係はいくつかあります。全体の中の部分、分量、「〜という」、原因などです。また、of＋抽象名詞（形のない物事を表す名詞）は形容詞と同じ働きをし、of use は useful（役に立つ）、of importance は important（大切な）と同じ意味になります。
+    - table:
+        head: [表すこと, 例, 意味]
+        rows:
+        - [部分, one of my friends, "友だち{{の1人}}"]
+        - [分量, a cup of tea, "{{1杯}}の紅茶"]
+        - [「〜という」, the city of Kyoto, "京都{{という}}市（京都市）"]
+        - [原因, die of a disease, 病気{{で}}死ぬ]
+        - [of＋抽象名詞＝形容詞, This book is of great use., "この本はとても{{役に立つ}}。"]
+      notes:
+      - kind: 注意
+        text: die of と die from は、実際の英語ではどちらも病気やけがについて使われる。この2つの区別を問う問題はほとんど出ない。
+    - check:
+      - q: "Please write your name (＿) this pen.（by／with）"
+        a: with（道具）
+      - q: "This bag is made (＿) leather.（of／from）"
+        a: of（見て材料が分かる）
+      - q: 「その案に賛成です」は I'm (＿) the plan.
+        a: for
+    examples:
+    - id: e1614
+      en: Our class went to the museum *by* bus.
+      ja: 私たちのクラスはバスで博物館へ行った。
+    - id: e1615
+      en: My grandmother cut the cake *with* a big knife.
+      ja: 祖母は大きなナイフでケーキを切った。
+    - id: e1616
+      en: You can improve your English *by* reading English news every day.
+      ja: 毎日英語のニュースを読むことで、英語の力を伸ばせる。
+    - id: e1617
+      en: These chopsticks are made *of* bamboo.
+      ja: この箸は竹でできている。
+      gloss:
+      - [chopsticks, 箸]
+      - [bamboo, 竹]
+    - id: e1618
+      en: Tofu is made *from* soybeans.
+      ja: 豆腐は大豆から作られる。
+      gloss:
+      - [soybean, 大豆]
+    - id: e1619
+      en: Most of the students were *for* the new plan, but a few were *against* it.
+      ja: ほとんどの生徒は新しい案に賛成だったが、数人は反対だった。
+    worked:
+    - q: （　）に入る最も適切なものを1つ選びなさい。<br>Please cut the paper (＿) these scissors.
+      choices: [by, with, in, of]
+      steps:
+      - 空所の後ろの名詞を見る。these scissors（このはさみ）は、手に持って使う道具。
+      - 道具を表して「〜を使って」と言うのは with。
+      - by は bus・email のような手段を a や the を付けずに置く形で、these の付いた名詞の前には置かない。in・of は道具を表さない。
+      ans: "2"
+      point: 道具は with＋a・the・these などの付いた名詞。交通・通信の手段は by＋何も付けない名詞。
+    - q: （　）に入る最も適切なものを1つ選びなさい。<br>Butter is made (＿) milk.
+      choices: [of, from, into, by]
+      steps:
+      - be made の後ろの前置詞で、材料・原料のどちらの話かを考える。主語は butter（バター）、空所の後ろは milk（牛乳）で、牛乳が原料。
+      - into は「〜に作り変えられる」で、原料を主語にするときに使う（Milk is made into butter.）。主語がバターなので合わない。by は作った人を表す。
+      - バターを見ても、牛乳の形は残っていない。原料の形が変わるときは from を使う。
+      ans: "2"
+      point: 見て材料が分かれば be made of、原料の形が変わっていれば be made from、原料が主語なら be made into。
+    summary:
+    - "交通・通信の手段は by＋{{何も付けない名詞}}（by bus）、道具は {{with}} a knife、言語は {{in}} English。"
+    - "by＋{{動名詞}}は「〜することによって」を表す。"
+    - "見て材料が分かれば be made {{of}}、原料の形が変わっていれば be made {{from}}、原料が主語なら be made {{into}}。"
+    - "for は「〜に{{賛成}}して」、against は「〜に{{反対}}して」。of＋抽象名詞は形容詞の働き（of use＝{{useful}}）。"
+  - id: s164
+    title: "群前置詞と、前置詞か接続詞か"
+    aim: because of・instead of・according to・in spite of などの群前置詞を意味で使い分け、後ろが名詞か S＋V かで前置詞と接続詞を選び分けられるようになる。
+    body:
+    - h: 2語以上で1つの前置詞になるもの
+    - p: because of のように、2語以上のかたまりで1つの前置詞の働きをするものを<<群前置詞>>といいます。単元5で学んだ群動詞（@s053）と同じく、かたまり全体を1つの語として考えます。後ろには、ふつうの前置詞と同じく名詞か動名詞を置きます（@e1620、@e1621、@e1622）。
+      notes:
+      - kind: 用語
+        term: 群前置詞
+        yomi: ぐんぜんちし
+        text: 2語以上のかたまりで1つの前置詞の働きをするもの。because of・instead of・according to・in spite of など。後ろには名詞か動名詞を置く。
+    - table:
+        head: [群前置詞, 意味, 例]
+        rows:
+        - [because of, 〜のせいで・〜が理由で, because of the rain]
+        - [instead of, "〜の{{代わりに}}・〜しないで", instead of coffee／instead of going out]
+        - [according to, "（情報のもと）{{によれば}}", according to the news]
+        - [in spite of, "〜{{にもかかわらず}}（＝despite）", in spite of the rain]
+        - [thanks to, 〜のおかげで, thanks to your help]
+        - [in front of, 〜の前に（場所）, in front of the station]
+      notes:
+      - kind: 注意
+        text: despite は1語で前置詞なので、despite of とはしない。in spite of と混ぜないこと。
+      - kind: 注意
+        text: according to の後ろには、the news・the weather forecast のような情報のもとを置く。自分の意見を言うときは according to me ではなく in my opinion を使う。
+    - ex: [e1620, e1621, e1622]
+    - h: 前置詞か接続詞か（単元9の復習）
+    - p: 同じ意味を、前置詞でも接続詞でも表せる組があります。because of と because、in spite of（despite）と though、during と while です。見分け方は単元9（@s094）と同じで、後ろが名詞（句）なら前置詞、S＋V のある文なら接続詞を選びます。@e1623 では because の後ろに it was raining（S＋V）があるので接続詞、@e1624 では because of の後ろに the rain（名詞）だけがあるので群前置詞です。
+    - ex: [e1623, e1624]
+    - label: 前置詞か接続詞か
+      steps:
+      - 空所の後ろを見て、S＋V のある文か、名詞（句）だけかを確かめる。
+      - S＋V があれば接続詞、名詞（句）だけなら前置詞（群前置詞をふくむ）を選ぶ。
+      - 残った候補から、理由・譲歩・時など、意味が合うものを選ぶ。
+    - p: before・after・until・since は、前置詞としても接続詞としても使えます。after lunch（前置詞）と after I had lunch（接続詞）のように、後ろの形が違うだけで意味は同じです。なお、while staying in Kyoto のように接続詞の後ろに -ing 形が続く形は、S と be 動詞が省略された形で、単元18で学びます。
+    - check:
+      - q: "(＿) the rain, we enjoyed the trip.（Although／Despite）"
+        a: Despite（後ろが名詞）
+      - q: "Mina stayed home (＿) she had a cold.（because／because of）"
+        a: because（後ろが S＋V）
+    examples:
+    - id: e1620
+      en: I drank green tea *instead of* coffee this morning.
+      ja: 今朝はコーヒーの代わりに緑茶を飲んだ。
+    - id: e1621
+      en: "*According to* the news, a new bridge will be built over this river."
+      ja: ニュースによると、この川に新しい橋がかけられるそうだ。
+    - id: e1622
+      en: Ryo finished the race *in spite of* his bad cold.
+      ja: リョウはひどいかぜをひいていたにもかかわらず、レースを最後まで走った。
+    - id: e1623
+      en: "[*Because* it was raining], we played cards at home."
+      ja: 雨が降っていたので、私たちは家でトランプをした。
+    - id: e1624
+      en: "*Because of* the rain, we played cards at home."
+      ja: 雨のせいで、私たちは家でトランプをした。
+    worked:
+    - q: （　）に入る最も適切なものを1つ選びなさい。<br>Let's go to the park by bike (＿) taking the bus today.
+      choices: [because of, instead of, according to, in spite of]
+      steps:
+      - 空所の後ろは taking the bus で、動名詞のかたまり。4つとも群前置詞なので、どれも形の上では置ける。
+      - 意味を比べる。「今日はバスに乗る代わりに、自転車で公園へ行こう」となる instead of が合う。
+      - because of（バスに乗るせいで）、according to（バスに乗ることによれば）、in spite of（バスに乗るにもかかわらず）は、どれも意味が通らない。
+      ans: "2"
+      point: instead of は「〜の代わりに・〜しないで」。後ろに動詞を置くときは動名詞にする。
+    - q: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。<br>My father __was__① very busy __during__② he stayed in Fukuoka, so he could not __visit__③ the famous shrine __there__④.
+      steps:
+      - 前置詞や接続詞の下線部では、後ろの形を見る。②during の後ろは he stayed in Fukuoka で、S＋V のある文。
+      - during は前置詞なので、後ろに S＋V は置けない。「〜の間」を表す接続詞 while にして、while he stayed in Fukuoka とする。
+      - ほかも確かめる。①was は S の My father に合う形、③visit は could not の後ろの原形、④there は「そこで」を表す副詞で、どれも正しい。
+      ans: ②（during → while）
+      point: 後ろが S＋V なら接続詞（while・because・though）、名詞なら前置詞（during・because of・despite）。
+    summary:
+    - "because of・instead of のように、2語以上で1つの前置詞の働きをするものを{{群前置詞}}という。"
+    - "instead of は「〜の{{代わりに}}」、according to は「〜{{によれば}}」。後ろに動詞を置くときは{{動名詞}}にする。"
+    - "despite は1語の前置詞なので、despite {{of}} とはしない。"
+    - "後ろが名詞（句）なら{{前置詞}}、S＋V なら{{接続詞}}。during と {{while}}、because of と because。"
+problems:
+# ---- 前提チェック ----
+- id: q16001
+  sec: s161
+  set: 前提
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Can you come to the movies with (＿) tomorrow?
+  choices: [we, our, us, ours]
+  ans: "3"
+  why: 前置詞 with の後ろなので、代名詞は目的格の us を使う。
+  trap: ①we を選ぶ誤り。日本語の「私たちと」につられやすいが、we は S の位置で使う形で、前置詞の後ろには置かない。
+- id: q16002
+  sec: s161
+  set: 前提
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Thank you for (＿) me with my homework.
+  choices: [help, helping, to help, helped]
+  ans: "2"
+  why: 前置詞 for の後ろに動詞を置くときは、動名詞にする。Thank you for helping me で「手伝ってくれてありがとう」。
+  trap: ③to help を選ぶ誤り。for の後ろは前置詞の後ろなので、不定詞ではなく動名詞を置く。
+- id: q16003
+  sec: s161
+  set: 前提
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: I usually leave home (＿) seven thirty.
+  choices: [at, on, in, for]
+  ans: "1"
+  why: seven thirty（7時30分）は時刻。時刻の前には at を置く。
+  trap: ③in を選ぶ誤り。in は in the morning・in July のように幅のある期間に使い、時刻には使わない。
+# ---- s161 節末 ----
+- id: q16004
+  sec: s161
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: My grandfather usually takes a walk (＿) the morning.
+  choices: [at, on, in, for]
+  ans: "3"
+  why: 曜日や日付の付かない「朝に」は in the morning。
+  trap: ②on を選ぶ誤り。on を使うのは on Sunday morning のように特定の日の朝を言うときで、ただの「朝に」は in the morning。
+- id: q16005
+  sec: s161
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 日本語の意味になるように、（　）に d で始まる適切な語を1語入れなさい。
+  q: 冬休みの間に、私は本を10冊読んだ。<br>I read ten books (＿) the winter vacation.
+  ans: during
+  why: the winter vacation は特定の期間を表す名詞。その期間の「間に」を表す前置詞は during。
+  trap: for を考える誤り。for は for two weeks のように数で表す長さの前に置き、the winter vacation のような期間の名前の前には置かない。
+- id: q16006
+  sec: s161
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: I waited for Rina at the station (＿) six, but she didn't come.
+  choices: [by, until, in, for]
+  ans: "2"
+  why: wait（待つ）は続く動作。「6時までずっと待った」を表すのは until。
+  trap: ①by を選ぶ誤り。by は「〜までには」と期限を表し、finish・return のような1回で終わる動作と使う。待つことのように続く動作には until を使う。
+- id: q16007
+  sec: s161
+  set: 節末
+  lv: 1
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 1週間以内にこの本を返してください。<br>Please ( a / book / return / this / week / within ).
+  words: [a, book, return, this, week, within]
+  ans: Please return this book within a week.
+  why: Please の後ろに動詞の原形 return、O の this book を続け、最後に「1週間以内に」を表す within a week を置く。
+  trap: within を in と同じ「〜後に」の意味と考え、意味を取り違える誤り。within a week は「1週間以内に」、in a week は「1週間後に」。
+- id: q16008
+  sec: s161
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: I was so sleepy that I fell asleep twice (＿) the long meeting yesterday.
+  choices: [for, during, while, by]
+  ans: "2"
+  why: the long meeting は特定の期間を表す名詞。「会議の間に（2度）」と、その期間のある時を表すのは前置詞の during。
+  trap: ③while を選ぶ誤り。while は接続詞で、後ろに S＋V を置く。後ろが名詞だけなら前置詞の during を使う。
+- id: q16009
+  sec: s161
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: My cousin arrived __at__① the airport __on__② the morning of July 3 and stayed with us __during__③ two weeks __in__④ the summer.
+  ans: "3"
+  why: two weeks は数で表す長さなので、during ではなく for を使い、for two weeks とする。①at the airport は地点、②on the morning of July 3 は特定の日の朝、④in the summer は季節で、どれも正しい。
+  trap: ②on を誤りと考える誤り。ただの「朝に」は in the morning だが、日付が付いて特定の日の朝になると on を使う。
+- id: q16010
+  sec: s161
+  set: 節末
+  lv: 2
+  kind: 和訳
+  min: 3
+  inst: 次の英文を日本語に訳しなさい。
+  q: The new library in our town will open in two months.
+  ans: 私たちの町の新しい図書館は、2か月後に開館する。
+  alt: [町の新しい図書館は、2か月したらオープンする。, 私たちの町にできる新しい図書館は、2か月後に開く。]
+  why: in our town は library を説明する形容詞の働き。in two months は未来の文で「今から2か月後に」を表す。この2点が訳に出ていれば正解。
+  trap: in two months を「2か月以内に」と訳す誤り。「〜以内に」は within で表す。
+# ---- s162 節末 ----
+- id: q16011
+  sec: s162
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: There is a big map of Japan (＿) the wall of our classroom.
+  choices: [on, in, at, between]
+  ans: "1"
+  why: 地図は壁の表面に接して付いているので on を使う。on は机の上だけでなく、壁や天井に付いているものにも使う。
+  trap: ②in を選ぶ誤り。日本語の「壁に」から位置を考えずに選ぶと迷う。in は空間の中を表し、壁の表面に付いているものには on を使う。
+- id: q16012
+  sec: s162
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 日本語の意味になるように、（　）に適切な語を1語入れなさい。
+  q: その郵便局は銀行と書店の間にある。<br>The post office is (＿) the bank and the bookstore.
+  ans: between
+  why: 「A と B の間に」と2つの間を表すのは between A and B。
+  trap: among を書く誤り。among は3つ以上の集まりの中に使う。and で2つを結んでいるので between。
+- id: q16013
+  sec: s162
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: 日本語の意味になるように、（　）に入る最も適切なものを1つ選びなさい。
+  q: 川沿いに桜の木がたくさん並んでいる。<br>There are many cherry trees (＿) the river.
+  choices: [along, across, through, among]
+  ans: "1"
+  why: 「川沿いに」は、細長い川に沿っていることを表すので along。
+  trap: ②across を選ぶ誤り。across は「横切って・向こう側に」で、across the river なら「川の向こう岸に」になり、「川沿いに」にはならない。
+- id: q16014
+  sec: s162
+  set: 節末
+  lv: 1
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: その古い家は、高い木々の中に建っている。<br>The old house ( among / stands / tall / the / trees ).
+  words: [among, stands, tall, the, trees]
+  ans: The old house stands among the tall trees.
+  why: S の The old house の後ろに V の stands を置き、「高い木々の中に」を表す among the tall trees を続ける。たくさんの木の集まりの中なので among。
+  trap: The old house among the tall trees stands のように、among のかたまりを house の後ろに置いて V を最後にする誤り。この順でも house を説明する形は作れるが、日本語は「建っている」場所を言う文なので、V の後ろに置く。
+- id: q16015
+  sec: s162
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: 日本語の意味になるように、（　）に入る最も適切なものを1つ選びなさい。
+  q: そのネコは塀を飛び越えて逃げていった。<br>The cat jumped (＿) the fence and ran away.
+  choices: [over, above, on, through]
+  ans: "1"
+  why: 「飛び越えて」は、塀の上を越えて向こう側へ動くことなので over を使う。
+  trap: ②above を選ぶ誤り。above は「〜より高い所に」という位置を表し、「越えて向こうへ動く」意味はない。越える動きには over を使う。
+- id: q16016
+  sec: s162
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: My sister is popular __between__① her classmates, and she always sits __between__② Saki and Nana __in__③ the classroom __at__④ lunchtime.
+  ans: "1"
+  why: her classmates はクラスの仲間の集まりなので、「〜の間で人気がある」は among を使い、popular among her classmates とする。②は Saki と Nana の2人の間なので between で正しい。③in the classroom は空間の中、④at lunchtime は時の点で、どちらも正しい。
+  trap: ②between を誤りと考える誤り。2人の間に座るので between が正しい。同じ between でも、後ろが2つか、集まりかで正誤が分かれる。
+- id: q16017
+  sec: s162
+  set: 節末
+  lv: 2
+  kind: 和訳
+  min: 3
+  inst: 次の英文を日本語に訳しなさい。
+  q: There is an old stone bridge over the river near my school.
+  ans: 学校の近くの川に、古い石の橋がかかっている。
+  alt: [私の学校の近くの川の上に、古い石の橋がある。, 学校のそばを流れる川には、古い石橋がかかっている。]
+  why: over the river は「川の上をまたいで」を表し、bridge を説明する。near my school は river を説明する。「川にかかっている」「川の上にある」のどちらでも、橋が川をまたいでいる意味が出ていれば正解。
+  trap: over を「〜を越えて向こうへ」と動きで訳し、「川を越えて古い石の橋がある」とする誤り。ここでは橋の位置を表し、川の上にまたがっていることを言う。
+# ---- s163 節末 ----
+- id: q16018
+  sec: s163
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: My grandparents usually travel (＿) train.
+  choices: [by, with, in, on]
+  ans: "1"
+  why: 交通の手段は by＋何も付けない名詞で表す。by train で「電車で」。
+  trap: ④on を選ぶ誤り。on を使うなら on the train のように the が要る。train に何も付いていないので by を使う。
+- id: q16019
+  sec: s163
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 日本語の意味になるように、（　）に適切な語を1語入れなさい。
+  q: この机は木でできている。<br>This desk is made (＿) wood.
+  ans: of
+  why: 机を見れば木でできていることが分かる。見て材料が分かるときは be made of を使う。
+  trap: from を書く誤り。from は豆腐やチーズのように原料の形が変わって見えないときに使う。机は木のままなので of。
+- id: q16020
+  sec: s163
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Are you (＿) or against the plan to change our school uniform?
+  choices: [for, to, of, at]
+  ans: "1"
+  why: against（〜に反対して）と or で並んでいるので、反対の意味の「〜に賛成して」を表す for が入る。
+  trap: ②to を選ぶ誤り。「〜に」という日本語につられやすいが、to には「賛成して」の意味はない。賛成は for で表す。
+- id: q16021
+  sec: s163
+  set: 節末
+  lv: 1
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 祖母が私に紅茶を1杯いれてくれた。<br>My grandmother ( a / cup / made / me / of / tea ).
+  words: [a, cup, made, me, of, tea]
+  ans: My grandmother made me a cup of tea.
+  why: make O₁ O₂ で「O₁ に O₂ を作る」。O₂ の「1杯の紅茶」は分量を表す of を使って a cup of tea とする。
+  trap: made me tea of a cup のように、of の前後を逆にする誤り。「1杯の紅茶」は a cup of tea の順で、分量を先に言う。
+- id: q16022
+  sec: s163
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: In this area, milk from local farms is made (＿) cheese.
+  choices: [of, from, into, by]
+  ans: "3"
+  why: 主語は milk（牛乳）で、原料。原料を主語にして「〜に作り変えられる」と言うときは be made into を使う。「牛乳はチーズになる」。
+  trap: ②from を選ぶ誤り。「原料の形が変わるなら from」と覚えていると選びやすいが、from は Cheese is made from milk. のように作られた物を主語にするときの形。原料が主語なら into。
+- id: q16023
+  sec: s163
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: My uncle went __to__① Osaka __by__② his own car and stayed __at__③ a hotel near the station __for__④ two nights.
+  ans: "2"
+  why: 乗り物に his own が付いているので by は使えない。in his own car とする。①to Osaka は行き先、③at a hotel は地点、④for two nights は数で表す長さで、どれも正しい。
+  trap: ②by を正しいと考える誤り。by car は言えるが、by は a・the・his などの付かない名詞の前に置く。持ち主の付いた車には in を使う。
+- id: q16024
+  sec: s163
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: You can save a lot of money (＿) cooking your own meals.
+  choices: [by, with, for, of]
+  ans: "1"
+  why: 空所の後ろは cooking your own meals（自分で食事を作ること）という動名詞のかたまり。「〜することによって」と方法を表すのは by＋動名詞。
+  trap: ②with を選ぶ誤り。日本語の「〜で節約できる」の「で」から道具の with を考えやすいが、with は手に持つ道具に使う。することによる方法は by doing。
+# ---- s164 節末 ----
+- id: q16025
+  sec: s164
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Our flight was delayed for two hours (＿) the thick fog.
+  choices: [because, because of, though, while]
+  ans: "2"
+  why: 空所の後ろは the thick fog（濃い霧）という名詞だけで、S＋V がない。名詞の前に置いて理由を表すのは群前置詞の because of。
+  trap: ①because を選ぶ誤り。意味は合うが、because は接続詞で後ろに S＋V を置く。名詞の前には because of を使う。
+- id: q16026
+  sec: s164
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 日本語の意味になるように、（　）に適切な語を1語入れなさい。
+  q: 天気予報によると、明日は晴れるそうだ。<br>(＿) to the weather forecast, it will be sunny tomorrow.
+  ans: According
+  why: 「〜によると」と情報のもとを示すのは according to。文の頭なので A を大文字にする。
+  trap: By を考える誤り。日本語の「〜によると」の「よる」から by を考えやすいが、情報のもとを示すのは according to。
+- id: q16027
+  sec: s164
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Ren stayed home and read a book (＿) going out with his friends.
+  choices: [instead of, because of, according to, thanks to]
+  ans: "1"
+  why: 「友だちと出かける代わりに（出かけないで）、家で本を読んだ」となる instead of が合う。
+  trap: ②because of を選ぶ誤り。because of を入れると「友だちと出かけるせいで家にいた」となり、出かけていないのに出かけたことになって意味が通らない。
+- id: q16028
+  sec: s164
+  set: 節末
+  lv: 1
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。ただし、文の頭に来る語も小文字にしてある。
+  q: 雨にもかかわらず、たくさんの人が祭りに来た。<br>( in / of / rain / spite / the ), many people came to the festival.
+  words: [in, of, rain, spite, the]
+  ans: In spite of the rain, many people came to the festival.
+  why: 「〜にもかかわらず」は群前置詞の in spite of。3語でひとかたまりにして、後ろに名詞の the rain を置く。
+  trap: In spite the rain of … のように of を離す誤り。in spite of は3語で1つの前置詞なので、間に語を入れない。
+- id: q16029
+  sec: s164
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: (＿) Yuna was very tired, she helped her little brother with his homework.
+  choices: [Despite, Although, Because of, During]
+  ans: "2"
+  why: 空所の後ろは Yuna was very tired で、S＋V がある。接続詞が入るので Although。「とても疲れていたけれども、弟の宿題を手伝った」と意味も合う。
+  trap: ①Despite を選ぶ誤り。「〜にもかかわらず」の意味は合うが、despite は前置詞なので、後ろに S＋V は置けない。
+- id: q16030
+  sec: s164
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: The players __kept__① practicing __on__② the field __for__③ two more hours __despite of__④ the rain.
+  ans: "4"
+  why: despite は1語で前置詞なので、of を付けない。despite the rain か in spite of the rain とする。①kept practicing は「練習し続けた」、②on the field は表面の上、③for two more hours は数で表す長さで、どれも正しい。
+  trap: despite of を正しいと思う誤り。同じ意味の in spite of と混ざりやすい。despite のときは of を付けない。
+- id: q16031
+  sec: s164
+  set: 節末
+  lv: 2
+  kind: 英作
+  min: 3
+  inst: instead of を使って、日本語の意味を表す英文を書きなさい。
+  q: 私たちはバスに乗る代わりに、駅まで歩いた。
+  ans: We walked to the station instead of taking a bus.
+  alt: [We walked to the station instead of taking the bus., Instead of taking a bus, we walked to the station., Instead of taking the bus, we walked to the station., We walked to the station instead of going by bus., We walked to the station instead of riding a bus.]
+  why: 「〜する代わりに」は instead of＋動名詞。「バスに乗る」は take a bus・go by bus など。instead of の後ろが動名詞になっていて、「駅まで歩いた」が walked to the station で表せていれば正解。
+  trap: instead of take a bus と、動詞の原形を続ける誤り。instead of は前置詞のかたまりなので、後ろの動詞は -ing 形にする。
+# ---- 確認テスト ----
+- id: q16032
+  sec: s161
+  set: 確認テスト
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: We have a math test (＿) Monday morning.
+  choices: [at, on, in, for]
+  ans: "2"
+  why: morning でも、Monday が付いて特定の日の朝になると on を使う。on Monday morning。
+  trap: ③in を選ぶ誤り。in the morning につられやすいが、曜日が付いた朝は on。
+- id: q16033
+  sec: s161
+  set: 確認テスト
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 日本語の意味になるように、（　）に適切な語を1語入れなさい。
+  q: このレポートは金曜日までに出してください。<br>Please hand in this report (＿) Friday.
+  ans: by
+  why: 「出す」は1回で終わる動作で、「金曜日までには」と期限を表すので by。
+  trap: until を書く誤り。until は「〜までずっと」で、続く動作に使う。提出のような1回の動作の期限には by を使う。
+- id: q16034
+  sec: s162
+  set: 確認テスト
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: 日本語の意味になるように、（　）に入る最も適切なものを1つ選びなさい。
+  q: そのネコは2台の車の間に隠れていた。<br>The cat was hiding (＿) two cars.
+  choices: [between, among, across, along]
+  ans: "1"
+  why: 2台の車の「間に」なので、2つの間を表す between。
+  trap: ②among を選ぶ誤り。among は3つ以上の集まりの中に使う。2つなら between。
+- id: q16035
+  sec: s162
+  set: 確認テスト
+  lv: 1
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 私たちは長いトンネルを通り抜けて隣の町へ行った。<br>We went ( a / long / through / tunnel / to ) the next town.
+  words: [a, long, through, tunnel, to]
+  ans: We went through a long tunnel to the next town.
+  why: 「トンネルを通り抜けて」は through a long tunnel。行き先の to は、後ろの the next town とつなげるので最後に置く。
+  trap: We went across a long tunnel … のように考える誤り。across は平らな所を横切るときに使い、周りを囲まれたトンネルには through を使う。
+- id: q16036
+  sec: s163
+  set: 確認テスト
+  lv: 2
+  kind: 補充
+  min: 1
+  inst: 日本語の意味になるように、（　）に適切な語を1語入れなさい。
+  q: このチーズはヤギの乳から作られている。<br>This cheese is made (＿) goat's milk.
+  ans: from
+  why: チーズを見ても、乳の形は残っていない。原料の形が変わるときは be made from。
+  trap: of を書く誤り。of は見て材料が分かるときに使う。チーズと乳のように形が変わるなら from。
+- id: q16037
+  sec: s163
+  set: 確認テスト
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: Yesterday I went __to__① the library __by__② bike and wrote my report there __by__③ my new pen __for__④ three hours.
+  ans: "3"
+  why: my new pen は手に持って使う道具なので、with my new pen とする。②by bike は何も付かない名詞で交通の手段を表すので正しい。①to the library は行き先、④for three hours は数で表す長さで正しい。
+  trap: ②by を誤りと考える誤り。bike に何も付いていないので、手段を表す by bike は正しい。by が使えないのは、my などの付いた③のほう。
+- id: q16038
+  sec: s164
+  set: 確認テスト
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: (＿) the long flight, I watched three movies.
+  choices: [While, During, Because, Although]
+  ans: "2"
+  why: 空所の後ろは the long flight という名詞だけで、S＋V がない。名詞の前に置いて「〜の間に」を表す前置詞の During が入る。
+  trap: ①While を選ぶ誤り。「〜の間」の意味は合うが、while は接続詞で後ろに S＋V を置く。名詞の前には during を使う。
+- id: q16039
+  sec: s164
+  set: 確認テスト
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: __Because__① the heavy traffic, we __arrived__② at the stadium __thirty minutes__③ late and __missed__④ the first goal.
+  ans: "1"
+  why: the heavy traffic は名詞だけで、S＋V がない。名詞の前で理由を表すのは群前置詞の Because of。②arrived at は「〜に着いた」、③thirty minutes late は「30分遅れて」、④missed は「見のがした」で、どれも正しい。
+  trap: ③thirty minutes を誤りと考える誤り。数で表す時間の長さは、late の前に置いて「どれだけ遅れたか」を表せる。誤りは、名詞の前に接続詞の because を置いた①。
+- id: q16040
+  sec: s154
+  set: 確認テスト
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: I was so tired last night that I could (＿) walk.
+  choices: [hard, hardly, harder, hardest]
+  ans: "2"
+  why: 「とても疲れていたので、ほとんど歩けなかった」となる hardly（ほとんど〜ない）が入る。
+  trap: ①hard を選ぶ誤り。hard は副詞なら「一生懸命に・激しく」で、hardly とは意味が違う。could hard walk という語順にもならない。
+- id: q16041
+  sec: s053
+  set: 確認テスト
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: その子犬は近所の人たちに世話をしてもらった。<br>The puppy ( by / care / of / taken / was ) the neighbors.
+  words: [by, care, of, taken, was]
+  ans: The puppy was taken care of by the neighbors.
+  why: take care of（〜の世話をする）は群動詞なので、受動態でも was taken care of とかたまりを保ち、その後ろに by the neighbors を置く。
+  trap: was taken care by of … のように of を落としたり離したりする誤り。群動詞の受動態では、前置詞の of を動詞の後ろに残し、by が後ろに続いて of by と並ぶ。

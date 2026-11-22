@@ -10,7 +10,7 @@ chapters:
     aim: 主節が過去のとき、that の節の動詞を過去形・過去完了・would などにずらし、ずらさない例外（変わらない事実・今も続くこと・歴史上の事実）を見分けられるようになる。
     body:
     - h: 主節が過去なら、従属節の動詞も過去へ
-    - p: 日本語では「ミオは正しいと思う」を過去の話にすると「ミオは正しいと思った」になり、変わるのは「思う」だけです。英語では、I think that Mio is right. を過去の話にすると、think が thought になるだけでなく、that の節の is も was にずらします（@e1901）。このように、主節の動詞が過去形のとき、従属節の動詞もそれに合わせてずらすことを<<時制の一致>>といいます。
+    - p: 日本語では「ミオは正しいと思う」を過去の話にすると「ミオは正しいと思った」になり、変わるのは「思う」だけです。英語では、I think that Mio is right. を過去の話にすると、think が thought になるだけでなく、that の節の is も was にずらします（@e1901）。主節の動詞が過去形のとき、従属節の動詞もそれに合わせてずらすことを<<時制の一致>>といいます。
       notes:
       - kind: 用語
         term: 時制の一致
@@ -631,10 +631,10 @@ problems:
   kind: 正誤
   min: 1
   inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
-  q: Yesterday Ryo __told__① that he __had__② never __been__③ to Okinawa and __wanted__④ to go there someday.
-  ans: "1"
-  why: told の後ろに相手（人）がないので、said にする（said that ～）。②③は今までの経験を言った時に合わせた過去完了、④は時制の一致による過去形で、どれも正しい。
-  trap: ②had を誤りと考える誤り。元のことばは I have never been to Okinawa で、主節が過去なので had been にずらすのが正しい。
+  q: When I __met__① Ryo yesterday, he __looked__② very happy. He __told__③ that he __would__④ visit Okinawa for the first time next month.
+  ans: "3"
+  why: told の後ろに相手（人）がないので、said にする（said that ～）。told を使うなら told me that ～ と相手が要る。①②は昨日のことを表す過去形、④は言った時より後のことなので will を would にずらした形で、どれも正しい。
+  trap: ④would を誤りと考える誤り。next month があるので will にしたくなるが、主節が過去なので would にずらすのが基本。
 - id: q19033
   sec: s193
   set: 確認テスト
@@ -666,10 +666,10 @@ problems:
   kind: 正誤
   min: 1
   inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
-  q: Lucas __suggested us to take__① a taxi because it __was raining__② hard and the station __was__③ far __from__④ the hotel.
-  ans: "1"
-  why: suggest は O の後ろに to do を置かない。suggested that we take a taxi（または suggested taking a taxi）とする。②③は過去の様子を表す過去形、④は far from ～（〜から遠い）で、どれも正しい。
-  trap: ①を正しいと考える誤り。tell 人 to do・ask 人 to do と同じ形にしたくなるが、Let's ～ を伝える suggest は that の節を使う。
+  q: Because it __was raining__① hard and the station __was__② far __from__③ the hotel, Lucas __suggested us to take__④ a taxi.
+  ans: "4"
+  why: suggest は O の後ろに to do を置かない。suggested that we take a taxi（または suggested taking a taxi）とする。①②は過去の様子を表す過去形、③は far from ～（〜から遠い）で、どれも正しい。
+  trap: ④を正しいと考える誤り。tell 人 to do・ask 人 to do と同じ形にしたくなるが、Let's ～ を伝える suggest は that の節を使う。
 - id: q19036
   sec: s182
   set: 確認テスト
