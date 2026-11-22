@@ -120,9 +120,9 @@ chapters:
     - table:
         head: [動詞, 形, 例]
         rows:
-        - [say, "say {{(that) ～}}／say to 人 (that) ～", "He said (that) he was busy."]
+        - [say, "say (that) ～／say {{to}} 人 (that) ～", "He said (that) he was busy."]
         - [tell, "tell {{人}} (that) ～", "He told me (that) he was busy."]
-        - [誤り, "say 人 that ～／tell that ～", "He {{said me}} that ～（×）"]
+        - [誤り, "say 人 that ～／tell that ～", "He said me that ～（×）"]
     - h: 時や場所を表す語も、伝える時・場所に合わせる
     - p: 言われたのと別の日や別の場所で伝えるときは、時や場所を表す語も直します。@e1909 のミカの「明日」は、伝える時にはもう「明日」ではないので、「その次の日」と言いかえます。@e1910 の here も、伝える人がその場所にいなければ there にします。you は伝える相手によって変わり、自分が言われたなら I・me、ほかの人たちなら they・them にします。
       notes:
@@ -154,7 +154,7 @@ chapters:
       en: 'Oscar said to me, "I like your bag."　→　Oscar *told me* [that he *liked my* bag].'
       ja: オスカーは私に、私のかばんがいいねと言った。
     - id: e1909
-      en: 'Mika said to me, "I will call you tomorrow."　→　Mika told me [that she *would* call *me the next day*].'
+      en: 'Mika said to me, "I will call you tomorrow."　→　Mika told me [that she *would* call *me* *the next day*].'
       ja: ミカは私に、次の日に電話すると言った。
     - id: e1910
       en: 'The guide said to us, "You can take pictures here."　→　The guide told us [that *we could* take pictures *there*].'
@@ -187,7 +187,7 @@ chapters:
     - h: 疑問文は ask と if・疑問詞で伝える
     - p: 疑問文を伝えるときは、伝える動詞を ask（たずねる）にします。Yes か No で答える疑問文は、ask 人 if（whether）～「〜かどうか」の形にします（@e1911）。疑問詞で始まる疑問文は、その疑問詞を使って ask 人 疑問詞 ～ の形にします（@e1912）。どちらも、ask の O になる名詞節です。
     - ex: [e1911, e1912]
-    - p: 節の中は、疑問文の語順ではなく S＋V の語順にします。Are you hungry? の are は I was に、Where do you live? の do は消えて I lived になります。これは単元17で学んだ間接疑問の語順と同じです（@s171）。疑問符（?）も付けません。答えの決まっていない「〜かどうか」をたずねているので、that は使いません。asked me that I was hungry は誤りです。
+    - p: 節の中は、疑問文の語順ではなく S＋V の語順にします。Are you hungry? は I was hungry の語順になり、Where do you live? は do が消えて I lived になります。これは単元17で学んだ間接疑問の語順と同じです（@s171）。疑問符（?）も付けません。答えの決まっていない「〜かどうか」をたずねているので、that は使いません。asked me that I was hungry は誤りです。
       notes:
       - kind: 参照
         text: if と whether の使い分け（S の位置や前置詞の後ろでは whether）は @s092 で学んだ。
@@ -210,12 +210,12 @@ chapters:
         - [Yes・No の疑問文, "ask (人) {{if}}（whether）S＋V"]
         - [疑問詞の疑問文, "ask (人) {{疑問詞}}＋S＋V"]
         - [命令文, "tell 人 {{to do}}（否定は not to do）"]
-        - [依頼（Please ～・Will you ～?）, "{{ask}} 人 to do"]
+        - ["依頼（Please ～・Will you ～?）", "{{ask}} 人 to do"]
         - ["Let's ～", "{{suggest}} (to 人) that S (should) 原形"]
     - check:
       - q: '"Are you busy?" をたずねられたことを伝える：He asked me (that／if) I was busy.'
         a: if
-      - q: '"Don''t run." と言われたことを伝える：She told me (not to run／to not run).'
+      - q: '"Don''t run." と言われたことを伝える：She told me (not to run／to run not).'
         a: not to run
     examples:
     - id: e1911
@@ -387,7 +387,7 @@ problems:
   words: [a, good, he, not, said, swimmer, that, was]
   ans: Yuta said that he was not a good swimmer.
   why: Yuta said の後ろに that の節を置く。主節が said なので、節の中の be 動詞は過去形 was になり、not はその後ろに置く。「得意ではない」は not a good swimmer で表す。
-  trap: 日本語の「ではない」につられて was を is にしたくなるが、与えられた語は was で、主節 said に合わせた時制の一致の形である。
+  trap: he not was … と not を be 動詞の前に置く誤り。be 動詞の否定は was not の順にする。
 # ---- s192 節末 ----
 - id: q19012
   sec: s192
