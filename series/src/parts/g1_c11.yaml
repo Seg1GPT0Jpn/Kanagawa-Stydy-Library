@@ -41,7 +41,7 @@ chapters:
     - p: 「できるだけ〜」は as＋原級＋as possible で表します（@e1105）。possible の代わりに S can を使うこともでき、そのときは主語と時制を文に合わせます。@e1106 は過去の話なので、can ではなく could になります。
     - ex: [e1105, e1106]
     - check:
-      - q: "This box is (＿) heavy as that box.（同じくらい重い）"
+      - q: "My cat is (＿) heavy as my dog.（同じくらい重い）"
         a: as
       - q: "My uncle is (＿) as old as my cousin.（2倍の年齢）"
         a: twice
@@ -514,10 +514,10 @@ problems:
   kind: 正誤
   min: 1
   inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
-  q: Our new classroom __is__① about __three times__② as __larger__③ as __the old room__④.
+  q: This river __is__① about __four times__② as __longer__③ as __the river__④ near my house.
   ans: "3"
-  why: as ～ as の間には原級を置くので、③larger を large にする。②three times は as の前に置いた倍数で正しく、④も教室と教室を比べていてそろっている。
-  trap: ②three times を選び、three times larger than にすべきだと考える誤り。three times は as ～ as の前に置ける。誤りは as の間の比較級。
+  why: as ～ as の間には原級を置くので、③larger を large にする。②four times は as の前に置いた倍数で正しく、④も川と川を比べていてそろっている。
+  trap: ②four times を選び、four times longer than にすべきだと考える誤り。four times は as ～ as の前に置ける。誤りは as の間の比較級。
 # ---- s112 節末 ----
 - id: q11010
   sec: s112
