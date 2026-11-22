@@ -784,7 +784,7 @@ problems:
   q: This song is familiar (＿) many people in Japan.
   choices: [with, of, to, at]
   ans: "3"
-  why: 物（This song）が主語で「多くの人によく知られている」という意味。物 is familiar to 人。
+  why: 物（This song）が主語で「日本のたくさんの人によく知られている」という意味。物 is familiar to 人。
   trap: ①with を選ぶ誤り。with を使うのは人が主語で「物をよく知っている」ときで、主語と前置詞の後ろが入れかわる。
 - id: q20032
   sec: s205
