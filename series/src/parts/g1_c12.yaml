@@ -1,0 +1,839 @@
+# 単元12　仮定法（s121〜s124）。例文 e1201〜e1228、問題 q12001〜q12041
+chapters:
+- id: c12
+  title: 仮定法
+  lead: この単元では、事実とは違うことを「もし〜なら」と仮に考えて話す仮定法を学びます。仮定法では、動詞の形を1つ過去へずらして「これは事実ではない」ことを示します。単元の終わりには、今の話か過去の話かを手がかりから見分けて if 節と主節の形を選べるようになり、if を省いた文、I wish・as if の文、if のない仮定法の文も読めるようになります。
+  intro: 中学では、条件を表す if を学びました。If it rains tomorrow, I will stay home. のような文で、この if の節は副詞節なので、未来のことも現在形で表します（@s023）。中学3年で、I wish I had a dog.（犬を飼っていたらいいのに）や If I were you, I would ask him.（私があなたなら、彼に聞くだろう）のような文を習った人もいるでしょう。この単元はその続きで、過去完了の had done（@s033）と、助動詞の would・could・might、助動詞＋have done（@s043）を使います。あやふやなら、上巻の単元3・単元4を先に見直しておきます。
+  sections:
+  - id: s121
+    title: 仮定法過去と仮定法過去完了
+    aim: 起こりうることを述べる文と、事実と反対のことを仮に述べる文を区別し、今のことは仮定法過去、過去のことは仮定法過去完了で表せるようになる。
+    body:
+    - h: 同じ if でも、2種類の文がある
+    - p: 次の2つの文を比べます。@e1201 では、明日雨が降るかどうかはまだ分からず、降ることも十分ありえます。このように、事実や起こりうることをそのまま述べる動詞の形を<<直説法>>といいます。一方、@e1202 の話し手は、実際には車を持っていません。「持っていない」という事実と反対のことを、仮に考えて話しています。事実と反対のことや、ほとんどありえないことを仮に述べる動詞の形を<<仮定法>>といいます。
+      notes:
+      - kind: 用語
+        term: 直説法
+        yomi: ちょくせつほう
+        text: 事実や、起こりうることをそのまま述べる動詞の形。If it rains tomorrow, ～ の if 節は直説法で、未来のことも現在形で表す。
+      - kind: 用語
+        term: 仮定法
+        yomi: かていほう
+        text: 事実と反対のことや、ほとんどありえないことを、仮の話として述べる動詞の形。動詞を1つ過去へずらした形を使う。
+    - ex: [e1201, e1202]
+    - p: 仮定法のしるしは、動詞の形を1つ過去へずらすことです。@e1202 の had は過去形ですが、話しているのは過去のことではなく今のことです。英語では、今から離れた時を表す過去形を使って、「事実から離れた話」であることを示します。主節にも、will の過去形の would を使います。
+    - h: 仮定法過去：今の事実と反対のこと
+    - p: 今の事実と反対のことを言うときは、if 節の動詞を過去形にし、主節に would（〜するだろうに）・could（〜できるだろうに）・might（〜かもしれないのに）＋原形を置きます（@e1203・@e1204）。この形を<<仮定法過去>>といいます。名前に「過去」と付いていますが、表す時は今です。
+      notes:
+      - kind: 用語
+        term: 仮定法過去
+        yomi: かていほうかこ
+        text: If S 過去形, S would（could・might）＋原形 の形。今の事実と反対のことや、今ありえないことを仮に述べる。
+    - ex: [e1203, e1204]
+    - p: if 節の be 動詞は、主語が I や he でも were を使うのが正式な形です（@e1204）。ただし話し言葉では、If I was taller のように、I・he・she・it の後ろで was もよく使われます。入試では were を正解にする問題がほとんどなので、書くときは were にします。If I were you（私があなたなら）は助言に使う決まった言い方で、話し言葉でも were がふつうです。
+      notes:
+      - kind: 注意
+        text: if 節には would を入れない（If I would have a car は誤り）。ただし If you would wait here, ～（ここでお待ちいただけるなら）のように、相手の意志をていねいにたずねる would は if 節に入る。これは仮定法とは別の使い方。
+    - h: 仮定法過去完了：過去の事実と反対のこと
+    - p: 過去の事実と反対のことを言うときは、時をもう1つ前へずらします。if 節は過去完了の had done（@s033）、主節は would・could・might＋have done です（@e1205・@e1206）。この形を<<仮定法過去完了>>といいます。主節の have は、単元4の must have done（@s043）と同じく、助動詞の後ろなので原形のまま使います。
+      notes:
+      - kind: 用語
+        term: 仮定法過去完了
+        yomi: かていほうかこかんりょう
+        text: If S had done, S would（could・might）＋have done の形。過去の事実と反対のことを仮に述べる。
+    - ex: [e1205, e1206]
+    - table:
+        head: [形, if 節, 主節, 表す時]
+        rows:
+        - [仮定法過去, 'If S {{過去形}}', 'S would・could・might＋{{原形}}', '{{今}}の事実と反対']
+        - [仮定法過去完了, 'If S {{had done}}', 'S would・could・might＋{{have done}}', '{{過去}}の事実と反対']
+    - p: if 節と主節の順番は入れかえられます。I would have caught the bus if I had left home earlier. のように主節を先に置くときは、間にコンマを入れないのがふつうです。
+    - h: 仮定法の手順
+    - p: 仮定法の問題は、次の3つの問いを順に立てて解きます。この単元の例題は、すべてこの順で考えます。
+    - label: 手順
+      steps:
+      - 事実と反対の話か（直説法か仮定法か）。起こりうることなら直説法で、if 節は現在形（@s023）。
+      - いつの事実と反対か。今のことか、過去のことか。時を表す語句（now・yesterday・last year など）を探す。
+      - if 節と主節の形を決める。今なら「過去形／would do」、過去なら「had done／would have done」。
+    - p: たとえば If I (＿) your address, I would have sent you a card. では、主節が would have sent なので過去の話だと分かり、if 節は had known になります。if 節と主節のどちらか一方の形が分かれば、もう一方の形も決まります。
+    - check:
+      - q: If I (＿) a lot of money, I would buy a new bike.（have）
+        a: had
+      - q: If it (＿) yesterday, we would have gone on a picnic.（not rain）
+        a: hadn't rained／had not rained
+      - q: If you (＿) here now, you would love this view.（be）
+        a: were（話し言葉では was も使う）
+    examples:
+    - id: e1201
+      en: '[*If* it *rains* tomorrow], we *will have* the sports day next Monday.'
+      ja: 明日雨が降れば、運動会は来週の月曜日に行う。
+    - id: e1202
+      en: '[*If* I *had* a car], I *would drive* you to the station.'
+      ja: もし私が車を持っていれば、あなたを駅まで送っていくのに。
+    - id: e1203
+      en: '[*If* I *knew* Nanami''s phone number], I *would call* her right now.'
+      ja: もしナナミの電話番号を知っていれば、今すぐ電話するのに。
+    - id: e1204
+      en: '[*If* I *were* you], I *would take* the 7:15 train.'
+      ja: 私があなたなら、7時15分の電車に乗るだろう。
+    - id: e1205
+      en: '[*If* I *had left* home five minutes earlier], I *would have caught* the bus.'
+      ja: もし5分早く家を出ていたら、バスに間に合っただろうに。
+    - id: e1206
+      en: '[*If* Mark *hadn''t helped* me], I *couldn''t have finished* the report by Friday.'
+      ja: マークが手伝ってくれなかったら、私は金曜日までにレポートを仕上げられなかっただろう。
+    worked:
+    - q: （　）に入る最も適切なものを1つ選びなさい。<br>I don't have a smartphone. If I (＿) one, I could check the train times now.
+      choices: [have, had, would have, had had]
+      steps:
+      - 上の (4) の仮定法の手順で考える。前の文の I don't have a smartphone から、話し手は実際にはスマートフォンを持っていない。if 節は事実と反対の話なので、仮定法を使う。
+      - いつの事実と反対か。前の文は現在形で、主節に now もある。今の事実と反対なので仮定法過去。
+      - if 節は過去形にするので had を選ぶ。①have は直説法の形、③would have は if 節に would を入れた形、④had had は過去の事実と反対のときの形。
+      ans: '2'
+      point: had は過去形でも、表すのは今のこと。主節の could check と now が、今の話だという手がかりになる。
+    - q: （　）に入る最も適切なものを1つ選びなさい。<br>We lost the basketball game by one point last Sunday. If Luke had played, we (＿).
+      choices: [will win, would win, would have won, had won]
+      steps:
+      - 試合には実際に負けている。「ルークが出ていれば」は、ルークが出なかったという事実と反対の話なので、仮定法を使う。
+      - 試合は last Sunday のことで、if 節も had played になっている。過去の事実と反対なので仮定法過去完了。
+      - 主節は would＋have done にする。would have won を選ぶ。②would win は今の事実と反対のときの形、④had won は if 節の形で、主節には助動詞が要る。
+      ans: '3'
+      point: if 節が had done なら、主節はふつう would have done。if 節と主節で「いつの話か」がずれる文は、次の節（@s122）で扱う。
+    summary:
+    - 事実と反対のことを仮に述べる形が{{仮定法}}。起こりうることを述べる直説法では、if 節は現在形。
+    - '仮定法過去：If S {{過去形}}, S would＋原形。表すのは{{今}}の事実と反対のこと。'
+    - '仮定法過去完了：If S {{had done}}, S would＋{{have done}}。表すのは{{過去}}の事実と反対のこと。'
+    - if 節の be 動詞は{{were}}が正式（話し言葉では was も使う）。if 節には{{would}}を入れない。
+  - id: s122
+    title: 混ざった形と if の省略
+    aim: if 節と主節で時がずれる文の形を選び、未来のことを仮定する should・were to と、if を省いた語順（Were I ～／Had S done／Should S do）を見分けられるようになる。
+    body:
+    - h: 過去の条件と、今の結果
+    - p: 前の節（@s121）では、if 節と主節が同じ時（今と今、過去と過去）の文を見ました。しかし、「昨夜早く寝ていたら、今こんなに眠くないのに」のように、過去にしなかったことの結果が今に残っている場合があります。このときは、if 節は過去の事実と反対なので had done、主節は今の事実と反対なので would＋原形にします（@e1207・@e1208）。主節の now・today・still などが、今の話だという手がかりです。
+      notes:
+      - kind: 注意
+        text: 逆に、if 節が今も変わらない性質で、主節が過去のこと、という形もある。If he were more careful, he wouldn't have lost his wallet.（彼がもっと注意深い人なら、財布をなくさなかっただろう）。were は「今もずっと注意深くない」ことを表す。
+    - ex: [e1207, e1208]
+    - h: これからのことを仮定する should と were to
+    - p: 未来のことを「もし〜なら」と言うときは、ふつう直説法の現在形を使います（@e1201）。「起こる見込みは低いが、万一〜なら」という気持ちを出したいときは、if 節に should＋原形を使います（@e1209）。この形の主節には、would だけでなく、will や命令文も使えます。一方、were to＋原形は「仮に〜するとしたら」と、ありえないことから起こりうることまでを仮の話として持ち出すときに使い、主節は would・could などにします（@e1210）。この2つを<<仮定法未来>>と呼びます。
+      notes:
+      - kind: 用語
+        term: 仮定法未来
+        yomi: かていほうみらい
+        text: 未来のことについて、起こる見込みが低いことや仮の話を述べる形。If S should do（万一〜なら）と If S were to do（仮に〜するとしたら）がある。仮定法過去の1つとして扱う文法書もある。
+    - ex: [e1209, e1210]
+    - table:
+        head: [if 節の形, 意味, 主節の形]
+        rows:
+        - [If S should do, '{{万一}}〜なら', 'will・命令文・would など']
+        - [If S were to do, '{{仮に}}〜するとしたら', 'would・could など＋原形']
+    - h: if を省くと、語順が変わる
+    - p: 書き言葉のかたい文では、if 節の if を省くことがあります。そのときは、if 節の were・had・should を主語の前に出し、疑問文と同じ語順にします（@e1211〜@e1213）。if がなくなっても、この語順が「もし〜なら」のしるしになります。このように語順を入れかえることを倒置といい、ほかの倒置は単元18で学びます。
+    - ex: [e1211, e1212, e1213]
+    - p: 入試で問われるのは、Were・Had・Should で始まるこの3つの形です。knew や went のような一般動詞の過去形は前に出せないので、If I knew ～ を Knew I ～ とはできません。また、if を省いたら if は書きません。If had I known のように if を残すのは誤りです。否定のときは Had I not known のように not を主語の後ろに置き、Hadn't I known とは言いません。
+    - check:
+      - q: If I were rich, I would travel around the world.<br>→ (＿) (＿) rich, I would travel around the world.
+        a: Were I
+      - q: If she had studied harder, she would have passed.<br>→ (＿) (＿) (＿) harder, she would have passed.
+        a: Had she studied
+      - q: 「今朝朝ごはんを食べていたら、今こんなにおなかがすいていないのに。」If I had eaten breakfast this morning, I (＿) (＿) so hungry now.
+        a: wouldn't be／would not be
+    examples:
+    - id: e1207
+      en: '[*If* I *had gone* to bed early last night], I *wouldn''t be* so sleepy now.'
+      ja: 昨夜早く寝ていたら、今こんなに眠くないのに。
+    - id: e1208
+      en: '[*If* my father *hadn''t stopped* smoking ten years ago], he *might not be* so healthy today.'
+      ja: 父が10年前にたばこをやめていなかったら、今日これほど健康ではないかもしれない。
+    - id: e1209
+      en: '[*If* you *should* have any questions], please call me at this number.'
+      ja: 万一質問があれば、この番号に電話してください。
+    - id: e1210
+      en: '[*If* you *were to* win a million yen], what *would* you buy first?'
+      ja: 仮に100万円が当たったとしたら、まず何を買いますか。
+    - id: e1211
+      en: '[*Were* I in your position], I *would talk* to Mr. Tamura first.'
+      ja: もし私があなたの立場なら、まず田村先生に相談するだろう。
+      gloss:
+      - [position, 立場]
+    - id: e1212
+      en: '[*Had* we *known* about the traffic jam], we *would have taken* the train.'
+      ja: 渋滞のことを知っていたら、私たちは電車で行っただろう。
+      gloss:
+      - [traffic jam, 交通渋滞]
+    - id: e1213
+      en: '[*Should* the flight *be* canceled], we *will* send you an email.'
+      ja: 万一その便が欠航になった場合は、メールでお知らせします。
+      gloss:
+      - [cancel, 中止する（便を欠航にする）]
+    worked:
+    - q: （　）に入る最も適切なものを1つ選びなさい。<br>Sora forgot to bring her umbrella this morning. If she had brought it, she (＿) wet now.
+      choices: [won't be, wouldn't be, wouldn't have been, hadn't been]
+      steps:
+      - 仮定法の手順（@s121）で考える。ソラは今朝傘を持ってこなかったので、if 節は事実と反対の話。if 節は had brought で、過去の事実と反対の形になっている。
+      - 主節の時は if 節とは別に確かめる。主節に now があるので、主節は「今ぬれている」という今の事実と反対の話。
+      - 今の事実と反対の主節は would＋原形なので、wouldn't be を選ぶ。③wouldn't have been は過去のことを言う形で now と合わない。①は直説法、④は主節に置けない形。
+      ans: '2'
+      point: if 節の形だけを見て③を選ばない。主節の now・today・still を見て、主節の時を別に決める。
+    - q: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。<br>__If had I known__① about the festival, I __would have visited__② the town __with__③ my family __last__④ weekend.
+      steps:
+      - 下線部を1つずつ確かめる。①は had が主語 I の前に出ているので、if を省いた語順のはず。ところが If が残っている。
+      - if を省くなら Had I known、if を残すなら If I had known。If had I known はどちらの形でもないので、①が誤り。
+      - ②③④も確かめる。②would have visited は過去の事実と反対の主節の形で、last weekend と合う。③with my family も正しい。
+      ans: ①（If had I known → Had I known または If I had known）
+      point: had・were・should を主語の前に出すのは、if を省いたときだけ。if と、主語の前に出した had は同時に使わない。
+    summary:
+    - 過去の条件＋今の結果は、if 節を{{had done}}、主節を would＋{{原形}}にする。主節の now・today が手がかり。
+    - If S {{should}} do は「万一〜なら」（主節は will・命令文も可）、If S {{were to}} do は「仮に〜するとしたら」。
+    - if を省くと、{{Were}} I ～／{{Had}} S done／{{Should}} S do の語順になる。
+    - if を省いたら if は書かない。否定は Had I {{not}} known の形にする。
+  - id: s123
+    title: I wish・as if・It is time
+    aim: I wish・If only・as if・It is time の後ろで仮定法の形を使い、今のことか過去のことかで過去形と had done を選び分けられるようになる。
+    body:
+    - h: I wish は「〜ならいいのに」
+    - p: I wish の後ろに S＋V を続けると、「〜ならいいのに」という、実現しない願いを表します。実現しないことなので、節の動詞は仮定法にします。今の事実と反対の願いは過去形（@e1214）、過去の事実と反対の願い（〜だったらよかったのに）は had done です（@e1215）。どちらの時かは、if 節と同じ手順（@s121）で決めます。
+      notes:
+      - kind: 注意
+        text: I wish の後ろの be 動詞も、正式には主語が I でも were（I wish I were taller.）。話し言葉では was もよく使われる。
+    - ex: [e1214, e1215, e1216]
+    - p: I wish の後ろには、can・will のような現在形の助動詞を置きません。「〜できたらいいのに」は could（@e1216）、相手に「〜してくれたらいいのに」は would を使います。実現する見込みのあることを願うときは、wish ではなく hope を使い、後ろは直説法にします。I hope you pass the test.（試験に受かるといいね）のように、hope の後ろでは未来のことを現在形でも will でも言えます。
+    - p: If only は、I wish と同じ形を後ろに続けて、「〜でさえあればなあ」と、より強い願いを表します（@e1217）。If only の文は、主節がなくてもこれだけで1つの文になります。
+    - ex: [e1217]
+    - h: as if は「まるで〜のように」
+    - p: as if の後ろに仮定法を置くと、「（実際はそうではないが）まるで〜のように」という意味になります。as if の節の時は、主節の動詞が表す時を基準の時（@s031）にして決めます。主節と同じ時のことなら過去形（@e1218）、主節より前のことなら had done です（@e1219）。主節が現在形でも過去形でも、この決め方は変わりません。
+      notes:
+      - kind: 注意
+        text: as if の後ろは、本当にそうである見込みがあるときは直説法も使う。It looks as if it is going to rain.（雨が降りそうだ）は、実際に降りそうな空を見て言う文。as though も as if と同じ意味で使える。
+    - ex: [e1218, e1219]
+    - table:
+        head: [形, 意味, 節の動詞（同じ時のこと／それより前のこと）]
+        rows:
+        - [I wish S ～, 〜ならいいのに, '{{過去形}}／{{had done}}']
+        - [If only S ～, 〜でさえあればなあ, 過去形／had done]
+        - [as if S ～, まるで〜のように, '過去形／had done']
+    - h: It is time は「もう〜する時間だ」
+    - p: It is time の後ろに S＋V を続けるときは、動詞を過去形にします（@e1220）。「もう〜していてもよいころなのに、まだしていない」という気持ちがあるので、仮定法を使うのです。It is high time とすると「とっくに〜する時間だ」と意味が強まります。過去形を使わずに、It is time to do／It is time for 人 to do と不定詞で言うこともできます（@e1221）。
+    - ex: [e1220, e1221]
+    - check:
+      - q: 「ピアノが弾けたらいいのに。」I wish I (＿) play the piano.
+        a: could
+      - q: 「あの時、本当のことを言っていればよかった。」I wish I (＿) (＿) the truth then.
+        a: had told
+      - q: 「もう宿題を始める時間だ。」It's time you (＿) your homework.（start）
+        a: started
+    examples:
+    - id: e1214
+      en: I *wish* [I *lived* closer to school]. It takes me an hour and a half to get there.
+      ja: 学校の近くに住んでいたらいいのに。通学に1時間半かかる。
+    - id: e1215
+      en: I *wish* [I *had studied* harder for the English test]. I got only 52 points.
+      ja: 英語のテストのためにもっと勉強しておけばよかった。52点しか取れなかった。
+    - id: e1216
+      en: I *wish* [I *could* sing like Ms. Green].
+      ja: グリーン先生のように歌えたらいいのに。
+    - id: e1217
+      en: '*If only* I *had* more time! There are so many books I want to read.'
+      ja: もっと時間があればなあ。読みたい本がこんなにたくさんあるのに。
+    - id: e1218
+      en: Luke talks [*as if* he *knew* everything about soccer].
+      ja: ルークは、サッカーのことなら何でも知っているかのように話す。
+    - id: e1219
+      en: My brother talked about Kyoto [*as if* he *had been* there many times]. In fact, he has never been there.
+      ja: 兄は、何度も行ったことがあるかのように京都の話をした。実は一度も行ったことがない。
+    - id: e1220
+      en: It's ten o'clock. *It's time* [you *went* to bed].
+      ja: 10時だ。もう寝る時間だよ。
+    - id: e1221
+      en: '*It''s time for* us *to* leave for the airport.'
+      ja: 私たちはもう空港へ出発する時間だ。
+    worked:
+    - q: （　）に入る最も適切なものを1つ選びなさい。<br>I don't have a bike, so I have to walk to the station every day. I wish I (＿) one.
+      choices: [have, will have, had, had had]
+      steps:
+      - 空所は I wish の後ろの節の V。前の文から、話し手は実際には自転車を持っていない。I wish の後ろは実現しない願いなので、仮定法にする。
+      - いつの事実と反対か。前の文は現在形（don't have, have to walk）で、毎日の今の状態を言っている。今の事実と反対の願い。
+      - 今の事実と反対なので、過去形の had を選ぶ。①②は直説法の形、④had had は「持っていたらよかった」という過去の事実と反対の願いになる。
+      ans: '3'
+      point: I wish の後ろに現在形や will は置かない。今のことは過去形、過去のことは had done。
+    - q: （　）に入る最も適切なものを1つ選びなさい。<br>You've been playing video games for three hours. It's time you (＿) your homework.
+      choices: [do, will do, did, have done]
+      steps:
+      - 空所は It's time の後ろの節の V で、後ろに O の your homework がある。4つとも O をとれる形なので、形だけでは決まらない。
+      - 意味の手がかりは前の文。3時間ゲームをしていて、宿題はまだしていない。「もう宿題をする時間だ」と言っている。
+      - It is time の後ろの S＋V は、「まだしていない」という気持ちから過去形にする。did を選ぶ。①は原形、②は直説法、④は「もうしてしまった」という完了の意味になり、前の文と合わない。
+      ans: '3'
+      point: It is time の後ろは過去形。不定詞を使うなら It's time for you to do your homework. と言える。
+    summary:
+    - I wish の後ろは仮定法。今のことは{{過去形}}、過去のことは{{had done}}。can・will は could・{{would}}にする。
+    - 実現する見込みのある願いは wish ではなく{{hope}}を使い、後ろは直説法にする。
+    - as if＋過去形は主節と{{同じ時}}のこと、as if＋had done は主節より{{前}}のことを「まるで〜のように」と述べる。
+    - It is time の後ろの S＋V は{{過去形}}。不定詞なら It is time {{for}} 人 to do。
+  - id: s124
+    title: if を使わない仮定と仮定法現在
+    aim: without・but for・otherwise・主語にこめられた仮定を読み取り、suggest・insist などの後ろの that 節で動詞を原形（または should＋原形）にできるようになる。
+    body:
+    - h: without・but for は「〜がなければ」
+    - p: 仮定法は、if 節がなくても使えます。without は「〜がなければ」「〜がなかったら」の意味の前置詞で、主節が would＋原形なら今の仮定（@e1222）、would have done なら過去の仮定です（@e1223）。without の後ろは名詞なので、時は主節の形で決めます。but for も同じ意味ですが、かたい書き言葉で使います。
+    - ex: [e1222, e1223]
+    - p: without・but for は、if を使って言いかえられます。今の仮定なら If it were not for ～、過去の仮定なら If it had not been for ～ です（@e1224）。if を省いた語順（@s122）にして、Were it not for ～／Had it not been for ～ とも言います。
+      notes:
+      - kind: 注意
+        text: with は without の反対で、「〜があれば」という仮定にも使える。With a little more time, I could have finished the test.（もう少し時間があったら、テストを最後までできたのに）。
+    - ex: [e1224]
+    - table:
+        head: [時, 前置詞を使う形, if を使う形]
+        rows:
+        - [今の仮定, 'Without ～／But for ～', 'If it {{were not for}} ～']
+        - [過去の仮定, 'Without ～／But for ～', 'If it {{had not been for}} ～']
+    - h: otherwise と、主語にこめられた仮定
+    - p: otherwise は「そうでなければ」という意味の副詞で、前の文の内容を打ち消した仮定を表します。@e1225 の Otherwise は「タクシーに乗らなかったら」の意味になるので、後ろは仮定法の形にします。
+    - p: 主語が仮定の意味をふくむこともあります。@e1226 の A careful driver は「注意深い運転手なら」という意味で、if 節の代わりをしています。if 節がないのに would・could があるときは、主語や前置詞のかたまりのどこに「もし」が隠れているかを探します。
+    - ex: [e1225, e1226]
+    - h: 仮定法現在：suggest that S＋原形
+    - p: 「〜したらどうかと提案する」「〜するよう強く求める」と言うとき、その内容はまだ実現していません。そのため、suggest・propose（提案する）、insist（強く求める）、demand（要求する）、recommend（勧める）などの後ろの that 節では、主語が何であっても動詞を原形にします（@e1227）。イギリス英語では should＋原形もよく使います（@e1228）。この原形の形を<<仮定法現在>>といいます。
+      notes:
+      - kind: 用語
+        term: 仮定法現在
+        yomi: かていほうげんざい
+        text: suggest・insist・demand などの後ろの that 節で、主語や時に関係なく動詞を原形にする形。まだ実現していないことを「そうすべきだ」と述べる。should＋原形で表すこともある。
+    - ex: [e1227, e1228]
+    - p: 主節が過去形（suggested）でも、主語が3人称単数（Sora）でも、that 節の動詞は原形のままです。過去形の joined や、-s の付いた joins にはしません。否定は not を原形の前に置き、that he not go の形にします。It is necessary that ～・It is important that ～ の that 節でも、同じように原形（または should＋原形）を使います。
+      notes:
+      - kind: 注意
+        text: insist が「（事実だと）言い張る」、suggest が「（それとなく）示す」という意味のときは、that 節は直説法になる。He insisted that he had locked the door.（彼はドアに鍵をかけたと言い張った）。
+    - check:
+      - q: 「あなたの助けがなかったら、昨日その仕事を終えられなかっただろう。」Without your help, I couldn't (＿) (＿) the work yesterday.
+        a: have finished
+      - q: 「私は早起きした。そうでなければ、バスに乗り遅れていただろう。」I got up early. (＿), I would have missed the bus.
+        a: Otherwise
+      - q: My aunt recommended that I (＿) a jacket.（take）
+        a: take（または should take）
+    examples:
+    - id: e1222
+      en: '*Without* this map, we *would get* lost in the old town.'
+      ja: この地図がなければ、私たちは旧市街で道に迷うだろう。
+      gloss:
+      - [get lost, 道に迷う]
+    - id: e1223
+      en: '*Without* Nanami''s advice, I *would have bought* shoes in the wrong size.'
+      ja: ナナミの助言がなかったら、私はサイズの合わない靴を買っていただろう。
+    - id: e1224
+      en: '[*If it had not been for* the rain], we *would have finished* the game.'
+      ja: 雨がなかったら、私たちはその試合を最後までやれただろう。
+    - id: e1225
+      en: I took a taxi. *Otherwise*, I *would have been* late for the interview.
+      ja: 私はタクシーに乗った。そうでなければ、面接に遅れていただろう。
+      gloss:
+      - [interview, 面接]
+    - id: e1226
+      en: A careful driver *would have stopped* at the red light.
+      ja: 注意深い運転手なら、赤信号で止まっただろう。
+    - id: e1227
+      en: Ms. Green *suggested* [that Sora *join* the drama club].
+      ja: グリーン先生は、ソラに演劇部に入ってはどうかと提案した。
+    - id: e1228
+      en: The doctor *insisted* [that my father *should stay* in the hospital for another week].
+      ja: 医者は、父があと1週間入院しているべきだと強く言った。
+    worked:
+    - q: 次の英文を日本語に訳しなさい。<br>Without this bus, many people in the village couldn't go to the hospital.
+      steps:
+      - 主節に couldn't go があるのに、if 節がない。どこに「もし」が隠れているかを探す。
+      - 文の頭の Without this bus が「このバスがなければ」という仮定を表している。
+      - 主節は could＋原形なので、今の仮定。「〜がなければ、…できないだろう」と訳す。
+      ans: このバスがなければ、村の多くの人は病院へ行けないだろう。
+      point: without の後ろは名詞なので、時は主節の形で決める。主節が could have done なら「〜がなかったら、…できなかっただろう」と過去の仮定に訳す。
+    - q: （　）に入る最も適切なものを1つ選びなさい。<br>Mr. Tamura suggested that Mark (＿) the speech contest next month.
+      choices: [enter, enters, entered, will enter]
+      steps:
+      - 空所は that 節の V で、後ろに O の the speech contest がある。4つとも O をとれる形なので、形だけでは決まらない。
+      - 主節の動詞は suggested（提案した）。提案の内容（来月のコンテストに出ること）はまだ実現していないので、that 節は仮定法現在にする。
+      - 主語の Mark が3人称単数でも、主節が過去形でも、動詞は原形。enter を選ぶ。should enter も正しいが、選択肢にはない。
+      ans: '1'
+      point: suggest・insist・demand・recommend の後ろの that 節は（should＋）原形。主語に合わせて -s を付けたり、主節に合わせて過去形にしたりしない。
+    summary:
+    - without・but for は「〜がなければ（なかったら）」。今か過去かは{{主節}}の形で決める。
+    - 今の仮定は If it {{were not for}} ～、過去の仮定は If it {{had not been for}} ～ で言いかえる。
+    - 「そうでなければ」の{{otherwise}}や、主語（A careful driver など）が if 節の代わりになることがある。
+    - suggest・insist・demand などの後ろの that 節は、主語や時に関係なく{{原形}}（または should＋原形）。
+problems:
+- id: q12001
+  sec: s121
+  set: 前提
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: If it (＿) sunny tomorrow, we will go to the beach.
+  choices: [is, will be, was, be]
+  ans: '1'
+  why: If it ＿ tomorrow は条件を表す副詞節なので、未来のことでも現在形にする。主語 it に合わせて is。
+  trap: tomorrow につられて②will be を選ぶ誤り。時・条件の副詞節の中では will を使わない。
+  ref: s023
+- id: q12002
+  sec: s121
+  set: 前提
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 次の動詞の過去形と過去分詞を書きなさい。
+  q: (1) know　(2) see　(3) take
+  ans: (1) knew／known　(2) saw／seen　(3) took／taken
+  why: 3つとも不規則動詞。仮定法過去では過去形を、仮定法過去完了では had＋過去分詞を使うので、両方の形を言えるようにしておく。
+  trap: 過去形と過去分詞を同じ形だと思い、had saw・had took と書く誤り。have・had の後ろは過去分詞。
+  ref: s031
+- id: q12003
+  sec: s121
+  set: 前提
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: I don't have much money now. If I (＿) more money, I would buy that guitar.
+  choices: [have, had, will have, having]
+  ans: '2'
+  why: 今お金がないという事実と反対のことを「もし〜なら、…するのに」と言う文。中学で学んだ仮定法の形で、if 節は過去形の had。
+  trap: now につられて①have を選ぶ誤り。主節の would buy が、事実と反対の話だというしるしになる。
+- id: q12004
+  sec: s121
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Luke lives far from the sea. If he (＿) near it, he could go surfing every weekend.
+  choices: [lives, lived, had lived, would live]
+  ans: '2'
+  why: ルークは実際には海から遠くに住んでいる。今の事実と反対なので仮定法過去で、if 節は過去形の lived。主節の could go も仮定法過去の形。
+  trap: ③had lived を選ぶ誤り。had done は過去の事実と反対のときの形で、今住んでいる場所の話には合わない。
+- id: q12005
+  sec: s121
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: （　）内の語を適切な形にして、空所に入れなさい。
+  q: If my house (＿) bigger, I could invite all my classmates.（be）
+  ans: were
+  why: 家が実際には大きくないので、今の事実と反対の仮定法過去。if 節の be 動詞は were が正式な形。話し言葉では was も使われるが、入試では were を書く。
+  trap: 直説法の is を書く誤り。主節の could invite が仮定法のしるしなので、if 節も過去の形にそろえる。
+- id: q12006
+  sec: s121
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: If you had told me about the party, I (＿) a cake.
+  choices: [would bring, will bring, would have brought, had brought]
+  ans: '3'
+  why: if 節が had told で、過去の事実（教えてもらえなかった）と反対の仮定法過去完了。主節は would have done にそろえる。
+  trap: ①would bring を選ぶ誤り。would＋原形は今の事実と反対のときの主節で、if 節の had told と時が合わない。
+- id: q12007
+  sec: s121
+  set: 節末
+  lv: 1
+  kind: 和訳
+  min: 3
+  inst: 次の英文を日本語に訳しなさい。
+  q: If I had more free time, I would learn to play the drums.
+  ans: もっと自由な時間があれば、ドラムを習うのに。
+  alt: [もし暇な時間がもっとあったら、ドラムの演奏を習うだろう。]
+  why: 仮定法過去で、今の事実（時間があまりない）と反対のことを述べている。採点の目安：「時間があれば」「習うのに（習うだろう）」と、今の仮定として訳せていれば正解。
+  trap: had を見て「時間があったので、習った」と過去の事実のように訳す誤り。仮定法過去が表すのは今のこと。
+- id: q12008
+  sec: s121
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: We __would have played__① tennis __in the park__② yesterday if it __would not rain__③. But __it rained__④ all day.
+  ans: '3'
+  why: 昨日の事実（雨が降った）と反対の仮定法過去完了なので、if 節は had done にして if it had not rained とする。if 節に would は入れない。①②④は正しい。
+  trap: 主節の would have played に形をそろえて、if 節にも would を使ってしまう誤り。would を使うのは主節だけ。
+- id: q12009
+  sec: s121
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: If Nanami (＿) the email, she would have come to the meeting.
+  choices: [checked, has checked, had checked, would check]
+  ans: '3'
+  why: 主節が would have come なので、過去の事実（来なかった）と反対の仮定法過去完了。if 節は had checked。
+  trap: ①checked を選ぶ誤り。過去形の if 節は今の事実と反対のときの形で、主節の would have come と時が合わない。④は if 節に would を入れた形。
+- id: q12010
+  sec: s121
+  set: 節末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: あの時あなたが止めてくれなかったら、私は違うバスに乗っていただろう。<br>If you ( had / have / I / me / not / stopped / would ) taken the wrong bus.
+  words: [had, have, I, me, not, stopped, would]
+  ans: If you had not stopped me, I would have taken the wrong bus.
+  why: 過去の事実と反対なので、if 節は had not stopped me、主節は I would have taken。否定の not は had の後ろに置く。
+  trap: have を if 節に使い、If you have not stopped me とする誤り。if 節は had done、主節は would have done と、have と had の置き場所を分ける。
+- id: q12011
+  sec: s122
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: My brother didn't take the medicine yesterday. If he had taken it, he (＿) better today.
+  choices: [feels, would feel, would have felt, had felt]
+  ans: '2'
+  why: if 節は昨日の事実と反対（had taken）だが、主節には today があり、今の体調の話。今の事実と反対の主節は would＋原形。
+  trap: if 節の had taken に合わせて③would have felt を選ぶ誤り。主節の時は today で決める。
+- id: q12012
+  sec: s122
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: if を使わずに、ほぼ同じ意味の文に書きかえなさい。（　）に1語ずつ入れること。
+  q: If my sister were here, she would know what to do.<br>→ (＿) (＿) (＿) here, she would know what to do.
+  ans: Were my sister
+  why: if を省くと、if 節の were を主語 my sister の前に出す。主語が名詞のかたまりでも、were の後ろにそのまま置く。
+  trap: My sister were here と、were を前に出さずに if だけを消す誤り。if を省いたら、語順を入れかえて仮定のしるしにする。
+- id: q12013
+  sec: s122
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: If you (＿) lose your ticket, please tell the staff at the gate.
+  choices: [should, would, were, had]
+  ans: '1'
+  why: 「万一〜なら」と、起こる見込みの低いことを言う If S should do。主節が命令文の please tell でもよい。
+  trap: ②would を選ぶ誤り。if 節に would は入れない。③were・④had は後ろに原形の lose を置けない。
+- id: q12014
+  sec: s122
+  set: 節末
+  lv: 1
+  kind: 和訳
+  min: 3
+  inst: 次の英文を日本語に訳しなさい。
+  q: If you were to live abroad, which country would you choose?
+  ans: 仮に外国に住むとしたら、どの国を選びますか。
+  alt: [もし外国で暮らすとしたら、あなたはどの国を選ぶだろうか。]
+  why: If S were to do は「仮に〜するとしたら」と、仮の話を持ち出す形。採点の目安：「仮に（もし）住むとしたら」と仮の話として訳し、「どの国を選ぶか」がたずねる形になっていれば正解。
+  trap: were to を「住むことになっていた」と予定の意味に訳す誤り。if 節の were to は仮定法未来で、仮の話を表す。
+- id: q12015
+  sec: s122
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: __If__① Mark __had not missed__② the bus this morning, he __would have been__③ here with us now. We __need__④ him for the meeting.
+  ans: '3'
+  why: if 節は今朝の事実と反対（had not missed）だが、主節には now があり、今ここにいないことの話。今の事実と反対の主節は would＋原形なので would be にする。①②④は正しい。
+  trap: if 節の had not missed に合わせて、主節も would have done でよいと考える誤り。主節の時は now で決める。
+- id: q12016
+  sec: s122
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: (＿) I been at home yesterday, I could have helped my mother with the cooking.
+  choices: [If, Had, Were, Should]
+  ans: '2'
+  why: 主節が could have helped なので、過去の事実と反対の仮定法過去完了。If I had been at home の if を省き、had を主語の前に出した形。
+  trap: ①If を選ぶ誤り。If I been at home では had がなく、文が成り立たない。③Were は後ろに過去分詞の been を置けない。
+- id: q12017
+  sec: s122
+  set: 節末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 万一電車が遅れたら、私はタクシーで行きます。<br>( be / late / should / the / train ), I will take a taxi.
+  words: [be, late, should, the, train]
+  ans: Should the train be late, I will take a taxi.
+  why: If the train should be late の if を省くと、should を主語 the train の前に出す。後ろに原形の be late を続ける。主節は will でよい。
+  trap: The train should be late と並べる誤り。これでは「電車は遅れるはずだ」という1つの文になり、「万一〜なら」の意味が出ない。
+- id: q12018
+  sec: s123
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: I wish I (＿) taller. I want to be a volleyball player.
+  choices: [am, were, will be, have been]
+  ans: '2'
+  why: 実際には背が高くないので、今の事実と反対の願い。I wish の後ろは仮定法過去で、be 動詞は were。
+  trap: ①am を選ぶ誤り。I wish の後ろに直説法の現在形は置かない。
+- id: q12019
+  sec: s123
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 日本語の意味になるように、（　）に適切な語を1語ずつ入れなさい。
+  q: 昨日のパーティーに行けばよかった。<br>I wish I (＿) (＿) to the party yesterday.
+  ans: had gone
+  why: 「〜すればよかった」は過去の事実（行かなかった）と反対の願いなので、I wish の後ろは had done。go の過去分詞は gone。
+  trap: I wish I went と過去形にする誤り。過去形は今の事実と反対の願いになり、yesterday と合わない。
+- id: q12020
+  sec: s123
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Ms. Green speaks Japanese (＿) she were Japanese.
+  choices: [as if, even if, unless, because]
+  ans: '1'
+  why: グリーン先生は日本人ではないが、日本人のように日本語を話す。「まるで〜のように」は as if で、後ろは仮定法過去の were。
+  trap: ②even if を選ぶ誤り。「たとえ日本人だとしても日本語を話す」では意味が通らない。were を見たら、as if・I wish・if のどれと組むかを考える。
+- id: q12021
+  sec: s123
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: （　）内の語を適切な形にして、空所に入れなさい。
+  q: It's already eleven. It's time we (＿) home.（go）
+  ans: went
+  why: It is time の後ろの S＋V は、「もう〜してよいころなのに、まだしていない」という気持ちから過去形にする。
+  trap: 原形の go を入れる誤り。It's time to go home. なら原形だが、ここは we の後ろなので過去形。
+- id: q12022
+  sec: s123
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: I __failed__① the math test last week. I __wish__② I __studied__③ harder __for__④ it.
+  ans: '3'
+  why: 先週のテストの前に勉強しなかったことを悔やんでいるので、過去の事実と反対の願い。I wish の後ろは had studied にする。①②④は正しい。
+  trap: last week につられて過去形の studied を正しいと思う誤り。I wish の後ろの過去形は、今の事実と反対の願いになる。
+- id: q12023
+  sec: s123
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Sora talked about the movie as if she (＿) it. In fact, she has never seen it.
+  choices: [sees, saw, had seen, has seen]
+  ans: '3'
+  why: 映画を見たのは、話した時（talked）より前のことのはず。主節より前のことを「まるで〜したかのように」と言うので、as if の後ろは had done。
+  trap: ②saw を選ぶ誤り。as if＋過去形は主節と同じ時のことを表し、「話しながら見ているかのように」の意味になってしまう。
+- id: q12024
+  sec: s123
+  set: 節末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: あの時、彼女に本当のことを話していればよかった。<br>( had / her / I / I / told / wish ) the truth then.
+  words: [had, her, I, I, told, wish]
+  ans: I wish I had told her the truth then.
+  why: 過去の事実と反対の願いなので、I wish の後ろは had done。tell 人 the truth の順で、told her the truth と並べる。
+  trap: I had wish I told … のように had を wish に付ける誤り。had done になるのは I wish の後ろの節の動詞。
+- id: q12025
+  sec: s124
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: (＿) your help, I couldn't have moved this heavy desk.
+  choices: [Without, With, Unless, If]
+  ans: '1'
+  why: 「あなたの助けがなかったら、動かせなかっただろう」と、過去の仮定を前置詞で表す Without。後ろは名詞の your help。
+  trap: ③Unless・④If を選ぶ誤り。どちらも接続詞なので、後ろに S＋V が要る。your help は名詞なので、前置詞の without を使う。
+- id: q12026
+  sec: s124
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 2つの文がほぼ同じ意味になるように、（　）に適切な語を1語ずつ入れなさい。
+  q: Without the air conditioner, this room would be too hot to study in.<br>＝ If it (＿) (＿) for the air conditioner, this room would be too hot to study in.
+  ans: were not
+  why: 主節が would be なので今の仮定。without を if で言いかえると If it were not for ～ になる。
+  trap: had not を入れる誤り。If it had not been for ～ は過去の仮定で、been も要る。主節の形で今か過去かを決める。
+- id: q12027
+  sec: s124
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: The coach insisted that every player (＿) to practice by 8:30.
+  choices: [come, comes, came, will come]
+  ans: '1'
+  why: insist（強く求める）の後ろの that 節は、主語や時に関係なく原形（または should＋原形）。every player が単数でも come。
+  trap: every player が3人称単数なので②comes を選ぶ誤り。仮定法現在の that 節では -s を付けない。
+- id: q12028
+  sec: s124
+  set: 節末
+  lv: 1
+  kind: 和訳
+  min: 3
+  inst: 次の英文を日本語に訳しなさい。
+  q: We bought the tickets online a month ago. Otherwise, we couldn't have seen the concert.
+  ans: 私たちは1か月前にインターネットでチケットを買った。そうでなければ、そのコンサートを見られなかっただろう。
+  alt: [私たちは1か月前にネットでチケットを買っておいた。もし買っていなかったら、そのコンサートは見られなかっただろう。]
+  why: Otherwise は前の文を打ち消した「そうでなければ（チケットを買っていなかったら）」の意味で、後ろは仮定法過去完了の主節の形。採点の目安：「そうでなければ（買っていなかったら）」と「見られなかっただろう」が訳せていれば正解。
+  trap: couldn't have seen を「見ることができなかった」と事実のように訳す誤り。実際にはコンサートを見たので、事実と反対の仮定になる。
+- id: q12029
+  sec: s124
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: Our teacher __suggested__① that Luke __takes__② a short rest __before__③ the next __match__④.
+  ans: '2'
+  why: suggest（提案する）の後ろの that 節は、主語や時に関係なく原形（または should＋原形）。takes を take にする。①③④は正しい。
+  trap: 主語の Luke が3人称単数なので takes を正しいと思う誤り。また、主節の suggested に合わせて took にするのも誤り。
+- id: q12030
+  sec: s124
+  set: 節末
+  lv: 2
+  kind: 英作
+  min: 3
+  inst: 日本語の意味になるように、（　）に英語を入れて文を完成させなさい（語数は自由）。
+  q: あなたの地図がなかったら、私たちは道に迷っていただろう。<br>Without your map, (＿).
+  ans: we would have gotten lost
+  alt: [we would have got lost, we would have lost our way, we might have gotten lost]
+  why: 「〜がなかったら…していただろう」は過去の仮定なので、主節は would have done。採点の目安：would have＋過去分詞の形で「道に迷う」（get lost・lose our way）が書けていれば正解。might have も可。
+  trap: we would get lost と書く誤り。これは今の仮定（地図がなければ迷うだろう）になり、「迷っていただろう」の意味にならない。
+- id: q12031
+  sec: s124
+  set: 節末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 本当の友達なら、そんなうそはつかないだろう。<br>A ( a / friend / lie / not / such / tell / true / would ).
+  words: [a, friend, lie, not, such, tell, true, would]
+  ans: A true friend would not tell such a lie.
+  why: 主語の A true friend が「本当の友達なら」という仮定をふくむ。主節は would not＋原形。such a lie の語順にする。
+  trap: a such lie と並べる誤り。such は a の前に置き、such a ＋名詞 の順にする。
+- id: q12032
+  sec: s121
+  set: 確認テスト
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: It's raining hard. If it (＿) sunny, we could play baseball in the park now.
+  choices: [is, were, had been, would be]
+  ans: '2'
+  why: 今は雨が降っているので、「晴れていれば」は今の事実と反対。仮定法過去で、if 節の be 動詞は were。
+  trap: ③had been を選ぶ誤り。had been は過去の事実と反対のときの形で、now と合わない。
+- id: q12033
+  sec: s121
+  set: 確認テスト
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: If I __would have__① more time, I __could join__② the tennis club __and practice__③ __after__④ school.
+  ans: '1'
+  why: if 節には would を入れない。今の事実と反対の仮定法過去なので、If I had more time とする。②③④は正しい。
+  trap: 主節に would・could があるので、if 節にも would を置いてしまう誤り。if 節は過去形、would・could は主節だけ。
+- id: q12034
+  sec: s122
+  set: 確認テスト
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: (＿) I in your place, I would accept the offer.
+  choices: [Were, Had, Should, If]
+  ans: '1'
+  why: If I were in your place の if を省き、were を主語の前に出した形。主節の would accept も仮定法過去の形。
+  trap: ④If を選ぶ誤り。If I in your place には動詞がない。②Had・③Should も、後ろに動詞の形がないので入らない。
+- id: q12035
+  sec: s122
+  set: 確認テスト
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: if を使わずに、ほぼ同じ意味の文に書きかえなさい。（　）に1語ずつ入れること。
+  q: If I had known the answer, I would have raised my hand.<br>→ (＿) I (＿) the answer, I would have raised my hand.
+  ans: Had／known（Had I known the answer）
+  why: if を省くと、if 節の had を主語 I の前に出す。known はそのまま主語の後ろに残る。
+  trap: Did I know と書く誤り。if を省いて前に出せるのは were・had・should だけで、一般動詞の過去形は前に出せない。
+- id: q12036
+  sec: s123
+  set: 確認テスト
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: My little brother talks (＿) he were the leader of our family.
+  choices: [as if, if only, even though, so that]
+  ans: '1'
+  why: 弟は実際には家族のリーダーではない。「まるで〜のように話す」は as if で、後ろは仮定法過去の were。
+  trap: ②if only を選ぶ誤り。If only は「〜でさえあればなあ」という願いで、talks の後ろにつないで「どのように話すか」を表すことはできない。
+- id: q12037
+  sec: s123
+  set: 確認テスト
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: とっくに新しい靴を買っていてもいいころだよ。<br>It's ( a / bought / high / pair / time / you ) of new shoes.
+  words: [a, bought, high, pair, time, you]
+  ans: It's high time you bought a pair of new shoes.
+  why: It is high time は「とっくに〜する時間だ」。後ろの S＋V は過去形にするので you bought。a pair of new shoes で「新しい靴1足」。
+  trap: It's time high … と high の位置を間違える誤り。high は time の前に置き、high time のかたまりにする。
+- id: q12038
+  sec: s124
+  set: 確認テスト
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: The doctor recommended that my grandfather (＿) more vegetables.
+  choices: [eat, eats, ate, eating]
+  ans: '1'
+  why: recommend（勧める）の後ろの that 節は仮定法現在で、主語や時に関係なく原形。my grandfather が単数でも、主節が過去形でも eat。
+  trap: 主節の recommended に合わせて③ate を選ぶ誤り。提案・要求の that 節は、時制をそろえずに原形にする。
+- id: q12039
+  sec: s124
+  set: 確認テスト
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 2つの文がほぼ同じ意味になるように、（　）に適切な語を1語入れなさい。
+  q: But for your help, I would have failed the test.<br>＝ (＿) your help, I would have failed the test.
+  ans: Without
+  why: but for は「〜がなければ（なかったら）」で、without と同じ意味。後ろが名詞の your help なので、前置詞の without を入れる。
+  trap: Unless を入れる誤り。unless は接続詞なので、後ろに S＋V が要る。
+- id: q12040
+  sec: s101
+  set: 確認テスト
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: The café __which__① we __visited__② __it__③ last week __was__④ very popular.
+  ans: '3'
+  why: which は visited の O の代わりをしているので、関係詞節の中は O が欠けた不完全な文になる。O の it をもう一度置かないので、it を取る。①②④は正しい。
+  trap: we visited it が完全な文に見えて、正しいと思う誤り。関係代名詞の後ろは、欠けた位置（＿）がある不完全な文になる。
+- id: q12041
+  sec: s043
+  set: 確認テスト
+  lv: 1
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 昨夜、窓を閉めておくべきだった。部屋がとても寒い。<br>I ( closed / have / should / the / window ) last night. My room is very cold.
+  words: [closed, have, should, the, window]
+  ans: I should have closed the window last night. My room is very cold.
+  why: 「〜すべきだったのに（しなかった）」は should have done。should の後ろに have＋過去分詞の closed を置く。
+  trap: I have should closed … と have を助動詞の前に置く誤り。助動詞が先、その後ろに have＋過去分詞を置く。

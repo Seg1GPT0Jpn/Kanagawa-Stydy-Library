@@ -1,0 +1,875 @@
+chapters:
+- id: c14
+  title: 代名詞
+  lead: この単元では、名詞の代わりに使う代名詞を、形と使い分けの両方から整理します。I・my・me・mine・myself のどの形を使うかを文の中の位置で決め、it と one、another と the other、each と all のように似た語を、「指す物が決まっているか」「いくつの中の話か」で選べるようになります。単元6 の形式主語の it（@s061）と、単元13 の数えられる名詞・数えられない名詞（@s131）を先に学んでおくと、読みやすくなります。
+  intro: 中学では、I・my・me・mine のように、代名詞が使う場所によって形を変えることを学びました（単元1 の表、@s011）。持ち物を指して This bag is mine. と言うときの mine、I enjoyed myself. の myself も中学で出てきた形です。It's sunny today. のように、天気を言うときに it を主語にすることも習いました。Do you have a pen? と聞かれて Yes, I have one. と答える one も、中学の教科書に出てきます。この単元では、これらの形に名前を付け、入試で問われる使い分けまで広げます。
+  sections:
+  - id: s141
+    title: "人称・所有・再帰代名詞"
+    aim: 代名詞の主格・所有格・目的格・所有代名詞・再帰代名詞を文の中の位置で選び分け、a friend of mine や by oneself などの決まった言い方を使えるようになる。
+    body:
+    - h: 代名詞の形は「位置」で決まる
+    - p: 同じ名詞を何度もくり返すと、文が長く読みにくくなります。そこで、2回目からは名詞の代わりに短い語を使います。この語を<<代名詞>>といいます。代名詞のうち、I・you・he・she・it・we・they のように、話し手・聞き手・それ以外の人や物を指すものを<<人称代名詞>>といいます。単元1（@s011）で見たとおり、代名詞は名詞の仲間です。
+      notes:
+      - kind: 用語
+        term: 代名詞
+        yomi: だいめいし
+        text: 名詞の代わりに使う語。I・it などの人称代名詞のほか、this・that、one・some・each なども代名詞にあたる。本書では名詞の仲間として扱う。
+      - kind: 用語
+        term: 人称代名詞
+        yomi: にんしょうだいめいし
+        text: 話し手（I・we）、聞き手（you）、それ以外の人や物（he・she・it・they）を指す代名詞。文の中の位置によって形が変わる。
+    - p: 人称代名詞は、文の中のどこに置くかで形が変わります。この形の違いを「格」と呼び、3つに分けます。S の位置で使う形が<<主格>>（I・he・they）、名詞の前に置いて「〜の」と持ち主を表す形が<<所有格>>（my・his・their）、O の位置と前置詞の後ろで使う形が<<目的格>>（me・him・them）です（@e1401）。名詞に 's を付けた my sister's（姉の）も所有格の仲間です。
+      notes:
+      - kind: 用語
+        term: 主格
+        yomi: しゅかく
+        text: 文の中で S になるときの代名詞の形（I・he・she・we・they など）。関係代名詞の who・which のように、節の中で S の働きをするものもこう呼ぶ。
+      - kind: 用語
+        term: 所有格
+        yomi: しょゆうかく
+        text: 名詞の前に置いて「〜の」と持ち主を表す形（my・his・its・their など）。名詞に 's を付けた形（my sister's）や、関係代名詞の whose もこう呼ぶ。
+      - kind: 用語
+        term: 目的格
+        yomi: もくてきかく
+        text: O の位置と前置詞の後ろで使う代名詞の形（me・him・her・us・them など）。関係代名詞の whom もこう呼ぶ。
+    - ex: [e1401]
+    - p: 次の表は、単元1 の表に「〜のもの」と「〜自身」の2列を足したものです。どの代名詞が、どの位置で、どの形になるかを、赤シートで隠して言えるようにしておきます。
+    - table:
+        head: [人称, 主格（S）, 所有格（〜の）, 目的格（O・前置詞の後ろ）, 所有代名詞（〜のもの）, 再帰代名詞（〜自身）]
+        rows:
+        - [私, I, my, me, "{{mine}}", "{{myself}}"]
+        - [あなた, you, your, you, "{{yours}}", "{{yourself}}"]
+        - [彼, he, his, him, "{{his}}", "{{himself}}"]
+        - [彼女, she, her, her, "{{hers}}", "{{herself}}"]
+        - [それ, it, "{{its}}", it, ―, "{{itself}}"]
+        - [私たち, we, our, us, "{{ours}}", "{{ourselves}}"]
+        - [あなたたち, you, your, you, "{{yours}}", "{{yourselves}}"]
+        - [彼ら・それら, they, their, them, "{{theirs}}", "{{themselves}}"]
+      notes:
+      - kind: 注意
+        text: its は所有格（その〜）で、アポストロフィを付けない。it's は it is か it has を短くした形。
+    - p: 位置で形が決まるという規則には、知っておくべき例外があります。be 動詞の後ろの C の位置は、話し言葉では It's me. のように目的格を使うのがふつうです（改まった書き言葉の It is I. は古い感じがします）。and で2人を並べても、位置の規則は変わりません。Our teacher asked my sister and me to help.（先生は姉と私に手伝うよう頼んだ）の me は asked の O なので目的格です。and の前に別の人があると I にしたくなりますが、my sister を消して asked me と言いかえれば、目的格だと分かります。
+      notes:
+      - kind: 注意
+        text: than や as の後ろでは、話し言葉で taller than me のように目的格を使うことが多い。than I am のように動詞まで言うときは主格を使う。
+    - h: 所有代名詞と a friend of mine
+    - p: mine・yours・hers のように、「〜のもの」を1語で表す代名詞を<<所有代名詞>>といいます。所有代名詞は「所有格＋名詞」の代わりなので、後ろに名詞を置きません（@e1402）。This umbrella isn't mine. の mine は my umbrella のことです。
+      notes:
+      - kind: 用語
+        term: 所有代名詞
+        yomi: しょゆうだいめいし
+        text: 「〜のもの」を1語で表す代名詞（mine・yours・his・hers・ours・theirs）。「所有格＋名詞」の代わりになり、後ろに名詞を置かない。
+    - ex: [e1402]
+    - p: 所有格は、a・an・this・that・some などと並べて名詞の前に置くことができません。a my friend や my a friend は誤りです。「私の友人の1人」と言いたいときは、a friend を先に置き、後ろに of mine を付けて a friend of mine とします（@e1403）。同じように、this bike of my brother's（兄のこの自転車）のように、名詞の所有格を of の後ろに置くこともあります。my friend も誤りではありませんが、話し手と聞き手がだれのことか分かっている友人を指すときによく使います。
+      notes:
+      - kind: 注意
+        text: a friend of my father's と a friend of my father は、どちらも使われる。入試の整序で 's の付いた語が与えられたら、a friend of my father's の形にする。
+    - ex: [e1403]
+    - h: 再帰代名詞は「S と同じ人・物」を表す
+    - p: myself・themselves のように -self・-selves で終わる代名詞を<<再帰代名詞>>といいます。O が S と同じ人や物のとき、目的格ではなく再帰代名詞を使います。@e1404 で He hurt him. とすると、him は兄とは別の男性を指します。転んでけがをしたのが兄自身なので himself にします。再帰代名詞を S の後ろや文の最後に置いて、「ほかの人ではなく自分で」と強めることもあります（@e1405）。
+      notes:
+      - kind: 用語
+        term: 再帰代名詞
+        yomi: さいきだいめいし
+        text: -self（複数は -selves）で終わる代名詞（myself・themselves など）。O が S と同じ人・物のときに使うほか、「自分で」と強めるときにも使う。
+    - ex: [e1404, e1405]
+    - p: ただし、場所を表す前置詞の後ろでは、S と同じ人でも目的格を使うのがふつうです。She looked around her.（彼女はまわりを見回した）、He closed the door behind him.（彼は後ろ手にドアを閉めた）では、herself・himself にしません。この例外を除けば、「O が S と同じ人・物なら再帰代名詞」と考えて選べます。
+    - p: 再帰代名詞を使う決まった言い方は、そのまま覚えます。辞書では oneself の形で載っているので、実際の文では S に合わせて myself・themselves などに変えます。enjoy は「〜を楽しむ」という他動詞なので O が要ります。「楽しく過ごす」は enjoy oneself と言い、We enjoyed very much. とはしません（@e1406）。
+    - table:
+        head: [言い方, 意味, 例]
+        rows:
+        - [enjoy oneself, "{{楽しく過ごす}}", We enjoyed ourselves.]
+        - [help oneself (to 〜), "{{（〜を）自由に取って食べる}}", Help yourself to the cookies.]
+        - [by oneself, "{{ひとりで}}（ほかの人といっしょでなく）", She lives by herself.]
+        - [for oneself, "{{自分で}}（人の助けを借りずに）・自分のために", Try it for yourself.]
+        - [make oneself at home, "{{くつろぐ}}", Please make yourself at home.]
+      notes:
+      - kind: 注意
+        text: 話し言葉では、料理を出しながら Enjoy! とだけ言うこともある。文の中で「楽しく過ごした」と言うときは enjoy oneself か enjoy the party のように O を付ける。
+    - ex: [e1406, e1407]
+    - check:
+      - q: 「両親は自分たちに新しい車を買った」の意味で、My parents bought (them／themselves) a new car.
+        a: themselves（them だと両親とは別の人たちになる）
+      - q: Is this notebook (your／yours)?
+        a: yours（後ろに名詞がないので所有代名詞）
+      - q: 「私のいとこの1人」を英語で（cousin を使って）。
+        a: a cousin of mine
+    examples:
+    - id: e1401
+      en: Ms. Hall teaches *us* English, and *we* like *her* classes.
+      ja: ホール先生は私たちに英語を教えていて、私たちは先生の授業が好きだ。
+    - id: e1402
+      en: This umbrella isn't *mine*. *Mine* is dark blue.
+      ja: このかさは私のではない。私のは紺色だ。
+    - id: e1403
+      en: Sean is a friend of *mine* from the basketball club.
+      ja: ショーンはバスケットボール部の友人の1人だ。
+    - id: e1404
+      en: My brother fell off his bike and hurt *himself*.
+      ja: 兄は自転車から落ちてけがをした。
+    - id: e1405
+      en: My sister made this birthday cake *herself*.
+      ja: 姉はこの誕生日ケーキを自分で作った。
+    - id: e1406
+      en: We enjoyed *ourselves* at the summer festival last night.
+      ja: 私たちは昨夜、夏祭りで楽しく過ごした。
+    - id: e1407
+      en: My grandmother has lived by *herself* in Nagano for ten years.
+      ja: 祖母は10年間、長野でひとりで暮らしている。
+    worked:
+    - q: （　）に入る最も適切なものを1つ選びなさい。<br>The woman in this photo is an old friend of (＿).
+      choices: [my, me, mine, myself]
+      steps:
+      - 空所は文のどの要素かを考える。空所は前置詞 of の後ろで、後ろに名詞がない。名詞の前に置く所有格の my は入らない。
+      - an old friend of ＿ の形に注目する。an と所有格は並べられないので、「私の古い友人の1人」は an old friend of mine と言う。
+      - 目的格の me を入れた an old friend of me、再帰代名詞の myself を入れた形は使わない。所有代名詞の mine を選ぶ。
+      ans: "3"
+      point: a・an・this などと所有格はいっしょに名詞の前に置けない。「名詞＋of＋所有代名詞」の形にする（a friend of mine、this bag of yours）。
+    - q: （　）に適切な1語を入れなさい。<br>The children enjoyed (＿) very much at the zoo.
+      steps:
+      - 空所は文のどの要素かを考える。enjoy は「〜を楽しむ」という他動詞なので、後ろに O が要る。空所は O の位置。
+      - O は S と同じ人か別の人かを確かめる。楽しく過ごしたのは子どもたち自身なので、S と O が同じ。再帰代名詞を使う。
+      - 数の手がかりを見る。S の The children は3人称の複数なので themselves にする。
+      ans: themselves
+      point: enjoy は O をとる他動詞なので、The children enjoyed very much. とは言わない。enjoy oneself の oneself は、S に合わせて myself・ourselves・themselves などに変える。themself とはしない。
+    summary:
+    - "S の位置は{{主格}}（I・they）、名詞の前は{{所有格}}（my・their）、O と前置詞の後ろは{{目的格}}（me・them）。and で並べても位置の規則は変わらない（my sister and {{me}}）。"
+    - "「〜のもの」は{{所有代名詞}}（mine・hers）で、後ろに名詞を置かない。a my friend ではなく a friend of {{mine}}。"
+    - "O が S と同じ人・物なら{{再帰代名詞}}（-self）。ただし場所を表す前置詞の後ろはふつう{{目的格}}（behind him）。"
+    - "楽しく過ごす＝enjoy {{oneself}}、ひとりで＝{{by}} oneself、自由に取って食べる＝{{help}} oneself。"
+  - id: s142
+    title: "it・one・that の使い分け"
+    aim: 前に出た名詞を it・one・that・those のどれで受けるかを判断し、天候・時間・距離を表す it を見分けられるようになる。
+    body:
+    - h: it は「その物」、one は「同じ種類の1つ」
+    - p: 前に出た名詞をくり返さないために使う語は、it だけではありません。@e1408 の it は、なくしたかさ「そのもの」を指しています。it は「the＋名詞」の代わりです。一方、@e1409 の one は、消しゴム「そのもの」ではなく、「消しゴムというものを1つ」という意味です。相手が持っているどの消しゴムでもかまいません。one は「a＋名詞」の代わりです。
+    - ex: [e1408, e1409]
+    - p: 「同じ種類のもの」が複数なら ones を使います（@e1410）。one・ones の前には new・red などの形容詞を置けます。the を付けて the one on the left（左側のもの）のように後ろから説明すると、指す物が1つに決まります。one は数えられる名詞の代わりなので、数えられない名詞（@s131）は one で受けません。I need some milk. と言われて「私も少し要る」と答えるなら、I need some, too. と some を使います。
+      notes:
+      - kind: 注意
+        text: my one とは言わない。「私のもの」は mine を使う。
+    - ex: [e1410]
+    - table:
+        head: [語, 何の代わりか, 指す物]
+        rows:
+        - [it, "{{the＋単数名詞}}（その物）", 前に出た物そのもの]
+        - [they・them, the＋複数名詞, 前に出た物そのもの（複数）]
+        - [one, "{{a＋単数名詞}}", 同じ種類の、どれでもよい1つ]
+        - [ones, 複数名詞（some＋複数名詞など）, 同じ種類の、どれでもよいいくつか]
+    - h: that of ～ と those of ～
+    - p: 「札幌の天気は那覇の天気とはずいぶん違う」を英語にするとき、the weather をくり返す代わりに that を使います（@e1411）。that は「the＋名詞」の代わりで、後ろに in Naha や of a cat のような説明が付きます。前の名詞が複数なら those にします（@e1412）。it は後ろに of ～ や in ～ を付けて「〜の」と説明できないので、ここでは使いません。
+      notes:
+      - kind: 注意
+        text: 話し言葉では、数えられる名詞なら the one in ～ を使うこともある（the kitchen in my old house → the one in my old house）。入試の4択では that／those を選ぶ問題がほとんど。
+      - kind: 参照
+        text: those who ～ は「〜する人々」という意味で、前の名詞を受けない（Those who finished the test can leave.）。
+    - ex: [e1411, e1412]
+    - p: that と those のどちらを使うかは、前の名詞が単数か複数かで決まります。数えられない名詞（water・weather など）は単数扱いなので that です。比べる文では、前の名詞と同じ種類の物どうしを比べているかを確かめます。The ears of a rabbit are longer than a cat. とすると、ウサギの耳とネコそのものを比べることになるので、those of a cat とします。
+    - h: 何も指さない it
+    - p: it には、前の名詞を指さない使い方もあります。天気・寒暖・明るさ・時刻・日付・曜日・距離を言う文では、主語の位置に it を置きます（@e1413）。英語の文には S が要るので、S の位置を埋めるために it を置いていると考えます。この it は「それは」と訳しません。単元6 で学んだ形式主語・形式目的語の it も、後ろの不定詞を指すしるしで、「それ」とは訳しません。
+    - table:
+        head: [it の使い方, 例, 訳し方]
+        rows:
+        - [前に出た物を指す, I lost my key and found it later., "{{それ}}"]
+        - [天気・時刻・距離など, It's ten past seven., "{{訳さない}}"]
+        - [形式主語（@s061）, It is fun to cook with friends., to 以下を主語として訳す]
+        - [形式目的語（@s064）, I found it hard to wake up early., to 以下を O として訳す]
+    - ex: [e1413]
+    - check:
+      - q: I lost my bag. I have to find (it／one).
+        a: it（なくしたかばんそのもの）
+      - q: My phone is old. I want a new (it／one).
+        a: one（同じ種類の新しい1つ）
+      - q: The streets in Kyoto are narrower than (that／those) in Sapporo.
+        a: those（the streets の代わり）
+    examples:
+    - id: e1408
+      en: I left my umbrella on the train, but a station worker found *it*.
+      ja: 私は電車にかさを置き忘れたが、駅員さんが見つけてくれた。
+    - id: e1409
+      en: I forgot my eraser. Can I borrow *one*?
+      ja: 消しゴムを忘れちゃった。1つ借りてもいい？
+    - id: e1410
+      en: These running shoes are too small for me now. I need new *ones*.
+      ja: このランニングシューズはもう小さすぎる。新しいのが要る。
+    - id: e1411
+      en: The weather in Sapporo is very different from *that* in Naha.
+      ja: 札幌の天気は、那覇の天気とはずいぶん違う。
+    - id: e1412
+      en: The rules of the brass band are stricter than *those* of the tennis club.
+      ja: 吹奏楽部の決まりは、テニス部の決まりより厳しい。
+      gloss: [[brass band, 吹奏楽団・吹奏楽部]]
+    - id: e1413
+      en: "*It* is about three kilometers from the station to Mr. Aoki's farm."
+      ja: 駅から青木さんの農場までは約3キロだ。
+    worked:
+    - q: （　）に入る最も適切なものを1つ選びなさい。<br>I bought a new bike last month, but someone stole (＿) yesterday.
+      choices: [one, it, ones, them]
+      steps:
+      - 空所は文のどの要素かを考える。stole の後ろなので O。前に出た名詞 a new bike の代わりになる語が入る。
+      - 指す物を確かめる。盗まれたのは「先月買ったその自転車」なので、the＋名詞の代わりになる it を使う。
+      - 数の手がかりを見る。自転車は1台なので、複数の ones・them は入らない。one にすると「自転車を1台（別の自転車を）盗んだ」となり、自分の自転車の話にならない。
+      ans: "2"
+      point: 前に出た物そのものなら it、同じ種類のどれか1つなら one。日本語の「それ」「1つ」にこだわらず、指す物が決まっているかで選ぶ。
+    - q: （　）に入る最も適切なものを1つ選びなさい。<br>The ears of a rabbit are longer than (＿) of a cat.
+      choices: [that, those, it, ones]
+      steps:
+      - 空所は than の後ろで、後ろに of a cat が続く。比べているのは「ウサギの耳」と「ネコの耳」なので、空所には the ears の代わりになる語が入る。
+      - 後ろに of ～ を付けて説明できるのは that・those。it は of ～ で説明できない。ones も、of ～ を続けた形はふつう使わない。
+      - 数の手がかりを見る。The ears は複数なので those を選ぶ。単数の that は入らない。
+      ans: "2"
+      point: 動詞 are と前の名詞 The ears から、複数だと分かる。than a cat とすると、ウサギの耳とネコそのものを比べることになる。
+    summary:
+    - "前に出た物そのもの → {{it}}（the＋名詞）。同じ種類のどれか1つ → {{one}}（a＋名詞）。複数なら{{ones}}。"
+    - "one は{{数えられない}}名詞の代わりには使わない。"
+    - "後ろに of ～・in ～ の付く「the＋名詞」のくり返し → 単数なら{{that}}、複数なら{{those}}。"
+    - "天気・時刻・距離などの文の主語は{{it}}で、「それは」と{{訳さない}}。"
+  - id: s143
+    title: "one・another・the other・others"
+    aim: 全体がいくつあるか、残りがいくつかを確かめて、another・the other・others・the others を使い分けられるようになる。
+    body:
+    - h: 「残りが決まっているか」で the を付ける
+    - p: 「2人の兄がいて、1人は神戸に、もう1人は仙台に住んでいる」と言うとき、「もう1人」がだれかは1人に決まります。決まっているものには the を付けるので、the other を使います（@e1414）。one・another・other・some のように、特定の人や物を決めずに数や範囲を表す代名詞を<<不定代名詞>>といいます。不定代名詞の使い分けは、「全体の数が決まっているか」「残りは1つか、2つ以上か」の2つで決まります。
+      notes:
+      - kind: 用語
+        term: 不定代名詞
+        yomi: ふていだいめいし
+        text: one・another・other・some・any・each・all など、特定の人や物を決めずに、数や範囲を表す代名詞。多くは名詞の前に置いて形容詞のようにも使う（another cup、each room）。
+    - ex: [e1414]
+    - table:
+        head: [場面, 最初の1つ（いくつか）, 次の1つ, 残り]
+        rows:
+        - [2つのうち, one, ―, "{{the other}}（残りの1つ）"]
+        - [3つのうち, one, "{{another}}（別の1つ）", the other（残りの1つ）]
+        - [3つ以上で、残りが2つ以上, one・some, ―, "{{the others}}（残り全部）"]
+        - [数が決まっていない, some, ―, "{{others}}（ほかの人・物）"]
+    - h: another は「別のもう1つ」で単数
+    - p: another は an と other が1語になった語です。an が入っているので、「別のもう1つ」という単数の意味になり、後ろに名詞を置くときも単数形です（@e1415）。another は、どの1つを指すかを決めずに使います。店でカップが汚れていたとき、Could you bring me another? と言えば「別のカップを1つ」の意味で、どのカップかは決まっていません。
+    - ex: [e1415]
+    - p: another の後ろに複数形の名詞を置く形には、例外が1つあります。another twenty minutes（さらに20分）、another 500 yen（さらに500円）のように、数を表す語が付いたときです（@e1416）。この形では「20分」「500円」を1つのまとまりと考えるので、another を使えます。この例外を除けば、「another の後ろは単数形」と覚えます。「ほかの〜（複数）」と言いたいときは、other students のように other＋複数形にします。
+      notes:
+      - kind: 注意
+        text: other は1語だけで名詞の代わりにはふつうならない。「ほかの人たち」は others、「残りの1つ」は the other と言う。
+    - ex: [e1416]
+    - h: others と the others
+    - p: 全体の数が決まっていないとき、Some ～, and others …. で「〜する人もいれば、…する人もいる」を表します（@e1417）。この others は「ほかの人たち」で、残り全部とは限りません。一方、全体の数が決まっていて「残り全部」を指すときは、the を付けて the others にします（@e1418）。the others は the other＋複数名詞（the other students）の代わりです。
+      notes:
+      - kind: 参照
+        text: each other・one another は「お互い」という意味の代名詞で、O の位置に置く（We help each other.）。talk のように前置詞が要る動詞では talk to each other とする。
+    - ex: [e1417, e1418]
+    - check:
+      - q: I have two cousins. One lives in Kobe, and (another／the other) lives in Fukuoka.
+        a: the other（2人のうちの残りの1人）
+      - q: This cup is cracked. Could I have (another／other) one?
+        a: another（別のもう1つ）
+      - q: Six people came. Two stayed for dinner, and (others／the others) went home.
+        a: the others（6人のうち残りの4人全部）
+    examples:
+    - id: e1414
+      en: I have two older brothers. *One* lives in Kobe, and *the other* lives in Sendai.
+      ja: 私には兄が2人いる。1人は神戸に、もう1人は仙台に住んでいる。
+    - id: e1415
+      en: This glass is a little dirty. Could you bring me *another*?
+      ja: このコップは少し汚れています。別のを持ってきてもらえますか。
+    - id: e1416
+      en: The train was late, so we waited for *another* twenty minutes.
+      ja: 電車が遅れていたので、私たちはさらに20分待った。
+    - id: e1417
+      en: "*Some* students go home by bus, and *others* walk."
+      ja: バスで帰る生徒もいれば、歩いて帰る生徒もいる。
+    - id: e1418
+      en: Ten students took the test. *One* failed, but *the others* passed.
+      ja: 10人の生徒がテストを受けた。1人は不合格だったが、残りは全員合格した。
+    worked:
+    - q: （　）に入る最も適切なものを1つ選びなさい。<br>I have two dogs. One is white, and (＿) is black.
+      choices: [another, other, the other, others]
+      steps:
+      - 空所は is の前なので S。is が単数なので、1匹を表す語が入る。複数の others は入らない。
+      - 全体の数を確かめる。犬は2匹で、One（1匹目）の残りは1匹に決まる。
+      - 残りが1つに決まっているので the を付けて the other。another は「別のもう1つ」で、残りがほかにもある場合に使う。other は1語では S にならない。
+      ans: "3"
+      point: 2つのうち1つを one と言ったら、もう1つは the other。数が決まっているかどうかを、問題文の two・three などの数字で確かめる。
+    - q: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。<br>I __didn't like__① the blue shirt, so the clerk __brought__② me __another shirts__③ __in__④ different colors.
+      steps:
+      - 名詞の数を確かめる。③の another は「別のもう1つ」で単数の意味なので、後ろの shirts（複数形）と合わない。数を表す語（two・twenty など）も付いていない。
+      - 文の意味を確かめる。different colors（いろいろな色）とあるので、店員が持ってきたのは何枚かのシャツ。another shirt（1枚）ではなく、other shirts（ほかのシャツ）にする。
+      - ほかの下線部を確かめる。①は didn't＋原形、②は bring の過去形 brought で bring O₁ O₂ の形、④は色を表す in で、どれも正しい。
+      ans: "3"
+      point: another＋複数形は、another twenty minutes のように数を表す語が付くときだけ。「ほかの〜（複数）」は other＋複数形にする。
+    summary:
+    - "2つのうち：one と{{the other}}。3つのうち：one、{{another}}、the other。"
+    - "another は「別のもう1つ」で、後ろは{{単数形}}。例外は another twenty minutes のように{{数を表す語}}が付くとき。"
+    - "数が決まっていない「ほかの人・物」は{{others}}、数が決まっていて「残り全部」は{{the others}}。"
+  - id: s144
+    title: "数・量を表す代名詞"
+    aim: some と any、each と every、either と neither、all・both・none を使い分け、後ろに続く動詞を単数にするか複数にするかを判断できるようになる。
+    body:
+    - h: some と any
+    - p: some と any はどちらも「いくつか・いくらか」を表します。中学では「肯定文は some、疑問文と否定文は any」と習いました。この規則には例外が2つあります。1つ目は、人に物をすすめたり頼んだりする疑問文です。相手が Yes と答えると思っているので、Would you like some tea? のように some を使います（@e1419）。2つ目は、肯定文の any が「どんな〜でも」という意味になる場合です。Any student can use this room.（どの生徒もこの部屋を使える）のように、後ろに単数形の名詞を置くことが多くなります。この2つを除けば、中学の規則で選べます。否定文の not ～ any は「少しも〜ない」です（@e1420）。
+    - ex: [e1419, e1420]
+    - h: each と every の後ろは単数
+    - p: each は「1つ1つ・それぞれ」、every は「どの〜も全部」です。each は each student のように名詞の前にも置けますし、each of the students のように代名詞としても使えます。every は名詞の前にしか置けず、every of the students とは言いません（every one of the students なら使えます）。どちらも1つずつを数える語なので、each・every の後ろの名詞は単数形、動詞も単数に合わせます（@e1421、@e1422）。
+    - ex: [e1421, e1422]
+    - p: 動詞を単数にするという規則にも、例外があります。The students each have a locker. のように、each が複数の主語の後ろに置かれた形では、動詞は主語の The students に合わせて複数です。every にも、every three days（3日ごとに）のように数を表す語と複数形が続く形があります。each が文の頭で S になるとき（Each of ～、Each＋名詞）と、every＋名詞が S のときは、動詞は単数です。
+      notes:
+      - kind: 注意
+        text: each of の後ろには the・my などの付いた複数名詞か、them・us などを置く。each of students のように the を落とさない。
+    - h: 2つなら both・either・neither、3つ以上なら all・any・none
+    - p: 2つ（2人）について言う語と、3つ以上について言う語は別です。2つのうち「両方とも」は both、「どちらか一方・どちらでも」は either、「どちらも〜ない」は neither です（@e1423）。neither は not ～ either と同じ意味なので、I don't like neither. のように not といっしょには使いません。3つ以上なら、「全部」は all、「どれでも」は any、「どれも〜ない」は none です（@e1424）。
+      notes:
+      - kind: 参照
+        text: either A or B・neither A nor B（@s091）は2つを並べる相関接続詞。この節の either・neither は、either of them のように1語で代名詞として使う形。
+    - ex: [e1423, e1424]
+    - p: 動詞の数は、語ごとに決まり方が違います。both は2つなのでいつも複数です。either・neither は1つずつを考えるので、書き言葉では単数にします（話し言葉では Neither of them are ～ と複数も使われますが、入試では単数を選びます）。all は of の後ろの名詞に合わせ、数えられない名詞（@s131）なら単数、複数名詞なら複数です（@e1425）。none of の後ろが複数名詞のときは、単数・複数のどちらの動詞も使われます。
+      notes:
+      - kind: 参照
+        text: not all（全部が〜とは限らない）、not both などの部分否定は、単元17（@s173）で扱う。
+    - table:
+        head: [語, 何について, 形, 動詞]
+        rows:
+        - [each, 2つ以上の1つ1つ, "each＋単数名詞／each of the＋複数名詞", "{{単数}}"]
+        - [every, 3つ以上の全部, every＋単数名詞（every of は不可）, "{{単数}}"]
+        - [both, 2つの両方, both of the＋複数名詞, "{{複数}}"]
+        - [either／neither, 2つのどちらか／どちらも〜ない, either of the＋複数名詞, 単数（話し言葉では複数も）]
+        - [all, 3つ以上の全部・量の全部, all of the＋名詞, "{{of の後ろの名詞}}に合わせる"]
+        - [none, 3つ以上のどれも〜ない, none of the＋名詞, 単数・複数どちらも（数えられない名詞なら単数）]
+    - ex: [e1425]
+    - check:
+      - q: Each of the classrooms (has／have) an air conditioner.
+        a: has
+      - q: 「2本のペンのどちらも書けない」の「どちらも〜ない」は？（Neither／None）of the two pens works.
+        a: Neither（2つについて言う）
+      - q: All of the money in the box (was／were) stolen.
+        a: was（money は数えられない名詞）
+    examples:
+    - id: e1419
+      en: Would you like *some* cookies? I baked them this morning.
+      ja: クッキーはいかがですか。今朝焼いたんです。
+    - id: e1420
+      en: My little brother didn't eat *any* vegetables at dinner.
+      ja: 弟は夕食で野菜を少しも食べなかった。
+    - id: e1421
+      en: "*Each* of the rooms in this hotel has a small kitchen."
+      ja: このホテルの部屋には、それぞれ小さな台所が付いている。
+    - id: e1422
+      en: "*Every* student in my class has a tablet for school."
+      ja: 私のクラスの生徒はみな、学校で使うタブレットを持っている。
+    - id: e1423
+      en: I asked at two bookstores, but *neither* of them had the book.
+      ja: 2軒の書店でたずねたが、どちらにもその本はなかった。
+    - id: e1424
+      en: I sent messages to five friends, but *none* of them answered.
+      ja: 5人の友達にメッセージを送ったが、だれも返事をくれなかった。
+    - id: e1425
+      en: "*All* of the milk in the fridge was gone, so Ms. Hall went to the store."
+      ja: 冷蔵庫の牛乳がすっかりなくなっていたので、ホール先生は店に行った。
+      gloss: [[fridge, 冷蔵庫]]
+    worked:
+    - q: （　）に入る最も適切なものを1つ選びなさい。<br>Each of the students (＿) a locker in the hallway.
+      choices: [have, has, are having, having]
+      steps:
+      - 空所は文のどの要素かを考える。Each of the students が S で、空所には V が入る。V にならない having は入らない。
+      - 数の手がかりを見る。S の中心は Each（それぞれ）で、1人ずつを数えているので単数扱い。the students（複数）は of の後ろにあるだけで、S の中心ではない。
+      - 単数の S に合わせた現在形は has。have と are having は複数の S に合わせた形で、are having は「持っている」の意味の have を進行形にしている点でも誤り。
+      ans: "2"
+      point: 動詞のすぐ前の students につられて have を選ばない。Each of ～、Every＋名詞が S なら、動詞は単数。
+    - q: （　）に入る最も適切なものを1つ選びなさい。<br>A：Which bag do you want, the red one or the blue one?<br>B：Hmm, I don't like (＿) of them. Let's go to another shop.
+      choices: [either, neither, all, none]
+      steps:
+      - 何について言っているかを確かめる。赤と青の2つのかばんなので、2つについて言う either か neither。3つ以上について言う all・none は入らない。
+      - 文に not があるかを見る。don't like と not がすでにあるので、neither（どちらも〜ない）を入れると否定が2つ重なる。
+      - not ～ either で「どちらも〜ない」になる。either を選ぶ。
+      ans: "1"
+      point: neither＝not ～ either。not があれば either、なければ neither。2つの話か3つ以上の話かを先に確かめる。
+    summary:
+    - "すすめる・頼む疑問文では{{some}}。肯定文の any は「{{どんな〜でも}}」。"
+    - "Each of ～・Every＋名詞が S なら、動詞は{{単数}}。every は代名詞として使えないので every of とは言わない。"
+    - "2つなら both・{{either}}・{{neither}}、3つ以上なら all・any・{{none}}。neither＝not ～ {{either}}。"
+    - "all of の後の動詞は、of の後ろの名詞に合わせる（数えられない名詞なら{{単数}}）。both は常に{{複数}}。"
+problems:
+# ---- 前提チェック ----
+- id: q14001
+  sec: s141
+  set: 前提
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Sean's parents are very kind. I often play tennis with (＿) on Sundays.
+  choices: [they, their, them, theirs]
+  ans: "3"
+  why: 前置詞 with の後ろなので目的格。Sean's parents（複数）を指すので them。
+  trap: ①they を選ぶ誤り。日本語では「彼らと」と言うので主格を選びやすいが、前置詞の後ろは目的格になる。
+- id: q14002
+  sec: s141
+  set: 前提
+  lv: 1
+  kind: 4択
+  min: 1
+  q: I have a cat at home. (＿) name is Momo.
+  choices: [It's, Its, It, Their]
+  ans: "2"
+  why: 空所の後ろに名詞 name があるので「その〜」を表す所有格が入る。1匹の猫なので its。
+  trap: ①It's を選ぶ誤り。It's は It is の短い形で、It's name is ～ は「それは名前だ…」となり文にならない。
+- id: q14003
+  sec: s141
+  set: 前提
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: （　）内の語を適切な形に変えなさい。変える必要がなければそのまま書きなさい。
+  q: My brother and I (＿) the same room.（share）
+  ans: share
+  why: S は My brother and I の2人で、複数。現在の文で S が複数なので、-s を付けずに share。
+  trap: 直前の I や My brother（1人）に合わせて shares とする誤り。and で2人を並べた S は複数として扱う。
+# ---- s141 節末 ----
+- id: q14004
+  sec: s141
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Is this pencil case (＿)? I found it under your desk.
+  choices: [you, your, yours, yourself]
+  ans: "3"
+  why: is の後ろで、後ろに名詞がない。「あなたのもの」を1語で表す所有代名詞 yours を選ぶ。
+  trap: ②your を選ぶ誤り。your は所有格で、後ろに名詞（your pencil case）が要る。
+- id: q14005
+  sec: s141
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: （　）内の語を適切な形に変えなさい。
+  q: Mr. Aoki lives next door, and his dog often comes into (＿) garden.（we）
+  ans: our
+  why: 空所の後ろに名詞 garden があるので、「私たちの」を表す所有格 our。
+  trap: us とする誤り。前置詞 into の後ろなので目的格を考えやすいが、into の後ろの名詞は garden で、空所はその前に付く所有格の位置。
+- id: q14006
+  sec: s141
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: My grandfather lives (＿) in a small house by the sea.
+  choices: [by him, by himself, with himself, of himself]
+  ans: "2"
+  why: by oneself で「ひとりで」。S の My grandfather に合わせて by himself にする。
+  trap: ①by him を選ぶ誤り。him は S とは別の男性を指すので、「彼のそばに住む」という別の意味に読めてしまう。
+- id: q14007
+  sec: s141
+  set: 節末
+  lv: 1
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: このかばんは私のものではなく、姉のものだ。<br>This bag is ( but / mine / my / not / sister's ).
+  words: [but, mine, my, not, sister's]
+  ans: This bag is not mine but my sister's.
+  why: not A but B（A ではなく B）の A に所有代名詞 mine、B に名詞の所有格 my sister's を置く。どちらも後ろに bag を置かずに「〜のもの」を表す。
+  trap: not my but sister's mine のように my と mine を取りちがえる誤り。名詞が後ろに続かないときは mine、my は後ろに名詞（sister's）を続ける。
+- id: q14008
+  sec: s141
+  set: 節末
+  lv: 1
+  kind: 和訳
+  min: 3
+  inst: 次の英文を日本語に訳しなさい。
+  q: My father made this table himself.
+  ans: 父はこのテーブルを自分で作った。
+  alt: [父は自分でこのテーブルを作った。]
+  why: 文の最後の himself は、「ほかの人ではなく自分で」と強める再帰代名詞。「自分で」が訳せていることが採点の要点。
+  trap: 「父はこのテーブルを彼自身に作った」と、made O₁ O₂ の形と考える誤り。O は this table だけで、himself は文の最後に置いて強めている。
+- id: q14009
+  sec: s141
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Our coach asked my brother and (＿) to carry the boxes to the gym.
+  choices: [I, my, me, mine]
+  ans: "3"
+  why: my brother and ＿ は asked の O。and で並べても O の位置なので目的格 me。my brother を消して asked me としてみると確かめられる。
+  trap: ①I を選ぶ誤り。「〜と私」と2人を並べると主格にしたくなるが、格は位置で決まる。
+- id: q14010
+  sec: s141
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: My sister and I __went__① to the summer festival __with__② our cousins and __enjoyed very much__③ __until__④ nine.
+  ans: "3"
+  why: enjoy は O が要る他動詞。「楽しく過ごした」は S（My sister and I）に合わせて enjoyed ourselves very much にする。
+  trap: ④until を誤りと考える誤り。until nine は「9時まで（ずっと）」で正しい。enjoy は「楽しむ」という日本語につられて O を落としやすい。
+# ---- s142 節末 ----
+- id: q14011
+  sec: s142
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: I lost my pen, so I need to buy (＿) after school.
+  choices: [it, one, them, ones]
+  ans: "2"
+  why: 買うのはなくしたペンそのものではなく、ペンを1本。a pen の代わりになる one を選ぶ。
+  trap: ①it を選ぶ誤り。it はなくしたペンそのものを指すので、「なくしたペンを買う」となって意味が通らない。
+- id: q14012
+  sec: s142
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: （　）に適切な1語を入れなさい。文頭に入る語は大文字で書き始めること。
+  q: (＿) is getting dark outside. Let's go home.
+  ans: It
+  why: 明るさ・暗さを言う文の S には it を置く。この it は何も指さず、「それは」とは訳さない。
+  trap: There を入れる誤り。There is ～ は後ろに名詞が来て「〜がある」を表す文で、is getting dark とは続かない。
+- id: q14013
+  sec: s142
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: My grandmother gave me a watch for my birthday, and I wear (＿) every day.
+  choices: [one, it, ones, them]
+  ans: "2"
+  why: 毎日つけているのは、祖母からもらった「その腕時計」。前に出た物そのものなので it。
+  trap: ①one を選ぶ誤り。前に a watch と a が付いているので one にしたくなるが、one だと「どれか腕時計を1つ」となり、もらった時計の話にならない。
+- id: q14014
+  sec: s142
+  set: 節末
+  lv: 1
+  kind: 和訳
+  min: 3
+  inst: 次の英文を日本語に訳しなさい。
+  q: It is about two kilometers from my house to the lake.
+  ans: 私の家から湖までは約2キロだ。
+  alt: [家から湖まではおよそ2キロメートルある。]
+  why: 距離を表す文の It は何も指さないので訳さない。from A to B（A から B まで）と about（約）が訳せていることが採点の要点。
+  trap: 「それは私の家から湖まで約2キロだ」と It を「それは」と訳す誤り。距離・時刻・天気の It は訳さない。
+- id: q14015
+  sec: s142
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: The air in the mountains is cleaner than (＿) in the city.
+  choices: [it, that, those, one]
+  ans: "2"
+  why: 比べているのは「山の空気」と「都会の空気」。the air のくり返しを避け、後ろに in the city が付くので that を使う。air は数えられない名詞で単数扱い。
+  trap: ③those を選ぶ誤り。those は複数の名詞の代わり。air は数えられない名詞なので that になる。
+- id: q14016
+  sec: s142
+  set: 節末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 東京の夏は、ロンドンの夏よりずっと暑い。<br>Summers in Tokyo ( are / hotter / in / London / much / than / those ).
+  words: [are, hotter, in, London, much, than, those]
+  ans: Summers in Tokyo are much hotter than those in London.
+  why: Summers（複数）のくり返しを避けて those in London とする。比較級を強める much は hotter の前に置く。
+  trap: than in London those のように those の位置をまちがえる誤り。those は「the summers」の代わりなので、説明の in London はその後ろに付ける。
+- id: q14017
+  sec: s142
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: My brother __lent__① me __his__② camera last week, but I __lost__③ __one__④ on the train.
+  ans: "4"
+  why: なくしたのは兄が貸してくれた「そのカメラ」なので、one ではなく it にする。
+  trap: ②his を誤りと考える誤り。his camera は「兄のカメラ」で正しい。one は「どれか1つ」なので、借りた物そのものは指せない。
+# ---- s143 節末 ----
+- id: q14018
+  sec: s143
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: I have two sisters. One is a nurse, and (＿) is a college student.
+  choices: [another, other, the other, the others]
+  ans: "3"
+  why: 姉妹は2人で、1人目（One）の残りは1人に決まる。残りの1つは the other。
+  trap: ①another を選ぶ誤り。another は「別のもう1つ」で、残りがほかにもいる場合に使う。2人のうちの残りには使わない。
+- id: q14019
+  sec: s143
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: （　）に適切な1語を入れなさい。
+  q: I've already had one piece of this cake, but it's so good. Can I have (＿) piece?
+  ans: another
+  why: すでに1切れ食べていて、「もう1切れ」と頼んでいる。どの1切れかは決まっていないので another。後ろの piece も単数形。
+  trap: other を入れる誤り。other は単数形の名詞の前に1語では置かない。「別のもう1つ」は another。
+- id: q14020
+  sec: s143
+  set: 節末
+  lv: 1
+  kind: 和訳
+  min: 3
+  inst: 次の英文を日本語に訳しなさい。
+  q: Some people like summer, and others like winter.
+  ans: 夏が好きな人もいれば、冬が好きな人もいる。
+  alt: [夏を好む人もいるし、冬を好む人もいる。]
+  why: Some ～, and others …. は「〜する人もいれば、…する人もいる」。人数が決まっていないので、others は「ほかの人たち」の意味。
+  trap: 「何人かは夏が好きで、残りの人は全員冬が好きだ」と訳す誤り。残り全部なら the others になる。
+- id: q14021
+  sec: s143
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: There are five students in the room. Two are from Japan, and (＿) are from Korea.
+  choices: [the other, the others, another, other]
+  ans: "2"
+  why: 全体は5人で、2人の残りの3人全部を指す。数が決まっていて残りが2人以上なので the others。動詞も are で複数。
+  trap: ①the other を選ぶ誤り。the other は残りが1つのときに使い、単数扱い。残りは3人で、動詞も are になっている。
+- id: q14022
+  sec: s143
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: My parents gave me two books. I __have read__① one of them, but I __haven't started__② __another__③ __yet__④.
+  ans: "3"
+  why: 本は2冊で、one of them の残りは1冊に決まる。another ではなく the other にする。
+  trap: ④yet を誤りと考える誤り。yet は否定文で「まだ」を表し、haven't started ～ yet は正しい。2冊のうちの残りであることを見落としやすい。
+- id: q14023
+  sec: s143
+  set: 節末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: あと5分待ってもらえますか。<br>Can you ( another / five / for / minutes / wait )?
+  words: [another, five, for, minutes, wait]
+  ans: Can you wait for another five minutes?
+  why: another＋数を表す語＋複数形で「さらに〜」。five minutes をひとまとまりと考えるので、複数形の minutes の前でも another を使える。
+  trap: another の後ろは単数形だと考えて、another を使わずに five more minutes のような形をさがす誤り。数を表す語が付けば another five minutes と言える。
+- id: q14024
+  sec: s143
+  set: 節末
+  lv: 2
+  kind: 英作
+  min: 2
+  inst: 日本語の意味になるように、（　）に適切な英語を入れなさい。
+  q: このシャツは小さすぎます。別のを見せてください。<br>This shirt is too small. Please show me (＿).
+  ans: another one
+  alt: [another, another shirt]
+  why: 店にあるシャツのうち、どれと決まっていない「別の1枚」なので another（another one・another shirt でもよい）。
+  trap: the other を入れる誤り。the other は残りが1つに決まっているとき（シャツが全部で2枚のとき）に使う。
+# ---- s144 節末 ----
+- id: q14025
+  sec: s144
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: I bought (＿) apples at the market this morning.
+  choices: [any, some, much, every]
+  ans: "2"
+  why: 肯定文で「いくつか」を表すのは some。後ろの apples は複数形。
+  trap: ①any を選ぶ誤り。肯定文の any は「どんな〜でも」の意味になり、「りんごをいくつか買った」にはならない。
+- id: q14026
+  sec: s144
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: （　）内の語を適切な形に変えなさい。
+  q: Every student in this school (＿) a tablet for class.（have）
+  ans: has
+  why: Every＋単数名詞が S なので、動詞は単数。現在の文なので has。
+  trap: 「全員」という意味から複数と考えて have とする誤り。every は1人ずつ数えるので単数扱い。
+- id: q14027
+  sec: s144
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Both of my grandparents (＿) in Kagoshima.
+  choices: [lives, is living, live, has lived]
+  ans: "3"
+  why: Both of ～ は「2人とも」で、いつも複数扱い。複数の S に合う現在形は live。
+  trap: ①lives を選ぶ誤り。直前の grandparents ではなく Both に合わせる、と考えても、both は2人なので複数。
+- id: q14028
+  sec: s144
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: There are two Italian restaurants near the station. I've been to (＿) of them, so I can't tell you which is better.
+  choices: [neither, both, any, all]
+  ans: "1"
+  why: レストランは2軒で、「どちらがよいか言えない」のは、どちらにも行ったことがないから。2つについて「どちらも〜ない」は neither。
+  trap: ②both を選ぶ誤り。2つについての語なので形は合うが、両方に行ったことがあるなら、どちらがよいか言えるはずで、so 以下と意味がつながらない。
+- id: q14029
+  sec: s144
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: __Every students__① in our club __has__② to __bring__③ a racket __to__④ practice.
+  ans: "1"
+  why: every の後ろの名詞は単数形。Every student にする。動詞 has は単数の S に合っている。
+  trap: ②has を誤りと考えて have に直す誤り。every は1人ずつ数える語なので、名詞も動詞も単数にそろえる。
+- id: q14030
+  sec: s144
+  set: 節末
+  lv: 2
+  kind: 補充
+  min: 1
+  inst: （　）内の語を適切な形に変えなさい。
+  q: All of the milk in the bottle (＿) gone, so I bought some more.（be）
+  ans: was
+  why: all of の後ろの動詞は、of の後ろの名詞に合わせる。milk は数えられない名詞なので単数。bought から過去の話なので was。
+  trap: All を「全部」と考えて were とする誤り。all of の後ろが数えられない名詞なら単数扱い。
+- id: q14031
+  sec: s144
+  set: 節末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。文頭に来る語も小文字で示してある。
+  q: 私の友達は、だれもその答えを知らなかった。<br>( answer / friends / knew / my / none / of / the ).
+  words: [answer, friends, knew, my, none, of, the]
+  ans: None of my friends knew the answer.
+  why: 3人以上の友達の「だれも〜ない」は none。None of my friends を S にし、knew the answer を続ける。none に否定の意味があるので、not は要らない。
+  trap: My friends knew none of the answer. と並べる誤り。日本語の「友達は」を S にしたくなるが、「だれも」が否定するのは友達なので None of my friends を S にする。
+# ---- 確認テスト ----
+- id: q14032
+  sec: s141
+  set: 確認テスト
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: These shoes aren't mine. (＿) are under the bench.
+  choices: [My, Me, Mine, Myself]
+  ans: "3"
+  why: 空所は are の前の S で、後ろに名詞がない。「私のもの（私の靴）」を表す所有代名詞 Mine。
+  trap: ①My を選ぶ誤り。My は所有格なので後ろに名詞（My shoes）が要る。
+- id: q14033
+  sec: s142
+  set: 確認テスト
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: （　）に適切な1語を入れなさい。
+  q: I forgot to bring a calculator. Does anyone have (＿)?
+  ans: one
+  why: 借りたいのは自分の電卓ではなく、電卓を1つ。a calculator の代わりになる one。
+  trap: it を入れる誤り。it は前に出た物そのもの（家に忘れた自分の電卓）を指すので、ほかの人が持っているはずがない。
+- id: q14034
+  sec: s143
+  set: 確認テスト
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Ms. Hall has three cats. One is black, another is white, and (＿) is brown.
+  choices: [other, another, the other, the others]
+  ans: "3"
+  why: 3匹のうち、1匹目が One、2匹目が another。残りは1匹に決まるので the other。
+  trap: ②another を選ぶ誤り。another は残りがほかにもいるときに使う。3匹目で最後なので、残りは1匹に決まっている。
+- id: q14035
+  sec: s144
+  set: 確認テスト
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: My uncle has __two__① sons, and __every__② of them __plays__③ the guitar __well__④.
+  ans: "2"
+  why: every は名詞の前にしか置けず、every of とは言わない。each of them にする。each は単数扱いなので③plays はそのまま正しい。
+  trap: ③plays を誤りと考えて play に直す誤り。every を each に直せば、each は単数扱いなので plays で正しい。
+- id: q14036
+  sec: s141
+  set: 確認テスト
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: この写真の男性は、父の友人の1人だ。<br>The man in this photo is ( a / father's / friend / my / of ).
+  words: [a, father's, friend, my, of]
+  ans: The man in this photo is a friend of my father's.
+  why: 「〜の友人の1人」は a friend of ～ の形にする。of の後ろに名詞の所有格 my father's を置く。
+  trap: my father's a friend と並べる誤り。所有格と a は並べて名詞の前に置けないので、a friend を先に置き、of の後ろに所有格を回す。
+- id: q14037
+  sec: s142
+  set: 確認テスト
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: (＿) snowed a lot in Niigata last night.
+  choices: [It, There, That, Weather]
+  ans: "1"
+  why: 天気を言う文の S には it を置く。snow（雪が降る）の S になるのは It だけ。
+  trap: ②There を選ぶ誤り。There は There is ～ の形で「〜がある」を表し、snowed の S にはならない。
+- id: q14038
+  sec: s144
+  set: 確認テスト
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: （　）内の語を適切な形に変えなさい。
+  q: Each of the boxes (＿) about five kilograms.（weigh）
+  ans: weighs
+  why: Each of ～ が S なので単数扱い。現在の文なので weighs。
+  trap: 直前の the boxes（複数）につられて weigh とする誤り。S の中心は Each。
+- id: q14039
+  sec: s072
+  set: 確認テスト
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: My mother doesn't like (＿) playing video games late at night.
+  choices: [I, my, mine, myself]
+  ans: "2"
+  why: ゲームをするのは私で、文の主語 My mother とは違う。動名詞 playing の前に、意味上の主語を所有格 my で置く。
+  trap: 「私が」の日本語から①I を選ぶ誤り。動名詞の意味上の主語は所有格（話し言葉では目的格 me も）で、主格は使わない。
+  ref: [s072, s141]
+- id: q14040
+  sec: s102
+  set: 確認テスト
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: __The__① girl __whose__② bag __I__③ found __it__④ on the train thanked me.
+  ans: "4"
+  why: whose bag が関係詞節の中で found の O の働きをしている。O を it でもう一度言うと O が2つになるので、it を取る。
+  trap: ②whose を which に直す誤り。bag の前で「その女の子の」と持ち主を表すので whose で正しい。関係詞節の中に代名詞を残す誤りに気づきにくい。
+  ref: [s102, s101]
+- id: q14041
+  sec: s143
+  set: 確認テスト
+  lv: 1
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 彼女は一方の手にペンを、もう一方の手にノートを持っていた。<br>She had a pen in ( a / and / hand / in / notebook / one / other / the ).
+  words: [a, and, hand, in, notebook, one, other, the]
+  ans: She had a pen in one hand and a notebook in the other.
+  why: 手は2本なので、一方を one hand、もう一方を the other で表す。the other は the other hand の代わり。
+  trap: in another と考えて the を落とす誤り。2つのうちの残りは1つに決まるので the other。

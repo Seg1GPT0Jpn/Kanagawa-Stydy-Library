@@ -1,0 +1,725 @@
+# 単元13　名詞と冠詞（s131〜s133）。例文 e1301〜e1322、問題 q13001〜q13037
+chapters:
+- id: c13
+  title: 名詞と冠詞
+  lead: この単元では、名詞が「数えられるか、数えられないか」によって a や -s が付くかどうかが決まるしくみと、a・the・何も付けない形の使い分けを学びます。単元の終わりには、much information、the police are、by bus のような入試によく出る形を、4択や正誤の問題で見分けられるようになります。
+  intro: 中学では、名詞が2つ以上のときは -s・-es を付けて複数形にすることを学びました（books, boxes）。child → children、man → men のように、形が変わる名詞もあります。1つのときは名詞の前に a を付け、母音の音で始まる語の前では an にします（an apple）。どれのことか話し手と聞き手に分かっている物には the を付けます。数をたずねるときは How many ～?、量をたずねるときは How much ～? を使いました。
+  sections:
+  - id: s131
+    title: 数えられる名詞・数えられない名詞
+    aim: 名詞が数えられるかどうかを見分け、a・-s・many・much・a piece of を正しく使えるようになる。
+    body:
+    - h: 英語の名詞は「数えられるか」で形が変わる
+    - p: 日本語では「ペン1本」「水1杯」のように、名詞の形は変わらず、数え方の言葉が変わります。英語では、名詞そのものを数えられる名詞と数えられない名詞に分け、形を変えます。数えられる名詞は、1つなら a（an）を付け、2つ以上なら -s を付けます（@e1301）。数えられない名詞には a も -s も付けず、主語になったときの動詞は3人称単数の形にします。数えられる名詞を<<可算名詞>>、数えられない名詞を<<不可算名詞>>といいます。a・an・the をまとめて<<冠詞>>と呼び、使い分けは第3節（@s133）で学びます。
+      notes:
+      - kind: 用語
+        term: 可算名詞
+        yomi: かさんめいし
+        text: 数えられる名詞。1つなら a（an）を付け、2つ以上なら複数形にする（a pen, two pens）。many で数の多さを表す。
+      - kind: 用語
+        term: 不可算名詞
+        yomi: ふかさんめいし
+        text: 数えられない名詞。a（an）も複数の -s も付けない。主語のときの動詞は3人称単数の形。量の多さは much や a lot of で表す。
+      - kind: 用語
+        term: 冠詞
+        yomi: かんし
+        text: 名詞の前に置く a・an・the のこと。a（an）を不定冠詞、the を定冠詞という。
+    - ex: [e1301]
+    - p: 数えられない名詞には、3つのグループがあります。1つ目は water・bread・paper のように決まった形がなく、切ったり分けたりしても同じ物であるもの。2つ目は advice・information・news・homework のように、目に見えない内容を表すもの（@e1302）。3つ目は furniture（家具）・baggage（手荷物）のように、いろいろな物をまとめて呼ぶ名前です。家具の中の chair や desk は1つずつ数えられますが、それらをまとめた furniture は数えません。日本語の「助言を2つ」「家具3点」につられて advices や furnitures としないように、下の表の語は形ごと覚えます。
+      notes:
+      - kind: 注意
+        text: news は -s で終わるが数えられない名詞で、動詞は単数の形にする（The news was true.）。money も数えられない名詞で、数えるのは coin（硬貨）や yen・dollar のような単位のほう。
+    - table:
+        head: [グループ, 数えられない名詞の例, 誤りの形]
+        rows:
+        - [形のない物質, water・bread・paper・money, a water・breads]
+        - [目に見えない内容, "advice・information・news・homework", "{{advices}}・an information"]
+        - [まとめて呼ぶ名前, "furniture・baggage（luggage）", "{{furnitures}}・a baggage"]
+    - h: 数えられない名詞の数え方と、many・much
+    - p: 数えられない名詞を「1つ、2つ」と言いたいときは、a piece of のような入れ物や単位の言葉を前に置き、その言葉のほうを複数形にします。two pieces of furniture（@e1304）では、-s が付くのは pieces で、furniture は変わりません。水やコーヒーなら a glass of・a cup of、パンなら a slice of、紙なら a sheet of を使います（@e1305）。
+    - ex: [e1302, e1303, e1304, e1305]
+    - p: 数や量の多さを言うときは、名詞に合わせて many と much を使い分けます。many は数えられる名詞の複数形の前、much は数えられない名詞の前に置きます（@e1303）。a lot of はどちらの前にも置けます。much は否定文と疑問文でよく使い、肯定文では a lot of を使うのがふつうです。ただし too much・so much・how much のように、much の前に語が付く形は肯定文でもよく使います。4択の共通手順（@s015）の③「数の手がかり」は、名詞の問題では「その名詞は数えられるか」と言いかえられます。
+      notes:
+      - kind: 参照
+        text: few・little（ほとんどない）と a few・a little（少しある）の使い分けは単元15（@s152）で学ぶ。数えられる名詞には few、数えられない名詞には little を使う点は many と much と同じ。
+    - h: 意味によって、数えられるかどうかが変わる名詞
+    - p: ここまでの規則には大事な例外があります。多くの名詞は、意味によって数えられたり数えられなかったりするのです。paper は「紙」の意味では数えませんが（@e1306）、「新聞」「論文・レポート」の意味では a paper・two papers と数えます（@e1307）。glass も「ガラス」なら数えず、「コップ」なら a glass と数えます。time は「時間」なら数えず、「〜回」なら three times と数えます。room は「空いている場所」なら数えず、「部屋」なら a room です。work は「仕事」なら数えず、「作品」なら a work です。つまり、数えられるかどうかは語ではなく意味で決まります。一方、上の表の advice・information・news・homework・furniture・baggage は、ふつうどの意味でも数えません。入試ではこの6語がよく問われます。
+    - ex: [e1306, e1307]
+    - check:
+      - q: Can I have two (＿) of bread?（slice を適切な形に）
+        a: slices
+      - q: How (＿) money do you have now?
+        a: much
+      - q: My grandmother lives in a house with five (＿).（「部屋」の意味の room を適切な形に）
+        a: rooms
+    examples:
+    - id: e1301
+      en: I bought *a pen* and *three notebooks* at the station shop.
+      ja: 駅の売店でペンを1本とノートを3冊買った。
+    - id: e1302
+      en: My grandfather always gives me good *advice*.
+      ja: 祖父はいつも私によい助言をくれる。
+    - id: e1303
+      en: We don't have *much information* about the new teacher yet.
+      ja: 新しい先生について、私たちはまだあまり情報を持っていない。
+    - id: e1304
+      en: Rumi bought *two pieces of furniture* for her new room.
+      ja: ルミは新しい部屋のために家具を2点買った。
+    - id: e1305
+      en: Could I have *a glass of water* and *two slices of bread*?
+      ja: 水を1杯と、パンを2切れいただけますか。
+      gloss:
+      - [slice, （薄く切った）1切れ]
+    - id: e1306
+      en: This shopping bag is made of *paper*, but it is very strong.
+      ja: この買い物袋は紙でできているが、とても丈夫だ。
+    - id: e1307
+      en: Mr. Kubo reads *a paper* on the train every morning.
+      ja: 久保先生は毎朝、電車で新聞を読む。
+    worked:
+    - q: （　）に入る最も適切なものを1つ選びなさい。<br>We couldn't get (＿) about the bus schedule at the station.
+      choices: [many information, much information, an information, many informations]
+      steps:
+      - 4択の共通手順（@s015）で考える。空所は get の O で、名詞のかたまりが入る。4つとも information を使った形なので、意味ではなく数で決まる。
+      - 数の手がかりとして、information が数えられる名詞かを確かめる。information は目に見えない内容を表す、数えられない名詞。
+      - 数えられない名詞には a も -s も付かないので、③④は誤り。many は数えられる名詞の複数形の前に置くので、①も誤り。量を表す much の②を選ぶ。
+      ans: "2"
+      point: 日本語の「情報」は「1つ、2つ」と数えられそうに思えるが、information は数えない。否定文・疑問文で量の多さを言うときは much を使う。
+    - q: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。<br>Last month my parents __bought__① __some new__② __furnitures__③ for __the living room__④.
+      steps:
+      - 下線部を1つずつ確かめる。①bought は Last month に合う過去形で正しい。②some new は名詞の前に置ける。
+      - ③furnitures を確かめる。furniture は家具をまとめて呼ぶ名前で、数えられない名詞なので -s は付けない。ここが誤り。
+      - ④the living room は「家の中のその居間」で、どの部屋か分かるので the で正しい。③を furniture に直すと、some new furniture（いくつかの新しい家具）となり文が成り立つ。
+      ans: ③（furnitures → furniture）
+      point: 家具の数を言いたいときは、furniture ではなく piece を複数形にする（three pieces of furniture）。advice・information・baggage も同じ。
+    summary:
+    - "数えられない名詞には{{a}}も{{-s}}も付けない。主語のときの動詞は3人称単数の形。"
+    - "advice・information・news・homework・furniture・baggage は{{数えられない}}名詞。数えるときは two {{pieces}} of furniture のように、単位の語を複数形にする。"
+    - "many は数えられる名詞の{{複数形}}の前、much は{{数えられない}}名詞の前。a lot of はどちらにも使える。"
+    - "paper（紙／{{新聞}}・論文）、glass（ガラス／{{コップ}}）、time（時間／{{〜回}}）のように、意味によって数えられるかどうかが変わる名詞が多い。"
+  - id: s132
+    title: 集合名詞と、いつも複数形の名詞
+    aim: family・police・people の動詞の数を正しく選び、glasses のようにいつも複数形の名詞と、make friends with のような決まった複数形を使えるようになる。
+    body:
+    - h: 集まりを表す名詞：family
+    - p: family（家族）・class（クラス）・team（チーム）のように、人の集まりを1つの名前で呼ぶ名詞を<<集合名詞>>といいます。集まりを1つのまとまりとして見るときは、ふつうの数えられる名詞と同じで、1つなら単数の動詞を使い、2つ以上なら two families と複数形にします（@e1308）。とくに大きさや人数を言う My family is large. では、家族のまとまりの大きさを言っているので is です。
+      notes:
+      - kind: 用語
+        term: 集合名詞
+        yomi: しゅうごうめいし
+        text: family・class・team・audience（聴衆）のように、人や物の集まりを1つの名前で呼ぶ名詞。ふつうは数えられる名詞として扱う。police・people のように、いつも複数扱いのものもある。
+      - kind: 注意
+        text: イギリス英語では、家族の一人一人を思い浮かべるとき My family are all early risers.（家族はみんな早起きだ）のように複数の動詞を使うこともある。アメリカ英語ではこの場合も単数の動詞がふつう。入試で迷ったら、まとまりの大きさや数を言う文は単数と考える。
+    - ex: [e1308]
+    - h: いつも複数扱いの police と people
+    - p: police（警察）は、-s が付いていないのに、いつも複数扱いです。動詞は are・were のような複数の形にし、a police とは言いません（@e1309）。ふつう the police の形で使います。警察官1人を言うときは a police officer です。people（人々）も -s のない複数形で、動詞は複数の形にします（@e1310）。1人なら a person です。
+      notes:
+      - kind: 注意
+        text: people には「民族・国民」という別の意味があり、この意味では a people・peoples と数える（the peoples of Asia＝アジアの諸民族）。「人々」の意味では peoples としない。
+    - ex: [e1309, e1310]
+    - h: 2つの部分でできた物は、いつも複数形
+    - p: glasses（眼鏡）・scissors（はさみ）・jeans（ジーンズ）・shoes（靴）は、左右2つの部分が組になってできています。そのため1つの物でも複数形で言い、動詞も複数の形にします（@e1311）。数を言うときは a pair of（1組の）を使い、two pairs of のように pair のほうを複数形にします（@e1312）。
+      notes:
+      - kind: 注意
+        text: a pair of が主語のときは、動詞は pair に合わせて単数の形にするのがふつう（This pair of shoes is too small.）。
+    - ex: [e1311, e1312]
+    - h: 相手がいてできることは複数形で言う
+    - p: 「〜と友達になる」は make friends with ～、「〜と握手する」は shake hands with ～ と言います（@e1313・@e1314）。自分ひとりでは友達になれず、握手もできません。自分と相手の2人以上が関わるので、friends・hands は複数形になります。相手が a girl のように1人でも、friend にはしません。同じ考え方で、「電車を乗り換える」は change trains（降りる電車と乗る電車の2本）と言います。
+    - ex: [e1313, e1314]
+    - h: 複数形になると意味が変わる名詞
+    - p: 単数形と複数形で、意味が大きく変わる名詞があります。manner は「方法・やり方」ですが、manners は「行儀・礼儀作法」です（@e1315）。下の表の語は、複数形の意味を単数形とは別の単語として覚えます。
+    - ex: [e1315]
+    - table:
+        head: [単数形の意味, 複数形, 複数形の意味]
+        rows:
+        - [manner（方法）, manners, "{{行儀・礼儀作法}}"]
+        - [custom（習慣）, customs, "{{税関}}"]
+        - [glass（ガラス・コップ）, glasses, "{{眼鏡}}"]
+        - [good（よいこと）, goods, "{{商品}}"]
+    - check:
+      - q: The police (is／are) asking people about the accident.
+        a: are
+      - q: 「私はジーンズを2本持っている。」I have two (＿) of jeans.
+        a: pairs
+      - q: 「ヒカリは転校生と握手した。」Hikari shook (＿) with the new student.
+        a: hands
+    examples:
+    - id: e1308
+      en: Noel's *family is* small. He lives with his parents and has no brothers or sisters.
+      ja: ノエルの家族は人数が少ない。両親と暮らしていて、きょうだいはいない。
+    - id: e1309
+      en: '*The police are* checking the cars on the bridge.'
+      ja: 警察が橋の上で車を調べている。
+    - id: e1310
+      en: A lot of *people were* waiting for the first train of the new year.
+      ja: たくさんの人が新年の始発電車を待っていた。
+    - id: e1311
+      en: Where *are* my *glasses*? I put them on the desk a minute ago.
+      ja: 私の眼鏡はどこだろう。ついさっき机の上に置いたのに。
+    - id: e1312
+      en: I bought *a pair of jeans* and *two pairs of socks*.
+      ja: 私はジーンズを1本と靴下を2足買った。
+    - id: e1313
+      en: Dave *made friends with* some students from the soccer club.
+      ja: デイブはサッカー部の生徒たちと友達になった。
+    - id: e1314
+      en: The two captains *shook hands* before the game.
+      ja: 2人のキャプテンは試合の前に握手した。
+    - id: e1315
+      en: My little sister has good table *manners*.
+      ja: 私の妹は食事の行儀がよい。
+      gloss:
+      - [table manners, 食事の作法]
+    worked:
+    - q: （　）に入る最も適切なものを1つ選びなさい。<br>Look! The police (＿) stopping cars in front of the bank.
+      choices: [is, are, was, has]
+      steps:
+      - 4択の共通手順（@s015）で考える。空所は V の一部で、後ろに stopping があるので進行形の be 動詞が入る。④has は後ろに -ing 形を置けない。
+      - 数の手がかりとして、主語 The police が単数か複数かを確かめる。police は -s がなくても、いつも複数扱い。
+      - 複数の主語に合う be 動詞は are。①is と③was は単数の主語に使う形なので合わない。
+      ans: "2"
+      point: police・people は -s がなくても複数扱い。警察官1人は a police officer で、こちらは単数の動詞を使う。
+    - q: 日本語の意味になるように、（　）に適切な語を1語ずつ入れなさい。<br>ルミはキャンプで、カナダから来た女の子と友達になった。<br>Rumi (＿) (＿) (＿) a girl from Canada at the camp.
+      steps:
+      - 「〜と友達になる」は make friends with ～ の形を使う。キャンプは過去のことなので make は made にする。
+      - 相手は a girl の1人だが、友達になるには自分と相手の2人が要るので、friend は複数形の friends にする。
+      - 「〜と」にあたる前置詞 with を置き、made friends with とする。
+      ans: made friends with
+      point: make friends with・shake hands with・change trains は、相手や物が2つ以上関わるので複数形。相手が1人でも friend にしない。
+    summary:
+    - "family のような集合名詞は、まとまりとして見るときは{{単数}}扱いで、2つ以上なら families と数える。"
+    - "police と people は -s がなくても{{複数}}扱い。警察官1人は a police {{officer}}、1人の人は a {{person}}。"
+    - "glasses・scissors・jeans はいつも複数形。数えるときは a {{pair}} of を使う。"
+    - "make {{friends}} with（〜と友達になる）、shake {{hands}} with（〜と握手する）、change {{trains}}（電車を乗り換える）。manners は{{行儀}}、customs は{{税関}}。"
+  - id: s133
+    title: 冠詞 a・the・無冠詞
+    aim: a と the を、聞き手が「どれのことか」分かるかどうかで使い分け、種類全体を言う形、冠詞を付けない by bus、the＋体の部分の形を正しく使えるようになる。
+    body:
+    - h: a は「いくつかあるうちの1つ」、the は「どれか分かる1つ」
+    - p: a（an）と the の違いは、聞き手が「どれのことか」を1つに決められるかどうかです。初めて話に出てきて、聞き手にはまだどれか分からない物には a を付けます。同じ物が2回目に出てきたときは、聞き手にもどれか分かるので the を付けます（@e1316）。初めて出てくる物でも、the moon のように1つしかない物（@e1317）や、その場の状況でどれか分かる物（@e1318）には the を付けます。the key to this room（この部屋の鍵）のように、後ろの語句でどれか決まるときも the です。
+      notes:
+      - kind: 注意
+        text: a には「〜につき」の意味もある。three times a day（1日に3回）、once a week（週に1回）。
+    - ex: [e1316, e1317, e1318]
+    - p: 数えられる名詞の単数形は、a・the・my などを何も付けずに、そのまま置くことはできません。I have dog. は誤りで、I have a dog. とします。この規則の例外が、下の「何も付けない形」です。
+    - h: 種類全体を言う形
+    - p: 「犬は〜だ」のように、ある種類のもの全体について言うことを<<総称>>といいます。総称には、何も付けない複数形を使うのがいちばんふつうです（@e1319）。I like dogs.（犬が好きだ）も、特定の犬ではなく犬という種類全体の話なので、複数形にします。数えられない名詞の総称は、Water is heavy. のように冠詞を付けずに言います。
+      notes:
+      - kind: 用語
+        term: 総称
+        yomi: そうしょう
+        text: ある種類のもの全体について述べる言い方。数えられる名詞は複数形を何も付けずに使うのがふつう（Dogs are …）。A dog is …、The dog is … も使えるが、The＋単数形はかたい言い方。
+      - kind: 注意
+        text: I like dog. と単数形を何も付けずに言うと、「犬の肉が好きだ」と聞こえることがある。I like the dog. は特定の1匹の犬のこと。
+    - ex: [e1319]
+    - h: a も the も付けない形
+    - p: 名詞が「物」そのものではなく、「働き・目的」を表すときは、a も the も付けません。これを<<無冠詞>>といいます。by bus・by train・by email の by は「〜という手段で」という意味で、後ろの名詞は1台のバスではなく交通の手段を表すので、冠詞を付けません（@e1320）。go to school（勉強しに学校へ行く）・go to bed（寝る）も、建物や家具ではなく、そこでする目的を表しています（@e1321）。
+      notes:
+      - kind: 用語
+        term: 無冠詞
+        yomi: むかんし
+        text: 名詞の前に a・an・the のどれも付けないこと。by bus・go to school・have lunch・play tennis など。数えられない名詞や複数形の総称も無冠詞で使う。
+      - kind: 注意
+        text: アメリカ英語では play piano のように楽器に the を付けない言い方もある。入試では play the piano の形で答える。
+    - ex: [e1320, e1321]
+    - p: ただし、同じ名詞でも「1台・1つの物」として言うときは冠詞を付けます。乗り物なら on the 7:30 bus（7時30分のバスで）、in my car（私の車で）、take a taxi のように言い、by の形にはしません。「歩いて」は by foot ではなく on foot です。学校も、勉強以外の用事で建物に行くなら My mother went to the school to see my teacher. のように the を付けます。下の表で、何も付けない形と、冠詞が付く形を比べます。
+    - table:
+        head: [何も付けない形, 例, 冠詞が付く・形が変わる場合]
+        rows:
+        - [by＋交通・通信の手段, "{{by bus}}・by train・by email", "on the 7:30 bus・in my car・{{on foot}}"]
+        - [目的を表す場所, go to school・go to bed, 建物として：go to the school to see a teacher]
+        - [食事, have lunch・at breakfast, 形容詞が付く：have a big lunch]
+        - [スポーツ, play tennis, "楽器は the：play {{the}} piano"]
+    - h: the＋体の部分
+    - p: 「彼の腕をつかんだ」を英語では caught him by the arm と言います。まず「誰に」動作をしたかを him と O で言い、それから「体のどこに」を前置詞＋the＋体の部分で付け足すのです（@e1322）。him で誰の腕かはもう分かっているので、his ではなく the を使います。前置詞は動詞で決まり、つかむ・引く（catch・take・hold・pull）なら by、軽くたたく（pat・tap）なら on、見る（look）なら in を使います（look him in the eye＝彼の目をまっすぐ見る）。
+      notes:
+      - kind: 注意
+        text: 体の部分そのものが O になる文では所有格を使う。He hurt his arm.（彼は腕をけがした）を He hurt the arm. とはしない。
+    - ex: [e1322]
+    - label: 手順
+      steps:
+      - 名詞は数えられるか。数えられない名詞や複数形なら、a は付かない。
+      - 聞き手は「どれのことか」分かるか。分かるなら the、まだ分からない1つなら a。
+      - 物そのものではなく、手段（by bus）や目的（go to school）を表していないか。表しているなら何も付けない。
+    - check:
+      - q: I have a cat and a dog. (＿) cat is black and white.（A／The）
+        a: The
+      - q: 「私たちはタクシーで帰った。」We went home (＿) taxi.
+        a: by
+      - q: 「この薬を1日に2回飲みなさい。」Take this medicine twice (＿) day.
+        a: a
+    examples:
+    - id: e1316
+      en: I found *a* key under the sofa. *The* key had a small red ribbon on it.
+      ja: ソファーの下で鍵を見つけた。その鍵には小さな赤いリボンが付いていた。
+    - id: e1317
+      en: We could see *the* moon clearly from the roof of our school.
+      ja: 学校の屋上から月がはっきり見えた。
+    - id: e1318
+      en: It's cold in here. Could you close *the* window?
+      ja: この部屋は寒い。窓を閉めてくれませんか。
+    - id: e1319
+      en: '*Elephants* are very heavy animals, so they cannot jump.'
+      ja: ゾウはとても重い動物なので、跳ぶことができない。
+    - id: e1320
+      en: Ms. Price comes to school *by bus* on rainy days.
+      ja: プライス先生は雨の日はバスで学校に来る。
+    - id: e1321
+      en: My brother had a fever, so he didn't go to *school* yesterday.
+      ja: 弟は熱があったので、昨日は学校を休んだ。
+    - id: e1322
+      en: Mr. Kubo patted me *on the shoulder* and said, "Nice try."
+      ja: 久保先生は私の肩を軽くたたいて「よくやった」と言った。
+      gloss:
+      - [pat, 軽くたたく]
+    worked:
+    - q: （　）に入る最も適切なものを1つ選びなさい。<br>It's raining hard, so I'll go to the station (＿) today.
+      choices: [by bus, by a bus, by the bus, on bus]
+      steps:
+      - 4択の共通手順（@s015）で考える。I'll go to the station で文の骨組みはそろっているので、空所は「どうやって行くか」を表す M。
+      - 4つとも bus を使っているので、冠詞の有無で決まる。by は「〜という手段で」の意味で、後ろの bus は1台のバスではなく交通の手段を表す。
+      - 手段を表す by の後ろの名詞には a も the も付けないので、①by bus を選ぶ。④の on を使うなら on the bus のように冠詞が要る。
+      ans: "1"
+      point: by bus・by train・by bike・by email は無冠詞。特定のバスなら on the 7:30 bus、「歩いて」は on foot。
+    - q: （　）に入る最も適切なものを1つ選びなさい。<br>Ms. Price caught her son (＿) when he started to run toward the busy road.
+      choices: [by arm, by the arm, by an arm, by her arm]
+      steps:
+      - 空所の前を見る。caught her son で「誰をつかんだか」はもう言い終わっていて、空所は「体のどこを」を付け足す M。
+      - catch 人 by the＋体の部分 の形を思い出す。誰の腕かは her son で分かっているので、腕には the を付ける。①は冠詞がなく、arm は数えられる名詞の単数形なので誤り。③は「どれか1本の腕」になり、誰の腕かが分かっている文に合わない。
+      - ④her は文の主語 Ms. Price を指し、自分の腕で息子をつかんだ意味になってしまう。the を使った②を選ぶ。
+      ans: "2"
+      point: 動作を受ける人を O にして、体の部分は前置詞＋the で付け足す。つかむは by、たたくは on、見るは in。
+    summary:
+    - "初めて出てきて聞き手にどれか分からない物には{{a}}、2回目に出てきた物や1つしかない物には{{the}}を付ける。"
+    - "種類全体を言う総称は、何も付けない{{複数形}}がいちばんふつう（I like {{dogs}}.）。"
+    - "手段を表す by の後ろは無冠詞：by {{bus}}・by train。ただし「歩いて」は{{on foot}}。"
+    - "「彼の腕をつかむ」は catch him by {{the}} arm。たたくなら pat him {{on}} the shoulder。"
+problems:
+# ---- 前提チェック ----
+- id: q13001
+  sec: s131
+  set: 前提
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: There are three (＿) in the park.
+  choices: [child, childs, children, a child]
+  ans: "3"
+  why: three の後ろなので複数形にする。child の複数形は -s を付けず children と形が変わる。
+  trap: ②childs を選ぶ誤り。たいていの名詞は -s で複数形になるが、child・man・woman などは形そのものが変わる。
+- id: q13002
+  sec: s131
+  set: 前提
+  lv: 1
+  kind: 4択
+  min: 1
+  q: I ate (＿) orange and a banana for breakfast.
+  choices: [a, an, two, many]
+  ans: "2"
+  why: orange は母音の音で始まる数えられる名詞の単数形なので、a ではなく an を付ける。
+  trap: ①a を選ぶ誤り。後ろの a banana につられやすいが、an にするかどうかは直後の語の最初の音で決まる。③④は orange が単数形なので合わない。
+- id: q13003
+  sec: s131
+  set: 前提
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 日本語の意味になるように、（　）に適切な語を1語入れなさい。
+  q: 「あなたは本を何冊持っていますか。」<br>How (＿) books do you have?
+  ans: many
+  why: books は数えられる名詞の複数形。数をたずねるときは How many ～? を使う。
+  trap: much を入れる誤り。How much ～? は量や値段をたずねる言い方で、複数形の books には使わない。
+# ---- s131 節末 ----
+- id: q13004
+  sec: s131
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Ms. Price gave us some (＿) about how to study for the test.
+  choices: [advice, advices, an advice, advise]
+  ans: "1"
+  why: advice（助言）は数えられない名詞なので、-s も an も付けない。④advise は「助言する」という動詞で、some の後ろの名詞の位置には置けない。
+  trap: 「助言をいくつか」という日本語につられて②advices を選ぶ誤り。some は数えられない名詞の前にも置ける。
+- id: q13005
+  sec: s131
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  q: How (＿) homework do you have this weekend?
+  choices: [many, much, lot, number]
+  ans: "2"
+  why: homework（宿題）は数えられない名詞。量をたずねるときは How much ～? を使う。
+  trap: 宿題を「1つ、2つ」と数える感覚から①many を選ぶ誤り。homework は -s も付けない数えられない名詞。
+- id: q13006
+  sec: s131
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 日本語の意味になるように、（　）に適切な語を1語入れなさい。
+  q: 「紙を2枚もらえますか。」<br>Can I have two (＿) of paper?
+  ans: sheets
+  alt: [pieces]
+  why: 紙の意味の paper は数えられない名詞なので、a sheet of（1枚の）の sheet を複数形にして two sheets of paper とする。two pieces of paper も正解。
+  trap: two papers とする誤り。papers は「新聞」「論文」の複数形になってしまう。-s を付けるのは単位の語のほう。
+- id: q13007
+  sec: s131
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: There (＿) a lot of furniture in Dave's new apartment.
+  choices: [is, are, be, have]
+  ans: "1"
+  why: There is／are の後ろの名詞 furniture は数えられない名詞なので、単数の is を使う。a lot of が付いても furniture は単数扱いのまま。
+  trap: a lot of（たくさんの）を見て②are を選ぶ誤り。動詞の形は a lot of ではなく、後ろの名詞が数えられるかどうかで決まる。
+- id: q13008
+  sec: s131
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: We __need__① __more informations__② __before__③ we __decide__④ on a hotel.
+  ans: "2"
+  why: information は数えられない名詞なので -s を付けない。more information とする。④decide は、before の節の中なので未来のことでも現在形でよい。
+  trap: ④decide を will decide にすべきだと考える誤り。before で始まる時の副詞節の中は、未来のことでも現在形で表す。
+- id: q13009
+  sec: s131
+  set: 節末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 「ルミは私に助言を2つくれた。」<br>Rumi gave me ( advice / of / pieces / two ).
+  words: [advice, of, pieces, two]
+  ans: Rumi gave me two pieces of advice.
+  why: advice は数えられない名詞なので、数えるときは a piece of を使い、piece のほうを複数形にする。two pieces of advice の順。
+  trap: two advice pieces のように並べようとして of が余る誤り。「数＋単位の語の複数形＋of＋数えられない名詞」の順を覚えておく。
+- id: q13010
+  sec: s131
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: This window is made of special (＿), so it doesn't break easily.
+  choices: [glass, a glass, glasses, a glasses]
+  ans: "1"
+  why: 窓の材料の「ガラス」の意味の glass は数えられない名詞なので、a も -s も付けない。
+  trap: ②a glass を選ぶ誤り。a glass は「コップ1つ」、glasses は「コップ」の複数形か「眼鏡」で、材料の意味にはならない。
+- id: q13011
+  sec: s131
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  q: The news about the new station (＿) a big surprise to everyone in town.
+  choices: [was, were, are, have been]
+  ans: "1"
+  why: news は -s で終わるが数えられない名詞で、単数扱い。過去の単数の形 was を選ぶ。
+  trap: -s の形につられて②were を選ぶ誤り。news は複数形ではなく、1語で「知らせ」という数えられない名詞。
+# ---- s132 節末 ----
+- id: q13012
+  sec: s132
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  q: The police (＿) at the station when we arrived.
+  choices: [was, were, has, is]
+  ans: "2"
+  why: police はいつも複数扱いなので、複数の主語に合う were を使う。when we arrived から過去の文。
+  trap: -s がないので単数と考えて①was を選ぶ誤り。police は形は単数でも、複数の動詞を使う。
+- id: q13013
+  sec: s132
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  q: There were a lot of (＿) in the waiting room this morning.
+  choices: [people, peoples, person, a person]
+  ans: "1"
+  why: people は「人々」という意味の複数形なので、そのまま a lot of の後ろに置く。were とも合う。
+  trap: 複数だから -s が要ると考えて②peoples を選ぶ誤り。peoples は「民族」の意味の複数形で、待合室の人には使わない。
+- id: q13014
+  sec: s132
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 日本語の意味になるように、（　）に適切な語を1語入れなさい。
+  q: 「東京駅で電車を乗り換えてください。」<br>Please change (＿) at Tokyo Station.
+  ans: trains
+  why: 乗り換えでは降りる電車と乗る電車の2本が関わるので、change trains と複数形にする。
+  trap: change train や change the train とする誤り。make friends with と同じく、2つ以上が関わる動作なので複数形にする。
+- id: q13015
+  sec: s132
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Dave's new glasses (＿) very expensive, so he is careful with them.
+  choices: [was, were, is, has]
+  ans: "2"
+  why: 眼鏡の glasses は、1つの物でもいつも複数形で、動詞も複数の形にする。後ろの them も複数を受けている。
+  trap: 眼鏡は1つなので①was を選ぶ誤り。glasses は2つのレンズの組なので、1つでも複数扱い。
+- id: q13016
+  sec: s132
+  set: 節末
+  lv: 1
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 「はさみを1丁貸してくれませんか。」<br>Could you lend me ( a / of / pair / scissors )?
+  words: [a, of, pair, scissors]
+  ans: Could you lend me a pair of scissors?
+  why: scissors はいつも複数形で、1つを言うときは a pair of scissors とする。a は pair に付く。
+  trap: a scissors のように scissors に a を付けようとする誤り。a が付くのは単数形の pair のほう。
+- id: q13017
+  sec: s132
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: Rumi __shook hand__① __with__② the new coach __when__③ she __met__④ him at the gym.
+  ans: "1"
+  why: 握手は自分と相手の2人の手が関わるので、shake hands with とする。shook hand を shook hands に直す。
+  trap: 相手が the new coach の1人なので hand のままでよいと考える誤り。相手の数ではなく、2人の手が関わることから複数形になる。
+- id: q13018
+  sec: s132
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Our family (＿) large. There are seven of us, including my grandparents.
+  choices: [is, are, have, be]
+  ans: "1"
+  why: large は家族というまとまりの大きさを言っているので、family を1つのまとまりとして単数扱いにし、is を使う。
+  trap: 家族が7人いるので②are を選ぶ誤り。まとまりの大きさや数を言う文では、family は単数扱い。
+- id: q13019
+  sec: s132
+  set: 節末
+  lv: 2
+  kind: 和訳
+  min: 3
+  inst: 次の英文を日本語に訳しなさい。
+  q: You have to show your passport at customs.
+  ans: 税関ではパスポートを見せなければならない。
+  alt: [税関でパスポートを見せる必要がある。]
+  why: customs は複数形で「税関」の意味。have to は「〜しなければならない」。採点の目安：customs を「税関」と訳せていれば正解。
+  trap: customs を「習慣」と訳す誤り。単数形の custom は「習慣」だが、複数形 customs は「税関」の意味になる。
+# ---- s133 節末 ----
+- id: q13020
+  sec: s133
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Dave has a dog and two cats. (＿) dog is white, and the cats are black.
+  choices: [A, The, An, One]
+  ans: "2"
+  why: dog は前の文で a dog として一度出てきており、デイブの犬は1匹だけなので、聞き手にもどれか分かる。2回目は the を付ける。
+  trap: ①A を選ぶ誤り。a は聞き手にどれか分からない1つに付ける。2回目に出てきた同じ物には the を使う。
+- id: q13021
+  sec: s133
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  q: Do you come to school (＿) or on foot?
+  choices: [by bike, by a bike, by the bike, by your bike]
+  ans: "1"
+  why: 手段を表す by の後ろの名詞には冠詞も所有格も付けない。by bike で「自転車で」。
+  trap: 自転車は1台なので②by a bike を選ぶ誤り。by の後ろの bike は1台の物ではなく、交通の手段を表す。
+- id: q13022
+  sec: s133
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 日本語の意味になるように、（　）に適切な語を1語入れなさい。
+  q: 「私はふつう11時に寝る。」<br>I usually go to (＿) at eleven.
+  ans: bed
+  why: go to bed は「寝る」。bed は家具ではなく「寝ること」という目的を表すので、冠詞を付けない。
+  trap: go to the bed とする誤り。the bed と言うと、寝るためではなく「そのベッドのところへ行く」という意味になる。
+- id: q13023
+  sec: s133
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: (＿) are friendly animals, and many families keep them as pets.
+  choices: [Dog, Dogs, The dog, A dog]
+  ans: "2"
+  why: 犬という種類全体の話なので、何も付けない複数形 Dogs を使う。動詞 are と、後ろの them も複数を表している。
+  trap: ③The dog を選ぶ誤り。The dog も総称に使えるが単数扱いなので、are とも them とも合わない。①Dog は数えられる名詞の単数形に何も付けていないので使えない。
+- id: q13024
+  sec: s133
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: Mr. Kubo usually __goes__① to __the office__② __by a car__③, but today he __walked__④ there.
+  ans: "3"
+  why: 手段を表す by の後ろには冠詞を付けないので、by a car を by car に直す。②the office は「いつもの職場」でどれか分かるので the でよい。
+  trap: ②the office を誤りと考える誤り。go to school のように無冠詞になるのは school・bed などの決まった語で、office には the を付けるのがふつう。
+- id: q13025
+  sec: s133
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: My little brother took me (＿) and pulled me toward the toy shop.
+  choices: [by the hand, by hand, on the hand, by a hand]
+  ans: "1"
+  why: take 人 by the hand で「人の手を取る」。人を O にして、体の部分は by＋the で付け足す。
+  trap: ②by hand を選ぶ誤り。by hand は「（機械でなく）手作業で」という別の意味になる。つかむ・取る動作の前置詞は on ではなく by。
+- id: q13026
+  sec: s133
+  set: 節末
+  lv: 1
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 「ノエルは毎朝歩いて学校に行く。」<br>Noel goes ( foot / on / school / to ) every morning.
+  words: [foot, 'on', school, to]
+  ans: Noel goes to school on foot every morning.
+  alt: [Noel goes on foot to school every morning.]
+  why: 「歩いて」は on foot（by foot とは言わない）。go to school は無冠詞。on foot を go to school の後ろに置くのがふつう。
+  trap: on を to と組ませて go on school のように並べる誤り。「学校へ」は to school、「歩いて」は on foot のかたまりで考える。
+- id: q13027
+  sec: s133
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 日本語の意味になるように、（　）に適切な語を1語入れなさい。
+  q: 「この薬を1日に3回飲みなさい。」<br>Take this medicine three times (＿) day.
+  ans: a
+  why: a には「〜につき」の意味があり、three times a day で「1日に3回」。
+  trap: in や the を入れる誤り。「1日につき」は a day で、前置詞は要らない。
+# ---- 確認テスト ----
+- id: q13028
+  sec: s131
+  set: 確認テスト
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Hurry up! We don't have (＿) time before the movie starts.
+  choices: [many, much, an, a lot]
+  ans: "2"
+  why: 「時間」の意味の time は数えられない名詞なので、量を表す much を使う。否定文なので much が自然に使える。
+  trap: ①many を選ぶ誤り。「〜回」の意味なら times と数えるが、ここは「時間」の意味で数えない。④a lot は名詞の前に置くなら a lot of と of が要る。
+- id: q13029
+  sec: s132
+  set: 確認テスト
+  lv: 2
+  kind: 4択
+  min: 1
+  q: Noel made (＿) with a boy from Brazil on his first day at the new school.
+  choices: [friend, friends, a friend, the friend]
+  ans: "2"
+  why: 後ろに with があるので「〜と友達になる」の make friends with。2人以上が関わるので friends と複数形にする。
+  trap: 相手が a boy の1人なので③a friend を選ぶ誤り。make a friend（友達を1人作る）という言い方はあるが、with の前では friends にする。
+- id: q13030
+  sec: s133
+  set: 確認テスト
+  lv: 1
+  kind: 4択
+  min: 1
+  q: Hikari bought a new bike last week, but (＿) bike was stolen yesterday.
+  choices: [a, the, an, any]
+  ans: "2"
+  why: bike は前で a new bike として一度出てきた。2回目に出てきた同じ自転車なので、聞き手にもどれか分かり、the を付ける。
+  trap: ①a を選ぶ誤り。a bike と言うと、ヒカリが買った自転車とは別の、どれか1台の自転車の話になる。
+- id: q13031
+  sec: s101
+  set: 確認テスト
+  lv: 1
+  kind: 4択
+  min: 1
+  q: I have a cousin (＿) can speak four languages.
+  choices: [who, which, whose, what]
+  ans: "1"
+  why: 先行詞 a cousin は人で、後ろの can speak four languages は主語が欠けた不完全な文。人で主語が欠けているので who。
+  trap: ③whose を選ぶ誤り。whose は後ろに冠詞のない名詞が続く形で、ここでは直後が can（助動詞）なので合わない。
+- id: q13032
+  sec: s131
+  set: 確認テスト
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 日本語の意味になるように、（　）に適切な語を1語入れなさい。
+  q: 「私たちは家具を3点買った。」<br>We bought three (＿) of furniture.
+  ans: pieces
+  alt: [items]
+  why: furniture は数えられない名詞なので、a piece of の piece を複数形にして three pieces of furniture とする。three items of furniture も正解。
+  trap: piece のまま書く誤り。three の後ろなので、単位の語の piece を複数形にする。
+- id: q13033
+  sec: s133
+  set: 確認テスト
+  lv: 1
+  kind: 補充
+  min: 1
+  q: 「その結果はメールで送ります。」<br>I'll send you the results (＿) email.
+  ans: by
+  why: 「〜で」という手段は by で表し、後ろの email には冠詞を付けない。by email で「メールで」。
+  trap: with を入れる誤り。with は道具を手に持って使うときの「〜で」で、通信や交通の手段には by を使う。
+- id: q13034
+  sec: s131
+  set: 確認テスト
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: My brother __has__① __two__② tests next week, so he __has__③ __a lot of homeworks__④ today.
+  ans: "4"
+  why: homework は数えられない名詞なので -s を付けない。a lot of homework とする。②two tests は数えられる名詞の複数形で正しい。
+  trap: ②two を誤りと考える誤り。test は数えられる名詞なので two tests で正しい。数えられないのは homework のほう。
+- id: q13035
+  sec: s071
+  set: 確認テスト
+  lv: 2
+  kind: 正誤
+  min: 1
+  q: __Cleaning__① the windows of all the classrooms __were__② hard work __for__③ the students __last__④ Friday.
+  ans: "2"
+  why: 主語は〈Cleaning the windows of all the classrooms〉という動名詞のかたまりで、1つのことなので単数扱い。were を was に直す。
+  trap: 直前の classrooms（複数形）につられて were で正しいと考える誤り。動名詞のかたまりが主語なら、動詞は3人称単数の形。
+- id: q13036
+  sec: s132
+  set: 確認テスト
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 「警察はその事故の原因を調べている。」<br>The ( are / cause / checking / police / the ) of the accident.
+  words: [are, cause, checking, police, the]
+  ans: The police are checking the cause of the accident.
+  why: police はいつも複数扱いなので、be 動詞は are。The police are checking の後ろに O の the cause を置く。
+  trap: police を単数と考えて is を探し、are を使えずに迷う誤り。police は -s がなくても複数扱い。
+- id: q13037
+  sec: s133
+  set: 確認テスト
+  lv: 2
+  kind: 整序
+  min: 2
+  q: 「久保先生はその男の子の腕をつかんだ。」<br>Mr. Kubo ( arm / boy / by / caught / the / the ).
+  words: [arm, boy, by, caught, the, the]
+  ans: Mr. Kubo caught the boy by the arm.
+  why: catch 人 by the＋体の部分 の形。まず O の the boy を置き、「腕を」を by the arm で付け足す。
+  trap: caught the boy's arm のように所有の形で考えて並べられなくなる誤り。この形では人を O にし、体の部分には the を付ける。

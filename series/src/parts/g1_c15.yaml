@@ -1,0 +1,821 @@
+chapters:
+- id: c15
+  title: 形容詞と副詞
+  lead: この単元では、形容詞と副詞の使い方を、置く位置と、後ろの名詞や主語との組み合わせから整理します。C にしか使えない形容詞、数と量の形容詞、人を主語にしない形容詞、位置に決まりのある副詞や形のまぎらわしい副詞を、4択と正誤で選び分けられるようになります。単元1の C と M の区別（@s011）と、単元13の数えられる名詞・数えられない名詞（@s131）を使います。
+  intro: 中学では、形容詞は a new bike のように名詞の前に置くか、This bike is new. のように be 動詞の後ろに置くことを学びました。副詞は He runs fast. のように動詞を説明し、very は形容詞や副詞を強めます。数を表す many と量を表す much の区別や、always・usually・sometimes を一般動詞の前に置くことも習いました。この単元では、これらの使い方に例外のある語を中心に広げます。
+  sections:
+  - id: s151
+    title: "形容詞の2つの使い方"
+    aim: 形容詞を名詞の前に置く使い方と C にする使い方を区別し、C だけで使う形容詞や「-thing＋形容詞」の語順を正しく使えるようになる。
+    body:
+    - h: 名詞の前に置くか、C にするか
+    - p: 形容詞（@s011）は名詞を説明する語で、使い方は2つあります。1つは、名詞の前に置いてその名詞を直接説明する使い方です。@e1501 の old は house の前にあり、「古い家」を表します。もう1つは、文の C になって、S や O がどんな状態かを説明する使い方です。@e1502 の old は is の後ろの C で、This house＝old の関係になります。keep me warm のような SVOC の C（@s014）も、この使い方です。
+      notes:
+      - kind: 参照
+        text: 名詞の前に置く使い方を限定用法、C にする使い方を叙述用法と呼ぶ参考書もある。関係詞の制限用法（限定用法ともいう。@s105）とは別のものである。
+    - ex: [e1501, e1502]
+    - p: old・new・happy・cold など、ほとんどの形容詞はどちらの使い方もできます。ただし、どちらか一方にしか使わない形容詞があり、入試ではそこが問われます。
+    - h: C だけで使う形容詞
+    - p: asleep（眠っている）、alive（生きている）、awake（目が覚めている）、afraid（怖がっている）、alone（ひとりで）は、C にはなりますが、名詞の前には置きません。@e1503 の The cat was asleep は正しい文ですが、「眠っているネコ」を an asleep cat とは言いません。名詞の前では、@e1504 のように同じ意味を表す別の語（sleeping）を使います。
+    - table:
+        head: [C だけで使う語, 意味, 名詞の前で使う語]
+        rows:
+        - [asleep, 眠っている, "{{sleeping}}（a sleeping baby）"]
+        - [alive, 生きている, "{{living}}（a living thing）・live（a live fish）"]
+        - [afraid, 怖がっている, "{{frightened}}（a frightened child）"]
+      notes:
+      - kind: 注意
+        text: a で始まる形容詞がすべてこの仲間なのではない。able（有能な）・active（活発な）・awful（ひどい）は名詞の前にも置ける（an active member）。
+      - kind: 注意
+        text: C だけで使う形容詞も、名詞の後ろには置けることがある（the only person awake＝起きていたただ1人の人）。名詞の前に置けないだけである。
+      - kind: 語注
+        items: [[live, 生きている（発音はライヴ）]]
+    - ex: [e1503, e1504]
+    - p: 反対に、名詞の前だけで使い、C にはしない形容詞もあります。main（主な）・only（ただ1つの）・elder（年上の）などで、the main reason とは言えますが、The reason is main. とは言いません。
+    - h: something＋形容詞と、後ろから説明する形容詞
+    - p: something・anything・nothing・everything や someone・anyone のように、-thing・-one・-body で終わる語を形容詞で説明するときは、形容詞をその語の後ろに置きます（@e1505）。「何か冷たいもの」は something cold で、cold something とは言いません。不定詞を続けるときは、something cold to drink のように「-thing＋形容詞＋to do」の順になります（名詞を説明する不定詞は @s061）。
+    - ex: [e1505]
+    - p: 形容詞の後ろに語句が続いてかたまりが長くなったときも、名詞の後ろに置きます。@e1506 の full of apples（リンゴでいっぱいの）は、basket を後ろから説明しています。full だけなら a full basket と前に置けますが、of apples が付くと前には置けません。分詞のかたまりが名詞を後ろから説明する形（@s081）と同じ考え方です。
+    - ex: [e1506]
+    - check:
+      - q: "The fish is still (alive／live)."
+        a: alive（C の位置）
+      - q: "Don't wake the (asleep／sleeping) dog."
+        a: sleeping（名詞の前）
+      - q: 「何か温かい食べ物」を英語で言うと？
+        a: something hot to eat
+    examples:
+    - id: e1501
+      en: My grandfather lives in an *old* house.
+      ja: 祖父は古い家に住んでいる。
+    - id: e1502
+      en: This house is *old*, but it is very warm in winter.
+      ja: この家は古いが、冬はとても暖かい。
+    - id: e1503
+      en: The cat was *asleep* on the sofa.
+      ja: ネコはソファーの上で眠っていた。
+    - id: e1504
+      en: Be quiet. Don't wake the *sleeping* cat.
+      ja: 静かに。眠っているネコを起こさないで。
+    - id: e1505
+      en: Is there *anything interesting* in today's newspaper?
+      ja: 今日の新聞に何かおもしろいことはのっている？
+    - id: e1506
+      en: She carried a basket *full* of apples.
+      ja: 彼女はリンゴでいっぱいのかごを運んだ。
+    worked:
+    - q: 日本語の意味になるように（　）内の語を並べかえなさい。<br>何か冷たい飲み物がほしい。<br>I want ( cold / drink / something / to ).
+      steps:
+      - 日本語から骨組みを決める。I want の後ろの O は「何か（飲み物）」なので something を置く。
+      - something を説明する形容詞 cold は、something の後ろに置く。cold something とはしない。
+      - 「飲むための」は不定詞 to drink で表し、形容詞の後ろに続ける。「-thing＋形容詞＋to do」の順になる。
+      ans: I want something cold to drink.
+      point: -thing・-one・-body で終わる語を説明する形容詞は後ろに置く。不定詞はさらにその後ろ。
+    - q: （　）に入る最も適切なものを1つ選びなさい。<br>Please be quiet. Don't wake the (＿) baby.
+      choices: [asleep, sleeping, slept, sleeps]
+      steps:
+      - 空所は文のどの要素かを考える。the と baby の間なので、名詞 baby を前から説明する語が入る。
+      - asleep も「眠っている」という意味の形容詞だが、C だけで使う形容詞なので、名詞の前には置けない。
+      - slept は過去分詞で「眠られた」となり意味が通らず、sleeps は動詞。名詞の前で「眠っている」を表すのは現在分詞の sleeping。
+      ans: "2"
+      point: asleep・alive・afraid は C だけで使う。名詞の前では sleeping・living・frightened を使う。
+    summary:
+    - "形容詞の使い方は2つ。名詞の{{前}}に置いて説明するか、文の{{C}}になる。"
+    - "asleep・alive・afraid は{{C}}だけで使う。名詞の前では {{sleeping}}・living・frightened を使う。"
+    - "-thing・-one・-body で終わる語を説明する形容詞は{{後ろ}}に置く。something cold {{to drink}} の順。"
+    - "形容詞に語句が続いて長くなると、名詞の{{後ろ}}に置く（a basket {{full}} of apples）。"
+  - id: s152
+    title: "数と量の形容詞"
+    aim: 名詞が数えられるかどうかで many／much・few／little を選び、a の有無による意味の違いや、the number of・population の使い方を判断できるようになる。
+    body:
+    - h: 数えられる名詞か、数えられない名詞か
+    - p: 「たくさんの」「少しの」を表す形容詞は、後ろの名詞が数えられるかどうかで使い分けます（数えられる名詞と数えられない名詞は @s131）。数えられる名詞の複数形には many・few・a few を、数えられない名詞には much・little・a little を使います（@e1507）。a lot of（lots of）は、どちらの名詞にも使えます。
+    - table:
+        head: ["", 数えられる名詞（複数形）, 数えられない名詞]
+        rows:
+        - [たくさんの, "{{many}} books", "{{much}} water"]
+        - [少しある, "{{a few}} books", "{{a little}} water"]
+        - [ほとんどない, "{{few}} books", "{{little}} water"]
+        - [どちらにも使える, a lot of books, a lot of water]
+      notes:
+      - kind: 注意
+        text: much は否定文・疑問文で使うことが多い。肯定文で「たくさんの水」と言うときは a lot of water がふつう。ただし too much・so much・very much のように前に語が付けば、肯定文でも much を使う。
+      - kind: 注意
+        text: information・advice・homework・furniture は、英語では数えられない名詞。many information・a few advice は誤りで、much information・a little advice とする。
+    - ex: [e1507]
+    - h: a few と few、a little と little
+    - p: a が付くかどうかで、意味が変わります。a few・a little は「少しある」と、あることに目を向けた言い方です。few・little は「ほとんどない」と、ないことに目を向けた言い方で、否定の意味をふくみます。@e1508 と @e1509 は、どちらも友だちの数は多くありませんが、@e1508 は「何人かいる（だからさびしくない）」、@e1509 は「ほとんどいない（だからさびしい）」という意味になります。
+    - ex: [e1508, e1509]
+    - p: quite a few は、a が付いていますが「かなり多くの」という意味です（Quite a few people came.）。反対に only a few・only a little は「ほんの少ししか〜ない」で、否定に近い意味になります。この2つを除けば、a が付けば「少しある」、付かなければ「ほとんどない」と考えて読みます。
+    - h: a number of と the number of
+    - p: a number of＋複数名詞は「いくつもの〜・多くの〜」という意味で、many に近い働きをします。中心は後ろの名詞なので、動詞は複数で受けます（@e1510）。the number of＋複数名詞は「〜の数」という意味で、S の中心は number（数）です。数は1つなので、動詞は単数で受けます（@e1511）。
+    - ex: [e1510, e1511]
+    - h: population は large／small
+    - p: population（人口）は、それ自体が「人の数」を表す名詞です。そのため「人口が多い・少ない」は many／few ではなく large／small で表します（@e1512）。number（数）・amount（量）・audience（観客）も同じで、a large number of people・a small amount of money のように言います。
+      notes:
+      - kind: 注意
+        text: 人口をたずねるときは What is the population of 〜? と言う。How many は使わない。値段（price）の高い・安いは high／low で表す。
+    - ex: [e1512]
+    - check:
+      - q: "I don't have (many／much) homework today."
+        a: much（homework は数えられない名詞）
+      - q: "(A／The) number of cars in this town is increasing."
+        a: The（動詞が is）
+      - q: "This city has a (large／many) population."
+        a: large
+    examples:
+    - id: e1507
+      en: We don't have *much* time, so let's take a taxi.
+      ja: 時間があまりないので、タクシーに乗ろう。
+    - id: e1508
+      en: I have *a few* friends in Osaka, so I'm not lonely there.
+      ja: 大阪には友だちが何人かいるので、そこではさびしくない。
+    - id: e1509
+      en: I have *few* friends in this town, so I'm often lonely.
+      ja: この町には友だちがほとんどいないので、よくさびしくなる。
+    - id: e1510
+      en: "*A number of* students *are* absent today."
+      ja: 今日は何人もの生徒が欠席している。
+    - id: e1511
+      en: "*The number of* students in our school *is* about 600."
+      ja: 私たちの学校の生徒の数は約600人だ。
+    - id: e1512
+      en: The population of this city is very *large*.
+      ja: この市の人口はとても多い。
+    worked:
+    - q: （　）に入る最も適切なものを1つ選びなさい。<br>My cousin moved to this town last month. She has (＿) friends here, so she often feels lonely.
+      choices: [a few, few, a little, little]
+      steps:
+      - 空所は文のどの要素かを考える。friends（名詞）の前なので、名詞を説明する形容詞が入る。
+      - friends は数えられる名詞の複数形なので、数えられない名詞に使う a little・little は入らない。
+      - 手がかりの語を探す。so she often feels lonely（だからよくさびしく思う）とあるので、友だちは「ほとんどいない」。few を選ぶ。a few は「少しいる」で、さびしい理由にならない。
+      ans: "2"
+      point: a few は「少しある」、few は「ほとんどない」。a の有無は、後ろに続く文の流れで決める。
+    - q: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。<br>__The number of__① tourists __visiting__② this town __are__③ increasing __every year__④.
+      steps:
+      - S の中心の語を探す。The number of tourists visiting this town は「この町を訪れる旅行者の数」で、中心は number（数）。
+      - 数は1つなので、動詞は単数で受ける。③are は tourists に合わせた形で誤り。is increasing とする。
+      - ほかも確かめる。②visiting は tourists を後ろから説明する現在分詞、④every year は時を表す M で、どちらも正しい。
+      ans: ③（are → is）
+      point: the number of ～ は「〜の数」で動詞は単数。a number of ～ は「多くの〜」で動詞は複数。
+    summary:
+    - "数えられる名詞には {{many}}・few・a few、数えられない名詞には {{much}}・little・a little を使う。"
+    - "a few・a little は「少し{{ある}}」、few・little は「ほとんど{{ない}}」。quite a few は「{{かなり多くの}}」。"
+    - "a number of＋複数名詞は動詞を{{複数}}、the number of＋複数名詞は動詞を{{単数}}で受ける。"
+    - "population（人口）の多い・少ないは {{large}}／{{small}} で表す。"
+  - id: s153
+    title: "人を主語にしない形容詞・紛らわしい形容詞"
+    aim: convenient・possible・necessary を人を主語にせずに使い、sensible／sensitive などの形の似た形容詞を意味で選び分けられるようになる。
+    body:
+    - h: 人を主語にしない形容詞
+    - p: 日本語では「私は月曜日なら都合がいい」と、人を主語にして言えます。しかし英語の convenient（都合がよい）は、「時・場所・物事が、人にとって都合がよい」という意味の形容詞で、主語には時や物事を置きます（@e1513）。人は for の後ろに置き、「あなたの都合がよいときに」は when it is convenient for you とします。人を主語にして「手があいている」と言いたいときは、free を使います（@e1514）。
+    - ex: [e1513, e1514]
+    - p: possible（可能な）・impossible（不可能な）・necessary（必要な）も、「人が〜できる」「人が〜する必要がある」の意味では人を主語にしません。この意味は、形式主語の it（@s061）を使って、It is possible for 人 to do・It is necessary for 人 to do の形で表します（@e1515）。人を主語にしたいときは、can・be able to や need to を使います（I can come.／You need to bring a pen.）。
+    - ex: [e1515]
+    - p: 主語に置けるのは物事です。This plan is possible.（この計画は実現できる）や Water is necessary for plants.（水は植物に必要だ）は正しい文です。また、He is impossible.（彼は手に負えない）のように impossible が人を主語にとることもありますが、「〜できない」という意味ではありません。これらを除けば、この3語と convenient は「人が〜できる・人に都合がよい」の意味で人を主語にとりません。
+    - table:
+        head: [言いたいこと, 誤り, 正しい形]
+        rows:
+        - [月曜日なら都合がよい, × I am convenient on Monday., "Monday is {{convenient for me}}.／I am {{free}} on Monday."]
+        - [私はそれを終えられる, × I am possible to finish it., "{{It}} is possible {{for me}} to finish it.／I {{can}} finish it."]
+        - [あなたは来る必要がある, × You are necessary to come., "It is necessary {{for you}} to come.／You {{need}} to come."]
+    - h: 形の似た形容詞
+    - p: 同じ語から生まれ、語尾だけが違う形容詞があります。形が似ているのに意味がはっきり違うので、4択で並べて出されます。語尾だけから意味を決めることはできないので、組にして覚えます（@e1516、@e1517）。
+    - table:
+        head: [語, 意味, 例]
+        rows:
+        - [sensible, "{{分別のある}}・賢明な", a sensible decision]
+        - [sensitive, "{{敏感な}}・傷つきやすい", sensitive skin]
+        - [economic, "{{経済の}}", economic news]
+        - [economical, "{{節約になる}}・安上がりな", an economical car]
+        - [imaginary, "{{想像上の}}", an imaginary animal]
+        - [imaginative, "{{想像力豊かな}}", an imaginative writer]
+      notes:
+      - kind: 注意
+        text: 覚え方の目安として、sensitive・imaginative の -ive は「〜する力が強い」（感じる力が強い・想像する力がある）と結びつけるとよい。どの語にも当てはまる規則ではない。
+    - ex: [e1516, e1517]
+    - check:
+      - q: "Please call me when (you are／it is) convenient."
+        a: it is（主語は人にしない）
+      - q: 「想像上の動物」は an (imaginary／imaginative) animal？
+        a: imaginary
+      - q: 「経済のニュース」は (economic／economical) news？
+        a: economic
+    examples:
+    - id: e1513
+      en: Is next Monday *convenient* for you?
+      ja: 来週の月曜日はご都合がよいですか。
+    - id: e1514
+      en: Are you *free* next Monday?
+      ja: 来週の月曜日は手があいていますか。
+    - id: e1515
+      en: It is *necessary* for you to bring your own lunch on Friday.
+      ja: 金曜日は、自分の昼食を持ってくる必要がある。
+    - id: e1516
+      en: My sister has *sensitive* skin, so she uses a special soap.
+      ja: 姉は肌が敏感なので、特別なせっけんを使っている。
+    - id: e1517
+      en: Making lunch at home is *economical*.
+      ja: 家で昼食を作るのは安上がりだ。
+    worked:
+    - q: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。<br>I'm at home __all__① day today, so please __come__② __to see__③ me __when you are convenient__④.
+      steps:
+      - convenient の主語を確かめる。④when you are convenient では、人の you が convenient の主語になっている。
+      - convenient は「時や物事が、人にとって都合がよい」という意味なので、人を主語にしない。④が誤りで、when it is convenient for you とする。
+      - ほかも確かめる。①all day は「一日中」、②come と③to see は「会いに来る」を表し、どれも正しい。
+      ans: ④（when you are convenient → when it is convenient for you）
+      point: convenient・possible・necessary は「人が〜」の意味で人を主語にしない。it を主語にし、人は for の後ろに置く。
+    - q: （　）に入る最も適切なものを1つ選びなさい。<br>My little brother is very (＿). He cries when someone says something unkind to him.
+      choices: [sensible, sensitive, sense, sensibly]
+      steps:
+      - 空所は文のどの要素かを考える。is very の後ろで、My little brother がどんな人かを表す C なので、形容詞が入る。名詞の sense と副詞の sensibly は入らない。
+      - 残るのは形の似た sensible（分別のある）と sensitive（傷つきやすい）。
+      - 手がかりは、後ろの「だれかに意地悪なことを言われると泣く」。傷つきやすいという意味の sensitive を選ぶ。
+      ans: "2"
+      point: sensible は「分別のある」、sensitive は「敏感な・傷つきやすい」。形が似た形容詞は、文の内容で選ぶ。
+    summary:
+    - "convenient は人を主語に{{しない}}。「あなたの都合がよいときに」は when {{it}} is convenient {{for you}}。"
+    - "possible・necessary は It is possible {{for}} 人 to do の形。人を主語にするなら can・{{need to}} を使う。"
+    - "sensible は「{{分別のある}}」、sensitive は「{{敏感な}}」。economic は「{{経済の}}」、economical は「{{節約になる}}」。"
+    - "imaginary は「{{想像上の}}」、imaginative は「{{想像力豊かな}}」。"
+  - id: s154
+    title: "副詞の働きと位置、注意すべき副詞"
+    aim: 頻度の副詞を正しい位置に置き、hard／hardly・late／lately・already／yet／still・ago／before を意味と文の形から選び分けられるようになる。
+    body:
+    - h: 副詞は名詞以外を説明する
+    - p: 副詞（@s011）は、動詞（run fast）、形容詞（very cold）、ほかの副詞（very slowly）、文全体（Luckily, the rain stopped.）を説明する語で、文の中では M になります。副詞を外しても、文の骨組み（S・V・O・C）は残ります。この節では、置く位置に決まりのある副詞と、形や意味のまぎらわしい副詞を整理します。
+    - h: 頻度の副詞の位置
+    - p: always（いつも）・usually（たいてい）・often（よく）・sometimes（ときどき）・never（決して〜ない）のように、どのくらいの回数でするかを表す副詞を<<頻度の副詞>>といいます。頻度の副詞は、一般動詞の前（@e1518）、be 動詞の後ろ（@e1519）、助動詞の後ろ（@e1520）に置くのが基本です。
+      notes:
+      - kind: 用語
+        term: 頻度の副詞
+        yomi: ひんどのふくし
+        text: always・usually・often・sometimes・never など、ある動作をどのくらいの回数でするかを表す副詞。一般動詞の前、be 動詞と助動詞の後ろに置くのが基本。
+      - kind: 注意
+        text: seldom・rarely（めったに〜ない）も頻度の副詞で、同じ位置に置く。否定の意味をふくむので not を付けない（くわしくは単元17 @s173）。
+    - table:
+        head: [文の動詞, 頻度の副詞の位置, 例]
+        rows:
+        - [一般動詞, "一般動詞の{{前}}", I usually walk to school.]
+        - [be 動詞, "be 動詞の{{後ろ}}", He is always busy.]
+        - ["助動詞（完了形の have もふくむ）", "助動詞の{{後ろ}}", I will never forget it.・I have often seen him.]
+    - ex: [e1518, e1519, e1520]
+    - p: 例外もあります。sometimes・usually・often は、文の頭や終わりに置くこともできます（Sometimes I walk to school.）。また、Never give up. のような命令文では、never・always を文の頭に置きます。この2つを除けば、頻度の副詞は表の位置に置き、always・never を文の頭に置いた文は誤りになります。
+    - h: 形のまぎらわしい副詞
+    - p: hard は、形容詞（かたい・難しい）と同じ形のままで「一生懸命に・激しく」という副詞にもなります（@e1521）。-ly を付けた hardly は「ほとんど〜ない」という別の意味の副詞です（@e1522）。hardly は否定の意味をふくむので、not といっしょに使いません。hardly ever は「めったに〜ない」という意味です。late（遅く）と lately（最近）、near（近くに）と nearly（ほとんど・もう少しで）も同じように、-ly が付くと意味が変わります。
+    - table:
+        head: [語, 意味, 例]
+        rows:
+        - [hard, "{{一生懸命に}}・激しく", study hard・It rained hard.]
+        - [hardly, "{{ほとんど〜ない}}", I could hardly sleep.]
+        - [late, "{{遅く}}・遅れて", get up late]
+        - [lately, "{{最近}}", I haven't seen him lately.]
+        - [near, "{{近くに}}", live near]
+        - [nearly, "{{ほとんど}}・もう少しで", nearly 100 people]
+      notes:
+      - kind: 注意
+        text: lately（最近）は、現在完了といっしょに使うことが多い。
+    - ex: [e1521, e1522]
+    - h: already・yet・still
+    - p: already は肯定文で「もう〜した」、yet は否定文の終わりで「まだ〜ない」、疑問文の終わりで「もう〜したか」を表します（@s031）。still は「まだ〜している」と、前からの状態が続いていることを表します（@e1523）。still を否定文で使うときは、否定の語の前に置いて He still hasn't finished. とし、「（まだ終わっているはずなのに）まだ終わっていない」という気持ちを表します。yet なら He hasn't finished yet. と文の終わりに置きます（@e1524）。
+      notes:
+      - kind: 注意
+        text: already を疑問文に使うと「もう〜したの？」という驚きを表す（Have you finished already?）。yet は肯定文ではふつう使わないが、have yet to do（まだ〜していない）というかたい言い方は別に覚える。
+    - ex: [e1523, e1524]
+    - h: ago と before
+    - p: ago と before の区別は単元3で学びました（@s034）。ago は今から数えて「〜前」で、過去形と使います（three years ago）。before は過去のある時から数えて「その時より〜前」で、過去完了と使います（three years before）。before を単独で使うと「以前に」の意味になり、現在完了の経験とも使えます（I have seen this movie before.）。
+    - check:
+      - q: "My mother (is always／always is) busy in the morning."
+        a: is always（be 動詞の後ろ）
+      - q: "I could (hard／hardly) believe the news."
+        a: hardly
+      - q: "The bus hasn't come (still／yet)."
+        a: yet（否定文の終わり）
+    examples:
+    - id: e1518
+      en: My father *usually* gets up at six.
+      ja: 父はたいてい6時に起きる。
+    - id: e1519
+      en: Mr. Sugimoto is *always* kind to new students.
+      ja: スギモト先生は、新入生にいつも親切だ。
+    - id: e1520
+      en: We can *sometimes* see Mt. Fuji from our classroom.
+      ja: 私たちの教室から、ときどき富士山が見える。
+    - id: e1521
+      en: Ms. Carter's students practiced *hard* for the speech contest.
+      ja: カーター先生の生徒たちは、スピーチコンテストに向けて一生懸命練習した。
+    - id: e1522
+      en: I can *hardly* hear you. The train is very noisy.
+      ja: あなたの声がほとんど聞こえない。電車がとてもうるさいんだ。
+    - id: e1523
+      en: It's eight o'clock, but my brother is *still* in bed.
+      ja: 8時なのに、弟はまだ寝ている。
+    - id: e1524
+      en: My brother hasn't finished his homework *yet*.
+      ja: 弟はまだ宿題を終えていない。
+    worked:
+    - q: （　）に入る最も適切なものを1つ選びなさい。<br>The music next door was so loud that I could (＿) hear the TV.
+      choices: [hard, hardly, harder, hardness]
+      steps:
+      - 空所は文のどの要素かを考える。could と hear の間で、動詞 hear を説明する M なので副詞が入る。名詞の hardness は入らない。
+      - hard・harder も副詞になるが、「一生懸命に聞こえた」では意味が通らず、助動詞と動詞の間にも置かない。
+      - 手がかりは so loud that（とてもうるさかったので）。テレビの音が「ほとんど聞こえなかった」となる hardly を選ぶ。
+      ans: "2"
+      point: hard は「一生懸命に」、hardly は「ほとんど〜ない」。hardly は否定の意味をふくむので not を付けない。
+    - q: （　）に入る最も適切なものを1つ選びなさい。<br>It's already noon, but my sister (＿) hasn't got up.
+      choices: [yet, still, already, ever]
+      steps:
+      - 空所は文のどの要素かを考える。主語 my sister と hasn't の間で、文を説明する M。
+      - 否定の語 hasn't の前に置けるのは still。yet は否定文では文の終わりに置くので、ここには入らない。
+      - 手がかりは It's already noon, but（もう正午なのに）。「まだ起きていない」と続くので still を選ぶ。already は肯定文で使い、ever は否定文のこの位置に置かない。
+      ans: "2"
+      point: 否定文の「まだ〜ない」は、yet なら文の終わり、still なら否定の語の前に置く。
+    summary:
+    - "{{頻度の副詞}}（always・usually・often など）は、一般動詞の{{前}}、be 動詞と助動詞の{{後ろ}}に置く。"
+    - "hard は「{{一生懸命に}}」、hardly は「{{ほとんど〜ない}}」。late は「遅く」、lately は「{{最近}}」。"
+    - "否定文の「まだ〜ない」は、{{yet}} なら文の終わり、{{still}} なら否定の語の前に置く。"
+    - "ago は今から数えて〜前で{{過去形}}と、before は過去のある時から数えて〜前で{{過去完了}}と使う。"
+problems:
+# ---- 前提チェック ----
+- id: q15001
+  sec: s151
+  set: 前提
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: My uncle lives in a (＿) house by the sea.
+  choices: [beauty, beautiful, beautifully, beautify]
+  ans: "2"
+  why: a と house の間で、名詞 house を説明する位置。名詞を説明するのは形容詞の beautiful。
+  trap: ③beautifully を選ぶ誤り。-ly の付いた副詞は名詞を説明しない。
+- id: q15002
+  sec: s151
+  set: 前提
+  lv: 1
+  kind: 4択
+  min: 1
+  q: How (＿) brothers and sisters do you have?
+  choices: [much, many, long, old]
+  ans: "2"
+  why: brothers and sisters は数えられる名詞の複数形。数をたずねるときは How many を使う。
+  trap: ①much を選ぶ誤り。How much は量や値段をたずねる言い方で、数えられる名詞の複数形には使わない。
+- id: q15003
+  sec: s151
+  set: 前提
+  lv: 1
+  kind: 4択
+  min: 1
+  q: My sister (＿) to school by bike.
+  choices: [goes usually, usually goes, usual goes, goes usual]
+  ans: "2"
+  why: usually（たいてい）は一般動詞の前に置く。usually goes の順になる。
+  trap: ①goes usually を選ぶ誤り。日本語の「行く、たいてい」の順につられやすいが、usually は一般動詞の前に置く。
+# ---- s151 節末 ----
+- id: q15004
+  sec: s151
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: I eat the same food every day. I want to eat (＿) this weekend.
+  choices: [different something, something different, differently something, something differently]
+  ans: "2"
+  why: something を説明する形容詞は後ろに置くので、something different（何か違うもの）の順になる。
+  trap: ①different something を選ぶ誤り。ふつうの名詞なら形容詞は前に置くが、-thing で終わる語では形容詞を後ろに置く。
+- id: q15005
+  sec: s151
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 日本語の意味になるように、（　）に a で始まる適切な語を1語入れなさい。
+  q: 川で捕まえた魚は、まだ生きていた。<br>The fish we caught in the river was still (＿).
+  ans: alive
+  why: was の後ろで、魚がどんな状態かを表す C。「生きている」を表し、a で始まる形容詞は alive。alive は C だけで使う形容詞なので、この位置に置ける。
+  trap: live を書く誤り。live は形容詞なら a live fish のように名詞の前で使い、a で始まらない。C の位置では alive を使う。
+- id: q15006
+  sec: s151
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: The (＿) children were waiting for the last bus.
+  choices: [asleep, alone, sleepy, alive]
+  ans: "3"
+  why: 空所は The と children の間で、名詞を前から説明する位置。asleep・alone・alive は C だけで使う形容詞で、名詞の前に置けない。名詞の前に置けるのは sleepy（眠そうな）。
+  trap: ①asleep を選ぶ誤り。意味は通りそうに見えるが、asleep は名詞の前に置けない。
+- id: q15007
+  sec: s151
+  set: 節末
+  lv: 1
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: その報告書には、新しいことは何もなかった。<br>There was ( in / new / nothing / the ) report.
+  words: [in, new, nothing, the]
+  ans: There was nothing new in the report.
+  why: nothing を説明する形容詞 new は nothing の後ろに置く。その後ろに場所を表す in the report を続ける。
+  trap: There was new nothing … と形容詞を前に置く誤り。-thing で終わる語では、形容詞は後ろに置く。
+- id: q15008
+  sec: s151
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: When I came home, my __asleep__① sister was lying __on__② the sofa, so I walked __quietly__③ __to__④ my room.
+  ans: "1"
+  why: asleep は C だけで使う形容詞で、名詞 sister の前には置けない。my sleeping sister とする。②on the sofa は場所、③quietly は walked を説明する副詞、④to my room は行き先で、どれも正しい。
+  trap: 「眠っている」という意味が合うので asleep を正しいと思う誤り。意味ではなく、名詞の前か C かという位置で判断する。
+- id: q15009
+  sec: s151
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: My grandmother gave me a box (＿) of old photos.
+  choices: [full, fully, filling, fill]
+  ans: "1"
+  why: full of old photos（古い写真でいっぱいの）が、box を後ろから説明する形容詞のかたまり。full of で「〜でいっぱいの」。
+  trap: ②fully を選ぶ誤り。名詞 box を説明するのは形容詞で、副詞は名詞を説明しない。
+- id: q15010
+  sec: s151
+  set: 節末
+  lv: 2
+  kind: 和訳
+  min: 3
+  inst: 次の英文を日本語に訳しなさい。
+  q: Strong coffee keeps me awake at night.
+  ans: 濃いコーヒーを飲むと、私は夜眠れなくなる。
+  alt: [濃いコーヒーは、夜、私の目を覚ましたままにする。, 濃いコーヒーのせいで、私は夜眠れない。]
+  why: keep O C で「O を C のままにしておく」。C の awake は「目が覚めている」という C だけで使う形容詞で、me＝awake の関係。「眠れない」「目が覚めたままになる」の意味が出ていれば正解。
+  trap: awake を「起こす」という動詞と読み、「コーヒーが私を起こす」と訳す誤り。keep の後ろの awake は O の状態を表す形容詞である。
+# ---- s152 節末 ----
+- id: q15011
+  sec: s152
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: There is (＿) water in the bottle. Can you buy some more?
+  choices: [few, a few, little, many]
+  ans: "3"
+  why: water は数えられない名詞なので、few・a few・many は使えない。「もっと買ってきて」と続くので、「ほとんどない」の little を選ぶ。
+  trap: ②a few を選ぶ誤り。a few は数えられる名詞の複数形に使う。数えられない名詞には a little・little を使う。
+- id: q15012
+  sec: s152
+  set: 節末
+  lv: 1
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 旅行にはいくらお金が必要ですか。<br>How ( do / money / much / need / you ) for the trip?
+  words: [do, money, much, need, you]
+  ans: How much money do you need for the trip?
+  why: money は数えられない名詞なので、量をたずねる How much を使い、How much money をひとかたまりにして文の頭に置く。その後ろに疑問文の語順 do you need を続ける。
+  trap: How much do you need money … と money を後ろに離す誤り。How much＋名詞 はひとかたまりで文の頭に置く。
+- id: q15013
+  sec: s152
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: （　）に a few か a little のどちらかを入れなさい。答えは (1)(2) の番号を付けて書くこと。
+  q: (1) I'll be back in (＿) minutes.<br>(2) Could you give me (＿) help with this box?
+  ans: (1) a few　(2) a little
+  why: (1) minutes は数えられる名詞の複数形なので a few。(2) help（手助け）は数えられない名詞なので a little。
+  trap: 日本語の「少し」につられて、両方に同じ語を入れる誤り。後ろの名詞が数えられるかどうかで決める。
+- id: q15014
+  sec: s152
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 日本語の意味になるように、（　）に s で始まる適切な語を1語入れなさい。
+  q: この市の人口は少ない。<br>The population of this city is (＿).
+  ans: small
+  why: population（人口）は「人の数」を表す名詞なので、少ないことは small で表す。
+  trap: few や little を考える誤り。population の多い・少ないは many／few ではなく large／small で表す。
+- id: q15015
+  sec: s152
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: (＿) people came to the summer festival, so the park was very crowded.
+  choices: [Quite a few, Few, A little, Little]
+  ans: "1"
+  why: people は数えられる名詞なので、A little・Little は使えない。「公園はとても混んでいた」と続くので、「かなり多くの」の Quite a few を選ぶ。
+  trap: ②Few を選ぶ誤り。few は「ほとんど〜ない」なので、「ほとんど来なかったので混んでいた」となり、後ろとつながらない。
+- id: q15016
+  sec: s152
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: __A number of__① students __was__② late this morning __because__③ the trains __stopped__④ for an hour.
+  ans: "2"
+  why: a number of＋複数名詞は「多くの〜」で、中心は students なので動詞は複数で受ける。was ではなく were とする。①A number of、③because、④stopped は正しい。
+  trap: the number of と混ぜて、単数の was を正しいと思う誤り。「〜の数」の the number of なら単数だが、a number of は複数で受ける。
+- id: q15017
+  sec: s152
+  set: 節末
+  lv: 2
+  kind: 英作
+  min: 2
+  inst: 日本語の意味になるように、英文を書きなさい。
+  q: この町にはレストランがほとんどない。
+  ans: There are few restaurants in this town.
+  alt: [This town has few restaurants., There are very few restaurants in this town., This town has very few restaurants., There are hardly any restaurants in this town.]
+  why: restaurants は数えられる名詞の複数形なので、「ほとんどない」は few で表す。採点の目安：few（very few）＋restaurants を使っていれば正解。a few、little は不可。
+  trap: There are a few restaurants と a を付ける誤り。a few は「少しある」で、「ほとんどない」にならない。
+# ---- s153 節末 ----
+- id: q15018
+  sec: s153
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Please call me when it is (＿) for you.
+  choices: [convenient, imaginary, sensitive, economic]
+  ans: "1"
+  why: 「あなたの都合がよいときに電話してください」。it を主語にして when it is convenient for you とする。
+  trap: ③sensitive を選ぶ誤り。sensitive は「敏感な」で、for you と組んで「都合がよい」の意味にはならない。
+- id: q15019
+  sec: s153
+  set: 節末
+  lv: 1
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 残念ですが、私は明日来られません。<br>I'm sorry, but it ( come / for / is / me / not / possible / to ) tomorrow.
+  words: [come, for, is, me, not, possible, to]
+  ans: I'm sorry, but it is not possible for me to come tomorrow.
+  why: possible は人を主語にしないので、形式主語の it を使い、It is not possible for 人 to do の順に並べる。
+  trap: me を主語のように考えて並べようとする誤り。possible の文では、人は for の後ろに置く。
+- id: q15020
+  sec: s153
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 日本語の意味になるように、（　）に i で始まる適切な語を1語入れなさい。
+  q: ドラゴンは想像上の動物だ。<br>Dragons are (＿) animals.
+  ans: imaginary
+  why: 「想像上の（実在しない）」は imaginary。
+  trap: imaginative を書く誤り。imaginative は「想像力豊かな」で、人や作品について使う。
+- id: q15021
+  sec: s153
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Ms. Carter is a very (＿) person. She never spends too much money and always makes wise choices.
+  choices: [sensible, sensitive, sense, sensibly]
+  ans: "1"
+  why: 名詞 person の前なので形容詞が入る。「お金を使いすぎず、いつも賢い選択をする」から、「分別のある」の sensible を選ぶ。
+  trap: ②sensitive を選ぶ誤り。sensitive は「敏感な・傷つきやすい」で、賢い選択をすることとは結びつかない。
+- id: q15022
+  sec: s153
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: Our bus __leaves__① at 7:10, __so__② __we are necessary__③ to leave home __before__④ seven.
+  ans: "3"
+  why: necessary は「人が〜する必要がある」の意味で人を主語にしない。it is necessary for us to leave home … か、we need to leave home … とする。①leaves は時刻表の決まった予定を表す現在形で正しい。
+  trap: 「私たちは〜する必要がある」という日本語につられて、we are necessary を正しいと思う誤り。
+- id: q15023
+  sec: s153
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: This small car uses very little fuel, so it is very (＿).
+  choices: [economic, economical, economy, economics]
+  ans: "2"
+  why: is very の後ろは C で形容詞が入る。「燃料をほとんど使わない」から、「節約になる・安上がりな」の economical を選ぶ。
+  trap: ①economic を選ぶ誤り。economic は「経済の」で、economic news のように名詞の前で使うことが多く、「安上がりな」の意味はない。
+- id: q15024
+  sec: s153
+  set: 節末
+  lv: 2
+  kind: 和訳
+  min: 3
+  inst: 次の英文を日本語に訳しなさい。
+  q: My son is very imaginative, and he often draws imaginary animals.
+  ans: 私の息子はとても想像力が豊かで、よく想像上の動物の絵を描く。
+  alt: [息子はとても想像力豊かで、実在しない動物の絵をよく描く。]
+  why: imaginative は「想像力豊かな」、imaginary は「想像上の・実在しない」。2つを訳し分けていれば正解。
+  trap: 2つとも「想像の」と同じ意味で訳す誤り。-ive の形は人の性質（想像する力がある）を表す。
+# ---- s154 節末 ----
+- id: q15025
+  sec: s154
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: Mr. Sugimoto's team trained very (＿) for the final game.
+  choices: [hard, hardly, hardness, harden]
+  ans: "1"
+  why: trained を説明する M なので副詞が入る。「決勝に向けてとても一生懸命練習した」となる hard を選ぶ。
+  trap: -ly が付いているから副詞だと考えて②hardly を選ぶ誤り。hardly は「ほとんど〜ない」で、意味が変わる。
+- id: q15026
+  sec: s154
+  set: 節末
+  lv: 1
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 私は彼の親切を決して忘れないだろう。<br>I ( forget / his / kindness / never / will ).
+  words: [forget, his, kindness, never, will]
+  ans: I will never forget his kindness.
+  why: never は頻度の副詞で、助動詞 will の後ろ、動詞 forget の前に置く。
+  trap: I never will forget … と助動詞の前に置く誤り。頻度の副詞は助動詞の後ろに置くのが基本。
+- id: q15027
+  sec: s154
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: I haven't seen Ms. Carter (＿). Is she busy these days?
+  choices: [late, lately, later, latest]
+  ans: "2"
+  why: 現在完了の文で、these days（このごろ）とも合う「最近」の lately を選ぶ。
+  trap: ①late を選ぶ誤り。late は「遅く・遅れて」で、「最近」の意味はない。
+- id: q15028
+  sec: s154
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: （　）に already か yet のどちらかを入れなさい。答えは (1)(2) の番号を付けて書くこと。
+  q: (1) I haven't finished my homework (＿).<br>(2) I've (＿) eaten lunch, so I'm not hungry.
+  ans: (1) yet　(2) already
+  why: (1) 否定文の終わりで「まだ〜ない」は yet。(2) 肯定文で have と過去分詞の間に置き「もう〜した」を表すのは already。
+  trap: (1) に already を入れる誤り。already は肯定文で使い、否定文の終わりには置かない。
+- id: q15029
+  sec: s154
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: The music __next door__① was __so__② loud __that__③ I __couldn't hardly__④ sleep.
+  ans: "4"
+  why: hardly は「ほとんど〜ない」と否定の意味をふくむので、not といっしょに使わない。couldn't hardly ではなく could hardly とする。②③so ～ that は「とても〜なので」で正しい。
+  trap: 「ほとんど眠れなかった」の「なかった」につられて not を付ける誤り。否定は hardly だけで表す。
+- id: q15030
+  sec: s154
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: When I visited my old school last month, my favorite teacher was not there. She had left the school three years (＿).
+  choices: [ago, before, since, already]
+  ans: "2"
+  why: had left は過去完了で、基準の時は先月学校を訪ねた時。その時より3年前なので、過去のある時から数える before を使う。
+  trap: ①ago を選ぶ誤り。ago は今から数えて「〜前」で、過去形と使う。過去完了の文では before を使う。
+- id: q15031
+  sec: s154
+  set: 節末
+  lv: 2
+  kind: 和訳
+  min: 3
+  inst: 次の英文を日本語に訳しなさい。
+  q: I have hardly seen my father lately because he has been working hard.
+  ans: 父はこのところ一生懸命働いているので、私は最近、父にほとんど会っていない。
+  alt: [父がずっと懸命に働いているので、最近私は父とほとんど顔を合わせていない。]
+  why: hardly は「ほとんど〜ない」、lately は「最近」、hard は「一生懸命に」。3つを正しく訳し分けていれば正解。
+  trap: hardly を「一生懸命に」と訳す誤り。hardly は hard とは別の意味の副詞で、否定の意味をふくむ。
+# ---- 確認テスト ----
+- id: q15032
+  sec: s151
+  set: 確認テスト
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: I'm hungry. Is there (＿) to eat in the fridge?
+  choices: [good anything, anything good, anything well, well anything]
+  ans: "2"
+  why: anything を説明する形容詞 good は後ろに置き、その後ろに to eat を続ける。「-thing＋形容詞＋to do」の順。
+  trap: ①good anything を選ぶ誤り。-thing で終わる語を説明する形容詞は後ろに置く。well は副詞なので名詞の働きをする語を説明しない。
+- id: q15033
+  sec: s152
+  set: 確認テスト
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 日本語の意味になるように、（　）に適切な語を1語入れなさい。
+  q: この道路を走る車の数は増えている。<br>The (＿) of cars on this road is increasing.
+  ans: number
+  why: 「〜の数」は the number of＋複数名詞。中心は number なので、動詞は単数の is になっている。
+  trap: amount を入れる誤り。amount は量を表し、cars のような数えられる名詞には number を使う。
+- id: q15034
+  sec: s153
+  set: 確認テスト
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: 日本語の意味に合う英文として最も適切なものを1つ選びなさい。
+  q: 明日はご都合がよいですか。<br>(＿)
+  choices: ["Are you convenient tomorrow?", "Is tomorrow convenient for you?", "Do you convenient tomorrow?", "Is tomorrow convenient of you?"]
+  ans: "2"
+  why: convenient は時や物事を主語にし、人は for の後ろに置く。Is tomorrow convenient for you? が正しい。
+  trap: ①Are you convenient tomorrow? を選ぶ誤り。日本語の「あなたは都合がよい」につられて人を主語にしている。
+- id: q15035
+  sec: s154
+  set: 確認テスト
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 日本語の意味になるように、（　）に適切な語を1語入れなさい。
+  q: まだ雨が降っているの？<br>Is it (＿) raining?
+  ans: still
+  why: 「まだ〜している」と、前からの状態が続いていることを表すのは still。
+  trap: yet を入れる誤り。Is it raining yet? は「もう降り始めた？」という意味になり、「まだ降っている」にはならない。
+- id: q15036
+  sec: s082
+  set: 確認テスト
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: The soccer game was very (＿), and all the fans stood up and shouted.
+  choices: [exciting, excited, excite, excitement]
+  ans: "1"
+  why: 主語は The soccer game。試合は人をわくわくさせる側なので、現在分詞の exciting を使う。
+  trap: ②excited を選ぶ誤り。excited は「わくわくさせられた（人）」の意味で、ファンなら excited だが、試合の説明にはならない。
+- id: q15037
+  sec: s151
+  set: 確認テスト
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: パーティーで何か特別なことをしたい。<br>I want to ( at / do / something / special / the ) party.
+  words: [at, do, something, special, the]
+  ans: I want to do something special at the party.
+  why: want to do の後ろに O の something を置き、something を説明する special をその後ろに置く。最後に場所の at the party を続ける。
+  trap: do special something と形容詞を前に置く誤り。-thing で終わる語を説明する形容詞は後ろに置く。
+- id: q15038
+  sec: s152
+  set: 確認テスト
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: I have too (＿) homework today, so I can't go out.
+  choices: [many, much, few, a number of]
+  ans: "2"
+  why: homework は数えられない名詞なので、量を表す much を使う。too much で「多すぎる」。
+  trap: ①many を選ぶ誤り。日本語では「宿題がたくさん」と数えられそうに見えるが、homework は英語では数えられない名詞である。
+- id: q15039
+  sec: s153
+  set: 確認テスト
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: Ms. Carter's daughter __has__① very __sensible__② skin, so she __always__③ uses a special soap __in__④ winter.
+  ans: "2"
+  why: 「肌が敏感で特別なせっけんを使う」という内容なので、「敏感な」の sensitive にする。sensible は「分別のある」。③always は一般動詞 uses の前で正しい位置。
+  trap: 形が似ているので sensible を正しいと思う誤り。sensible は「分別のある」、sensitive は「敏感な」と組で覚える。
+- id: q15040
+  sec: s154
+  set: 確認テスト
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: She __hard__① ever has time to watch TV __because__② she __has been__③ very busy __lately__④.
+  ans: "1"
+  why: 「めったに〜ない」は hardly ever。hard ではなく hardly とする。④lately は「最近」で、現在完了の has been と合う。
+  trap: hard と hardly を同じ意味と考える誤り。hard は「一生懸命に」、hardly は「ほとんど〜ない」で、別の語である。
+- id: q15041
+  sec: s014
+  set: 確認テスト
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: その知らせを聞いて、母はとても悲しくなった。<br>The news ( made / mother / my / sad / very ).
+  words: [made, mother, my, sad, very]
+  ans: The news made my mother very sad.
+  why: 「母＝悲しい」の関係を make O C（O を C にする）で表す。made の後ろに O の my mother、C の very sad を置く。
+  trap: The news made very sad my mother と C を O の前に置く誤り。SVOC は O、C の順に並べる。
