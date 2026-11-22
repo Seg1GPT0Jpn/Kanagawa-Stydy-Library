@@ -1,0 +1,1333 @@
+diff --git a/series/src/parts/g1_c01.yaml b/series/src/parts/g1_c01.yaml
+index 6a088f1..e953890 100644
+--- a/series/src/parts/g1_c01.yaml
++++ b/series/src/parts/g1_c01.yaml
+@@ -18,7 +18,7 @@ chapters:
+       - kind: 用語
+         term: 名詞
+         yomi: めいし
+-        text: 人・物・ことの名前を表す語（Kenji・book・music など）。文の S・O・C になり、前置詞の後ろにも置く。代名詞（I・it など）も名詞の仲間として扱う。
++        text: 人・物・ことの名前を表す語（Kenji・book・music など）。文の中では S・O・C や前置詞の後ろの語になることが多いが、every morning・last week・this year のような時を表す名詞のかたまりは、前置詞がなくても M（修飾語）になる。代名詞（I・it など）も名詞の仲間として扱う。
+       - kind: 用語
+         term: 動詞
+         yomi: どうし
+@@ -30,7 +30,7 @@ chapters:
+       - kind: 用語
+         term: 副詞
+         yomi: ふくし
+-        text: 名詞以外（動詞・形容詞・ほかの副詞・文全体）を説明する語（fast・very・often など）。文の M になり、S・O・C にはならない。
++        text: 主に動詞・形容詞・ほかの副詞・文全体を説明する語（fast・very・often など）。only・even は名詞の前に置いて名詞を説明することもある（only Ken）。文の中ではふつう M になり、S・O にはならない。C にもふつうならないが、The game is over.（試合は終わった）の over のように be 動詞の後ろに置く決まった言い方もある。
+       - kind: 用語
+         term: 前置詞
+         yomi: ぜんちし
+@@ -61,8 +61,8 @@ chapters:
+       - kind: 用語
+         term: 修飾語
+         yomi: しゅうしょくご
+-        text: 記号 M。S・V・O・C 以外の、時・場所・様子・理由などを付け足す語句。副詞と「前置詞＋名詞」が多い。文型を決めるときには数えない。
+-    - p: V は文の中心になる動詞で、can や will などの助動詞があるときは「助動詞＋動詞」をまとめて V とします。V を最初に見つけると、その前が S、後ろが O か C と、順に決まっていきます。どの要素にどの品詞が入るかは、次の表のとおりです。例文では、V を太字＋下線で、M を（ ）で示します（@e0101、@e0102）。
++        text: 記号 M。S・V・O・C 以外の、時・場所・様子・理由などを付け足す語句。副詞と「前置詞＋名詞」が多く、every morning・last week のような時を表す名詞のかたまりも M になる。文型を決めるときには数えない。
++    - p: V は文の中心になる動詞で、can や will などの助動詞があるときは「助動詞＋動詞」をまとめて V とします。V を最初に見つけると、その前が S、後ろが O か C と、順に決まっていきます。どの要素にどの品詞が入るかは、次の表のとおりです。この単元の例文では、V を太字＋下線で、M を（ ）で示します（@e0101、@e0102）。単元2からは、M の（ ）は省きます。
+     - table:
+         head: [要素, 日本語では, 入る品詞]
+         rows:
+@@ -70,11 +70,18 @@ chapters:
+         - [V（動詞）, 〜する・〜である, "{{動詞}}（助動詞＋動詞）"]
+         - [O（目的語）, 〜を・〜に, "{{名詞}}"]
+         - [C（補語）, S や O がどんなものか・どんな状態か, "{{名詞}}・{{形容詞}}"]
+-        - [M（修飾語）, いつ・どこで・どのように など, "{{副詞}}・前置詞＋名詞"]
++        - [M（修飾語）, いつ・どこで・どのように など, "{{副詞}}・前置詞＋名詞・時を表す名詞のかたまり（every morning など）"]
+     - ex: [e0101, e0102]
+-    - p: M は文型を決めるときには数えません。He lives in Osaka. の in Osaka のように、意味の上では欠かせない M もありますが、それでも「前置詞＋名詞」は M として扱い、文型には数えません。
+-    - h: 形容詞は C になれるが、副詞はなれない
+-    - p: 表のとおり、C になれるのは名詞と形容詞で、副詞は C になりません。@e0103 の happy は、「アスカがうれしい状態だった」と S の状態を説明する C なので形容詞です。@e0104 の happily は、sang（歌った）の様子を説明する M なので副詞です。空所に形容詞と副詞のどちらを入れるかは、その空所が C か M かで決まります。
++    - p: S と O には、名詞のほか I・he・she などの代名詞も入ります。代名詞は、どの位置に置くかで形が変わります。S の位置では I・he・she、O の位置と前置詞の後ろでは me・him・her を使います（I like her. ／ This picture was painted by him.）。V の形は S に合わせます。現在の文では、be 動詞は I am・he is・they are と変わり、S が3人称単数（he・she・it や、1人・1つを表す名詞）なら一般動詞に -s を付けます（My sister plays tennis.）。
++    - table:
++        head: [位置, 私, あなた, 彼, 彼女, それ, 私たち, 彼ら]
++        rows:
++        - [S（〜は）, I, you, he, she, it, we, they]
++        - [名詞の前（〜の）, my, your, his, her, its, our, their]
++        - [O・前置詞の後ろ（〜を・〜に）, "{{me}}", you, "{{him}}", "{{her}}", it, "{{us}}", "{{them}}"]
++    - p: M は文型を決めるときには数えません。He lives in Osaka. の in Osaka のように、意味の上では欠かせない M もありますが、それでも「前置詞＋名詞」は M として扱い、文型には数えません。@e0102 の every morning のように、時を表す名詞のかたまり（every day・last week・this year など）は、前置詞が付いていなくても M です。V の後ろにあっても O ではないので注意します。
++    - h: 形容詞は C になれるが、副詞はふつう C にならない
++    - p: 表のとおり、C になるのは名詞と形容詞で、副詞はふつう C になりません（The game is over. の over のような、be 動詞の後ろに置く決まった言い方は別に覚えます）。@e0103 の happy は、「アスカがうれしい状態だった」と S の状態を説明する C なので形容詞です。@e0104 の happily は、sang（歌った）の様子を説明する M なので副詞です。空所に形容詞と副詞のどちらを入れるかは、その空所が C か M かで決まります。
+       notes:
+       - kind: 注意
+         text: 形容詞に -ly を付けると副詞になる語が多い（happy → happily）。ただし friendly（親しみやすい）や lovely（すてきな）は -ly で終わる形容詞。
+@@ -119,23 +126,23 @@ chapters:
+       steps:
+       - 動詞を探して V を決める。made（作った）が V。
+       - V の前の名詞のかたまりが S。My sister が S。
+-      - V の後ろの名詞が、S と同じものか別のものかを確かめる。a cake は「ケーキを」にあたり、My sister＝a cake ではないので O。
++      - V の後ろの名詞が、S と同じものか別のものかを確かめる。a cake は「ケーキを」にあたり、My sister＝a cake ではないので O。ただし、last Friday のような時を表す名詞のかたまりは、V の後ろにあっても O ではなく M。
+       - 残った for the party（前置詞＋名詞）と yesterday（副詞）は、目的と時を付け足す M。
+       ans: My sister（S）made（V）a cake（O）for the party（M）yesterday（M）
+       point: V を最初に決めると、前が S、後ろが O か C と順に決まる。「前置詞＋名詞」と副詞は M として扱い、文型には数えない。
+-    - q: My brother was (＿) when he heard the news.
++    - q: （　）に入る最も適切なものを1つ選びなさい。<br>My brother was (＿) when he heard the news.
+       choices: [sadly, sad, sadness, sadden]
+       steps:
+       - 空所は文のどの要素かを考える。was（be 動詞）の後ろなので、C か M のどちらか。
+       - 「兄がどんな状態だったか」を表す位置なので C。My brother was sad. で S＝C の関係になる。
+-      - C になれるのは名詞か形容詞。副詞の sadly は C にならない。名詞の sadness は My brother＝sadness にならないので不可。sadden は動詞。形容詞の sad を選ぶ。
++      - C になるのは名詞か形容詞。副詞の sadly はここでは C にならない。名詞の sadness は My brother＝sadness にならないので不可。sadden は動詞。形容詞の sad を選ぶ。
+       ans: "2"
+       point: 空所が C なら形容詞、M なら副詞。名詞も C になれるが、S とイコールになる名詞でなければならない。
+     summary:
+     - "文の要素：S＝{{主語}}、V＝{{動詞}}、O＝{{目的語}}、C＝{{補語}}、M＝{{修飾語}}。文型を決めるときは M を{{数えない}}。"
+-    - "S と O になるのは{{名詞}}。C になるのは{{名詞}}と{{形容詞}}で、{{副詞}}は C にならない。"
++    - "S と O になるのは{{名詞}}。C になるのは{{名詞}}と{{形容詞}}で、{{副詞}}はふつう C にならない。"
+     - "S＋V を含まないかたまりは{{句}}、S＋V を含むかたまりは{{節}}。"
+-    - "本書の記号：節の範囲は{{［ ］}}、M の語句は{{（ ）}}で示す。"
++    - "本書の記号：節の範囲は{{［ ］}}。この単元の例文では、M の語句を{{（ ）}}で示す。"
+   - id: s012
+     title: "SV・SVC・SVO"
+     aim: 動詞の後ろの形から SV・SVC・SVO を見分け、自動詞と他動詞の使い方の誤りを見つけられるようになる。
+@@ -151,7 +158,7 @@ chapters:
+         text: SV から SVOC までを、順に第1文型〜第5文型と呼ぶ本もある。
+     - ex: [e0106, e0107, e0108, e0109]
+     - p: SVC か SVO かは、V を be 動詞に置きかえて確かめます。@e0107 は Mr. Yoshida was a teacher. としても意味が通るので、a teacher は C です。@e0109 を We were the school festival. にすると意味が通らないので、the school festival は O です。
+-    - p: SVC の V には、be 動詞のほか、become・get（〜になる）、look（〜に見える）、seem（〜のようだ）、keep・stay（〜のままでいる）、sound（〜に聞こえる）、feel・taste・smell（〜な感じ・味・においがする）などがあります。C には形容詞か名詞を置き、副詞は置きません。look happily や taste well は誤りで、look happy、taste good とします。
++    - p: SVC の V には、be 動詞のほか、become・get（〜になる）、look（〜に見える）、seem（〜のようだ）、keep・stay（〜のままでいる）、sound（〜に聞こえる）、feel・taste・smell（〜な感じ・味・においがする）などがあります。C には形容詞か名詞を置きます。「〜に見える」の意味で look happily としたり、「〜な味がする」の意味で taste well としたりするのは誤りで、look happy、taste good とします（She looked happily at the photo.〈うれしそうに写真を見た〉のように、look at の look は SV で副詞と使える）。
+     - h: 自動詞と他動詞
+     - p: 後ろに O をとる動詞の使い方を<<他動詞>>、O をとらない使い方を<<自動詞>>といいます。自動詞の後ろに名詞を続けるときは、arrive at the station のように前置詞をはさみます。反対に、他動詞は後ろに直接 O を置くので、前置詞は要りません。日本語の「〜について」「〜に」につられて他動詞に前置詞を付けてしまう誤りが、入試でよく問われます。
+       notes:
+@@ -173,7 +180,10 @@ chapters:
+         - [〜に入る, enter 〜, "go {{into}} 〜"]
+         - [〜と結婚する, marry 〜, "get married {{to}} 〜"]
+         - [〜に答える, answer 〜, "reply {{to}} 〜"]
++        - [〜に似ている, resemble 〜, "look {{like}} 〜"]
+       notes:
++      - kind: 注意
++        text: resemble は他動詞なので、resemble to 〜 とはしない。He resembles his father. のように O を直接置く。
+       - kind: 注意
+         text: enter into a discussion（話し合いを始める）のような決まった言い方もあるが、部屋や建物に入るときは enter だけを使う。
+     - h: There is ～ の文
+@@ -204,7 +214,7 @@ chapters:
+       ja: 私の家の近くにはコンビニが2軒ある。
+       gloss: [[convenience store, コンビニエンスストア]]
+     worked:
+-    - q: This bread looks (＿). Can I have a piece?
++    - q: （　）に入る最も適切なものを1つ選びなさい。<br>This bread looks (＿). Can I have a piece?
+       choices: [delicious, deliciously, deliciousness, more deliciously]
+       steps:
+       - 空所は文のどの要素かを考える。looks の後ろで、O か C か M のどれか。
+@@ -212,17 +222,17 @@ chapters:
+       - C には形容詞か名詞を置く。副詞の deliciously・more deliciously は C にならない。名詞の deliciousness は This bread＝deliciousness にならない。形容詞の delicious を選ぶ。
+       ans: "1"
+       point: look は「〜に見える」の意味で SVC をつくる。日本語の「おいしそうに」の「に」につられて副詞を選ばない。
+-    - q: We __discussed__① __about__② the new rules __for__③ the club __last Friday__④.
++    - q: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。<br>__We__① __discussed about__② the new rules __for__③ the club __last Friday__④.
+       steps:
+       - 動詞を確かめる。discuss は他動詞で、後ろに O を直接置く。
+-      - discussed の後ろに about があると、discuss と O の間に前置詞が入ってしまう。②が誤りで、We discussed the new rules … とする。
+-      - ほかも確かめる。③for the club は rules を説明する「前置詞＋名詞」、④last Friday は時を表す M で、どちらも正しい。
+-      ans: "2"
++      - ②discussed about では、discuss と O の間に前置詞 about が入ってしまう。②が誤りで、We discussed the new rules … とする（talked about としても正しい文になるが、どちらも②の中の直し方）。
++      - ほかも確かめる。①We は S で正しい。③for は for the club のかたまりで rules を説明する前置詞、④last Friday は時を表す名詞のかたまりで M。どちらも正しい。
++      ans: ②（discussed about → discussed）
+       point: discuss・reach・enter・marry は他動詞で、前置詞を付けない。「〜について」と訳しても about は要らない。
+     summary:
+     - "後ろに O をとる動詞の使い方を{{他動詞}}、とらない使い方を{{自動詞}}という。"
+     - "discuss・reach・enter・marry は{{他動詞}}なので、後ろに{{前置詞}}を付けない。"
+-    - "SVC は S＝C の関係。look・seem・become・get・keep の後ろの C には{{形容詞}}を置き、{{副詞}}は置かない。"
++    - "SVC は S＝C の関係。look・seem・become・get・keep の後ろの C には{{形容詞}}（か名詞）を置き、{{副詞}}は置かない。"
+     - "There is／are の文では、be 動詞の後ろの名詞が{{S}}で、動詞の数はその名詞に合わせる。"
+   - id: s013
+     title: "SVOO と SVO＋to／for"
+@@ -236,7 +246,7 @@ chapters:
+     - ex: [e0111]
+     - h: SVO＋to／for への書きかえ
+     - p: SVOO の文は、O₂（物）を先に出し、人を前置詞の後ろに回して「S＋V＋O₂＋to／for＋人」の形に書きかえられます（@e0112、@e0113）。書きかえた文は SVO で、「to／for＋人」は M です。前置詞を to にするか for にするかは、動詞で決まります。
+-    - p: 見分け方は「相手がいなくても、その動作ができるか」です。give（あげる）や send（送る）は、受け取る相手がいなければ成り立たないので to を使います。buy（買う）や cook（料理する）は、相手がいなくても自分だけでできる動作で、それを相手のためにするので for を使います。
++    - p: 見分ける目安は「相手がいなくても、その動作ができるか」です。give（あげる）や send（送る）は、受け取る相手がいなければ成り立たないので to を使います。buy（買う）や cook（料理する）は、相手がいなくても自分だけでできる動作で、それを相手のためにするので for を使います。
+     - table:
+         head: [前置詞, おもな動詞, 動作の性質]
+         rows:
+@@ -245,6 +255,8 @@ chapters:
+       notes:
+       - kind: 注意
+         text: ask は ask a question of him のように of を使う（かたい言い方）。ふつうは ask him a question の SVOO で使う。
++      - kind: 注意
++        text: この見分け方は目安で、当てはまらない動詞もある。read・bring は to を使うことが多い（read a story to me）。表にない動詞は辞書で確かめる。
+     - ex: [e0112, e0113]
+     - h: O₂ が代名詞のとき
+     - p: O₂ が it・them などの代名詞のときは、SVOO ではなく「S＋V＋O₂＋to／for＋人」の形にするのがふつうです（@e0114）。Can you lend me it? よりも Can you lend it to me? が自然な英語です。整序問題で it や them が出てきたら、to／for の形を考えます。
+@@ -270,19 +282,19 @@ chapters:
+       en: Can you *lend* it (to me) (for a week)?
+       ja: それを1週間、私に貸してくれない？
+     worked:
+-    - q: Lily sent her grandmother a letter.<br>＝ Lily sent a letter (＿) her grandmother.
++    - q: 2つの文がほぼ同じ意味になるように、（　）に適切な語を1語入れなさい。<br>Lily sent her grandmother a letter.<br>＝ Lily sent a letter (＿) her grandmother.
+       steps:
+       - 元の文の形を確かめる。sent の後ろに her grandmother と a letter の2つの名詞があり、her grandmother≠a letter なので SVOO。O₁＝her grandmother、O₂＝a letter。
+       - 書きかえた文では O₂ の a letter が先に出ているので、人の前に前置詞を置く。
+       - send は、受け取る相手がいなければ成り立たない動作なので to を入れる。
+       ans: to
+       point: give 型（相手に届く動作）は to、buy 型（相手のために自分でする動作）は for。動詞を見て決める。
+-    - q: Ms. Clark found a good dictionary (＿) me.
++    - q: （　）に入る最も適切なものを1つ選びなさい。<br>Ms. Clark found a good dictionary (＿) me.
+       choices: [to, for, of, with]
+       steps:
+       - 空所は文のどの要素かを考える。found a good dictionary（SVO）の後ろで、人の前に置く前置詞。M をつくる語が入る。
+       - find は、相手がいなくても自分で見つけることができる動作。相手のために見つけてあげるので for を使う。
+-      - to は give・send のように相手に届く動作で使う。of・with は SVOO の書きかえには使わない。for を選ぶ。
++      - to は give・send のように相手に届く動作で使う。with は SVOO の書きかえには使わない。of を使うのは ask など一部の動詞だけで（ask a question of him）、find には使わない。for を選ぶ。
+       ans: "2"
+       point: find・buy・make・cook・choose は for。「〜に」という日本語だけで to を選ばない。
+     summary:
+@@ -295,7 +307,7 @@ chapters:
+     aim: SVOC の文で O＝C の関係を見抜き、make・keep・leave・find・call の文を正しく訳し、組み立てられるようになる。
+     body:
+     - h: O＝C になる SVOC
+-    - p: SVOC は、O の後ろに、O がどんなものか・どんな状態かを説明する C が来る文型です。O と C の間には「O＝C」の関係があり、O を主語にして「O is C」という文を作ると意味が通ります。@e0115 では us と happy の間に We were happy. が成り立ちます。S が O に働きかけた結果、O が C の状態になる、と考えると意味がとれます。
++    - p: SVOC は、O の後ろに、O がどんなものか・どんな状態かを説明する C が来る文型です。O と C の間には「O＝C」の関係があり、O を主語にして「O is C」という文を作ると意味が通ります。@e0115 では us と happy の間に We were happy. が成り立ちます。make・keep・leave の文では、S が O に働きかけた結果、O が C の状態になる、と考えると意味がとれます。find（O が C だとわかる）や call（O を C と呼ぶ）は、下の表の意味で覚えます。
+     - ex: [e0115, e0116]
+     - p: SVOO との違いは、O の後ろの名詞が O とイコールかどうかです。@e0116 の our cat と Mochi は同じ猫なので SVOC、@e0111 の me と a birthday card は別のものなので SVOO です。
+     - h: SVOC をつくるおもな動詞
+@@ -338,7 +350,7 @@ chapters:
+       - make O C は「O を C にする」。S が物なので、「長い散歩が、アスカを空腹にした」を自然な日本語に直す。
+       ans: 長い距離を歩いたので、アスカはおなかがすいた。
+       point: 物が S の SVOC は「S によって O が C になる」と訳すと自然になる。「長い散歩はアスカを空腹にした」も意味としては正しい。
+-    - q: 私はその数学の問題が難しいとわかった。<br>I ( difficult / found / math / question / the ).
++    - q: 日本語の意味になるように（　）内の語を並べかえなさい。<br>私はその数学の問題が難しいとわかった。<br>I ( difficult / found / math / question / the ).
+       steps:
+       - 日本語から文型を考える。「その問題が難しい」は「問題＝難しい」の関係なので、O＝C の SVOC にする。
+       - V は found、O は the math question、C は difficult。find O C の順に並べる。
+@@ -363,22 +375,23 @@ chapters:
+         - [get, SVO：get a ticket, "〜を{{手に入れる}}"]
+         - [get, SVC：get angry, "{{〜になる}}"]
+         - [get, SVOO：get me a ticket, O₁ に O₂ を手に入れてやる]
++        - [get, SVOC：get everything ready, "O を C（の状態）に{{する}}"]
+         - [make, SVOO：make me a cake, O₁ に O₂ を作ってやる]
+         - [make, SVOC：make me happy, "O を C に{{する}}"]
+         - [find, SVO：find the key, "〜を{{見つける}}"]
+         - [find, SVOC：find the book useful, "O が C だと{{わかる}}"]
+     - p: find the book useful では、O の the book の後ろに形容詞 useful があり、「本＝役に立つ」の関係なので SVOC です。O の後ろに C があるかどうかで文型が変わり、訳も「見つける」から「わかる」に変わります。
+     - h: 完全な文と不完全な文
+-    - p: 動詞が決まると、その文に要る要素も決まります。buy は他動詞なので O が要り、become は C が要ります。その動詞の文型に必要な S・O・C（と、前置詞の後ろの名詞）がすべてそろった文を<<完全な文>>、そのうち1つが欠けた文を<<不完全な文>>といいます。M があるかないかは関係しません。本書では、欠けている位置を ＿ で示します。
++    - p: 動詞が決まると、その文に要る要素も決まります。buy は他動詞なので O が要り、become は C が要ります。S・O・C と前置詞の後ろの名詞のうち、その文に要るものがどれも欠けていない文を<<完全な文>>、どれかが欠けている文を<<不完全な文>>といいます。「前置詞＋名詞」は M で文型には数えませんが、前置詞だけが残って後ろの名詞がないときは、不完全な文になります。M（修飾語）そのものがあるかないかは関係しません。本書では、欠けている位置を ＿ で示します。
+       notes:
+       - kind: 用語
+         term: 完全な文
+         yomi: かんぜんなぶん
+-        text: その動詞の文型に必要な S・O・C（と、前置詞の後ろの名詞）がすべてそろっている文。M の有無は関係しない。
++        text: S・O・C と前置詞の後ろの名詞のうち、その文に要るものがどれも欠けていない文。M（修飾語）があるかないかは関係しない。
+       - kind: 用語
+         term: 不完全な文
+         yomi: ふかんぜんなぶん
+-        text: その動詞の文型に必要な S・O・C（と、前置詞の後ろの名詞）のうち、1つが欠けている文。本書では欠けた位置を ＿ で示す。
++        text: S・O・C のどれか、または前置詞の後ろの名詞が欠けている文。疑問詞などが、欠けた語の代わりをしていることが多い。本書では欠けた位置を ＿ で示す。
+     - p: 不完全な文は、疑問詞の後ろで見ることができます。@e0121 の What を外すと you buy ＿ at the station が残り、buy の O が欠けています。What がこの欠けた O の代わりをしているのです。一方、@e0122 の When を外した you buy the ticket は、O までそろった完全な文です。When は時を表す M なので、後ろの文から何も欠けていません。
+     - ex: [e0121, e0122]
+     - p: 前置詞の後ろの名詞が欠けることもあります。@e0123 では with の後ろに名詞がないので、you go to the concert with ＿ は不完全な文です。疑問詞 Who が、with の後ろの名詞の代わりをしています。この「完全な文か不完全な文か」の見分けは、接続詞（単元9）や関係詞（単元10）でも使います。
+@@ -390,7 +403,7 @@ chapters:
+       - 空所は文のどの要素か（S・V・O・C・M のどれか）。
+       - 空所の後ろが、完全な文か不完全な文か。
+       - 時・数・意味の手がかりになる語はどれか。
+-    - p: たとえば (＿) did you see at the zoo? では、①空所は文の頭にあり、②後ろの you see ＿ at the zoo は see の O が欠けた不完全な文です。欠けた O の代わりになる What が入り、M にしかならない When や Why は入りません。③の時や数の手がかりは、時制（単元2）や名詞の数（単元13）の問題で使います。
++    - p: たとえば (＿) did you see at the zoo? では、①空所は文の頭にあり、②後ろの you see ＿ at the zoo は see の O が欠けた不完全な文です。欠けた O の代わりになる What や Who が入り、M にしかならない When や Why は入りません。③の時や数の手がかりは、時制（単元2）や名詞の数（単元13）の問題で使います。
+     - check:
+       - q: My sister got a letter from her friend. の got の意味は？
+         a: 手に入れた（受け取った）。後ろが名詞で SVO。
+@@ -400,7 +413,7 @@ chapters:
+         a: 完全な文（Where は場所を表す M）
+     examples:
+     - id: e0119
+-      en: Lily *got* a ticket (for the concert).
++      en: Lily *got* a ticket for the concert.
+       ja: リリーはそのコンサートのチケットを手に入れた。
+     - id: e0120
+       en: It *got* dark (around six).
+@@ -432,7 +445,7 @@ chapters:
+       point: 疑問詞は、後ろの不完全な文で欠けている要素の代わりをする。M（for dinner・last night・in English）は欠けていても数えない。
+     summary:
+     - "同じ動詞でも文型で意味が変わる。get＋名詞は「〜を{{手に入れる}}」、get＋形容詞は「{{〜になる}}」、find O C は「O が C だと{{わかる}}」。"
+-    - "その動詞の文型に必要な S・O・C（と前置詞の後ろの名詞）がそろった文を{{完全な文}}、1つ欠けた文を{{不完全な文}}という。M は関係{{しない}}。"
++    - "S・O・C と前置詞の後ろの名詞のうち、要るものがどれも欠けていない文を{{完全な文}}、どれかが欠けている文を{{不完全な文}}という。M の有無は関係{{しない}}。"
+     - "4択の共通手順：①空所は文の{{どの要素}}か　②空所の後ろが{{完全な文}}か不完全な文か　③時・数・意味の{{手がかり}}の語はどれか"
+ problems:
+ # ---- 前提チェック ----
+@@ -534,9 +547,9 @@ problems:
+   kind: 正誤
+   min: 1
+   inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+-  q: Many students __study__① in the new library __after school__② because it __is__③ very __quietly__④.
++  q: Many students __study__① in the new library __after school__② __because__③ it is very __quietly__④.
+   ans: "4"
+-  why: because の後ろの it is ～ では、is の後ろは「図書館がどんな状態か」を表す C。C には形容詞を置くので、quietly ではなく quiet にする。
++  why: because の後ろの it is ～ では、is の後ろは「図書館がどんな状態か」を表す C。C には形容詞を置くので、quietly ではなく quiet にする。①study は習慣を表す現在形、②after school は時を表す M、③because は理由を表す接続詞で、どれも正しい。
+   trap: 「静かに」という日本語から quietly を正しいと思う誤り。be 動詞の後ろで S の状態を表すのは形容詞である。
+ # ---- s012 ----
+ - id: q01010
+@@ -648,9 +661,9 @@ problems:
+   kind: 正誤
+   min: 1
+   inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+-  q: __With__① his own money, Tom __bought__② a nice bag __to__③ his __mother__④.
++  q: __With__① his own money, Tom bought a __nice__② bag __to__③ his mother __on__④ her birthday.
+   ans: "3"
+-  why: buy は相手のために自分でする動作なので、bought a nice bag for his mother とする。①With his own money は「自分のお金で」を表す M で正しい。
++  why: buy は相手のために自分でする動作なので、bought a nice bag for his mother とする。①With his own money は「自分のお金で」を表す M、②nice は bag を説明する形容詞、④on her birthday は日を表す M で、どれも正しい。
+   trap: 「母に買った」の「に」から to を正しいと思う誤り。buy の書きかえは for である。
+ - id: q01020
+   sec: s013
+@@ -777,11 +790,11 @@ problems:
+   lv: 1
+   kind: 英作
+   min: 2
+-  inst: 日本語の意味になるように、下線部に英語を入れて文を完成させなさい。
+-  q: 空は急に暗くなった。<br>The sky suddenly ＿＿＿＿.
++  inst: 日本語の意味になるように、（　）に英語を入れて文を完成させなさい（語数は自由）。
++  q: 空は急に暗くなった。<br>The sky suddenly (＿).
+   ans: The sky suddenly got dark.
+-  alt: [The sky suddenly became dark., The sky suddenly grew dark., The sky suddenly went dark.]
+-  why: 「〜になる」は SVC の get・become で表し、C に形容詞 dark を置く。採点の目安：get／became／grew／went のどれかと形容詞 dark を使い、過去形にしていれば正解。darkly、got darkness は不可。
++  alt: [The sky suddenly became dark., The sky suddenly grew dark., The sky suddenly went dark., The sky suddenly turned dark.]
++  why: 「〜になる」は SVC の get・become で表し、C に形容詞 dark を置く。採点の目安：got／became／grew／went／turned（過去形）のどれかの後ろに形容詞 dark を置いていれば正解。darkly、got darkness は不可。
+   trap: got darkly と副詞を置く誤り。「暗く」と訳しても、空の状態を表す C なので形容詞を使う。
+ - id: q01031
+   sec: s015
+@@ -863,7 +876,8 @@ problems:
+   inst: 日本語の意味になるように、（　）に適切な語を1語入れなさい。
+   q: その歌手は若い人たちの間で有名になった。<br>The singer (＿) famous among young people.
+   ans: became
+-  alt: [got]
++  alt: [got, grew]
++  ref: s012
+   why: 後ろに形容詞 famous があり、The singer＝famous の関係なので SVC。「〜になる」を表す become を過去形 became にして入れる。
+   trap: was を入れる誤り。was famous は「有名だった」で状態を表し、「有名になった」という変化を表さない。
+ - id: q01038
+@@ -885,9 +899,9 @@ problems:
+   kind: 正誤
+   min: 1
+   inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+-  q: My grandmother __is__① still __healthily__② and __walks__③ __for an hour__④ every day.
++  q: My grandmother is __still__① __healthily__② and __walks__③ for an hour __every day__④.
+   ans: "2"
+-  why: is の後ろは「祖母がどんな状態か」を表す C。C には形容詞を置くので、healthily ではなく healthy にする。
++  why: is の後ろは「祖母がどんな状態か」を表す C。C には形容詞を置くので、healthily ではなく healthy にする。①still（今でも）は副詞、③walks は習慣を表す現在形、④every day は時を表す M で、どれも正しい。
+   trap: still の後ろだから副詞と考えて healthily を正しいと思う誤り。still を外すと、is の後ろの C の位置である。
+ - id: q01040
+   sec: s013
+@@ -908,9 +922,9 @@ problems:
+   kind: 正誤
+   min: 1
+   inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+-  q: The train __reached__① __at__② Kyoto Station __about__③ ten minutes __late__④.
+-  ans: "2"
+-  why: reach は他動詞なので、後ろに O の Kyoto Station を直接置く。at を取り、reached Kyoto Station とする。④late は「遅れて」の意味の副詞で正しい。
++  q: The train __reached at__① Kyoto Station __about__② ten minutes __late__③ __because of__④ the heavy snow.
++  ans: "1"
++  why: reach は他動詞なので、後ろに O の Kyoto Station を直接置く。①reached at を reached Kyoto Station（または arrived at Kyoto Station）とする。③late は「遅れて」の意味の副詞、④because of は「〜のために」で、どちらも正しい。
+   trap: arrive at と混ぜて reach at を正しいと思う誤り。同じ「〜に着く」でも、reach は前置詞をとらない。
+ - id: q01042
+   sec: s014
+diff --git a/series/src/parts/g1_c02.yaml b/series/src/parts/g1_c02.yaml
+index 04133f8..dc3be6e 100644
+--- a/series/src/parts/g1_c02.yaml
++++ b/series/src/parts/g1_c02.yaml
+@@ -21,13 +21,13 @@ chapters:
+     - p: '@e0203 の lives は今の住まい（状態）、walks は毎日くり返すこと（習慣）です。日本語では「住んでいて」「通っている」と「〜ている」の形になりますが、英語は現在形です。主語が3人称単数（he・she・it や、my cousin のように1人・1つを表す名詞）のとき、現在形の動詞には -s か -es が付きます。'
+       notes:
+       - kind: 参照
+-        text: 動詞は文の要素の V にあたる（@s011）。英語では V の形で「いつの話か」を表す。
++        text: 動詞は文の要素の V にあたる（@s011 の (2)「文の要素 S・V・O・C・M」）。英語では V の形で「いつの話か」を表す。
+     - h: 過去形は「もう終わった出来事」
+     - p: 過去形は、過去のある時に起きて、もう終わった出来事を表します（@e0204）。this morning（今朝）は「今日」の一部ですが、話している時点で終わっていれば過去形を使います。過去形は1回の出来事だけでなく、@e0205 のように過去にくり返していた習慣も表せます。
+     - ex:
+       - e0204
+       - e0205
+-    - p: 現在形か過去形かを決めるとき、最初に探すのは時を表す語句です。every morning・usually・on Sundays は現在形、yesterday・last week・two years ago・in 2020 は過去形の手がかりになります。こうした語句は文の要素では M（修飾語）にあたり、文型には数えませんが、時制を決める手がかりになります。@e0205 の［When I was ten］のように、S＋V をふくむ節が時を表すこともあります。
++    - p: 現在形か過去形かを決めるとき、最初に探すのは時を表す語句です。yesterday・last week・two years ago・in 2020 は過去形の手がかりです。every morning・usually・on Sundays は、過去の時を表す語句がなければ現在形の手がかりになります（@e0205 のように、過去の話の中なら every summer があっても過去形です）。こうした語句は文の要素では M（修飾語）にあたり、文型には数えませんが、時制を決める手がかりになります。@e0205 の［When I was ten］のように、S＋V をふくむ節が時を表すこともあります。
+     - h: 動詞の形の作り方
+     - p: 3人称単数現在の -s と過去形の -ed には、つづりの規則があります。不規則動詞は1つずつ覚えますが、入試に出るのは go・buy・catch・take などの基本の動詞がほとんどです。下の表で、赤字を隠して言えるか確かめます。
+     - table:
+@@ -53,7 +53,7 @@ chapters:
+           - -s
+           - -d だけ
+           - live → {{lives}}／{{lived}}
+-        - - 短い母音＋子音字1つ（stop・plan・drop）
++        - - 短い母音＋子音字1つで終わる1音節の語（stop・plan・drop）
+           - -s
+           - 子音字を重ねて -ed
+           - stop → {{stops}}／{{stopped}}
+@@ -61,6 +61,9 @@ chapters:
+           - -s・-es（have → has、go → goes）
+           - 形が変わる
+           - buy → {{bought}}、catch → {{caught}}、go → {{went}}
++      notes:
++      - kind: 注意
++        text: 子音字を重ねるのは、1音節の語と、2音節以上で最後の音節を強く読む語（prefer → preferred）だけ。visit → visited、open → opened、listen → listened は重ねない。w・x・y で終わる語（snow・fix・play）も重ねない。
+     - check:
+       - q: My sister (＿) the dishes every evening.（wash）
+         a: washes
+@@ -89,14 +92,14 @@ chapters:
+       en: '[When I was ten], I *swam* in the river near my grandparents'' house every summer.'
+       ja: 10歳のころ、私は毎年夏に祖父母の家の近くの川で泳いだ。
+     worked:
+-    - q: 次の英文の（ ）内の動詞を適切な形にしなさい。<br>My brother (study) math in the library every Saturday.
++    - q: 次の英文の（　）内の動詞を適切な形にしなさい。<br>My brother (study) math in the library every Saturday.
+       steps:
+       - 空所は文の V（動詞）にあたる。まず時を表す語句を探すと、文の終わりに every Saturday（毎週土曜日に）がある。
+       - every Saturday は毎週くり返すこと、つまり習慣を表すので、現在形を使う。
+       - 主語 My brother は3人称単数なので -s を付ける。study は「子音字＋y」で終わるので、y を i に変えて -es を付ける。
+       ans: studies
+       point: 時を表す語句 → 現在か過去か → 主語の人称と数、の順に確かめる。studys と書く誤りが多い。
+-    - q: The bakery near our station (＿) at seven every morning, so I often buy bread there on my way to school.
++    - q: （　）に入る最も適切なものを1つ選びなさい。<br>The bakery near our station (＿) at seven every morning, so I often buy bread there on my way to school.
+       choices:
+       - opens
+       - is opening
+@@ -111,7 +114,7 @@ chapters:
+     summary:
+     - 現在形は、今の{{習慣}}や、いつも変わらない{{事実}}・状態を表す。「今まさに〜している」は{{進行形}}で表す。
+     - 過去形は、過去のある時に起きて{{終わった}}出来事や、過去の習慣を表す。
+-    - every morning・usually は{{現在形}}、yesterday・last week・～ ago は{{過去形}}の手がかり。
++    - yesterday・last week・～ ago は{{過去形}}の手がかり。every morning・usually は、過去の時を表す語句がなければ{{現在形}}の手がかり。
+     - study → {{studies}}／{{studied}}　stop → {{stopped}}　buy → {{bought}}
+   - id: s022
+     title: 進行形と状態動詞
+@@ -168,7 +171,7 @@ chapters:
+       - q: Look. My dog (＿) under the table.（sleep）
+         a: is sleeping
+     - h: 現在進行形で、決まっている予定を表す
+-    - p: 現在進行形に next weekend や tomorrow のような未来の時を表す語句を付けると、「〜することになっている」という予定を表します（@e0212）。切符を買った、約束をした、のように準備が進んでいる予定に使います。未来の表し方は、次の節（@s023）で will・be going to と比べます。
++    - p: 現在進行形に next weekend や tomorrow のような未来の時を表す語句を付けると、「〜することになっている」という予定を表します（@e0212）。切符を買った、約束をした、のように準備や約束ができている予定に使います。未来の表し方は、次の節（@s023）で will・be going to と比べます。
+     - ex:
+       - e0212
+     examples:
+@@ -200,7 +203,7 @@ chapters:
+       en: We *are visiting* our grandparents in Akita next weekend.
+       ja: 私たちは来週末、秋田の祖父母を訪ねることになっている。
+     worked:
+-    - q: I (＿) your sister well. We are in the same tennis club.
++    - q: （　）に入る最も適切なものを1つ選びなさい。<br>I (＿) your sister well. We are in the same tennis club.
+       choices:
+       - know
+       - am knowing
+@@ -217,13 +220,13 @@ chapters:
+       - 下線部を1つずつ確かめる。①are は主語 My sister and I（2人なので複数）に合っている。
+       - ②の resemble は「似ている」という状態を表す状態動詞なので、進行形にしない。主語は I なので resemble とする。
+       - ③looks like（〜のように見える）は今の様子を表す現在形で正しい。④our は「私」と姉（妹）の2人の母を指すので正しい。
+-      ans: '2'
+-      point: 日本語の「似ている」につられて進行形にしない。resemble は他動詞なので、resemble to としないことにも気をつける（@s012）。
++      ans: ②（am resembling → resemble）
++      point: 日本語の「似ている」につられて進行形にしない。resemble は他動詞なので、resemble to としないことにも気をつける（@s012 の (2) の表）。
+     summary:
+     - 進行形「be 動詞＋-ing 形」は、ある時に動作が{{途中}}であることを表す。
+     - know・belong to・resemble などの{{状態動詞}}は、ふつう進行形に{{しない}}。
+     - have は「持っている」なら状態動詞、「{{食べる}}」の意味なら進行形にできる。
+-    - 現在進行形＋未来の時を表す語句で、決まっている{{予定}}を表す。
++    - 現在進行形＋未来の時を表す語句で、準備や約束ができている{{予定}}を表す。
+   - id: s023
+     title: 未来の表し方と、時・条件の副詞節
+     aim: will・be going to・現在進行形を使い分け、when・if の節が副詞節か名詞節かで中の時制を決められるようになる。
+@@ -234,7 +237,7 @@ chapters:
+       - e0213
+       - e0214
+       - e0215
+-    - p: 前の節で見た現在進行形は、日時まで決まっている予定を表します（@e0212）。3つの形は意味が重なる部分も大きく、予想を表すときは will と be going to のどちらも使える場面がよくあります。入試の4択では、will と be going to の細かい違いより、次に見る「節の中の時制」がよく問われます。
++    - p: 前の節で見た現在進行形は、準備や約束ができている予定を表します（@e0212）。3つの形は意味が重なる部分も大きく、予想を表すときは will と be going to のどちらも使える場面がよくあります。入試の4択では、will と be going to の細かい違いより、次に見る「節の中の時制」がよく問われます。
+       notes:
+       - kind: 注意
+         text: will の後ろも be going to の to の後ろも、動詞は原形。will going to や is going to snows は誤り。
+@@ -251,10 +254,10 @@ chapters:
+           - '{{前から決めていた}}こと、今の様子からの予想'
+           - It is going to rain soon.
+         - - 現在進行形
+-          - 日時の決まった{{予定}}
++          - 準備や約束ができている{{予定}}
+           - We are visiting them next weekend.
+     - h: 時・条件を表す副詞節の中は現在形
+-    - p: '@e0216 は、［When Ryan arrives］と we will start the meeting の2つの部分からできています。文の骨組み（S・V）をつくる we will start the meeting を<<主節>>、when や if などで始まり、主節にくっつく［ ］の部分を<<従属節>>といいます。［When Ryan arrives］は「いつ始めるか」を表し、文の中で M（修飾語）の働きをしています。副詞の働きをするこうした節を<<副詞節>>といいます。'
++    - p: '@e0216 は、［When Ryan arrives］と we will start the meeting の2つの部分からできています。［ ］を外してみると、We will start the meeting.（会議を始めます）が1つの文として残ります。文の骨組み（S・V）をつくる方を<<主節>>、when や if などで始まり、主節にくっつく［ ］の部分を<<従属節>>といいます。'
+       notes:
+       - kind: 用語
+         term: 主節
+@@ -264,26 +267,29 @@ chapters:
+         term: 従属節
+         yomi: じゅうぞくせつ
+         text: when・if・because などで始まり、主節にくっついて文の一部になる節。本書では［ ］で示す。
++    - p: '［When Ryan arrives］は「いつ始めるか」を付け足していて、文の中で M（修飾語）の働きをしています。外しても主節が文として残るのは、M だからです。副詞の働き（M）をする従属節を<<副詞節>>といいます。'
++      notes:
+       - kind: 用語
+         term: 副詞節
+         yomi: ふくしせつ
+         text: 文の中で副詞の働き（M）をする節。時・条件・理由などを表す。外しても文の骨組みが残る。
+-    - p: 時（when・after・before・until・as soon as）や条件（if・unless）を表す副詞節の中では、未来のことでも will を使わず、現在形で表します（@e0216、@e0217）。未来の話であることは主節の will で分かるので、副詞節の中は現在形にする、と覚えておきます。
++    - p: 時（when・after・before・until・as soon as）や条件（if・unless）を表す副詞節の中では、未来のことでも will を使わず、現在形で表します（@e0216、@e0217）。未来の話であることは主節（will や、Please wait here until ～. のような命令文）で分かるので、副詞節の中は現在形にする、と覚えておきます。
+       notes:
+       - kind: 注意
+         text: if 節の中でも、If you will help me（手伝ってくださるなら）のように will が相手の「意志」を表すときは will を使う。この形は入試演習編で扱う。
+     - ex:
+       - e0216
+       - e0217
+-    - h: 名詞節の if・when の中は will を使う
+-    - p: 同じ if・when でも、文の中で O（目的語）などになるときは別です。@e0218 の［when Sam will come back］は know の目的語で、「サムがいつ戻ってくるか」という意味です。名詞と同じ働き（S・O・C）をする節を<<名詞節>>といいます。名詞節の中では、未来のことは will を使って表します（@e0219）。
++    - h: 名詞節の if・when の中は will を使える
++    - p: 同じ if・when でも、文の中で O（目的語）などになるときは別です。@e0218 の［ ］を外すと I don't know. だけが残り、「何を知らないのか」が分からなくなります。［when Sam will come back］は know の O で、「サムがいつ戻ってくるか」という意味です。名詞と同じ働き（S・O・C）をする従属節を<<名詞節>>といいます。名詞節の when・if の後ろは、疑問文の語順にせず S＋V の語順にします。
++    - p: 名詞節の中には、副詞節のような「未来のことでも現在形にする」というきまりはありません。「〜だろう」という予想は、will を使って表します（@e0218、@e0219）。ただし、名詞節ならいつも will になるわけではありません。時刻表のように決まった予定は、名詞節でも現在形で言うことがよくあります（Do you know what time the concert starts?）。また I hope (that) it doesn't rain tomorrow. のように、hope の後ろの節でも現在形がふつうです。入試の問題では、「名詞節では未来の予想に will を使ってよい」ことを知っているかがよく問われます。
+       notes:
+       - kind: 用語
+         term: 名詞節
+         yomi: めいしせつ
+         text: 文の中で名詞の働き（S・O・C）をする節。if（〜かどうか）・when（いつ〜か）・that などで始まる。
+       - kind: 参照
+-        text: 名詞節・副詞節と、名詞を後ろから説明する節は、単元9でまとめて表にする（@s092）。
++        text: 名詞節・副詞節と、名詞を後ろから説明する節は、単元9でまとめて表にする。
+     - ex:
+       - e0218
+       - e0219
+@@ -304,13 +310,13 @@ chapters:
+           - '{{〜するとき}}'
+           - '{{いつ〜か}}'
+         - - 未来のことの形
+-          - '{{現在形}}'
+-          - '{{will＋原形}}'
++          - '{{現在形}}（will を使わない）'
++          - 予想なら{{will＋原形}}（現在形にするきまりはない。決まった予定は現在形も使う）
+     - label: 時制の手順
+       steps:
+       - 時を表す語句（tomorrow・next week・yesterday など）を探す。
+       - いつの話か（今か、過去か、未来か）を決める。単元3では、これを「基準の時」と呼んで考える（@s031）。
+-      - 空所のある節が副詞節か名詞節かを確かめる。副詞節なら未来のことでも現在形、名詞節なら will を使う。
++      - 空所のある節が副詞節か名詞節かを確かめる。時・条件の副詞節なら未来のことでも現在形。名詞節には現在形にするきまりはなく、予想は will で表す。
+     - check:
+       - q: We will go out after the rain (＿).（stop）
+         a: stops
+@@ -342,7 +348,7 @@ chapters:
+       - - New Year's Day
+         - 元日
+     worked:
+-    - q: We will start dinner when Dad (＿) home.
++    - q: （　）に入る最も適切なものを1つ選びなさい。<br>We will start dinner when Dad (＿) home.
+       choices:
+       - comes
+       - will come
+@@ -354,22 +360,22 @@ chapters:
+       - when Dad ＿ home は「父が帰ってきたら」という時を表す副詞節で、主節に対して M の働きをしている。副詞節の中は未来のことでも現在形なので、comes を選ぶ。
+       ans: '1'
+       point: 未来の話だからと will come を選ぶ誤りが多い。時・条件の副詞節の中は現在形で、未来であることは主節の will が表す。
+-    - q: I don't know if Mr. Kondo (＿) us to the museum next Friday.
++    - q: （　）に入る最も適切なものを1つ選びなさい。<br>I don't know if it (＿) tomorrow, so I'll take an umbrella just in case.
+       choices:
+-      - takes
+-      - will take
+-      - took
+-      - taking
++      - rains
++      - will rain
++      - rained
++      - raining
+       steps:
+-      - 空所は if の後ろの節の V。時を表す語句は next Friday で、未来の話。
++      - 空所は if の後ろの節の V。時を表す語句は tomorrow で、未来の話。
+       - if の節が文の中で何をしているかを確かめる。I don't know の後ろで「何を知らないのか」にあたり、know の目的語（O）になっている。つまり名詞節で、if は「〜かどうか」の意味。
+-      - 名詞節の中では未来のことを will で表すので、will take を選ぶ。took は過去で next Friday に合わず、taking だけでは V にならない。
++      - 名詞節には「現在形にする」というきまりはない。明日の天気は決まった予定ではなく予想なので、will rain を選ぶ。rained は過去で tomorrow に合わず、raining だけでは V にならない。
+       ans: '2'
+-      point: if を見たらすぐ現在形を選ぶのではなく、副詞節（もし〜なら）か名詞節（〜かどうか）かを先に確かめる。
++      point: if を見たらすぐ現在形を選ぶのではなく、副詞節（もし〜なら）か名詞節（〜かどうか）かを先に確かめる。名詞節で未来の予想を言うなら will。
+     summary:
+     - will は予想や{{その場で決めた}}こと、be going to は{{前から決めていた}}ことや今の様子からの予想を表す。
+     - 時・条件を表す{{副詞節}}の中では、未来のことでも{{現在形}}を使う。
+-    - know・wonder などの目的語になる if・when の節は{{名詞節}}で、未来のことは{{will}}で表す。
++    - know・wonder などの目的語になる if・when の節は{{名詞節}}で、副詞節のきまりは当てはまらない。未来の予想は{{will}}で表す。
+     - if の意味：副詞節は「{{もし〜なら}}」、名詞節は「{{〜かどうか}}」
+ problems:
+ - id: q02001
+@@ -413,6 +419,7 @@ problems:
+   - are swimming
+   - is swimming
+   ans: '3'
++  ref: s022
+   why: Look.（見て）から、今まさに起きていることだと分かる。現在進行形「be 動詞＋-ing 形」で、主語 Two boys は複数なので are swimming。
+   trap: is swimming を選ぶ誤り。主語が複数なら be 動詞は are にする。
+ - id: q02004
+@@ -451,7 +458,7 @@ problems:
+   inst: （　）内の動詞を適切な形に変えなさい（2語以上になる場合もある）。
+   q: We (＿) a surprise party for our coach last month.（plan）
+   ans: planned
+-  why: last month（先月）は過去の時を表すので過去形。plan は「短い母音＋子音字1つ」で終わるので、n を重ねて -ed を付ける。
++  why: last month（先月）は過去の時を表すので過去形。plan は「短い母音＋子音字1つ」で終わる1音節の語なので、n を重ねて -ed を付ける。
+   trap: planed と子音字を重ねずに書く誤り。stop → stopped、drop → dropped と同じ規則。
+ - id: q02007
+   sec: s021
+@@ -704,8 +711,8 @@ problems:
+   - arrived
+   - arriving
+   ans: '2'
+-  why: if の節は wonder（〜だろうかと思う）の目的語になる名詞節で、「〜かどうか」の意味。名詞節の中では未来のことを will で表すので will arrive。
+-  trap: if を見て現在形 arrives を選ぶ誤り。現在形にするのは「もし〜なら」の副詞節のとき。
++  why: if の節は wonder（〜だろうかと思う）の目的語になる名詞節で、「〜かどうか」の意味。名詞節には現在形にするきまりがなく、道路の雪で時間どおりに着くか分からないという予想なので will arrive。
++  trap: if を見て現在形 arrives を選ぶ誤り。「未来のことでも現在形」にするのは「もし〜なら」の副詞節のとき。
+ - id: q02025
+   sec: s023
+   set: 節末
+@@ -713,9 +720,9 @@ problems:
+   kind: 正誤
+   min: 1
+   inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+-  q: Let's __wait__① here __until__② the rain __will stop__③. It __is__④ raining very hard now.
+-  ans: '3'
+-  why: until the rain ＿ は時を表す副詞節なので、未来のことでも現在形。will stop を stops にする。④is は今の様子を表す現在進行形の一部で正しい。
++  q: Let's __wait__① here until the rain __will stop__②. It __is__③ raining very hard __now__④.
++  ans: '2'
++  why: until the rain ＿ は時を表す副詞節なので、未来のことでも現在形。will stop を stops にする。③is は今の様子を表す現在進行形の一部、④now も今を表す語で正しい。
+   trap: 雨がやむのはこれから先なので will stop を正しいと思う誤り。
+ - id: q02026
+   sec: s023
+@@ -724,17 +731,16 @@ problems:
+   kind: 整序
+   min: 2
+   inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+-  q: 次の電車がいつ来るか教えてください。<br>Please tell me ( come / next / the / train / when / will ).
++  q: 雪がいつやむのか、だれにも分からない。<br>Nobody knows ( snow / stop / the / when / will ).
+   words:
+-  - come
+-  - next
++  - snow
++  - stop
+   - the
+-  - train
+   - when
+   - will
+-  ans: Please tell me when the next train will come.
+-  why: when the next train will come は tell me の O になる名詞節で、「いつ〜か」の意味。名詞節なので未来のことに will を使い、when の後ろは S＋V の語順にする。
+-  trap: when will the next train come と疑問文の語順にする誤り。文の中に入った疑問の節は S＋V の語順になる（@s171）。
++  ans: Nobody knows when the snow will stop.
++  why: when the snow will stop は knows の O になる名詞節で、「いつ〜か」の意味。雪がやむ時は決まった予定ではなく予想なので will を使い、when の後ろは S＋V の語順にする。
++  trap: when will the snow stop と疑問文の語順にする誤り。文の中に入った疑問の節は S＋V の語順になる（@s171）。
+ - id: q02027
+   sec: s023
+   set: 節末
+@@ -811,8 +817,8 @@ problems:
+   inst: （　）内の動詞を適切な形に変えなさい（2語以上になる場合もある）。
+   q: My brother (＿) his phone on the way home yesterday.（drop）
+   ans: dropped
+-  why: yesterday は過去の時を表すので過去形。drop は「短い母音＋子音字1つ」で終わるので、p を重ねて -ed を付ける。
+-  trap: droped と子音字を重ねずに書く誤り。
++  why: yesterday は過去の時を表すので過去形。drop は「短い母音＋子音字1つ」で終わる1音節の語なので、p を重ねて -ed を付ける。
++  trap: droped と子音字を重ねずに書く誤り。visit → visited のように2音節で最後を強く読まない語は重ねないが、drop は1音節なので重ねる。
+ - id: q02033
+   sec: s023
+   set: 確認テスト
+@@ -820,17 +826,17 @@ problems:
+   kind: 整序
+   min: 2
+   inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+-  q: コンサートが何時に始まるか知っていますか。<br>Do you know ( concert / start / the / time / what / will )?
++  q: 明日の天気がどうなるか知っていますか。<br>Do you know ( be / like / the / weather / what / will ) tomorrow?
+   words:
+-  - concert
+-  - start
++  - be
++  - like
+   - the
+-  - time
++  - weather
+   - what
+   - will
+-  ans: Do you know what time the concert will start?
+-  why: what time the concert will start は know の O になる名詞節。what time をひとかたまりにして節の頭に置き、その後ろは S＋V の語順。名詞節なので未来のことに will を使う。
+-  trap: Do you know what time will the concert start? と疑問文の語順にする誤り。
++  ans: Do you know what the weather will be like tomorrow?
++  why: what the weather will be like tomorrow は know の O になる名詞節で、「天気がどんなふうになるか」の意味。明日の天気は予想なので will を使い、what の後ろは S＋V の語順にする。
++  trap: Do you know what will the weather be like tomorrow? と疑問文の語順にする誤り。
+ - id: q02034
+   sec: s022
+   set: 確認テスト
+@@ -865,15 +871,15 @@ problems:
+   kind: 4択
+   min: 1
+   inst: （　）に入る最も適切なものを1つ選びなさい。
+-  q: Your plan sounds (＿). Can you tell me more about it?
++  q: The weather became (＿) in the afternoon, so I put on my coat.
+   choices:
+-  - interested
+-  - interestingly
+-  - interest
+-  - interesting
+-  ans: '4'
+-  why: sound は SVC の文型をとり、「〜に聞こえる・思える」の意味。C には形容詞を置き、「計画がおもしろい」の関係なので interesting。
+-  trap: 動詞の後ろだから副詞と考えて interestingly を選ぶ誤り。C（補語）になれるのは名詞か形容詞で、副詞は C にならない。
++  - coldly
++  - cold
++  - coldness
++  - colds
++  ans: '2'
++  why: become は「〜になる」の意味で SVC の文型をとる。The weather was cold. が成り立つので空所は C で、形容詞の cold を置く。
++  trap: 動詞の後ろだから副詞と考えて coldly を選ぶ誤り。C（補語）になるのは名詞か形容詞。名詞の coldness は The weather＝coldness にならない。
+ - id: q02037
+   sec: s014
+   set: 確認テスト
+diff --git a/series/src/parts/g1_c03.yaml b/series/src/parts/g1_c03.yaml
+index 411bf96..c45b06b 100644
+--- a/series/src/parts/g1_c03.yaml
++++ b/series/src/parts/g1_c03.yaml
+@@ -2,7 +2,7 @@ chapters:
+ - id: c03
+   title: 完了形
+   lead: この単元では、have＋過去分詞の形をもつ「完了形」を学びます。過去の出来事を「今」「過去のある時」「未来のある時」につなげて述べる形です。時を表す語句を手がかりに、過去形・現在完了・過去完了・未来完了を選べるようになります。
+-  intro: 中学3年で、have（has）＋過去分詞の現在完了を習いました。I have finished my homework.（宿題を終えたところだ）や I have visited Nara twice.（奈良に2回行ったことがある）のような文です。疑問文は Have you ～? で始め、答えは Yes, I have.／No, I haven't. になります。否定文は have not（haven't）＋過去分詞です。過去分詞には played のように過去形と同じ形のものと、eaten・seen・gone のように別の形のものがあるので、動詞の変化形を単元2（@s021）で確かめてから進んでください。
++  intro: 中学3年で、have（has）＋過去分詞の現在完了を習いました。I have finished my homework.（宿題を終えたところだ）や I have visited Nara twice.（奈良に2回行ったことがある）のような文です。疑問文は Have you ～? で始め、答えは Yes, I have.／No, I haven't. になります。否定文は have not（haven't）＋過去分詞です。過去分詞には played のように過去形と同じ形のものと、eaten・seen・gone のように別の形のものがあります。この単元と単元4・5で使う過去分詞は、3-1 の表（@s031）で確かめてから進んでください。
+   sections:
+   - id: s031
+     title: "現在完了の3つの意味"
+@@ -18,7 +18,13 @@ chapters:
+       - kind: 用語
+         term: 基準の時
+         yomi: きじゅんのとき
+-        text: "完了形で「その時までに」「その時まで」の「その時」にあたる時点。現在完了では今、過去完了では過去のある時、未来完了では未来のある時。完了不定詞・完了動名詞・完了分詞では主節の時が基準の時になり、それより前のことを表す。"
++        text: "完了形で「その時までに」「その時まで」の「その時」にあたる時点。現在完了では今、過去完了では過去のある時、未来完了では未来のある時。"
++    - p: 疑問文は Have／Has を主語の前に出し（Have you ever been to Nara?）、答えは Yes, I have.／No, I haven't. です。否定文は have not（haven't）＋過去分詞です。過去分詞は、規則動詞なら過去形と同じ -ed の形（played・stopped。つづりは @s021 の表）ですが、不規則動詞は1つずつ覚えます。この単元と単元4・5で使うものを表にします。
++    - table:
++        head: [変化の型, 原形－過去形－過去分詞]
++        rows:
++        - [3つとも違う形, "go－went－{{gone}}、eat－ate－{{eaten}}、see－saw－{{seen}}、take－took－{{taken}}、give－gave－{{given}}、write－wrote－{{written}}、ride－rode－{{ridden}}、forget－forgot－{{forgotten}}、speak－spoke－{{spoken}}、break－broke－{{broken}}、steal－stole－{{stolen}}、know－knew－{{known}}、show－showed－{{shown}}、sing－sang－{{sung}}、be－was／were－{{been}}"]
++        - [過去形と過去分詞が同じ, "buy－bought－{{bought}}、make－made－{{made}}、have－had－{{had}}、leave－left－{{left}}、lose－lost－{{lost}}、send－sent－{{sent}}、build－built－{{built}}、find－found－{{found}}"]
+     - h: 3つの意味は、いっしょに使う語で見分ける
+     - p: 現在完了には「〜したところだ・〜してしまった」（完了・結果）、「〜したことがある」（経験）、「ずっと〜している」（継続）の3つの意味があります。形は同じなので、どの意味かは、いっしょに使われている語で決めます。@e0301 は just があるので完了、@e0302 は three times があるので経験、@e0303 は since があるので継続です。継続の意味になるのは、know や be のように状態を表す動詞や、live・work のように長く続くことを表す動詞のときです。play や run のような動作を表す動詞で「ずっと〜している」と言うときは、次の節の形を使います（@s032）。
+     - ex: [e0301, e0302, e0303]
+@@ -34,7 +40,7 @@ chapters:
+       - kind: 注意
+         text: "アメリカ英語では、already・just・yet を過去形といっしょに使うこともある（I already ate lunch.）。ただし yesterday・～ ago のような過去の時を表す語と現在完了を組み合わせることはない。"
+     - ex: [e0304, e0305]
+-    - p: 「〜に行ったことがある」は have been to ～ で表します（@e0302）。have gone to ～ は「行ってしまって、今ここにいない」という完了・結果の意味になります。He has gone to Osaka. は「彼は大阪へ行ってしまった（今ここにはいない）」です。話し手の「私」は今ここにいるので、have gone to の主語はふつう3人称です。
++    - p: 「〜に行ったことがある」は have been to ～ で表します（@e0302）。have gone to ～ は「行ってしまって、今ここにいない」という完了・結果の意味になります。He has gone to Osaka. は「彼は大阪へ行ってしまった（今ここにはいない）」です。話し手の「私」も話し相手の「あなた」も今ここにいるので、have gone to の主語はふつう I・you 以外（3人称）です。
+       notes:
+       - kind: 注意
+         text: "アメリカ英語の話し言葉では、have gone to を「行ったことがある」の意味で使うこともある。入試では have been to＝経験、have gone to＝行ってしまって今いない、と区別して答える。"
+@@ -63,14 +69,14 @@ chapters:
+       en: I *lost* my train pass last Friday, but I found it the next day.
+       ja: 先週の金曜日に定期券をなくしたが、次の日に見つかった。
+     worked:
+-    - q: My grandmother has climbed Mt. Fuji twice.
++    - q: 次の英文を日本語に訳しなさい。<br>My grandmother has climbed Mt. Fuji twice.
+       steps:
+       - 動詞の形を見る。has climbed は has＋過去分詞なので現在完了。基準の時は今。
+       - いっしょに使われている語を探す。twice（2回）は回数を表す語。
+       - 回数を言っているので経験の意味。「〜したことがある」と訳す。
+       ans: 祖母は富士山に2回登ったことがある。
+       point: 「祖母は富士山に2回登った」だけでは、いつの話か分からない。経験の現在完了は「〜したことがある」と訳し、今までをふり返った文であることを示す。
+-    - q: "__We__① __have visited__② the science museum __with__③ our class last Saturday, and the planetarium show __was__④ great."
++    - q: "下線部①〜④のうち、誤りをふくむものを1つ選びなさい。<br>__We__① __have visited__② the science museum __with__③ our class last Saturday, and the planetarium show __was__④ great."
+       steps:
+       - 時を表す語句を探す。last Saturday（この前の土曜日）は、はっきり過去の時を表す。
+       - 基準の時を考える。この前の土曜日の出来事は今と切り離された過去のことなので、過去形で述べる。
+@@ -89,6 +95,8 @@ chapters:
+     - h: 動作の継続は have been doing
+     - p: 「2時間ずっとギターを練習している」のように、動作が過去から今まで続いていることを言うときは、<<現在完了進行形>>（have／has been＋-ing 形）を使います（@e0306、@e0307）。基準の時は現在完了と同じく今です。その動作が今も続いていることや、ついさっきまで続いていたことを表します。@e0307 の「指が痛い」は、さっきまで練習していた結果です。
+       notes:
++      - kind: 注意
++        text: 本書では、動詞の形を do（原形）・doing（-ing 形）・done（過去分詞）の記号で示すことがある。have been doing は「have been＋-ing 形」、have done は「have＋過去分詞」のこと。
+       - kind: 用語
+         term: 現在完了進行形
+         yomi: げんざいかんりょうしんこうけい
+@@ -119,7 +127,7 @@ chapters:
+       ja: 今朝早くからずっと雨が降っている。
+     - id: e0307
+       en: Sho *has been practicing* the guitar for two hours, so his fingers hurt.
+-      ja: ショウは2時間ずっとギターを練習しているので、指が痛い。
++      ja: ショウは2時間ずっとギターを練習していたので、指が痛い。
+     - id: e0308
+       en: We *have lived* in this town [since I was five].
+       ja: 私たちは、私が5歳のときからこの町に住んでいる。
+@@ -127,15 +135,15 @@ chapters:
+       en: I *have known* Rin for six years, but I have never seen her angry.
+       ja: リンとは6年来の知り合いだが、彼女が怒ったところは一度も見たことがない。
+     worked:
+-    - q: Maya has been studying in the library (＿) two hours.
++    - q: （　）に入る最も適切なものを1つ選びなさい。<br>Maya has been studying in the library (＿) two hours.
+       choices: [since, for, during, from]
+       steps:
+-      - 空所は文のどの要素かを考える（@s015）。has been studying で文の骨組みはそろっているので、空所から後ろは時を表す修飾語（M）。
++      - 空所は文のどの要素かを考える（4択の共通手順 @s015 の (3)）。has been studying で文の骨組みはそろっているので、空所から後ろは時を表す修飾語（M）。
+       - 空所の後ろを見る。two hours（2時間）は期間の長さ。
+       - 期間の長さの前に置くのは for。since の後ろは始まりの時点になる。
+       ans: "2"
+       point: during は during the summer vacation のように特定の期間の名前をとり、two hours のような長さだけの語句とはふつう組まない。from は from nine to eleven のように終わりの時点と組む。
+-    - q: I (＿) (＿) Mr. Okada since I entered this school.（know）
++    - q: （　）内の動詞を適切な形にして、空所に1語ずつ入れなさい。<br>I (＿) (＿) Mr. Okada since I entered this school.（know）
+       steps:
+       - 時を表す語句を探す。since I entered this school（この学校に入学してから）は始まりの時点。
+       - 基準の時は今。入学したときから今まで続いていることなので、継続の形にする。
+@@ -167,7 +175,7 @@ chapters:
+         text: "過去のある時（基準の時）より前に起きたことを、過去完了で表したもの。"
+     - ex: [e0312]
+     - h: 基準の時を未来に置くと未来完了
+-    - p: <<未来完了>>（will have＋過去分詞）は、未来のある時を基準の時にして、「その時までに〜してしまっているだろう」（完了）や「その時で〜していることになる」（継続）を表します。基準の時は、by ～（〜までに）や by the time ～（〜する時までに）で示されることが多いです（@e0313、@e0314）。by the time の節は時を表す副詞節なので、未来のことでも中は現在形にし、will を入れません（@s023）。
++    - p: <<未来完了>>（will have＋過去分詞）は、未来のある時を基準の時にして、「その時までに〜してしまっているだろう」（完了）や「その時で〜していることになる」（継続）を表します。基準の時は、by ～（〜までに）や by the time ～（〜する時までに）で示されることが多いです（@e0313、@e0314）。by the time の節は時を表す副詞節なので、未来のことでも中は現在形にし、will を入れません（@s023 の (2)）。
+       notes:
+       - kind: 用語
+         term: 未来完了
+@@ -206,7 +214,7 @@ chapters:
+       ja: 君が駅に着くころには、終電は出てしまっているだろう。
+       gloss: [[the last train, 終電]]
+     worked:
+-    - q: When I called Sho at nine, he (＿) already gone to bed.
++    - q: （　）に入る最も適切なものを1つ選びなさい。<br>When I called Sho at nine, he (＿) already gone to bed.
+       choices: [has, had, have, will have]
+       steps:
+       - 時を表す語句を探す。When I called Sho at nine（9時にショウに電話したとき）は過去のこと。
+@@ -214,11 +222,11 @@ chapters:
+       - 過去の基準の時までの完了なので、過去完了の had gone にする。
+       ans: "2"
+       point: 主語が he なので has を選びたくなるが、has gone は基準の時が今の形。when 節の called が、基準の時が過去であることを示している。
+-    - q: By the time you come back from your trip, I (＿) this jigsaw puzzle.
++    - q: （　）に入る最も適切なものを1つ選びなさい。<br>By the time you come back from your trip, I (＿) this jigsaw puzzle.
+       choices: [finished, have finished, will have finished, had finished]
+       steps:
+       - 時を表す語句を探す。By the time you come back（君が戻ってくる時までに）。come は現在形だが、旅行から戻るのはこれからのこと。
+-      - 基準の時は未来。by the time の節は時を表す副詞節なので、未来のことでも現在形になっている（@s023）。
++      - 基準の時は未来。by the time の節は時を表す副詞節なので、未来のことでも現在形になっている（@s023 の (2)）。
+       - 未来の基準の時までに完了していることなので、未来完了の will have finished を選ぶ。
+       ans: "3"
+       point: 節の中の come が現在形なので、主節も現在完了の have finished にしてしまいやすい。基準の時を決めるのは、節の動詞の形ではなく「これから戻る」という内容。
+@@ -232,7 +240,7 @@ chapters:
+     aim: 時を表す語句から基準の時を決め、過去形・現在完了・過去完了・未来完了を選べるようになる。
+     body:
+     - h: 時を表す語句が形を決める
+-    - p: 完了形の問題の多くは、文の中の時を表す語句を見つけると解けます。単元2の時制の手順（@s023）を完了形まで広げて、次の順に問いを立てます。問い2で基準の時を決めれば、過去形・現在完了・過去完了・未来完了のどれを使うかが決まります。
++    - p: 完了形の問題の多くは、文の中の時を表す語句を見つけると解けます。単元2の時制の手順（@s023 の (3) の最後）を完了形まで広げて、次の順に問いを立てます。問い2で基準の時を決めれば、過去形・現在完了・過去完了・未来完了のどれを使うかが決まります。
+     - label: 問い
+       steps:
+       - 時を表す語句を探す（yesterday、for、since、by the time など）。
+@@ -246,17 +254,20 @@ chapters:
+         - ["過去の基準の時＋～ before（その時より〜前に）、by the time＋過去形", "{{過去完了}}"]
+         - ["by＋未来の時点、by the time＋現在形", "{{未来完了}}"]
+     - h: When ～? と just now は過去形
+-    - p: When は「いつ」と1つの時点をたずねる語なので、答えは last week のような過去の時になります。そのため、When で始まる疑問文には現在完了を使わず、過去形にします（@e0315）。期間をたずねるときは How long have you ～? を使います。just now（たった今）も、just とちがって過去の1点を表すので、過去形と使います（I finished it just now.）。
++    - p: When は「いつ」と1つの時点をたずねる語です。過去の出来事を When ～? でたずねるとき、答えは last week のような過去の1点になります。現在完了は「今までに」をふり返る形なので、1つの時点をたずねる When とは使わず、過去形にします（@e0315）。期間をたずねるときは How long have you ～? を使います。just now（たった今）も、just とちがって過去の1点を表すので、過去形と使います（I finished it just now.）。
+       notes:
+       - kind: 注意
+         text: "When have you ever been late?（いつ遅刻したことがあるというのか＝一度もないだろう）のように、相手の言葉に言い返す言い方では When と現在完了を使うことがある。入試の基本問題では、When ～? には過去形を使う。"
+     - ex: [e0315]
+     - h: ago と before、for と過去形
+-    - p: ago は「今から〜前」で、数え始める時はいつも今です。そのため過去形と使い、現在完了や過去完了とは使いません（@e0316）。「2か月前」のように before を使うときは、過去の基準の時から数えて「その時より〜前」を表し、過去完了と組みます（@e0317）。before が単独で「以前に」の意味なら、現在完了の経験と使えます（I have seen this movie before.）。
++    - p: ago は「今から〜前」で、数え始める時はいつも今です。そのため過去形と使い、現在完了とは使いません。過去完了とも、入試ではふつう組み合わせません（@e0316）。「2か月前」のように before を使うときは、過去の基準の時から数えて「その時より〜前」を表し、過去完了と組みます（@e0317）。before が単独で「以前に」の意味なら、現在完了の経験と使えます（I have seen this movie before.）。
++      notes:
++      - kind: 注意
++        text: 物語文などでは、過去完了と ago を組み合わせた文も実際には見られる。ただし入試では、過去の基準の時から数える「〜前」は ～ before で答える。
+     - ex: [e0316, e0317]
+     - p: for があっても、いつも現在完了になるとは限りません。My grandfather lived in Osaka for ten years. は、今はもう大阪に住んでいない、終わった過去の10年間の話なので過去形です。for は期間の長さを言うだけです。その期間が今まで続いているかどうかは、when he was young のような語句や文脈で決まります。
+     - h: It has been ～ since …
+-    - p: 「〜してから…になる」は、It has been ～ since S＋過去形. で表します（@e0318）。同じ内容は、ago を使った過去形の文（@e0319）や、for を使った現在完了の文（My family has lived in Fukuoka for four years.）でも言えます。It is ～ since … の形も使われます。
++    - p: 「〜してから…になる」は、It has been ～ since S＋過去形. で表します（@e0318）。同じ内容は、ago を使った過去形の文（@e0319）や、for を使った現在完了の文（My family has lived in Fukuoka for four years.）でも言えます。It is ～ since … の形も使われますが、入試では It has been ～ since … の形で答えます。
+     - ex: [e0318, e0319]
+     - check:
+       - q: "(When have／When did) you come back from Hawaii?"
+@@ -282,7 +293,7 @@ chapters:
+       en: My family *moved* to Fukuoka four years *ago*.
+       ja: 私の家族は4年前に福岡に引っ越した。
+     worked:
+-    - q: My brother left for Canada a week (＿).
++    - q: （　）に入る最も適切なものを1つ選びなさい。<br>My brother left for Canada a week (＿).
+       choices: [ago, before, since, already]
+       steps:
+       - 時を表す語句を探す。a week（1週間）と空所で「〜前」を表すと考える。
+@@ -290,12 +301,12 @@ chapters:
+       - 今から数えた「〜前」は ago。
+       ans: "1"
+       point: before を「〜前」の意味で使うのは、過去の基準の時から数えるとき（過去完了の文）。since や already を a week の後ろに置いても「1週間前に」の意味にはならない。
+-    - q: "A: __When__① __have you visited__② the new aquarium?<br>B: I went there __last Sunday__③ __with__④ my cousin."
++    - q: "下線部①〜④のうち、誤りをふくむものを1つ選びなさい。<br>A: When __have you visited__① the new __aquarium__②?<br>B: I __went__③ there last Sunday __with__④ my cousin."
+       steps:
+       - 時を表す語句を探す。A は When（いつ）とたずね、B は last Sunday と答えている。
+       - 基準の時を考える。たずねているのは過去の1点（この前の日曜日）なので、今までをふり返る現在完了は合わない。
+-      - When ～? には過去形を使うので、②を did you visit に直す。①When は B の答え last Sunday と合っているので正しい。
+-      ans: ②（have you visited → did you visit）
++      - When ～? には過去形を使うので、①を did you visit に直す。③went は last Sunday の出来事なので過去形で正しい。②④も正しい。
++      ans: ①（have you visited → did you visit）
+       point: 現在完了は「今までに」をふり返る形なので、「いつ」という1点をたずねられない。期間をたずねるなら How long have you ～? になる。
+     summary:
+     - yesterday・～ ago・just now・When ～? は {{過去形}} と使う。
+@@ -498,8 +509,8 @@ problems:
+   lv: 2
+   kind: 英作
+   min: 3
+-  inst: 日本語の意味になるように、下線部に入る英語を書きなさい。
+-  q: 姉は今朝からずっと自分の部屋で数学を勉強している。<br>My sister ＿＿＿＿ in her room since this morning.
++  inst: 日本語の意味になるように、（　）に入る英語を書きなさい（語数は自由）。
++  q: 姉は今朝からずっと自分の部屋で数学を勉強している。<br>My sister (＿) in her room since this morning.
+   ans: has been studying math
+   alt: [has been studying mathematics]
+   why: 今朝から今まで勉強する動作が続いているので現在完了進行形。主語 My sister は3人称単数なので has been studying。math（数学）を目的語に置けていれば正解。
+@@ -571,9 +582,9 @@ problems:
+   kind: 正誤
+   min: 1
+   inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+-  q: __By the time__① you __will come__② back, I __will have washed__③ all the dishes __in__④ the sink.
++  q: By the time __you__① __will come__② back, I __will have washed__③ all the dishes __in__④ the sink.
+   ans: "2"
+-  why: by the time の節は時を表す副詞節なので、未来のことでも現在形にする（@s023）。will come を come に直す。③は未来の基準の時までの完了で正しい。
++  why: by the time の節は時を表す副詞節なので、未来のことでも現在形にする（@s023 の (2)）。will come を come に直す。③は未来の基準の時までの完了で正しい。①you は節の主語、④in the sink は場所を表す M で、どちらも正しい。
+   trap: 主節の will have washed を誤りと考える誤り。主節は未来完了で正しく、will を入れてはいけないのは節の中である。
+ - id: q03024
+   sec: s033
+@@ -642,10 +653,10 @@ problems:
+   kind: 正誤
+   min: 1
+   inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+-  q: When I __visited__① my old school __last month__②, the music teacher __had retired__③ two years __ago__④.
++  q: When I __visited__① my __old__② school last month, the music teacher had retired __two years__③ __ago__④.
+   ans: "4"
+-  why: 先月訪ねた時（過去の基準の時）から数えて「2年前」なので before を使う。ago は今から数えるので、過去完了とは使わない。
+-  trap: ③had retired を誤りと考える誤り。退職したのは訪ねた時より前なので、過去完了で正しい。
++  why: 先月訪ねた時（過去の基準の時）から数えて「2年前」なので、ago ではなく before を使う。ago は今から数えるので、入試では過去完了と組み合わせない。退職は訪ねた時より前なので、had retired の過去完了は正しい。
++  trap: ③two years を誤りと考える誤り。期間の長さはそのままでよく、問題は「何から数えて〜前か」を表す ago の方である。
+ - id: q03030
+   sec: s034
+   set: 節末
+@@ -747,11 +758,11 @@ problems:
+   kind: 整序
+   min: 2
+   inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+-  q: 来週の金曜日までには、この本を読み終えているだろう。<br>I ( book / by / finished / have / reading / this / will ) next Friday.
+-  words: [book, by, finished, have, reading, this, will]
+-  ans: I will have finished reading this book by next Friday.
+-  why: 未来の基準の時（来週の金曜日）までの完了なので、未来完了 will have finished。finish の後ろは reading this book、最後に by next Friday を置く。
+-  trap: I will finished have … のように have の位置をまちがえる誤り。未来完了は will＋have＋過去分詞の順で、will の後ろの have は原形のまま。
++  q: 来週の金曜日までには、この本を読み終えているだろう。<br>I ( book / by / have / read / this / will ) next Friday.
++  words: [book, by, have, read, this, will]
++  ans: I will have read this book by next Friday.
++  why: 未来の基準の時（来週の金曜日）までの完了なので、未来完了 will have read（read の過去分詞は read）。O の this book を後ろに置き、最後に by next Friday を置く。
++  trap: I will read have … のように have の位置をまちがえる誤り。未来完了は will＋have＋過去分詞の順で、will の後ろの have は原形のまま。
+ - id: q03039
+   sec: s034
+   set: 確認テスト
+diff --git a/series/src/parts/g1_c04.yaml b/series/src/parts/g1_c04.yaml
+index f078983..06fadfe 100644
+--- a/series/src/parts/g1_c04.yaml
++++ b/series/src/parts/g1_c04.yaml
+@@ -35,7 +35,7 @@ chapters:
+         text: must には過去形も未来の形もない。「〜しなければならなかった」は had to、「〜しなければならないだろう」は will have to で表す。
+     - ex: [e0405, e0406]
+     - h: can と be able to
+-    - p: can の過去形は could です。一方、未来の「〜できるだろう」を will can とは言えません。助動詞は2つ続けて置けないからです。そこで can を be able to に言いかえ、will be able to とします（@e0407）。現在完了でも同じで、have been able to とします。過去の1回の場面で「（実際に）〜できた」と言うときは、could より was able to を使うのが普通です（@e0408）。could は「（いつでも）〜する力があった」という過去の能力に使います。否定の couldn't は、1回の場面にも使えます。
++    - p: can の過去形は could です。一方、未来の「〜できるだろう」を will can とは言えません。助動詞は2つ続けて置けないからです。そこで can を be able to に言いかえ、will be able to とします（@e0407）。現在完了でも同じで、have been able to とします。過去の1回の場面で「（実際に）〜できた」と言うときは、could より was able to を使うのが普通です（@e0408）。could は「（いつでも）〜する力があった」という過去の能力によく使います。ただし、例外が2つあります。否定の couldn't は、1回の場面にも使えます。また see・hear・feel などの知覚動詞や understand・remember では、1回の場面でも I could see Mt. Fuji from the window.（窓から富士山が見えた）のように could を使うのがふつうです。
+     - ex: [e0407, e0408]
+     - check:
+       - q: 「明日は学校に来なくてよい。」You (＿) (＿) (＿) come to school tomorrow.
+@@ -77,16 +77,16 @@ chapters:
+       - [icy, 凍った]
+       - [on time, 時間どおりに]
+     worked:
+-    - q: It's Sunday tomorrow, so you (＿) get up early.
++    - q: （　）に入る最も適切なものを1つ選びなさい。<br>It's Sunday tomorrow, so you (＿) get up early.
+       choices: [must, must not, don't have to, can't]
+-      steps: [4択の共通手順（@s015）で考える。空所は V の一部（助動詞の位置）で、後ろの get は原形。4つとも後ろに原形をとれるので、形では決まらない。, '意味の手がかりを探す。前半の It''s Sunday tomorrow, so（明日は日曜日だから）から、早起きは「しなくてよい」と分かる。', 禁止の must not と不要の don't have to を比べ、不要の don't have to を選ぶ。]
++      steps: [4択の共通手順（@s015 の (3)）で考える。空所は V の一部（助動詞の位置）で、後ろの get は原形。4つとも後ろに原形をとれるので、形では決まらない。, '意味の手がかりを探す。前半の It''s Sunday tomorrow, so（明日は日曜日だから）から、早起きは「しなくてよい」と分かる。', 禁止の must not と不要の don't have to を比べ、不要の don't have to を選ぶ。]
+       ans: '3'
+       point: must not は「〜してはいけない」。日曜日に早起きを禁じる理由は文にない。否定の形を選ぶときは、日本語に訳してから空所に入れて確かめる。
+-    - q: 来年の春には、新しい体育館が使えるようになるだろう。<br>We (＿) (＿) (＿) (＿) use the new gym next spring.
++    - q: 日本語の意味になるように、（　）に適切な語を1語ずつ入れなさい。<br>来年の春には、新しい体育館が使えるようになるだろう。<br>We (＿) (＿) (＿) (＿) use the new gym next spring.
+       steps: [「〜だろう」は未来のことなので、will が要る。, 「〜できる」の can を will の後ろに並べて will can とはできない。助動詞は2つ続けて置けない。, can を be able to に言いかえ、will の後ろに原形の be を置いて will be able to とする。]
+       ans: will be able to
+       point: 「できるようになるだろう」は will be able to。完了形なら have been able to。助動詞の後ろに助動詞を置きたくなったら、be able to・have to の形に言いかえる。
+-    summary: ['助動詞の後ろの動詞は、主語が何でも{{原形}}にする。', 'must not は{{禁止}}（〜してはいけない）、don''t have to は{{不要}}（〜しなくてよい）。', '未来の「〜できるだろう」は will can ではなく{{will be able to}}。must の過去は{{had to}}。', '過去の1回の場面で「実際に〜できた」は、could より{{was able to}}を使う。']
++    summary: ['助動詞の後ろの動詞は、主語が何でも{{原形}}にする。', 'must not は{{禁止}}（〜してはいけない）、don''t have to は{{不要}}（〜しなくてよい）。', '未来の「〜できるだろう」は will can ではなく{{will be able to}}。must の過去は{{had to}}。', '過去の1回の場面で「実際に〜できた」は、could より{{was able to}}を使う（否定の couldn''t と、could see・could hear などの知覚動詞は could でよい）。']
+   - id: s042
+     title: 推量の強さ
+     aim: must・may・can't が表す推量の強さを比べ、義務の must と推量の must を文脈で見分けられるようになる。
+@@ -99,7 +99,7 @@ chapters:
+         yomi: すいりょう
+         text: 手がかりをもとに、「〜に違いない」「〜かもしれない」と確かさの程度をつけて考えること。本書では助動詞のこの使い方を「推量の must」のように呼ぶ。
+     - ex: [e0409, e0410, e0411]
+-    - p: 確かさの強い順に並べると、次の表のようになります。might と could は may より弱い「ひょっとすると〜かもしれない」です。might は may の過去形ですが、推量では今のことにも使います。
++    - p: 確かさの強い順に並べると、おおよそ次の表のようになります。強さの順は目安で、とくに may・might・could の差は、話し手によってはほとんどありません。might と could は may より弱い「ひょっとすると〜かもしれない」と覚えておきます。might は may の過去形ですが、推量では今のことにも使います。
+       notes:
+       - kind: 注意
+         text: may not は「〜ではないかもしれない」（推量）と「〜してはいけない」（許可の否定）の2つの意味がある。どちらかは文脈で決める。
+@@ -113,10 +113,10 @@ chapters:
+         - [打ち消し, can't／cannot, '{{〜のはずがない}}']
+     - p: 推量の must の反対は、can't（cannot）です。「〜のはずがない」と強く打ち消すときに使います。アメリカ英語では must not を「〜ではないに違いない」の意味で使うこともありますが、must not の基本は禁止です。入試で「must（違いない）の反対」を問われたら can't を選びます。
+     - h: 義務の must か、推量の must か
+-    - p: must には「〜しなければならない」と「〜に違いない」の2つの意味があり、形は同じです。目安になるのは後ろの動詞で、be や know のような状態動詞（@s022）なら推量（@e0412）、動作動詞なら義務になることが多くなります（@e0413）。ただし You must be quiet.（静かにしなさい）のように be でも義務になる文があるので、最後は次の順で確かめます。
++    - p: must には「〜しなければならない」と「〜に違いない」の2つの意味があり、形は同じです。目安になるのは後ろの形で、be や know のような状態動詞（@s022）なら推量（@e0412）、動作動詞なら義務になることが多くなります（@e0413）。must be＋-ing 形（He must be studying now.）と must have done（@s043）は、ふつう推量です。ただし You must be quiet.（静かにしなさい）のように be でも義務になる文があり、どれも決まりではなく目安なので、最後は文脈で確かめます。
+     - ex: [e0412, e0413]
+     - label: 手順
+-      steps: [must の後ろの動詞は、状態動詞（be・know など）か、動作動詞か。, 前後に「〜だから」にあたる根拠の文や語句があるか。, 主語が自分の意志でできることか。できることなら義務、できないことなら推量。]
++      steps: [must の後ろの形を見る。状態動詞（be・know など）や be＋-ing 形なら推量、動作動詞なら義務のことが多い。, 前後に「〜だから…に違いない」の根拠になる文や語句があるか。あれば推量。, 2つで決まらないときの目安：主語が自分の意志でできることを、相手や自分に求めているなら義務。]
+     - check:
+       - q: He has eaten nothing since morning. He (＿) be hungry.（〜に違いない）
+         a: must
+@@ -141,22 +141,22 @@ chapters:
+       gloss:
+       - [fill in, （用紙に）記入する]
+     worked:
+-    - q: Dan took a plane to Osaka an hour ago. That man by the door (＿) be him.
++    - q: （　）に入る最も適切なものを1つ選びなさい。<br>Dan took a plane to Osaka an hour ago. That man by the door (＿) be him.
+       choices: [must, can't, should, has to]
+       steps: [空所は V の一部で、後ろは原形の be。4つとも置ける形なので、意味の手がかりを探す。, 前の文から、ダンは1時間前に飛行機で大阪へ向かった。ドアのそばにいるはずはない。, 「〜のはずがない」と強く打ち消す can't を選ぶ。]
+       ans: '2'
+       point: must（違いない）の反対は can't（はずがない）。has to be も「〜に違いない」の意味で使えるので、must と同じく前の文と合わない。
+-    - q: (1) You must be quiet in the library.<br>(2) You must be tired after that long walk.
+-      steps: [どちらも must の後ろは be なので、動詞だけでは決まらない。, (1) の「静かにする」は自分の意志でできることで、in the library は決まりのある場所。義務の must と読む。, (2) の after that long walk は「疲れている」と考える根拠。疲れることは自分の意志で決められないので、推量の must と読む。]
++    - q: 次の英文を日本語に訳しなさい。<br>(1) You must be quiet in the library.<br>(2) You must be tired after that long walk.
++      steps: [どちらも must の後ろは be なので、形だけでは決まらない。, (2) の after that long walk は「疲れている」と考える根拠になる。根拠があるので推量の must と読む。, (1) には推量の根拠がない。「静かにする」は相手が自分の意志でできることで、in the library は決まりのある場所なので、相手に求める義務の must と読む。]
+       ans: (1) 図書館では静かにしなければならない。(2) あんなに長く歩いたのだから、疲れているに違いない。
+-      point: must＋be は推量のことが多いが、(1) のように「〜の状態でいなさい」という義務にもなる。根拠の語句があるか、主語が自分の意志でできることかを確かめる。
+-    summary: ['推量の強さ：must（{{〜に違いない}}）、may（{{〜かもしれない}}）。might・could は may より{{弱い}}。', '「〜のはずがない」と強く打ち消すのは{{can''t}}（cannot）。', '義務か推量かは、前後に{{根拠}}があるか、主語が自分の意志でできることかで決める。']
++      point: must＋be は推量のことが多いが、(1) のように「〜の状態でいなさい」という義務にもなる。まず根拠の語句があるかを確かめ、決まらなければ、相手に求めている内容かを考える。
++    summary: ['推量の強さ：must（{{〜に違いない}}）、may（{{〜かもしれない}}）。might・could は may より{{弱い}}。', '「〜のはずがない」と強く打ち消すのは{{can''t}}（cannot）。', '義務か推量かは、後ろの形と、前後に{{根拠}}があるかを目安に、文脈で決める。must be＋-ing・must have done はふつう{{推量}}。']
+   - id: s043
+     title: 助動詞＋have done
+     aim: must have done・may have done・can't have done で過去のことを推量し、should have done で後悔や非難を表せるようになる。
+     body:
+     - h: 過去のことを推量するには have done を使う
+-    - p: 推量の must（@s042）は「今〜に違いない」です。では「昨夜〜したに違いない」と、過去のことを推量するにはどうするでしょうか。must had done とはできません。助動詞の後ろは原形だからです。そこで原形の have を使い、「must＋have＋過去分詞」の形にします（@e0414）。推量しているのは今で、推量される出来事はそれより前です。単元3の言い方では、基準の時（@s031）は「今」で、出来事は基準の時より前にあたります。
++    - p: 推量の must（@s042）は「今〜に違いない」です。では「昨夜〜したに違いない」と、過去のことを推量するにはどうするでしょうか。must had done とはできません。助動詞の後ろは原形だからです。そこで原形の have を使い、「must＋have＋過去分詞」の形にします（@e0414）。この形を本書では must have done と書きます（done は過去分詞を表す記号。@s032 の側注）。推量しているのは今で、推量される出来事はそれより前です。単元3の言い方では、基準の時（@s031）は「今」で、出来事は基準の時より前にあたります。
+     - ex: [e0414, e0415, e0416]
+     - p: may と can't も同じように have done と組み合わせます（@e0415・@e0416）。確かさの順は、今のことの推量（@s042）と変わりません。
+     - table:
+@@ -203,12 +203,12 @@ chapters:
+       en: You *shouldn't have told* Yuki about the surprise party. Now she knows everything.
+       ja: ユキにサプライズパーティーのことを話すべきではなかったのに。もう全部知ってしまっている。
+     worked:
+-    - q: Mio's shoes are covered with mud. She (＿) through the park in the rain this morning.
++    - q: （　）に入る最も適切なものを1つ選びなさい。<br>Mio's shoes are covered with mud. She (＿) through the park in the rain this morning.
+       choices: [must walk, must have walked, should walk, can't have walked]
+       steps: [空所は V。this morning があり、泥だらけの靴から「今朝〜した」と過去のことを推量している。, 過去のことの推量なので、「助動詞＋have done」の形を選ぶ。①③は今のことになるので合わない。, 泥だらけの靴は公園を歩いた根拠なので、「〜したに違いない」の must have walked を選ぶ。④の can't have walked は根拠と逆になる。]
+       ans: '2'
+       point: 推量しているのは今、出来事は過去。must had walked のような形はない。
+-    - q: I got a bad score on the math test. I (＿) harder, but I played games every night instead.
++    - q: （　）に入る最も適切なものを1つ選びなさい。<br>I got a bad score on the math test. I (＿) harder, but I played games every night instead.
+       choices: [must have studied, should have studied, may have studied, shouldn't have studied]
+       steps: [空所は V。選択肢はすべて「助動詞＋have done」なので、過去のことを言う文だと分かる。, 後ろの but I played games every night instead から、実際には勉強しなかったことが分かる。, 「（実際はしなかったが）〜すべきだった」という後悔は should have studied。①③は「勉強した」と推量する形で、事実と合わない。④は意味が逆になる。]
+       ans: '2'
+@@ -225,7 +225,7 @@ chapters:
+         text: used to の否定は didn't use to do、疑問文は Did you use to do? の形がふつう。used not to do はかたい言い方。
+     - ex: [e0419, e0420, e0421]
+     - h: used to do と be used to doing
+-    - p: be used to は used to と形が似ていますが、別の表現です。be used to の to は前置詞なので、後ろには名詞か動名詞（doing）が来て「〜に慣れている」という意味になります（@e0422）。get used to doing は「〜に慣れる」です。前置詞の to の後ろに doing を置く形は、単元7（@s074）でもう一度扱います。
++    - p: be used to は used to と形が似ていますが、別の表現です。be used to の to は前置詞なので、後ろには名詞か -ing 形（doing。この -ing 形は単元7で「動名詞」として学ぶ）が来て「〜に慣れている」という意味になります（@e0422）。get used to doing は「〜に慣れる」です。前置詞の to の後ろに doing を置く形は、単元7（@s074）でもう一度扱います。
+       notes:
+       - kind: 注意
+         text: be used to do は use（使う）の受動態で「〜するのに使われる」。This knife is used to cut bread.（このナイフはパンを切るのに使われる）。単元5で学ぶ形。
+@@ -241,7 +241,7 @@ chapters:
+       notes:
+       - kind: 注意
+         text: 話し言葉では You'd better のように had を 'd と短くすることが多い。
+-    - p: ought to do は should とほぼ同じ「〜すべきだ」で、否定は ought not to do です（@e0424）。need は否定文で助動詞として使い、need not do（〜する必要はない）となります（@e0425）。この need の後ろは原形で、to は付けません。肯定文では、普通の動詞として need to do を使います。
++    - p: ought to do は should とほぼ同じ「〜すべきだ」で、否定は ought not to do です（@e0424）。need は否定文・疑問文で助動詞として使い、need not do（〜する必要はない）、Need I do?（〜する必要がありますか）となります（@e0425）。この need の後ろは原形で、to は付けません。普通の動詞として使うときは need to do（否定は don't need to do）で、こちらは to が要ります。
+     - ex: [e0423, e0424, e0425]
+     - check:
+       - q: 「あの犬にさわらないほうがいい。」You (＿) (＿) (＿) touch that dog.
+@@ -249,7 +249,7 @@ chapters:
+       - q: I'm used to (＿) up early.（get を適切な形に）
+         a: getting
+     - h: cannot help doing・may well・might as well
+-    - p: 助動詞を使った決まった言い方も、4択によく出ます。cannot help doing は「〜せずにはいられない」です（@e0426）。この help は「避ける」の意味で、「〜することを避けられない」と考えます。may well do には2つの意味があります。1つは「たぶん〜だろう」という may より強い推量（@e0427）、もう1つは「〜するのももっともだ」です（@e0428）。前に理由が書いてあれば「もっともだ」と訳すと、文の流れに合います。
++    - p: 助動詞を使った決まった言い方も、4択によく出ます。cannot help doing は「〜せずにはいられない」です（@e0426）。doing は -ing 形を表す記号で、help の後ろに laughing のような -ing 形を置きます。この help は「避ける」の意味で、「〜することを避けられない」と考えます。may well do には2つの意味があります。1つは「たぶん〜だろう」という may より強い推量（@e0427）、もう1つは「〜するのももっともだ」です（@e0428）。前に理由が書いてあれば「もっともだ」と訳すと、文の流れに合います。
+       notes:
+       - kind: 注意
+         text: cannot help but do も「〜せずにはいられない」の意味で使われる（主にアメリカ英語）。
+@@ -292,14 +292,14 @@ chapters:
+       en: The next train won't come for an hour. We *might as well* walk home.
+       ja: 次の電車は1時間来ない。歩いて帰るほうがましだ。
+     worked:
+-    - q: There (＿) be a big tree in this park, but it was cut down last year.
++    - q: （　）に入る最も適切なものを1つ選びなさい。<br>There (＿) be a big tree in this park, but it was cut down last year.
+       choices: [used to, would, is used to, was used to]
+       steps: [空所は V の一部で、後ろは原形の be。but it was cut down last year から、「以前はあったが今はない」という過去の状態の話だと分かる。, 過去の習慣を表すのは used to と would だが、would は be のような状態には使わない。, 後ろが原形で、以前の状態を表す used to を選ぶ。③④の be used to は「〜に慣れている」で、to の後ろは名詞か doing になる。]
+       ans: '1'
+       point: would は過去の動作の繰り返しだけ。状態（be, live, have）なら used to を使う。
+-    - q: It's __getting__① dark. You __had not better__② ride your bike __without__③ a light __on__④ this road.
++    - q: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。<br>It's __getting__① dark. You __had not better__② ride your bike __without__③ a light __on__④ this road.
+       steps: [下線部を1つずつ確かめる。①は It's getting dark（暗くなってきた）の進行形で正しい。, ②は had better の否定。not は had better のかたまりの後ろに置き、had better not ride とするので、ここが誤り。, ③④も確かめる。without a light（ライトなしで）、on this road（この道で）はどちらも正しい。]
+-      ans: 2（正しくは had better not）
++      ans: ②（had not better → had better not）
+       point: had better は2語で1つの助動詞のように働く。not はかたまりの後ろに置く。
+     summary: ['過去の状態（be・live など）を表せるのは{{used to}}で、would は過去の{{動作}}の繰り返しだけ。', 'be used to の to は{{前置詞}}なので、後ろは名詞か{{doing}}。', 'had better の否定は{{had better not}} do。need の否定は{{need not}} do（〜する必要はない）。', 'cannot help {{doing}}（〜せずにはいられない）、may well do（{{たぶん〜だろう}}／〜するのももっともだ）、might as well do（{{〜するほうがましだ}}）。']
+ problems:
+@@ -473,11 +473,11 @@ problems:
+   lv: 2
+   kind: 正誤
+   min: 1
+-  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+-  q: __Mio's__① father __has been__② working __since__③ six this morning, so he __can't__④ be tired.
++  inst: 文の意味から考えて、下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
++  q: __Mio's__① father has been working __since__② __six__③ this morning, so he __can't__④ be tired.
+   ans: '4'
+-  why: 朝6時から働き続けていることは「疲れているに違いない」の根拠。can't（はずがない）ではなく must にする。
+-  trap: 下線部の形だけを見て、どれも文法上は正しいと判断する誤り。so の前後の意味のつながりから、推量の助動詞が逆だと分かる。
++  why: 朝6時から働き続けていることは「疲れているに違いない」の根拠。can't（はずがない）ではなく must にする。①②③はどれも形・意味ともに正しく、直しても前後の意味はつながらない。
++  trap: 下線部の形だけを見て、どれも文法上は正しいと判断する誤り。この問題は意味の誤りを探す。so の前後の意味のつながりから、推量の助動詞が逆だと分かる。
+ - id: q04016
+   sec: s042
+   set: 節末
+@@ -624,11 +624,11 @@ problems:
+   lv: 1
+   kind: 英作
+   min: 3
+-  inst: 日本語の意味になるように、下線部を英語にしなさい。
+-  q: この町には以前、映画館が2つあった。<br>＿＿＿＿ in this town.
++  inst: 日本語の意味になるように、used to を使って（　）に英語を入れ、文を完成させなさい（語数は自由）。
++  q: この町には以前、映画館が2つあった。<br>(＿) in this town.
+   ans: There used to be two movie theaters in this town.
+   alt: [There used to be two cinemas in this town.]
+-  why: 「以前は〜があった（今はない）」は There used to be。採点の目安：used to be を使い、two movie theaters（cinemas）が複数形になっていれば正解。would be は状態に使えないので不可。
++  why: 「以前は〜があった（今はない）」は There used to be。採点の目安：指示どおり used to be を使い、two movie theaters（cinemas）が複数形になっていれば正解。would be は状態に使えないので不可。
+   trap: There would be two movie theaters とする誤り。would は過去の動作の繰り返しにしか使えない。
+ - id: q04029
+   sec: s044
+@@ -707,9 +707,9 @@ problems:
+   kind: 正誤
+   min: 1
+   inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+-  q: It __is__① very cold today. It __must__② __snowing__③ in the mountains __now__④.
++  q: It __is__① very cold __today__②. It __must snowing__③ in the mountains __now__④.
+   ans: '3'
+-  why: 助動詞の後ろは原形。進行中のことを推量するときは must be snowing とする。
++  why: 助動詞の後ろは原形。今進んでいることを推量するときは must be snowing とする（must be＋-ing 形は推量）。①②④は正しい。
+   trap: 「今降っている」から -ing 形だけを置く誤り。進行形にするには be が要り、助動詞の後ろなので原形の be を使う。
+ - id: q04036
+   sec: s043
+@@ -720,8 +720,8 @@ problems:
+   inst: 2つの文がほぼ同じ意味になるように、（　）に適切な語を1語ずつ入れなさい。
+   q: Perhaps she took the wrong train.<br>＝ She (＿) (＿) (＿) the wrong train.
+   ans: may have taken
+-  alt: [might have taken]
+-  why: Perhaps（たぶん、もしかすると）＋過去形は、過去のことの「〜したかもしれない」の may have done で言いかえられる。take の過去分詞は taken。
++  alt: [might have taken, could have taken]
++  why: Perhaps（たぶん、もしかすると）＋過去形は、過去のことの「〜したかもしれない」の may have done で言いかえられる（might have done・could have done も「〜したかもしれない」の意味で正解）。take の過去分詞は taken。
+   trap: may have took と過去形を入れる誤り。have の後ろは過去分詞。
+ - id: q04037
+   sec: s043
+@@ -774,7 +774,7 @@ problems:
+ - id: q04041
+   sec: s012
+   set: 確認テスト
+-  lv: 1
++  lv: 2
+   kind: 正誤
+   min: 1
+   inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+diff --git a/series/src/parts/g1_c05.yaml b/series/src/parts/g1_c05.yaml
+index 36926a7..d24b52e 100644
+--- a/series/src/parts/g1_c05.yaml
++++ b/series/src/parts/g1_c05.yaml
+@@ -2,7 +2,7 @@ chapters:
+ - id: c05
+   title: 態
+   lead: この単元では、「〜される」を表す受動態を学びます。能動態の O が受動態の S になるという1つの見方で、時制や助動詞と組み合わせた形から、SVOO・SVOC・群動詞の受動態まで同じ手順で作れるようになります。あわせて、自動詞を受動態にする誤りや by 以外の前置詞をとる形など、4択と正誤でよく問われる点を見分けられるようにします。
+-  intro: 中学では「be 動詞＋過去分詞」で「〜される」を表すことを学びました。だれがしたかを言うときは、by＋人を後ろに置きます。過去分詞には、played のように -ed を付ける規則動詞の形と、written・made・seen のように形が変わる不規則動詞の形があります。この単元では、この形を進行形・完了形・助動詞と組み合わせ、文型（@s013、@s014）とも結びつけて広げます。
++  intro: 中学では「be 動詞＋過去分詞」で「〜される」を表すことを学びました。だれがしたかを言うときは、by＋人を後ろに置きます。過去分詞には、played のように -ed を付ける規則動詞の形と、written・made・seen のように形が変わる不規則動詞の形があります（3-1 の表 @s031 で確かめられます）。この単元では、この形を進行形・完了形・助動詞と組み合わせ、文型（@s013、@s014）とも結びつけて広げます。
+   sections:
+   - id: s051
+     title: "受動態の作り方"
+@@ -20,7 +20,7 @@ chapters:
+         yomi: じゅどうたい
+         text: "動作を受ける側を主語にした文の形。動詞は be 動詞＋過去分詞になり、主語が「〜される」を表す。"
+     - ex: [e0501, e0502]
+-    - p: 能動態の @e0501 と受動態の @e0502 を比べると、能動態の O（the window of the music room）が、受動態では S になっています。受動態は「O を主語の位置に出す」形なので、受動態にできるのは O をとる動詞、つまり他動詞（@s012）だけです。能動態の S だった Ben は、by Ben として後ろに回ります。by ～ は文型に数えない修飾語 M です。
++    - p: 能動態の @e0501 と受動態の @e0502 を比べると、能動態の O（the window of the music room）が、受動態では S になっています。受動態は「O を主語の位置に出す」形なので、受動態にできるのは O をとる動詞、つまり他動詞（@s012 の (2)）だけです。能動態の S だった Ben は、by Ben として後ろに回ります。by ～ は文型に数えない修飾語 M です。
+     - p: by ～ は、いつも書くわけではありません。だれがしたか分からないとき、言わなくても分かるとき、「人々一般」がするときは、by ～ を書かないのがふつうです。@e0503 は、だれが創立したかより「いつ創立されたか」を伝える文なので、by ～ がありません。英語の受動態の文は、by ～ のないもののほうがずっと多いのです。
+       notes:
+       - kind: 注意
+@@ -78,14 +78,14 @@ chapters:
+       en: This bag *can be washed* at home.
+       ja: このかばんは家で洗うことができる。
+     worked:
+-    - q: "The letters have already (＿) (＿) to all the students. （send を適切な形にして2語で）"
++    - q: "send を適切な形にして、（　）に1語ずつ入れなさい。<br>The letters have already (＿) (＿) to all the students."
+       steps:
+       - 主語は The letters。手紙は「送る側」ではなく「送られる側」なので、受動態の be＋過去分詞にする。
+       - have already があるので完了形。完了形の受動態は have been＋過去分詞になる。
+       - send の過去分詞は sent。have の後ろに been sent を入れる。
+       ans: been sent
+       point: have sent to … とすると「手紙が送った」という意味になり、主語と動詞の関係が合わない。完了形の受動態では、been を落とさないこと。
+-    - q: "The bridge near our school (＿) now, so we have to use another road."
++    - q: "（　）に入る最も適切なものを1つ選びなさい。<br>The bridge near our school (＿) now, so we have to use another road."
+       choices: [is repairing, is being repaired, has repaired, was repaired]
+       steps:
+       - 空所は文の V。主語は The bridge。
+@@ -118,7 +118,7 @@ chapters:
+     - h: SVOC の受動態
+     - p: SVOC の文（@s014）で受動態の主語になるのは O です。C はそのまま「be＋過去分詞」の後ろに残ります。能動態で O＝C だった関係が、受動態では S＝C の関係になります（@e0510、@e0511）。@e0510 では「公園＝さくら公園」、@e0511 では「部屋＝暖かい」という関係が受動態でも残っています。
+     - ex: [e0510, e0511]
+-    - p: 後ろに残った C の形に注意します。C は名詞か形容詞で、副詞にはなりません。The room was kept warmly. とすると、warm（暖かい）という部屋の状態を表せません。また call・name の C の前に as は付けません。was called as Kuro は誤りで、was called Kuro が正しい形です。
++    - p: 後ろに残った C の形に注意します。C は名詞か形容詞で、副詞にはなりません。The room was kept warmly. とすると、warm（暖かい）という部屋の状態を表せません。また call・name の C の前に as は付けません。was called as Kuro は誤りで、was called Kuro が正しい形です。elect O C（O を C に選ぶ）も同じ形で、They elected Taro captain. は Taro was elected captain. になります。captain（キャプテン）のように1人しかいない役職が C になるときは、a や the を付けないことが多いです。
+     - check:
+       - q: "Mr. Ito taught us English. → We (＿) (＿) English by Mr. Ito."
+         a: were taught
+@@ -141,14 +141,14 @@ chapters:
+       en: The room *was kept* warm for the baby.
+       ja: 部屋は赤ちゃんのために暖かくしておかれた。
+     worked:
+-    - q: "My uncle gave me this camera. → I (＿) (＿) this camera by my uncle."
++    - q: "上の文とほぼ同じ意味になるように、（　）に適切な語を1語ずつ入れなさい。<br>My uncle gave me this camera. → I (＿) (＿) this camera by my uncle."
+       steps:
+       - 能動態の文型を確かめる。gave me this camera は SVOO で、O₁ が me、O₂ が this camera。
+       - 書きかえた文の主語は I。O₁ の me を主語にした受動態なので、O₂ の this camera は後ろに残る。
+       - 主語 I は「与えられた側」で、時は過去。be 動詞は was、give の過去分詞は given。
+       ans: was given
+       point: 人を主語にした SVOO の受動態では、物（O₂）の前に to も for も付けない。物を主語にするなら This camera was given to me by my uncle. になる。
+-    - q: "その子猫は、姉によってモチと名付けられた。<br>The kitten ( by / Mochi / my / named / sister / was )."
++    - q: "日本語の意味になるように（　）内の語を並べかえなさい。<br>その子猫は、姉によってモチと名付けられた。<br>The kitten ( by / Mochi / my / named / sister / was )."
+       steps:
+       - 能動態にもどすと My sister named the kitten Mochi.（SVOC）。the kitten が O、Mochi が C。
+       - O の the kitten が主語になるので、動詞は was named。C の Mochi はそのまま named の後ろに残す。
+@@ -222,7 +222,7 @@ chapters:
+       en: This juice *is made* from five kinds of fruit.
+       ja: このジュースは5種類の果物から作られている。
+     worked:
+-    - q: "This story is known (＿) every child in Japan."
++    - q: "（　）に入る最も適切なものを1つ選びなさい。<br>This story is known (＿) every child in Japan."
+       choices: [to, for, as, with]
+       steps:
+       - 空所は前置詞。直後の every child in Japan は「人」。
+@@ -230,12 +230,12 @@ chapters:
+       - 知られている相手を表すのは to。for は理由、as は名前・立場を表すので合わない。
+       ans: "1"
+       point: be known の後ろの前置詞は、後ろの名詞が「知っている人」か「理由」か「名前・立場」かで決める。
+-    - q: "When Taro __sang__① the song in __front__② of the class, he __was laughed by__③ some of his __classmates__④."
++    - q: "下線部①〜④のうち、誤りをふくむものを1つ選びなさい。<br>When Taro __sang__① the song in __front__② of the class, he __was laughed by__③ some of his __classmates__④."
+       steps:
+       - 下線部③は受動態。能動態にもどすと Some of his classmates laughed at him.
+       - laugh at は群動詞なので、受動態でも at を残して was laughed at by とする。
+       - ①sang は過去形で正しい。②in front of、④some of his classmates も正しい形。
+-      ans: "3"
++      ans: ③（was laughed by → was laughed at by）
+       point: 群動詞の受動態で前置詞が2つ並ぶ（at by）のは正しい形。並んだ前置詞の片方を落とした形を疑う。
+     summary:
+     - 群動詞の受動態は {{前置詞・副詞を残す}}。laugh at → be {{laughed at}} by ～。
+@@ -247,7 +247,7 @@ chapters:
+     aim: It is said that ～ と S is said to do を書きかえ、動作と状態の受動態を区別し、受動態にできない動詞を見分けられるようになる。
+     body:
+     - h: It is said that ～ と S is said to do
+-    - p: 「〜と言われている」は、People say that ～ を受動態にして表します。say の O は that 節なので、ふつうは形式的な主語 It を前に置き、that 節を後ろに回して It is said that ～ とします（@e0517）。さらに、that 節の中の主語を文全体の主語にすると、S is said to do の形になります（@e0518）。@e0517 と @e0518 は同じ意味です。think・believe・know も It is thought that ～／S is thought to do のように使えます。
++    - p: 「〜と言われている」は、People say that ～ を受動態にして表します。say の O は that 節なので、ふつうは形式主語の It（@s061）を前に置き、that 節を後ろに回して It is said that ～ とします（@e0517）。さらに、that 節の中の主語を文全体の主語にすると、S is said to do の形になります（@e0518）。@e0517 と @e0518 は同じ意味です。think・believe・know も It is thought that ～／S is thought to do のように使えます。
+     - ex: [e0517, e0518]
+     - p: S is said to do の to do は不定詞です（@s061）。ここでは、that 節の時と is said の時が同じ場合だけを扱います。「〜だったと言われている」のように、that 節の時が前にずれる形は単元6（@s062）で学びます。
+     - h: 動作の受動態と状態の受動態
+@@ -258,7 +258,7 @@ chapters:
+         text: "「〜と結婚する」は marry 人、または get married to 人。get married with 人 とはしない。"
+     - ex: [e0519, e0520]
+     - h: 受動態にできない動詞
+-    - p: 受動態は O を主語にする形なので、O をとらない自動詞（@s012）は受動態になりません。happen・occur（起こる）、appear（現れる）、disappear（消える）、arrive（着く）がその代表です。日本語の「事故が起こった」を「起こされた」と考えて was happened とする誤りが、正誤問題でよく問われます（@e0521）。
++    - p: 受動態は O を主語にする形なので、O をとらない自動詞（@s012 の (2)）は受動態になりません。happen・occur（起こる）、appear（現れる）、disappear（消える）、arrive（着く）がその代表です。日本語の「事故が起こった」を「起こされた」と考えて was happened とする誤りが、正誤問題でよく問われます（@e0521）。
+       notes:
+       - kind: 注意
+         text: "他動詞でも受動態にしない動詞がある。resemble（〜に似ている）、have（〜を持っている）、cost（〜がかかる）は状態を表し、ふつう受動態にしない。"
+@@ -285,7 +285,7 @@ chapters:
+       en: A big accident *happened* near the station last night.
+       ja: ゆうべ駅の近くで大きな事故が起こった。
+     worked:
+-    - q: "Ben (＿) hurt while he was playing soccer yesterday."
++    - q: "（　）に入る最も適切なものを1つ選びなさい。<br>Ben (＿) hurt while he was playing soccer yesterday."
+       choices: [got, gets, getting, has got]
+       steps:
+       - 空所は文の V。get hurt で「けがをする」という動作を表す。
+@@ -293,12 +293,12 @@ chapters:
+       - ②gets は現在形、③getting だけでは動詞にならない、④has got は現在完了で yesterday と一緒に使えない（@s034）。よって①got。
+       ans: "1"
+       point: get＋過去分詞は「〜される・〜になる」という動作を表す。was hurt でも意味は通じるが、「けがをした」という出来事をはっきり示すのが get hurt。
+-    - q: "__In the next town__① a big fire __was happened__② last night, but nobody __was injured__③ __because__④ everyone ran out quickly."
++    - q: "下線部①〜④のうち、誤りをふくむものを1つ選びなさい。<br>__In the next town__① a big fire __was happened__② last night, but nobody __was injured__③ __because__④ everyone ran out quickly."
+       steps:
+       - 下線部の受動態を1つずつ確かめる。②was happened と③was injured。
+       - happen は「起こる」という自動詞で O をとらないので、受動態にできない。過去形 happened が正しい。
+       - injure は他動詞で、人は「けがをさせられる側」なので③was injured は正しい。①④も正しい。
+-      ans: "2"
++      ans: ②（was happened → happened）
+       point: 受動態の下線部を見たら、その動詞が O をとる他動詞かを確かめる。日本語の「起こった」に引かれて受動態にしない。
+     summary:
+     - People say that ～ → It is {{said}} that ～ → S is said {{to do}}。
+@@ -315,6 +315,7 @@ problems:
+   inst: （　）内の動詞を適切な形にして空所に入れなさい。
+   q: "The letter was (＿) in English. (write)"
+   ans: written
++  ref: [s051, s031]
+   why: was の後ろに過去分詞を置いて受動態にする。write の過去分詞は written（不規則動詞）。
+   trap: 過去形の wrote を入れる誤り。be 動詞の後ろに来るのは過去形ではなく過去分詞。
+ - id: q05002
+@@ -338,6 +339,7 @@ problems:
+   q: This picture was painted by (＿).
+   choices: [he, him, his, himself]
+   ans: "2"
++  ref: s011
+   why: by は前置詞なので、後ろの代名詞は目的格になる。he の目的格は him。
+   trap: 「彼が描いた」という意味から主格の①he を選ぶ誤り。前置詞の後ろは意味にかかわらず目的格。
+ - id: q05004
+@@ -438,10 +440,10 @@ problems:
+   kind: 4択
+   inst: （　）に入る最も適切なものを1つ選びなさい。
+   min: 1
+-  q: These cookies were baked (＿) us by Jane.
++  q: These cookies were made (＿) us by Jane.
+   choices: [for, to, of, with]
+   ans: "1"
+-  why: bake は buy・make と同じく SVO＋for の形をとる動詞。物を主語にした受動態でも、人の前に for を置く。
++  why: make は buy・cook と同じく SVO＋for の形をとる動詞。物を主語にした受動態でも、人の前に for を置く。
+   trap: give の受動態と同じだと考えて②to を選ぶ誤り。to をとるか for をとるかは動詞で決まる（@s013）。
+ - id: q05013
+   sec: s052
+@@ -473,8 +475,8 @@ problems:
+   kind: 正誤
+   min: 1
+   inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+-  q: The classroom __was__① __kept__② __cleanly__③ by the students __during__④ the school festival.
+-  ans: "3"
++  q: The classroom __was__① kept __cleanly__② __by__③ the students __during__④ the school festival.
++  ans: "2"
+   why: keep O C の受動態では、C が was kept の後ろに残る。C は「教室＝きれい」という状態なので、形容詞 clean にする。
+   trap: 動詞の後ろだから副詞だと考えて cleanly を正しいとする誤り。SVOC の受動態で残るのは C で、C に副詞は置けない。
+ - id: q05016
+@@ -566,9 +568,9 @@ problems:
+   kind: 正誤
+   min: 1
+   inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+-  q: Yesterday __at__① the bus stop, a woman __who__② __was carrying__③ a big bag __was spoken by__④ a child.
+-  ans: "4"
+-  why: speak to（〜に話しかける）は群動詞。受動態でも to を残し、was spoken to by a child とする。
++  q: At the bus stop __yesterday__①, an old woman __with__② a big bag __was spoken by__③ a __little__④ boy.
++  ans: "3"
++  why: speak to（〜に話しかける）は群動詞。受動態でも to を残し、was spoken to by a little boy とする。①yesterday、②with a big bag（大きなかばんを持った）、④little は正しい。
+   trap: 前置詞が2つ並ぶ to by を不自然だと感じ、to のない形を正しいと思う誤り。群動詞の受動態ではかたまりを保つ。
+ - id: q05024
+   sec: s053
+@@ -579,8 +581,8 @@ problems:
+   inst: 日本語の意味になるように、（　）内の語句を使って英文を書きなさい。
+   q: 私の祖父は町のみんなに尊敬されている。（look up to）
+   ans: My grandfather is looked up to by everyone in the town.
+-  alt: [My grandfather is looked up to by everybody in the town.]
+-  why: look up to（〜を尊敬する）を受動態にし、is looked up to by ～ とする。現在の状態なので is。up と to の両方を残しているかが採点の要点。
++  alt: [My grandfather is looked up to by everybody in the town., My grandfather is looked up to by everyone in town.]
++  why: look up to（〜を尊敬する）を受動態にし、is looked up to by ～ とする。現在の状態なので is。up と to の両方を残しているかが採点の要点。by の後ろは everyone／everybody／all the people、in the town／in town のどれでも正解。
+   trap: is looked up by とする誤り。look up to は3語で1つの群動詞なので、to も落とさない。
+ - id: q05025
+   sec: s054
+@@ -611,11 +613,10 @@ problems:
+   lv: 1
+   kind: 補充
+   min: 1
+-  inst: 日本語の意味になるように、空所に適切な1語を入れなさい。
++  inst: 日本語の意味になるように、get を適切な形にして空所に1語を入れなさい。
+   q: 私たちは帰り道でにわか雨にあった。<br>We (＿) caught in a shower on the way home.
+   ans: got
+-  alt: [were]
+-  why: get caught in a shower で「にわか雨にあう」。get＋過去分詞は動作を表す。were caught も正しい。
++  why: get caught in a shower で「にわか雨にあう」。get＋過去分詞は動作を表す。過去の出来事なので過去形 got。（指示がなければ were caught も正しいが、この問題は get を使う練習。）
+   trap: caught を「つかまえた」と読んで、主語 We が何かをつかまえたと考える誤り。「にわか雨に捕まえられた」側なので受動の形になる。
+ - id: q05028
+   sec: s054
+@@ -623,6 +624,7 @@ problems:
+   lv: 1
+   kind: 補充
+   min: 1
++  inst: 日本語の意味になるように、空所に適切な1語を入れなさい。
+   q: 伊藤先生と奥さんは結婚して15年になる。<br>Mr. Ito and his wife have (＿) married for fifteen years.
+   ans: been
+   why: for fifteen years は続いている期間。「結婚している」という状態が続いているので、have been married とする。
+@@ -660,7 +662,7 @@ problems:
+   q: It is thought that the fire started in the kitchen.
+   ans: 火事は台所から始まったと考えられている。
+   alt: [その火事は台所から出たと考えられている。]
+-  why: It is thought that ～ は「〜と考えられている」。It は that 節を指す形式的な主語なので、「それは」と訳さない。
++  why: It is thought that ～ は「〜と考えられている」。It は that 節を指す形式主語（@s061）なので、「それは」と訳さない。
+   trap: It を「それは」と訳して「それは火事が台所で始まったと考えられる」とする誤り。It は that 以下を受けるだけで、意味をもたない。
+ - id: q05032
+   sec: s051
