@@ -703,7 +703,12 @@ problems:
   inst: instead of を使って、日本語の意味を表す英文を書きなさい。
   q: 私たちはバスに乗る代わりに、駅まで歩いた。
   ans: We walked to the station instead of taking a bus.
-  alt: [We walked to the station instead of taking the bus., Instead of taking a bus, we walked to the station., Instead of taking the bus, we walked to the station., We walked to the station instead of going by bus., We walked to the station instead of riding a bus.]
+  alt:
+  - We walked to the station instead of taking the bus.
+  - Instead of taking a bus, we walked to the station.
+  - Instead of taking the bus, we walked to the station.
+  - We walked to the station instead of going by bus.
+  - We walked to the station instead of riding a bus.
   why: 「〜する代わりに」は instead of＋動名詞。「バスに乗る」は take a bus・go by bus など。instead of の後ろが動名詞になっていて、「駅まで歩いた」が walked to the station で表せていれば正解。
   trap: instead of take a bus と、動詞の原形を続ける誤り。instead of は前置詞のかたまりなので、後ろの動詞は -ing 形にする。
 # ---- 確認テスト ----

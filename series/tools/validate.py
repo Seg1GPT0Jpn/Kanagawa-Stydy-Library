@@ -189,6 +189,15 @@ def main(paths):
         if p.get('kind') not in KINDS: err.append(f'{pid}: kind が不正: {p.get("kind")}')
         extra = set(p) - {'id', 'sec', 'set', 'lv', 'kind', 'min', 'inst', 'q', 'choices', 'words', 'ans', 'alt', 'why', 'trap', 'ref', 'passage', 'part', 'pts', 'fix'}
         if extra: err.append(f'{pid}: 問題に余分な項目（半角コンマで文が切れた可能性）: {sorted(extra)}')
+        # 1行の [ … ] に半角コンマを含む英文を書くと、そこで2つの項目に割れる。別解・選択肢の切れ端を探す
+        a0 = str(p.get('ans', '')).strip()
+        for k in ('alt', 'choices'):
+            for it in p.get(k) or []:
+                t = str(it).strip()
+                if k == 'alt' and re.search(r'[.?!]$', a0) and re.match(r'[A-Za-z]', t) and not re.search(r'[.?!)）]$', t):
+                    err.append(f'{pid}: {k} の「{t[:30]}」が文の途中で切れている（1行の [ ] の中の半角コンマ）')
+                elif re.match(r'[a-z]', t) and k == 'alt' and re.match(r'[A-Z]', a0) and re.search(r'[.?!]$', t):
+                    err.append(f'{pid}: {k} の「{t[:30]}」が小文字で始まる（前の項目とコンマで割れた可能性）')
         if p.get('set') not in SETS: err.append(f'{pid}: set が不正: {p.get("set")}')
         if p.get('lv') not in (1, 2, 3): err.append(f'{pid}: lv が不正')
         if full.get('book', {}).get('id') == 'g1' and p.get('lv') == 3: err.append(f'{pid}: 英文法編は ★〜★★ だけ（lv 3 は使わない）')
