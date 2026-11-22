@@ -32,7 +32,7 @@ chapters:
     - table:
         head: [グループ, 数えられない名詞の例, 誤りの形]
         rows:
-        - [形のない物質, water・bread・paper・money, a water・breads]
+        - [形のない物質, water・bread・paper, a water・a bread]
         - [目に見えない内容, "advice・information・news・homework", "{{advices}}・an information"]
         - [まとめて呼ぶ名前, "furniture・baggage（luggage）", "{{furnitures}}・a baggage"]
     - h: 数えられない名詞の数え方と、many・much
@@ -43,7 +43,7 @@ chapters:
       - kind: 参照
         text: few・little（ほとんどない）と a few・a little（少しある）の使い分けは単元15（@s152）で学ぶ。数えられる名詞には few、数えられない名詞には little を使う点は many と much と同じ。
     - h: 意味によって、数えられるかどうかが変わる名詞
-    - p: ここまでの規則には大事な例外があります。多くの名詞は、意味によって数えられたり数えられなかったりするのです。paper は「紙」の意味では数えませんが（@e1306）、「新聞」「論文・レポート」の意味では a paper・two papers と数えます（@e1307）。glass も「ガラス」なら数えず、「コップ」なら a glass と数えます。time は「時間」なら数えず、「〜回」なら three times と数えます。room は「空いている場所」なら数えず、「部屋」なら a room です。work は「仕事」なら数えず、「作品」なら a work です。つまり、数えられるかどうかは語ではなく意味で決まります。一方、上の表の advice・information・news・homework・furniture・baggage は、ふつうどの意味でも数えません。入試ではこの6語がよく問われます。
+    - p: ここまでの規則には大事な例外があります。かなりの数の名詞が、意味によって数えられたり数えられなかったりするのです。paper は「紙」の意味では数えませんが（@e1306）、「新聞」「論文・レポート」の意味では a paper・two papers と数えます（@e1307）。glass も「ガラス」なら数えず、「コップ」なら a glass と数えます。time は「時間」なら数えず、「〜回」なら three times と数えます。room は「空いている場所」なら数えず、「部屋」なら a room です。work は「仕事」なら数えず、「作品」なら a work です。coffee も飲み物としては数えませんが、店で注文するときは two coffees（コーヒー2杯）と数えることがあります。つまり、数えられるかどうかは語ではなく意味で決まります。一方、上の表の advice・information・news・homework・furniture・baggage は、ふつうどの意味でも数えません。入試ではこの6語がよく問われます。
     - ex: [e1306, e1307]
     - check:
       - q: Can I have two (＿) of bread?（slice を適切な形に）
@@ -118,7 +118,7 @@ chapters:
         text: people には「民族・国民」という別の意味があり、この意味では a people・peoples と数える（the peoples of Asia＝アジアの諸民族）。「人々」の意味では peoples としない。
     - ex: [e1309, e1310]
     - h: 2つの部分でできた物は、いつも複数形
-    - p: glasses（眼鏡）・scissors（はさみ）・jeans（ジーンズ）・shoes（靴）は、左右2つの部分が組になってできています。そのため1つの物でも複数形で言い、動詞も複数の形にします（@e1311）。数を言うときは a pair of（1組の）を使い、two pairs of のように pair のほうを複数形にします（@e1312）。
+    - p: glasses（眼鏡）・scissors（はさみ）・jeans（ジーンズ）・pants（ズボン）は、左右2つの部分が組になってできています。そのため1つの物でも複数形で言い、動詞も複数の形にします（@e1311）。数を言うときは a pair of（1組の）を使い、two pairs of のように pair のほうを複数形にします（@e1312）。
       notes:
       - kind: 注意
         text: a pair of が主語のときは、動詞は pair に合わせて単数の形にするのがふつう（This pair of shoes is too small.）。
@@ -135,7 +135,7 @@ chapters:
         - [manner（方法）, manners, "{{行儀・礼儀作法}}"]
         - [custom（習慣）, customs, "{{税関}}"]
         - [glass（ガラス・コップ）, glasses, "{{眼鏡}}"]
-        - [good（よいこと）, goods, "{{商品}}"]
+        - [good（善・利益）, goods, "{{商品}}"]
     - check:
       - q: The police (is／are) asking people about the accident.
         a: are
@@ -675,10 +675,10 @@ problems:
   lv: 1
   kind: 補充
   min: 1
-  q: 「その結果はメールで送ります。」<br>I'll send you the results (＿) email.
+  q: 「私たちは電車で京都へ行った。」<br>We went to Kyoto (＿) train.
   ans: by
-  why: 「〜で」という手段は by で表し、後ろの email には冠詞を付けない。by email で「メールで」。
-  trap: with を入れる誤り。with は道具を手に持って使うときの「〜で」で、通信や交通の手段には by を使う。
+  why: 「〜で」という交通の手段は by で表し、後ろの train には冠詞を付けない。by train で「電車で」。
+  trap: on を入れる誤り。on を使うなら on the train のように冠詞が要る。冠詞のない train の前に置けるのは by だけ。
 - id: q13034
   sec: s131
   set: 確認テスト
@@ -711,7 +711,7 @@ problems:
   words: [are, cause, checking, police, the]
   ans: The police are checking the cause of the accident.
   why: police はいつも複数扱いなので、be 動詞は are。The police are checking の後ろに O の the cause を置く。
-  trap: police を単数と考えて is を探し、are を使えずに迷う誤り。police は -s がなくても複数扱い。
+  trap: police を単数と考えて、are を The police の直後に置けずに迷う誤り。police は -s がなくても複数扱いなので The police are でよい。
 - id: q13037
   sec: s133
   set: 確認テスト
