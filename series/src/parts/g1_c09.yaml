@@ -808,8 +808,8 @@ problems:
   kind: 正誤
   min: 1
   inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
-  q: Please __return__① these books __until__② next Friday __because__③ other students __want__④ to read them.
-  ans: "2"
+  q: These books __are__① popular with students, __so__② please __return__③ them __until__④ next Friday.
+  ans: "4"
   why: return（返す）は1回で終わる動作で、「来週の金曜日までに」という期限を表すので、until ではなく by にする。
   trap: 「〜まで」の訳だけで until を正しいと考える誤り。until は「ずっと続く」、by は「までには（期限）」。
 - id: q09038
