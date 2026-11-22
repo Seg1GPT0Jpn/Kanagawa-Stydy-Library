@@ -23,7 +23,11 @@ chapters:
         text: can にも「〜してよい」という許可の意味がある（You can use my pen.）。may の許可より、くだけた言い方になる。
     - table:
         head: [助動詞, 基本の意味, 言いかえ, 否定の形と意味]
-        rows: [[can, 〜できる（能力）, '{{be able to}}', cannot／can't（〜できない）], [may, 〜してもよい（許可）, ―, may not（〜してはいけない）], [must, 〜しなければならない（義務）, '{{have to}}', must not（〜してはいけない）], [should, 〜すべきだ・〜したほうがよい（助言）, ought to, should not（〜すべきでない）]]
+        rows:
+        - [can, 〜できる（能力）, '{{be able to}}', cannot／can't（〜できない）]
+        - [may, 〜してもよい（許可）, ―, may not（〜してはいけない）]
+        - [must, 〜しなければならない（義務）, '{{have to}}', must not（〜してはいけない）]
+        - [should, 〜すべきだ・〜したほうがよい（助言）, ought to, should not（〜すべきでない）]
     - h: must not と don't have to
     - p: must と have to はどちらも「〜しなければならない」ですが、否定にすると意味が分かれます。must not は「〜してはいけない」という禁止です（@e0405）。don't have to は「〜しなくてよい・〜する必要はない」という不要です（@e0406）。have to の否定は「しなければならない、ということはない」と考えると、禁止にならない理由が分かります。
       notes:
@@ -44,7 +48,8 @@ chapters:
     - id: e0401
       en: Mio *can* swim 500 meters without a break.
       ja: ミオは休まずに500メートル泳げる。
-      gloss: [[without a break, 休まずに]]
+      gloss:
+      - [without a break, 休まずに]
     - id: e0402
       en: You *may* use this dictionary during the test.
       ja: テストの間、この辞書を使ってもよい。
@@ -54,7 +59,8 @@ chapters:
     - id: e0404
       en: You *should* see a doctor about that cough.
       ja: その咳のことで、医者に診てもらったほうがよい。
-      gloss: [[cough, 咳]]
+      gloss:
+      - [cough, 咳]
     - id: e0405
       en: You *must not* take photos inside the museum.
       ja: 美術館の中で写真を撮ってはいけない。
@@ -67,7 +73,9 @@ chapters:
     - id: e0408
       en: The road was icy, but the bus *was able to* reach the station on time.
       ja: 道は凍っていたが、バスは時間どおりに駅に着くことができた。
-      gloss: [[icy, 凍った], [on time, 時間どおりに]]
+      gloss:
+      - [icy, 凍った]
+      - [on time, 時間どおりに]
     worked:
     - q: It's Sunday tomorrow, so you (＿) get up early.
       choices: [must, must not, don't have to, can't]
@@ -97,7 +105,12 @@ chapters:
         text: may not は「〜ではないかもしれない」（推量）と「〜してはいけない」（許可の否定）の2つの意味がある。どちらかは文脈で決める。
     - table:
         head: [確かさ, 助動詞, 意味]
-        rows: [[強い, must, '{{〜に違いない}}'], [↓, should, （当然）〜のはずだ], [↓, may, '{{〜かもしれない}}'], [弱い, might／could, ひょっとすると〜かもしれない], [打ち消し, can't／cannot, '{{〜のはずがない}}']]
+        rows:
+        - [強い, must, '{{〜に違いない}}']
+        - [↓, should, （当然）〜のはずだ]
+        - [↓, may, '{{〜かもしれない}}']
+        - [弱い, might／could, ひょっとすると〜かもしれない]
+        - [打ち消し, can't／cannot, '{{〜のはずがない}}']
     - p: 推量の must の反対は、can't（cannot）です。「〜のはずがない」と強く打ち消すときに使います。アメリカ英語では must not を「〜ではないに違いない」の意味で使うこともありますが、must not の基本は禁止です。入試で「must（違いない）の反対」を問われたら can't を選びます。
     - h: 義務の must か、推量の must か
     - p: must には「〜しなければならない」と「〜に違いない」の2つの意味があり、形は同じです。目安になるのは後ろの動詞で、be や know のような状態動詞（@s022）なら推量（@e0412）、動作動詞なら義務になることが多くなります（@e0413）。ただし You must be quiet.（静かにしなさい）のように be でも義務になる文があるので、最後は次の順で確かめます。
@@ -125,7 +138,8 @@ chapters:
     - id: e0413
       en: You *must* fill in this form [before you see the doctor].
       ja: 診察を受ける前に、この用紙に記入しなければならない。
-      gloss: [[fill in, （用紙に）記入する]]
+      gloss:
+      - [fill in, （用紙に）記入する]
     worked:
     - q: Dan took a plane to Osaka an hour ago. That man by the door (＿) be him.
       choices: [must, can't, should, has to]
@@ -147,7 +161,11 @@ chapters:
     - p: may と can't も同じように have done と組み合わせます（@e0415・@e0416）。確かさの順は、今のことの推量（@s042）と変わりません。
     - table:
         head: [形, 意味]
-        rows: [[must have done, '{{〜したに違いない}}'], [may (might) have done, '{{〜したかもしれない}}'], [can't (cannot) have done, '{{〜したはずがない}}'], [should have done, '{{〜すべきだったのに}}（下の項）']]
+        rows:
+        - [must have done, '{{〜したに違いない}}']
+        - [may (might) have done, '{{〜したかもしれない}}']
+        - [can't (cannot) have done, '{{〜したはずがない}}']
+        - [should have done, '{{〜すべきだったのに}}（下の項）']
     - h: should have done は「すべきだったのに」
     - p: should have done は、多くの場合「〜すべきだったのに（実際にはしなかった）」という意味になります（@e0417）。自分のことなら後悔、相手のことなら非難の気持ちが入ります。否定の shouldn't have done は「〜すべきではなかったのに（実際にはしてしまった）」です（@e0418）。ought to have done も、should have done と同じ意味で使えます。
       notes:
@@ -167,7 +185,8 @@ chapters:
     - id: e0414
       en: Dan's eyes are red this morning. He *must have stayed* up late playing games.
       ja: ダンは今朝、目が赤い。ゲームをして夜ふかししたに違いない。
-      gloss: [[stay up late, 夜ふかしする]]
+      gloss:
+      - [stay up late, 夜ふかしする]
     - id: e0415
       en: Mr. Hara *can't have forgotten* the meeting. He wrote it on the board himself.
       ja: 原先生が会議を忘れたはずがない。自分で黒板に書いたのだから。
@@ -177,7 +196,9 @@ chapters:
     - id: e0417
       en: I *should have charged* my phone last night. Now the battery is almost dead.
       ja: 昨夜スマートフォンを充電しておくべきだった。今、電池がほとんど切れている。
-      gloss: [[charge, 充電する], [dead, （電池が）切れた]]
+      gloss:
+      - [charge, 充電する]
+      - [dead, （電池が）切れた]
     - id: e0418
       en: You *shouldn't have told* Yuki about the surprise party. Now she knows everything.
       ja: ユキにサプライズパーティーのことを話すべきではなかったのに。もう全部知ってしまっている。
@@ -211,7 +232,10 @@ chapters:
     - ex: [e0422]
     - table:
         head: [形, to の働き, to の後ろ, 意味]
-        rows: [[used to do, 助動詞の一部, '{{原形}}', 以前は〜した（今は違う）], [be used to doing, 前置詞, '{{名詞・doing}}', 〜に慣れている], [get used to doing, 前置詞, 名詞・doing, 〜に慣れる]]
+        rows:
+        - [used to do, 助動詞の一部, '{{原形}}', 以前は〜した（今は違う）]
+        - [be used to doing, 前置詞, '{{名詞・doing}}', 〜に慣れている]
+        - [get used to doing, 前置詞, 名詞・doing, 〜に慣れる]
     - h: had better・ought to・need
     - p: had better do は「〜したほうがいい（さもないと困ったことになる）」という強い忠告です。目上の人に使うと命令のように聞こえるので、そうした相手には should を使います。had better は2語で1つの助動詞のように働くので、否定の not はかたまりの後ろに置き、had better not do とします（@e0423）。had not better とは言いません。
       notes:
@@ -244,7 +268,8 @@ chapters:
     - id: e0422
       en: Ms. Young came to Japan three years ago. Now she *is used to* driving on the left.
       ja: ヤング先生は3年前に来日した。今では左側通行の運転に慣れている。
-      gloss: [[drive on the left, 道路の左側を走る]]
+      gloss:
+      - [drive on the left, 道路の左側を走る]
     - id: e0423
       en: You *had better not* swim in the river today. The water is very high after the heavy rain.
       ja: 今日は川で泳がないほうがいい。大雨のあとで水かさが増えている。

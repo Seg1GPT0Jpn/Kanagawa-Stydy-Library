@@ -245,7 +245,7 @@ def main(bid):
     if not any('書体' in x for x in FAIL): ok('書体は BIZ UDP明朝・BIZ UDPゴシック・Source Serif 4 だけ。すべて埋め込み・Type 3 なし')
 
     # 9. データ検査（形式・参照・整序の語・AI多用語）
-    r = subprocess.run([sys.executable, str(ROOT / 'tools' / 'validate.py'), '--strict', str(ROOT / 'src' / f'{bid}.yaml')] + [str(p) for p in sorted((ROOT / 'src' / 'parts').glob('*.yaml'))], capture_output=True, text=True)
+    r = subprocess.run([sys.executable, str(ROOT / 'tools' / 'validate.py'), '--strict', str(ROOT / 'src' / f'{bid}.yaml')] + [str(p) for p in sorted((ROOT / 'src' / 'parts').glob(f'{bid}_*.yaml'))], capture_output=True, text=True)
     if r.returncode: fail('データ検査: ' + ' / '.join(l for l in r.stdout.splitlines() if l.startswith('ERROR'))[:800])
     else: ok('データ検査: ' + r.stdout.strip().splitlines()[-1])
 

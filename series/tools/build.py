@@ -54,14 +54,19 @@ class Book:
                 self.wk_nos[s['id']] = nos
         n = 0
         for p in self.problems:
-            if p['set'] != '模試':
+            if p['set'] not in ('模試', '総合演習'):
                 n += 1; p['no'] = n
+            elif p['set'] == '総合演習':
+                n += 0; p['no'] = 10000 + len([q for q in self.problems[:self.problems.index(p)] if q['set'] == '総合演習'])
         m = 0; k = {}
         for p in self.problems:
             if p['set'] == '模試':
                 m += 1; p['no'] = m
                 k[p['part']] = k.get(p['part'], 0) + 1
                 p['label'] = f'第{p["part"]}問 ({k[p["part"]]})'
+            elif p['set'] == '総合演習':
+                k[('t', p['part'])] = k.get(('t', p['part']), 0) + 1
+                p['label'] = f'総合{p["part"]}-{k[("t", p["part"])]}'
             else:
                 p['label'] = f'問{p["no"]}'
         self.pages = {}      # 参照ページ表（完全解説book）: anchor -> page
@@ -70,11 +75,12 @@ class Book:
         """src/parts/*.yaml（章ごとの執筆ファイル）を節 ID で本体に差し込む。
         配布する本の唯一の情報源は、結合後に書き出す build/<id>/merged.yaml。"""
         chs = {c['id']: c for c in self.data['chapters']}
-        for p in sorted((ROOT / 'src' / 'parts').glob('*.yaml')):
+        for p in sorted((ROOT / 'src' / 'parts').glob(f'{self.bid}_*.yaml')):  # この本の執筆ファイルだけ
             part = yaml.safe_load(p.read_text())
             for pc in part.get('chapters', []):
                 ch = chs[pc['id']]
-                if pc.get('lead'): ch['lead'] = pc['lead']
+                for k2, v2 in pc.items():
+                    if k2 not in ('id', 'sections'): ch[k2] = v2   # 単元の導入・入口などの項目
                 idx = {s['id']: i for i, s in enumerate(ch['sections'])}
                 for ps in pc['sections']:
                     # 部分ファイルの節は、書いてある項目だけを本体の節に上書き・追加する（例題だけの追加にも使える）
@@ -100,14 +106,21 @@ class Book:
             if p['kind'] == '正誤':
                 p['inst_eff'] = DEFAULT['正誤'] if '直しなさい' not in (p['inst_eff'] or '') else '下線部①〜④のうち、誤りをふくむものを1つ選び、正しい形に直しなさい。語を取り除くときは「削除」と書きなさい。'
         order = {s['id']: i for i, s in enumerate(s for c in self.data['chapters'] for s in c['sections'])}
-        setord = {'節末': 0, '章末': 1, '模試': 2}
-        # 並び：模試は最後。章末は章の最後。節末は節の順
+        # 問題の属する単元（home）：ふつうは sec の章。確認テスト・前提は ID の単元番号（q02001 → c02）で決める
+        #（確認テストには前の単元の節を問う問題が入るため）
+        chids = [c['id'] for c in self.data['chapters']]
+        for p in self.data.get('problems', []):
+            home = next(c['id'] for c in self.data['chapters'] if any(s['id'] == p['sec'] for s in c['sections']))
+            if p['set'] in ('確認テスト', '前提') and re.fullmatch(r'q\d{5}', str(p['id'])) and f'c{p["id"][1:3]}' in chids:
+                home = f'c{p["id"][1:3]}'
+            p['home'] = home
+        rank = {'前提': 0, '節末': 1, '章末': 2, '確認テスト': 3}
+        # 並び：単元ごとに 前提 → 節末（節の順・難易度の順）→ 章末 → 確認テスト。模試・総合演習は最後
         def key(p):
-            ch = next(c for c in self.data['chapters'] if any(s['id'] == p['sec'] for s in c['sections']))
-            ci = self.data['chapters'].index(ch)
-            if p['set'] == '模試': return (99, 0, 0, 0)
-            if p['set'] == '章末': return (ci, 1, 0, 0)
-            return (ci, 0, order[p['sec']], p['lv'])  # 節末は難易度の順（◆基本→標準→発展）
+            ci = chids.index(p['home'])
+            if p['set'] in ('模試', '総合演習'): return (999, p.get('part', 0), 0, 0)
+            if p['set'] == '節末': return (ci, 1, order[p['sec']], p['lv'])
+            return (ci, rank[p['set']], 0, 0)
         self.data['problems'] = sorted(self.data.get('problems', []), key=key)  # 安定ソート
 
     # ---------- 文中記法 ----------

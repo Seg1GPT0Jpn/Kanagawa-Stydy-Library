@@ -14,9 +14,9 @@ ROOT = Path(__file__).resolve().parents[1]
 CIRC = '①②③④'
 
 
-def main():
+def main(bid='eg01'):
     y = YAML(); y.preserve_quotes = True; y.width = 100000; y.indent(mapping=2, sequence=2, offset=0)
-    files = [ROOT / 'src' / 'eg01.yaml'] + [Path(f) for f in sorted(glob.glob(str(ROOT / 'src' / 'parts' / '*.yaml')))]
+    files = [ROOT / 'src' / f'{bid}.yaml'] + [Path(f) for f in sorted(glob.glob(str(ROOT / 'src' / 'parts' / f'{bid}_*.yaml')))]
     docs = {f: y.load(f.read_text()) for f in files}
     probs = []
     for f in files:
@@ -58,4 +58,4 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    main(sys.argv[1] if len(sys.argv) > 1 else 'eg01')
