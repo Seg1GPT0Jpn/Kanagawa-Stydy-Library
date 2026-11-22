@@ -21,6 +21,9 @@ def main(bid='eg01'):
     probs = []
     for f in files:
         for p in docs[f].get('problems') or []:
+            fixed = any(re.search(r'(?i)leave it|as it is|そのまま|none of the', str(c)) for c in p.get('choices') or [])   # 位置が決まっている選択肢
+            underline = '__' in str(p.get('q', '')) + str(p.get('passage', '')) or (p.get('kind') == '読解' and re.search('[①②③④]', str(p.get('q', ''))))   # 問いの①〜④が英文の下線の番号を指す
+            if fixed or underline: continue
             if p.get('kind') in ('4択', '読解') and p.get('choices') and len(p['choices']) == 4 and str(p.get('ans')) in '1234':
                 probs.append(p)
     count = Counter()

@@ -112,7 +112,7 @@ class Book:
         last = {}
         for p in self.data.get('problems', []):
             chid = next(c['id'] for c in self.data['chapters'] if any(s['id'] == p['sec'] for s in c['sections']))
-            unit = ('模試', p.get('part')) if p['set'] == '模試' else ((p['sec'] if p['set'] == '節末' else chid), p['set'])
+            unit = (p['set'], p.get('part')) if p['set'] in ('模試', '総合演習') else ((p['sec'] if p['set'] == '節末' else chid), p['set'])
             k = unit + (p['kind'],)
             if p.get('inst'): last[k] = p['inst']
             p['inst_eff'] = p.get('inst') or last.get(k) or DEFAULT.get(p['kind'])
@@ -123,6 +123,7 @@ class Book:
                 ie = p['inst_eff'] or ''
                 pre = ie[:ie.index('下線部')] if '下線部' in ie else ''   # 「文の意味から考えて、」などの前置きは残す
                 p['inst_eff'] = pre + (DEFAULT['正誤'] if '直しなさい' not in ie else '下線部①〜④のうち、誤りをふくむものを1つ選び、正しい形に直しなさい。語を取り除くときは「削除」と書きなさい。')
+                if '1つずつ' in ie: p['inst_eff'] = p['inst_eff'].replace('1つ選び', '1つずつ選び')
         order = {s['id']: i for i, s in enumerate(s for c in self.data['chapters'] for s in c['sections'])}
         # 問題の属する単元（home）：ふつうは sec の章。確認テスト・前提は ID の単元番号（q02001 → c02）で決める
         #（確認テストには前の単元の節を問う問題が入るため）
