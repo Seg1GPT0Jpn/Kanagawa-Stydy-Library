@@ -1,0 +1,818 @@
+# 単元18「強調・倒置・省略・挿入」（s181〜s184）。例文 e1801〜、問題 q18001〜。
+chapters:
+- id: c18
+  title: 強調・倒置・省略・挿入
+  lead: この単元では、ふつうの語順や形から外れた文を扱います。語句を強める強調構文と do、語順を入れかえる倒置、語句を省く省略、文の途中に語句をはさむ挿入と同格を学び、形の変わった文から元の骨組み（S・V・O・C）を取り出して読み、正しい語順で書けるようになります。単元6の形式主語（@s061）、単元9の that 節（@s092）、単元12の if の省略（@s122）、単元17の否定の語（@s173）を使います。
+  intro: 中学では、英語の文はふつう S＋V の順に並べ、疑問文では be 動詞や do・does・did・can などを S の前に出すことを学びました。会話では、「私も」を Me, too. と言ったり、誘いに I'd like to. と to で文を終えて答えたりする言い方も出てきました。単元6では It is ～ to do の形式主語の it（@s061）を、単元9では It is ～ that の形と、that の後ろが完全な文か不完全な文かによる見分け方（@s092）を学びました。この単元では、語順を変えたり語句を省いたりする文を、決まった規則として整理します。
+  sections:
+  - id: s181
+    title: "強調構文と do の強調"
+    aim: It is ～ that の強調構文を作って読み、形式主語の文と見分けられるようになる。do・does・did で動詞を強める形も使えるようになる。
+    body:
+    - h: 強調構文の作り方
+    - p: 文の中の1つの語句に「ほかでもなく〜だ」と光を当てたいとき、その語句を It is（It was）と that の間にはさむ形があります。これを<<強調構文>>といいます。Mizuki found the key in the gym. の Mizuki を強めると、@e1801 の形になります。強める語句を元の文から抜き出して It was と that の間に入れ、残りを元の順のまま that の後ろに並べます。訳すときは、that の後ろから「…のは〜だ」と訳します。
+      notes:
+      - kind: 用語
+        term: 強調構文
+        yomi: きょうちょうこうぶん
+        text: It is（was）と that の間に強めたい語句をはさみ、文の残りの部分を that の後ろに置く形。「…のは〜だ」と訳す。It is ～ that … の強調構文ともいう。
+      - kind: 注意
+        text: 元の文が過去のことなら It was、今のことなら It is にするのがふつう。
+    - ex: [e1801, e1802]
+    - p: 強められるのは、S（@e1801）、O（@e1802）、時や場所などを表す M（@e1803）です。S や O を強めると、that の後ろはその語が欠けた不完全な文になります（＿の位置）。M を強めると、that の後ろは完全な文のままです。強める語句が人のときは、that の代わりに who も使えます。
+      notes:
+      - kind: 注意
+        text: 動詞は It is と that の間に入れて強めることができない。動詞を強めるときは、この節の (3) の do を使う。
+      - kind: 注意
+        text: 時や場所を強めるときも that を使う。話し言葉では It was in the gym where ～ のように where・when を使う例もあるが、入試では that を書く。
+    - ex: [e1803]
+    - h: 強調構文か、形式主語か
+    - p: It is ～ that の形は、形式主語の it（@s061）が後ろの that 節を受ける文（@s092）にもあります。@e1804 は that 節が本当の主語で、「誰も電話に出なかったのは不思議だ」という意味です。日本語ではどちらも「…のは〜だ」と訳せるので、訳からは見分けられません。見分けるには、It is と that を外し、間の語句を that の後ろの文に戻してみます。強調構文なら元の文に戻りますが、@e1804 では Nobody answered the phone strange. となり、文になりません。
+    - ex: [e1804]
+    - table:
+        head: ["", 強調構文, 形式主語]
+        rows:
+        - [It is と that の間, 名詞・代名詞、時・場所などを表す語句, 形容詞（true・strange など）や a pity など]
+        - [It is と that を外すと, "{{元の文}}に戻る", 文にならない]
+        - [that の後ろ, "S・O を強めたら{{不完全な文}}、M を強めたら完全な文", "いつも{{完全な文}}"]
+    - label: 強調構文か形式主語か
+      steps:
+      - It is（was）と that の間の語句を見る。true・strange・important のような形容詞なら、形式主語の文。
+      - 間が名詞や、時・場所などを表す語句なら、It is と that を外し、間の語句を that の後ろの文に戻す。元の文として成り立てば強調構文。
+      - 成り立たなければ形式主語の文（It is a pity that ～ など）。形式主語の that の後ろは、いつも完全な文になっている。
+      notes:
+      - kind: 注意
+        text: It が前に出た物を指し、that 以下が名詞を説明する関係代名詞の節（@s101）のこともある。What's that? と聞かれて It's the cake that my sister made. と答えた文の It は「それ」で、「それは姉が作ったケーキだ」と訳す。どちらになるかは文脈で決める。
+    - h: do・does・did で動詞を強める
+    - p: 動詞そのものを強めたいときは、動詞の前に do・does・did を置き、動詞は原形にします（@e1805・@e1806）。「本当に〜する」「確かに〜した」という意味になり、相手が疑っていることや、思われていることと反対のことを言うときによく使います。do・does・did は、疑問文や否定文のときと同じく、主語と時に合わせて選びます。過去のことなら did、主語が3人称単数で今のことなら does です。
+      notes:
+      - kind: 注意
+        text: be 動詞の文には do を使わない（He is busy. を強めるときは is を強く読む）。ただし命令文では、Do be careful.（ぜひ気をつけて）のように be の前にも Do を置ける。Do come again.（ぜひまた来てね）も命令文を強めた形。
+    - ex: [e1805, e1806]
+    - check:
+      - q: Kenta bought this bag in Sendai.<br>this bag を強調構文で強めると？
+        a: It was this bag that Kenta bought in Sendai.
+      - q: It is important that we start early. は強調構文か、形式主語の文か。
+        a: 形式主語の文（間が形容詞の important。It is と that を外すと文にならない）
+      - q: My grandmother (do／does／did) remember my birthday every year.
+        a: does
+    examples:
+    - id: e1801
+      en: "*It was* Mizuki [*that* ＿ found the key in the gym]."
+      ja: 体育館で鍵を見つけたのは美月だった。
+    - id: e1802
+      en: "*It was* the red umbrella [*that* Ren left ＿ on the train]."
+      ja: 蓮が電車に置き忘れたのは、赤い傘だった。
+    - id: e1803
+      en: "*It was* in this library [*that* I first met Ms. Ogawa]."
+      ja: 私が初めて小川先生に会ったのは、この図書館だった。
+    - id: e1804
+      en: "*It* is strange [*that* nobody answered the phone]."
+      ja: 誰も電話に出なかったのは不思議だ。
+    - id: e1805
+      en: I *did* lock the door. Maybe someone else opened it.
+      ja: ドアには確かにかぎをかけた。ほかの誰かが開けたのかもしれない。
+    - id: e1806
+      en: My little brother says he hates carrots, but he *does* eat them at school.
+      ja: 弟はニンジンが大嫌いだと言うが、学校では本当にちゃんと食べている。
+    worked:
+    - q: 日本語の意味になるように（　）内の語を並べかえなさい。<br>駅でこのかばんを見つけたのは、私の弟だった。<br>It ( brother / found / my / that / was ) this bag at the station.
+      steps:
+      - 「…のは〜だった」という日本語なので、強調構文 It was ～ that を使う。
+      - 強めるのは「私の弟」。元の文は My brother found this bag at the station. で、強める語句 my brother を It was と that の間に入れる。
+      - 残りの found this bag at the station を that の後ろに並べる。that の後ろは found の S が欠けた不完全な文になる。
+      ans: It was my brother that found this bag at the station.
+      point: 強調構文は、強める語句を It was と that の間に入れ、残りを元の順のまま that の後ろに置く。
+    - q: 次のうち、It is（was）～ that が強調構文になっているものを1つ選びなさい。
+      choices:
+      - It is a pity that Noah can't come to the party.
+      - It is true that this river was very dirty fifty years ago.
+      - It was last May that we moved to this town.
+      - It is surprising that the shop is still open.
+      steps:
+      - 判断の手順で、まず It is（was）と that の間の語句を見る。②true と④surprising は形容詞なので、形式主語の文。
+      - ①a pity と③last May は名詞なので、It is と that を外し、間の語句を that の後ろの文に戻してみる。
+      - ③は We moved to this town last May. と元の文に戻るので強調構文。①は Noah can't come to the party a pity. となって文にならないので、形式主語の文。
+      ans: "3"
+      point: 間に名詞があっても強調構文とは限らない。It is と that を外して、元の文に戻るかで確かめる。
+    summary:
+    - "強めたい語句を {{It is}}（It was）と {{that}} の間にはさみ、残りを that の後ろに置く。「…のは〜だ」と訳す。"
+    - "It is と that を外して元の文に{{戻れば}}強調構文。間が形容詞で、外すと文にならなければ{{形式主語}}の文。"
+    - "形式主語の that の後ろはいつも{{完全な文}}。強調構文で S・O を強めると、that の後ろは{{不完全な文}}になる。"
+    - "動詞を強めるときは {{do・does・did}}＋{{原形}}。「本当に〜する」「確かに〜した」と訳す。"
+  - id: s182
+    title: "倒置"
+    aim: 否定の語が文の頭に出た文、So do I・Neither do I、場所の語句が文の頭に出た文を、正しい語順で読み書きできるようになる。
+    body:
+    - h: 倒置とは
+    - p: 英語の文は、ふつう S＋V の順に並びます。この順を入れかえて、助動詞・be 動詞や動詞を S の前に出すことを<<倒置>>といいます。単元12では、if を省いた仮定法で Were I ～・Had S done の語順になることを学びました（@s122）。これも倒置の1つです。倒置には、疑問文と同じ語順になる型と、動詞そのものが S の前に出る型があります。
+      notes:
+      - kind: 用語
+        term: 倒置
+        yomi: とうち
+        text: ふつうの S＋V の語順を入れかえ、助動詞・be 動詞（ときには動詞そのもの）を S の前に出すこと。否定の語が文の頭に出たとき、if を省いた仮定法（@s122）、So do I などで起こる。
+    - h: 否定の語が文の頭に出ると、疑問文の語順になる
+    - p: never・seldom（めったに〜ない）などの否定の語（@s173）を、意味を強めるために文の頭に出すと、その後ろは疑問文と同じ語順になります。単元15で見た Never have I seen such a big fish. では、完了形の have が I の前に出ています（@e1807 も同じ形）。一般動詞だけの文では、疑問文と同じく do・does・did を S の前に置き、動詞は原形にします（@e1808）。Little did I know ～（〜とは少しも知らなかった）も同じ形です。
+      notes:
+      - kind: 注意
+        text: 否定の語を文の頭に出す倒置は、書き言葉やあらたまった言い方。ふつうの会話では I have never seen ～ の語順を使う。
+    - ex: [e1807, e1808]
+    - table:
+        head: [ふつうの文, 否定の語句を文の頭に出した文]
+        rows:
+        - [I have never seen such a big fish., "Never {{have I}} seen such a big fish."]
+        - [My father seldom cooks dinner., "Seldom {{does my father}} cook dinner."]
+        - [I didn't notice it until I got home., "Not until I got home {{did I}} notice it."]
+    - p: Not until ～ の文（@e1809）では、倒置するのは後ろの主節で、until の後ろの節（I got home）はふつうの語順のままです。単元17で学ぶ not A until B（B して初めて A、@s174）の not until B を文の頭に出した形で、「B して初めて A した」と訳します。同じ内容は、強調構文（@s181）で It was not until I got home that I noticed it. とも言えます。この形では倒置しません。
+      notes:
+      - kind: 参照
+        text: Only＋時の語句が文の頭に出たときも、同じ倒置が起こる（Only then did I understand.＝その時になって初めて分かった）。Hardly had I sat down when the phone rang.（座るとすぐに電話が鳴った）も、hardly を前に出した倒置の文。
+    - ex: [e1809]
+    - h: So do I と Neither do I
+    - p: 相手の言ったことに「私もそうだ」と答えるときは、So＋助動詞（be 動詞）＋S の語順にします（@e1810）。So の後ろには、相手の文に合わせた語を置きます。相手の文が一般動詞の現在形なら do・does、過去形なら did、be 動詞の文なら am・is・was など、can・will や完了形の have の文ならその語です。否定の文に「私も〜ない」と答えるときは、Neither＋助動詞＋S にします（@e1811）。Nor do I. も同じ意味です。
+      notes:
+      - kind: 注意
+        text: 話し言葉では、So do I. の代わりに Me, too.、Neither do I. の代わりに Me neither. もよく使う。Neither do I. は I don't, either. と同じ意味。
+    - ex: [e1810, e1811]
+    - p: So I do のように S＋V の順にすると、「確かにそうだ」と、相手の言ったことを本人が認める意味になります。「教室に傘を忘れてたよ」と言われて Oh, so I did. と答えれば「あ、本当だ」です。So did I.（私もそうした）は別の人が同じことをしたと言う形、so I did は同じ人について「その通りだ」と言う形です。
+    - h: 場所の語句が文の頭に出ると、V＋S になる
+    - p: 場所や方向を表す語句を文の頭に出すと、動詞そのものが S の前に来ることがあります（@e1812）。このときは do・does・did を使わず、be 動詞や stand・lie・come などの自動詞をそのまま前に出します。動詞の形は後ろの S に合わせます。@e1812 の S は an old church なので stands です。Here comes the bus.（ほら、バスが来た）も同じ形です。ただし S が代名詞のときは倒置せず、Here it comes. とします。
+    - ex: [e1812]
+    - check:
+      - q: I have never eaten such a big pizza.<br>→ Never (＿) (＿) eaten such a big pizza.
+        a: have I
+      - q: '"I''m tired." "So (＿) I."'
+        a: am
+      - q: '"Lucas didn''t go to the party." "Neither (＿) I."'
+        a: did
+    examples:
+    - id: e1807
+      en: "*Never have I* seen so many stars in the sky."
+      ja: こんなにたくさんの星を空に見たことは一度もない。
+    - id: e1808
+      en: "*Seldom does* my father *cook* dinner, but tonight he made curry for us."
+      ja: 父はめったに夕食を作らないが、今夜は私たちにカレーを作ってくれた。
+    - id: e1809
+      en: "*Not until* I got home *did I notice* the hole in my bag."
+      ja: 家に帰って初めて、かばんの穴に気づいた。
+    - id: e1810
+      en: '"I like horror movies." "*So do I*."'
+      ja: 「ホラー映画が好きなんだ」「私も」
+    - id: e1811
+      en: '"I can''t swim." "*Neither can I*."'
+      ja: 「泳げないんだ」「私も泳げない」
+    - id: e1812
+      en: At the top of the hill *stands* an old church.
+      ja: 丘の上に古い教会が立っている。
+    worked:
+    - q: （　）に入る最も適切なものを1つ選びなさい。<br>"My sister plays the piano." "So (＿) my brother."
+      choices: [is, do, does, plays]
+      steps:
+      - 「〜もそうだ」と答える So＋助動詞＋S の形。So の後ろには、相手の文に合わせた語を置く。
+      - 相手の文の plays は一般動詞の現在形なので、do か does を使う。
+      - 後ろの S は my brother（3人称単数）なので does を選ぶ。②do は S が I・you・複数のときの形。①is は be 動詞の文に答えるときの形。④plays は一般動詞なので、So の後ろに置けない。
+      ans: "3"
+      point: So＋助動詞＋S の助動詞は、相手の文の動詞の種類と時、後ろの S に合わせて選ぶ。
+    - q: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。<br>Never __in my life__① __I have__② __seen__③ so many people __at__④ the station.
+      steps:
+      - 文の頭に否定の語 Never が出ているので、後ろは疑問文の語順になるはず。
+      - 完了形の文なので、have を S の前に出して have I seen とする。②I have はふつうの語順のままなので誤り。
+      - ①in my life は Never を強める語句、③seen は have の後ろの過去分詞、④at the station は場所を表し、どれも正しい。
+      ans: "2"
+      point: 否定の語が文の頭に出たら、後ろは疑問文の語順。I have ではなく have I にする。
+    summary:
+    - "語順を入れかえて、助動詞・be 動詞や動詞を S の{{前}}に出すことを{{倒置}}という。"
+    - "never・seldom・not until ～ などが文の頭に出ると、後ろは{{疑問文}}の語順。一般動詞の文は {{do・does・did}}＋S＋原形。"
+    - "「私も」は {{So}}＋助動詞＋S、「私も〜ない」は {{Neither}}＋助動詞＋S。so I did は「{{その通りだ}}」。"
+    - "場所の語句が文の頭に出ると {{V＋S}} の語順になることがある。S が{{代名詞}}なら倒置しない。"
+  - id: s183
+    title: "省略"
+    aim: 繰り返しを避ける省略、副詞節の S＋be の省略、to だけを残す代不定詞を見抜き、省かれた語句を補って読めるようになる。
+    body:
+    - h: 繰り返しを避ける省略
+    - p: 英語では、前に出た語句と同じものが後ろでもう一度出てくるとき、2回目を省くことがよくあります。@e1813 の can't の後ろには play the guitar が省かれています。助動詞や be 動詞を残して、後ろの動詞（のかたまり）を省く形です。@e1814 のように、and の後ろで動詞を省き、違う部分だけを残す形もあります。省略のある文を読むときは、前の文から省かれた語句を補って意味をとります。
+    - ex: [e1813, e1814]
+    - h: 副詞節の中の S＋be の省略
+    - p: when・while・if・though などで始まる副詞節（@s023）では、副詞節の S が主節の S と同じで、動詞が be 動詞のとき、その S と be 動詞をまとめて省くことがあります。@e1815 は Though they were tired から they were を省いた形です。省いた後には、形容詞・-ing 形・過去分詞・前置詞＋名詞などが残ります（while staying in London、when in trouble）。
+      notes:
+      - kind: 注意
+        text: 副詞節の S と主節の S が違うときは省けない。When I was young, my grandmother lived in Hokkaido. を When young, my grandmother ～ とすると、若かったのが祖母のことになってしまう。
+    - p: if necessary（必要なら）・if possible（できれば）は、主節の S と関係なく使える決まった言い方です（@e1816）。省かれているのは it is で、「それが必要なら」「それが可能なら」という意味です。
+    - ex: [e1815, e1816]
+    - h: to だけを残す代不定詞
+    - p: 不定詞の後ろの動詞（のかたまり）が前に出たものと同じとき、to だけを残して後ろを省くことがあります。この to を<<代不定詞>>といいます。@e1817 の to の後ろには join our team が、@e1818 の not to の後ろには buy the concert ticket が省かれています。want to・would like to・have to・try to・be going to などでよく使います。
+      notes:
+      - kind: 用語
+        term: 代不定詞
+        yomi: だいふていし
+        text: 前に出た動詞（のかたまり）の繰り返しを避けて、to だけを残した不定詞。Yes, I'd love to. の to。否定は not to。
+      - kind: 注意
+        text: to は残すのが基本で、Yes, I'd love. は誤り。ただし if you want・if you like（よければ）は、to まで省いて使う決まった言い方。be 動詞のときは to be と be まで残すのがふつう（I'm not a doctor yet, but I want to be.）。
+    - ex: [e1817, e1818]
+    - table:
+        head: [省略の型, 省かれる語句, 例]
+        rows:
+        - [繰り返しの省略, "前に出た{{動詞}}（のかたまり）", "Nanami can play the guitar, but I can't."]
+        - [副詞節の S＋be, "主節と同じ S と{{be 動詞}}", "Though tired, they kept running."]
+        - [代不定詞, "to の後ろの{{動詞}}（のかたまり）", "Yes, I'd love to."]
+    - check:
+      - q: Though he was sick, Taku went to school.<br>省くことのできる2語は？
+        a: he was
+      - q: '"Will you clean your room today?" "Yes. I''m going (＿) after lunch."'
+        a: to
+      - q: Rina wanted to go to the concert, but she couldn't.<br>couldn't の後ろに省かれている語句は？
+        a: go to the concert
+    examples:
+    - id: e1813
+      en: Nanami can play the guitar, but I *can't*.
+      ja: 七海はギターが弾けるが、私は弾けない。
+    - id: e1814
+      en: My father goes to work by train, and my mother by bike.
+      ja: 父は電車で、母は自転車で仕事に行く。
+    - id: e1815
+      en: "*Though* tired, the players kept running until the end of the game."
+      ja: 疲れていたが、選手たちは試合の最後まで走り続けた。
+    - id: e1816
+      en: "*If necessary*, I can drive you to the station."
+      ja: 必要なら、駅まで車で送るよ。
+    - id: e1817
+      en: '"Would you like to join our team?" "Yes, I''d love *to*."'
+      ja: 「私たちのチームに入りませんか」「はい、ぜひ」
+    - id: e1818
+      en: I wanted to buy the concert ticket, but my parents told me *not to*.
+      ja: コンサートのチケットを買いたかったが、両親に買ってはいけないと言われた。
+    worked:
+    - q: 次の英文を日本語に訳しなさい。<br>When young, my uncle wanted to be a pilot.
+      steps:
+      - When の後ろに S＋V がなく、形容詞 young だけがある。副詞節の S＋be が省かれた形。
+      - 省かれた S は主節の S（my uncle）と同じなので、he was を補う。When he was young, my uncle wanted to be a pilot. となる。
+      - 「彼が若かったとき」は「若いころ」と訳し、主節の wanted to be a pilot（パイロットになりたかった）を続ける。
+      ans: 若いころ、おじはパイロットになりたかった。
+      point: 接続詞の後ろに S＋V がないときは、主節と同じ S と be 動詞を補って読む。
+    - q: （　）に入る最も適切なものを1つ選びなさい。<br>My mother told me to clean my room, but I didn't want (＿).
+      choices: [to, to do, doing, for]
+      steps:
+      - 空所の前の want は、後ろに to do をとる動詞。何を「したくなかった」のかは、前の文の clean my room。
+      - 同じ clean my room を繰り返さずに、to だけを残す代不定詞にする。
+      - ②to do は do の O がなく文にならない（to do it なら言える）。③doing は want の後ろに置けない。④for は前置詞で、後ろに名詞がない。
+      ans: "1"
+      point: 前に出た動詞のかたまりを繰り返さないときは、to だけを残す（代不定詞）。to まで省かない。
+    summary:
+    - "前に出た語句と同じものは省くことがある。can't の後ろなどに省かれた{{動詞}}を補って読む。"
+    - "副詞節の S が主節の S と{{同じ}}で、動詞が{{be 動詞}}なら、S＋be を省ける（When young）。"
+    - "if {{necessary}}（必要なら）・if possible（できれば）は、it is が省かれた決まった言い方。"
+    - "to だけを残して後ろの動詞を省いた形を{{代不定詞}}という。否定は {{not to}}。"
+  - id: s184
+    title: "挿入と同格"
+    aim: 文の途中にはさまれた語句（挿入）を外して骨組みを読み、名詞を言いかえる同格の名詞のかたまりを見抜けるようになる。
+    body:
+    - h: 挿入：文の途中にはさまれた語句
+    - p: 文の途中に、話し手の考えや補足の説明を割りこませることがあります。これを<<挿入>>といいます。@e1819 では、This restaurant is the best in our town. の S と V の間に I think がはさまっています。挿入された語句はコンマやダッシュ（長い横線）ではさまれることが多く、外しても文の骨組みは崩れません。読むときは、まず挿入を外して骨組み（S・V・O・C）をつかみ、その後で挿入の意味を加えます。
+      notes:
+      - kind: 用語
+        term: 挿入
+        yomi: そうにゅう
+        text: 文の途中に、話し手の考えや補足の説明を割りこませること。コンマやダッシュではさむことが多く、外しても文の骨組み（S・V・O・C）は残る。
+    - ex: [e1819, e1820]
+    - p: I think・I'm sure・I hear のような「S＋V」の挿入は、文の終わりに回して「〜だと思う」「きっと〜だ」「〜だそうだ」と訳すと自然な日本語になります。@e1820 のダッシュの中は、新しい図書館について説明を付け足したもので、文全体の V は stays です。
+    - table:
+        head: [よく挿入される語句, 意味]
+        rows:
+        - [I think／I believe, "〜だと{{思う}}"]
+        - [I'm sure, "{{きっと}}〜だ"]
+        - [I hear, "〜だ{{そうだ}}"]
+        - [I'm afraid, 残念ながら〜だと思う]
+        - [as far as I know, "私の{{知る限り}}"]
+    - h: 同格：名詞を別の名詞で言いかえる
+    - p: 名詞の後ろにコンマを置いて、別の名詞のかたまりを並べることがあります。@e1821 の Mr. Kubota と the owner of this bakery は同じ人で、後ろの名詞が「つまり、このパン屋の主人」と前の名詞を説明しています。2つの名詞を並べて、後ろの名詞で前の名詞を言いかえたり中身を説明したりする関係を<<同格>>といいます。同格の名詞のかたまりも、外すと骨組みが見えます。@e1821 の骨組みは Mr. Kubota gets up at four です。
+      notes:
+      - kind: 用語
+        term: 同格
+        yomi: どうかく
+        text: 2つの名詞（のかたまり）を並べ、後ろのもので前の名詞を言いかえたり中身を説明したりする関係。名詞＋コンマ＋名詞の形のほか、単元9で学んだ同格の that（@s092）も、名詞の中身を節で説明する同格である。
+      - kind: 注意
+        text: コンマのない同格もある。my friend Kota（友だちのコウタ）、we students（私たち生徒）。the city of Nara（奈良という市）の of も同格を表す。
+    - ex: [e1821]
+    - p: 名詞の中身を S＋V のある節で説明するときは、単元9で学んだ同格の that を使います（@s092）。@e1822 の［that the station will get an elevator］は the news の中身です。同格の that の後ろは完全な文で、後ろが不完全な文になる関係代名詞の that とは、that の見分け（@s092）の手順で区別します。
+    - ex: [e1822]
+    - check:
+      - q: The movie, I hear, is very popular in Korea.<br>挿入を外すと？
+        a: The movie is very popular in Korea.
+      - q: I had lunch with Akane, my cousin from Sendai.<br>my cousin from Sendai が言いかえている名詞は？
+        a: Akane
+      - q: I heard the news (＿) our school will build a new gym.
+        a: that（同格の that）
+    examples:
+    - id: e1819
+      en: This restaurant, *I think*, is the best in our town.
+      ja: このレストランは町でいちばんだと思う。
+    - id: e1820
+      en: The new library — *it opened last month* — stays open until nine on weekdays.
+      ja: 新しい図書館は、先月開館したのだが、平日は9時まで開いている。
+    - id: e1821
+      en: Mr. Kubota, *the owner of this bakery*, gets up at four every morning.
+      ja: このパン屋の主人の久保田さんは、毎朝4時に起きる。
+    - id: e1822
+      en: The news [*that* the station will get an elevator] made my grandmother happy.
+      ja: 駅にエレベーターができるという知らせに、祖母は喜んだ。
+    worked:
+    - q: 次の英文を日本語に訳しなさい。<br>This bag, I think, is too heavy for a child.
+      steps:
+      - コンマではさまれた I think を外して、骨組みを見る。This bag is too heavy for a child. で、S は This bag、V は is、C は too heavy。
+      - 骨組みを訳す。too ～ for 人 で「人にとって〜すぎる」なので、「このかばんは子どもには重すぎる」。
+      - 挿入の I think（〜だと思う）を文の終わりに回して加える。
+      ans: このかばんは子どもには重すぎると思う。
+      point: 挿入はいったん外して骨組みを訳し、I think などは「〜と思う」と文の終わりに加える。
+    - q: （　）に入る最も適切なものを1つ選びなさい。<br>We had dinner at Sakura, (＿) near the station.
+      choices: [a small Italian restaurant, is a small Italian restaurant, it is a small Italian restaurant, which a small Italian restaurant]
+      steps:
+      - 骨組みは We had dinner at Sakura. で、すでに完全な文になっている。コンマの後ろには、Sakura を説明する語句が来る。
+      - ②・③は is という V をふくみ、接続詞も関係詞もないまま2つ目の文をつなぐことになるので誤り。④は which の後ろに V がなく、関係詞の節にならない。
+      - ①の名詞のかたまりなら、Sakura を「駅の近くの小さなイタリア料理店」と言いかえる同格になる。
+      ans: "1"
+      point: 名詞＋コンマの後ろに名詞のかたまりを置くと、前の名詞を言いかえる同格になる。V を入れるなら which is ～ と関係詞が要る。
+    summary:
+    - "文の途中に割りこませた語句を{{挿入}}という。まず{{外して}}骨組みをつかむ。"
+    - "I think・I'm sure の挿入は、文の{{終わり}}に回して「〜と思う」「きっと〜だ」と訳す。"
+    - "名詞＋コンマ＋名詞で、後ろの名詞が前の名詞を言いかえる関係を{{同格}}という。"
+    - "the news {{that}} ～ の同格の that の後ろは{{完全な文}}。"
+problems:
+# ---- 前提チェック ----
+- id: q18001
+  sec: s181
+  set: 前提
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: It is difficult (＿) this book in one day.
+  choices: [read, to read, reads, to reading]
+  ans: "2"
+  why: It は形式主語（@s061）で、本当の主語は「この本を1日で読むこと」。名詞の働きの不定詞 to read を後ろに置く。
+  trap: ①read を選ぶ誤り。動詞の原形をそのまま置いても、本当の主語にならない。
+  ref: s061
+- id: q18002
+  sec: s181
+  set: 前提
+  lv: 1
+  kind: 4択
+  min: 1
+  q: (＿) your brother play soccer every Sunday?
+  choices: [Is, Does, Do, Has]
+  ans: "2"
+  why: play は一般動詞で、S の your brother は3人称単数。一般動詞の現在の疑問文は Does＋S＋原形 の語順にする。この「助動詞を S の前に出す語順」は、倒置（@s182）でもそのまま使う。
+  trap: ①Is を選ぶ誤り。be 動詞と一般動詞の play を重ねることになる。
+- id: q18003
+  sec: s181
+  set: 前提
+  lv: 1
+  kind: 4択
+  min: 1
+  q: The fact (＿) Riku was absent surprised everyone.
+  choices: [that, what, which, who]
+  ans: "1"
+  why: 空所の後ろの Riku was absent は S・V・C がそろった完全な文。名詞 the fact の中身を説明する同格の that（@s092）。
+  trap: ③which を選ぶ誤り。which は関係代名詞で、後ろは不完全な文になる。
+  ref: s092
+# ---- s181 節末 ----
+- id: q18004
+  sec: s181
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: It was in this park (＿) my parents first met.
+  choices: [that, what, which, who]
+  ans: "1"
+  why: 場所を表す in this park を It was と that の間にはさんだ強調構文。It was と that を外すと My parents first met in this park. に戻る。
+  trap: ③which を選ぶ誤り。in this park は前置詞＋名詞で、which で受ける名詞ではない。場所を強めても、強調構文では that を使う。
+- id: q18005
+  sec: s181
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 日本語の意味になるように、（　）に適切な語を1語入れなさい。
+  q: 宿題は確かに終わらせたのだが、家に忘れてきてしまった。<br>I (＿) finish my homework, but I left it at home.
+  ans: did
+  why: 「確かに〜した」と動詞を強めるので、過去のことを表す did を動詞の前に置く。did の後ろの finish は原形。
+  trap: do を書く誤り。finish が原形なので、時は後半の left から判断する。過去のことなので did にする。
+- id: q18006
+  sec: s181
+  set: 節末
+  lv: 1
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 私が昨日なくしたのは、このペンだった。<br>It ( I / pen / that / this / was ) lost yesterday.
+  words: [I, pen, that, this, was]
+  ans: It was this pen that I lost yesterday.
+  why: 強める語句 this pen を It was と that の間に入れ、残りの I lost yesterday を that の後ろに置く。that の後ろは lost の O が欠けた不完全な文。
+  trap: It was I that … と「私」を強める形で始める誤り。「…のは〜だった」の「〜」にあたるのは「このペン」なので、It was の直後に this pen を置く。
+- id: q18007
+  sec: s181
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: My aunt (＿) love cats. She has three at home.
+  choices: [do, does, is, has]
+  ans: "2"
+  why: 動詞 love を強める形。S の My aunt は3人称単数で、She has three と今の話なので、does＋原形にする。
+  trap: ①do を選ぶ誤り。強める do も、疑問文の do と同じく、3人称単数で今のことなら does にする。
+- id: q18008
+  sec: s181
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  q: It was the girl in the red coat (＿) found my wallet.
+  choices: [that, what, she, whom]
+  ans: "1"
+  why: the girl in the red coat を強めた強調構文。that の後ろは found の S が欠けた不完全な文になる。人を強めているので who も使えるが、選択肢にはない。
+  trap: ④whom を選ぶ誤り。人を強めるときでも、that の後ろで欠けているのは S なので、O のときの形の whom は使えない。
+- id: q18009
+  sec: s181
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: It was __Mr. Hara__① __whom__② __gave__③ us the tickets __for__④ the concert.
+  ans: "2"
+  why: Mr. Hara を強めた強調構文で、後ろは gave の S が欠けている。S の位置なので whom ではなく that（または who）にする。①は強める語句、③gave は過去の文で正しく、④tickets for the concert も正しい。
+  trap: 人の後ろだから whom でよいと考える誤り。who と whom は、後ろで欠けているのが S か O かで決める。
+- id: q18010
+  sec: s181
+  set: 節末
+  lv: 2
+  kind: 和訳
+  min: 3
+  inst: 次の英文を日本語に訳しなさい。
+  q: It was not the price but the color that made me choose this jacket.
+  ans: 私がこのジャケットを選んだのは、値段ではなく色のためだった。
+  alt: [私にこのジャケットを選ばせたのは、値段ではなく色だった。]
+  why: not A but B（A ではなく B）を It was と that の間にはさんだ強調構文。that の後ろの made me choose this jacket（私にこのジャケットを選ばせた）を「…のは」と訳し、「値段ではなく色だ」を後ろに置く。
+  trap: It を「それ」と訳し、「それは値段ではなく色で、それが私に…」と前から切って訳す誤り。It was ～ that はまとめて「…のは〜だ」とする。
+# ---- s182 節末 ----
+- id: q18011
+  sec: s182
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: '"I was late for school this morning." "So (＿) I."'
+  choices: [was, did, am, were]
+  ans: "1"
+  why: 相手の文は be 動詞の過去形 was の文。「私も」は So＋be 動詞＋S で、S が I で過去のことなので was にする。
+  trap: ②did を選ぶ誤り。So の後ろの語は相手の文に合わせるので、be 動詞の文には did を使わない。
+- id: q18012
+  sec: s182
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  q: '"I don''t like natto." "(＿) do I."'
+  choices: [So, Neither, Either, Too]
+  ans: "2"
+  why: 相手の文は否定文の I don't like。「私も〜ない」は Neither＋助動詞＋S の語順にする。
+  trap: ①So を選ぶ誤り。So do I. は肯定文に「私も」と答えるときの形。否定文には Neither を使う。
+- id: q18013
+  sec: s182
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 2つの文がほぼ同じ意味になるように、（　）に適切な語を1語ずつ入れなさい。
+  q: I have never been to such an exciting concert.<br>Never (＿) (＿) been to such an exciting concert.
+  ans: have I
+  why: Never が文の頭に出ると、後ろは疑問文の語順になる。完了形の have を S の I の前に出す。
+  trap: I have と書く誤り。ふつうの語順のままでは、Never を文の頭に置いた文にならない。
+- id: q18014
+  sec: s182
+  set: 節末
+  lv: 1
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 姉は平日にはめったに出かけない。<br>Rarely ( does / go / my / out / sister ) on weekdays.
+  words: [does, go, my, out, sister]
+  ans: Rarely does my sister go out on weekdays.
+  why: 否定の意味の Rarely（めったに〜ない）が文の頭にあるので、後ろは疑問文の語順。一般動詞の文なので does＋S＋原形 go の順にする。
+  trap: Rarely my sister does go out … と S を先に置く誤り。does は S の前に出す。
+- id: q18015
+  sec: s182
+  set: 節末
+  lv: 2
+  kind: 整序
+  min: 2
+  q: 家に着いて初めて、財布がないことに気づいた。<br>Not until ( did / got / home / I / I / notice ) that my wallet was missing.
+  words: [did, got, home, I, I, notice]
+  ans: Not until I got home did I notice that my wallet was missing.
+  why: Not until ～ が文の頭に出ると、倒置するのは後ろの主節。until の後ろの I got home はふつうの語順で、主節は did I notice（did＋S＋原形）の語順になる。
+  trap: until の後ろを倒置しようとする誤り。倒置するのは主節の方で、until の節はふつうの語順のままにする。
+- id: q18016
+  sec: s182
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: '"You left the window open again." "Oh, (＿). I''m sorry."'
+  choices: [so did I, so I did, neither did I, so I do]
+  ans: "2"
+  why: 窓を開けたままにしたと言われた本人が、「本当だ、その通りだ」と認める場面。同じ人について認めるのは So＋S＋V の so I did。left（過去形）に合わせて did にする。
+  trap: ①so did I を選ぶ誤り。So did I. は「私もそうした」と、別の人が同じことをしたと言う形。④so I do は今のことになり、left と時が合わない。
+- id: q18017
+  sec: s182
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: __At__① the end of __this__② street __stand__③ an old temple __built__④ about 300 years ago.
+  ans: "3"
+  why: 場所の語句 At the end of this street が文の頭に出て、V＋S の語順になった文。S は an old temple（単数）なので、動詞は stands にする。①・②は場所を表す語句の一部、④built は temple を後ろから説明する過去分詞で、どれも正しい。
+  trap: 動詞の前に S が見当たらないので、stand を正しいと考える誤り。倒置の文では、動詞の後ろにある S を見つけて、動詞の形を合わせる。
+# ---- s183 節末 ----
+- id: q18018
+  sec: s183
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: '"Can you help me carry these boxes?" "Sure, I''d be happy (＿)."'
+  choices: [to, to it, helping, so]
+  ans: "1"
+  why: be happy to do（喜んで〜する）の to の後ろの help you carry these boxes を省いた代不定詞。to だけを残す。
+  trap: ③helping を選ぶ誤り。be happy の後ろで「喜んで〜する」と言うときは to do を使い、省くときも to を残す。
+- id: q18019
+  sec: s183
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: 次の文で、意味を変えずに省くことのできる2語を書きなさい。
+  q: While I was staying in Osaka, I visited the aquarium twice.
+  ans: I was
+  why: While の節の S（I）は主節の S（I）と同じで、動詞は be 動詞の was。S＋be をまとめて省き、While staying in Osaka とできる。
+  trap: While を省く誤り。接続詞は残し、S と be 動詞を省く。
+- id: q18020
+  sec: s183
+  set: 節末
+  lv: 1
+  kind: 和訳
+  min: 3
+  inst: 次の英文を日本語に訳しなさい。
+  q: If possible, please send me the photos by Friday.
+  ans: できれば、金曜日までに写真を送ってください。
+  alt: [可能なら、金曜日までに写真を送ってください。]
+  why: If possible は if it is possible の it is が省かれた決まった言い方で、「できれば・可能なら」。by Friday は期限を表す「金曜日までに」。
+  trap: If possible を「もしありうるなら」と直訳する誤り。省かれた it is を補うと「それが可能なら」で、「できれば」と訳すのが自然。
+- id: q18021
+  sec: s183
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: My brother can speak French, but I (＿).
+  choices: ["can't", "don't", am not, "haven't"]
+  ans: "1"
+  why: 前半の can speak French に対して「私は話せない」と言う文。can の文なので can't を残し、後ろの speak French を省く。
+  trap: ②don't を選ぶ誤り。残す語は、前の文の助動詞 can に合わせる。
+- id: q18022
+  sec: s183
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  q: Mom asked me to buy some milk, but Dad told me (＿) because we still had some.
+  choices: [not to, not, "don't", no to]
+  ans: "1"
+  why: 「買わないように言った」という意味で、tell O not to do の not to だけを残し、buy some milk を省いた代不定詞。否定の not は to の前に置く。
+  trap: ②not を選ぶ誤り。to まで省くと不定詞にならない。代不定詞では to を残す。
+- id: q18023
+  sec: s183
+  set: 節末
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 宿題をしている間に、私は眠ってしまった。<br>( doing / homework / my / while ), I fell asleep.
+  words: [doing, homework, my, while]
+  ans: While doing my homework, I fell asleep.
+  why: While I was doing my homework の、主節と同じ S（I）と be 動詞（was）を省いた形。接続詞 while の後ろに doing my homework を続ける。
+  trap: While my homework doing … と、日本語の「宿題をしている」の順につられて O を doing の前に置く誤り。
+- id: q18024
+  sec: s183
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: When __was__① young, my father __lived__② __in__③ a small town __near__④ the sea.
+  ans: "1"
+  why: 副詞節の S＋be を省くときは、S と be 動詞をまとめて省く。was だけを残すと S のない節になるので、When young か When he was young とする。②lived・③in・④near は正しい。
+  trap: 「若いころ」には be 動詞が要ると考えて was を正しいとする誤り。S を省いたら be 動詞もいっしょに省く。
+# ---- s184 節末 ----
+- id: q18025
+  sec: s184
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: This is Leo, (＿) from Canada.
+  choices: [a new student, is a new student, he is a new student, who a new student]
+  ans: "1"
+  why: Leo の後ろにコンマを置き、名詞のかたまり a new student from Canada で Leo を言いかえる同格。
+  trap: ③he is a new student を選ぶ誤り。接続詞なしで2つ目の S＋V をつなぐことになる。
+- id: q18026
+  sec: s184
+  set: 節末
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: （　）に適切な語を1語入れなさい。
+  q: I'm glad about the news (＿) the bakery near the station will open again.
+  ans: that
+  why: the news の中身「駅の近くのパン屋がまた開店する」を説明する同格の that。後ろは S・V がそろった完全な文。
+  trap: which を書く誤り。後ろが完全な文なので、関係代名詞は使えない。
+- id: q18027
+  sec: s184
+  set: 節末
+  lv: 1
+  kind: 和訳
+  min: 3
+  inst: 次の英文を日本語に訳しなさい。
+  q: This dictionary, I'm sure, will help you a lot.
+  ans: この辞書はきっとあなたの大いに役に立つ。
+  alt: [この辞書はきっとあなたにとても役立つだろう。, きっと、この辞書はあなたの大きな助けになる。]
+  why: コンマではさまれた I'm sure を外すと This dictionary will help you a lot.（この辞書はあなたを大いに助ける）。I'm sure は「きっと」と加える。
+  trap: I'm sure の I を文全体の S と読み、will help の S を見失う誤り。will help の S は This dictionary。
+- id: q18028
+  sec: s184
+  set: 節末
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: The festival, I'm (＿), will be a lot of fun.
+  choices: [sure, surely, sureness, ensure]
+  ans: "1"
+  why: 挿入の I'm sure（きっと）。I'm の後ろは C なので、形容詞の sure を置く。
+  trap: ②surely を選ぶ誤り。be 動詞の後ろの C に副詞は置けない。
+- id: q18029
+  sec: s184
+  set: 節末
+  lv: 2
+  kind: 4択
+  min: 1
+  q: The rumor (＿) Mr. Kato is leaving our school is not true.
+  choices: [that, what, which, whose]
+  ans: "1"
+  why: 空所の後ろの Mr. Kato is leaving our school は完全な文。the rumor の中身を説明する同格の that。文全体の V は2つ目の is。
+  trap: ③which を選ぶ誤り。名詞の後ろなので関係代名詞と考えやすいが、後ろが完全な文なので which は使えない。
+- id: q18030
+  sec: s184
+  set: 節末
+  lv: 2
+  kind: 和訳
+  min: 3
+  inst: 次の英文を日本語に訳しなさい。
+  q: The tickets, as far as I know, are already sold out.
+  ans: 私の知る限り、チケットはもう売り切れだ。
+  alt: [私が知っている限りでは、チケットはすでに売り切れている。]
+  why: as far as I know（私の知る限り）は挿入。外すと The tickets are already sold out. で、sold out は「売り切れの」。
+  trap: as far as を「〜と同じくらい遠く」と訳す誤り。as far as I know は決まった言い方で「私の知る限り」。
+- id: q18031
+  sec: s184
+  set: 節末
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: __Last summer__① I __visited__② my uncle __in__③ Matsumoto, __is a city__④ in Nagano.
+  ans: "4"
+  why: Matsumoto の後ろのコンマの後ろは、Matsumoto を言いかえる同格の名詞のかたまりにする。is を取って a city in Nagano とする（which is a city in Nagano としてもよい）。
+  trap: 「長野の市である」という日本語につられて is を入れる誤り。同格では名詞のかたまりだけを並べる。
+# ---- 確認テスト ----
+- id: q18032
+  sec: s181
+  set: 確認テスト
+  lv: 1
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: It was yesterday (＿) I found this old letter in my desk.
+  choices: [that, what, which, whom]
+  ans: "1"
+  why: 時を表す yesterday を It was と that の間にはさんだ強調構文。It was と that を外すと I found this old letter in my desk yesterday. に戻る。
+  trap: ③which を選ぶ誤り。yesterday は副詞で、which で受ける名詞ではない。強調構文では that を使う。
+- id: q18033
+  sec: s184
+  set: 確認テスト
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: （　）に適切な語を1語入れなさい。
+  q: Nobody believed the story (＿) the old man had seen a UFO.
+  ans: that
+  why: the story の中身「その老人が UFO を見た」を説明する同格の that。後ろは S・V・O がそろった完全な文。
+  trap: what を書く誤り。what は後ろが不完全な文のときに使い、前に名詞を置かない。
+- id: q18034
+  sec: s182
+  set: 確認テスト
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: Seldom __my sister goes__① __to__② bed __before__③ midnight __on__④ weekends.
+  ans: "1"
+  why: 否定の語 Seldom が文の頭にあるので、後ろは疑問文の語順にして does my sister go とする。
+  trap: Seldom を sometimes のようなふつうの頻度の副詞と同じに扱い、倒置を見落とす誤り。
+- id: q18035
+  sec: s183
+  set: 確認テスト
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: (＿) in Paris, I visited a lot of museums.
+  choices: [While, During, When I, Since]
+  ans: "1"
+  why: While I was in Paris の、主節と同じ S（I）と be 動詞（was）を省いた形。
+  trap: ②During を選ぶ誤り。during は前置詞で、後ろに名詞を置く（during my stay in Paris）。前置詞＋名詞の in Paris の前には置けない。
+- id: q18036
+  sec: s184
+  set: 確認テスト
+  lv: 1
+  kind: 4択
+  min: 1
+  q: Our English teacher is, (＿), the tallest person in our school.
+  choices: [I think, think I, I thinking, "I'm think"]
+  ans: "1"
+  why: 文の途中に I think（〜だと思う）をはさんだ挿入。外すと Our English teacher is the tallest person in our school. の完全な文になる。
+  trap: ②think I を選ぶ誤り。挿入の I think も S＋V の語順のまま入れる。
+- id: q18037
+  sec: s181
+  set: 確認テスト
+  lv: 2
+  kind: 整序
+  min: 2
+  inst: 日本語の意味になるように（　）内の語を並べかえなさい。
+  q: 私が初めて海を見たのは、5歳のときだった。<br>It ( five / I / I / that / was / was / when ) first saw the sea.
+  words: [five, I, I, that, was, was, when]
+  ans: It was when I was five that I first saw the sea.
+  why: 時を表す副詞節 when I was five を It was と that の間にはさんだ強調構文。that の後ろは I first saw the sea で、M を強めたので完全な文。
+  trap: It was I that … と、I を強める形で始める誤り。「…のは〜だった」の「〜」にあたるのは時の「5歳のとき」で、when I was five を It was の直後に置く。
+- id: q18038
+  sec: s182
+  set: 確認テスト
+  lv: 1
+  kind: 整序
+  min: 2
+  q: 「私はその映画を見ていない」「私も見ていない」<br>"I haven't seen that movie." "( have / I / neither )."
+  words: [have, I, neither]
+  ans: '"I haven''t seen that movie." "Neither have I."'
+  why: 否定の文に「私も〜ない」と答えるので、Neither＋助動詞＋S。相手の文は完了形の haven't なので have を使う。
+  trap: Neither I have と S を先に置く誤り。Neither の後ろは助動詞＋S の倒置の語順。
+- id: q18039
+  sec: s183
+  set: 確認テスト
+  lv: 1
+  kind: 補充
+  min: 1
+  inst: （　）に適切な語を1語入れなさい。
+  q: I didn't want to go to the dentist, but I had (＿).
+  ans: to
+  why: had to go to the dentist の go to the dentist を省いた代不定詞。to だけを残す。
+  trap: it を書く誤り。to の後ろの動詞のかたまりを省くときも、to は残す。
+- id: q18040
+  sec: s171
+  set: 確認テスト
+  lv: 2
+  kind: 正誤
+  min: 1
+  inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
+  q: I __don't__① __know__② __what time__③ __does the movie start__④.
+  ans: "4"
+  why: 疑問文を文の中に入れる間接疑問（@s171）では、疑問詞の後ろを S＋V の語順にする。what time the movie starts とする。
+  trap: 疑問文の語順をそのまま残す誤り。疑問詞の後ろが S＋V になるのは、文の中に入った疑問の節だから。
+- id: q18041
+  sec: s122
+  set: 確認テスト
+  lv: 2
+  kind: 4択
+  min: 1
+  inst: （　）に入る最も適切なものを1つ選びなさい。
+  q: (＿) I in your place, I would accept the offer.
+  choices: [Were, Was, If, Am]
+  ans: "1"
+  why: If I were in your place の if を省いた倒置の形（@s122）。仮定法なので were を S の前に出す。
+  trap: ③If を選ぶ誤り。If を使うなら If I were in your place と、S の後ろに were が要る。if を省いたときだけ Were I の語順になる。
