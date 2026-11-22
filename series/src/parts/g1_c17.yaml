@@ -9,7 +9,7 @@ chapters:
     aim: 疑問文を文の中に組みこむときに「疑問詞＋S＋V」の語順に直し、Do you know ～? と 疑問詞＋do you think ～? の語順を正しく使い分けられるようになる。
     body:
     - h: 疑問文が文の一部になると、語順がもどる
-    - p: 「ベイカー先生はどこに住んでいますか」は Where does Ms. Baker live? という疑問文です。この疑問文を「私は〜を知らない」の「〜」に入れると、@e1701 のように where Ms. Baker lives という形に変わります。疑問詞で始まるかたまりが、know の O になる名詞節（@s023）になったのです。このように、疑問文を文の中に組みこんで名詞節にしたものを<<間接疑問>>といいます。
+    - p: 「ベイカー先生はどこに住んでいますか」は Where does Ms. Baker live? という疑問文です。この疑問文を「私は〜を知らない」の「〜」に入れると、@e1701 のように where Ms. Baker lives という形に変わります。疑問詞で始まるかたまりが、know の O になる名詞節（@s023）になったのです。疑問文を文の中に組みこんで名詞節にしたものを<<間接疑問>>といいます。
       notes:
       - kind: 用語
         term: 間接疑問
@@ -25,7 +25,7 @@ chapters:
       - kind: 注意
         text: くだけた話し言葉では Do you know where is the station? のように疑問文の語順のまま言う人もいるが、書き言葉と入試では where the station is と S＋V の語順にする。
     - ex: [e1701, e1702, e1703]
-    - p: 間接疑問は名詞節なので、未来のことは I don't know when he will come. のように will で表します（@s023）。また、主節の動詞が asked・wondered など過去のときは、節の中の動詞もふつう過去にずらします。このずらし方は単元19で学びます（@s191）。
+    - p: 間接疑問は名詞節なので、未来のことは I don't know when he will come. のように will で表します（@s023）。主節の動詞が asked・wondered など過去のときは、節の中の動詞もふつう過去にずらします。このずらし方は単元19で学びます（@s191）。
     - h: Yes／No でたずねる疑問文は if・whether で組みこむ
     - p: Is the museum open today? のように疑問詞のない疑問文を文の中に組みこむときは、節の頭に if か whether（〜かどうか）を置き、後ろを S＋V にします（@e1704）。ask・wonder・I'm not sure の後ろによく使います。if と whether の使い分けは単元9で学びました（@s092）。
     - ex: [e1704]
@@ -107,7 +107,7 @@ chapters:
         - [完了形の have, have・has・had, "The bus has left, {{hasn't it}}?"]
     - ex: [e1707, e1708]
     - p: 付加疑問を下げ調子で言うと「〜ですよね」と確かめる言い方、上げ調子で言うと「〜でしたよね？」と本当にたずねる言い方になります。書いた文では区別できないので、どちらの意味でも同じ形を書きます。
-    - p: 形の決まった付加疑問もあります。Let's ～ の文には shall we? を付けます（@e1709）。命令文には will you? を付けることが多く（Open the window, will you?）、I am ～ の文には aren't I? を付けます。There is ～ の文では there を使い、isn't there? とします。また、never・hardly・seldom のように否定の意味をふくむ語がある文は否定の文として扱い、肯定の付加疑問を付けます（He never cooks, does he?）。否定の意味をふくむ語は次の節で学びます（@s173）。
+    - p: 形の決まった付加疑問もあります。Let's ～ の文には shall we? を付けます（@e1709）。命令文には will you? を付けることが多く（Open the window, will you?）、I am ～ の文には aren't I? を付けます。There is ～ の文では there を使い、isn't there? とします。never・hardly・seldom のように否定の意味をふくむ語がある文は否定の文として扱い、肯定の付加疑問を付けます（He never cooks, does he?）。否定の意味をふくむ語は次の節で学びます（@s173）。
       notes:
       - kind: 注意
         text: 命令文には won't you?（〜しませんか）・can you? なども使われる。入試で1つを選ぶときは will you? がふつう。
@@ -304,7 +304,7 @@ chapters:
       ja: きみの作文は決して完璧ではない。つづりをもう一度確かめなさい。
     - id: e1721
       en: The math test was *anything but* easy. Many students couldn't finish it.
-      ja: 数学のテストは決してやさしくなかった。多くの生徒が最後まで解けなかった。
+      ja: 数学のテストは決してやさしくなかった。最後まで解けなかった生徒がたくさんいた。
     - id: e1722
       en: On Sunday mornings, I eat *nothing but* bread and fruit.
       ja: 日曜日の朝は、パンと果物しか食べない。
@@ -766,7 +766,7 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: (＿) the students in my class like soccer. Some like it, but others don't.
-  choices: [Not all, None of, Neither of, No]
+  choices: [Not all, None of, Neither of, "No"]
   ans: "1"
   why: 後ろの文に「好きな人もいるし、好きでない人もいる」とあるので、「全員が好きなわけではない」という部分否定の Not all を選ぶ。
   trap: ②None of を選ぶ誤り。None of は「だれも〜ない」という全体否定で、好きな人もいるという後ろの文と合わない。

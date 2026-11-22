@@ -20,7 +20,7 @@ chapters:
         head: [前置詞, 使うもの, 例]
         rows:
         - [at, 時刻・1つの点, "{{at}} seven・at noon・at night"]
-        - [on, 曜日・日付・特定の日, "{{on}} Monday・on May 5・on my birthday"]
+        - ["on", 曜日・日付・特定の日, "{{on}} Monday・on May 5・on my birthday"]
         - [in, 月・季節・年・朝や午後, "{{in}} July・in winter・in 2025・in the morning"]
       notes:
       - kind: 注意
@@ -67,7 +67,7 @@ chapters:
       ja: 次のバスは10分後に来るので、1時間以内に競技場に着くだろう。
     worked:
     - q: （　）に入る最も適切なものを1つ選びなさい。<br>The concert will be held (＿) Saturday, May 24.
-      choices: [at, in, on, for]
+      choices: [at, in, "on", for]
       steps:
       - 空所は文のどの要素かを考える。前置詞＋名詞のかたまりで、will be held に「いつ」を付け足す M になる。
       - 手がかりの語を探す。後ろは Saturday, May 24 で、曜日と日付。
@@ -194,7 +194,7 @@ chapters:
     - p: for には「〜に賛成して」、against には「〜に反対して」という意味があります。be 動詞の後ろに置いて、Are you for or against the plan?（その案に賛成ですか、反対ですか）のように使います（@e1619）。
     - ex: [e1619]
     - h: of のいろいろな意味
-    - p: of は「〜の」と訳すことが多い前置詞ですが、表す関係はいくつかあります。全体の中の部分、分量、「〜という」、原因などです。また、of＋抽象名詞（形のない物事を表す名詞）は形容詞と同じ働きをし、of use は useful（役に立つ）、of importance は important（大切な）と同じ意味になります。
+    - p: of は「〜の」と訳すことが多い前置詞ですが、表す関係はいくつかあります。全体の中の部分、分量、「〜という」、原因などです。of＋抽象名詞（形のない物事を表す名詞）は形容詞と同じ働きをし、of use は useful（役に立つ）、of importance は important（大切な）と同じ意味になります。
     - table:
         head: [表すこと, 例, 意味]
         rows:
@@ -370,7 +370,7 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: I usually leave home (＿) seven thirty.
-  choices: [at, on, in, for]
+  choices: [at, "on", in, for]
   ans: "1"
   why: seven thirty（7時30分）は時刻。時刻の前には at を置く。
   trap: ③in を選ぶ誤り。in は in the morning・in July のように幅のある期間に使い、時刻には使わない。
@@ -383,7 +383,7 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: My grandfather usually takes a walk (＿) the morning.
-  choices: [at, on, in, for]
+  choices: [at, "on", in, for]
   ans: "3"
   why: 曜日や日付の付かない「朝に」は in the morning。
   trap: ②on を選ぶ誤り。on を使うのは on Sunday morning のように特定の日の朝を言うときで、ただの「朝に」は in the morning。
@@ -466,7 +466,7 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: There is a big map of Japan (＿) the wall of our classroom.
-  choices: [on, in, at, between]
+  choices: ["on", in, at, between]
   ans: "1"
   why: 地図は壁の表面に接して付いているので on を使う。on は机の上だけでなく、壁や天井に付いているものにも使う。
   trap: ②in を選ぶ誤り。日本語の「壁に」から位置を考えずに選ぶと迷う。in は空間の中を表し、壁の表面に付いているものには on を使う。
@@ -513,7 +513,7 @@ problems:
   min: 1
   inst: 日本語の意味になるように、（　）に入る最も適切なものを1つ選びなさい。
   q: そのネコは塀を飛び越えて逃げていった。<br>The cat jumped (＿) the fence and ran away.
-  choices: [over, above, on, through]
+  choices: [over, above, "on", through]
   ans: "1"
   why: 「飛び越えて」は、塀の上を越えて向こう側へ動くことなので over を使う。
   trap: ②above を選ぶ誤り。above は「〜より高い所に」という位置を表し、「越えて向こうへ動く」意味はない。越える動きには over を使う。
@@ -549,7 +549,7 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: My grandparents usually travel (＿) train.
-  choices: [by, with, in, on]
+  choices: [by, with, in, "on"]
   ans: "1"
   why: 交通の手段は by＋何も付けない名詞で表す。by train で「電車で」。
   trap: ④on を選ぶ誤り。on を使うなら on the train のように the が要る。train に何も付いていないので by を使う。
@@ -715,7 +715,7 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: We have a math test (＿) Monday morning.
-  choices: [at, on, in, for]
+  choices: [at, "on", in, for]
   ans: "2"
   why: morning でも、Monday が付いて特定の日の朝になると on を使う。on Monday morning。
   trap: ③in を選ぶ誤り。in the morning につられやすいが、曜日が付いた朝は on。

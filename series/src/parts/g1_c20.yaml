@@ -2,7 +2,7 @@ chapters:
 - id: c20
   title: 語法（動詞・名詞・形容詞）
   lead: 入試の4択や正誤では、意味は合っているのに「後ろの形」が違う選択肢がよく並びます。この単元では、動詞・名詞・形容詞ごとに、後ろに O を直接置くか、どの前置詞を続けるか、to do と that 節のどちらをとるかを確かめる見方で、単元1・6・7・16 で学んだことをまとめ直します。語の意味だけでなく、後ろの形まで含めて選べるようになることが目標です。
-  intro: 中学では、I like music. のように動詞の後ろに直接「〜を」の語を置く文と、I listen to music. のように前置詞をはさむ文を学びました。また、want to go（行きたい）、enjoy playing（することを楽しむ）のように、動詞によって後ろに to do が来るか doing が来るかが決まっていることも学びました。give me a book のように、「人に」と「物を」の2つを並べる動詞もありました。この単元では、こうした「動詞ごとに後ろの形が決まっている」という考え方を、入試でよく問われる動詞・名詞・形容詞に広げます。
+  intro: 中学では、I like music. のように動詞の後ろに直接「〜を」の語を置く文と、I listen to music. のように前置詞をはさむ文を学びました。want to go（行きたい）、enjoy playing（することを楽しむ）のように、動詞によって後ろに to do が来るか doing が来るかが決まっていることも学びました。give me a book のように、「人に」と「物を」の2つを並べる動詞もありました。この単元では、こうした「動詞ごとに後ろの形が決まっている」という考え方を、入試でよく問われる動詞・名詞・形容詞に広げます。
   sections:
   - id: s201
     title: "自動詞と他動詞のまとめ"
@@ -287,6 +287,7 @@ chapters:
     - ex: [e2019, e2020, e2021]
     - h: 客を表す名詞
     - p: 「客」も、どこの客かで語が決まります。店の客は customer、招待した客やホテルの宿泊客は guest（@e2022）、乗り物の乗客は passenger、見物や訪問に来た人は visitor、弁護士などの依頼人は client です。コンサートや講演の聴衆は audience で、これは集合名詞（@s132）です。
+    - ex: [e2022]
     - h: 名詞と結びつく前置詞
     - p: 名詞の後ろに置く前置詞も、名詞ごとに決まっています。注意したいのは、動詞では他動詞なのに、名詞になると前置詞が要る語です。answer the question（動詞）は the answer to the question（名詞）、influence people（動詞）は have an influence on people（名詞）になります（@e2023、@e2024）。
     - table:
@@ -301,6 +302,7 @@ chapters:
       notes:
       - kind: 注意
         text: the key to の to は前置詞なので、後ろに動詞を置くときは doing にする（the key to learning）。look forward to doing と同じ考え方（@s074）。
+    - ex: [e2023, e2024]
     - check:
       - q: How much is the train (fare／fee) to Nagoya?
         a: fare
@@ -816,7 +818,7 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Reading every day had a big effect (＿) my English.
-  choices: [on, to, at, from]
+  choices: ["on", to, at, from]
   ans: "1"
   why: 名詞 effect は influence と同じく on と結びつき、have an effect on 〜 で「〜に影響を与える」。
   trap: ②to を選ぶ誤り。日本語の「〜に」につられやすいが、effect・influence の後ろは on。
