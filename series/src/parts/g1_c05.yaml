@@ -325,10 +325,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: These photos (＿) by my grandfather in 1985.
-  choices: [were taken, took, are taken, was taken]
-  ans: "1"
+  choices: [was taken, took, are taken, were taken]
+  ans: "4"
   why: 主語 These photos は「撮られた側」なので受動態。in 1985 があるので過去形、主語が複数なので were taken。
-  trap: ④was taken を選ぶ誤り。主語は photos（複数）なので be 動詞は were になる。
+  trap: ①was taken を選ぶ誤り。主語は photos（複数）なので be 動詞は were になる。
 - id: q05003
   sec: s051
   set: 前提
@@ -336,8 +336,8 @@ problems:
   kind: 4択
   min: 1
   q: This picture was painted by (＿).
-  choices: [he, his, him, himself]
-  ans: "3"
+  choices: [he, him, his, himself]
+  ans: "2"
   why: by は前置詞なので、後ろの代名詞は目的格になる。he の目的格は him。
   trap: 「彼が描いた」という意味から主格の①he を選ぶ誤り。前置詞の後ろは意味にかかわらず目的格。
 - id: q05004
@@ -359,8 +359,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Spanish (＿) in many countries in South America.
-  choices: [is spoken, speaks, is speaking, spoke]
-  ans: "1"
+  choices: [is speaking, speaks, is spoken, spoke]
+  ans: "3"
   why: 主語 Spanish（スペイン語）は「話される側」なので受動態 is spoken。by ～ がないのは、話すのが人々一般だから。
   trap: 「スペイン語が多くの国で話す」と考えて②speaks を選ぶ誤り。言語は話す側にはなれない。
 - id: q05006
@@ -439,10 +439,10 @@ problems:
   inst: （　）に入る最も適切なものを1つ選びなさい。
   min: 1
   q: These cookies were baked (＿) us by Jane.
-  choices: [to, for, of, with]
-  ans: "2"
+  choices: [for, to, of, with]
+  ans: "1"
   why: bake は buy・make と同じく SVO＋for の形をとる動詞。物を主語にした受動態でも、人の前に for を置く。
-  trap: give の受動態と同じだと考えて①to を選ぶ誤り。to をとるか for をとるかは動詞で決まる（@s013）。
+  trap: give の受動態と同じだと考えて②to を選ぶ誤り。to をとるか for をとるかは動詞で決まる（@s013）。
 - id: q05013
   sec: s052
   set: 節末
@@ -450,8 +450,8 @@ problems:
   kind: 4択
   min: 1
   q: Our dog is called (＿) by everyone in the family.
-  choices: [Kuro, as Kuro, to Kuro, for Kuro]
-  ans: "1"
+  choices: [for Kuro, as Kuro, to Kuro, Kuro]
+  ans: "4"
   why: They call our dog Kuro.（SVOC）の受動態。C の Kuro は is called の直後にそのまま残る。
   trap: 「クロとして呼ばれる」と考えて②as Kuro を選ぶ誤り。call O C の C の前には as を付けない。
 - id: q05014
@@ -485,8 +485,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: We (＿) that the train would be thirty minutes late.
-  choices: [told, were told, were telling, have told]
-  ans: "2"
+  choices: [told, have told, were telling, were told]
+  ans: "4"
   why: tell は「人に that 節を伝える」SVOO の動詞。We は「伝えられた側」なので受動態 were told にし、that 節が後ろに残る。
   trap: 「私たちは〜と聞いた」という日本語から能動態の①told を選ぶ誤り。tell は「伝える側」が主語になる動詞で、tell の後ろには人（O₁）が必要。
 - id: q05017
@@ -509,8 +509,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: The streets were covered (＿) fallen leaves.
-  choices: [with, to, at, for]
-  ans: "1"
+  choices: [at, to, with, for]
+  ans: "3"
   why: 「〜でおおわれている」は be covered with ～。
   trap: 受動態の後ろはいつも by だと思い込み、by がないので迷う誤り。状態を表す受動態は意味に合った前置詞をとる。
 - id: q05019
@@ -520,10 +520,10 @@ problems:
   kind: 4択
   min: 1
   q: Paper is made (＿) wood.
-  choices: [of, from, by, at]
-  ans: "2"
+  choices: [from, of, by, at]
+  ans: "1"
   why: 紙を見ても木の形は残っていない。原料の形が変わるときは be made from。
-  trap: 「木でできている」から①of を選ぶ誤り。of は木の机のように材料が見て分かるときに使う。
+  trap: 「木でできている」から②of を選ぶ誤り。of は木の机のように材料が見て分かるときに使う。
 - id: q05020
   sec: s053
   set: 節末
@@ -555,10 +555,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: This town is known (＿) a good place for fishing.
-  choices: [as, for, to, with]
-  ans: "1"
+  choices: [for, as, to, with]
+  ans: "2"
   why: 「この町＝釣りによい場所」という関係で、町が何として知られているかを表す。名前・立場を表すのは as。
-  trap: 「〜で知られている」という日本語から②for を選ぶ誤り。for の後ろは理由（its fish など）で、主語と同じものを表す名詞なら as。
+  trap: 「〜で知られている」という日本語から①for を選ぶ誤り。for の後ろは理由（its fish など）で、主語と同じものを表す名詞なら as。
 - id: q05023
   sec: s053
   set: 節末
@@ -601,8 +601,8 @@ problems:
   kind: 4択
   min: 1
   q: A strange thing (＿) in our classroom this morning.
-  choices: [happened, was happened, is happened, was happen]
-  ans: "1"
+  choices: [is happened, was happened, happened, was happen]
+  ans: "3"
   why: happen（起こる）は O をとらない自動詞なので、受動態にできない。this morning は過去なので happened。
   trap: 「起こされた」と考えて②was happened を選ぶ誤り。受動態にできるのは O をとる他動詞だけ。
 - id: q05027
@@ -705,8 +705,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: This letter was sent (＿) Kaho by her aunt in Canada.
-  choices: [to, for, of, at]
-  ans: "1"
+  choices: [at, for, of, to]
+  ans: "4"
   why: send は give と同じく SVO＋to の形をとる動詞。物を主語にした受動態では、人の前に to を置く。
   trap: 「香帆のために」と考えて②for を選ぶ誤り。for をとるのは buy・make などの動詞（@s013）。
 - id: q05036
@@ -716,10 +716,10 @@ problems:
   kind: 4択
   min: 1
   q: This city is known (＿) its beautiful beaches.
-  choices: [for, to, as, at]
-  ans: "1"
+  choices: [to, for, as, at]
+  ans: "2"
   why: its beautiful beaches は、この市が知られている理由。理由を表すのは be known for。
-  trap: ②to を選ぶ誤り。to の後ろは「知っている人」で、beaches は人ではない。
+  trap: ①to を選ぶ誤り。to の後ろは「知っている人」で、beaches は人ではない。
 - id: q05037
   sec: s053
   set: 確認テスト
@@ -773,7 +773,7 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: We discussed (＿) for an hour after school.
-  choices: [the plan, about the plan, on the plan, with the plan]
-  ans: "1"
+  choices: [on the plan, about the plan, the plan, with the plan]
+  ans: "3"
   why: discuss は「〜について話し合う」という意味の他動詞で、後ろに直接 O を置く。
   trap: 日本語の「〜について」に引かれて②about the plan を選ぶ誤り。他動詞の後ろに前置詞は要らない。

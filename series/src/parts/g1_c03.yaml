@@ -324,8 +324,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Have you cleaned your room yet? — Yes, I (＿).
-  choices: [do, did, have, am]
-  ans: "3"
+  choices: [have, did, do, am]
+  ans: "1"
   why: Have you ～? の疑問文には、have を使って Yes, I have.／No, I haven't. と答える。
   trap: 部屋をそうじしたのは過去のことなので②did を選ぶ誤り。答えの文は、質問の文の最初の語（Have）に合わせる。
 - id: q03003
@@ -335,8 +335,8 @@ problems:
   kind: 4択
   min: 1
   q: (＿) your sister ever been to Hokkaido?
-  choices: [Does, Did, Has, Is]
-  ans: "3"
+  choices: [Does, Has, Did, Is]
+  ans: "2"
   why: been は be の過去分詞なので、前に have／has を置いて現在完了の疑問文にする。主語 your sister は3人称単数なので Has。
   trap: ever（今までに）につられて①Does を選ぶ誤り。Does の後ろには動詞の原形が来るので、過去分詞の been とは組まない。
 # ---- s031 節末 ----
@@ -371,10 +371,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Mr. Okada isn't in the staff room now. He (＿) to the gym to check the new mats.
-  choices: [has gone, has been, goes, have gone]
-  ans: "1"
+  choices: [has been, has gone, goes, have gone]
+  ans: "2"
   why: 岡田先生は今、職員室にいない。「体育館へ行ってしまって今ここにいない」ので、完了・結果の has gone to を使う。
-  trap: ②has been を選ぶ誤り。has been to は「行ったことがある」（行って戻ってきた）の意味なので、今いない理由の説明にならない。
+  trap: ①has been を選ぶ誤り。has been to は「行ったことがある」（行って戻ってきた）の意味なので、今いない理由の説明にならない。
 - id: q03007
   sec: s031
   set: 節末
@@ -418,8 +418,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: The guests haven't arrived (＿). Let's wait a little longer.
-  choices: [already, yet, just, ever]
-  ans: "2"
+  choices: [already, just, yet, ever]
+  ans: "3"
   why: 否定文の文末で「まだ（〜していない）」を表すのは yet。完了の現在完了の否定文。
   trap: 「もう来ているはず」という気持ちから①already を選ぶ誤り。already は肯定文で「もう〜した」を表し、否定文の文末には置かない。
 # ---- s032 節末 ----
@@ -431,10 +431,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: It has been snowing (＿) last night.
-  choices: [for, since, during, from]
-  ans: "2"
+  choices: [for, from, during, since]
+  ans: "4"
   why: last night（昨夜）は雪が降り始めた時点。現在完了進行形で始まりの時点を言うときは since。
-  trap: 「昨夜から」の「から」を④from にする誤り。現在完了で「〜から今まで」を言うときは since を使う。
+  trap: 「昨夜から」の「から」を②from にする誤り。現在完了で「〜から今まで」を言うときは since を使う。
 - id: q03012
   sec: s032
   set: 節末
@@ -488,8 +488,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: We have been good friends since we (＿) in the same class in junior high school.
-  choices: [are, were, have been, had been]
-  ans: "2"
+  choices: [are, had been, have been, were]
+  ans: "4"
   why: since の後ろの節は、友達であることが始まった時を表す。中学で同じクラスだったのは終わった過去のことなので過去形 were。
   trap: 主節の have been につられて③have been を選ぶ誤り。since 節は「始まった時」の出来事を言うので、ふつう過去形になる。
 - id: q03017
@@ -513,10 +513,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: When I got home, my mother (＿) already cooked dinner.
-  choices: [has, had, have, was]
-  ans: "2"
+  choices: [had, has, have, was]
+  ans: "1"
   why: When I got home（家に帰ったとき）が過去の基準の時。その時までに夕食を作り終えていたので過去完了 had cooked。
-  trap: 主語が my mother なので①has を選ぶ誤り。has cooked は基準の時が今の形で、過去の基準の時までの完了には使えない。
+  trap: 主語が my mother なので②has を選ぶ誤り。has cooked は基準の時が今の形で、過去の基準の時までの完了には使えない。
 - id: q03019
   sec: s033
   set: 節末
@@ -548,10 +548,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: I will have finished my report (＿) five o'clock.
-  choices: [by, until, since, for]
-  ans: "1"
+  choices: [until, by, since, for]
+  ans: "2"
   why: 未来完了は「その時までに〜してしまっているだろう」を表す。「5時までに」は by five o'clock。
-  trap: 「〜まで」から②until を選ぶ誤り。until は「その時までずっと続く」ことを表し、終わってしまうことを表す未来完了とは合わない。
+  trap: 「〜まで」から①until を選ぶ誤り。until は「その時までずっと続く」ことを表し、終わってしまうことを表す未来完了とは合わない。
 - id: q03022
   sec: s033
   set: 節末
@@ -560,10 +560,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: By the time Rin graduates from high school next spring, she (＿) in Canada for three years.
-  choices: [lives, has lived, will have lived, had lived]
-  ans: "3"
+  choices: [lives, will have lived, has lived, had lived]
+  ans: "2"
   why: next spring（来年の春）の卒業の時が未来の基準の時。その時で3年住んだことになるので、未来完了の継続 will have lived。
-  trap: by the time 節の graduates が現在形なので②has lived を選ぶ誤り。節の中が現在形なのは時の副詞節だからで、基準の時は未来である。
+  trap: by the time 節の graduates が現在形なので③has lived を選ぶ誤り。節の中が現在形なのは時の副詞節だからで、基準の時は未来である。
 - id: q03023
   sec: s033
   set: 節末
@@ -597,8 +597,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: I (＿) Sho at the bookstore two days ago.
-  choices: [meet, met, have met, had met]
-  ans: "2"
+  choices: [met, meet, have met, had met]
+  ans: "1"
   why: two days ago（2日前）は今から数えた過去の時なので過去形 met。
   trap: ③have met を選ぶ誤り。～ ago は今と切り離された過去の時を表すので、現在完了とは使えない。
 - id: q03026
@@ -620,10 +620,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: I (＿) my report just now, so I can help you with the dishes.
-  choices: [finish, finished, have finished, had finished]
-  ans: "2"
+  choices: [finish, have finished, finished, had finished]
+  ans: "3"
   why: just now（たった今）は過去の1点を表すので過去形 finished。
-  trap: just につられて③have finished を選ぶ誤り。just（ちょうど）は現在完了と使うが、just now は過去形と使う。
+  trap: just につられて②have finished を選ぶ誤り。just（ちょうど）は現在完了と使うが、just now は過去形と使う。
 - id: q03028
   sec: s034
   set: 節末
@@ -654,8 +654,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: My grandfather (＿) in Hokkaido for ten years when he was young.
-  choices: [has worked, has been working, worked, works]
-  ans: "3"
+  choices: [has worked, has been working, works, worked]
+  ans: "4"
   why: when he was young（若いころ）は終わった過去の時なので、for ten years があっても過去形 worked。
   trap: for ten years につられて①has worked を選ぶ誤り。for は期間の長さを言うだけで、その期間が今まで続いているとは限らない。
 - id: q03031
@@ -679,8 +679,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: I have (＿) been to a baseball stadium. I hope to go there someday.
-  choices: [ever, never, yet, already]
-  ans: "2"
+  choices: [ever, yet, never, already]
+  ans: "3"
   why: 後ろの文で「いつか行きたい」と言っているので、まだ行ったことがない。経験の否定は have never been to ～。
   trap: 「今までに」の①ever を選ぶ誤り。ever はふつう疑問文で使い、肯定文の I have ever been to … は誤り。
 - id: q03033
@@ -760,8 +760,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: "A: (＿) have you lived in Yokohama?<br>B: Since I was ten."
-  choices: [When, How long, What time, How often]
-  ans: "2"
+  choices: [When, How often, What time, How long]
+  ans: "4"
   why: B は Since I was ten.（10歳のときから）と答えているので、住んでいる期間をたずねている。現在完了の継続をたずねるのは How long。
   trap: Since I was ten の ten につられて①When を選ぶ誤り。When で始まる疑問文には現在完了を使わない。
 - id: q03040

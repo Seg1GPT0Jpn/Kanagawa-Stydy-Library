@@ -382,10 +382,10 @@ problems:
   q: My sister (＿) tennis after school on Mondays.
   choices:
   - play
-  - plays
-  - playing
   - to play
-  ans: '2'
+  - playing
+  - plays
+  ans: '4'
   why: 主語 My sister は3人称単数で、on Mondays（毎週月曜日に）はくり返しを表すので、現在形に -s を付けた plays。
   trap: 「テニスをしている」と考えて playing を選ぶ誤り。playing だけでは動詞（V）にならず、be 動詞が要る。
 - id: q02002
@@ -408,11 +408,11 @@ problems:
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Look. Two boys (＿) in the river.
   choices:
-  - are swimming
-  - swims
   - swimming
+  - swims
+  - are swimming
   - is swimming
-  ans: '1'
+  ans: '3'
   why: Look.（見て）から、今まさに起きていることだと分かる。現在進行形「be 動詞＋-ing 形」で、主語 Two boys は複数なので are swimming。
   trap: is swimming を選ぶ誤り。主語が複数なら be 動詞は are にする。
 - id: q02004
@@ -462,11 +462,11 @@ problems:
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Lemons (＿) a lot of vitamin C.
   choices:
-  - contain
+  - containing
   - contains
   - contained
-  - containing
-  ans: '1'
+  - contain
+  ans: '4'
   why: いつでも変わらない事実なので現在形。主語 Lemons は複数なので -s は付かない。
   trap: 「レモン」を1つのものと考えて contains を選ぶ誤り。Lemons の -s で複数だと分かる。
 - id: q02008
@@ -532,11 +532,11 @@ problems:
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: This blue umbrella (＿) to Sam.
   choices:
-  - belongs
+  - belonging
   - is belonging
   - belong
-  - belonging
-  ans: '1'
+  - belongs
+  ans: '4'
   why: belong to は「〜のものだ」という状態を表す状態動詞なので、進行形にしない。主語は3人称単数なので belongs。
   trap: 「サムのものになっている」と考えて is belonging を選ぶ誤り。「〜しているところだ」と言いかえられない動詞は進行形にしない。
 - id: q02013
@@ -600,11 +600,11 @@ problems:
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Emi can't come to the phone now. She (＿) dinner with her family.
   choices:
-  - is having
-  - has
   - have
+  - has
+  - is having
   - had
-  ans: '1'
+  ans: '3'
   why: have が「食べる」の意味のときは動作動詞なので、進行形にできる。今電話に出られない理由なので、今まさに食べている途中の is having。
   trap: have は状態動詞だから進行形にしないと覚えて has を選ぶ誤り。has dinner は「（ふだん）夕食を食べる」という習慣の意味になる。
 - id: q02018
@@ -645,11 +645,11 @@ problems:
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Look at the dark sky. It (＿) snow soon.
   choices:
-  - is going to
   - will going to
+  - is going to
   - is going
   - goes to
-  ans: '1'
+  ans: '2'
   why: 今見えている空の様子から「もうすぐ降りそうだ」と予想するときは be going to＋原形を使う。
   trap: will going to のように will と be going to を重ねる誤り。will の後ろには原形を置くので、going は続かない。
 - id: q02021
@@ -672,11 +672,11 @@ problems:
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: If it (＿) tomorrow, we will play basketball in the gym.
   choices:
-  - rains
-  - will rain
   - rained
+  - will rain
+  - rains
   - raining
-  ans: '1'
+  ans: '3'
   why: If it ＿ tomorrow は条件を表す副詞節なので、未来のことでも現在形。主語 it に合わせて rains。
   trap: tomorrow を見て will rain を選ぶ誤り。tomorrow の未来は、主節の will play で表されている。
 - id: q02023
@@ -757,11 +757,11 @@ problems:
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: My father (＿) his old car last year, and now he goes to work by bike.
   choices:
-  - sells
   - sold
+  - sells
   - is selling
   - will sell
-  ans: '2'
+  ans: '1'
   why: last year（去年）は過去の時を表すので過去形 sold。and の後ろの now he goes は今の習慣で、前半とは時が違う。
   trap: 後半の goes に合わせて sells を選ぶ誤り。1つの文の中でも、部分ごとに時を表す語句を確かめる。
 - id: q02029
@@ -784,11 +784,11 @@ problems:
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Please send me a message as soon as you (＿) at the station.
   choices:
-  - arrive
+  - arriving
   - will arrive
   - arrived
-  - arriving
-  ans: '1'
+  - arrive
+  ans: '4'
   why: as soon as（〜するとすぐに）は時を表す語で、as soon as you ＿ at the station は副詞節。中は未来のことでも現在形 arrive。
   trap: as soon as が時を表す副詞節をつくると気づかず、これから先のことなので will arrive を選ぶ誤り。
 - id: q02031
@@ -840,11 +840,11 @@ problems:
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: I (＿) what you mean, but I don't agree with you.
   choices:
-  - understand
-  - am understanding
   - understanding
+  - am understanding
+  - understand
   - understands
-  ans: '1'
+  ans: '3'
   why: understand（分かっている）は状態動詞なので進行形にしない。主語は I なので -s は付かない。
   trap: 「分かっている」の「〜ている」から am understanding を選ぶ誤り。
 - id: q02035
@@ -867,11 +867,11 @@ problems:
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Your plan sounds (＿). Can you tell me more about it?
   choices:
-  - interesting
+  - interested
   - interestingly
   - interest
-  - interested
-  ans: '1'
+  - interesting
+  ans: '4'
   why: sound は SVC の文型をとり、「〜に聞こえる・思える」の意味。C には形容詞を置き、「計画がおもしろい」の関係なので interesting。
   trap: 動詞の後ろだから副詞と考えて interestingly を選ぶ誤り。C（補語）になれるのは名詞か形容詞で、副詞は C にならない。
 - id: q02037

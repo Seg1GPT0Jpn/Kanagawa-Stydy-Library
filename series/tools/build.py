@@ -20,6 +20,17 @@ class Book:
         self.bid = bid
         self.data = yaml.safe_load((ROOT / 'src' / f'{bid}.yaml').read_text())
         self.merge_parts()
+        # 執筆途中で組まない節も、参照の文字（第◯章）のために控えておく
+        self.all_secs = {s['id']: c for c in self.data['chapters'] for s in c['sections']}
+        # 執筆途中の本：中身（本文）のない節と、そうした節しかない章は組まない
+        for ch in self.data['chapters']:
+            ch['sections'] = [s for s in ch['sections'] if s.get('body')]
+        self.data['chapters'] = [c for c in self.data['chapters'] if c['sections']]
+        vols = self.data['book'].get('volumes') or []
+        ids = {c['id'] for c in self.data['chapters']}
+        for v in vols: v['chapters'] = [c for c in v['chapters'] if c in ids]
+        self.data['book']['volumes'] = [v for v in vols if v['chapters']]
+        self.data['problems'] = [p for p in self.data.get('problems', []) if any(p['sec'] == s['id'] for c in self.data['chapters'] for s in c['sections'])]
         self.out = ROOT / 'build' / bid
         self.out.mkdir(parents=True, exist_ok=True)
         self.ex_no = {}      # e001 -> 1
@@ -29,10 +40,13 @@ class Book:
         self.terms = {}      # term -> yomi
         n_ex = 0; n_sec = 0
         for ci, ch in enumerate(self.data['chapters'], 1):
-            ch['no'] = ci
+            unit = re.fullmatch(r'c(\d{2})', ch['id'])   # 英文法編：単元番号（c01 → 1）を章の番号に、節は「単元-節」
+            ch['no'] = int(unit.group(1)) if unit else ci
             for s in ch['sections']:
-                n_sec += 1; s['no'] = n_sec
-                self.sec_no[s['id']] = n_sec; self.sec_title[s['id']] = s['title']; self.ch_of[s['id']] = ch
+                n_sec += 1
+                su = re.fullmatch(r's(\d{2})(\d)', s['id'])
+                s['no'] = f'{int(su.group(1))}-{su.group(2)}' if (unit and su) else n_sec
+                self.sec_no[s['id']] = s['no']; self.sec_title[s['id']] = s['title']; self.ch_of[s['id']] = ch
                 # 例文番号は本文に出る順に振る（データの並びではなく）
                 for blkd in s.get('body', []):
                     for eid in blkd.get('ex', []) or []:
@@ -145,7 +159,11 @@ class Book:
         s = re.sub(r'@(e\d+)(?:〜@(e\d+))?', exref, s)
         def secref(m):
             k = m.group(1)
-            if k not in self.sec_no: raise SystemExit(f'節 ID がない: {k}')
+            if k not in self.sec_no:
+                if k in getattr(self, 'all_secs', {}):
+                    c = self.all_secs[k]   # まだ組んでいない単元の節：章の番号で示す（執筆途中のときだけ起きる）
+                    return f'<span class="pref" data-ref="later">→&nbsp;第{int(c["id"][1:])}章</span>'
+                raise SystemExit(f'節 ID がない: {k}')
             # 節への参照は常に完全解説book のページを指す（完全解説book を組むときは自分のページ）
             p = (self.pages or pages or {}).get(k)
             return f'<span class="pref" data-ref="{k}">→&nbsp;p.{p if p else "00"}</span>'
@@ -158,6 +176,8 @@ class Book:
         s = s.replace('[＿]', '[<span class="blank"></span>]').replace('(＿)', '(<span class="blank"></span>)')
         s = s.replace('＿', '<span class="gap"></span>')
         s = s.replace('［ ］', '［&nbsp;］')
+        # 下付きの数字（O₁ など）は本文の明朝に字がないので、普通の数字を小さく下げて組む
+        s = re.sub('[₀-₉]', lambda m: f'<span class="subn">{ord(m.group(0)) - 0x2080}</span>', s)
         # ハイフンでつながった英単語（thank-you など）はハイフンの位置で改行しない
         s = re.sub(r'(?<![\w-])([A-Za-z]+(?:-[A-Za-z]+)+)(?![\w-])(?![^<]*>)', r'<span class="nw">\1</span>', s)
         return s

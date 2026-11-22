@@ -311,8 +311,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: My brother can (＿) the guitar well.
-  choices: [plays, play, playing, played]
-  ans: '2'
+  choices: [plays, playing, play, played]
+  ans: '3'
   why: can の後ろの動詞は、主語が3人称単数でも原形にする。
   trap: 主語の My brother が3人称単数なので①plays を選ぶ誤り。s を付けるのは助動詞のない文の動詞だけ。
 - id: q04002
@@ -323,10 +323,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: We (＿) to wait for the next train.
-  choices: [must, have, can, should]
-  ans: '2'
+  choices: [have, must, can, should]
+  ans: '1'
   why: 空所の後ろに to wait がある。to do を後ろに置けるのは have（have to「〜しなければならない」）だけ。
-  trap: 「待たなければならない」の意味から①must を選ぶ誤り。must の後ろは原形で、to は付かない。
+  trap: 「待たなければならない」の意味から②must を選ぶ誤り。must の後ろは原形で、to は付かない。
 - id: q04003
   sec: s041
   set: 前提
@@ -347,8 +347,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Visitors (＿) touch the paintings. Please look at them from behind the rope.
-  choices: [must not, don't have to, may, can]
-  ans: '1'
+  choices: [can, don't have to, may, must not]
+  ans: '4'
   why: 後ろの文で「ロープの後ろから見てください」と言っているので、絵にさわることは禁止。禁止は must not。
   trap: ②don't have to を選ぶ誤り。don't have to は「さわらなくてよい」という不要で、さわることを禁じてはいない。
 - id: q04005
@@ -417,8 +417,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: I haven't (＿) sleep well since I moved to this noisy street.
-  choices: [could, been able to, can, be able to]
-  ans: '2'
+  choices: [could, be able to, can, been able to]
+  ans: '4'
   why: haven't の後ろは過去分詞。can を現在完了で使うには been able to とする（have been able to）。
   trap: 「できない」から③can や①could を選ぶ誤り。現在完了の have の後ろに助動詞は置けない。
 - id: q04011
@@ -429,10 +429,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Look at the dark clouds. It (＿) rain soon.
-  choices: [may, can't, must not, doesn't have to]
-  ans: '1'
+  choices: [can't, may, must not, doesn't have to]
+  ans: '2'
   why: 黒い雲は雨の手がかり。「雨が降るかもしれない」という推量の may が合う。
-  trap: ②can't を選ぶ誤り。can't は「降るはずがない」で、黒い雲という手がかりと逆になる。
+  trap: ①can't を選ぶ誤り。can't は「降るはずがない」で、黒い雲という手がかりと逆になる。
 - id: q04012
   sec: s042
   set: 節末
@@ -510,8 +510,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: The window is broken. Someone (＿) a ball through it.
-  choices: [must have thrown, must throw, should throw, can't throw]
-  ans: '1'
+  choices: [should throw, must throw, must have thrown, can't throw]
+  ans: '3'
   why: 割れた窓は「誰かがボールを投げた」と考える根拠。過去のことの推量は must have done。
   trap: ②must throw を選ぶ誤り。窓はもう割れているので、投げたのは過去。今のことを言う形では合わない。
 - id: q04019
@@ -591,8 +591,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: My father (＿) jog every morning when he was young.
-  choices: [would, used, is used to, was used]
-  ans: '1'
+  choices: [was used, used, is used to, would]
+  ans: '4'
   why: when he was young から過去の話で、jog（走る）は繰り返す動作。過去の習慣を表す would が合う。
   trap: ②used を選ぶ誤り。過去の習慣は used to do の形で、to がなければ使えない。
 - id: q04026
@@ -603,10 +603,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: You look tired. You (＿) go to bed early tonight.
-  choices: [had better, had better not, would, used to]
-  ans: '1'
+  choices: [had better not, had better, would, used to]
+  ans: '2'
   why: 疲れて見える相手への忠告なので「早く寝たほうがいい」の had better。
-  trap: ②had better not を選ぶと「早く寝ないほうがいい」になり、前の文と合わない。
+  trap: ①had better not を選ぶと「早く寝ないほうがいい」になり、前の文と合わない。
 - id: q04027
   sec: s044
   set: 節末
@@ -638,8 +638,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Chris has lived in Sapporo for five years, so he is used to (＿) in the snow.
-  choices: [drive, driving, drove, be driven]
-  ans: '2'
+  choices: [drive, drove, driving, be driven]
+  ans: '3'
   why: be used to（〜に慣れている）の to は前置詞なので、後ろは名詞か動名詞。driving を選ぶ。
   trap: to を不定詞の to と思い、①drive を選ぶ誤り。used to do（以前は〜した）と形が似ているので、前の be を見落とさない。
 - id: q04030
@@ -661,8 +661,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: The last bus has already left. We (＿) as well take a taxi.
-  choices: [might, must, should, would]
-  ans: '1'
+  choices: [would, must, should, might]
+  ans: '4'
   why: 最終バスが出てしまい、ほかによい方法がない。「〜するほうがましだ」は might as well do。
   trap: 意味から②must や③should を選ぶ誤り。後ろの as well と組み合わせて決まった言い方を作れるのは might（may）だけ。
 - id: q04032
@@ -696,8 +696,8 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: Mr. Hara is in the hospital. He (＿) be at school today.
-  choices: [can't, must, has to, should]
-  ans: '1'
+  choices: [has to, must, can't, should]
+  ans: '3'
   why: 入院している人が学校にいることはありえない。「〜のはずがない」は can't。
   trap: ②must を選ぶ誤り。must は「いるに違いない」で、入院という手がかりと逆になる。
 - id: q04035
@@ -767,10 +767,10 @@ problems:
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
   q: When (＿) your bike key?
-  choices: [have you lost, did you lose, have you been losing, had you lost]
-  ans: '2'
+  choices: [did you lose, have you lost, have you been losing, had you lost]
+  ans: '1'
   why: When（いつ）で過去の時点をたずねる疑問文は、現在完了ではなく過去形にする。
-  trap: 鍵がまだ見つからないという「今」の状況から、①have you lost を選ぶ誤り。When ～? は現在完了と一緒に使わない。
+  trap: 鍵がまだ見つからないという「今」の状況から、②have you lost を選ぶ誤り。When ～? は現在完了と一緒に使わない。
 - id: q04041
   sec: s012
   set: 確認テスト

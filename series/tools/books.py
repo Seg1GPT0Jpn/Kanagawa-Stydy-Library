@@ -74,7 +74,8 @@ KAISETSU_CSS = '''
 table.t { border-collapse: collapse; width: 100%; margin: 1.5mm 0 3mm; font-size: 9.5pt; line-height: 1.5; }
 table.t th, table.t td { border: .5pt solid #000; padding: 1.2mm 2mm; text-align: center; }
 table.t thead th { background: var(--net); font: 700 9pt/1.4 "Goth"; }
-table.t tbody th { font: 700 9pt/1.4 "Goth"; text-align: left; background: var(--net); white-space: nowrap; }
+table.t tbody th { font: 700 9pt/1.4 "Goth"; text-align: left; background: var(--net); }
+table.t tbody th.nwc { white-space: nowrap; }
 table.t td.nwc, table.t th.nwc { white-space: nowrap; }
 table.t td { font-family: "Ser", "Min"; font-size: 10pt; }
 .blk.check { border: .75pt solid #000; padding: 2mm 3mm; margin: 3mm 0 2mm; }
@@ -124,15 +125,16 @@ def kaisetsu_blocks(bk, pages, cover_html, colophon_html, legend_html):
         out.append(blk(f'<div class="cno">第{ch["no"]}章</div><div class="ct">{E(ch["title"])}</div>{lead}', 'chap newpage keepnext', anchor=ch['id'], chapter=chap_label, section=chap_label))
         for s in ch['sections']:
             out.append(blk(f'<span class="sno">{s["no"]}</span><span class="stt">{E(s["title"])}</span>', 'h2 keepnext', anchor=s['id'], section=f'{s["no"]}　{s["title"]}'))
-            if bk.data.get('aims', {}).get(s['id']):
-                out.append(blk(f'<span class="al">ねらい</span>{bk.md(bk.data["aims"][s["id"]], pages)}', 'aim keepnext'))
+            aim = s.get('aim') or bk.data.get('aims', {}).get(s['id'])
+            if aim:
+                out.append(blk(f'<span class="al">ねらい</span>{bk.md(aim, pages)}', 'aim keepnext'))
             exmap = {e['id']: e for e in s.get('examples', [])}
             hno = 0
             for b in s['body']:
                 notes = ''.join(note_html(bk, n, pages) for n in (b.get('notes') or []))
                 if 'h' in b:
                     hno += 1
-                    out.append(blk(f'({hno}) {E(b["h"])}', 'h3 keepnext'))
+                    out.append(blk(f'({hno}) {bk.md(b["h"], pages)}', 'h3 keepnext'))
                 elif 'p' in b:
                     out.append(blk(f'<p>{bk.md(b["p"], pages)}</p>', 'p', notes))
                 elif 'ex' in b:
@@ -161,7 +163,7 @@ def kaisetsu_blocks(bk, pages, cover_html, colophon_html, legend_html):
                         ascii_ratio = sum(ch.isascii() for ch in plain) / max(1, len(plain))
                         short = len(plain) <= 12 or (ascii_ratio > 0.8 and len(plain) <= 20)  # 短いマスと英語の句は改行しない
                         return f'<td class="nwc">{bk.md(c, pages)}</td>' if short else f'<td>{bk.md(c, pages)}</td>'
-                    tr = ''.join('<tr><th>' + bk.md(r[0], pages) + '</th>' + ''.join(td(c) for c in r[1:]) + '</tr>' for r in t['rows'])
+                    tr = ''.join(f'<tr><th{" class=nwc" if len(str(r[0])) <= 10 else ""}>' + bk.md(r[0], pages) + '</th>' + ''.join(td(c) for c in r[1:]) + '</tr>' for r in t['rows'])  # 行の見出しも短いときだけ改行しない
                     cap = f'<div class="ptl">● {E(t["title"])}</div>' if t.get('title') else '<div class="ptl">● 要点</div>'
                     out.append(blk(f'{cap}<table class="t"><thead><tr>{th}</tr></thead><tbody>{tr}</tbody></table>', 'tbl pt', notes))
                 elif 'check' in b:
@@ -428,7 +430,7 @@ def mondai_blocks(bk, pages, part, cover, colophon, legend):
                 if not ps: continue
                 out.append(blk(f'◆ {LVNAME[lv]}　<span class="lvs">{STAR[lv]}</span>', 'lvh keepnext'))
                 out.extend(problem_blocks(bk, pages, ps))
-        probs = [p for p in bk.problems if p['set'] == '章末' and bk.ch_of[p['sec']] is ch]
+        probs = [p for p in bk.problems if p['set'] == '章末' and p['home'] == ch['id']]
         if probs:
             out.append(blk(prob_header(bk, f'第{ch["no"]}章　章末問題', probs, '節を混ぜて出題'), 'sech keepnext newpage', anchor='end' + ch['id'], section=f'第{ch["no"]}章　章末問題'))
             out.extend(problem_blocks(bk, pages, probs))
@@ -487,9 +489,9 @@ def ans_text(bk, p, pages):
     return bk.md(a, pages)
 
 
-def diagnosis_blocks(bk, ch, kp):
-    """章末問題の診断表：間違えた問題から、読み直す節と本冊のページが分かる。"""
-    ps = [p for p in bk.problems if p['set'] == '章末' and bk.ch_of[p['sec']] is ch]
+def diagnosis_blocks(bk, ch, kp, st='章末'):
+    """章末問題・確認テストの診断表：間違えた問題から、読み直す節と本冊のページが分かる。"""
+    ps = [p for p in bk.problems if p['set'] == st and p['home'] == ch['id']]
     rows = ''
     for p in ps:
         refs = p.get('ref') or p['sec']
@@ -500,7 +502,7 @@ def diagnosis_blocks(bk, ch, kp):
         rows += (f'<tr><td class="nwc">{p["label"]}</td><td class="cb"><span class="ck"></span></td><td>{secs}</td>'
                  f'<td class="nwc">{pgs}</td><td class="nwc">{wkc}</td></tr>')
     head = '<tr><th>問題</th><th>×</th><th>読み直す節</th><th>本冊</th><th>例題</th></tr>'
-    return [blk(f'<div class="dgt">第{ch["no"]}章　診断表</div><div class="dgs">間違えた問題の「×」の欄に印を付け、その節の解説と例題を読み直してから、本冊の節の問題をもう一度解きます。</div>'
+    return [blk(f'<div class="dgt">第{ch["no"]}章　{st}の診断表</div><div class="dgs">間違えた問題の「×」の欄に印を付け、その節の解説と例題を読み直してから、本冊の節の問題をもう一度解きます。</div>'
                 f'<table class="t dg"><thead>{head}</thead><tbody>{rows}</tbody></table>', 'diag')]
 
 
@@ -510,8 +512,12 @@ def kaitou_blocks(bk, pages, part, cover, colophon, legend):
     out.extend(legend_blocks(legend))
     cur_ch = None
     for p in bk.problems:
-        ch = bk.ch_of[p['sec']]
-        if p['set'] == '模試':
+        ch = next(c for c in bk.data['chapters'] if c['id'] == p['home'])
+        if p['set'] == '総合演習':
+            if cur_ch != ('sougou', p['part']):
+                out.append(blk(f'<span class="tt">総合演習　第{p["part"]}回　解答解説</span>', 'sech keepnext newpage', anchor=f'sougou{p["part"]}', chapter='総合演習', section='総合演習'))
+                cur_ch = ('sougou', p['part'])
+        elif p['set'] == '模試':
             if cur_ch != 'mock':
                 out.append(blk('<span class="tt">模擬試験　解答解説</span>', 'sech keepnext newpage', anchor='mock', chapter='模擬試験', section='模擬試験'))
                 cur_ch = 'mock'
@@ -538,8 +544,9 @@ def kaitou_blocks(bk, pages, part, cover, colophon, legend):
 <dl>{alt}<dt>根拠</dt><dd>{bk.md(p["why"], pages)}</dd><dt>よくある間違い</dt><dd>{bk.md(p["trap"], pages)}</dd></dl>''', 'ka', side, anchor='q' + str(p['no'])))
         # 章末問題の最後に診断表
         nxt = bk.problems[bk.problems.index(p) + 1] if bk.problems.index(p) + 1 < len(bk.problems) else None
-        if p['set'] == '章末' and (nxt is None or nxt['set'] != '章末' or bk.ch_of[nxt['sec']] is not ch):
-            out.extend(diagnosis_blocks(bk, ch, kp))
+        for st in ('章末', '確認テスト'):
+            if p['set'] == st and (nxt is None or nxt['set'] != st or nxt['home'] != p['home']):
+                out.extend(diagnosis_blocks(bk, ch, kp, st))
     pad_and_colophon(out, pages, colophon)
     return out
 
@@ -613,6 +620,8 @@ WORKED_CSS = '''
 .wk .wp b { font: 700 8.5pt "Goth"; margin-right: .5em; }
 .blk.phase { margin: 6mm 0 1mm; padding: 1.2mm 2mm; font: 700 11pt/1.4 "Goth"; border-top: 1.2pt solid #000; border-bottom: .5pt solid #000; display: flex; justify-content: space-between; align-items: baseline; }
 .phase .meta { font: 400 8.5pt "Goth"; }
+.blk.intro { margin: 2mm 0 3mm; padding: 2mm 3mm; border: .75pt solid #000; font-size: 9.5pt; line-height: 1.7; }
+.intro .ih { font: 700 9.5pt/1.6 "Goth"; margin-bottom: .5mm; }
 .blk.sumh { margin: 5mm 0 0; font: 700 10pt/1.5 "Goth"; border: .75pt solid #000; border-bottom: 0; padding: 1mm 2mm; background: var(--net); }
 .blk.sm { display: grid; grid-template-columns: 6mm 1fr; padding: 1mm 2mm; border-left: .75pt solid #000; border-right: .75pt solid #000; border-bottom: .35pt solid #000; line-height: 1.75; font-size: 9.5pt; }
 .blk.sm.last { border-bottom: .75pt solid #000; margin-bottom: 2mm; }
@@ -633,6 +642,17 @@ def worked_html(bk, s, k, w, pages, style):
             + (f'<div class="wp"><b>ポイント</b>{bk.md(w["point"], pages)}</div>' if w.get('point') else ''))
 
 
+def sougou_blocks(bk, pages):
+    """本の最後の総合演習（単元を混ぜた問題。part ごとに1回分）"""
+    out = []
+    ps_all = [p for p in bk.problems if p['set'] == '総合演習']
+    for pt in sorted({p['part'] for p in ps_all}):
+        ps = [p for p in ps_all if p['part'] == pt]
+        out.append(blk(prob_header(bk, f'総合演習　第{pt}回', ps, 'いくつもの単元を混ぜて出題　答え → 別冊'), 'sech keepnext newpage wide', anchor=f'sougou{pt}', chapter='総合演習', section=f'総合演習　第{pt}回'))
+        out.extend(problem_blocks(bk, pages, ps, wide=True))
+    return out
+
+
 def honbun_blocks(bk, pages, part, cover, colophon, legend):
     d = bk.data
     out = [fullpage(cover, 'nohead pk-cover', anchor='cover'), fullpage('', 'nohead pk-blank')]
@@ -643,8 +663,10 @@ def honbun_blocks(bk, pages, part, cover, colophon, legend):
         rows = [f'<div class="tc">第{ch["no"]}章　{E(ch["title"])}<span class="dots"></span><span class="pg">{pages.get(ch["id"], "00")}</span></div>']
         for s in ch['sections']:
             rows.append(f'<div class="ts">{s["no"]}　{E(s["title"])}<span class="dots"></span><span class="pg">{pages.get(s["id"], "00")}</span></div>')
-        if any(p['set'] == '章末' and bk.ch_of[p['sec']] is ch for p in bk.problems):
+        if any(p['set'] == '章末' and p['home'] == ch['id'] for p in bk.problems):
             rows.append(f'<div class="ts">章末問題<span class="dots"></span><span class="pg">{pages.get("end" + ch["id"], "00")}</span></div>')
+        if any(p['set'] == '確認テスト' and p['home'] == ch['id'] for p in bk.problems):
+            rows.append(f'<div class="ts">確認テスト<span class="dots"></span><span class="pg">{pages.get("test" + ch["id"], "00")}</span></div>')
         tocb.append(''.join(rows))
     tail = []
     if any(p['set'] == '模試' for p in bk.problems):
@@ -654,11 +676,34 @@ def honbun_blocks(bk, pages, part, cover, colophon, legend):
     for t in tocb[1:]:
         out.append(blk(f'<div class="toc">{t}</div>', 'tocb'))
     out.append(blk('<div class="toc">' + ''.join(tail) + '</div>', 'tocb'))
+    toc_blocks = [b for b in out if 'data-anchor="toc"' in b or ' tocb' in b]
+    vols = bk.data['book'].get('volumes') or []
+    vol2_first = vols[1]['chapters'][0] if len(vols) > 1 else None
     wk_no = 0
     # 解説部分は完全解説book と同じ組み方を使う（表紙・目次・索引などを除いた本文だけを取り出す）
     body_blocks = kaisetsu_section_blocks(bk, pages)
     for ch in d['chapters']:
+        if ch['id'] == vol2_first:
+            # 上巻の終わり：上巻の裏表紙までで4の倍数にそろえ、下巻の表紙・目次を置く（ページ番号は通し）
+            vpad = 0
+            if 'vol2' in pages:
+                n_before = (pages['vpad'] if 'vpad' in pages else pages['vol2']) - 1   # 白ページを入れる前の、上巻の本文の終わり
+                vpad = (-(n_before + 1)) % 4
+            for i in range(vpad):
+                out.append(fullpage('', 'nohead pk-blank', **({'anchor': 'vpad'} if i == 0 else {})))
+            out.append(fullpage(back_html(bk, part + '　上巻'), 'nohead pk-back', anchor='vol1back'))
+            out.append(fullpage(cover_html(bk, part + '　下巻'), 'nohead pk-cover', anchor='vol2'))
+            out.append(fullpage('', 'nohead pk-blank'))
+            for i, b in enumerate(toc_blocks):
+                out.append(b.replace('data-anchor="toc"', 'data-anchor="toc2"'))
         out.extend(body_blocks[ch['id']])
+        # 単元の入口：中学の復習と前提チェック
+        if ch.get('intro'):
+            out.append(blk(f'<div class="ih">中学の復習</div><div>{bk.md(ch["intro"], pages)}</div>', 'intro'))
+        pre = [p for p in bk.problems if p['set'] == '前提' and p['home'] == ch['id']]
+        if pre:
+            out.append(blk(f'前提チェック　<span class="meta">{len(pre)}問　この単元に入る前に、中学の内容を確かめる　答え → 別冊</span>', 'phase keepnext wide', anchor='pre' + ch['id']))
+            out.extend(problem_blocks(bk, pages, pre, wide=True))
         for s in ch['sections']:
             out.extend(body_blocks[s['id']])
             # 例題
@@ -683,11 +728,16 @@ def honbun_blocks(bk, pages, part, cover, colophon, legend):
                 n = len(s['summary'])
                 for i, t in enumerate(s['summary'], 1):
                     out.append(blk(f'<span class="n">{i}</span><div>{bk.md(t, pages)}</div>', 'sm' + (' last' if i == n else '')))
-        probs = [p for p in bk.problems if p['set'] == '章末' and bk.ch_of[p['sec']] is ch]
+        probs = [p for p in bk.problems if p['set'] == '章末' and p['home'] == ch['id']]
         if probs:
             out.append(blk(prob_header(bk, f'第{ch["no"]}章　章末問題', probs, '節を混ぜて出題　答え → 別冊'), 'sech keepnext newpage wide', anchor='end' + ch['id'], section=f'第{ch["no"]}章　章末問題'))
             out.extend(problem_blocks(bk, pages, probs, wide=True))
+        probs = [p for p in bk.problems if p['set'] == '確認テスト' and p['home'] == ch['id']]
+        if probs:
+            out.append(blk(prob_header(bk, f'第{ch["no"]}章　確認テスト', probs, '前の章の問題も混ざる　答え → 別冊（診断表つき）'), 'sech keepnext newpage wide', anchor='test' + ch['id'], section=f'第{ch["no"]}章　確認テスト'))
+            out.extend(problem_blocks(bk, pages, probs, wide=True))
     out.extend(mock_blocks(bk, pages, wide=True))
+    out.extend(sougou_blocks(bk, pages))
     # 索引
     terms = sorted(bk.terms.items(), key=lambda kv: kv[1])
     rows = []; cur = None

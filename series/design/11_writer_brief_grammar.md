@@ -55,7 +55,8 @@ problems:
 
 ## 出力と検査
 - 担当単元を `series/src/parts/g1_c{uu}.yaml` に書く（`chapters:` に担当単元だけ、`problems:` にその単元の全問）。`series/src/g1.yaml` は編集しない（ほかの執筆者と同時に作業するため）。
-- 書き終えたら `python3 series/tools/validate.py series/src/g1.yaml series/src/parts/g1_c{uu}.yaml` を実行し、ERROR 0。WARN は1つずつ見て直す。組版は実行しない。
+- 書き終えたら、**ほかの単元のファイルも含めて** `python3 series/tools/validate.py series/src/g1.yaml series/src/parts/g1_*.yaml` を実行し、ERROR 0（用語の二重定義は、ほかの単元と合わせたときにだけ見つかる）。WARN のうち、自分の単元のものは1つずつ見て直す（正解の位置の偏りの WARN は無視してよい）。組版は実行しない。
+- 定義済みの用語の一覧：`series/design/12_terms.md`（データから自動で作る。ここにある用語は定義せずに使い、必要なら定義の節を @ で参照する）。
 
 ## 報告
 各節の要点、例文数・例題数・問題数（区分別・★別・形式別）、定義した用語、自信のない点（答えが2つになるおそれ、語法の細部）を短く報告する。

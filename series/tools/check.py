@@ -102,7 +102,7 @@ def main(bid):
         t = _h.unescape(re.sub(r'<[^>]+>', ' ', bk.md(c, bk.pages)))
         # 表のマスは折り返しで隣のマスと行が混ざる。英語は語ごと、和文は1字ずつ、同じページにすべてあるかを見る（弱い照合。表のマスだけに使う）
         tn = norm(t)
-        chunks = [norm(w) for w in re.findall(r"[A-Za-z0-9'\-]+", t)] + re.findall(r'[ぁ-んァ-ヶ一-龥]', tn)
+        chunks = [norm(w.strip('-')) for w in re.findall(r"[A-Za-z0-9'\-]+", t) if w.strip('-')] + re.findall(r'[ぁ-んァ-ヶ一-龥]', tn)
         for pg in range(1, lay['honsatsu']['pages'] + 1):
             if pg not in pagetexts: pagetexts[pg] = norm(pdftext(out / 'honsatsu.pdf', pg))
             if all(ch in pagetexts[pg] for ch in chunks): return True
