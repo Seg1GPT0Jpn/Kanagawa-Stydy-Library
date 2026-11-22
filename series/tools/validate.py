@@ -9,7 +9,8 @@ from collections import Counter
 
 ROOT = Path(__file__).resolve().parents[1]
 KINDS = {'4択', '正誤', '整序', '補充', '和訳', '英作', '読解'}
-SETS = {'節末', '章末', '模試'}
+SETS = {'節末', '章末', '模試', '前提', '確認テスト', '総合演習'}
+STRICT = False   # 本全体を組むとき（check.py から --strict）だけ、正解の位置の偏りをエラーにする
 NOTE_KINDS = {'用語', '語注', '注意', '参照'}
 
 
@@ -24,9 +25,9 @@ def wordlists():
 
 
 def load(paths):
-    """本体（eg01.yaml）があれば、ほかのファイルの節を節 ID で差し込んでから返す（組版と同じ結合）。"""
+    """本体（src/ 直下の YAML）があれば、ほかのファイルの節を節 ID で差し込んでから返す（組版と同じ結合）。"""
     paths = list(paths)
-    mainp = [p for p in paths if Path(p).name == 'eg01.yaml']
+    mainp = [p for p in paths if Path(p).resolve().parent == (ROOT / 'src').resolve()]
     if mainp:
         d = yaml.safe_load(Path(mainp[0]).read_text())
         chapters = d.get('chapters', []) or []; problems = list(d.get('problems', []) or [])
@@ -36,9 +37,12 @@ def load(paths):
             part = yaml.safe_load(Path(p).read_text())
             for pc in part.get('chapters', []) or []:
                 ch = chs[pc['id']]
-                if pc.get('lead'): ch['lead'] = pc['lead']
+                for k2, v2 in pc.items():
+                    if k2 not in ('id', 'sections'): ch[k2] = v2
                 idx = {s['id']: i for i, s in enumerate(ch['sections'])}
-                for ps in pc['sections']: ch['sections'][idx[ps['id']]].update(ps)
+                for ps in pc['sections']:
+                    if ps['id'] in idx: ch['sections'][idx[ps['id']]].update(ps)
+                    else: ch['sections'].append(ps)
             problems += part.get('problems', []) or []
         return chapters, problems
     chapters, problems = [], []
@@ -57,14 +61,20 @@ def plain(s):
 def main(paths):
     err, warn = [], []
     chapters, problems = load(paths)
-    full = yaml.safe_load((ROOT / 'src' / 'eg01.yaml').read_text())
+    mains = [p for p in paths if Path(p).resolve().parent == (ROOT / 'src').resolve()]
+    MAIN = Path(mains[0]) if mains else ROOT / 'src' / 'eg01.yaml'
+    full = yaml.safe_load(MAIN.read_text())
     sec_ids = {s['id'] for c in full['chapters'] for s in c['sections']} | {s['id'] for c in chapters for s in c['sections']}
     ex_ids = Counter(); terms = set()
     en_texts, ja_texts = [], []
     for c in chapters:
         if c.get('lead'): ja_texts.append((c['id'], c['lead']))
+        if c.get('intro'): ja_texts.append((c['id'] + ' 入口', c['intro']))
+        if set(c) - {'id', 'title', 'pages', 'lead', 'intro', 'sections'}: err.append(f'{c["id"]}: 単元に余分な項目 {sorted(set(c) - {"id", "title", "pages", "lead", "intro", "sections"})}')
         for s in c['sections']:
             for sm in s.get('summary', []) or []: ja_texts.append((s['id'], sm))
+            if s.get('aim'): ja_texts.append((s['id'] + ' ねらい', s['aim']))
+            if full.get('book', {}).get('id') == 'g1' and s.get('body') and not s.get('aim'): err.append(f'{s["id"]}: ねらい（aim）がない')
             for e in s.get('examples', []) or []:
                 ex_ids[e['id']] += 1
                 for g in e.get('gloss') or []:
@@ -116,7 +126,7 @@ def main(paths):
         cnt = Counter(sel)
         for k in '1234':
             r = cnt[k] / len(sel)
-            if not 0.15 <= r <= 0.35: err.append(f'選択式の正解の位置が偏っている：{k} が {cnt[k]}/{len(sel)}（{r:.0%}）。tools/rebalance.py で直す')
+            if not 0.15 <= r <= 0.35: (err if STRICT else warn).append(f'選択式の正解の位置が偏っている：{k} が {cnt[k]}/{len(sel)}（{r:.0%}）。tools/rebalance.py で直す')
     sei = [str(p.get('ans')) for p in problems if p.get('kind') == '正誤']
     if len(sei) >= 20:
         cnt = Counter(sei)
@@ -162,7 +172,7 @@ def main(paths):
         if m.group(1) not in allq: err.append(f'存在しない問題への参照: @{m.group(1)}')
     for m in re.finditer(r'@(e\d+)', alltext):
         if m.group(1) not in full_ex: err.append(f'存在しない例文への参照: @{m.group(1)}')
-    if not any(Path(p).resolve() == (ROOT / 'src' / 'eg01.yaml').resolve() for p in paths):
+    if not mains:
         base_terms = {n['term'] for c in full['chapters'] for s in c['sections'] for b in s.get('body', []) or [] for n in (b.get('notes') or []) if n.get('kind') == '用語'}
         for t in base_terms & terms: err.append(f'用語の二重定義（本体と部分ファイル）: {t}')
     full_terms = {n['term'] for c in full['chapters'] for s in c['sections'] for b in s.get('body', []) or [] for n in (b.get('notes') or []) if n.get('kind') == '用語'} | terms
@@ -181,6 +191,7 @@ def main(paths):
         if extra: err.append(f'{pid}: 問題に余分な項目（半角コンマで文が切れた可能性）: {sorted(extra)}')
         if p.get('set') not in SETS: err.append(f'{pid}: set が不正: {p.get("set")}')
         if p.get('lv') not in (1, 2, 3): err.append(f'{pid}: lv が不正')
+        if full.get('book', {}).get('id') == 'g1' and p.get('lv') == 3: err.append(f'{pid}: 英文法編は ★〜★★ だけ（lv 3 は使わない）')
         if p.get('sec') not in sec_ids: err.append(f'{pid}: sec が存在しない: {p.get("sec")}')
         for r in (p.get('ref') if isinstance(p.get('ref'), list) else [p.get('ref')] if p.get('ref') else []):
             if r not in sec_ids: err.append(f'{pid}: ref の節が存在しない: {r}')
@@ -228,6 +239,15 @@ def main(paths):
             if p.get('part') not in (1, 2, 3, 4, 5): err.append(f'{p.get("id")}: 模試の part が不正')
             if not p.get('pts'): err.append(f'{p.get("id")}: 模試の pts がない')
         if sum(p.get('pts', 0) or 0 for p in mock) != 100: err.append(f'模試の配点合計が {sum(p.get("pts", 0) or 0 for p in mock)}（100 でない）')
+    if full.get('book', {}).get('id') == 'g1':
+        chof = {s['id']: c['id'] for c in chapters for s in c['sections']}
+        for c in chapters:
+            if not any(s.get('body') for s in c['sections']): continue
+            pre = [p for p in problems if p.get('set') == '前提' and chof.get(p.get('sec')) == c['id']]
+            if len(pre) != 3: warn.append(f'{c["id"]}: 前提チェックが {len(pre)} 問（3問の予定）')
+            tst = [p for p in problems if p.get('set') == '確認テスト' and str(p.get('id', '')).startswith('q' + c['id'][1:])]
+            if len(tst) != 10: warn.append(f'{c["id"]}: 確認テストが {len(tst)} 問（10問の予定）')
+            if not c.get('intro'): warn.append(f'{c["id"]}: 単元の入口（intro）がない')
     # 禁止語
     wl = wordlists()
     for key in ('英語・強（単語。活用形を含む）', '英語・強（句）'):
@@ -267,4 +287,7 @@ def main(paths):
 
 
 if __name__ == '__main__':
-    sys.exit(main(sys.argv[1:]))
+    args = sys.argv[1:]
+    if '--strict' in args:
+        STRICT = True; args.remove('--strict')
+    sys.exit(main(args))

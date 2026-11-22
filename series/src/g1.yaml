@@ -1,0 +1,511 @@
+book:
+  id: g1
+  series: 超基礎から学ぶ高校英語
+  vol: 第一講
+  title: 英文法編
+  edition: 第1版
+  date: 2027年
+  publisher: かながわ教材ライブラリ
+  license: CC BY 4.0
+  volumes:            # 上下巻の分け目（単元の ID）
+  - {name: 上巻, chapters: [c01, c02, c03, c04, c05, c06, c07, c08, c09, c10]}
+  - {name: 下巻, chapters: [c11, c12, c13, c14, c15, c16, c17, c18, c19, c20]}
+
+chapters:
+- id: c01
+  title: 文型
+  pages: 20
+  sections:
+  - id: s011
+    title: "文の要素と品詞"
+    body: []
+    examples: []
+    summary: []
+  - id: s012
+    title: "SV・SVC・SVO"
+    body: []
+    examples: []
+    summary: []
+  - id: s013
+    title: "SVOO と SVO＋to／for"
+    body: []
+    examples: []
+    summary: []
+  - id: s014
+    title: "SVOC"
+    body: []
+    examples: []
+    summary: []
+  - id: s015
+    title: "文型で意味を決める・完全な文と不完全な文"
+    body: []
+    examples: []
+    summary: []
+- id: c02
+  title: 時制
+  pages: 16
+  sections:
+  - id: s021
+    title: "現在形と過去形"
+    body: []
+    examples: []
+    summary: []
+  - id: s022
+    title: "進行形と状態動詞"
+    body: []
+    examples: []
+    summary: []
+  - id: s023
+    title: "未来の表し方と、時・条件の副詞節"
+    body: []
+    examples: []
+    summary: []
+- id: c03
+  title: 完了形
+  pages: 18
+  sections:
+  - id: s031
+    title: "現在完了の3つの意味"
+    body: []
+    examples: []
+    summary: []
+  - id: s032
+    title: "現在完了進行形と since・for"
+    body: []
+    examples: []
+    summary: []
+  - id: s033
+    title: "過去完了と未来完了"
+    body: []
+    examples: []
+    summary: []
+  - id: s034
+    title: "時を表す語句から時制を決める"
+    body: []
+    examples: []
+    summary: []
+- id: c04
+  title: 助動詞
+  pages: 18
+  sections:
+  - id: s041
+    title: "can・may・must・should の基本"
+    body: []
+    examples: []
+    summary: []
+  - id: s042
+    title: "推量の強さ"
+    body: []
+    examples: []
+    summary: []
+  - id: s043
+    title: "助動詞＋have done"
+    body: []
+    examples: []
+    summary: []
+  - id: s044
+    title: "would・used to・had better など"
+    body: []
+    examples: []
+    summary: []
+- id: c05
+  title: 態
+  pages: 18
+  sections:
+  - id: s051
+    title: "受動態の作り方"
+    body: []
+    examples: []
+    summary: []
+  - id: s052
+    title: "SVOO・SVOC の受動態"
+    body: []
+    examples: []
+    summary: []
+  - id: s053
+    title: "群動詞の受動態と by 以外の前置詞"
+    body: []
+    examples: []
+    summary: []
+  - id: s054
+    title: "注意すべき受動態"
+    body: []
+    examples: []
+    summary: []
+- id: c06
+  title: 不定詞
+  pages: 20
+  sections:
+  - id: s061
+    title: "不定詞の3つの働き"
+    body: []
+    examples: []
+    summary: []
+  - id: s062
+    title: "意味上の主語・否定・完了・受動"
+    body: []
+    examples: []
+    summary: []
+  - id: s063
+    title: "SVO＋to do と原形不定詞"
+    body: []
+    examples: []
+    summary: []
+  - id: s064
+    title: "形式目的語 it・疑問詞＋to do・be to do"
+    body: []
+    examples: []
+    summary: []
+  - id: s065
+    title: "不定詞を使う決まった言い方"
+    body: []
+    examples: []
+    summary: []
+- id: c07
+  title: 動名詞
+  pages: 18
+  sections:
+  - id: s071
+    title: "動名詞の働き"
+    body: []
+    examples: []
+    summary: []
+  - id: s072
+    title: "意味上の主語・否定・完了・受動"
+    body: []
+    examples: []
+    summary: []
+  - id: s073
+    title: "to do をとる動詞・doing をとる動詞"
+    body: []
+    examples: []
+    summary: []
+  - id: s074
+    title: "前置詞の to＋doing と動名詞の決まった言い方"
+    body: []
+    examples: []
+    summary: []
+- id: c08
+  title: 分詞
+  pages: 20
+  sections:
+  - id: s081
+    title: "名詞を修飾する分詞"
+    body: []
+    examples: []
+    summary: []
+  - id: s082
+    title: "補語になる分詞と感情の分詞"
+    body: []
+    examples: []
+    summary: []
+  - id: s083
+    title: "分詞構文の作り方と意味"
+    body: []
+    examples: []
+    summary: []
+  - id: s084
+    title: "分詞構文の形"
+    body: []
+    examples: []
+    summary: []
+  - id: s085
+    title: "付帯状況の with と、準動詞のまとめ"
+    body: []
+    examples: []
+    summary: []
+- id: c09
+  title: 接続詞
+  pages: 18
+  sections:
+  - id: s091
+    title: "等位接続詞と相関接続詞"
+    body: []
+    examples: []
+    summary: []
+  - id: s092
+    title: "名詞節をつくる that・whether・if"
+    body: []
+    examples: []
+    summary: []
+  - id: s093
+    title: "副詞節①　時・条件・理由"
+    body: []
+    examples: []
+    summary: []
+  - id: s094
+    title: "副詞節②　譲歩・目的・結果と、前置詞との区別"
+    body: []
+    examples: []
+    summary: []
+- id: c10
+  title: 関係詞
+  pages: 20
+  sections:
+  - id: s101
+    title: "関係代名詞の基本"
+    body: []
+    examples: []
+    summary: []
+  - id: s102
+    title: "whose と前置詞＋関係代名詞"
+    body: []
+    examples: []
+    summary: []
+  - id: s103
+    title: "関係副詞と、関係代名詞との区別"
+    body: []
+    examples: []
+    summary: []
+  - id: s104
+    title: "what と、2つの that"
+    body: []
+    examples: []
+    summary: []
+  - id: s105
+    title: "非制限用法と複合関係詞"
+    body: []
+    examples: []
+    summary: []
+- id: c11
+  title: 比較
+  pages: 20
+  sections:
+  - id: s111
+    title: "原級の比較と倍数"
+    body: []
+    examples: []
+    summary: []
+  - id: s112
+    title: "比較級・最上級と、比べる2つをそろえる"
+    body: []
+    examples: []
+    summary: []
+  - id: s113
+    title: "最上級の意味を原級・比較級で表す"
+    body: []
+    examples: []
+    summary: []
+  - id: s114
+    title: "the＋比較級, the＋比較級 など"
+    body: []
+    examples: []
+    summary: []
+  - id: s115
+    title: "比較の決まった言い方"
+    body: []
+    examples: []
+    summary: []
+- id: c12
+  title: 仮定法
+  pages: 18
+  sections:
+  - id: s121
+    title: "仮定法過去と仮定法過去完了"
+    body: []
+    examples: []
+    summary: []
+  - id: s122
+    title: "混ざった形と if の省略"
+    body: []
+    examples: []
+    summary: []
+  - id: s123
+    title: "I wish・as if・It is time"
+    body: []
+    examples: []
+    summary: []
+  - id: s124
+    title: "if を使わない仮定と仮定法現在"
+    body: []
+    examples: []
+    summary: []
+- id: c13
+  title: 名詞と冠詞
+  pages: 16
+  sections:
+  - id: s131
+    title: "数えられる名詞・数えられない名詞"
+    body: []
+    examples: []
+    summary: []
+  - id: s132
+    title: "集合名詞と、いつも複数形の名詞"
+    body: []
+    examples: []
+    summary: []
+  - id: s133
+    title: "冠詞 a・the・無冠詞"
+    body: []
+    examples: []
+    summary: []
+- id: c14
+  title: 代名詞
+  pages: 18
+  sections:
+  - id: s141
+    title: "人称・所有・再帰代名詞"
+    body: []
+    examples: []
+    summary: []
+  - id: s142
+    title: "it・one・that の使い分け"
+    body: []
+    examples: []
+    summary: []
+  - id: s143
+    title: "one・another・the other・others"
+    body: []
+    examples: []
+    summary: []
+  - id: s144
+    title: "数・量を表す代名詞"
+    body: []
+    examples: []
+    summary: []
+- id: c15
+  title: 形容詞と副詞
+  pages: 18
+  sections:
+  - id: s151
+    title: "形容詞の2つの使い方"
+    body: []
+    examples: []
+    summary: []
+  - id: s152
+    title: "数と量の形容詞"
+    body: []
+    examples: []
+    summary: []
+  - id: s153
+    title: "人を主語にしない形容詞・紛らわしい形容詞"
+    body: []
+    examples: []
+    summary: []
+  - id: s154
+    title: "副詞の働きと位置、注意すべき副詞"
+    body: []
+    examples: []
+    summary: []
+- id: c16
+  title: 前置詞
+  pages: 18
+  sections:
+  - id: s161
+    title: "前置詞の働きと時の前置詞"
+    body: []
+    examples: []
+    summary: []
+  - id: s162
+    title: "場所と方向の前置詞"
+    body: []
+    examples: []
+    summary: []
+  - id: s163
+    title: "手段・材料・原因などの前置詞"
+    body: []
+    examples: []
+    summary: []
+  - id: s164
+    title: "群前置詞と、前置詞か接続詞か"
+    body: []
+    examples: []
+    summary: []
+- id: c17
+  title: 疑問と否定
+  pages: 18
+  sections:
+  - id: s171
+    title: "間接疑問"
+    body: []
+    examples: []
+    summary: []
+  - id: s172
+    title: "付加疑問と、否定の疑問への答え方"
+    body: []
+    examples: []
+    summary: []
+  - id: s173
+    title: "部分否定・全体否定・準否定"
+    body: []
+    examples: []
+    summary: []
+  - id: s174
+    title: "否定を使う決まった言い方"
+    body: []
+    examples: []
+    summary: []
+- id: c18
+  title: 強調・倒置・省略・挿入
+  pages: 18
+  sections:
+  - id: s181
+    title: "強調構文と do の強調"
+    body: []
+    examples: []
+    summary: []
+  - id: s182
+    title: "倒置"
+    body: []
+    examples: []
+    summary: []
+  - id: s183
+    title: "省略"
+    body: []
+    examples: []
+    summary: []
+  - id: s184
+    title: "挿入と同格"
+    body: []
+    examples: []
+    summary: []
+- id: c19
+  title: 話法と時制の一致
+  pages: 16
+  sections:
+  - id: s191
+    title: "時制の一致とその例外"
+    body: []
+    examples: []
+    summary: []
+  - id: s192
+    title: "平叙文を伝える"
+    body: []
+    examples: []
+    summary: []
+  - id: s193
+    title: "疑問文・命令文・依頼を伝える"
+    body: []
+    examples: []
+    summary: []
+- id: c20
+  title: 語法（動詞・名詞・形容詞）
+  pages: 20
+  sections:
+  - id: s201
+    title: "自動詞と他動詞のまとめ"
+    body: []
+    examples: []
+    summary: []
+  - id: s202
+    title: "動詞の型で選ぶ"
+    body: []
+    examples: []
+    summary: []
+  - id: s203
+    title: "意味の紛らわしい動詞"
+    body: []
+    examples: []
+    summary: []
+  - id: s204
+    title: "名詞の語法"
+    body: []
+    examples: []
+    summary: []
+  - id: s205
+    title: "形容詞＋前置詞・to do"
+    body: []
+    examples: []
+    summary: []
+
+problems: []
