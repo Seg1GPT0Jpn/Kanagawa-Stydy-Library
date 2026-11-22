@@ -25,7 +25,10 @@ chapters:
       - kind: 注意
         text: "fall・retire のような自動詞の過去分詞は「される」ではなく「〜してしまった」を表す。fallen leaves は「落ち葉（落ちてしまった葉）」、a retired teacher は「退職した先生」。"
     - h: 名詞の前に置くか、後ろに置くか
-    - p: 分詞を置く位置は、分詞の長さで決まります。分詞が1語だけなら、ふつうの形容詞と同じく名詞の前に置きます（@e0801、@e0802、@e0805）。分詞が in the park や with Ms. Turner のような語句を後ろに連れて2語以上のかたまりになると、名詞の後ろに置きます（@e0803、@e0804）。本書では、このかたまりを〈 〉で囲んで示します。
+    - p: 分詞を置く位置は、原則として分詞の長さで決まります。分詞が1語だけなら、ふつうの形容詞と同じく名詞の前に置きます（@e0801、@e0802、@e0805）。分詞が in the park や with Ms. Turner のような語句を後ろに連れて2語以上のかたまりになると、名詞の後ろに置きます（@e0803、@e0804）。本書では、このかたまりを〈 〉で囲んで示します。
+      notes:
+      - kind: 注意
+        text: "1語でも名詞の後ろに置く分詞がある。the people concerned（関係者）、the money left（残ったお金）。また、something・anything など -thing の語を説明するときは、1語でも後ろに置く（something exciting）。"
     - table:
         head: [分詞の長さ, "現在分詞（する側）", "過去分詞（される側）"]
         rows:
@@ -75,7 +78,7 @@ chapters:
       point: 日本語で「パーティーに来た人たち」と考えると、人が動作をする側に見えて①inviting を選びやすい。英語の動詞 invite を使って「招待する」か「招待される」かで確かめる。
     summary:
     - 名詞がその動作を「する側」なら {{現在分詞}}（〜している）、「される側」なら {{過去分詞}}（〜された）。
-    - 分詞が1語なら名詞の {{前}}、語句を連れて2語以上なら名詞の {{後ろ}} に置く。
+    - 原則として、分詞が1語なら名詞の {{前}}、語句を連れて2語以上なら名詞の {{後ろ}} に置く。
     - 名詞の後ろの分詞のかたまりは文の V ではない。文の {{V}} は別にある。
   - id: s082
     title: "補語になる分詞と感情の分詞"
@@ -84,14 +87,15 @@ chapters:
     - h: C になる分詞
     - p: 分詞は形容詞の働きをするので、形容詞と同じように文の C（@s011）にもなれます。SVC の文では S＝C の関係になり、C の分詞が S の状態を表します。@e0806 は「サラ＝クラスメートに囲まれている」、@e0807 は「ドア＝鍵がかけられている」という関係です。どちらも S は「される側」なので過去分詞を使います。sit・stand・lie・remain・keep などの後ろに分詞を置くと、「〜しながら座っている」「〜されたままだ」という意味になります。
     - ex: [e0806, e0807]
-    - p: SVOC の文（@s014）でも、C に分詞を置くことができます。このときは O と C の関係を考えます。O がその動作を「する側」なら現在分詞、「される側」なら過去分詞です。keep O doing は「O を〜させたままにする」（@e0808）、see・hear O doing は「O が〜しているのを見る・聞く」（@e0809）です。have O done は「O を〜してもらう」という意味で、O の物が「される側」になります（@e0810）。have my bag stolen（かばんを盗まれる）のように、「〜される」という被害を表すこともあります。
+    - p: SVOC の文（@s014）でも、C に分詞を置くことができます。このときは O と C の関係を考えます。O がその動作を「する側」なら現在分詞、「される側」なら過去分詞です。keep O doing は「O を〜させたままにする」（@e0808）で、leave O doing（leave the engine running）も同じように使います。O が「される側」なら keep the door locked（ドアに鍵をかけたままにしておく）のように keep O done です。see・hear O doing は「O が〜しているのを見る・聞く」（@e0809）です。have O done は「O を〜してもらう」という意味で、O の物が「される側」になります（@e0810）。have my bag stolen（かばんを盗まれる）のように、「〜される」という被害を表すこともあります。
       notes:
       - kind: 参照
-        text: "have O do（原形）と see O do（原形）は単元6で学ぶ（@s063）。have O do は O が「する側」、have O done は O が「される側」。see O do は動作の始めから終わりまで、see O doing は動作の途中を見ることを表す。"
+        text: "have O do（原形）と see O do（原形）は単元6で学んだ（@s063）。have O do は O が「する側」、have O done は O が「される側」。see O do は動作の始めから終わりまで、see O doing は動作の途中を見ることを表す。"
     - table:
         head: [形, O と C の関係, 意味]
         rows:
-        - ["keep O {{doing}}", "O が する", "O を〜させたままにする"]
+        - ["keep・leave O {{doing}}", "O が する", "O を〜させたままにする・〜させておく"]
+        - ["keep O {{done}}", "O が される", "O を〜されたままにしておく（keep the door locked）"]
         - ["see・hear O {{doing}}", "O が する（途中）", "O が〜しているのを見る・聞く"]
         - ["see・hear O {{done}}", "O が される", "O が〜されるのを見る・聞く"]
         - ["have・get O {{done}}", "O が される", "O を〜してもらう・O を〜される"]
@@ -232,7 +236,7 @@ chapters:
       - 副詞節の主語 she は主節の主語 Sara と同じ人なので消す。
       - 動詞 was は be 動詞なので -ing 形の being にする。文の頭なので Being と大文字で始める。
       ans: Being busy
-      point: 主節と同じ主語を残して She being busy としない。主語を残すのは、主節と主語が違うときだけ（@s084）。
+      point: 主節と同じ主語を残して She being busy としない。主語を残すのは、主節と主語が違うときだけ（@s084 の (2)「主語が主節と違うとき」）。
     summary:
     - 分詞構文は {{副詞節}} を短くした形。接続詞を消し、主節と同じ {{主語}} を消し、動詞を {{-ing 形}} にする。
     - be 動詞は {{being}} にする。分詞構文の時は {{主節}} の時に合わせて読む。
@@ -306,12 +310,12 @@ chapters:
       - 宿題を終えたのは寝るより前。主節の時より前を表す完了の形 Having finished を選ぶ。
       ans: "2"
       point: 完了の分詞構文 Having done は「主節の時より前」を表す。迷ったら、副詞節にもどして After he had finished … と考える。
-    - q: "__Being__① rainy, the game __was put off__② __until__③ the __following__④ week."
+    - q: "下線部①〜④のうち、誤りをふくむものを1つ選びなさい。<br>__Being__① rainy, the game __was put off__② __until__③ the __following__④ week."
       steps:
       - 分詞構文 Being rainy の意味上の主語を確かめる。主語がないので、主節の主語 the game が「雨降りだった」ことになり、意味が通らない。
       - 雨降りなのは天気なので、主語は天気を表す it。主節の主語と違うので、It being rainy と主語を残す。
       - ②was put off（延期された）、③until、④the following week（その次の週）はどれも正しい。
-      ans: "1"
+      ans: "①（Being → It being）"
       point: 分詞構文で主語が消えていたら、主節の主語を当てはめて意味が通るかを確かめる。通らなければ主語を残す独立分詞構文にする。
     summary:
     - 否定の分詞構文は {{Not doing}}。主節の時より前のことは {{Having done}}。
@@ -343,7 +347,10 @@ chapters:
         - ["不定詞", "I want {{to swim}}.", "a place {{to swim}}", "I went to the sea {{to swim}}."]
         - ["動名詞", "I enjoy {{swimming}}.", "なし", "なし"]
         - ["分詞", "なし", "the boy {{swimming}} in the river", "{{Swimming}} in the river, I saw a fish."]
-    - p: 4択で準動詞の形を選ぶときは、単元7で学んだ準動詞の選び方（@s073）を、分詞まで広げて使います。1つ目の問いで空所が名詞の働きなら不定詞か動名詞、形容詞・副詞の働きなら不定詞か分詞にしぼれます。分詞を選ぶ問題の多くは、1つ目と3つ目の問いで決まります。
+      notes:
+      - kind: 注意
+        text: "a sleeping bag（寝袋）の sleeping は「寝るための」という用途を表す動名詞で、名詞の前に付いて名詞を説明している。分詞の形容詞の働き（a sleeping baby＝眠っている赤ちゃん）とは違うので、表の「形容詞の働き」には入れていない。"
+    - p: 4択で準動詞の形を選ぶときは、単元7で学んだ準動詞の選び方（@s073 の (3)）を、分詞まで広げて使います。1つ目の問いで空所が名詞の働きなら不定詞か動名詞、形容詞・副詞の働きなら不定詞か分詞にしぼれます。分詞を選ぶ問題の多くは、1つ目と3つ目の問いで決まります。
     - label: 準動詞の選び方
       steps:
       - 空所は名詞・形容詞・副詞のどの働きか。名詞を説明する位置や、文に付け足す位置なら分詞を考える。
@@ -364,7 +371,7 @@ chapters:
       gloss: [[fold one's arms, 腕を組む]]
     - id: e0824
       en: Ms. Turner was reading a book 〈with her cat *sleeping* on her lap〉.
-      ja: ターナー先生はひざの上で猫を眠らせたまま本を読んでいた。
+      ja: ターナー先生は、ひざの上で猫が眠っている状態で本を読んでいた。
       gloss: [[lap, ひざ（座ったときの太ももの上）]]
     - id: e0825
       en: Don't talk with your mouth full.
@@ -407,8 +414,9 @@ problems:
   inst: （　）内の動詞を適切な形にして空所に入れなさい。
   q: "The boys are (＿) in the pool now. (swim)"
   ans: swimming
+  ref: s022
   why: are と now から現在進行形。be 動詞の後ろに -ing 形を置く。swim は m を重ねて swimming とする。
-  trap: swiming と m を1つにする誤り。短母音＋子音字で終わる語は、最後の子音字を重ねて -ing を付ける。
+  trap: swiming と m を1つにする誤り。swim のように、短い母音＋子音字1つで終わる1音節の語は、最後の子音字を重ねて -ing を付ける。
 - id: q08002
   sec: s081
   set: 前提
@@ -417,6 +425,7 @@ problems:
   min: 1
   q: "This temple was (＿) about 600 years ago. (build)"
   ans: built
+  ref: s051
   why: 寺は「建てられる側」なので受動態。was の後ろに過去分詞を置く。build の過去分詞は built。
   trap: 規則動詞と同じように builded とする誤り。build は不規則動詞で、過去形・過去分詞とも built。
 - id: q08003
@@ -429,6 +438,7 @@ problems:
   q: These cars are (＿) in Japan.
   choices: [make, made, making, to make]
   ans: "2"
+  ref: s051
   why: 車は「作られる側」なので受動態。are の後ろに過去分詞 made を置く。
   trap: are を見て進行形だと考え、③making を選ぶ誤り。「車が作っている」では意味が通らない。
 # ---- s081 ----
@@ -544,10 +554,10 @@ problems:
   kind: 正誤
   min: 1
   inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
-  q: Our teacher __was__① very __disappointing__② __with__③ the results of the test __we took__④ last week.
+  q: Our teacher __was__① very __disappointing__② __with__③ the results of __last__④ week's test.
   ans: "2"
   why: 先生はテストの結果に「がっかりさせられた側」なので過去分詞の disappointed にする。be disappointed with ～ で「〜にがっかりする」。
-  trap: 「がっかりした」の「した」に引かれて -ing 形を正しいと思う誤り。気持ちを起こさせられた人は過去分詞。
+  trap: 先生（人）が主語でも「がっかりさせる」の disappointing でよいと思う誤り。disappointing は結果のほうを説明する形で、気持ちを起こさせられた人は過去分詞にする。
 - id: q08014
   sec: s082
   set: 節末
@@ -593,8 +603,8 @@ problems:
   inst: 次の英文を日本語に訳しなさい。
   q: Opening the box, I found an old letter.
   ans: 箱を開けると、古い手紙が入っていた。
-  alt: [箱を開けたら、古い手紙を見つけた。, 箱を開けたとき、私は古い手紙を見つけた。]
-  why: Opening the box は時を表す分詞構文で、When I opened the box と同じ。主節の found が過去なので「開けたとき・開けると」と訳す。
+  alt: [箱を開けたら、古い手紙を見つけた。, 箱を開けたとき、私は古い手紙を見つけた。, 箱を開けて、私は古い手紙を見つけた。]
+  why: Opening the box は時を表す分詞構文で、When I opened the box と同じ。主節の found が過去なので「開けたとき・開けると」と訳す。採点の目安：時・連続の訳（〜すると／〜して／〜したとき）はどれも正解。
   trap: 「箱を開けている古い手紙」のように、分詞を後ろの名詞の説明として訳す誤り。コンマの前で切れているので、文全体に付け足す分詞構文。
 - id: q08018
   sec: s083
@@ -615,7 +625,7 @@ problems:
   kind: 整序
   min: 2
   inst: 日本語の意味になるように（　）内の語を並べかえなさい。
-  q: 姉はテレビを見ながらソファに横になっていた。<br>My sister ( lay / on / sofa / the / watching ) TV.
+  q: 姉はテレビを見ながらソファに横になっていた。<br>My sister ( lay / on / sofa / the / watching ) TV.<br>（注）lay：lie（横になる）の過去形
   words: [lay, "on", sofa, the, watching]
   ans: My sister lay on the sofa watching TV.
   why: 主節は My sister lay on the sofa（lie の過去形 lay）。「テレビを見ながら」は付帯状況の分詞構文 watching TV で、文の後ろに置く。
@@ -638,10 +648,10 @@ problems:
   lv: 2
   kind: 補充
   min: 1
-  inst: （　）内の動詞を適切な形にして空所に入れなさい。
+  inst: （　）内の動詞を1語で適切な形にして空所に入れなさい。
   q: "Liam, (＿) at the station five minutes late, missed the last train. (arrive)"
   ans: arriving
-  why: 主語 Liam の直後にコンマではさんで置いた分詞構文。文の V は missed なので、空所は V ではなく分詞。リアムは「着く側」なので現在分詞。
+  why: 主語 Liam の直後にコンマではさんで置いた分詞構文。文の V は missed なので、空所は V ではなく分詞。リアムは「着く側」なので現在分詞。完了の Having arrived（@s084）も意味は通るが、1語の指定なので arriving。
   trap: arrived とする誤り。arrived と missed で V が2つになり、2つの V をつなぐ接続詞もない。
 # ---- s084 ----
 - id: q08022
@@ -712,7 +722,7 @@ problems:
   ans: 朝から何も食べていなかったので、私はとてもおなかがすいていた。
   alt: [朝から何も口にしていなかったので、とても空腹だった。]
   why: Not having eaten は否定と完了を組み合わせた分詞構文。おなかがすいていた時より前から食べていなかったことを表し、理由で訳す。
-  trap: 「食べないで」と時をずらさずに訳す誤り。having eaten は主節の時（おなかがすいていた時）より前のこと。
+  trap: 「朝から何も食べていないので、とてもおなかがすいている」と、今のことのように訳す誤り。分詞構文の時は主節の was に合わせ、having eaten はそれより前から食べていなかったことを表す。
 # ---- s085 ----
 - id: q08028
   sec: s085
@@ -749,6 +759,7 @@ problems:
   ans: "3"
   why: 空所は enjoy の O で、名詞の働き。enjoy は doing（動名詞）をとる動詞なので swimming。
   trap: ②to swim を選ぶ誤り。enjoy の後ろに to do は置けない（@s073）。
+  ref: [s085, s073]
 - id: q08031
   sec: s085
   set: 節末
@@ -767,7 +778,7 @@ problems:
   kind: 整序
   min: 2
   inst: 日本語の意味になるように（　）内の語を並べかえなさい。
-  q: ジョーはシャツのそでをまくり上げて皿を洗っていた。<br>Joe was washing the dishes ( his / rolled / sleeves / up / with ).
+  q: ジョーはシャツのそでをまくり上げて皿を洗っていた。<br>Joe was washing the dishes ( his / rolled / sleeves / up / with ).<br>（注）roll up：まくり上げる
   words: [his, rolled, sleeves, up, with]
   ans: Joe was washing the dishes with his sleeves rolled up.
   why: 付帯状況の with O C。そでは「まくり上げられている側」なので、C は過去分詞 rolled up。
@@ -873,7 +884,7 @@ problems:
   kind: 整序
   min: 2
   inst: 日本語の意味になるように（　）内の語を並べかえなさい。
-  q: その犬はしっぽを振りながら私のところへ走ってきた。<br>The dog ran to me ( its / tail / wagging / with ).
+  q: その犬はしっぽを振りながら私のところへ走ってきた。<br>The dog ran to me ( its / tail / wagging / with ).<br>（注）wag：（しっぽが）揺れる、（しっぽを）振る
   words: [its, tail, wagging, with]
   ans: The dog ran to me with its tail wagging.
   why: 付帯状況の with O C。しっぽは自分で「揺れている側」なので現在分詞 wagging を O の後ろに置く。

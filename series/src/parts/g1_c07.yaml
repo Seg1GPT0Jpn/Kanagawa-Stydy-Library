@@ -68,7 +68,7 @@ chapters:
     worked:
     - q: "Shin left the room without (＿) goodbye. （say を適切な形にして）"
       steps:
-      - 4択の共通手順（@s015）で、空所が文のどの要素かを見る。空所の前の without は「〜なしで」という前置詞で、空所は前置詞の後ろの名詞の位置。
+      - 共通手順（@s015）の手順1（空所は文のどの要素か）で考える。空所の前の without は「〜なしで」という前置詞で、空所は前置詞の後ろの名詞の位置。
       - 前置詞の後ろには名詞か動名詞を置く。動詞の say を名詞の働きにするには -ing 形にする。
       - saying を入れると「さよならを言わずに部屋を出た」となり、意味も合う。
       ans: saying
@@ -100,7 +100,7 @@ chapters:
         - [完了, to have done, "{{having done}}"]
         - [受動, to be done, "{{being done}}"]
     - h: 意味上の主語は所有格か目的格
-    - p: "動名詞の動作をするのが文の主語と同じ人なら、何も付けません。I don't mind opening the window. の opening は「私が開けること」です。動作をするのが文の主語と違う人なら、動名詞の前にその人を置きます。これが動名詞の意味上の主語（@s062）です。形は所有格（my・his・your）が基本で、話し言葉では目的格（me・him）もよく使います（@e0707）。人の名前なら、's を付けずに名前をそのまま置く形もよく使います（@e0708）。"
+    - p: "動名詞の動作をするのが文の主語と同じ人なら、何も付けません。I don't mind opening the window. の opening は「私が開けること」です。動作をするのが文の主語と違う人で、だれの動作かが文脈から分からないときは、動名詞の前にその人を置きます。これが動名詞の意味上の主語（@s062）です。形は所有格（my・his・your）が基本で、話し言葉では目的格（me・him）もよく使います（@e0707）。人の名前なら、's を付けずに名前をそのまま置く形もよく使います（@e0708）。一方、Thank you for helping me. の helping は相手（you）の動作ですが、だれが手伝ったかは文から分かるので、意味上の主語を置きません。@e0702 の Getting up のように、文の中の別の語（for me）から分かるときや、人一般の動作のときも置きません。"
       notes:
       - kind: 注意
         text: "Would you mind my opening the window? は「私が窓を開けてもかまいませんか」。Would you mind opening the window? は「（あなたが）窓を開けてくれませんか」。意味上の主語があるかないかで、窓を開ける人が変わる。"
@@ -116,9 +116,9 @@ chapters:
         yomi: かんりょうどうめいし
         text: "having＋過去分詞の形の動名詞。主節の動詞が表す時（基準の時）より前のことを表す。"
     - ex: [e0710]
-    - p: "4択で doing と having done が並んでいたら、動名詞の内容が主節の時と同じか、それより前かを確かめます。主節が現在形で、動名詞のほうに last year や when he was young のような過去を表す語句があれば having done を選びます。なお、remember・regret のように意味から「前のこと」と分かる動詞の後ろでは、ふつうの doing でも前のことを表せます（@s073）。"
+    - p: "4択で doing と having done が並んでいたら、動名詞の内容が主節の時と同じか、それより前かを確かめます。主節が現在形で、動名詞のほうに last year や when he was young のような過去を表す語句があるときは、having done を選びます。過去を表す語句があれば being（ふつうの doing）でも意味が通じることはありますが、主節の時とのずれを形ではっきり示すのは having done なので、入試ではこちらが「最も適切」な答えになります。なお、remember・regret のように意味から「前のこと」と分かる動詞の後ろでは、ふつうの doing でも前のことを表せます（@s073）。"
     - h: 受動は being done
-    - p: "動名詞の動作を「される側」のときは、being＋過去分詞にします。能動か受動かは、態の単元と同じ問い（@s051）で決めます。@e0711 では、「赤ちゃんと呼ばれる」のは文の主語の弟なので、being called になります。主節の時より前に「された」ことは having been＋過去分詞で表しますが、本書では形を知っておけば十分です。"
+    - p: "動名詞の意味上の主語が「される側」のときは、being＋過去分詞にします。能動か受動かは、態の単元と同じ問い（@s051）で決めます。@e0711 では、「赤ちゃんと呼ばれる」のは文の主語の弟なので、being called になります。主節の時より前に「された」ことは having been＋過去分詞で表しますが、本書では形を知っておけば十分です。"
     - ex: [e0711]
     - check:
       - q: "私が窓を開けてもかまいませんか。<br>Do you mind (＿) opening the window?"
@@ -158,11 +158,11 @@ chapters:
       steps:
       - 空所は前置詞 of の後ろなので、名詞の働きの動名詞が入る。③④は消える。
       - 時の手がかりは last year。主節の is proud は今のことで、キャプテンだったのは去年。主節の時より前のことになる。
-      - 主節の時より前を表す完了動名詞 having been を選ぶ。①being だと「今キャプテンであること」になり、last year と合わない。
+      - 主節の時より前を表す完了動名詞 having been を選ぶ。①being でも last year があれば通じることはあるが、時のずれを形ではっきり示すのは having been で、入試ではこちらを選ぶ。
       ans: "2"
-      point: 主節が現在形で、動名詞の中に過去を表す語句があれば having done。完了動名詞は「主節の時より前」を表す。
+      point: 主節が現在形で、動名詞の中に過去を表す語句があれば having done を選ぶ。完了動名詞は「主節の時より前」を形で示す。
     summary:
-    - "動名詞の意味上の主語は、動名詞の前に {{所有格}}（または目的格）で置く。"
+    - "文の主語と違う人の動作で、文脈から分からないときは、動名詞の前に意味上の主語を {{所有格}}（または目的格）で置く。"
     - "動名詞の否定は、動名詞の {{直前}} に not を置く（not doing）。"
     - "主節の時より前のことは {{having＋過去分詞}}（完了動名詞）で表す。"
     - "「〜されること」は {{being＋過去分詞}} で表す。"
@@ -207,8 +207,8 @@ chapters:
     - p: "空所に準動詞の形を選ぶ問題は、次の順で考えます。この手順は、分詞の単元の最後（@s085）でも使います。"
     - label: 準動詞の選び方
       steps:
-      - 空所は名詞・形容詞・副詞のどの働きか。主語の位置や前置詞の後ろなら名詞の働きで、doing が入る。
-      - 動詞の O なら、その動詞が to do をとるか doing をとるかを確かめる。両方とる動詞なら、これからのことか（to do）、前にしたことか（doing）で決める。
+      - 空所は名詞・形容詞・副詞のどの働きか。前置詞の後ろなら名詞の働きで、doing が入る。主語の位置も doing がふつう（to do を主語にするときは、形式主語の it を使うことが多い）。
+      - 動詞の O なら、その動詞が to do をとるか doing をとるかを確かめる。形で意味が変わる動詞（remember・forget・regret など）なら、これからのことか（to do）、前にしたことか（doing）で決める。like・begin など、両方をとって意味がほぼ同じ動詞はどちらでもよい。
       - 準動詞の動作を「する側」か「される側」かを確かめる。される側なら being done や to be done にする。
     - check:
       - q: "We decided (＿) (＿) a party for Mr. Nishi. (have)"
@@ -237,17 +237,17 @@ chapters:
     - q: "Zoe finished (＿) the dishes and went to bed."
       choices: [wash, to wash, washing, washed]
       steps:
-      - 準動詞の選び方の①。空所は finished の O で、名詞の働き。
-      - ②。finish は後ろに doing だけをとる動詞で、to do はとらない。
+      - 準動詞の選び方1：空所は finished の O で、名詞の働き。
+      - 選び方2：finish は後ろに doing だけをとる動詞で、to do はとらない。
       - washing を選ぶ。①は原形、④は過去形で、どちらも finished の後ろに直接置けない。
       ans: "3"
       point: enjoy・finish・mind・avoid・give up の後ろは doing。日本語の「〜し終える」につられて to do にしない。
     - q: "I clearly remember (＿) this key on the desk, but now I can't find it."
       choices: [to put, putting, to be put, being put]
       steps:
-      - 準動詞の選び方の①②。空所は remember の O。remember は to do も doing もとり、形で意味が変わる動詞。
+      - 準動詞の選び方1・2：空所は remember の O。remember は to do も doing もとり、形で意味が変わる動詞。
       - but now I can't find it から、鍵を机に置いたのは前のこと。前にしたことを覚えているのは remember doing。
-      - ③。鍵を置いたのは「私」で、する側なので能動の putting。③④は受動で、「私が置かれる」ことになってしまう。
+      - 選び方3：鍵を置いたのは「私」で、する側なので能動の putting。③④は受動で、「私が置かれる」ことになってしまう。
       ans: "2"
       point: remember・forget は、これからのことなら to do、前にしたことなら doing。文の中の時の手がかり（now・tomorrow・last week など）で決める。
     summary:
@@ -261,7 +261,10 @@ chapters:
     body:
     - h: to の後ろに doing が来る形
     - p: "「to の後ろには動詞の原形が来る」と覚えている人は多いでしょう。ただし、それは不定詞の to の場合です。to には「〜へ」「〜に」を表す前置詞の to もあり、前置詞の後ろには名詞か動名詞を置きます（@s071）。look forward to（〜を楽しみに待つ）の to は前置詞なので、look forward to visiting のように doing を続けます（@e0717）。"
-    - p: "to が前置詞かどうかは、to の後ろに名詞を置いて意味が通るかで確かめます。look forward to the trip（旅行を楽しみに待つ）と言えるので、この to は前置詞です。be used to（〜に慣れている）も be used to the noise と言えるので前置詞で、後ろは doing になります（@e0718）。助動詞の単元で学んだ used to do（以前は〜した）とは別の表現です（@s044）。object to（〜に反対する）も同じ形です（@e0719）。"
+    - p: "look forward to のように後ろに doing が来る言い方は、まず下の表の形で覚えます。そのうえで、to が前置詞かどうかを確かめる目安として、to の後ろに名詞を置いて意味が通るかを見ます。look forward to the trip（旅行を楽しみに待つ）と言えるので、この to は前置詞です。be used to（〜に慣れている）も be used to the noise と言えるので前置詞で、後ろは doing になります（@e0718）。助動詞の単元で学んだ used to do（以前は〜した）とは別の表現です（@s044）。object to（〜に反対する）も同じ形です（@e0719）。"
+      notes:
+      - kind: 注意
+        text: "名詞を置けても、後ろに to do をとる言い方がある。agree to the plan（計画に賛成する）と agree to do（〜することに同意する）、come to the party と come to know（知るようになる）、be going to the park と be going to do。これらの to do の to は不定詞なので、agree to doing とはしない。名詞を置けるかどうかは、表の決まった言い方を確かめるための目安として使う。"
     - table:
         head: [形, 意味]
         rows:
@@ -323,17 +326,17 @@ chapters:
       - look forward to the trip のように後ろに名詞を置けるので、この to は前置詞。前置詞の後ろは名詞か動名詞。
       - 動名詞の using を選ぶ。①use は to を不定詞と考えたときの誤り。④be used は「使われる」で、体育館を使う側の生徒と合わない。
       ans: "2"
-      point: look forward to の後ろは doing。「to の後ろは原形」と決めつけず、to の後ろに名詞を置けるかで前置詞かどうかを確かめる。
-    - q: "Matt __came__① to Japan two years ago, so he __is used to__② __take__③ a crowded train __every__④ morning."
+      point: look forward to の後ろは doing。「to の後ろは原形」と決めつけない。look forward to は前置詞の to をふくむ決まった言い方として覚え、to の後ろに名詞を置けることでも確かめる。
+    - q: "下線部①〜④のうち、誤りをふくむものを1つ選びなさい。<br>Matt __came__① to Japan __two years ago__②, so he __is used to take__③ a crowded train __every__④ morning."
       steps:
-      - 下線部②③は be used to と、その後ろの形。be used to は「〜に慣れている」で、be used to the noise と言えるので to は前置詞。
-      - 前置詞の後ろは動名詞なので、③take は taking にする。
-      - ①came は two years ago と合う過去形、④every morning も正しい。
-      ans: "3"
+      - ③の中の be used to は「〜に慣れている」。be used to the noise のように後ろに名詞を置ける決まった言い方で、この to は前置詞。
+      - 前置詞の後ろは動名詞なので、is used to take を is used to taking にする。has to take と直しても文は成り立つが、どちらの直し方も③の中で決まる。
+      - ①came は②two years ago と合う過去形、④every（every morning の every）も正しい。
+      ans: "③（is used to take → is used to taking）"
       point: be used to と used to do は別の表現。be 動詞があれば「慣れている」で、後ろは doing。
     summary:
     - "look forward to・be used to・object to の to は {{前置詞}} なので、後ろは {{doing}}。"
-    - "to が前置詞かどうかは、後ろに {{名詞}} を置けるかで確かめる。"
+    - "表の言い方の to が前置詞かどうかは、後ろに {{名詞}} を置けるかで確かめる（agree to do のように、名詞を置けても to do をとる言い方もある）。"
     - "feel like doing は「{{〜したい気がする}}」、It is no use doing は「{{〜しても無駄だ}}」。"
     - "There is no doing は「{{〜することはできない}}」、on doing は「{{〜するとすぐに}}」。"
 problems:
@@ -356,11 +359,12 @@ problems:
   lv: 1
   kind: 補充
   min: 1
-  inst: （　）内の動詞を適切な形にして空所に入れなさい。空所1つに1語とする。
+  inst: （　）内の動詞を使い、空所1つに1語を入れなさい。
   q: "Look! The children (＿) (＿) in the river. (swim)"
   ans: are swimming
+  ref: [s022, s071]
   why: Look! から今まさにしていることなので現在進行形。主語が複数なので are、swim の -ing 形は m を重ねて swimming。
-  trap: swiming とつづる誤り。swim のように「短母音＋子音字1つ」で終わる語は、子音字を重ねてから -ing を付ける。
+  trap: swiming とつづる誤り。swim のように、短い母音＋子音字1つで終わる1音節の語は、子音字を重ねてから -ing を付ける。
 - id: q07003
   sec: s071
   set: 前提
@@ -513,7 +517,7 @@ problems:
   choices: [being, having been, to be, to have been]
   ans: "2"
   why: of の後ろなので動名詞。誇りに思うのは今（is）、有名な選手だったのは若いころ（when he was young）で主節の時より前なので、完了動名詞 having been。
-  trap: ①being を選ぶ誤り。being だと「今有名な選手であること」になり、when he was young と合わない。③④は不定詞で、前置詞の後ろに置けない。
+  trap: ①being を選ぶ誤り。when he was young があれば being でも通じることはあるが、時のずれを形で示す having been が最も適切。③④は不定詞で、前置詞の後ろに置けない。
 - id: q07016
   sec: s072
   set: 節末
@@ -602,10 +606,10 @@ problems:
   kind: 正誤
   min: 1
   inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
-  q: Would you __mind__① __to wait__② here __until__③ the doctor __comes__④ back?
-  ans: "2"
-  why: mind（〜するのをいやがる）は後ろに doing だけをとる。to wait ではなく waiting にする。④comes は時の副詞節なので現在形で正しい（@s023）。
-  trap: ④comes を未来のことだから will come にすべきだと考える誤り。until の節は時の副詞節なので、未来のことでも現在形。
+  q: Would you __mind to wait__① here __until__② the doctor __comes__③ back __from__④ lunch?
+  ans: "1"
+  why: mind（〜するのをいやがる）は後ろに doing だけをとる。mind to wait を mind waiting にする（like to wait と動詞を替えても直せるが、どちらの直し方も①の中で決まる）。③comes は時の副詞節なので現在形で正しい（@s023）。
+  trap: ③comes を未来のことだから will come にすべきだと考える誤り。until の節は時の副詞節なので、未来のことでも現在形。
 - id: q07024
   sec: s073
   set: 節末
@@ -652,7 +656,7 @@ problems:
   q: 今日は何も食べたい気がしない。（feel like）
   ans: I don't feel like eating anything today.
   alt: [I do not feel like eating anything today., Today I don't feel like eating anything.]
-  why: feel like doing で「〜したい気がする」。like は前置詞なので eating にする。採点の目安：feel like eating の形と、否定文の anything が正しければ正解。
+  why: feel like doing で「〜したい気がする」。like は前置詞なので eating にする。採点の目安：feel like eating の形が正しく、「何も」を否定文の not ～ anything などで表せていれば正解。
   trap: I don't feel like to eat … とする誤り。この like は前置詞なので、後ろに to do は置けない。
 - id: q07028
   sec: s074
@@ -672,9 +676,9 @@ problems:
   kind: 正誤
   min: 1
   inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
-  q: Many people in the town __objected__① to __build__② a new road __through__③ the forest, so the plan __was__④ stopped.
-  ans: "2"
-  why: object to（〜に反対する）の to は前置詞なので、後ろは動名詞。build ではなく building にする。
+  q: Many people in the town __objected to build__① a new road __through__② the forest, so the plan __was stopped__③ __in__④ the end.
+  ans: "1"
+  why: object to（〜に反対する）の to は前置詞なので、後ろは動名詞。objected to build を objected to building にする。
   trap: to の後ろだから原形で正しいと考える誤り。object to the plan と名詞を置けるので、この to は前置詞。
 - id: q07030
   sec: s074
@@ -742,9 +746,9 @@ problems:
   kind: 正誤
   min: 1
   inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
-  q: My mother is worried __about__① my brother __not__② __to get__③ enough sleep __these__④ days.
+  q: My mother __is__① worried __about__② my brother __not to get__③ enough sleep __these__④ days.
   ans: "3"
-  why: about は前置詞なので後ろは動名詞。my brother は意味上の主語で、否定は not getting とする。
+  why: about は前置詞なので後ろは動名詞。my brother は意味上の主語で、否定は not to get を not getting とする。
   trap: not の後ろだから to get でよいと考える誤り。not to do は不定詞の否定で、前置詞の後ろでは not doing を使う。
 - id: q07036
   sec: s073
@@ -753,7 +757,7 @@ problems:
   kind: 4択
   min: 1
   inst: （　）に入る最も適切なものを1つ選びなさい。
-  q: Have you finished (＿) the book I lent you?
+  q: Have you finished (＿) that book yet?
   choices: [reading, to read, read, to be read]
   ans: "1"
   why: finish は後ろに doing だけをとる動詞。reading を選ぶ。
@@ -777,9 +781,9 @@ problems:
   kind: 正誤
   min: 1
   inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
-  q: My grandmother __has__① lived alone __for__② ten years, so she __is used__③ to __cook__④ for herself.
-  ans: "4"
-  why: be used to（〜に慣れている）の to は前置詞なので、後ろは動名詞の cooking。①②は継続の現在完了と期間の for で正しい。
+  q: My grandmother __has__① lived alone __for__② ten years, so she __is used to cook__③ for herself __every__④ day.
+  ans: "3"
+  why: be used to（〜に慣れている）の to は前置詞なので、後ろは動名詞。is used to cook を is used to cooking にする（has to cook と直しても文は成り立つが、どちらの直し方も③の中で決まる）。①②は継続の現在完了と期間の for で正しい。
   trap: to の後ろだから原形でよいと考える誤り。be used to と used to do（以前は〜した）を取り違えている。
 - id: q07039
   sec: s074

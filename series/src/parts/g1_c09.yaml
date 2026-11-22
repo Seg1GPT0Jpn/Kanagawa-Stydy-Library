@@ -86,7 +86,7 @@ chapters:
       - 主語は Not only my parents but also my brother。not only A but also B の形なので、動詞は B に合わせる。
       - B は my brother（1人）なので、動詞は is planning になる。①are は A の my parents に合わせた形で誤り。
       - ②plan to do、③during＋名詞（休みの間）、④will stay（未来のこと）は正しい。
-      ans: "1"
+      ans: "①（are → is）"
       point: not only A but also B は、動詞の直前の B に数を合わせる。my parents が先に目に入るので are を選んでしまいやすい。
     summary:
     - and・but・or・so は、同じ種類のものを対等に並べる{{等位接続詞}}。
@@ -101,13 +101,16 @@ chapters:
     - p: when・if・because・that のように節をつくる接続詞は、それ自体は節の中で S や O になりません。そのため、接続詞を外すと、後ろには S・O・C のそろった完全な文（@s015）が残ります。@e0908 の that を外すと Kate likes cats が残り、likes の O まで欠けずにそろっています。この「接続詞の後ろは完全な文」が、この節と次の単元の関係詞を見分ける土台になります。
     - ex: [e0908]
     - h: 名詞節の that「〜ということ」
-    - p: that の節は、文の中で名詞と同じ働きをして、S・O・C になります（名詞節、@s023）。@e0908 では knows の O、@e0909 では is の後ろの C です。that の節が S になるときは、文の頭に長い that 節を置くのを避け、文の頭に it を置いて that 節を後ろに回すのがふつうです（@e0910）。この it は形式主語といい、単元6で詳しく学びます（@s061）。
+    - p: that の節は、文の中で名詞と同じ働きをして、S・O・C になります（名詞節、@s023）。@e0908 では knows の O、@e0909 では is の後ろの C です。that の節が S になるときは、文の頭に長い that 節を置くのを避け、文の頭に it を置いて that 節を後ろに回すのがふつうです（@e0910）。この it は、単元6で学んだ形式主語です（@s061 の (2)）。
       notes:
       - kind: 注意
         text: "O になる that はよく省略される（I think Mai is right.）。C になる that は話し言葉で省略されることがあり、S になる that 節や It is ～ that の that は省略しないのがふつう。"
     - ex: [e0909, e0910]
     - h: whether・if「〜かどうか」
     - p: 内容が決まっていないこと、分からないことを言うときは、whether か if を使い、「〜かどうか」という名詞節にします（@e0911）。O の位置では whether と if のどちらも使えますが、S の位置（@e0912）、前置詞の後ろ、すぐ後ろに or not が続くときは whether だけを使います。名詞節の中では、未来のことは will で表します（@s023）。
+      notes:
+      - kind: 注意
+        text: "主節の動詞が過去（asked・wondered など）のときは、名詞節の中の動詞もふつう過去形や過去完了にずらす。My mother asked me if I had finished my homework.（宿題を終えたかどうかたずねた）。この「時制の一致」は下巻で学ぶ（@s191）。"
     - ex: [e0911, e0912]
     - table:
         head: [位置, whether, if]
@@ -118,19 +121,21 @@ chapters:
         - [直後の or not（whether or not）, ○, ×]
     - p: that と whether のどちらを使うかは、意味で決めます。「〜ということ」と内容が確かなら that、「〜かどうか」と答えが決まっていないなら whether／if です。I'm not sure・I wonder・ask の後ろは、答えが分からないことを言うので whether／if がよく続きます。
     - h: 同格の that
-    - p: fact・news・idea・hope・rumor などの名詞の後ろに that 節を置いて、その名詞の中身を説明する形があります。@e0913 の［that our team won the final］は、the news の中身（どんな知らせか）を言っています。この that を<<同格の that>>といいます。同格の that の後ろも完全な文です。
+    - p: fact・news・idea・hope・rumor などの名詞の後ろに that 節を置いて、その名詞の中身を説明する形があります。@e0913 の［that our team won the final］は、the news の中身（どんな知らせか）を言っています。この that を<<同格の that>>といいます。同格の that の後ろも完全な文です。同格の that の前に来るのは、fact・news・idea のように「どんな〜か」という中身を持つ名詞です。
       notes:
       - kind: 用語
         term: 同格の that
         yomi: どうかくのざっと
-        text: the fact・the news・the idea などの名詞の後ろに置き、その名詞の中身を「〜という」と説明する節をつくる that。接続詞なので、後ろは完全な文になる。
+        text: the fact・the news・the idea など中身を持つ名詞の後ろに置き、その名詞の中身を「〜という」と説明する節をつくる that。接続詞なので、後ろは完全な文になる。
+      - kind: 注意
+        text: "the day that we met（私たちが出会った日）の that も、名詞の後ろで後ろが完全な文になるが、同格の that ではない。the day は中身を持つ名詞ではなく、この that は「その日に」を表す when の代わり（単元10で学ぶ。@s103）。"
     - ex: [e0913, e0914]
     - p: '@e0914 も the news の後ろに that がありますが、that を外すと surprised me の前の S が欠けています。後ろが不完全な文になる that は、単元10で学ぶ関係代名詞です（@s104）。名詞の後ろの that は、後ろが完全な文か不完全な文かで、次の手順で見分けます。'
     - label: that の見分け
       steps:
-      - that の前に名詞（fact・news・book など）があるかを見る。なければ、that 節は S・O・C になる名詞節。
-      - that の後ろが完全な文か不完全な文かを確かめる。完全な文なら接続詞（名詞の後ろなら同格の that）、不完全な文なら関係代名詞。
-      - It is ～ that の形なら、形式主語の it（@s061）か、単元18で学ぶ強調構文（@s181）かを確かめる。
+      - that の前に名詞（fact・news・book など）があるかを見る。なければ、that 節は S・O・C になる名詞節。Kate told me that … の me のように、動詞の O の後ろに来た that 節も、2つ目の O になる名詞節。
+      - that の後ろが完全な文か不完全な文かを確かめる。不完全な文なら関係代名詞。完全な文なら接続詞で、前の名詞が fact・news・idea など中身を持つ名詞なら同格の that（the day・the reason の後ろの that は、単元10で学ぶ関係副詞の代わり）。
+      - It is ～ that の形なら、形式主語の it（@s061）か、下巻で学ぶ強調構文（@s181）かを確かめる。
     - h: 節の3つの働き
     - p: ここまでで、節には文の中の働きによって3つの種類があることになります。S・O・C になる名詞節と、M になる副詞節は単元2で学びました（@s023）。もう1つは、@e0914 の［that surprised me］のように、名詞を後ろから説明する節です。名詞を説明するのは形容詞の働きなので、この節を<<形容詞節>>といいます。
       notes:
@@ -188,12 +193,12 @@ chapters:
       - 空所の後ろ students should clean the classrooms themselves は、S・V・O がそろった完全な文。関係代名詞なら後ろが不完全な文になるので、関係代名詞ではない。
       - 空所から themselves までが「生徒が自分で教室をそうじするべきだという」と、The idea の中身を説明している。同格の that を入れる。
       ans: that
-      point: 名詞の後ろの that 節は、後ろが完全な文なら同格の that。came from の S は The idea で、that 節は S の名詞の中身を説明している。
+      point: idea・fact・news など中身を持つ名詞の後ろの that 節は、後ろが完全な文なら同格の that。came from の S は The idea で、that 節は S の名詞の中身を説明している。
     summary:
     - 接続詞を外すと、後ろには{{完全な文}}が残る。
     - that の名詞節は「〜{{ということ}}」、whether／if の名詞節は「〜{{かどうか}}」。
     - S の位置・前置詞の後ろ・直後の or not では、if ではなく {{whether}} を使う。
-    - 名詞の後ろの that は、後ろが完全な文なら{{同格の that}}、不完全な文なら{{関係代名詞}}。
+    - 名詞の後ろの that は、後ろが不完全な文なら{{関係代名詞}}。fact・news・idea など中身を持つ名詞の後ろで、後ろが完全な文なら{{同格の that}}。
   - id: s093
     title: 副詞節①　時・条件・理由
     aim: 時・条件・理由を表す接続詞の意味を区別し、until と by the time、if と unless などを文の流れから選べるようになる。
@@ -218,7 +223,7 @@ chapters:
         text: "前置詞でも同じ区別がある。until five（5時までずっと）と by five（5時までには）。Please wait until five. と Please finish it by five. のように使い分ける。"
     - ex: [e0915, e0916, e0917]
     - h: 条件を表す if・unless・as long as
-    - p: unless は「〜しない限り、〜でなければ」という意味で、if … not に近い意味を1語で表します。unless の中にはすでに否定の意味が入っているので、unless の節に not を重ねません（@e0918）。as long as は「〜する限りは、〜しさえすれば」と、条件を満たしている間のことを言います（@e0919）。どちらも条件の副詞節なので、未来のことも現在形で表します。
+    - p: unless は「〜しない限り、〜でなければ」という意味で、if … not に近い意味を1語で表します。unless の中にはすでに否定の意味が入っているので、unless の節にはふつう not を重ねません（@e0918）。重ねると「〜しないのでない限り」となり、言いたいことと逆になるからです。as long as は「〜する限りは、〜しさえすれば」と、条件を満たしている間のことを言います（@e0919）。どちらも条件の副詞節なので、未来のことも現在形で表します。
       notes:
       - kind: 注意
         text: "unless は「〜という場合を除けば」という意味なので、if … not のすべてを言いかえられるわけではない。I'll be sad if you don't come. のように、「〜しないこと」そのものが原因になる文では unless を使わない。"
@@ -271,13 +276,13 @@ chapters:
       choices: [rains, doesn't rain, will rain, won't rain]
       steps:
       - 空所は unless の節の V。unless の節は条件を表す副詞節で、主節の M になっている。
-      - unless は「〜しない限り」と、すでに否定の意味をふくむ。not を重ねた doesn't rain・won't rain では「雨が降らない限りテニスをしない」の逆の意味になってしまう。
+      - unless は「〜しない限り」と、すでに否定の意味をふくむ。doesn't rain を入れると「雨が降らないのでない限りテニスをする」、つまり「雨が降るときだけテニスをする」となり、言いたいことと逆になる。won't rain も同じ。
       - tomorrow で未来の話だが、条件の副詞節の中は現在形で表す（@s023）。主語は it なので rains を選ぶ。
       ans: "1"
-      point: unless の節には not を重ねない。そのうえで、条件の副詞節なので will も使わない。2つの規則を順に当てはめる。
+      point: unless の節にはふつう not を重ねない（重ねると意味が逆になる）。そのうえで、条件の副詞節なので will も使わない。この2つを順に確かめる。
     summary:
     - until は「〜するまで{{ずっと}}」、by the time は「〜するまでには」と{{期限}}を表す。
-    - unless は「〜しない限り」で、節の中に {{not}} を重ねない。
+    - unless は「〜しない限り」で、節の中にふつう {{not}} を重ねない（重ねると意味が逆になる）。
     - 時・条件の副詞節の中では、未来のことも{{現在形}}で表す。
     - because は相手の知らない理由、{{since}}・as は相手も知っている理由を示す。
   - id: s094
@@ -301,10 +306,10 @@ chapters:
         text: "in case はアメリカ英語で if（もし〜なら）と同じ意味に使うこともあるが、入試ではまず「〜する場合に備えて」の意味で問われる。"
     - ex: [e0924, e0925]
     - h: 結果の so ～ that と such ～ that
-    - p: so＋形容詞（副詞）＋that ～ は「とても…なので〜」と、程度とその結果を表します（@e0926）。such を使うときは、such のすぐ後ろに名詞のかたまりを置き、such＋a＋形容詞＋名詞＋that の語順になります（@e0927）。so の後ろは形容詞・副詞だけ、such の後ろは名詞をふくむかたまり、と覚えます。so a nice day とは言いません。
+    - p: so＋形容詞（副詞）＋that ～ は「とても…なので〜」と、程度とその結果を表します（@e0926）。such を使うときは、such のすぐ後ろに名詞のかたまりを置き、such＋a＋形容詞＋名詞＋that の語順になります（@e0927）。名詞が複数や数えられない名詞なら a を付けず、such kind people、such good weather とします。so の後ろは形容詞・副詞だけ、such の後ろは名詞をふくむかたまり、と覚えます。so a nice day とは言いません。
       notes:
       - kind: 注意
-        text: "目的の so that と、結果の so ～ that は、so と that の間に形容詞・副詞があるかで見分ける。名詞が数えられない名詞や複数なら、such kind people のように a を付けない。"
+        text: "目的の so that と、結果の so ～ that は、so と that の間に形容詞・副詞があるかで見分ける。"
     - ex: [e0926, e0927]
     - h: 接続詞か前置詞か
     - p: 「〜だけれども」「〜の間」「〜なので」は、接続詞でも前置詞でも表せます。違うのは後ろの形です。接続詞の後ろには S＋V のある文が、前置詞の後ろには名詞（句）が来ます。@e0928 の despite と @e0929 の during は前置詞なので、後ろは the heavy rain、our stay in Kyoto という名詞のかたまりです。
@@ -373,7 +378,7 @@ chapters:
     summary:
     - though・although は「〜だけれども」、even if は「{{たとえ}}〜しても」を表す。
     - so that S can ～ は{{目的}}（〜できるように）、in case は「〜する場合に{{備えて}}」。
-    - so＋{{形容詞}}＋that、such＋a＋形容詞＋{{名詞}}＋that の語順。
+    - so＋{{形容詞}}＋that、such＋a＋形容詞＋{{名詞}}＋that の語順。複数・数えられない名詞なら a を付けない（such kind people）。
     - 後ろが S＋V なら{{接続詞}}、名詞（句）なら{{前置詞}}。though と {{despite}}、while と {{during}}。
 problems:
 # ---- 前提チェック ----
@@ -387,6 +392,7 @@ problems:
   q: I didn't go to school yesterday (＿) I had a fever.
   choices: [because, but, or, so]
   ans: "1"
+  ref: s093
   why: 後ろの I had a fever（熱があった）は、学校に行かなかった理由。理由を表す because を選ぶ。
   trap: ④so を選ぶ誤り。so は「だから」と結果を表すので、「学校に行かなかった。だから熱があった」と、原因と結果が逆になる。
 - id: q09002
@@ -398,6 +404,7 @@ problems:
   inst: （　）に適切な1語を入れなさい。
   q: I think (＿) Ms. Scott is a good teacher.
   ans: that
+  ref: s092
   why: think の O になる「〜ということ」の節は that で始める。この that は省略することもできる。
   trap: what を入れる誤り。後ろの Ms. Scott is a good teacher は完全な文なので、「〜ということ」の that が入る。
 - id: q09003
@@ -410,6 +417,7 @@ problems:
   q: (＿) I got home, my mother was cooking dinner.
   choices: [Because, If, When, And]
   ans: "3"
+  ref: s093
   why: 「私が家に着いたとき、母は夕食を作っていた」と、時を表す When を選ぶ。
   trap: ①Because を選ぶ誤り。「家に着いたので、母が料理をしていた」となり、理由として意味がつながらない。
 # ---- s091 節末 ----
@@ -597,7 +605,8 @@ problems:
   inst: （　）内の動詞を適切な形に変えなさい（2語以上になる場合もある）。
   q: I'll tell my brother the news when he (＿) home tonight.（come）
   ans: comes
-  why: when he ＿ home tonight は「今夜帰ってきたら」という時の副詞節。未来のことでも現在形で表し、主語 he に合わせて comes。
+  ref: [s093, s023]
+  why: when he (＿) home tonight は「今夜帰ってきたら」という時の副詞節。未来のことでも現在形で表し、主語 he に合わせて comes。
   trap: tonight があるので will come とする誤り。時の副詞節の中は現在形で、未来であることは主節の I'll が表す。
 - id: q09020
   sec: s093
@@ -644,6 +653,7 @@ problems:
   inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
   q: __As soon as__① I __will get__② the results, I __will__③ send them __to__④ you.
   ans: "2"
+  ref: [s093, s023]
   why: as soon as の節は時の副詞節なので、未来のことでも現在形で表す。will get を get にする。③の will は主節なので正しい。
   trap: ③will を誤りと考える誤り。現在形にするのは副詞節の中だけで、主節は未来のことを will で表す。
 - id: q09024
@@ -702,10 +712,10 @@ problems:
   min: 3
   inst: 次の英文を日本語に訳しなさい。
   q: Mr. Fujii got up early so that he could catch the first train.
-  ans: 藤井さんは始発電車に乗れるように早起きした。
-  alt: [藤井さんは始発の電車に間に合うように、早く起きた。]
+  ans: 藤井先生は始発電車に乗れるように早起きした。
+  alt: [藤井先生は始発の電車に間に合うように、早く起きた。]
   why: so that S could ～ は「S が〜できるように」と目的を表す。the first train（始発電車）が訳せていること。
-  trap: 「早起きしたので始発に乗れた」と結果で訳す誤り。so と that の間に形容詞・副詞がない so that は、目的を表す。
+  trap: 「早起きしたので始発に乗れた」と結果で訳す誤り。コンマのない so that S can／could ～ は目的を表す（, so that … とコンマがあると「その結果」を表すことがある）。
 - id: q09029
   sec: s094
   set: 節末
@@ -808,9 +818,9 @@ problems:
   kind: 正誤
   min: 1
   inst: 下線部①〜④のうち、誤りをふくむものを1つ選びなさい。
-  q: These books __are__① popular with students, __so__② please __return__③ them __until__④ next Friday.
-  ans: "4"
-  why: return（返す）は1回で終わる動作で、「来週の金曜日までに」という期限を表すので、until ではなく by にする。
+  q: These books __are__① popular __with__② students, so please return them __until__③ next Friday __at__④ the latest.
+  ans: "3"
+  why: return（返す）は1回で終わる動作で、「遅くとも来週の金曜日までに」という期限を表すので、until ではなく by にする。④at the latest（遅くとも）は正しい。
   trap: 「〜まで」の訳だけで until を正しいと考える誤り。until は「ずっと続く」、by は「までには（期限）」。
 - id: q09038
   sec: s094
